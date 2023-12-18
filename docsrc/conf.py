@@ -1,5 +1,5 @@
 from ablog.conf import *
-import . as module
+#  import . as module
 version = module.__version__
 
 

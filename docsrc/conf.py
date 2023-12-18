@@ -1,6 +1,7 @@
 from ablog.conf import *
 #  import . as module
-version = module.__version__
+#  version = module.__version__
+version = ""
 
 
 org = ""

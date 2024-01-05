@@ -1,0 +1,56 @@
+Eleventh International Olympiad, 1969
+1969/1.
+Prove that there are infinitely many natural numbers a with the following
+property: the number z = n4 + a is not prime for any natura1 number n.
+
+1969/2.
+Let a1 , a2 , · · · , an be real constants, x a real variable, and
+f (x) = cos(a1 + x) +
++··· +
+
+1
+2n−1
+
+1
+1
+cos(a2 + x) + cos(a3 + x)
+2
+4
+
+cos(an + x).
+
+Given that f (x1 ) = f (x2 ) = 0, prove that x2 − x1 = mπ for some integer m.
+
+1969/3.
+For each value of k = 1, 2, 3, 4, 5, find necessary and sufficient conditions on
+the number a > 0 so that there exists a tetrahedron with k edges of length
+a, and the remaining 6 − k edges of length 1.
+
+1969/4.
+A semicircular arc γ is drawn on AB as diameter. C is a point on γ other
+than A and B, and D is the foot of the perpendicular from C to AB. We
+consider three circles, γ1 , γ2 , γ3 , all tangent to the line AB. Of these, γ1 is
+inscribed in ∆ABC, while γ2 and γ3 are both tangent to CD and to γ, one on
+each side of CD. Prove that γ1 , γ2 and γ3 have a second tangent in common.
+
+1969/5.
+Given n > 4 points³ in ´the plane such that no three are collinear. Prove that
+there are at least n−3
+convex quadrilaterals whose vertices are four of the
+2
+given points.
+
+1969/6.
+Prove that for all real numbers x1 , x2 , y1 , y2 , z1 , z2 , with x1 > 0, x2 > 0, x1 y1 −
+z12 > 0, x2 y2 − z22 > 0, the inequality
+8
+1
+1
++
+2 ≤
+2
+x1 y1 − z1 x2 y2 − z22
+(x1 + x2 ) (y1 + y2 ) − (z1 + z2 )
+is satisfied. Give necessary and sufficient conditions for equality.
+
+

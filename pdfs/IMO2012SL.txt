@@ -1,0 +1,3098 @@
+Shortlisted Problems with Solutions
+
+53rd International Mathematical Olympiad
+Mar del Plata, Argentina 2012
+
+Note of Confidentiality
+
+The shortlisted problems should be kept
+strictly confidential until IMO 2013
+
+Contributing Countries
+The Organizing Committee and the Problem Selection Committee of IMO 2012 thank the
+following 40 countries for contributing 136 problem proposals:
+
+Australia, Austria, Belarus, Belgium, Bulgaria, Canada, Cyprus,
+Czech Republic, Denmark, Estonia, Finland, France, Germany,
+Greece, Hong Kong, India, Iran, Ireland, Israel, Japan,
+Kazakhstan, Luxembourg, Malaysia, Montenegro, Netherlands,
+Norway, Pakistan, Romania, Russia, Serbia, Slovakia, Slovenia,
+South Africa, South Korea, Sweden, Thailand, Ukraine,
+United Kingdom, United States of America, Uzbekistan
+
+Problem Selection Committee
+Martı́n Avendaño
+Carlos di Fiore
+Géza Kós
+Svetoslav Savchev
+
+4
+
+Algebra
+A1. Find all the functions f : Z → Z such that
+f (a)2 + f (b)2 + f (c)2 = 2f (a)f (b) + 2f (b)f (c) + 2f (c)f (a)
+for all integers a, b, c satisfying a + b + c = 0.
+
+A2. Let Z and Q be the sets of integers and rationals respectively.
+a) Does there exist a partition of Z into three non-empty subsets A, B, C such that the sets
+A + B, B + C, C + A are disjoint?
+b) Does there exist a partition of Q into three non-empty subsets A, B, C such that the sets
+A + B, B + C, C + A are disjoint?
+Here X + Y denotes the set {x + y | x ∈ X, y ∈ Y }, for X, Y ⊆ Z and X, Y ⊆ Q.
+
+A3. Let a2 , . . . , an be n − 1 positive real numbers, where n ≥ 3, such that a2 a3 · · · an = 1.
+Prove that
+(1 + a2 )2 (1 + a3 )3 · · · (1 + an )n > nn .
+
+A4.
+
+Let f and g be two nonzero polynomials with integer coefficients and deg f > deg g.
+Suppose that for infinitely many primes p the polynomial pf + g has a rational root. Prove
+that f has a rational root.
+
+A5. Find all functions f : R → R that satisfy the conditions
+f (1 + xy) − f (x + y) = f (x)f (y) for all x, y ∈ R
+and f (−1) 6= 0.
+Let f : N → N be a function, and let f m be f applied m times. Suppose that for
+every n ∈ N there exists a k ∈ N such that f 2k (n) = n + k, and let kn be the smallest such k.
+Prove that the sequence k1 , k2 , . . . is unbounded.
+
+A6.
+
+A7. We say that a function f : Rk → R is a metapolynomial if, for some positive integers m
+and n, it can be represented in the form
+f (x1 , . . . , xk ) = max
+
+min Pi,j (x1 , . . . , xk )
+
+i=1,...,m j=1,...,n
+
+where Pi,j are multivariate polynomials. Prove that the product of two metapolynomials is also
+a metapolynomial.
+
+5
+
+Combinatorics
+C1.
+
+Several positive integers are written in a row. Iteratively, Alice chooses two adjacent
+numbers x and y such that x > y and x is to the left of y, and replaces the pair (x, y) by either
+(y + 1, x) or (x − 1, x). Prove that she can perform only finitely many such iterations.
+
+C2. Let n ≥ 1 be an integer. What is the maximum number of disjoint pairs of elements of the
+set {1, 2, . . . , n} such that the sums of the different pairs are different integers not exceeding n?
+
+C3. In a 999 × 999 square table some cells are white and the remaining ones are red. Let T
+be the number of triples (C1 , C2 , C3) of cells, the first two in the same row and the last two in
+the same column, with C1 and C3 white and C2 red. Find the maximum value T can attain.
+
+C4. Players A and B play a game with N ≥ 2012 coins and 2012 boxes arranged around a
+circle. Initially A distributes the coins among the boxes so that there is at least 1 coin in each
+box. Then the two of them make moves in the order B, A, B, A, . . . by the following rules:
+• On every move of his B passes 1 coin from every box to an adjacent box.
+• On every move of hers A chooses several coins that were not involved in B’s previous
+move and are in different boxes. She passes every chosen coin to an adjacent box.
+Player A’s goal is to ensure at least 1 coin in each box after every move of hers, regardless of
+how B plays and how many moves are made. Find the least N that enables her to succeed.
+
+C5. The columns and the rows of a 3n × 3n square board are numbered 1, 2, . . . , 3n. Every
+square (x, y) with 1 ≤ x, y ≤ 3n is colored asparagus, byzantium or citrine according as the
+modulo 3 remainder of x + y is 0, 1 or 2 respectively. One token colored asparagus, byzantium
+or citrine is placed on each square, so that there are 3n2 tokens of each color.
+Suppose that one can permute the tokens so that each token is moved to a distance of
+at most d from its original position, each asparagus token replaces a byzantium token, each
+byzantium token replaces a citrine token, and each citrine token replaces an asparagus token.
+Prove that it is possible to permute the tokens so that each token is moved to a distance of at
+most d + 2 from its original position, and each square contains a token with the same color as
+the square.
+
+C6. Let k and n be fixed positive integers. In the liar’s guessing game, Amy chooses integers
+x and N with 1 ≤ x ≤ N. She tells Ben what N is, but not what x is. Ben may then repeatedly
+ask Amy whether x ∈ S for arbitrary sets S of integers. Amy will always answer with yes or no,
+but she might lie. The only restriction is that she can lie at most k times in a row. After he
+has asked as many questions as he wants, Ben must specify a set of at most n positive integers.
+If x is in this set he wins; otherwise, he loses. Prove that:
+a) If n ≥ 2k then Ben can always win.
+b) For sufficiently large k there exist n ≥ 1.99k such that Ben cannot guarantee a win.
+
+C7. There are given 2500 points on a circle labeled 1, 2, . . . , 2500 in some order. Prove that
+one can choose 100 pairwise disjoint chords joining some of these points so that the 100 sums
+of the pairs of numbers at the endpoints of the chosen chords are equal.
+
+6
+
+Geometry
+G1. In the triangle ABC the point J is the center of the excircle opposite to A. This excircle
+is tangent to the side BC at M, and to the lines AB and AC at K and L respectively. The
+lines LM and BJ meet at F , and the lines KM and CJ meet at G. Let S be the point of
+intersection of the lines AF and BC, and let T be the point of intersection of the lines AG
+and BC. Prove that M is the midpoint of ST .
+
+G2.
+
+Let ABCD be a cyclic quadrilateral whose diagonals AC and BD meet at E. The
+extensions of the sides AD and BC beyond A and B meet at F . Let G be the point such that
+ECGD is a parallelogram, and let H be the image of E under reflection in AD. Prove that
+D, H, F , G are concyclic.
+
+G3. In an acute triangle ABC the points D, E and F are the feet of the altitudes through A,
+B and C respectively. The incenters of the triangles AEF and BDF are I1 and I2 respectively;
+the circumcenters of the triangles ACI1 and BCI2 are O1 and O2 respectively. Prove that I1 I2
+and O1 O2 are parallel.
+
+G4.
+
+Let ABC be a triangle with AB 6= AC and circumcenter O. The bisector of ∠BAC
+intersects BC at D. Let E be the reflection of D with respect to the midpoint of BC. The lines
+through D and E perpendicular to BC intersect the lines AO and AD at X and Y respectively.
+Prove that the quadrilateral BXCY is cyclic.
+
+Let ABC be a triangle with ∠BCA = 90◦ , and let C0 be the foot of the altitude
+from C. Choose a point X in the interior of the segment CC0 , and let K, L be the points on
+the segments AX, BX for which BK = BC and AL = AC respectively. Denote by M the
+intersection of AL and BK. Show that MK = ML.
+
+G5.
+
+G6. Let ABC be a triangle with circumcenter O and incenter I. The points D, E and F on
+the sides BC, CA and AB respectively are such that BD + BF = CA and CD + CE = AB.
+The circumcircles of the triangles BF D and CDE intersect at P 6= D. Prove that OP = OI.
+
+G7.
+
+Let ABCD be a convex quadrilateral with non-parallel sides BC and AD. Assume
+that there is a point E on the side BC such that the quadrilaterals ABED and AECD are
+circumscribed. Prove that there is a point F on the side AD such that the quadrilaterals
+ABCF and BCDF are circumscribed if and only if AB is parallel to CD.
+
+G8. Let ABC be a triangle with circumcircle ω and ℓ a line without common points with ω.
+Denote by P the foot of the perpendicular from the center of ω to ℓ. The side-lines BC, CA, AB
+intersect ℓ at the points X, Y, Z different from P . Prove that the circumcircles of the triangles
+AXP, BY P and CZP have a common point different from P or are mutually tangent at P .
+
+7
+
+Number Theory
+N1. Call admissible a set A of integers that has the following property:
+If x, y ∈ A (possibly x = y) then x2 + kxy + y 2 ∈ A for every integer k.
+Determine all pairs m, n of nonzero integers such that the only admissible set containing both m
+and n is the set of all integers.
+
+N2. Find all triples (x, y, z) of positive integers such that x ≤ y ≤ z and
+x3 (y 3 + z 3 ) = 2012(xyz + 2).
+
+N3. Determine all integers m ≥ 2 such that every n with m3 ≤ n ≤ m2 divides the binomial
+coefficient
+
+n
+.
+m−2n
+
+An integer a is called friendly if the equation (m2 + n)(n2 + m) = a(m − n)3 has a
+solution over the positive integers.
+
+N4.
+
+a) Prove that there are at least 500 friendly integers in the set {1, 2, . . . , 2012}.
+b) Decide whether a = 2 is friendly.
+
+N5. For a nonnegative integer n define rad(n) = 1 if n = 0 or n = 1, and rad(n) = p1 p2 · · · pk
+where p1 < p2 < · · · < pk are all prime factors of n. Find all polynomials f (x) with nonnegative
+integer coefficients such that rad(f (n)) divides rad(f (nrad(n) )) for every nonnegative integer n.
+n
+
+Let x and y be positive integers. If x2 − 1 is divisible by 2n y + 1 for every positive
+integer n, prove that x = 1.
+
+N6.
+
+N7. Find all n ∈ N for which there exist nonnegative integers a1 , a2 , . . . , an such that
+1
+1
+1
+2
+n
+1
++
++
+·
+·
+·
++
++
++
+·
+·
+·
++
+=
+= 1.
+a
+a
+a
+a
+a
+21 22
+2n
+31 32
+3an
+
+N8. Prove that for every prime p > 100 and every integer r there exist two integers a and b
+such that p divides a2 + b5 − r.
+
+8
+
+Algebra
+A1. Find all the functions f : Z → Z such that
+f (a)2 + f (b)2 + f (c)2 = 2f (a)f (b) + 2f (b)f (c) + 2f (c)f (a)
+for all integers a, b, c satisfying a + b + c = 0.
+Solution. The substitution a = b = c = 0 gives 3f (0)2 = 6f (0)2, hence
+f (0) = 0.
+
+(1)
+
+The substitution b = −a and c = 0 gives ((f (a) − f (−a))2 = 0. Hence f is an even function:
+f (a) = f (−a) for all a ∈ Z.
+
+(2)
+
+Now set b = a and c = −2a to obtain 2f (a)2 + f (2a)2 = 2f (a)2 + 4f (a)f (2a). Hence
+f (2a) = 0 or f (2a) = 4f (a) for all a ∈ Z.
+
+(3)
+
+If f (r) = 0 for some r ≥ 1 then the substitution b = r and c = −a−r gives (f (a+r)−f (a))2 = 0.
+So f is periodic with period r, i. e.
+f (a + r) = f (a) for all a ∈ Z.
+In particular, if f (1) = 0 then f is constant, thus f (a) = 0 for all a ∈ Z. This function clearly
+satisfies the functional equation. For the rest of the analysis, we assume f (1) = k 6= 0.
+By (3) we have f (2) = 0 or f (2) = 4k. If f (2) = 0 then f is periodic of period 2, thus
+f (even) = 0 and f (odd) = k. This function is a solution for every k. We postpone the
+verification; for the sequel assume f (2) = 4k 6= 0.
+By (3) again, we have f (4) = 0 or f (4) = 16k. In the first case f is periodic of period 4, and
+f (3) = f (−1) = f (1) = k, so we have f (4n) = 0, f (4n+1) = f (4n+3) = k, and f (4n+2) = 4k
+for all n ∈ Z. This function is a solution too, which we justify later. For the rest of the analysis,
+we assume f (4) = 16k 6= 0.
+We show now that f (3) = 9k. In order to do so, we need two substitutions:
+a = 1, b = 2, c = −3 =⇒ f (3)2 − 10kf (3) + 9k 2 = 0 =⇒ f (3) ∈ {k, 9k},
+a = 1, b = 3, c = −4 =⇒ f (3)2 − 34kf (3) + 225k 2 = 0 =⇒ f (3) ∈ {9k, 25k}.
+Therefore f (3) = 9k, as claimed. Now we prove inductively that the only remaining function is
+f (x) = kx2 , x ∈ Z. We proved this for x = 0, 1, 2, 3, 4. Assume that n ≥ 4 and that f (x) = kx2
+holds for all integers x ∈ [0, n]. Then the substitutions a = n, b = 1, c = −n − 1 and a = n − 1,
+b = 2, c = −n − 1 lead respectively to
+f (n + 1) ∈ {k(n + 1)2 , k(n − 1)2 }
+
+and
+
+f (n + 1) ∈ {k(n + 1)2 , k(n − 3)2 }.
+
+Since k(n − 1)2 6= k(n − 3)2 for n 6= 2, the only possibility is f (n + 1) = k(n + 1)2 . This
+completes the induction, so f (x) = kx2 for all x ≥ 0. The same expression is valid for negative
+values of x since f is even. To verify that f (x) = kx2 is actually a solution, we need to check
+the identity a4 + b4 + (a + b)4 = 2a2 b2 + 2a2 (a + b)2 + 2b2 (a + b)2 , which follows directly by
+expanding both sides.
+
+9
+Therefore the only possible solutions of the functional equation are the constant function
+f1 (x) = 0 and the following functions:
+
+
+ 0 x ≡ 0 (mod 4)
+0 x even
+2
+k x ≡ 1 (mod 2)
+f4 (x) =
+f2 (x) = kx
+f3 (x) =
+k x odd
+
+4k x ≡ 2 (mod 4)
+
+for any non-zero integer k. The verification that they are indeed solutions was done for the
+first two. For f3 note that if a + b + c = 0 then either a, b, c are all even, in which case
+f (a) = f (b) = f (c) = 0, or one of them is even and the other two are odd, so both sides of
+the equation equal 2k 2 . For f4 we use similar parity considerations and the symmetry of the
+equation, which reduces the verification to the triples (0, k, k), (4k, k, k), (0, 0, 0), (0, 4k, 4k).
+They all satisfy the equation.
+Comment. We used several times the same fact: For any a, b ∈ Z the functional equation is a
+quadratic equation in f (a + b) whose coefficients depend on f (a) and f (b):
+f (a + b)2 − 2(f (a) + f (b))f (a + b) + (f (a) − f (b))2 = 0.
+Its discriminant is 16f (a)f (b). Since this value has to be non-negative for any a, b ∈ Z, we conclude
+that either f or −f is always non-negative. Also, if f is a solution of the functional equation, then
+−f is also a solution. Therefore we can assume f (x) ≥ 0 for all x ∈ Z. Now, the two solutions of the
+quadratic equation are
+
+2 p
+2 
+p
+p
+p
+f (a) + f (b) ,
+f (a) − f (b)
+for all a, b ∈ Z.
+f (a + b) ∈
+
+The computation of f (3) from f (1), f (2) and f (4) that we did above follows immediately by setting
+(a, b) = (1, 2) and (a, b) = (1, −4). The inductive step, where f (n + 1) is derived from f (n), f (n − 1),
+f (2) and f (1), follows immediately using (a, b) = (n, 1) and (a, b) = (n − 1, 2).
+
+10
+
+A2. Let Z and Q be the sets of integers and rationals respectively.
+a) Does there exist a partition of Z into three non-empty subsets A, B, C such that the sets
+A + B, B + C, C + A are disjoint?
+b) Does there exist a partition of Q into three non-empty subsets A, B, C such that the sets
+A + B, B + C, C + A are disjoint?
+Here X + Y denotes the set {x + y | x ∈ X, y ∈ Y }, for X, Y ⊆ Z and X, Y ⊆ Q.
+Solution 1. a) The residue classes modulo 3 yield such a partition:
+A = {3k | k ∈ Z},
+
+B = {3k + 1 | k ∈ Z},
+
+C = {3k + 2 | k ∈ Z}.
+
+b) The answer is no. Suppose that Q can be partitioned into non-empty subsets A, B, C as
+stated. Note that for all a ∈ A, b ∈ B, c ∈ C one has
+a + b − c ∈ C,
+
+b + c − a ∈ A,
+
+c + a − b ∈ B.
+
+(1)
+
+Indeed a+b−c ∈
+/ A as (A+B)∩(A+C) = ∅, and similarly a+b−c ∈
+/ B, hence a+b−c ∈ C. The
+other two relations follow by symmetry. Hence A+ B ⊂ C + C, B + C ⊂ A+ A, C + A ⊂ B + B.
+The opposite inclusions also hold. Let a, a′ ∈ A and b ∈ B, c ∈ C be arbitrary. By (1)
+a′ + c − b ∈ B, and since a ∈ A, c ∈ C, we use (1) again to obtain
+a + a′ − b = a + (a′ + c − b) − c ∈ C.
+So A + A ⊂ B + C and likewise B + B ⊂ C + A, C + C ⊂ A + B. In summary
+B + C = A + A,
+
+C + A = B + B,
+
+A + B = C + C.
+
+Furthermore suppose that 0 ∈ A without loss of generality. Then B = {0} + B ⊂ A + B
+and C = {0} + C ⊂ A + C. So, since B + C is disjoint with A + B and A + C, it is also disjoint
+with B and C. Hence B + C is contained in Z \ (B ∪ C) = A. Because B + C = A + A, we
+obtain A + A ⊂ A. On the other hand A = {0} + A ⊂ A + A, implying A = A + A = B + C.
+Therefore A + B + C = A + A + A = A, and now B + B = C + A and C + C = A + B yield
+B + B + B = A + B + C = A, C + C + C = A + B + C = A. In particular if r ∈ Q = A ∪ B ∪ C
+is arbitrary then 3r ∈ A.
+However such a conclusion is impossible. Take any b ∈ B (B 6= ∅) and let r = b/3 ∈ Q.
+Then b = 3r ∈ A which is a contradiction.
+Solution 2. We prove that the example for Z from the first solution is unique, and then use
+this fact to solve part b).
+Let Z = A ∪ B ∪ C be a partition of Z with A, B, C 6= ∅ and A + B, B + C, C + A disjoint.
+We need the relations (1) which clearly hold for Z. Fix two consecutive integers from different
+sets, say b ∈ B and c = b + 1 ∈ C. For every a ∈ A we have, in view of (1), a − 1 = a + b − c ∈ C
+and a + 1 = a + c − b ∈ B. So every a ∈ A is preceded by a number from C and followed by a
+number from B.
+In particular there are pairs of the form c, c + 1 with c ∈ C, c + 1 ∈ A. For such a pair and
+any b ∈ B analogous reasoning shows that each b ∈ B is preceded by a number from A and
+followed by a number from C. There are also pairs b, b − 1 with b ∈ B, b − 1 ∈ A. We use them
+in a similar way to prove that each c ∈ C is preceded by a number from B and followed by a
+number from A.
+By putting the observations together we infer that A, B, C are the three congruence classes
+modulo 3. Observe that all multiples of 3 are in the set of the partition that contains 0.
+
+11
+Now we turn to part b). Suppose that there is a partition of Q with the given properties.
+Choose three rationals ri = pi /qi from the three sets A, B, C, i = 1, 2, 3, and set N = 3q1 q2 q3 .
+Let S ⊂ Q be the set of fractions with denominators N (irreducible or not). It is obtained
+through multiplication of every integer by the constant 1/N, hence closed under sums and
+differences. Moreover, if we identify each k ∈ Z with k/N ∈ S then S is essentially the set Z
+with respect to addition. The numbers ri belong to S because
+r1 =
+
+3p1 q2 q3
+,
+N
+
+r2 =
+
+3p2 q3 q1
+,
+N
+
+r3 =
+
+3p3 q1 q2
+.
+N
+
+The partition Q = A ∪ B ∪ C of Q induces a partition S = A′ ∪ B ′ ∪ C ′ of S, with A′ = A ∩ S,
+B ′ = B ∩ S, C ′ = C ∩ S. Clearly A′ + B ′ , B ′ + C ′ , C ′ + A′ are disjoint, so this partition has
+the properties we consider.
+By the uniqueness of the example for Z the sets A′ , B ′ , C ′ are the congruence classes modulo 3, multiplied by 1/N. Also all multiples of 3/N are in the same set, A′ , B ′ or C ′ . This holds
+for r1 , r2 , r3 in particular as they are all multiples of 3/N. However r1 , r2 , r3 are in different sets
+A′ , B ′ , C ′ since they were chosen from different sets A, B, C. The contradiction ends the proof.
+Comment. The uniqueness of the example for Z can also be deduced from the argument in the first
+solution.
+
+12
+
+A3. Let a2 , . . . , an be n − 1 positive real numbers, where n ≥ 3, such that a2 a3 · · · an = 1.
+Prove that
+(1 + a2 )2 (1 + a3 )3 · · · (1 + an )n > nn .
+Solution. The substitution a2 =
+into the inequality
+
+x3
+x1
+x2
+, a3 = , . . . , an =
+transforms the original problem
+x1
+x2
+xn−1
+
+(x1 + x2 )2 (x2 + x3 )3 · · · (xn−1 + x1 )n > nn x21 x32 · · · xnn−1
+
+(∗)
+
+for all x1 , . . . , xn−1 > 0. To prove this, we use the AM-GM inequality for each factor of the
+left-hand side as follows:
+(x1 + x2 )2
+(x2 + x3 )3 =
+
+2
+
+x2
+2
+
+(x3 + x4 )4 =
+..
+.
+
+3
+
+x3
+3
+
+(xn−1 + x1 )n =
+
+(n − 1)
+
+
+
+
++ x3
++ x4
+
+..
+.
+
+xn−1
+n−1
+
+
+
+3
+4
+
++ x1
+
+n
+
+≥ 22 x1 x2
+2
+≥ 33 x22 x3
+3
+≥ 44 x33 x4
+..
+.
+
+n−1 n−1
+x1 .
+≥ nn xn−1
+
+Multiplying these inequalities together gives (*), with inequality sign ≥ instead of >. However
+for the equality to occur it is necessary that x1 = x2 , x2 = 2x3 , . . . , xn−1 = (n − 1)x1 , implying
+x1 = (n − 1)!x1 . This is impossible since x1 > 0 and n ≥ 3. Therefore the inequality is strict.
+Comment. One can avoid the substitution ai = xi /xi−1 . Apply the weighted AM-GM inequality to
+each factor (1 + ak )k , with the same weights like above, to obtain
+k
+
+(1 + ak ) =
+
+
+
+1
+(k − 1)
++ ak
+k−1
+
+k
+
+≥
+
+kk
+ak .
+(k − 1)k−1
+
+Multiplying all these inequalities together gives
+(1 + a2 )2 (1 + a3 )3 · · · (1 + an )n ≥ nn a2 a3 · · · an = nn .
+The same argument as in the proof above shows that the equality cannot be attained.
+
+13
+
+A4.
+
+Let f and g be two nonzero polynomials with integer coefficients and deg f > deg g.
+Suppose that for infinitely many primes p the polynomial pf + g has a rational root. Prove
+that f has a rational root.
+Solution 1. Since deg f > deg g, we have |g(x)/f (x)| < 1 for sufficiently large x; more
+precisely, there is a real number R such that |g(x)/f (x)| < 1 for all x with |x| > R. Then for
+all such x and all primes p we have
+
+
+|g(x)|
+> 0.
+pf (x) + g(x) ≥ f (x) p −
+|f (x)|
+Hence all real roots of the polynomials pf + g lie in the interval [−R, R].
+Let f (x) = an xn + an−1 xn−1 + · · · + a0 and g(x) = bm xm + bm−1 xm−1 + · · · + b0 where
+n > m, an 6= 0 and bm 6= 0. Upon replacing f (x) and g(x) by ann−1 f (x/an ) and ann−1 g(x/an )
+respectively, we reduce the problem to the case an = 1. In other words one can assume that f
+is monic. Then the leading coefficient of pf + g is p, and if r = u/v is a rational root of pf + g
+with (u, v) = 1 and v > 0, then either v = 1 or v = p.
+First consider the case when v = 1 infinitely many times. If v = 1 then |u| ≤ R, so there
+are only finitely many possibilities for the integer u. Therefore there exist distinct primes p
+and q for which we have the same value of u. Then the polynomials pf + g and qf + g share
+this root, implying f (u) = g(u) = 0. So in this case f and g have an integer root in common.
+Now suppose that v = p infinitely many times. By comparing the exponent of p in the
+denominators of pf (u/p) and g(u/p) we get m = n − 1 and pf (u/p) + g(u/p) = 0 reduces to
+an equation of the form
+
+ 
+
+n
+n−1
+n
+n−1
+n−2
+n−1
+u + an−1 pu
++ . . . + a0 p + bn−1 u
++ bn−2 pu
++ . . . + b0 p
+= 0.
+The equation above implies that un + bn−1 un−1 is divisible by p and hence, since (u, p) = 1,
+we have u + bn−1 = pk with some integer k. On the other hand all roots of pf + g lie in the
+interval [−R, R], so that
+|pk − bn−1 |
+|u|
+=
+< R,
+p
+p
+|bn−1 |
+< R + |bn−1 |.
+|k| < R +
+p
+Therefore the integer k can attain only finitely many values. Hence there exists an integer k
+such that the number pk−bpn−1 = k − bn−1
+is a root of pf + g for infinitely many primes p. For
+p
+these primes we have
+
+
+
+
+1
+1
+1
+f k − bn−1
++ g k − bn−1
+= 0.
+p
+p
+p
+So the equation
+f (k − bn−1 x) + xg (k − bn−1 x) = 0
+
+(1)
+
+has infinitely many solutions of the form x = 1/p. Since the left-hand side is a polynomial, this
+implies that (1) is a polynomial identity, so it holds for all real x. In particular, by substituting
+x = 0 in (1) we get f (k) = 0. Thus the integer k is a root of f .
+In summary the monic polynomial f obtained after the initial reduction always has an
+integer root. Therefore the original polynomial f has a rational root.
+
+14
+Solution 2. Analogously to the first solution, there exists a real number R such that the
+complex roots of all polynomials of the form pf + g lie in the disk |z| ≤ R.
+For each prime p such that pf + g has a rational root, by Gauss’ lemma pf + g is the
+product of two integer polynomials, one with degree 1 and the other with degree deg f − 1.
+Since p is a prime, the leading coefficient of one of these factors divides the leading coefficient
+of f . Denote that factor by hp .
+By narrowing the set of the primes used we can assume that all polynomials hp have the
+same degree and the same leading coefficient. Their complex roots lie in the disk |z| ≤ R, hence
+Vieta’s formulae imply that all coefficients of all polynomials hp form a bounded set. Since
+these coefficients are integers, there are only finitely many possible polynomials hp . Hence there
+is a polynomial h such that hp = h for infinitely many primes p.
+Finally, if p and q are distinct primes with hp = hq = h then h divides (p − q)f . Since
+deg h = 1 or deg h = deg f − 1, in both cases f has a rational root.
+Comment. Clearly the polynomial h is a common factor of f and g. If deg h = 1 then f and g share a
+rational root. Otherwise deg h = deg f − 1 forces deg g = deg f − 1 and g divides f over the rationals.
+
+Solution 3. Like in the first solution, there is a real number R such that the real roots of all
+polynomials of the form pf + g lie in the interval [−R, R].
+Let p1 < p2 < · · · be an infinite sequence of primes so that for every index k the polynomial
+pk f + g has a rational root rk . The sequence r1 , r2 , . . . is bounded, so it has a convergent
+subsequence rk1 , rk2 , . . .. Now replace the sequences (p1 , p2 , . . . ) and (r1 , r2 , . . . ) by (pk1 , pk2 , . . .)
+and (rk1 , rk2 , . . .); after this we can assume that the sequence r1 , r2 , . . . is convergent. Let
+α = lim rk . We show that α is a rational root of f .
+k→∞
+
+Over the interval [−R, R], the polynomial g is bounded, |g(x)| ≤ M with some fixed M.
+Therefore
+pk f (rk ) + g(rk )
+|g(rk )|
+M
+|f (rk )| = f (rk ) −
+=
+≤
+→ 0,
+pk
+pk
+pk
+and
+f (α) = f
+So α is a root of f indeed.
+
+
+
+
+lim rk = lim f (rk ) = 0.
+
+k→∞
+
+k→∞
+
+Now let uk , vk be relative prime integers for which rk = uvkk . Let a be the leading coefficient
+of f , let b = f (0) and c = g(0) be the constant terms of f and g, respectively. The leading
+coefficient of the polynomial pk f + g is pk a, its constant term is pk b + c. So vk divides pk a and
+uk divides pk b + c. Let pk b + c = uk ek (if pk b + c = uk = 0 then let ek = 1).
+We prove that α is rational by using the following fact. Let (pn ) and (qn ) be sequences of
+integers such that the sequence (pn /qn ) converges. If (pn ) or (qn ) is bounded then lim(pn /qn ) is
+rational .
+Case 1: There is an infinite subsequence (kn ) of indices such that vkn divides a. Then (vkn )
+is bounded, so α = limn→∞ (ukn /vkn ) is rational.
+Case 2: There is an infinite subsequence (kn ) of indices such that vkn does not divide a.
+For such indices we have vkn = pkn dkn where dkn is a divisor of a. Then
+u kn
+b
+b
+c
+pk n b + c
+= lim
+= lim
++ lim
+.
+= lim
+n→∞ vkn
+n→∞ dkn ekn
+n→∞ dkn ekn
+n→∞ pkn dkn ekn
+n→∞ pkn dkn ekn
+
+α = lim
+
+Because the numerator b in the last limit is bounded, α is rational.
+
+15
+
+A5. Find all functions f : R → R that satisfy the conditions
+f (1 + xy) − f (x + y) = f (x)f (y) for all x, y ∈ R
+and f (−1) 6= 0.
+Solution. The only solution is the function f (x) = x − 1, x ∈ R.
+We set g(x) = f (x) + 1 and show that g(x) = x for all real x. The conditions take the form
+
+
+g(1 + xy) − g(x + y) = g(x) − 1 g(y) − 1 for all x, y ∈ R and g(−1) 6= 1.
+(1)
+
+Denote C = g(−1) − 1 6= 0. Setting y = −1 in (1) gives
+
+g(1 − x) − g(x − 1) = C(g(x) − 1).
+
+(2)
+
+Set x = 1 in (2) to obtain C(g(1) − 1) = 0. Hence g(1) = 1 as C 6= 0. Now plugging in x = 0
+and x = 2 yields g(0) = 0 and g(2) = 2 respectively.
+We pass on to the key observations
+g(x) + g(2 − x) = 2 for all x ∈ R,
+g(x + 2) − g(x) = 2 for all x ∈ R.
+
+(3)
+(4)
+
+Replace x by 1 − x in (2), then change x to −x in the resulting equation. We obtain the
+relations g(x) − g(−x) = C(g(1 − x) − 1), g(−x) − g(x) = C(g(1 + x) − 1). Then adding them
+up leads to C(g(1 − x) + g(1 + x) − 2) = 0. Thus C 6= 0 implies (3).
+Let u, v be such that u + v = 1. Apply (1) to the pairs (u, v) and (2 − u, 2 − v):
+
+
+
+
+g(1 + uv) − g(1) = g(u) − 1 g(v) − 1 , g(3 + uv) − g(3) = g(2 − u) − 1 g(2 − v) − 1 .
+Observe that the last two equations have equal right-hand sides by (3). Hence u + v = 1 implies
+g(uv + 3) − g(uv + 1) = g(3) − g(1).
+Each x ≤ 5/4 is expressible in the form x = uv + 1 with u + v = 1 (the quadratic function
+t2 −t+(x−1) has real roots for x ≤ 5/4). Hence g(x+2)−g(x) = g(3)−g(1) whenever x ≤ 5/4.
+Because g(x) = x holds for x = 0, 1, 2, setting x = 0 yields g(3) = 3. This proves (4) for x ≤ 5/4.
+If x > 5/4 then −x < 5/4 and so g(2 − x) − g(−x) = 2 by the above. On the other hand (3)
+gives g(x) = 2 − g(2 − x), g(x + 2) = 2 − g(−x), so that g(x + 2) − g(x) = g(2 − x) − g(−x) = 2.
+Thus (4) is true for all x ∈ R.
+Now replace x by −x in (3) to obtain g(−x) + g(2 + x) = 2. In view of (4) this leads to
+g(x) + g(−x) = 0, i. e. g(−x) = −g(x) for all x. Taking this into account, we apply (1) to the
+pairs (−x, y) and (x, −y):
+
+
+
+
+g(1 − xy) − g(−x + y) = g(x) + 1 1 − g(y) , g(1 − xy) − g(x − y) = 1 − g(x) g(y) + 1 .
+
+Adding up yields g(1 − xy) = 1 − g(x)g(y). Then g(1 + xy) = 1 + g(x)g(y) by (3). Now the
+original equation (1) takes the form g(x + y) = g(x) + g(y). Hence g is additive.
+By additvity g(1 + xy) = g(1) + g(xy) = 1 + g(xy); since g(1 + xy) = 1 + g(x)g(y) was
+shown above, we also have g(xy) = g(x)g(y) (g is multiplicative). In particular y = x gives
+g(x2 ) = g(x)2 ≥ 0 for all x, meaning that g(x) ≥ 0 for x ≥ 0. Since g is additive and bounded
+from below on [0, +∞), it is linear; more exactly g(x) = g(1)x = x for all x ∈ R.
+In summary f (x) = x − 1, x ∈ R. It is straightforward that this function satisfies the
+requirements.
+
+Comment. There are functions that satisfy the given equation but vanish at −1, for instance the
+constant function 0 and f (x) = x2 − 1, x ∈ R.
+
+16
+Let f : N → N be a function, and let f m be f applied m times. Suppose that for
+every n ∈ N there exists a k ∈ N such that f 2k (n) = n + k, and let kn be the smallest such k.
+Prove that the sequence k1 , k2 , . . . is unbounded.
+
+A6.
+
+Solution. We restrict attention to the set
+S = {1, f (1), f 2(1), . . .}.
+Observe that S is unbounded because for every number n in S there exists a k > 0 such
+that f 2k (n) = n + k is in S. Clearly f maps S into itself; moreover f is injective on S. Indeed
+if f i (1) = f j (1) with i 6= j then the values f m (1) start repeating periodically from some point
+on, and S would be finite.
+Define g : S → S by g(n) = f 2kn (n) = n + kn . We prove that g is injective too. Suppose
+that g(a) = g(b) with a < b. Then a + ka = f 2ka (a) = f 2kb (b) = b + kb implies ka > kb . So,
+since f is injective on S, we obtain
+f 2(ka −kb ) (a) = b = a + (ka − kb ).
+However this contradicts the minimality of ka as 0 < ka − kb < ka .
+Let T be the set of elements of S that are not of the form g(n) with n ∈ S. Note that 1 ∈ T
+by g(n) > n for n ∈ S, so T is non-empty. For each t ∈ T denote Ct = {t, g(t), g 2(t), . . .};
+call Ct the chain starting at t. Observe that distinct chains are disjoint because g is injective.
+Each n ∈ S\T has the form n = g(n′ ) with n′ < n, n′ ∈ S. Repeated applications of the same
+observation show that n ∈ Ct for some t ∈ T , i. e. S is the disjoint union of the chains Ct .
+If f n (1) is in the chain Ct starting at t = f nt (1) then n = nt + 2a1 + · · · + 2aj with
+f n (1) = g j (f nt (1)) = f 2aj (f 2aj−1 (· · · f 2a1 (f nt (1)))) = f nt (1) + a1 + · · · + aj .
+Hence
+
+n − nt
+n − nt
+=t+
+.
+(1)
+2
+2
+Now we show that T is infinite. We argue by contradiction. Suppose that there are only
+finitely many chains Ct1 , . . . , Ctr , starting at t1 < · · · < tr . Fix N. If f n (1) with 1 ≤ n ≤ N
+t
+is in Ct then f n (1) = t + n−n
+≤ tr + N2 by (1). But then the N + 1 distinct natural numbers
+2
+1, f (1), . . . , f N (1) are all less than tr + N2 and hence N + 1 ≤ tr + N2 . This is a contradiction if
+N is sufficiently large, and hence T is infinite.
+To complete the argument, choose any k in N and consider the k + 1 chains starting at the
+first k + 1 numbers in T . Let t be the greatest one among these numbers. Then each of the
+chains in question contains a number not exceeding t, and at least one of them does not contain
+any number among t + 1, . . . , t + k. So there is a number n in this chain such that g(n) − n > k,
+i. e. kn > k. In conclusion k1 , k2, . . . is unbounded.
+f n (1) = f nt (1) +
+
+17
+
+A7. We say that a function f : Rk → R is a metapolynomial if, for some positive integers m
+and n, it can be represented in the form
+f (x1 , . . . , xk ) = max
+
+min Pi,j (x1 , . . . , xk )
+
+i=1,...,m j=1,...,n
+
+where Pi,j are multivariate polynomials. Prove that the product of two metapolynomials is also
+a metapolynomial.
+Solution. We use the notation f (x) = f (x1 , . . . , xk ) for x = (x1 , . . . , xk ) and [m] = {1, 2, . . . , m}.
+Observe that if a metapolynomial f (x) admits a representation like the one in the statement
+for certain positive integers m and n, then they can be replaced by any m′ ≥ m and n′ ≥ n. For
+instance, if we want to replace m by m + 1 then it is enough to define Pm+1,j (x) = Pm,j (x) and
+note that repeating elements of a set do not change its maximum nor its minimum. So one can
+assume that any two metapolynomials are defined with the same m and n. We reserve letters
+P and Q for polynomials, so every function called P, Pi,j , Q, Qi,j , . . . is a polynomial function.
+We start with a lemma that is useful to change expressions of the form min max fi,j to ones
+of the form max min gi,j .
+Lemma. Let {ai,j } be real numbers, for all i ∈ [m] and j ∈ [n]. Then
+min max ai,j =
+
+i∈[m] j∈[n]
+
+max
+
+min ai,ji ,
+
+j1 ,...,jm ∈[n] i∈[m]
+
+where the max in the right-hand side is over all vectors (j1 , . . . , jm ) with j1 , . . . , jm ∈ [n].
+Proof. We can assume for all i that ai,n = max{ai,1 , . . . , ai,n } and am,n = min{a1,n , . . . , am,n }.
+The left-hand side is = am,n and hence we need to prove the same for the right-hand side.
+If (j1 , j2 , . . . , jm ) = (n, n, . . . , n) then min{a1,j1 , . . . , am,jm } = min{a1,n , . . . , am,n } = am,n which
+implies that the right-hand side is ≥ am,n . It remains to prove the opposite inequality and
+this is equivalent to min{a1,j1 , . . . , am,jm } ≤ am,n for all possible (j1 , j2 , . . . , jm ). This is true
+
+because min{a1,j1 , . . . , am,jm } ≤ am,jm ≤ am,n .
+We need to show that the family M of metapolynomials is closed under multiplication, but
+it turns out easier to prove more: that it is also closed under addition, maxima and minima.
+First we prove the assertions about the maxima and the minima. If f1 , . . . , fr are metapolynomials, assume them defined with the same m and n. Then
+1
+r
+f = max{f1 , . . . , fr } = max{max min Pi,j
+, . . . , max min Pi,j
+}=
+i∈[m] j∈[n]
+
+i∈[m] j∈[n]
+
+s
+max min Pi,j
+.
+
+s∈[r],i∈[m] j∈[n]
+
+It follows that f = max{f1 , . . . , fr } is a metapolynomial. The same argument works for the
+minima, but first we have to replace min max by max min, and this is done via the lemma.
+Another property we need is that if f = max min Pi,j is a metapolynomial then so is −f .
+Indeed, −f = min(− min Pi,j ) = min max Pi,j .
+To prove M is closed under addition let f = max min Pi,j and g = max min Qi,j . Then
+f (x) + g(x) = max min Pi,j (x) + max min Qi,j (x)
+i∈[m] j∈[n]
+
+i∈[m] j∈[n]
+
+= max (min Pi1 ,j (x) + min Qi2 ,j (x)) = max
+i1 ,i2 ∈[m] j∈[n]
+
+j∈[n]
+
+min
+
+i1 ,i2 ∈[m] j1 ,j2 ∈[n]
+
+
+Pi1 ,j1 (x) + Qi2 ,j2 (x) ,
+
+and hence f (x) + g(x) is a metapolynomial.
+We proved that M is closed under sums, maxima and minima, in particular any function
+that can be expressed by sums, max, min, polynomials or even metapolynomials is in M.
+We would like to proceed with multiplication along the same lines like with addition, but
+there is an essential difference. In general the product of the maxima of two sets is not equal
+
+18
+to the maximum of the product of the sets. We need to deal with the fact that a < b and c < d
+do not imply ac < bd. However this is true for a, b, c, d ≥ 0.
+In view of this we decompose each function f (x) into its positive part f + (x) = max{f (x), 0}
+and its negative part f − (x) = max{0, −f (x)}. Note that f = f + − f − and f + , f − ∈ M if
+f ∈ M. The whole problem reduces to the claim that if f and g are metapolynomials with
+f, g ≥ 0 then f g it is also a metapolynomial.
+Assuming this claim, consider arbitrary f, g ∈ M. We have
+f g = (f + − f − )(g + − g − ) = f + g + − f + g − − f − g + + f − g − ,
+and hence f g ∈ M. Indeed, M is closed under addition, also f + g + , f + g − , f − g + , f − g − ∈ M
+because f + , f − , g + , g − ≥ 0.
+It remains to prove the claim. In this case f, g ≥ 0, and one can try to repeat the argument
+for the sum. More precisely, let f = max min Pij ≥ 0 and g = max min Qij ≥ 0. Then
++
++
++
+f g = max min Pi,j · max min Qi,j = max min Pi,j
+· max min Q+
+i,j = max min Pi1 ,j1 · Qi2 ,j2 .
+
+Hence it suffices to check that P + Q+ ∈ M for any pair of polynomials P and Q. This reduces
+to the identity
+u+ v + = max{0, min{uv, u, v}, min{uv, uv 2, u2 v}, min{uv, u, u2v}, min{uv, uv 2, v}},
+with u replaced by P (x) and v replaced by Q(x). The formula is proved by a case-by-case
+analysis. If u ≤ 0 or v ≤ 0 then both sides equal 0. In case u, v ≥ 0, the right-hand side is
+clearly ≤ uv. To prove the opposite inequality we use that uv equals
+min{uv, u, v}
+min{uv, uv 2, u2v}
+min{uv, u, u2v}
+min{uv, uv 2, v}
+
+if 0 ≤ u, v ≤ 1,
+if 1 ≤ u, v,
+if 0 ≤ v ≤ 1 ≤ u,
+if 0 ≤ u ≤ 1 ≤ v.
+
+Comment. The case k = 1 is simpler and can be solved by proving that a function f : R → R is a
+metapolynomial if and only if it is a piecewise polinomial (and continuos) function.
+It is enough to prove that all such functions are metapolynomials, and this easily reduces to the
+following case. Given a polynomial P (x) with P (0) = 0, the function f defined by f (x) = P (x) for
+x ≥ 0 and 0 otherwise is a metapolynomial. For this last claim, it suffices to prove that (x+ )n is a
+metapolynomial, and this follows from the formula (x+ )n = max{0, min{xn−1 , xn }, min{xn , xn+1 }}.
+
+19
+
+Combinatorics
+C1.
+
+Several positive integers are written in a row. Iteratively, Alice chooses two adjacent
+numbers x and y such that x > y and x is to the left of y, and replaces the pair (x, y) by either
+(y + 1, x) or (x − 1, x). Prove that she can perform only finitely many such iterations.
+Solution 1. Note first that the allowed operation does not change the maximum M of the
+initial sequence. Let a1 , a2 , . . . , an be the numbers obtained at some point of the process.
+Consider the sum
+S = a1 + 2a2 + · · · + nan .
+We claim that S increases by a positive integer amount with every operation. Let the operation
+replace the pair (ai , ai+1 ) by a pair (c, ai ), where ai > ai+1 and c = ai+1 +1 or c = ai −1. Then the
+new and the old value of S differ by d = (ic+(i+1)ai )−(iai +(i+1)ai+1 ) = ai −ai+1 +i(c−ai+1 ).
+The integer d is positive since ai − ai+1 ≥ 1 and c − ai+1 ≥ 0.
+On the other hand S ≤ (1 + 2 + · · · + n)M as ai ≤ M for all i = 1, . . . , n. Since S increases
+by at least 1 at each step and never exceeds the constant (1 + 2 + · · · + n)M, the process stops
+after a finite number of iterations.
+Solution 2. Like in the first solution note that the operations do not change the maximum M
+of the initial sequence. Now consider the reverse lexicographical order for n-tuples of integers.
+We say that (x1 , . . . , xn ) < (y1 , . . . , yn ) if xn < yn , or if xn = yn and xn−1 < yn−1 , or if xn = yn ,
+xn−1 = yn−1 and xn−2 < yn−2 , etc. Each iteration creates a sequence that is greater than
+the previous one with respect to this order, and no sequence occurs twice during the process.
+On the other hand there are finitely many possible sequences because their terms are always
+positive integers not exceeding M. Hence the process cannot continue forever.
+Solution 3. Let the current numbers be a1 , a2 , . . . , an . Define the score si of ai as the number
+of aj ’s that are less than ai . Call the sequence s1 , s2 , . . . , sn the score sequence of a1 , a2 , . . . , an .
+Let us say that a sequence x1 , . . . , xn dominates a sequence y1 , . . . , yn if the first index i
+with xi 6= yi is such that xi < yi . We show that after each operation the new score sequence
+dominates the old one. Score sequences do not repeat, and there are finitely many possibilities
+for them, no more than (n − 1)n . Hence the process will terminate.
+Consider an operation that replaces (x, y) by (a, x), with a = y + 1 or a = x − 1. Suppose
+that x was originally at position i. For each j < i the score sj does not increase with the
+change because y ≤ a and x ≤ x. If sj decreases for some j < i then the new score sequence
+dominates the old one. Assume that sj stays the same for all j < i and consider si . Since x > y
+and y ≤ a ≤ x, we see that si decreases by at least 1. This concludes the proof.
+Comment. All three proofs work if x and y are not necessarily adjacent, and if the pair (x, y) is
+replaced by any pair (a, x), with a an integer satisfying
+y ≤ a ≤ x. There is nothing special about
+P
+the “weights” 1, 2, . . . , n in the definition of S =P ni=1 iai from the first solution. For any sequence
+w1 < w2 < · · · < wn of positive integers, the sum ni=1 wi ai increases by at least 1 with each operation.
+Consider the same problem, but letting Alice replace the pair (x, y) by (a, x), where a is any positive
+integer less than x. The same conclusion holds in this version, i. e. the process stops eventually. The
+solution using the reverse lexicographical order works without any change. The first solution would
+require a special set of weights like wi = M i for i = 1, . . . , n.
+Comment. The first and the second solutions provide upper bounds for the number of possible
+operations, respectively of order M n2 and M n where M is the maximum of the original sequence.
+The upper bound (n − 1)n in the third solution does not depend on M .
+
+20
+
+C2. Let n ≥ 1 be an integer. What is the maximum number of disjoint pairs of elements of the
+set {1, 2, . . . , n} such that the sums of the different pairs are different integers not exceeding n?
+Solution. Consider x such pairs in {1, 2, . . . , n}. The sum S of the 2x numbers in them is at
+least 1+2+· · ·+2x since the pairs are disjoint. On the other hand S ≤ n+(n−1)+· · ·+(n−x+1)
+because the sums of the pairs are different and do not exceed n. This gives the inequality
+x(x − 1)
+2x(2x + 1)
+≤ nx −
+,
+2
+2
+ 2n−1 
+which leads to x ≤ 2n−1
+.
+Hence
+there
+are
+at
+most
+pairs with the given properties.
+5
+5
+ 2n−1 
+pairs. First consider the case n = 5k + 3 with
+We show a construction
+with exactly
+5
+
+2n−1
+k ≥ 0, where
+= 2k + 1. The pairs are displayed in the following table.
+5
+Pairs
+Sums
+
+3k + 1
+3k
+2
+4
+3k + 3 3k + 4
+
+···
+···
+···
+
+2k + 2
+2k
+4k + 2
+
+4k + 2 4k + 1 · · ·
+1
+3
+···
+4k + 3 4k + 4 · · ·
+
+3k + 3
+2k − 1
+5k + 2
+
+3k + 2
+2k + 1
+5k + 3
+
+The 2k + 1 pairs involve all numbers from 1 to 4k + 2; their sums are all numbers from 3k + 3
+to 5k + 3. The same construction
+ 2n−1  works for n = 5k + 4 and n = 5k + 5 with k ≥ 0. In these
+cases the required number
+of pairs equals 2k + 1 again, and the numbers in the table
+5
+do not exceed 5k + 3. In the case n = 5k + 2 with k ≥ 0 one needs only 2k pairs. They can
+be obtained by ignoring the last column of the table (thus removing 5k + 3). Finally, 2k pairs
+are also needed for the case n = 5k + 1 with k ≥ 0. Now it suffices to ignore the last column
+of the table and then subtract 1 from each number in the first row.
+Comment. The construction above is not unique. For instance, the following table shows another
+set of 2k + 1 pairs for the cases n = 5k + 3, n = 5k + 4, and n = 5k + 5.
+Pairs
+Sums
+
+1
+4k + 1
+4k + 2
+
+2
+4k − 1
+4k + 1
+
+···
+···
+···
+
+k
+2k + 3
+3k + 3
+
+k+1
+4k + 2
+5k + 3
+
+k+2
+4k
+5k + 2
+
+···
+···
+···
+
+2k + 1
+2k + 2
+4k + 3
+
+The table for the case n = 5k + 2 would be the same, with the pair (k + 1, 4k + 2) removed. For the
+case n = 5k + 1 remove the last column and subtract 2 from each number in the second row.
+
+21
+
+C3. In a 999 × 999 square table some cells are white and the remaining ones are red. Let T
+be the number of triples (C1 , C2 , C3) of cells, the first two in the same row and the last two in
+the same column, with C1 and C3 white and C2 red. Find the maximum value T can attain.
+4
+
+such triples.
+Solution. We prove that in an n × n square table there are at most 4n
+27
+Let row i and column j contain ai and bj white cells respectively, and let R be the set of
+red cells. For every red cell (i, j) there are ai bj admissible triples (C1 , C2 , C3 ) with C2 = (i, j),
+therefore
+X
+T =
+ai bj .
+(i,j)∈R
+
+We use the inequality 2ab ≤ a2 + b2 to obtain
+n
+n
+1 X 2
+1X
+1X
+2
+2
+(ai + bj ) =
+(n − ai )ai +
+(n − bj )b2j .
+T ≤
+2
+2 i=1
+2 j=1
+(i,j)∈R
+
+This is because there are n − ai red cells in row i and n − bj red cells in column j. Now we
+maximize the right-hand side.
+By the AM-GM inequality we have
+ 3
+4n3
+1 2n
+1
+2
+=
+,
+(n − x)x = (2n − 2x) · x · x ≤
+2
+2 3
+27
+with equality if and only if x = 2n
+. By putting everything together, we get
+3
+4n4
+n 4n3 n 4n3
++
+=
+.
+2 27
+2 27
+27
+
+T ≤
+
+= 666 white cells in each row
+If n = 999 then any coloring of the square table with x = 2n
+3
+and column attains the maximum as all inequalities in the previous argument become equalities.
+For example color a cell (i, j) white if i − j ≡ 1, 2, . . . , 666 (mod 999), and red otherwise.
+4
+Therefore the maximum value T can attain is T = 4·999
+.
+27
+Comment. One can obtain a better preliminary estimate with the Cauchy-Schwarz inequality:
+
+T =
+
+X
+
+(i,j)∈R
+
+
+
+ai bj ≤ 
+
+X
+
+(i,j)∈R
+
+1 
+2
+
+a2i  · 
+
+X
+
+(i,j)∈R
+
+It can be used to reach the same conclusion.
+
+1
+2
+
+b2j  =
+
+n
+X
+(n − ai )a2i
+i=1
+
+1
+!1  n
+2
+2
+X
+2
+
+(n − bj )bj
+·
+.
+j=1
+
+22
+
+C4. Players A and B play a game with N ≥ 2012 coins and 2012 boxes arranged around a
+circle. Initially A distributes the coins among the boxes so that there is at least 1 coin in each
+box. Then the two of them make moves in the order B, A, B, A, . . . by the following rules:
+• On every move of his B passes 1 coin from every box to an adjacent box.
+• On every move of hers A chooses several coins that were not involved in B’s previous
+move and are in different boxes. She passes every chosen coin to an adjacent box.
+Player A’s goal is to ensure at least 1 coin in each box after every move of hers, regardless of
+how B plays and how many moves are made. Find the least N that enables her to succeed.
+Solution. We argue for a general n ≥ 7 instead of 2012 and prove that the required minimum N
+is 2n − 2. For n = 2012 this gives Nmin = 4022.
+a) If N = 2n − 2 player A can achieve her goal. Let her start the game with a regular
+distribution: n − 2 boxes with 2 coins and 2 boxes with 1 coin. Call the boxes of the two kinds
+red and white respectively. We claim that on her first move A can achieve a regular distribution
+again, regardless of B’s first move M. She acts according as the following situation S occurs
+after M or not: The initial distribution contains a red box R with 2 white neighbors, and R
+receives no coins from them on move M.
+Suppose that S does not occur. Exactly one of the coins c1 and c2 in a given red box X
+is involved in M, say c1 . If M passes c1 to the right neighbor of X, let A pass c2 to its left
+neighbor, and vice versa. By doing so with all red boxes A performs a legal move M ′ . Thus
+M and M ′ combined move the 2 coins of every red box in opposite directions. Hence after M
+and M ′ are complete each neighbor of a red box X contains exactly 1 coin that was initially
+in X. So each box with a red neighbor is non-empty after M ′ . If initially there is a box X
+with 2 white neighbors (X is red and unique) then X receives a coin from at least one of them
+on move M since S does not occur. Such a coin is not involved in M ′ , so X is also non-empty
+after M ′ . Furthermore each box Y has given away its initial content after M and M ′ . A red
+neighbor of Y adds 1 coin to it; a white neighbor adds at most 1 coin because it is not involved
+in M ′ . Hence each box contains 1 or 2 coins after M ′ . Because N = 2n − 2, such a distribution
+is regular.
+Now let S occur after move M. Then A leaves untouched the exceptional red box R. With
+all remaining red boxes she proceeds like in the previous case, thus making a legal move M ′′ .
+Box R receives no coins from its neighbors on either move, so there is 1 coin in it after M ′′ .
+Like above M and M ′′ combined pass exactly 1 coin from every red box different from R to
+each of its neighbors. Every box except R has a red neighbor different from R, hence all boxes
+are non-empty after M ′′ . Next, each box Y except R loses its initial content after M and M ′′ .
+A red neighbor of Y adds at most 1 coin to it; a white neighbor also adds at most 1 coin as
+it does not participate in M ′′ . Thus each box has 1 or 2 coins after M ′′ , and the obtained
+distribution is regular.
+Player A can apply the described strategy indefinitely, so N = 2n−2 enables her to succeed.
+b) For N ≤ 2n − 3 player B can achieve an empty box after some move of A. Let α be a
+set of ℓ consecutive boxes containing a total of N(α) coins. We call α an arc if ℓ ≤ n − 2 and
+N(α) ≤ 2ℓ − 3. Note that ℓ ≥ 2 by the last condition. Moreover if both extremes of α are
+non-empty boxes then N(α) ≥ 2, so that N(α) ≤ 2ℓ − 3 implies ℓ ≥ 3. Observe also that if
+an extreme X of α has more than 1 coin then ignoring X yields a shorter arc. It follows that
+every arc contains an arc whose extremes have at most 1 coin each.
+Given a clockwise labeling 1, 2, . . . , n of the boxes, suppose that boxes 1, 2, . . . , ℓ form an
+arc α, with ℓ ≤ n − 2 and N(α) ≤ 2ℓ − 3. Suppose also that all n ≥ 7 boxes are non-empty.
+Then B can move so that an arc α′ with N(α′ ) < N(α) will appear after any response of A.
+
+23
+One may assume exactly 1 coin in boxes 1 and ℓ by a previous remark. Let B pass 1 coin
+in counterclockwise direction from box 1 and box n, and in clockwise direction from each
+remaining box. This leaves N(α) − 2 coins in the boxes of α. In addition, due to 3 ≤ ℓ ≤ n − 2,
+box ℓ has exactly 1 coin c, the one received from box ℓ − 1.
+Let player A’s next move M pass k ≤ 2 coins to boxes 1, 2, . . . , ℓ from the remaining ones.
+Only boxes 1 and ℓ can receive such coins, at most 1 each. If k < 2 then after move M boxes
+1, 2, . . . , ℓ form an arc α′ with N(α′ ) < N(α). If k = 2 then M adds a coin to box ℓ. Also
+M does not move coin c from ℓ because c is involved in the previous move of B. In summary
+boxes 1, 2, . . . , ℓ contain N(α) coins like before, so they form an arc. However there are 2 coins
+now in the extreme ℓ of the arc. Ignore ℓ to obtain a shorter arc α′ with N(α′ ) < N(α).
+Consider any initial distribution without empty boxes. Since N ≤ 2n − 3, there are at
+least 3 boxes in it with exactly 1 coin. It follows from n ≥ 7 that some 2 of them are the
+extremes of an arc α. Hence B can make the move described above, which leads to an arc α′
+with N(α′ ) < N(α) after A’s response. If all boxes in the new distribution are non-empty he
+can repeat the same, and so on. Because N(α) cannot decrease indefinitely, an empty box will
+occur after some move of A.
+
+24
+
+C5. The columns and the rows of a 3n × 3n square board are numbered 1, 2, . . . , 3n. Every
+square (x, y) with 1 ≤ x, y ≤ 3n is colored asparagus, byzantium or citrine according as the
+modulo 3 remainder of x + y is 0, 1 or 2 respectively. One token colored asparagus, byzantium
+or citrine is placed on each square, so that there are 3n2 tokens of each color.
+Suppose that one can permute the tokens so that each token is moved to a distance of
+at most d from its original position, each asparagus token replaces a byzantium token, each
+byzantium token replaces a citrine token, and each citrine token replaces an asparagus token.
+Prove that it is possible to permute the tokens so that each token is moved to a distance of at
+most d + 2 from its original position, and each square contains a token with the same color as
+the square.
+Solution. Without loss of generality it suffices to prove that the A-tokens can be moved to
+distinct A-squares in such a way that each A-token is moved to a distance at most d + 2 from
+its original place. This means we need a perfect matching between the 3n2 A-squares and the
+3n2 A-tokens such that the distance in each pair of the matching is at most d + 2.
+To find the matching, we construct a bipartite graph. The A-squares will be the vertices in
+one class of the graph; the vertices in the other class will be the A-tokens.
+Split the board into 3 × 1 horizontal triminos; then each trimino contains exactly one Asquare. Take a permutation π of the tokens which moves A-tokens to B-tokens, B-tokens to
+C-tokens, and C-tokens to A-tokens, in each case to a distance at most d. For each A-square S,
+and for each A-token T , connect S and T by an edge if T , π(T ) or π −1 (T ) is on the trimino
+containing S. We allow multiple edges; it is even possible that the same square and the same
+token are connected with three edges. Obviously the lengths of the edges in the graph do not
+exceed d + 2. By length of an edge we mean the distance between the A-square and the A-token
+it connects.
+Each A-token T is connected with the three A-squares whose triminos contain T , π(T )
+and π −1 (T ). Therefore in the graph all tokens are of degree 3. We show that the same is true
+for the A-squares. Let S be an arbitrary A-square, and let T1 , T2 , T3 be the three tokens on
+the trimino containing S. For i = 1, 2, 3, if Ti is an A-token, then S is connected with Ti ; if Ti
+is a B-token then S is connected with π −1 (Ti ); finally, if Ti is a C-token then S is connected
+with π(Ti ). Hence in the graph the A-squares also are of degree 3.
+Since the A-squares are of degree 3, from every set S of A-squares exactly 3|S| edges start.
+These edges end in at least |S| tokens because the A-tokens also are of degree 3. Hence every
+set S of A-squares has at least |S| neighbors among the A-tokens.
+Therefore, by Hall’s marriage theorem, the graph contains a perfect matching between
+the two vertex classes. So there is a perfect matching between the A-squares and A-tokens
+with edges no longer than d + 2. It follows that the tokens can be permuted as specified in the
+problem statement.
+Comment 1. In the original problem proposal the board was infinite and there were only two colors.
+Having n colors for some positive integer n was an option; we chose n = 3. Moreover, we changed
+the board to a finite one to avoid dealing with infinite graphs (although Hall’s theorem works in the
+infinite case as well).
+With only two colors Hall’s theorem is not needed. In this case we split the board into 2 × 1
+dominos, and in the resulting graph all vertices are of degree 2. The graph consists of disjoint cycles
+with even length and infinite paths, so the existence of the matching is trivial.
+Having more than three colors would make the problem statement more complicated, because we
+need a matching between every two color classes of tokens. However, this would not mean a significant
+increase in difficulty.
+
+25
+Comment 2. According to Wikipedia, the color asparagus (hexadecimal code #87A96B) is a tone
+of green that is named after the vegetable. Crayola created this color in 1993 as one of the 16 to
+be named in the Name The Color Contest. Byzantium (#702963) is a dark tone of purple. Its first
+recorded use as a color name in English was in 1926. Citrine (#E4D00A) is variously described as
+yellow, greenish-yellow, brownish-yellow or orange. The first known use of citrine as a color name in
+English was in the 14th century.
+
+26
+
+C6. Let k and n be fixed positive integers. In the liar’s guessing game, Amy chooses integers
+x and N with 1 ≤ x ≤ N. She tells Ben what N is, but not what x is. Ben may then repeatedly
+ask Amy whether x ∈ S for arbitrary sets S of integers. Amy will always answer with yes or no,
+but she might lie. The only restriction is that she can lie at most k times in a row. After he
+has asked as many questions as he wants, Ben must specify a set of at most n positive integers.
+If x is in this set he wins; otherwise, he loses. Prove that:
+a) If n ≥ 2k then Ben can always win.
+b) For sufficiently large k there exist n ≥ 1.99k such that Ben cannot guarantee a win.
+Solution. Consider an answer A ∈ {yes, no} to a question of the kind “Is x in the set S?”
+We say that A is inconsistent with a number i if A = yes and i 6∈ S, or if A = no and i ∈ S.
+Observe that an answer inconsistent with the target number x is a lie.
+a) Suppose that Ben has determined a set T of size m that contains x. This is true initially
+with m = N and T = {1, 2, . . . , N}. For m > 2k we show how Ben can find a number y ∈ T
+that is different from x. By performing this step repeatedly he can reduce T to be of size 2k ≤ n
+and thus win.
+Since only the size m > 2k of T is relevant, assume that T = {0, 1, . . . , 2k , . . . , m−1}. Ben
+begins by asking repeatedly whether x is 2k . If Amy answers no k + 1 times in a row, one
+of these answers is truthful, and so x 6= 2k . Otherwise Ben stops asking about 2k at the first
+answer yes. He then asks, for each i = 1, . . . , k, if the binary representation of x has a 0 in
+the ith digit. Regardless of what the k answers are, they are all inconsistent with a certain
+number y ∈ {0, 1, . . . , 2k − 1}. The preceding answer yes about 2k is also inconsistent with y.
+Hence y 6= x. Otherwise the last k + 1 answers are not truthful, which is impossible.
+Either way, Ben finds a number in T that
+ is different
+ from x, and the claim is proven.
+k+1
+b) We prove that if 1 < λ < 2 and n = (2 − λ)λ
+− 1 then Ben cannot guarantee a win.
+To complete the proof, then it suffices to take λ such that 1.99 < λ < 2 and k large enough so
+that
+
+
+n = (2 − λ)λk+1 − 1 ≥ 1.99k .
+Consider the following strategy for Amy. First she chooses N = n+1 and x ∈ {1, 2, . . . , n+1}
+arbitrarily. After every answer of hers Amy determines, for each i = 1, 2, . . . , n + 1, the
+number mi of consecutive answers she has given by that point that are inconsistent with i. To
+decide on her next answer, she then uses the quantity
+φ=
+
+n+1
+X
+
+λmi .
+
+i=1
+
+No matter what Ben’s next question is, Amy chooses the answer which minimizes φ.
+We claim that with this strategy φ will always stay less than λk+1 . Consequently no exponent mi in φ will ever exceed k, hence Amy will never give more than k consecutive answers
+inconsistent with some i. In particular this applies to the target number x, so she will never lie
+more than k times in a row. Thus, given the claim, Amy’s strategy is legal. Since the strategy
+does not depend on x in any way, Ben can make no deductions about x, and therefore he cannot
+guarantee a win.
+It remains to show that φ < λk+1 at all times.
+Initially
+holds
+
+ each mi is 0, so this condition
+k+1
+k+1
+in the beginning due to 1 < λ < 2 and n = (2 − λ)λ
+− 1. Suppose that φ < λ
+at some
+point, and Ben has just asked if x ∈ S for some set S. According as Amy answers yes or no,
+the new value of φ becomes
+X
+X
+X
+X
+φ1 =
+1+
+λmi +1
+or
+φ2 =
+λmi +1 +
+1.
+i∈S
+
+i∈S
+/
+
+i∈S
+
+i∈S
+/
+
+27
+Since Amy chooses the option minimizing φ, the new φ will equal min(φ1 , φ2 ). Now we have
+!
+X
+X
+
+
+1
+1
+1
+1 + λmi +1 +
+= (λφ + n + 1).
+λmi +1 + 1
+min(φ1 , φ2 ) ≤ (φ1 + φ2 ) =
+2
+2 i∈S
+2
+i∈S
+/
+
+
+
+Because φ < λk+1, the assumptions λ < 2 and n = (2 − λ)λk+1 − 1 lead to
+1
+min(φ1 , φ2 ) < (λk+2 + (2 − λ)λk+1 ) = λk+1 .
+2
+
+The claim follows, which completes the solution.
+Comment. Given a fixed k, let f (k) denote the minimum value of n for which Ben can guarantee a
+victory. The problem asks for a proof that for large k
+1.99k ≤ f (k) ≤ 2k .
+A computer search shows that f (k) = 2, 3, 4, 7, 11, 17 for k = 1, 2, 3, 4, 5, 6.
+
+28
+
+C7. There are given 2500 points on a circle labeled 1, 2, . . . , 2500 in some order. Prove that
+one can choose 100 pairwise disjoint chords joining some of these points so that the 100 sums
+of the pairs of numbers at the endpoints of the chosen chords are equal.
+Solution. The proof is based on the following general fact.
+Lemma. In a graph G each vertex v has degree dv . Then G contains an independent set S of
+vertices such that |S| ≥ f (G) where
+X 1
+.
+f (G) =
+dv + 1
+v∈G
+Proof. Induction on n = |G|. The base n = 1 is clear. For the inductive step choose a vertex v0
+in G of minimum degree d. Delete v0 and all of its neighbors v1 , . . . , vd and also all edges with
+endpoints v0 , v1 , . . . , vd . This gives a new graph G′ . By the inductive assumption G′ contains
+an independent set S ′ of vertices such that |S ′ | ≥ f (G′ ). Since no vertex in S ′ is a neighbor
+of v0 in G, the set S = S ′ ∪ {v0 } is independent in G.
+Let d′v be the degree of a vertex v in G′ . Clearly d′v ≤ dv for every such vertex v, and also
+dvi ≥ d for all i = 0, 1, . . . , d by the minimal choice of v0 . Therefore
+f (G′ ) =
+
+d
+X
+X 1
+1
+d+1
+1
+≥
+=
+f
+(G)
+−
+≥
+f
+(G)
+−
+= f (G) − 1.
+d′v + 1
+dv + 1
+d
++
+1
+d
++
+1
+v
+i
+′
+′
+i=0
+
+X
+
+v∈G
+′
+
+v∈G
+
+′
+
+Hence |S| = |S | + 1 ≥ f (G ) + 1 ≥ f (G), and the induction is complete.
+
+499
+We pass on to our problem. For clarity denote n = 2 and draw all chords determined by
+the given 2n points. Color each chord with one of the colors 3, 4, . . . , 4n − 1 according to the
+sum of the numbers at its endpoints. Chords with a common endpoint have different colors.
+For each color c consider the following graph Gc . Its vertices are the chords of color c, and two
+chords are neighbors in Gc if they intersect. Let f (Gc ) have the same meaning as in the lemma
+for all graphs Gc .
+Every chord ℓ divides the circle into two arcs, and one of them contains m(ℓ) ≤ n − 1 given
+points. (In particular m(ℓ) = 0 if ℓ joins two consecutive points.) For each i = 0, 1, . . . , n − 2
+there are 2n chords ℓ with m(ℓ) = i. Such a chord has degree at most i in the respective graph.
+Indeed let A1 , . . . , Ai be all points on either arc determined by a chord ℓ with m(ℓ) = i and
+color c. Every Aj is an endpoint of at most 1 chord colored c, j = 1, . . . , i. Hence at most
+i chords of color c intersect ℓ.
+It follows that forPeach i = 0, 1, . . . , n − 2 the 2n chords ℓ with m(ℓ) = i contribute at
+2n
+least i+1
+to the sum c f (Gc ). Summation over i = 0, 1, . . . , n − 2 gives
+X
+
+f (Gc ) ≥ 2n
+
+c
+
+n−1
+X
+1
+
+i
+i=1
+
+.
+
+Because there are 4n − 3 colors in all, averaging yields a color c such that
+n−1
+n−1
+2n X 1
+1X1
+f (Gc ) ≥
+>
+.
+4n − 3 i=1 i
+2 i=1 i
+Pn−1 1
+pairwise disjoint chords of color c, i. e. with the same
+By the lemma there are at least 12 i=1
+i
+Pn−1 1
+≥ 100 for
+sum c of the pairs of numbers at their endpoints. It remains to show that 12 i=1
+i
+499
+n = 2 . Indeed we have
+n−1
+2400
+400
+2k
+400 k−1
+X
+X
+X
+X
+1 X1
+2
+1
+>
+=1+
+>1+
+= 201 > 200.
+i
+i
+i
+2k
+k−1+1
+i=1
+i=1
+k=1
+k=1
+i=2
+
+This completes the solution.
+
+29
+
+Geometry
+G1. In the triangle ABC the point J is the center of the excircle opposite to A. This excircle
+is tangent to the side BC at M, and to the lines AB and AC at K and L respectively. The
+lines LM and BJ meet at F , and the lines KM and CJ meet at G. Let S be the point of
+intersection of the lines AF and BC, and let T be the point of intersection of the lines AG
+and BC. Prove that M is the midpoint of ST .
+Solution. Let α = ∠CAB, β = ∠ABC and γ = ∠BCA. The line AJ is the bisector of ∠CAB,
+so ∠JAK = ∠JAL = α2 . By ∠AKJ = ∠ALJ = 90◦ the points K and L lie on the circle ω
+with diameter AJ.
+The triangle KBM is isosceles as BK and BM are tangents to the excircle. Since BJ is the
+bisector of ∠KBM, we have ∠MBJ = 90◦ − β2 and ∠BMK = β2 . Likewise ∠MCJ = 90◦ − γ2
+and ∠CML = γ2 . Also ∠BMF = ∠CML, therefore
+
+
+β
+γ
+α
+◦
+∠LF J = ∠MBJ − ∠BMF = 90 −
+− = = ∠LAJ.
+2
+2
+2
+Hence F lies on the circle ω. (By the angle computation, F and A are on the same side of BC.)
+Analogously, G also lies on ω. Since AJ is a diameter of ω, we obtain ∠AF J = ∠AGJ = 90◦ .
+A
+
+ω
+α α
+2 2
+
+G
+
+F
+α
+2
+
+S
+
+α
+2
+
+B
+
+β
+
+M
+
+γ
+
+T
+
+C
+
+L
+
+K
+J
+
+The lines AB and BC are symmetric with respect to the external bisector BF . Because
+AF ⊥ BF and KM ⊥ BF , the segments SM and AK are symmetric with respect to BF ,
+hence SM = AK. By symmetry T M = AL. Since AK and AL are equal as tangents to the
+excircle, it follows that SM = T M, and the proof is complete.
+Comment. After discovering the circle AF KJLG, there are many other ways to complete the solution. For instance, from the cyclic quadrilaterals JM F S and JM GT one can find ∠T SJ = ∠ST J = α2 .
+Another possibility is to use the fact that the lines AS and GM are parallel (both are perpendicular
+MS
+AG
+to the external angle bisector BJ), so M
+T = GT = 1.
+
+30
+
+G2.
+
+Let ABCD be a cyclic quadrilateral whose diagonals AC and BD meet at E. The
+extensions of the sides AD and BC beyond A and B meet at F . Let G be the point such that
+ECGD is a parallelogram, and let H be the image of E under reflection in AD. Prove that
+D, H, F , G are concyclic.
+Solution. We show first that the triangles F DG and F BE are similar. Since ABCD is cyclic,
+the triangles EAB and EDC are similar, as well as F AB and F CD. The parallelogram ECGD
+yields GD = EC and ∠CDG = ∠DCE; also ∠DCE = ∠DCA = ∠DBA by inscribed angles.
+Therefore
+∠F DG = ∠F DC + ∠CDG = ∠F BA + ∠ABD = ∠F BE,
+GD
+CE
+CD
+FD
+=
+=
+=
+.
+EB
+EB
+AB
+FB
+
+It follows that F DG and F BE are similar, and so ∠F GD = ∠F EB.
+
+G
+
+C
+
+D
+E
+
+H
+
+A
+
+B
+
+F
+Since H is the reflection of E with respect to F D, we conclude that
+∠F HD = ∠F ED = 180◦ − ∠F EB = 180◦ − ∠F GD.
+This proves that D, H, F , G are concyclic.
+Comment. Points E and G are always in the half-plane determined by the line F D that contains
+B and C, but H is always in the other half-plane. In particular, DHF G is cyclic if and only if
+∠F HD + ∠F GD = 180◦ .
+
+31
+
+G3. In an acute triangle ABC the points D, E and F are the feet of the altitudes through A,
+B and C respectively. The incenters of the triangles AEF and BDF are I1 and I2 respectively;
+the circumcenters of the triangles ACI1 and BCI2 are O1 and O2 respectively. Prove that I1 I2
+and O1 O2 are parallel.
+Solution. Let ∠CAB = α, ∠ABC = β, ∠BCA = γ. We start by showing that A, B, I1
+and I2 are concyclic. Since AI1 and BI2 bisect ∠CAB and ∠ABC, their extensions beyond I1
+and I2 meet at the incenter I of the triangle. The points E and F are on the circle with
+diameter BC, so ∠AEF = ∠ABC and ∠AF E = ∠ACB. Hence the triangles AEF and ABC
+AE
+= cos α. Because I1 and I are their incenters, we obtain
+are similar with ratio of similitude AB
+I1 A = IA cos α and II1 = IA − I1 A = 2IA sin2 α2 . By symmetry II2 = 2IB sin2 β2 . The law of
+sines in the triangle ABI gives IA sin α2 = IB sin β2 . Hence
+II1 · IA = 2 IA sin α2
+
+2
+
+= 2 IB sin β2
+
+Therefore A, B, I1 and I2 are concyclic, as claimed.
+
+2
+
+= II2 · IB.
+
+O1
+C
+
+O2
+
+I3
+
+E
+
+D
+I
+I1
+Q
+
+A
+
+I2
+
+F
+
+B
+
+In addition II1 · IA = II2 · IB implies that I has the same power with respect to the
+circles (ACI1 ), (BCI2 ) and (ABI1 I2 ). Then CI is the radical axis of (ACI1 ) and (BCI2 ); in
+particular CI is perpendicular to the line of centers O1 O2 .
+Now it suffices to prove that CI ⊥ I1 I2 . Let CI meet I1 I2 at Q, then it is enough to check
+that ∠II1 Q + ∠I1 IQ = 90◦ . Since ∠I1 IQ is external for the triangle ACI, we have
+∠II1 Q + ∠I1 IQ = ∠II1 Q + (∠ACI + ∠CAI) = ∠II1 I2 + ∠ACI + ∠CAI.
+It remains to note that ∠II1 I2 = β2 from the cyclic quadrilateral ABI1 I2 , and ∠ACI = γ2 ,
+∠CAI = α2 . Therefore ∠II1 Q + ∠I1 IQ = α2 + β2 + γ2 = 90◦ , completing the proof.
+Comment. It follows from the first part of the solution that the common point I3 6= C of the
+circles (ACI1 ) and (BCI2 ) is the incenter of the triangle CDE.
+
+32
+
+G4.
+
+Let ABC be a triangle with AB 6= AC and circumcenter O. The bisector of ∠BAC
+intersects BC at D. Let E be the reflection of D with respect to the midpoint of BC. The lines
+through D and E perpendicular to BC intersect the lines AO and AD at X and Y respectively.
+Prove that the quadrilateral BXCY is cyclic.
+Solution. The bisector of ∠BAC and the perpendicular bisector of BC meet at P , the midpoint
+d (they are different lines as AB 6= AC). In particular OP is perpendicular
+of the minor arc BC
+to BC and intersects it at M, the midpoint of BC.
+Denote by Y ′ the reflexion of Y with respect to OP . Since ∠BY C = ∠BY ′ C, it suffices to
+prove that BXCY ′ is cyclic.
+A
+
+X
+O
+
+B
+
+M
+D
+
+E
+
+C
+
+P
+
+Y
+
+Y′
+
+We have
+∠XAP = ∠OP A = ∠EY P.
+The first equality holds because OA = OP , and the second one because EY and OP are both
+perpendicular to BC and hence parallel. But {Y, Y ′ } and {E, D} are pairs of symmetric points
+with respect to OP , it follows that ∠EY P = ∠DY ′ P and hence
+∠XAP = ∠DY ′ P = ∠XY ′ P.
+The last equation implies that XAY ′ P is cyclic. By the powers of D with respect to the
+circles (XAY ′ P ) and (ABP C) we obtain
+XD · DY ′ = AD · DP = BD · DC.
+It follows that BXCY ′ is cyclic, as desired.
+
+33
+Let ABC be a triangle with ∠BCA = 90◦ , and let C0 be the foot of the altitude
+from C. Choose a point X in the interior of the segment CC0 , and let K, L be the points on
+the segments AX, BX for which BK = BC and AL = AC respectively. Denote by M the
+intersection of AL and BK. Show that MK = ML.
+
+G5.
+
+Solution. Let C ′ be the reflection of C in the line AB, and let ω1 and ω2 be the circles
+with centers A and B, passing through L and K respectively. Since AC ′ = AC = AL and
+BC ′ = BC = BK, both ω1 and ω2 pass through C and C ′ . By ∠BCA = 90◦ , AC is tangent
+to ω2 at C, and BC is tangent to ω1 at C. Let K1 6= K be the second intersection of AX and
+ω2 , and let L1 6= L be the second intersection of BX and ω1 .
+K1
+L1
+
+ω2
+
+ω1
+C
+
+ω3
+X
+L
+
+K
+M
+A
+
+C0
+
+B
+
+C′
+
+By the powers of X with respect to ω2 and ω1 ,
+XK · XK1 = XC · XC ′ = XL · XL1 ,
+so the points K1 , L, K, L1 lie on a circle ω3 .
+The power of A with respect to ω2 gives
+AL2 = AC 2 = AK · AK1 ,
+indicating that AL is tangent to ω3 at L. Analogously, BK is tangent to ω3 at K. Hence MK
+and ML are the two tangents from M to ω3 and therefore MK = ML.
+
+34
+
+G6. Let ABC be a triangle with circumcenter O and incenter I. The points D, E and F on
+the sides BC, CA and AB respectively are such that BD + BF = CA and CD + CE = AB.
+The circumcircles of the triangles BF D and CDE intersect at P 6= D. Prove that OP = OI.
+Solution. By Miquel’s theorem the circles (AEF ) = ωA , (BF D) = ωB and (CDE) = ωC
+have a common point, for arbitrary points D, E and F on BC, CA and AB. So ωA passes
+through the common point P 6= D of ωB and ωC .
+Let ωA , ωB and ωC meet the bisectors AI, BI and CI at A 6= A′ , B 6= B ′ and C 6= C ′
+respectively. The key observation is that A′ , B ′ and C ′ do not depend on the particular choice
+of D, E and F , provided that BD + BF = CA, CD + CE = AB and AE + AF = BC hold
+true (the last equality follows from the other two). For a proof we need the following fact.
+Lemma. Given is an angle with vertex A and measure α. A circle ω through A intersects the
+angle bisector at L and sides of the angle at X and Y . Then AX + AY = 2AL cos α2 .
+Proof. Note that L is the midpoint of arc \
+XLY in ω and set XL = Y L = u, XY = v. By
+Ptolemy’s theorem AX · Y L + AY · XL = AL · XY , which rewrites as (AX + AY )u = AL · v.
+Since ∠LXY = α2 and ∠XLY = 180◦ − α, we have v = 2 cos α2 u by the law of sines, and the
+claim follows.
+
+X
+
+u
+L
+A
+
+u
+v
+
+Y
+
+Apply the lemma to ∠BAC = α and the circle ω = ωA , which intersects AI at A′ . This
+gives 2AA′ cos α2 = AE + AF = BC; by symmetry analogous relations hold for BB ′ and CC ′ .
+It follows that A′ , B ′ and C ′ are independent of the choice of D, E and F , as stated.
+We use the lemma two more times with ∠BAC = α. Let ω be the circle with diameter AI.
+Then X and Y are the tangency points of the incircle of ABC with AB and AC, and hence
+AX = AY = 21 (AB + AC − BC). So the lemma yields 2AI cos α2 = AB + AC − BC. Next,
+if ω is the circumcircle of ABC and AI intersects ω at M 6= A then {X, Y } = {B, C}, and so
+2AM cos α2 = AB + AC by the lemma. To summarize,
+2AA′ cos α2 = BC,
+
+2AI cos α2 = AB + AC − BC,
+
+2AM cos α2 = AB + AC.
+
+(*)
+
+These equalities imply AA′ + AI = AM, hence the segments AM and IA′ have a common
+midpoint. It follows that I and A′ are equidistant from the circumcenter O. By symmetry
+OI = OA′ = OB ′ = OC ′, so I, A′ , B ′ , C ′ are on a circle centered at O.
+To prove OP = OI, now it suffices to show that I, A′ , B ′ , C ′ and P are concyclic. Clearly
+one can assume P 6= I, A′ , B ′ , C ′ .
+We use oriented angles to avoid heavy case distinction. The oriented angle between the lines l
+and m is denoted by ∠(l, m). We have ∠(l, m) = −∠(m, l) and ∠(l, m) + ∠(m, n) = ∠(l, n)
+for arbitrary lines l, m and n. Four distinct non-collinear points U, V, X, Y are concyclic if and
+only if ∠(UX, V X) = ∠(UY, V Y ).
+
+35
+A
+ωA
+
+B′
+E
+
+F
+I
+
+P
+
+O
+
+C′
+
+A′
+
+B
+
+C
+
+D
+ωC
+ωB
+M
+
+Suppose for the moment that A′ , B ′ , P, I are distinct and noncollinear; then it is enough to
+check the equality ∠(A′ P, B ′ P ) = ∠(A′ I, B ′ I). Because A, F, P, A′ are on the circle ωA , we have
+∠(A′ P, F P ) = ∠(A′ A, F A) = ∠(A′ I, AB). Likewise ∠(B ′ P, F P ) = ∠(B ′ I, AB). Therefore
+∠(A′ P, B ′ P ) = ∠(A′ P, F P ) + ∠(F P, B ′ P ) = ∠(A′ I, AB) − ∠(B ′ I, AB) = ∠(A′ I, B ′ I).
+Here we assumed that P 6= F . If P = F then P 6= D, E and the conclusion follows similarly (use
+∠(A′ F, B ′ F ) = ∠(A′ F, EF ) + ∠(EF, DF ) + ∠(DF, B ′ F ) and inscribed angles in ωA , ωB , ωC ).
+There is no loss of generality in assuming A′ , B ′ , P, I distinct and noncollinear. If ABC
+is an equilateral triangle then the equalities (*) imply that A′ , B ′ , C ′, I, O and P coincide, so
+OP = OI. Otherwise at most one of A′ , B ′ , C ′ coincides with I. If say C ′ = I then OI ⊥ CI
+by the previous reasoning. It follows that A′ , B ′ 6= I and hence A′ 6= B ′ . Finally A′ , B ′ and I
+are noncollinear because I, A′ , B ′ , C ′ are concyclic.
+Comment. The proposer remarks that the locus γ of the points P is an arc of the circle (A′ B ′ C ′ I).
+The reflection I ′ of I in O belongs to γ; it is obtained by choosing D, E and F to be the tangency
+points of the three excircles with their respective sides. The rest of the circle (A′ B ′ C ′ I), except I,
+can be included in γ by letting D, E and F vary on the extensions of the sides and assuming signed
+lengths. For instance if B is between C and D then the length BD must be taken with a negative
+sign. The incenter I corresponds to the limit case where D tends to infinity.
+
+36
+
+G7.
+
+Let ABCD be a convex quadrilateral with non-parallel sides BC and AD. Assume
+that there is a point E on the side BC such that the quadrilaterals ABED and AECD are
+circumscribed. Prove that there is a point F on the side AD such that the quadrilaterals
+ABCF and BCDF are circumscribed if and only if AB is parallel to CD.
+Solution. Let ω1 and ω2 be the incircles and O1 and O2 the incenters of the quadrilaterals ABED and AECD respectively. A point F with the stated property exists only if ω1
+and ω2 are also the incircles of the quadrilaterals ABCF and BCDF .
+B
+
+E
+O1
+
+C
+
+O2
+
+O
+
+F2 F 1
+
+D
+
+A
+
+Let the tangents from B to ω2 and from C to ω1 (other than BC) meet AD at F1 and F2
+respectively. We need to prove that F1 = F2 if and only if AB k CD.
+Lemma. The circles ω1 and ω2 with centers O1 and O2 are inscribed in an angle with vertex O.
+The points P, S on one side of the angle and Q, R on the other side are such that ω1 is the
+incircle of the triangle P QO, and ω2 is the excircle of the triangle RSO opposite to O. Denote
+p = OO1 · OO2. Then exactly one of the following relations holds:
+OP · OR < p < OQ · OS,
+
+OP · OR > p > OQ · OS,
+
+OP · OR = p = OQ · OS.
+
+Proof. Denote ∠OP O1 = u, ∠OQO1 = v, ∠OO2R = x, ∠OO2S = y, ∠P OQ = 2ϕ. Because
+P O1 , QO1 , RO2 , SO2 are internal or external bisectors in the triangles P QO and RSO, we have
+u + v = x + y (= 90◦ − ϕ).
+v
+
+(1)
+
+Q
+
+R
+O
+
+ϕ
+ϕ
+
+x
+y O2
+
+O1
+
+S
+u
+
+P
+
+By the law of sines
+OP
+sin(u + ϕ)
+=
+OO1
+sin u
+Therefore, since x, u and ϕ are acute,
+OP · OR ≥ p ⇔
+
+and
+
+OO2
+sin(x + ϕ)
+=
+.
+OR
+sin x
+
+OO2
+OP
+≥
+⇔ sin x sin(u + ϕ) ≥ sin u sin(x + ϕ) ⇔ sin(x − u) ≥ 0 ⇔ x ≥ u.
+OO1
+OR
+
+Thus OP · OR ≥ p is equivalent to x ≥ u, with OP · OR = p if and only if x = u.
+Analogously, p ≥ OQ · OS is equivalent to v ≥ y, with p = OQ · OS if and only if v = y.
+On the other hand x ≥ u and v ≥ y are equivalent by (1), with x = u if and only if v = y. The
+conclusion of the lemma follows from here.
+
+
+37
+Going back to the problem, apply the lemma to the quadruples {B, E, D, F1 }, {A, B, C, D}
+and {A, E, C, F2}. Assuming OE · OF1 > p, we obtain
+OE · OF1 > p ⇒ OB · OD < p ⇒ OA · OC > p ⇒ OE · OF2 < p.
+In other words, OE · OF1 > p implies
+OB · OD < p < OA · OC
+
+and OE · OF1 > p > OE · OF2 .
+
+Similarly, OE · OF1 < p implies
+OB · OD > p > OA · OC
+
+and OE · OF1 < p < OE · OF2 .
+
+In these cases F1 6= F2 and OB · OD 6= OA · OC, so the lines AB and CD are not parallel.
+There remains the case OE · OF1 = p. Here the lemma leads to OB · OD = p = OA · OC
+and OE · OF1 = p = OE · OF2 . Therefore F1 = F2 and AB k CD.
+Comment. The conclusion is also true if BC and AD are parallel. One can prove a limit case of
+the lemma for the configuration shown in the figure below, where r1 and r2 are parallel rays starting
+at O′ and O′′ , with O′ O′′ ⊥ r1 , r2 and O the midpoint of O′ O′′ . Two circles with centers O1 and O2
+are inscribed in the strip between r1 and r2 . The lines P Q and RS are tangent to the circles, with
+P, S on r1 , and Q, R on r2 , so that O, O1 are on the same side of P Q and O, O2 are on different sides
+of RS. Denote s = OO1 + OO2 . Then exactly one of the following relations holds:
+O′ P + O ′′ R < s < O ′′ Q + O ′ S,
+
+O′ P + O ′′ R > s > O ′′ Q + O ′ S,
+
+O ′′
+
+R
+
+O ′ P + O ′′ R = s = O′′ Q + O ′ S.
+
+Q
+
+r2
+
+O
+O2
+O′
+
+S
+
+O1
+P
+
+r1
+
+Once this is established, the proof of the original statement for BC k AD is analogous to the one
+in the intersecting case. One replaces products by sums of relevant segments.
+
+38
+
+G8. Let ABC be a triangle with circumcircle ω and ℓ a line without common points with ω.
+Denote by P the foot of the perpendicular from the center of ω to ℓ. The side-lines BC, CA, AB
+intersect ℓ at the points X, Y, Z different from P . Prove that the circumcircles of the triangles
+AXP, BY P and CZP have a common point different from P or are mutually tangent at P .
+Solution 1. Let ωA , ωB , ωC and ω be the circumcircles of triangles AXP, BY P, CZP and ABC
+respectively. The strategy of the proof is to construct a point Q with the same power with
+respect to the four circles. Then each of P and Q has the same power with respect to ωA , ωB , ωC
+and hence the three circles are coaxial. In other words they have another common point P ′ or
+the three of them are tangent at P .
+We first give a description of the point Q. Let A′ 6= A be the second intersection of ω
+and ωA ; define B ′ and C ′ analogously. We claim that AA′ , BB ′ and CC ′ have a common point.
+Once this claim is established, the point just constructed will be on the radical axes of the
+three pairs of circles {ω, ωA }, {ω, ωB }, {ω, ωC }. Hence it will have the same power with respect
+to ω, ωA, ωB , ωC .
+
+P′
+
+A
+
+C′
+
+ωC
+
+ω
+
+B′
+Q
+
+ωA
+
+O
+
+ωB
+B
+C
+X
+
+ℓ
+
+Z′
+
+A′
+Y
+
+P X′
+
+Z
+
+Y′
+
+We proceed to prove that AA′ , BB ′ and CC ′ intersect at one point. Let r be the circumradius of triangle ABC. Define the points X ′ , Y ′ , Z ′ as the intersections of AA′ , BB ′ , CC ′ with ℓ.
+Observe that X ′ , Y ′ , Z ′ do exist. If AA′ is parallel to ℓ then ωA is tangent to ℓ; hence X = P
+which is a contradiction. Similarly, BB ′ and CC ′ are not parallel to ℓ.
+From the powers of the point X ′ with respect to the circles ωA and ω we get
+X ′ P · (X ′ P + P X) = X ′ P · X ′ X = X ′ A′ · X ′ A = X ′ O 2 − r 2 ,
+hence
+X ′ P · P X = X ′ O 2 − r 2 − X ′ P 2 = OP 2 − r 2 .
+We argue analogously for the points Y ′ and Z ′ , obtaining
+X ′ P · P X = Y ′ P · P Y = Z ′ P · P Z = OP 2 − r 2 = k 2 .
+
+(1)
+
+In these computations all segments are regarded as directed segments. We keep the same
+convention for the sequel.
+We prove that the lines AA′ , BB ′ , CC ′ intersect at one point by Ceva’s theorem. To avoid
+distracting remarks we interpret everything projectively, i. e. whenever two lines are parallel
+they meet at a point on the line at infinity.
+
+39
+Let U, V, W be the intersections of AA′ , BB ′ , CC ′ with BC, CA, AB respectively. The idea
+, it is easier to deal with the cross-ratio
+is that although it is difficult to calculate the ratio BU
+CU
+BU BX
+/
+because we can send it to the line ℓ. With this in mind we apply Menelaus’ theorem
+CU CX
+AZ
+to the triangle ABC and obtain BX
+· CY · BZ
+= 1. Hence Ceva’s ratio can be expressed as
+CX AY
+BU BX CV CY AW AZ
+BU CV AW
+·
+·
+=
+/
+·
+/
+·
+/
+.
+CU AV BW
+CU CX AV AY BW BZ
+
+A
+
+ω
+W
+
+V
+
+Q
+
+U
+
+C
+X
+
+ℓ
+
+Z′
+
+Y
+
+B
+
+P X′
+
+Z
+
+Y′
+
+Project the line BC to ℓ from A. The cross-ratio between BC and UX equals the cross-ratio
+between ZY and X ′ X. Repeating the same argument with the lines CA and AB gives
+BU CV AW
+ZX ′ ZX XY ′ XY Y Z ′ Y Z
+·
+·
+=
+/
+·
+/
+·
+/
+CU AV BW
+Y X ′ Y X ZY ′ ZY XZ ′ XZ
+and hence
+
+ZX ′ XY ′ Y Z ′
+BU CV AW
+·
+·
+= (−1) ·
+·
+·
+.
+CU AV BW
+Y X ′ ZY ′ XZ ′
+The equations (1) reduce the problem to a straightforward computation on the line ℓ.
+For instance, the transformation t 7→ −k 2 /t preserves cross-ratio and interchanges the points
+X, Y, Z with the points X ′ , Y ′ , Z ′ . Then
+BU CV AW
+ZX ′ ZZ ′ XY ′ XZ ′
+·
+·
+= (−1) ·
+/
+·
+/
+= −1.
+CU AV BW
+Y X ′ Y Z ′ ZY ′ ZZ ′
+We proved that Ceva’s ratio equals −1, so AA′ , BB ′ , CC ′ intersect at one point Q.
+Comment 1. There is a nice projective argument to prove that AX ′ , BY ′ , CZ ′ intersect at one point.
+Suppose that ℓ and ω intersect at a pair of complex conjugate points D and E. Consider a projective
+transformation that takes D and E to [i; 1, 0] and [−i, 1, 0]. Then ℓ is the line at infinity, and ω is
+a conic through the special points [i; 1, 0] and [−i, 1, 0], hence it is a circle. So one can assume that
+AX, BY, CZ are parallel to BC, CA, AB. The involution on ℓ taking X, Y, Z to X ′ , Y ′ , Z ′ and leaving
+D, E fixed is the involution changing each direction to its perpendicular one. Hence AX, BY, CZ are
+also perpendicular to AX ′ , BY ′ , CZ ′ .
+It follows from the above that AX ′ , BY ′ , CZ ′ intersect at the orthocenter of triangle ABC.
+Comment 2. The restriction that the line ℓ does not intersect the circumcricle ω is unnecessary.
+The proof above works in general. In case ℓ intersects ω at D and E point P is the midpoint of DE,
+and some equations can be interpreted differently. For instance
+X ′ P · X ′ X = X ′ A′ · X ′ A = X ′ D · X ′ E,
+and hence the pairs X ′ X and DE are harmonic conjugates. This means that X ′ , Y ′ , Z ′ are the
+harmonic conjugates of X, Y, Z with respect to the segment DE.
+
+40
+Solution 2. First we prove that there is an inversion in space that takes ℓ and ω to parallel
+circles on a sphere. Let QR be the diameter of ω whose extension beyond Q passes through P .
+Let Π be the plane carrying our objects. In space, choose a point O such that the line QO is
+perpendicular to Π and ∠P OR = 90◦ , and apply an inversion with pole O (the radius of the
+inversion does not matter). For any object T denote by T ′ the image of T under this inversion.
+The inversion takes the plane Π to a sphere Π′ . The lines in Π are taken to circles through O,
+and the circles in Π also are taken to circles on Π′ .
+O
+ℓ′
+
+ω′
+
+P′
+ℓ
+
+R′
+
+Π′
+
+Q′
+Q
+
+P
+
+R
+ω
+Π
+
+Since the line ℓ and the circle ω are perpendicular to the plane OP Q, the circles ℓ′ and ω ′
+also are perpendicular to this plane. Hence, the planes of the circles ℓ′ and ω ′ are parallel.
+Now consider the circles A′ X ′ P ′, B ′ Y ′ P ′ and C ′ Z ′ P ′. We want to prove that either they
+have a common point (on Π′ ), different from P ′ , or they are tangent to each other.
+C′
+
+W
+
+A1
+
+B1
+
+H
+
+ω′
+
+A′
+
+B′
+C1
+ℓ′
+
+X′
+
+Y
+
+Π′
+
+′
+
+P′
+
+O
+Z′
+
+The point X ′ is the second intersection of the circles B ′ C ′ O and ℓ′ , other than O. Hence,
+the lines OX ′ and B ′ C ′ are coplanar. Moreover, they lie in the parallel planes of ℓ′ and ω ′ .
+Therefore, OX ′ and B ′ C ′ are parallel. Analogously, OY ′ and OZ ′ are parallel to A′ C ′ and A′ B ′ .
+Let A1 be the second intersection of the circles A′ X ′ P ′ and ω ′, other than A′ . The segments
+A′ A1 and P ′ X ′ are coplanar, and therefore parallel. Now we know that B ′ C ′ and A′ A1 are
+parallel to OX ′ and X ′ P ′ respectively, but these two segments are perpendicular because OP ′
+is a diameter in ℓ′ . We found that A′ A1 and B ′ C ′ are perpendicular, hence A′ A1 is the altitude
+in the triangle A′ B ′ C ′ , starting from A.
+Analogously, let B1 and C1 be the second intersections of ω ′ with the circles B ′ P ′ Y ′
+and C ′ P ′ Z ′ , other than B ′ and C ′ respectively. Then B ′ B1 and C ′ C1 are the other two altitudes in the triangle A′ B ′ C ′ .
+
+41
+Let H be the orthocenter of the triangle A′ B ′ C ′ . Let W be the second intersection of the
+line P ′ H with the sphere Π′ , other than P ′ . The point W lies on the sphere Π′ , in the plane
+of the circle A′ P ′X ′ , so W lies on the circle A′ P ′ X ′ . Similarly, W lies on the circles B ′ P ′ Y ′
+and C ′ P ′ Z ′ as well; indeed W is the second common point of the three circles.
+If the line P ′ H is tangent to the sphere then W coincides with P ′ , and P ′ H is the common
+tangent of the three circles.
+
+42
+
+Number Theory
+N1. Call admissible a set A of integers that has the following property:
+If x, y ∈ A (possibly x = y) then x2 + kxy + y 2 ∈ A for every integer k.
+Determine all pairs m, n of nonzero integers such that the only admissible set containing both m
+and n is the set of all integers.
+Solution. A pair of integers m, n fulfills the condition if and only if gcd(m, n) = 1. Suppose
+that gcd(m, n) = d > 1. The set
+A = {. . . , −2d, −d, 0, d, 2d, . . .}
+is admissible, because if d divides x and y then it divides x2 + kxy + y 2 for every integer k.
+Also m, n ∈ A and A 6= Z.
+Now let gcd(m, n) = 1, and let A be an admissible set containing m and n. We use the
+following observations to prove that A = Z:
+(i) kx2 ∈ A for every x ∈ A and every integer k.
+(ii) (x + y)2 ∈ A for all x, y ∈ A.
+To justify (i) let y = x in the definition of an admissible set; to justify (ii) let k = 2.
+Since gcd(m, n) = 1, we also have gcd(m2 , n2 ) = 1. Hence one can find integers a, b such
+that am2 + bn2 = 1. It follows from (i) that am2 ∈ A and bn2 ∈ A. Now we deduce from (ii)
+that 1 = (am2 + bn2 )2 ∈ A. But if 1 ∈ A then (i) implies k ∈ A for every integer k.
+
+43
+
+N2. Find all triples (x, y, z) of positive integers such that x ≤ y ≤ z and
+x3 (y 3 + z 3 ) = 2012(xyz + 2).
+Solution. First note that x divides 2012 · 2 = 23 · 503. If 503 | x then the right-hand side of the
+equation is divisible by 5033 , and it follows that 5032 | xyz + 2. This is false as 503 | x. Hence
+x = 2m with m ∈ {0, 1, 2, 3}. If m ≥ 2 then 26 | 2012(xyz + 2). However the highest powers
+of 2 dividing 2012 and xyz + 2 = 2m yz + 2 are 22 and 21 respectively. So x = 1 or x = 2,
+yielding the two equations
+y 3 + z 3 = 2012(yz + 2),
+
+and
+
+y 3 + z 3 = 503(yz + 1).
+
+In both cases the prime 503 = 3 · 167 + 2 divides y 3 + z 3 . We claim that 503 | y + z. This
+is clear if 503 | y, so let 503 ∤ y and 503 ∤ z. Then y 502 ≡ z 502 (mod 503) by Fermat’s little
+theorem. On the other hand y 3 ≡ −z 3 (mod 503) implies y 3·167 ≡ −z 3·167 (mod 503), i. e.
+y 501 ≡ −z 501 (mod 503). It follows that y ≡ −z (mod 503) as claimed.
+
+Therefore y + z = 503k with k ≥ 1. In view of y 3 + z 3 = (y + z) (y − z)2 + yz the two
+equations take the form
+k(y − z)2 + (k − 4)yz = 8,
+k(y − z)2 + (k − 1)yz = 1.
+
+(1)
+(2)
+
+In (1) we have (k − 4)yz ≤ 8, which implies k ≤ 4. Indeed if k > 4 then 1 ≤ (k − 4)yz ≤ 8,
+so that y ≤ 8 and z ≤ 8. This is impossible as y + z = 503k ≥ 503. Note next that y 3 + z 3
+is even in the first equation. Hence y + z = 503k is even too, meaning that k is even. Thus
+k = 2 or k = 4. Clearly (1) has no integer solutions for k = 4. If k = 2 then (1) takes the form
+(y + z)2 − 5yz = 4. Since y + z = 503k = 503 · 2, this leads to 5yz = 5032 · 22 − 4. However
+5032 · 22 − 4 is not a multiple of 5. Therefore (1) has no integer solutions.
+Equation (2) implies 0 ≤ (k − 1)yz ≤ 1, so that k = 1 or k = 2. Also 0 ≤ k(y − z)2 ≤ 1,
+hence k = 2 only if y = z. However then y = z = 1, which is false in view of y + z ≥ 503.
+Therefore k = 1 and (2) takes the form (y − z)2 = 1, yielding z − y = |y − z| = 1. Combined
+with k = 1 and y + z = 503k, this leads to y = 251, z = 252.
+In summary the triple (2, 251, 252) is the only solution.
+
+44
+
+N3. Determine all integers m ≥ 2 such that every n with m3 ≤ n ≤ m2 divides the binomial
+coefficient
+
+n
+.
+m−2n
+
+Solution. The integers in question are all prime numbers.
+First we check that all primes satisfy the condition,
+ and even a stronger one. Namely, if p
+n
+p
+is a prime then every n with 1 ≤ n ≤ 2 divides p−2n . This is true for p = 2 where n = 1 is
+the only possibility. For an odd prime p take n ∈ [1, p2 ] and consider the following identity of
+binomial coefficients:
+
+
+
+
+n−1
+n
+.
+=n·
+(p − 2n) ·
+p − 2n − 1
+p − 2n
+Since p ≥ 2n and p is odd, all factors are non-zero. If d = gcd(p − 2n, n) then d divides p,
+but d ≤ n < p and hence d = 1. It follows that p − 2n and n are relatively
+prime, and so the
+
+n
+factor n in the right-hand side divides the binomial coefficient p−2n .
+Next we show that no composite number m has the stated property. Consider two cases.
+
+
+n
+= k0 = 1 is not divisible
+• If m = 2k with k > 1, pick n = k. Then m3 ≤ n ≤ m2 but m−2n
+by k > 1.
+
+• If m is odd then there exist an odd prime p and an integer k ≥ 1 with m = p(2k + 1).
+Pick n = pk, then m3 ≤ n ≤ m2 by k ≥ 1. However
+
+
+ 
+1 pk
+(pk − 1)(pk − 2) · · · (pk − (p − 1))
+n
+1
+=
+=
+n m − 2n
+pk p
+p!
+is not an integer, because p divides the denominator but not the numerator.
+
+45
+An integer a is called friendly if the equation (m2 + n)(n2 + m) = a(m − n)3 has a
+solution over the positive integers.
+
+N4.
+
+a) Prove that there are at least 500 friendly integers in the set {1, 2, . . . , 2012}.
+b) Decide whether a = 2 is friendly.
+Solution. a) Every a of the form a = 4k − 3 with k ≥ 2 is friendly. Indeed the numbers
+m = 2k − 1 > 0 and n = k − 1 > 0 satisfy the given equation with a = 4k − 3:
+
+
+(m2 + n)(n2 + m) = (2k − 1)2 + (k − 1) (k − 1)2 + (2k − 1) = (4k − 3)k 3 = a(m − n)3 .
+Hence 5, 9, . . . , 2009 are friendly and so {1, 2, . . . , 2012} contains at least 502 friendly numbers.
+
+b) We show that a = 2 is not friendly. Consider the equation with a = 2 and rewrite its
+left-hand side as a difference of squares:
+
+1
+(m2 + n + n2 + m)2 − (m2 + n − n2 − m)2 = 2(m − n)3 .
+4
+
+Since m2 + n − n2 − m = (m − n)(m + n − 1), we can further reformulate the equation as
+
+(m2 + n + n2 + m)2 = (m − n)2 8(m − n) + (m + n − 1)2 .
+
+It follows that 8(m − n) + (m + n − 1)2 is a perfect square. Clearly m > n, hence there is an
+integer s ≥ 1 such that
+(m + n − 1 + 2s)2 = 8(m − n) + (m + n − 1)2 .
+Subtracting the squares gives s(m + n − 1 + s) = 2(m − n). Since m + n − 1 + s > m − n,
+we conclude that s < 2. Therefore the only possibility is s = 1 and m = 3n. However then
+the left-hand side of the given equation (with a = 2) is greater than m3 = 27n3 , whereas its
+right-hand side equals 16n3 . The contradiction proves that a = 2 is not friendly.
+
+Comment. A computer search shows that there are 561 friendly numbers in {1, 2, . . . , 2012}.
+
+46
+
+N5. For a nonnegative integer n define rad(n) = 1 if n = 0 or n = 1, and rad(n) = p1 p2 · · · pk
+where p1 < p2 < · · · < pk are all prime factors of n. Find all polynomials f (x) with nonnegative
+integer coefficients such that rad(f (n)) divides rad(f (nrad(n) )) for every nonnegative integer n.
+Solution 1. We are going to prove that f (x) = axm for some nonnegative integers a and
+m. If f (x) is the zero polynomial we are done, so assume that f (x) has at least one positive
+coefficient. In particular f (1) > 0.
+Let p be a prime number. The condition is that f (n) ≡ 0 (mod p) implies
+f (nrad(n) ) ≡ 0 (mod p).
+
+(1)
+
+k
+
+Since rad(nrad(n) ) = rad(n) for all k, repeated applications of the preceding implication show
+that if p divides f (n) then
+k
+
+f (nrad(n) ) ≡ 0
+
+(mod p)
+
+for all k.
+
+The idea is to construct a prime p and a positive integer n such that p − 1 divides n and p
+divides f (n). In this case, for k large enough p − 1 divides rad(n)k . Hence if (p, n) = 1 then
+k
+nrad(n) ≡ 1 (mod p) by Fermat’s little theorem, so that
+k
+
+f (1) ≡ f (nrad(n) ) ≡ 0 (mod p).
+
+(2)
+
+Suppose that f (x) = g(x)xm with g(0) 6= 0. Let t be a positive integer, p any prime factor
+of g(−t) and n = (p−1)t. So p−1 divides n and f (n) = f ((p − 1)t) ≡ f (−t) ≡ 0 (mod p), hence
+either (p, n) > 1 or (2) holds. If (p, (p−1)t) > 1 then p divides t and g(0) ≡ g(−t) ≡ 0 (mod p),
+meaning that p divides g(0).
+In conclusion we proved that each prime factor of g(−t) divides g(0)f (1) 6= 0, and thus the
+set of prime factors of g(−t) when t ranges through the positive integers is finite. This is known
+to imply that g(x) is a constant polynomial, and so f (x) = axm .
+Solution 2. Let f (x) be a polynomial with integer coefficients (not necessarily nonnegative)
+such that rad(f (n)) divides rad(f (nrad(n) )) for any nonnegative integer n. We give a complete
+description of all polynomials with this property. More precisely, we claim that if f (x) is such
+a polynomial and ξ is a root of f (x) then so is ξ d for every positive integer d.
+Therefore each root of f (x) is zero or a root of unity. In particular, if a root of unity ξ is
+a root of f (x) then 1 = ξ d is a root too (for some positive integer d). In the original problem
+f (x) has nonnegative coefficients. Then either f (x) is the zero polynomial or f (1) > 0 and
+ξ = 0 is the only possible root. In either case f (x) = axm with a and m nonnegative integers.
+To prove the claim let ξ be a root of f (x), and let g(x) be an irreducible factor of f (x) such
+that g(ξ) = 0. If 0 or 1 are roots of g(x) then either ξ = 0 or ξ = 1 (because g(x) is irreducible)
+and we are done. So assume that g(0), g(1) 6= 0. By decomposing d as a product of prime
+numbers, it is enough to consider the case d = p prime. We argue for p = 2. Since rad(2k ) = 2
+for every k, we have
+rad(f (2k )) | rad(f (22k )).
+Now we prove that g(x) divides f (x2 ). Suppose that this is not the case. Then, since g(x)
+is irreducible, there are integer-coefficient polynomials a(x), b(x) and an integer N such that
+a(x)g(x) + b(x)f (x2 ) = N.
+
+(3)
+
+Each prime factor p of g(2k ) divides f (2k ), so by rad(f (2k ))|rad(f (22k )) it also divides f (22k ).
+From the equation above with x = 2k it follows that p divides N.
+
+47
+In summary, each prime divisor of g(2k ) divides N, for all k ≥ 0. Let p1 , . . . , pn be the odd
+primes dividing N, and suppose that
+g(1) = 2α pα1 1 · · · pαnn .
+If k is divisible by ϕ(pα1 1 +1 · · · pnαn +1 ) then
+2k ≡ 1 (mod pα1 1 +1 · · · pnαn +1 ),
+yielding
+g(2k ) ≡ g(1) (mod pα1 1 +1 · · · pnαn +1 ).
+It follows that for each i the maximal power of pi dividing g(2k ) and g(1) is the same, namely pαi i .
+On the other hand, for large enough k, the maximal power of 2 dividing g(2k ) and g(0) 6= 0
+is the same. From the above, for k divisible by ϕ(pα1 1 +1 · · · pαnn +1 ) and large enough, we obtain
+that g(2k ) divides g(0) · g(1). This is impossible because g(0), g(1) 6= 0 are fixed and g(2k ) is
+arbitrarily large.
+In conclusion, g(x) divides f (x2 ). Recall that ξ is a root of f (x) such that g(ξ) = 0; then
+f (ξ 2 ) = 0, i. e. ξ 2 is a root of f (x).
+Likewise if ξ is a root of f (x) and p an arbitrary prime then ξ p is a root too. The argument
+is completely analogous, in the proof above just replace 2 by p and “odd prime” by “prime
+different from p.”
+Comment. The claim in the second solution can be proved by varying n (mod p) in (1). For instance,
+we obtain
+f (nrad(n+pk) ) ≡ 0 (mod p)
+for every positive integer k. One can prove that if (n, p) = 1 then rad(n + pk) runs through all residue
+classes r (mod p − 1) with (r, p − 1) squarefree. Hence if f (n) ≡ 0 (mod p) then f (nr ) ≡ 0 (mod p)
+for all integers r. This implies the claim by an argument leading to the identity (3).
+
+48
+n
+
+Let x and y be positive integers. If x2 − 1 is divisible by 2n y + 1 for every positive
+integer n, prove that x = 1.
+
+N6.
+
+Solution. First we prove the following fact: For every positive integer y there exist infinitely
+many primes p ≡ 3 (mod 4) such that p divides some number of the form 2n y + 1.
+Clearly it is enough to consider the case y odd. Let
+2y + 1 = pe11 · · · perr
+be the prime factorization of 2y + 1. Suppose on the contrary that there are finitely many
+primes pr+1 , . . . , pr+s ≡ 3 (mod 4) that divide some number of the form 2n y + 1 but do not
+divide 2y + 1.
+We want to find an n such that pei i ||2n y +1 for 1 ≤ i ≤ r and pi ∤ 2n y +1 for r +1 ≤ i ≤ r +s.
+For this it suffices to take
+n = 1 + ϕ(pe11 +1 · · · perr +1 p1r+1 · · · p1r+s ),
+because then
+2n y + 1 ≡ 2y + 1 (mod pe11 +1 · · · perr +1 p1r+1 · · · p1r+s ).
+The last congruence means that pe11 , . . . , perr divide exactly 2n y + 1 and no prime pr+1 , . . . , pr+s
+divides 2n y + 1. It follows that the prime factorization of 2n y + 1 consists of the prime powers
+pe11 , . . . , perr and powers of primes ≡ 1 (mod 4). Because y is odd, we obtain
+2n y + 1 ≡ pe11 · · · perr ≡ 2y + 1 ≡ 3 (mod 4).
+This is a contradiction since n > 1, and so 2n y + 1 ≡ 1 (mod 4).
+Now we proceed to the problem. If p is a prime divisor of 2n y + 1 the problem statement
+implies that xd ≡ 1 (mod p) for d = 2n . By Fermat’s little theorem the same congruence
+holds for d = p − 1, so it must also hold for d = (2n , p − 1). For p ≡ 3 (mod 4) we have
+(2n , p − 1) = 2, therefore in this case x2 ≡ 1 (mod p).
+In summary, we proved that every prime p ≡ 3 (mod 4) that divides some number of the
+form 2n y + 1 also divides x2 − 1. This is possible only if x = 1, otherwise by the above x2 − 1
+would be a positive integer with infinitely many prime factors.
+n
+
+Comment. For each x and each odd prime p the maximal power of p dividing x2 − 1 for some n is
+bounded and hence the same must be true for the numbers 2n y + 1. We infer that p2 divides 2p−1 − 1
+for each prime divisor p of 2n y + 1. However trying to reach a contradiction with this conclusion alone
+seems hopeless, since it is not even known if there are infinitely many primes p without this property.
+
+49
+
+N7. Find all n ∈ N for which there exist nonnegative integers a1 , a2 , . . . , an such that
+1
+1
+2
+n
+1
+1
++
++
+·
+·
+·
++
++
++
+·
+·
+·
++
+=
+= 1.
+2a1 2a2
+2an
+3a1 3a2
+3an
+Solution.
+numbers a1 , a2 , . . . , an exist if and only if n ≡ 1 (mod 4) or n ≡ 2 (mod 4).
+Pn Such
+k
+Let k=1 3ak = 1 with a1 , a2 , . . . , an nonnegative integers. Then 1·x1 +2·x2 +· · ·+n·xn = 3a
+with x1 , . . . , xn powers of 3 and a ≥ 0. The right-hand side is odd, and the left-hand side has
+the same parity as 1 + 2 + · · ·+ n. Hence the latter sum is odd, which implies n ≡ 1, 2 (mod 4).
+Now we prove the converse.
+Call feasible a sequence b1 , b2 , . . . , bn if there are nonnegative integers a1 , a2 , . . . , an such that
+1
+1
+1
+b2
+bn
+b1
++ a2 + · · · + an = a1 + a2 + · · · + an = 1.
+a
+1
+2
+2
+2
+3
+3
+3
+Let bk be a term of a feasible sequence b1 , b2 , . . . , bn with exponents a1 , a2 , . . . , an like above,
+and let u, v be nonnegative integers with sum 3bk . Observe that
+1
+2ak +1
+
++
+
+1
+2ak +1
+
+=
+
+1
+2ak
+
+and
+
+u
+3ak +1
+
++
+
+v
+3ak +1
+
+=
+
+bk
+.
+3ak
+
+It follows that the sequence b1 , . . . , bk−1 , u, v, bk+1, . . . , bn is feasible. The exponents ai are the
+same for the unchanged terms bi , i 6= k; the new terms u, v have exponents ak + 1.
+We state the conclusion in reverse. If two terms u, v of a sequence are replaced by one
+term u+v
+and the obtained sequence is feasible, then the original sequence is feasible too.
+3
+Denote by αn the sequence 1, 2, . . . , n. To show that αn is feasible for n ≡ 1, 2 (mod 4), we
+transform it by n − 1 replacements {u, v} 7→ u+v
+to the one-term sequence α1 . The latter is
+3
+feasible, with a1 = 0. Note that if m and 2m are terms of a sequence then {m, 2m} 7→ m, so
+2m can be ignored if necessary.
+Let n ≥ 16. We prove that αn can be reduced to αn−12 by 12 operations. Write n = 12k + r
+where k ≥ 1 and 0 ≤ r ≤ 11. If 0 ≤ r ≤ 5 then the last 12 terms of αn can be partitioned into
+2 singletons {12k − 6}, {12k} and the following 5 pairs:
+{12k − 6 − i, 12k − 6 + i}, i = 1, . . . , 5 − r;
+
+{12k − j, 12k + j}, j = 1, . . . , r.
+
+(There is only one kind of pairs if r ∈ {0, 5}.) One can ignore 12k − 6 and 12k since αn
+contains 6k − 3 and 6k. Furthermore the 5 operations {12k − 6 − i, 12k − 6 + i} 7→ 8k − 4 and
+{12k − j, 12k + j} 7→ 8k remove the 10 terms in the pairs and bring in 5 new terms equal
+to 8k − 4 or 8k. All of these can be ignored too as 4k − 2 and 4k are still present in the
+sequence. Indeed 4k ≤ n − 12 is equivalent to 8k ≥ 12 − r, which is true for r ∈ {4, 5}. And if
+r ∈ {0, 1, 2, 3} then n ≥ 16 implies k ≥ 2, so 8k ≥ 12 − r also holds. Thus αn reduces to αn−12 .
+The case 6 ≤ r ≤ 11 is analogous. Consider the singletons {12k}, {12k + 6} and the 5 pairs
+{12k − i, 12k + i}, i = 1, . . . , 11 − r;
+
+{12k + 6 − j, 12k + 6 + j}, j = 1, . . . , r − 6.
+
+Ignore the singletons like before, then remove the pairs via operations {12k − i, 12k + i} 7→ 8k
+and {12k + 6 − j, 12k + 6 + j} 7→ 8k + 4. The 5 newly-appeared terms 8k and 8k + 4 can be
+ignored too since 4k + 2 ≤ n − 12 (this follows from k ≥ 1 and r ≥ 6). We obtain αn−12 again.
+The problem reduces to 2 ≤ n ≤ 15. In fact n ∈ {2, 5, 6, 9, 10, 13, 14} by n ≡ 1, 2 (mod 4).
+The cases n = 2, 6, 10, 14 reduce to n = 1, 5, 9, 13 respectively because the last even term of αn
+can be ignored. For n = 5 apply {4, 5} 7→ 3, then {3, 3} 7→ 2, then ignore the 2 occurrences
+of 2. For n = 9 ignore 6 first, then apply {5, 7} 7→ 4, {4, 8} 7→ 4, {3, 9} 7→ 4. Now ignore
+the 3 occurrences of 4, then ignore 2. Finally n = 13 reduces to n = 10 by {11, 13} 7→ 8 and
+ignoring 8 and 12. The proof is complete.
+
+50
+
+N8. Prove that for every prime p > 100 and every integer r there exist two integers a and b
+such that p divides a2 + b5 − r.
+Solution 1. Throughout the solution, all congruence relations are meant modulo p.
+Fix p, and let P = {0, 1, . . . , p − 1} be the set of residue classes modulo p. For every r ∈ P,
+let Sr = (a, b) ∈ P × P : a2 + b5 ≡ r , and let sr = |Sr |. Our aim is to prove sr > 0 for
+all r ∈ P.
+We will use the well-known fact that for every residue class r ∈ P and every positive
+integer k, there are at most k values x ∈ P such that xk ≡ r.
+Lemma. Let N be the number of quadruples (a, b, c, d) ∈ P 4 for which a2 + b5 ≡ c2 + d5 . Then
+N=
+
+X
+
+s2r
+
+(a)
+
+r∈P
+
+and
+N ≤ p(p2 + 4p − 4).
+
+(b)
+
+Proof. (a) For each residue class r there exist exactly sr pairs (a, b) with a2 + b5 ≡ r and sr
+pairs (c, d) with c2 + d5 ≡ r. So there are s2r quadruples with a2 + b5 ≡ c2 + d5 ≡ r. Taking the
+sum over all r ∈ P, the statement follows.
+(b) Choose an arbitrary pair (b, d) ∈ P and look for the possible values of a, c.
+1. Suppose that b5 ≡ d5 , and let k be the number of such pairs (b, d). The value b can be
+chosen in p different ways. For b ≡ 0 only d = 0 has this property; for the nonzero values of b
+there are at most 5 possible values for d. So we have k ≤ 1 + 5(p − 1) = 5p − 4.
+The values a and c must satisfy a2 ≡ c2 , so a ≡ ±c, and there are exactly 2p − 1 such
+pairs (a, c).
+2. Now suppose b5 6≡ d5 . In this case a and c must be distinct. By (a − c)(a + c) = d5 − b5 ,
+the value of a − c uniquely determines a + c and thus a and c as well. Hence, there are p − 1
+suitable pairs (a, c).
+Thus, for each of the k pairs (b, d) with b5 ≡ d5 there are 2p − 1 pairs (a, c), and for each of
+the other p2 − k pairs (b, d) there are p − 1 pairs (a, c). Hence,
+N = k(2p − 1) + (p2 − k)(p − 1) = p2 (p − 1) + kp ≤ p2 (p − 1) + (5p − 4)p = p(p2 + 4p − 4). 
+To prove the statement of the problem, suppose that Sr = ∅ for some r ∈ P; obviously
+r 6≡ 0. Let T = x10 : x ∈ P \ {0} be the set of nonzero 10th powers modulo p. Since each
+residue class is the 10th power of at most 10 elements in P, we have |T | ≥ p−1
+≥ 4 by p > 100.
+10
+10
+For every t ∈ T , we have Str = ∅. Indeed, if (x, y) ∈ Str and t ≡ z then
+(z −5 x)2 + (z −2 y)5 ≡ t−1 (x2 + y 5) ≡ r,
+≥ 4 empty sets among S1 , . . . , Sp−1 , and there
+so (z −5 x, z −2 y) ∈ Sr . So, there are at least p−1
+10
+are at most p − 4 nonzero values among s0 , s2 , . . . , sp−1. Then by the AM-QM inequality we
+obtain
+
+2
+X
+X
+1 
+|P × P|2
+p4
+N=
+s2r ≥
+sr  =
+=
+> p(p2 + 4p − 4),
+p−4
+p−4
+p−4
+r∈P\rT
+
+which is impossible by the lemma.
+
+r∈P\rT
+
+51
+Solution 2. If 5 ∤ p − 1, then all modulo p residue classes are complete fifth powers and the
+statement is trivial. So assume that p = 10k + 1 where k ≥ 10. Let g be a primitive root
+modulo p.
+We will use the following facts:
+(F1) If some residue class x is not quadratic then x(p−1)/2 ≡ −1 (mod p).
+(F2) For every integer d, as a simple corollary of the summation formula for geometric progressions,
+(
+2k−1
+X
+2k if 2k d
+(mod p).
+g 5di ≡
+0
+if
+2k
+6
+|
+d
+i=0
+Suppose that, contrary to the statement, some modulo p residue class r cannot be expressed
+as a2 + b5 . Of course r 6≡ 0 (mod p). By (F1) we have (r − b5 )(p−1)/2 = (r − b5 )5k ≡ −1 (mod p)
+for all residue classes b.
+For t = 1, 2 . . . , k − 1 consider the sums
+S(t) =
+
+2k−1
+X
+i=0
+
+By the indirect assumption and (F2),
+S(t) =
+
+2k−1
+X
+i=0
+
+r − (g i )5
+
+r − g 5i
+
+5k 5ti
+g .
+
+2k−1
+X
+X
+5k 5ti 2k−1
+g ≡
+(−1)g 5ti ≡ −
+g 5ti ≡ 0
+i=0
+
+(mod p)
+
+i=0
+
+because 2k cannot divide t.
+On the other hand, by the binomial theorem,
+!
+ 
+
+5k
+2k−1
+5k 
+X
+X X
+
+5k 5k−j
+j
+5i
+5ti
+j 5k
+r 5k−j
+r
+−g
+g =
+(−1)
+S(t) =
+j
+j
+j=0
+i=0
+j=0
+(
+
+
+5k
+X
+5k 5k−j 2k if 2k j + t
+r
+≡
+(−1)j
+(mod p).
+j
+0
+if
+2k
+6
+|
+j
++
+t
+j=0
+
+2k−1
+X
+i=0
+
+g 5(j+t)i
+
+!
+
+≡
+
+Since 1 ≤ j + t < 6k, the number 2k divides j + t only for j = 2k − t and j = 4k − t. Hence,
+
+
+
+
+
+5k
+5k
+k+t
+3k+t
+t
+· 2k (mod p),
+r
+r
++
+0 ≡ S(t) ≡ (−1)
+4k − t
+2k − t
+
+
+
+
+5k
+5k
+2k
+≡ 0 (mod p).
+r +
+4k − t
+2k − t
+Taking this for t = 1, 2 and eliminating r, we get
+
+
+
+ 
+ 
+
+
+ 
+
+5k
+5k
+5k
+5k
+5k
+5k
+2k
+2k
+r +
+−
+r +
+0≡
+4k − 2
+2k − 2
+2k − 1
+4k − 1
+2k − 1
+2k − 2
+
+
+ 
+
+
+5k
+5k
+5k
+5k
+−
+=
+2k − 1 4k − 2
+2k − 2 4k − 1
+
+
+2
+(5k)!
+=
+(2k − 1)(k + 2) − (3k + 2)(4k − 1)
+(2k − 1)!(3k + 2)!(4k − 1)!(k + 2)!
+−(5k)!2 · 2k(5k + 1)
+(mod p).
+=
+(2k − 1)!(3k + 2)!(4k − 1)!(k + 2)!
+But in the last expression none of the numbers is divisible by p = 10k + 1, a contradiction.
+
+52
+Comment 1. The argument in the second solution is valid whenever k ≥ 3, that is for all primes
+p = 10k + 1 except p = 11. This is an exceptional case when the statement is not true; r = 7 cannot
+be expressed as desired.
+Comment 2. The statement is true in a more general setting: for every positive integer n, for all
+sufficiently large p, each residue class modulo p can be expressed as a2 + bn . Choosing t = 3 would
+allow using the Cauchy-Davenport theorem (together with some analysis on the case of equality).
+In the literature more general results are known. For instance, the statement easily follows from
+the Hasse-Weil bound.
+
+

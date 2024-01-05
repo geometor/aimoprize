@@ -1,0 +1,48 @@
+Fourteenth International Olympiad, 1972
+1972/1.
+Prove that from a set of ten distinct two-digit numbers (in the decimal system), it is possible to select two disjoint subsets whose members have the
+same sum.
+
+1972/2.
+Prove that if n ≥ 4, every quadrilateral that can be inscribed in a circle can
+be dissected into n quadrilaterals each of which is inscribable in a circle.
+
+1972/3.
+Let m and n be arbitrary non-negative integers. Prove that
+(2m)!(2n)!
+m0n!(m + n)!
+is an integer. (0! = 1.)
+
+1972/4.
+Find all solutions (x1 , x2 , x3 , x4 , x5 ) of the system of inequalities
+(x21 − x3 x5 )(x22 − x3 x5 )
+(x22 − x4 x1 )(x23 − x4 x1 )
+(x23 − x5 x2 )(x24 − x5 x2 )
+(x24 − x1 x3 )(x25 − x1 x3 )
+(x25 − x2 x4 )(x21 − x2 x4 )
+
+≤
+≤
+≤
+≤
+≤
+
+0
+0
+0
+0
+0
+
+where x1 , x2 , x3 , x4 , x5 are positive real numbers.
+
+1972/5.
+Let f and g be real-valued functions defined for all real values of x and y,
+and satisfying the equation
+f (x + y) + f (x − y) = 2f (x)g(y)
+for all x, y. Prove that if f (x) is not identically zero, and if |f (x)| ≤ 1 for all
+x, then |g(y)| ≤ 1 for all y.
+
+1972/6.
+Given four distinct parallel planes, prove that there exists a regular tetrahedron with a vertex on each plane.
+
+

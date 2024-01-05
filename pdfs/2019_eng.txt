@@ -1,0 +1,52 @@
+English (eng), day 1
+
+Tuesday, July 16, 2019
+Problem 1. Let Z be the set of integers. Determine all functions f : Z → Z such that, for all
+integers a and b,
+f (2a) + 2f (b) = f (f (a + b)).
+Problem 2. In triangle ABC, point A1 lies on side BC and point B1 lies on side AC. Let P and Q
+be points on segments AA1 and BB1 , respectively, such that P Q is parallel to AB. Let P1 be a point
+on line P B1 , such that B1 lies strictly between P and P1 , and ∠P P1 C = ∠BAC. Similarly, let Q1
+be a point on line QA1 , such that A1 lies strictly between Q and Q1 , and ∠CQ1 Q = ∠CBA.
+Prove that points P , Q, P1 , and Q1 are concyclic.
+Problem 3. A social network has 2019 users, some pairs of whom are friends. Whenever user A
+is friends with user B, user B is also friends with user A. Events of the following kind may happen
+repeatedly, one at a time:
+Three users A, B, and C such that A is friends with both B and C, but B and C are
+not friends, change their friendship statuses such that B and C are now friends, but A is
+no longer friends with B, and no longer friends with C. All other friendship statuses are
+unchanged.
+Initially, 1010 users have 1009 friends each, and 1009 users have 1010 friends each. Prove that there
+exists a sequence of such events after which each user is friends with at most one other user.
+
+Language: English
+
+Time: 4 hours and 30 minutes
+Each problem is worth 7 points
+
+English (eng), day 2
+
+Wednesday, July 17, 2019
+Problem 4. Find all pairs (k, n) of positive integers such that
+k! = (2n − 1)(2n − 2)(2n − 4) · · · (2n − 2n−1 ).
+Problem 5. The Bank of Bath issues coins with an H on one side and a T on the other. Harry has
+n of these coins arranged in a line from left to right. He repeatedly performs the following operation:
+if there are exactly k > 0 coins showing H, then he turns over the k th coin from the left; otherwise,
+all coins show T and he stops. For example, if n = 3 the process starting with the configuration
+T HT would be T HT → HHT → HT T → T T T , which stops after three operations.
+(a) Show that, for each initial configuration, Harry stops after a finite number of operations.
+(b) For each initial configuration C, let L(C) be the number of operations before Harry stops. For
+example, L(T HT ) = 3 and L(T T T ) = 0. Determine the average value of L(C) over all 2n
+possible initial configurations C.
+Problem 6. Let I be the incentre of acute triangle ABC with AB 6= AC. The incircle ω of ABC is
+tangent to sides BC, CA, and AB at D, E, and F , respectively. The line through D perpendicular
+to EF meets ω again at R. Line AR meets ω again at P . The circumcircles of triangles P CE
+and P BF meet again at Q.
+Prove that lines DI and P Q meet on the line through A perpendicular to AI.
+
+Language: English
+
+Time: 4 hours and 30 minutes
+Each problem is worth 7 points
+
+

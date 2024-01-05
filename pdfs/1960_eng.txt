@@ -1,0 +1,53 @@
+Second International Olympiad, 1960
+1960/1.
+Determine all three-digit numbers N having the property that N is divisible
+by 11, and N/11 is equal to the sum of the squares of the digits of N.
+
+1960/2.
+For what values of the variable x does the following inequality hold:
+4x2
+√
+< 2x + 9?
+(1 − 1 + 2x)2
+
+1960/3.
+In a given right triangle ABC, the hypotenuse BC, of length a, is divided
+into n equal parts (n an odd integer). Let α be the acute angle subtending,
+from A, that segment which contains the midpoint of the hypotenuse. Let h
+be the length of the altitude to the hypotenuse of the triangle. Prove:
+4nh
+tan α = 2
+.
+(n − 1)a
+
+1960/4.
+Construct triangle ABC, given ha , hb (the altitudes from A and B) and ma ,
+the median from vertex A.
+
+1960/5.
+Consider the cube ABCDA0 B 0 C 0 D0 (with face ABCD directly above face
+A0 B 0 C 0 D0 ).
+(a) Find the locus of the midpoints of segments XY, where X is any point
+of AC and Y is any point of B 0 D0 .
+(b) Find the locus of points Z which lie on the segments XY of part (a) with
+ZY = 2XZ.
+
+1960/6.
+Consider a cone of revolution with an inscribed sphere tangent to the base
+of the cone. A cylinder is circumscribed about this sphere so
+that one of its bases lies in the base of the cone. Let V1 be the volume of the
+cone and V2 the volume of the cylinder.
+(a) Prove that V1 6= V2 .
+(b) Find the smallest number k for which V1 = kV2 , for this case, construct
+the angle subtended by a diameter of the base of the cone at the vertex of
+the cone.
+
+1960/7.
+An isosceles trapezoid with bases a and c and altitude h is given.
+(a) On the axis of symmetry of this trapezoid, find all points P such that
+both legs of the trapezoid subtend right angles at P.
+(b) Calculate the distance of P from either base.
+(c) Determine under what conditions such points P actually exist. (Discuss
+various cases that might arise.)
+
+

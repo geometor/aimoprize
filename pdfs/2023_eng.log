@@ -1,0 +1,125 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdfcslatex 2023.10.25)  18 DEC 2023 15:57
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**2023_eng.pdf
+(./2023_eng.pdf
+***** WARNING ******** CSLaTeX is obsolete, don't use it please *****
+***** You can use ``normal'' LaTeX+Babel or XeLaTeX+polyglossia *****
+L3 programming layer <2022-01-21>
+Loading CZ hyphenation patterns: Pavel Sevecek, v3, 1995
+Loading SK hyphenation patterns: Jana Chlebikova, 1992
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 5
+      0 obj
+? 
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no < in font nullfont!
+Missing character: There is no < in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no x in font nullfont!
+
+! LaTeX Error: Unicode character ^^da^^a5 (U+06A5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 x^^da^^a5
+             Xy|^^Se^^de^^9f^^P&^^94^^Z^^8bP^^b3^^ea^^L^^ceD^^b4 *- r^^ad'E^...
+
+? 
+! Interruption.
+\GenericError  ...                                
+                                                  \endgroup 
+l.5 x^^da^^a5
+             Xy|^^Se^^de^^9f^^P&^^94^^Z^^8bP^^b3^^ea^^L^^ceD^^b4 *- r^^ad'E^...
+
+? 
+! Emergency stop.
+\GenericError  ...                                
+                                                  \endgroup 
+l.5 x^^da^^a5
+             Xy|^^Se^^de^^9f^^P&^^94^^Z^^8bP^^b3^^ea^^L^^ceD^^b4 *- r^^ad'E^...
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 17 strings out of 480304
+ 407 string characters out of 5897607
+ 284947 words of memory out of 5000000
+ 17996 multiletter control sequences out of 15000+600000
+ 469259 words of font info for 28 fonts, out of 8000000 for 9000
+ 24 hyphenation exceptions out of 8191
+ 13i,0n,12p,217b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

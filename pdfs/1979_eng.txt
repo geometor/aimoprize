@@ -1,0 +1,64 @@
+Twenty-first International Olympiad, 1979
+1979/1. Let p and q be natural numbers such that
+p
+1 1 1
+1
+1
+= 1 − + − + ··· −
++
+.
+q
+2 3 4
+1318 1319
+Prove that p is divisible by 1979.
+1979/2. A prism with pentagons A1 A2 A3 A4 A5 and B1 B2 B3 B4 B5 as top and
+bottom faces is given. Each side of the two pentagons and each of the linesegments Ai Bj for all i, j = 1, ..., 5, is colored either red or green. Every
+triangle whose vertices are vertices of the prism and whose sides have all
+been colored has two sides of a different color. Show that all 10 sides of the
+top and bottom faces are the same color.
+1979/3. Two circles in a plane intersect. Let A be one of the points of
+intersection. Starting simultaneously from A two points move with constant
+speeds, each point travelling along its own circle in the same sense. The two
+points return to A simultaneously after one revolution. Prove that there is
+a fixed point P in the plane such that, at any time, the distances from P to
+the moving points are equal.
+1979/4. Given a plane π, a point P in this plane and a point Q not in π,
+find all points R in π such that the ratio (QP + P A)/QR is a maximum.
+1979/5. Find all real numbers a for which there exist non-negative real
+numbers x1 , x2 , x3 , x4 , x5 satisfying the relations
+5
+X
+k=1
+
+kxk = a,
+
+5
+X
+k=1
+
+k 3 xk = a2 ,
+
+5
+X
+
+k 5 xk = a 3 .
+
+k=1
+
+1979/6. Let A and E be opposite vertices of a regular octagon. A frog starts
+jumping at vertex A. From any vertex of the octagon except E, it may jump
+to either of the two adjacent vertices. When it reaches vertex E, the frog
+stops and stays there.. Let an be the number of distinct paths of exactly n
+jumps ending at E. Prove that a2n−1 = 0,
+1
+a2n = √ (xn−1 − y n−1 ), n = 1, 2, 3, · · · ,
+2
+√
+√
+where x = 2 + 2 and y = 2 − 2.
+Note. A path of n jumps is a sequence of vertices (P0 , ..., Pn ) such that
+(i) P0 = A, Pn = E;
+(ii) for every i, 0 ≤ i ≤ n − 1, Pi is distinct from E;
+(iii) for every i, 0 ≤ i ≤ n − 1, Pi and Pi+1 are adjacent.
+
+

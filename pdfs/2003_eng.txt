@@ -1,0 +1,27 @@
+44th IMO 2003
+
+Problem 1. S is the set {1, 2, 3, . . . , 1000000}. Show that for any subset A
+of S with 101 elements we can find 100 distinct elements xi of S, such that
+the sets {a + xi |a ∈ A} are all pairwise disjoint.
+2
+
+Problem 2. Find all pairs (m, n) of positive integers such that 2mn2m−n3 +1
+is a positive integer.
+Problem 3. A convex hexagon has the property
+√that for any pair of opposite
+sides the distance between their midpoints is 3/2 times the sum of their
+lengths Show that all the hexagon’s angles are equal.
+Problem 4. ABCD is cyclic. The feet of the perpendicular from D to the
+lines AB, BC, CA are P, Q, R respectively. Show that the angle bisectors of
+ABC and CDA meet on the line AC iff RP = RQ.
+Problem 5. Given n > 2 and reals x1 ≤ x2 ≤ · · · ≤ xn , show that
+P
+P
+( i,j |xi − xj |)2 ≤ 32 (n2 − 1) i,j (xi − xj )2 . Show that we have equality iff
+the sequence is an arithmetic progression.
+Problem 6. Show that for each prime p, there exists a prime q such that
+np − p is not divisible by q for any positive integer n.
+
+1
+
+

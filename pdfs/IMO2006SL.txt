@@ -1,0 +1,3555 @@
+47th International Mathematical Olympiad
+Slovenia 2006
+
+Shortlisted Problems with Solutions
+
+Contents
+Contributing Countries & Problem Selection Committee
+
+5
+
+Algebra
+Problem A1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem A2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem A3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem A4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem A5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem A6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+7
+7
+9
+10
+13
+15
+17
+
+Combinatorics
+Problem C1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem C2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem C3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem C4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem C5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem C6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem C7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+19
+19
+21
+23
+25
+27
+29
+31
+
+Geometry
+Problem G1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G9 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G10 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+35
+35
+36
+38
+39
+40
+42
+45
+46
+48
+51
+
+Number Theory
+Problem N1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem N2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem N3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem N4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem N5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem N6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem N7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+55
+55
+56
+57
+58
+59
+60
+63
+
+3
+
+Contributing Countries
+Argentina, Australia, Brazil, Bulgaria, Canada, Colombia,
+Czech Republic, Estonia, Finland, France, Georgia, Greece,
+Hong Kong, India, Indonesia, Iran, Ireland, Italy, Japan,
+Republic of Korea, Luxembourg, Netherlands, Poland, Peru,
+Romania, Russia, Serbia and Montenegro, Singapore, Slovakia,
+South Africa, Sweden, Taiwan, Ukraine, United Kingdom,
+United States of America, Venezuela
+
+Problem Selection Committee
+Andrej Bauer
+Robert Geretschläger
+Géza Kós
+Marcin Kuczma
+Svetoslav Savchev
+
+Algebra
+
+A1. A sequence of real numbers a0 , a1 , a2 , . . . is defined by the formula
+ai+1 = bai c · hai i
+
+for i ≥ 0;
+
+here a0 is an arbitrary real number, bai c denotes the greatest integer not exceeding ai , and
+hai i = ai − bai c. Prove that ai = ai+2 for i sufficiently large.
+(Estonia)
+Solution. First note that if a0 ≥ 0, then all ai ≥ 0. For ai ≥ 1 we have (in view of hai i < 1
+and bai c > 0)
+bai+1 c ≤ ai+1 = bai c · hai i < bai c;
+the sequence bai c is strictly decreasing as long as its terms are in [1, ∞). Eventually there
+appears a number from the interval [0, 1) and all subsequent terms are 0.
+Now pass to the more interesting situation where a0 < 0; then all ai ≤ 0. Suppose the
+sequence never hits 0. Then we have bai c ≤ −1 for all i, and so
+1 + bai+1 c > ai+1 = bai c · hai i > bai c;
+this means that the sequence bai c is nondecreasing. And since all its terms are integers from
+(−∞, −1], this sequence must be constant from some term on:
+bai c = c
+
+for i ≥ i0 ;
+
+c a negative integer.
+
+The defining formula becomes
+ai+1 = c · hai i = c(ai − c) = cai − c2 .
+Consider the sequence
+bi = ai −
+It satisfies the recursion rule
+bi+1 = ai+1 −
+
+c2
+.
+c−1
+
+(1)
+
+c2
+c2
+= cai − c2 −
+= cbi ,
+c−1
+c−1
+
+implying
+bi = ci−i0 bi0
+
+for i ≥ i0 .
+
+(2)
+
+Since all the numbers ai (for i ≥ i0 ) lie in [c, c + 1), the sequence (bi ) is bounded. The equation
+(2) can be satisfied only if either bi0 = 0 or |c| = 1, i.e., c = −1.
+
+8
+In the first case, bi = 0 for all i ≥ i0 , so that
+ai =
+
+c2
+c−1
+
+for i ≥ i0 .
+
+In the second case, c = −1, equations (1) and (2) say that
+(
+ai0
+for i = i0 , i0 + 2, i0 + 4, . . . ,
+1
+i−i0
+ai = − + (−1) bi0 =
+2
+1 − ai0 for i = i0 + 1, i0 + 3, i0 + 5, . . . .
+Summarising, we see that (from some point on) the sequence (ai ) either is constant or takes
+alternately two values from the interval (−1, 0). The result follows.
+Comment. There is nothing mysterious in introducing the sequence (bi ). The sequence (ai ) arises by
+iterating the function x 7→ cx − c2 whose unique fixed point is c2 /(c − 1).
+
+9
+
+A2. The sequence of real numbers a0 , a1 , a2 , . . . is defined recursively by
+a0 = −1,
+
+n
+X
+an−k
+
+k+1
+k=0
+
+= 0 for n ≥ 1.
+
+Show that an > 0 for n ≥ 1.
+
+(Poland)
+
+Solution. The proof goes by induction. For n = 1 the formula yields a1 = 1/2. Take n ≥ 1,
+assume a1 , . . . , an > 0 and write the recurrence formula for n and n + 1, respectively as
+n
+X
+
+ak
+=0
+n
+−
+k
++
+1
+k=0
+
+and
+
+n+1
+X
+
+ak
+= 0.
+n
+−
+k
++
+2
+k=0
+
+Subtraction yields
+n
+X
+ak
+ak
+− (n + 1)
+0 = (n + 2)
+n−k+2
+n−k+1
+k=0
+k=0
+
+
+n
+X
+n+2
+n+1
+= (n + 2)an+1 +
+ak .
+−
+n
+−
+k
++
+2
+n
+−
+k
++
+1
+k=0
+n+1
+X
+
+The coefficient of a0 vanishes, so
+
+n 
+n
+n+1
+k
+1 X
+n+2
+1 X
+ak =
+−
+ak .
+an+1 =
+n + 2 k=1 n − k + 1 n − k + 2
+n + 2 k=1 (n − k + 1)(n − k + 2)
+The coefficients of a1 , , . . . , an are all positive. Therefore, a1 , . . . , an > 0 implies an+1 > 0.
+Comment.
+Students familiar with the technique of generating functions will immediately recognise
+P
+an xn as the power series expansion of x/ ln(1 − x) (with value −1 at 0). But this can be a trap;
+attempts along these lines lead to unpleasant differential equations and integrals hard to handle. Using
+only tools from real analysis (e.g. computing the coefficients from the derivatives) seems very difficult.
+On the other hand, the coefficients can be approached applying complex contour integrals and some
+other techniques from complex analysis and an attractive formula can be obtained for the coefficients:
+Z ∞
+dx
+
+(n ≥ 1)
+an =
+xn π 2 + log2 (x − 1)
+1
+
+which is evidently positive.
+
+10
+
+A3. The sequence c0 , c1 , . . . , cn , . . . is defined by c0 = 1, c1 = 0 and cn+2 = cn+1 + cn for n ≥ 0.
+Consider the set
+P S of ordered
+P pairs (x, y) for which there is a finite set J of positive integers
+such that x = j∈J cj , y = j∈J cj−1 . Prove that there exist real numbers α, β and m, M with
+the following property: An ordered pair of nonnegative integers (x, y) satisfies the inequality
+m < αx + βy < M
+if and only if (x, y) ∈ S.
+
+N. B. A sum over the elements of the empty set is assumed to be 0.
+(Russia)
+
+√
+√
+Solution. Let ϕ = (1 + 5)/2 and ψ = (1 − 5)/2 be the roots of the quadratic equation
+t2 − t − 1 = 0. So ϕψ = −1, ϕ + ψ = 1 and 1 + ψ = ψ 2 . An easy induction shows that the
+general term cn of the given sequence satisfies
+cn =
+
+ϕn−1 − ψ n−1
+ϕ−ψ
+
+for n ≥ 0.
+
+Suppose that the numbers α and β have the stated property, for appropriately chosen m and M.
+Since (cn , cn−1 ) ∈ S for each n, the expression
+
+
+
+α
+β
+1 
+αcn + βcn−1 = √ ϕn−1 − ψ n−1 + √ ϕn−2 − ψ n−2 = √ (αϕ + β)ϕn−2 − (αψ + β)ψ n−2
+5
+5
+5
+
+is bounded as n grows to infinity. Because ϕ > 1 and −1 < ψ < 0, this implies αϕ + β = 0.
+To satisfy αϕ + β = 0, one can set for instance α = ψ, β = 1. We now find the required m
+and M for this choice of α and β.
+Note first that the above displayed equation gives cn ψ + cn−1 = ψ n−1 , n ≥ 1. In the sequel,
+we denoteP
+the pairs in SP
+by (aJ , bJ ), where J is a finitePsubset of the set N of positive integers
+and aJ = j∈J cj , bJ = j∈J cj−1 . Since ψaJ + bJ = j∈J (cj ψ + cj−1 ), we obtain
+ψaJ + bJ =
+
+X
+
+ψ j−1
+
+j∈J
+
+for each (aJ , bJ ) ∈ S.
+
+(1)
+
+On the other hand, in view of −1 < ψ < 0,
+∞
+∞
+X
+X
+X
+1
+ψ
+2j+1
+j−1
+=
+ψ
+<
+ψ
+<
+ψ 2j =
+= 1 − ψ = ϕ.
+−1 =
+2
+1−ψ
+1 − ψ2
+j=0
+j=0
+j∈J
+
+Therefore, according to (1),
+−1 < ψaJ + bJ < ϕ
+
+for each (aJ , bJ ) ∈ S.
+
+Thus m = −1 and M = ϕ is an appropriate choice.
+Conversely, we prove that if an ordered pair of nonnegative integers (x, y) satisfies the
+inequality −1 < ψx + y < ϕ then (x, y) ∈ S.
+
+11
+Lemma. Let x, y be nonnegative integers such that −1 < ψx + y < ϕ. Then there exists a
+subset J of N such that
+X
+ψx + y =
+ψ j−1
+(2)
+j∈J
+
+Proof. For x = y = 0 it suffices to choose the empty subset of N as J, so let at least one of x, y
+be nonzero. There exist representations of ψx + y of the form
+ψx + y = ψ i1 + · · · + ψ ik
+where i1 ≤ · · · ≤ ik is a sequence of nonnegative integers, not necessarily distinct. For instance,
+we can take x summands ψ 1 = ψ and y summands ψ 0 = 1. Consider all such representations
+of minimum length k and focus on the ones for which i1 has the minimum possible value j1 .
+Among them, consider the representations where i2 has the minimum possible value j2 . Upon
+choosing jP
+3 , . . . , jk analogously, we obtain a sequence j1 ≤ · · · ≤ jk which clearly satisfies
+ψx + y = kr=1 ψ jr . To prove the lemma, it suffices to show that j1 , . . . , jk are pairwise distinct.
+Suppose on the contrary that jr = jr+1 for some r = 1, . . . , k − 1. Let us consider the
+case jr ≥ 2 first. Observing that 2ψ 2 = 1 + ψ 3 , we replace jr and jr+1 by jr − 2 and jr + 1,
+respectively. Since
+ψ jr + ψ jr+1 = 2ψ jr = ψ jr −2 (1 + ψ 3 ) = ψ jr −2 + ψ jr +1 ,
+the new sequence also represents ψx + y as needed, and the value of ir in it contradicts the
+minimum choice of jr .
+P
+Let jr = jr+1 = 0. Then the sum ψx + y = kr=1 ψ jr contains at least two summands equal
+to ψ 0 = 1. On the other hand js 6= 1 for all s, because the equality 1 + ψ = ψ 2 implies that a
+representation of minimum length cannot contain consecutive ir ’s. It follows that
+ψx + y =
+
+k
+X
+r=1
+
+ψ jr > 2 + ψ 3 + ψ 5 + ψ 7 + · · · = 2 − ψ 2 = ϕ,
+
+contradicting the condition P
+of the lemma.
+Let jr = jr+1 = 1; then kr=1 ψ jr contains at least two summands equal to ψ 1 = ψ. Like in
+the case jr = jr+1 = 0, we also infer that js 6= 0 and js 6= 2 for all s. Therefore
+ψx + y =
+
+k
+X
+r=1
+
+ψ jr < 2ψ + ψ 4 + ψ 6 + ψ 8 + · · · = 2ψ − ψ 3 = −1,
+
+which is a contradiction again. The conclusion follows. 
+Now let the ordered pair (x, y) satisfy −1 < ψx + y < ϕ; hence the lemma applies to (x, y).
+Let J ⊂ N be such that (2) holds. Comparing (1) and (2), we conclude that ψx + y = ψaJ + bJ .
+Now, x, y, aJ and bJ are integers, and ψ is irrational. So the last equality implies x = aJ and
+y = bJ . This shows that the numbers α = ψ, β = 1, m = −1, M = ϕ meet the requirements.
+
+Comment. We present another way to prove the lemma, constructing the set J inductively. For
+x = y = 0, choose J = ∅. We induct on n = 3x + 2y. Suppose that an appropriate set J exists when
+3x + 2y < n. Now assume 3x + 2y = n > 0. The current set J should be
+either
+
+1 ≤ j1 < j2 < · · · < jk
+
+or
+
+j1 = 0, 1 ≤ j2 < · · · < jk .
+
+These sets fulfil the condition if
+ψx + y
+= ψ i1 −1 + · · · + ψ ik −1
+ψ
+
+or
+
+ψx + y − 1
+= ψ i2 −1 + · · · + ψ ik −1 ,
+ψ
+
+12
+respectively; therefore it suffices to find an appropriate set for ψx+y
+or ψx+y−1
+, respectively.
+ψ
+ψ
+Consider ψx+y
+ψ . Knowing that
+ψx + y
+= x + (ψ − 1)y = ψy + (x − y),
+ψ
+∈ (−1, ϕ)
+let x0 = y, y 0 = x − y and test the induction hypothesis on these numbers. We require ψx+y
+ψ
+which is equivalent to
+ψx + y ∈ (ϕ · ψ, (−1) · ψ) = (−1, −ψ).
+(3)
+
+Relation (3) implies y 0 = x − y ≥ −ψx − y > ψ > −1; therefore x0 , y 0 ≥ 0. Moreover, we have
+3x0 + 2y 0 = 2x + y ≤ 32 n; therefore, if (3) holds then the induction applies: the numbers x0 , y 0 are
+represented in the form as needed, hence x, y also.
+. Since
+Now consider ψx+y−1
+ψ
+ψx + y − 1
+= x + (ψ − 1)(y − 1) = ψ(y − 1) + (x − y + 1),
+ψ
+we set x0 = y − 1 and y 0 = x − y + 1. Again we require that ψx+y−1
+∈ (−1, ϕ), i.e.
+ψ
+ψx + y ∈ (ϕ · ψ + 1, (−1) · ψ + 1) = (0, ϕ).
+
+(4)
+
+If (4) holds then y − 1 ≥ ψx + y − 1 > −1 and x − y + 1 ≥ −ψx − y + 1 > −ϕ + 1 > −1, therefore
+x0 , y 0 ≥ 0. Moreover, 3x0 + 2y 0 = 2x + y − 1 < 23 n and the induction works.
+Finally, (−1, −ψ) ∪ (0, ϕ) = (−1, ϕ) so at least one of (3) and (4) holds and the induction step is
+justified.
+
+13
+
+A4. Prove the inequality
+X ai aj
+X
+n
+ai aj
+≤
+a + aj
+2(a1 + a2 + · · · + an ) i<j
+i<j i
+for positive real numbers a1 , a2 , . . . , an .
+(Serbia)
+P
+Solution 1. Let S = i ai . Denote by L and R the expressions on the left and right hand
+side of the proposed inequality. We transform L and R using the identity
+X
+X
+(ai + aj ) = (n − 1)
+ai .
+(1)
+i<j
+
+i
+
+And thus:
+L=
+
+X 1
+X ai aj
+(ai − aj )2  n − 1
+1 X (ai − aj )2
+=
+ai + aj −
+=
+.
+·S−
+a + aj
+4
+ai + aj
+4
+4 i<j ai + aj
+i<j
+i<j i
+
+To represent R we express the sum
+
+X
+
+(2)
+
+ai aj in two ways; in the second transformation
+
+i<j
+
+identity (1) will be applied to the squares of the numbers ai :
+1  2 X 2
+S −
+ai ;
+2
+i<j
+i
+ n−1 X
+X
+1X
+1 X 2
+ai + a2j − (ai − aj )2 =
+(ai − aj )2 .
+·
+a2i −
+ai aj =
+2
+2
+2
+i<j
+i<j
+i
+i<j
+X
+
+ai aj =
+
+Multiplying the first of these equalities by n − 1 and adding the second one we obtain
+n
+
+X
+i<j
+
+Hence
+R=
+
+ai aj =
+
+n−1 2 1X
+(ai − aj )2 .
+·S −
+2
+2 i<j
+
+n−1
+1 X (ai − aj )2
+n X
+ai aj =
+·S−
+.
+2S i<j
+4
+4 i<j
+S
+
+Now compare (2) and (3). Since S ≥ ai + aj for any i < j, the claim L ≥ R results.
+
+(3)
+
+14
+Solution 2. Let S = a1 + a2 + · · · + an . For any i 6= j,
+
+P
+
+ai aj
+(ai − aj )2
+(ai − aj )2
+k6=i
+4
+= ai + aj −
+≤ ai + aj −
+=
+ai + aj
+ai + aj
+a1 + a2 + · · · + an
+
+ai ak +
+
+P
+
+aj ak + 2ai aj
+
+k6=j
+
+.
+
+S
+
+The statement is obtained by summing up these inequalities for all pairs i, j:
+X
+X ai aj
+1 X X ai aj
+1 XX X
+aj ak + 2ai aj
+ai ak +
+=
+≤
+a
++
+a
+2
+a
++
+a
+8S
+i
+j
+i
+j
+i j6=i
+i j6=i
+i<j
+k6=j
+k6=i
+1
+=
+8S
+1
+=
+8S
+
+XXX
+k
+
+ai ak +
+
+i6=k j6=i
+
+XXX
+k
+
+aj ak +
+
+j6=k i6=j
+
+XX
+i
+
+2ai aj
+
+j6=i
+
+!
+
+XX
+XX
+XX
+(n − 1)ai ak +
+(n − 1)aj ak +
+2ai aj
+k
+
+i6=k
+
+k
+
+=
+
+n XX
+
+4S
+
+i
+
+j6=i
+
+i
+
+j6=k
+
+ai aj =
+
+n X
+
+2S i<j
+
+j6=i
+
+!
+
+!
+
+ai aj .
+
+Comment.P
+Here is an P
+outline of another possible approach. Examine the function R − L subject to
+constraints i ai = S, i<j ai aj = U for fixed constants S, U > 0 (which can jointly occur as values
+of these symmetric forms). Suppose that among the numbers ai there are some three, say ak , al , am
+such that ak < al ≤ am . Then it is possible to decrease the value of R − L by perturbing this triple so
+that in the new triple a0k , a0l , a0m one has a0k = a0l ≤ a0m , without touching the remaining ai s and without
+changing the values of S and U ; this requires some skill in algebraic manipulations. It follows that
+the constrained minimum can be only attained for n − 1 of the ai s equal and a single one possibly
+greater. In this case, R − L ≥ 0 holds almost trivially.
+
+15
+
+A5. Let a, b, c be the sides of a triangle. Prove that
+√
+√
+b+c−a
+c+a−b
+a+b−c
+√
+√ +√
+√
+√ +√
+√
+√ ≤ 3.
+√
+b+ c− a
+c+ a− b
+a+ b− c
+√
+
+(Korea)
+√
+√
+√
+√
+a
++
+b
+>
+a
++
+b
+>
+c.
+Solution 1.√ Note
+first
+that
+the
+denominators
+are
+all
+positive,
+e.g.
+√
+√
+√
+√
+√
+√
+√
+√
+Let x = b + c − a, y = c + a − b and z = a + b − c. Then
+b+c−a=
+
+
+
+z+x
+2
+
+and
+
+2
+
+√
+
+applying
+
+√
+
++
+
+
+
+x+y
+2
+
+2
+
+b+c−a
+√
+√ =
+√
+b+ c− a
+
+−
+
+r
+
+
+
+y+z
+2
+
+1−
+
+2
+
+=
+
+1
+x2 + xy + xz − yz
+= x2 − (x − y)(x − z)
+2
+2
+
+(x − y)(x − z)
+(x − y)(x − z)
+≤1−
+,
+2
+2x
+4x2
+
+1 + 2u ≤ 1 + u in the last step. Similarly we obtain
+
+√
+
+c+a−b
+(z − x)(z − y)
+√
+√
+√ ≤ 1−
+4z 2
+c+ a− b
+
+and
+
+√
+
+√
+
+a+b−c
+(y − z)(y − x)
+√
+√ ≤1−
+.
+4y 2
+a+ b− c
+
+Substituting these quantities into the statement, it is sufficient to prove that
+(x − y)(x − z) (y − z)(y − x) (z − x)(z − y)
++
++
+≥ 0.
+x2
+y2
+z2
+
+(1)
+
+By symmetry we can assume x ≤ y ≤ z. Then
+(y − x)(z − x)
+(y − x)(z − y)
+(y − z)(y − x)
+(x − y)(x − z)
+=
+≥
+=−
+,
+2
+2
+2
+x
+x
+y
+y2
+(z − x)(z − y)
+≥0
+z2
+and (1) follows.
+Comment 1. Inequality (1) is a special case of the well-known inequality
+xt (x − y)(x − z) + y t (y − z)(y − x) + z t (z − x)(z − y) ≥ 0
+which holds for all positive numbers x, y, z and real t; in our case t = −2. Case t > 0 is called Schur’s
+inequality. More generally, if x ≤ y ≤ z are real numbers and p, q, r are nonnegative numbers such
+that q ≤ p or q ≤ r then
+p(x − y)(x − z) + q(y − z)(y − x) + r(z − x)(z − y) ≥ 0.
+
+16
+Comment 2. One might also start using Cauchy–Schwarz’ inequality (or the root mean square
+vs. arithmetic mean inequality) to the effect that
+X
+
+√
+2
+X
+b+c−a
+b+c−a
+√
+√
+√
+≤3·
+√
+√
+√ 2 ,
+b+ c− a
+b+ c− a
+
+(2)
+
+in cyclic sum notation. There are several ways to prove that the right-hand side of (2) never exceeds 9
+(and this is just what we need). One of them is to introduce new variables x, y, z, as in Solution 1,
+which upon some manipulation brings the problem again to inequality (1).
+Alternatively, the claim that
+P right-hand
+P side of (2) is not greater than 9 can be expressed in terms
+of the symmetric forms σ1 = x, σ2 = xy, σ3 = xyz equivalently as
+4σ1 σ2 σ3 ≤ σ23 + 9σ32 ,
+
+(3)
+
+which is a known
+A yet different method to deal with the right-hand expression in (2) is
+√
+√ √ inequality.
+to consider a, b, c as sides of a triangle. Through standard trigonometric formulas the problem
+comes down to showing that
+p2 ≤ 4R2 + 4Rr + 3r 2 ,
+(4)
+p, R and r standing for the semiperimeter, the circumradius and the inradius of that triangle. Again,
+(4) is another known inequality. Note that the inequalities (1), (3), (4) are equivalent statements
+about the same mathematical situation.
+
+Solution 2. Due to the symmetry of variables, it can be assumed that a ≥ b ≥ c. We claim
+that
+√
+√
+√
+a+b−c
+b+c−a
+c+a−b
+√
+√
+√ ≤ 1 and √
+√
+√ +√
+√
+√ ≤ 2.
+a+ b− c
+b+ c− a
+c+ a− b
+The first inequality follows from
+√
+√
+(a + b − c) − a
+b−c
+√ ≤√
+√ = b − c.
+a= √
+a+b−c+ a
+b+ c
+√
+√
+√
+√
+For proving the second inequality, let p = a + b and q = a − b. Then a − b = pq and
+the inequality becomes
+√
+√
+c − pq
+c + pq
+√
++ √
+≤ 2.
+c−q
+c+q
+√
+From a ≥ b ≥ c we have p ≥ 2 c. Applying the Cauchy-Schwarz inequality,
+√
+
+a+b−c−
+
+√
+
+√
+√
+2 
+
+
+1
+c − pq
+c + pq
+c + pq
+1
+c − pq
+√
+√
+≤ √
++ √
++√
++√
+c−q
+c+q
+c−q
+c+q
+c−q
+c+q
+√
+√
+√
+c2 − cpq 2
+c2 − 2cq 2
+2(c c − pq 2 ) 2 c
+·
+=
+4
+·
+≤
+4
+·
+≤ 4.
+=
+c − q2
+c − q2
+(c − q 2 )2
+(c − q 2 )2
+
+17
+
+A6. Determine the smallest number M such that the inequality
+ab(a2 − b2 ) + bc(b2 − c2 ) + ca(c2 − a2 ) ≤ M a2 + b2 + c2
+holds for all real numbers a, b, c.
+
+2
+(Ireland)
+
+Solution. We first consider the cubic polynomial
+P (t) = tb(t2 − b2 ) + bc(b2 − c2 ) + ct(c2 − t2 ).
+It is easy to check that P (b) = P (c) = P (−b − c) = 0, and therefore
+P (t) = (b − c)(t − b)(t − c)(t + b + c),
+since the cubic coefficient is b − c. The left-hand side of the proposed inequality can therefore
+be written in the form
+|ab(a2 − b2 ) + bc(b2 − c2 ) + ca(c2 − a2 )| = |P (a)| = |(b − c)(a − b)(a − c)(a + b + c)|.
+The problem comes down to finding the smallest number M that satisfies the inequality
+|(b − c)(a − b)(a − c)(a + b + c)| ≤ M · (a2 + b2 + c2 )2 .
+
+(1)
+
+Note that this expression is symmetric, and we can therefore assume a ≤ b ≤ c without loss of
+generality. With this assumption,
+|(a − b)(b − c)| = (b − a)(c − b) ≤
+
+
+
+(b − a) + (c − b)
+2
+
+2
+
+=
+
+(c − a)2
+,
+4
+
+(2)
+
+with equality if and only if b − a = c − b, i.e. 2b = a + c. Also
+
+
+(c − b) + (b − a)
+2
+
+2
+
+≤
+
+(c − b)2 + (b − a)2
+,
+2
+
+or equivalently,
+3(c − a)2 ≤ 2 · [(b − a)2 + (c − b)2 + (c − a)2 ],
+again with equality only for 2b = a + c. From (2) and (3) we get
+
+≤
+=
+≤
+=
+
+|(b − c)(a − b)(a − c)(a + b + c)|
+1
+· |(c − a)3 (a + b + c)|
+4
+1 p
+· (c − a)6 (a + b + c)2
+4 s
+3
+
+2 · [(b − a)2 + (c − b)2 + (c − a)2 ]
+1
+·
+· (a + b + c)2
+4
+3
+s
+2
+√
+
+3
+2
+2
+2
+2  4 (b − a) + (c − b) + (c − a)
+·
+· (a + b + c)2  .
+2
+3
+
+(3)
+
+18
+By the weighted AM-GM inequality this estimate continues as follows:
+|(b − c)(a − b)(a − c)(a + b + c)|
+√ 
+2
+2
+(b − a)2 + (c − b)2 + (c − a)2 + (a + b + c)2
+·
+≤
+2
+4
+√
+9 2
+=
+· (a2 + b2 + c2 )2 .
+32
+√
+9
+2, with equality if and only if 2b = a + c
+We see that the inequality (1) is satisfied for M = 32
+and
+(b − a)2 + (c − b)2 + (c − a)2
+= (a + b + c)2 .
+3
+Plugging b = (a + c)/2 into the last equation, we bring it to the equivalent form
+2(c − a)2 = 9(a + c)2 .
+The conditions for equality can now be restated as
+2b = a + c
+and
+(c − a)2 = 18b2 .
+√
+√
+√
+9
+2 is indeed the
+Setting b = 1 yields a = 1 − 23 2 and c = 1 + 32 2. We see that M = 32
+smallest
+satisfying
+the inequality, with equality for any triple (a, b, c) proportional to
+√ constant √
+
+1 − 23 2, 1, 1 + 32 2 , up to permutation.
+
+Comment. With the notation x = b − a, y = c − b, z = a − c, s = a + b + c and r 2 = a2 + b2 + c2 ,
+the inequality (1) becomes just |sxyz| ≤ M r 4 (with suitable constraints on s and r). The original
+asymmetric inequality turns into a standard symmetric one; from this point
+P on the
+P solution can be
+completed in many ways. One can e.g. use the fact that, for fixed values of x and x2 , the product
+xyz is a maximum/minimum only if some of x, y, z are equal, thus reducing one degree of freedom,
+etc.
+As observed by the proposer, a specific attraction of the problem is that the maximum is attained
+at a point (a, b, c) with all coordinates distinct.
+
+Combinatorics
+C1. We have n ≥ 2 lamps L1 , . . . , Ln in a row, each of them being either on or off . Every
+
+second we simultaneously modify the state of each lamp as follows:
+— if the lamp Li and its neighbours (only one neighbour for i = 1 or i = n, two neighbours for
+other i) are in the same state, then Li is switched off;
+— otherwise, Li is switched on.
+Initially all the lamps are off except the leftmost one which is on.
+(a) Prove that there are infinitely many integers n for which all the lamps will eventually
+be off.
+(b) Prove that there are infinitely many integers n for which the lamps will never be all off.
+(France)
+Solution. (a) Experiments with small n lead to the guess that every n of the form 2k should
+be good. This is indeed the case, and more precisely: let Ak be the 2k ×2k matrix whose rows
+represent the evolution of the system, with entries 0, 1 (for off and on respectively). The top
+row shows the initial state [1, 0, 0, . . . , 0]; the bottom row shows the state after 2k − 1 steps.
+The claim is that:
+The bottom row of Ak is [1, 1, 1, . . . , 1].
+This will of course suffice because one more move then produces [0, 0, 0, . . . , 0], as required.
+The proof is by induction on k. The base k = 1 isobvious.Assume the claim to be true for a
+Ak Ok
+with four 2k ×2k matrices. After
+k ≥ 1 and write the matrix Ak+1 in the block form
+Bk Ck
+m steps, the last 1 in a row is at position m + 1. Therefore Ok is the zero matrix. According
+to the induction hypothesis, the bottom row of [Ak Ok ] is [1, . . . , 1, 0, . . . , 0], with 2k ones and
+2k zeros. The next row is thus
+[0, . . . , 0, 1, 1, 0, . . . , 0]
+| {z }
+| {z }
+2k −1
+
+2k −1
+
+It is symmetric about its midpoint, and this symmetry is preserved in all subsequent rows
+because the procedure described in the problem statement is left/right symmetric. Thus Bk is
+the mirror image of Ck . In particular, the rightmost column of Bk is identical with the leftmost
+column of Ck .
+Imagine the matrix Ck in isolation from the rest of Ak+1 . Suppose it is subject to evolution
+as defined in the problem: the first (leftmost) term in a row depends only on the two first terms
+in the preceding row, according as they are equal or not. Now embed Ck again in Ak . The
+‘leftmost’ terms in the rows of Ck now have neighbours on their left side—but these neighbours
+are their exact copies. Consequently the actual evolution within Ck is the same, whether or not
+Ck is considered as a piece of Ak+1 or in isolation. And since the top row of Ck is [1, 0, . . . , 0],
+it follows that Ck is identical with Ak .
+
+20
+The bottom row of Ak is [1, 1, . . . , 1]; the same is the bottom row of Ck , hence also of Bk ,
+which mirrors Ck . So the bottom row of Ak+1 consists of ones only and the induction is
+complete.
+(b) There are many ways to produce an infinite sequence of those n for which the state
+[0, 0, . . . , 0] will never be achieved. As an example, consider n = 2k + 1 (for k ≥ 1). The
+evolution of the system can be represented by a matrix A of width 2k + 1 with infinitely many
+rows. The top 2k rows form the matrix Ak discussed above, with one column of zeros attached
+at its right.
+In the next row we then have the vector [0, 0, . . . , 0, 1, 1]. But this is just the second row of A
+reversed. Subsequent rows will be mirror copies of the foregoing ones, starting from the second
+one. So the configuration [1, 1, 0, . . . , 0, 0], i.e. the second row of A, will reappear. Further rows
+will periodically repeat this pattern and there will be no row of zeros.
+
+21
+
+C2. A diagonal of a regular 2006-gon is called odd if its endpoints divide the boundary into
+two parts, each composed of an odd number of sides. Sides are also regarded as odd diagonals.
+Suppose the 2006-gon has been dissected into triangles by 2003 nonintersecting diagonals.
+Find the maximum possible number of isosceles triangles with two odd sides.
+(Serbia)
+Solution 1. Call an isosceles triangle odd if it has two odd sides. Suppose we are given a
+dissection as in the problem statement. A triangle in the dissection which is odd and isosceles
+will be called iso-odd for brevity.
+Lemma. Let AB be one of dissecting diagonals and let L be the shorter part of the boundary of
+the 2006-gon with endpoints A, B. Suppose that L consists of n segments. Then the number
+of iso-odd triangles with vertices on L does not exceed n/2.
+Proof. This is obvious for n = 2. Take n with 2 < n ≤ 1003 and assume the claim to be true
+for every L of length less than n. Let now L (endpoints A, B) consist of n segments. Let P Q
+be the longest diagonal which is a side of an iso-odd triangle P QS with all vertices on L (if
+there is no such triangle, there is nothing to prove). Every triangle whose vertices lie on L is
+obtuse or right-angled; thus S is the summit of P QS. We may assume that the five points
+A, P, S, Q, B lie on L in this order and partition L into four pieces LAP , LP S , LSQ , LQB (the
+outer ones possibly reducing to a point).
+By the definition of P Q, an iso-odd triangle cannot have vertices on both LAP and LQB .
+Therefore every iso-odd triangle within L has all its vertices on just one of the four pieces.
+Applying to each of these pieces the induction hypothesis and adding the four inequalities we
+get that the number of iso-odd triangles within L other than P QS does not exceed n/2. And
+since each of LP S , LSQ consists of an odd number of sides, the inequalities for these two pieces
+are actually strict, leaving a 1/2 + 1/2 in excess. Hence the triangle P SQ is also covered by
+the estimate n/2. This concludes the induction step and proves the lemma. 
+The remaining part of the solution in fact repeats the argument from the above proof.
+Consider the longest dissecting diagonal XY . Let LXY be the shorter of the two parts of the
+boundary with endpoints X, Y and let XY Z be the triangle in the dissection with vertex Z
+not on LXY . Notice that XY Z is acute or right-angled, otherwise one of the segments XZ, Y Z
+would be longer than XY . Denoting by LXZ , LY Z the two pieces defined by Z and applying
+the lemma to each of LXY , LXZ , LY Z we infer that there are no more than 2006/2 iso-odd
+triangles in all, unless XY Z is one of them. But in that case XZ and Y Z are odd diagonals
+and the corresponding inequalities are strict. This shows that also in this case the total number
+of iso-odd triangles in the dissection, including XY Z, is not greater than 1003.
+This bound can be achieved. For this to happen, it just suffices to select a vertex of the
+2006-gon and draw a broken line joining every second vertex, starting from the selected one.
+Since 2006 is even, the line closes. This already gives us the required 1003 iso-odd triangles.
+Then we can complete the triangulation in an arbitrary fashion.
+
+22
+Solution 2. Let the terms odd triangle and iso-odd triangle have the same meaning as in the
+first solution.
+Let ABC be an iso-odd triangle, with AB and BC odd sides. This means that there are
+an odd number of sides of the 2006-gon between A and B and also between B and C. We say
+that these sides belong to the iso-odd triangle ABC.
+At least one side in each of these groups does not belong to any other iso-odd triangle.
+This is so because any odd triangle whose vertices are among the points between A and B has
+two sides of equal length and therefore has an even number of sides belonging to it in total.
+Eliminating all sides belonging to any other iso-odd triangle in this area must therefore leave
+one side that belongs to no other iso-odd triangle. Let us assign these two sides (one in each
+group) to the triangle ABC.
+To each iso-odd triangle we have thus assigned a pair of sides, with no two triangles sharing
+an assigned side. It follows that at most 1003 iso-odd triangles can appear in the dissection.
+This value can be attained, as shows the example from the first solution.
+
+23
+
+C3. Let S be a finite set of points in the plane such that no three of them are on a line. For
+each convex polygon P whose vertices are in S, let a(P ) be the number of vertices of P , and
+let b(P ) be the number of points of S which are outside P . Prove that for every real number x
+X
+xa(P ) (1 − x)b(P ) = 1,
+P
+
+where the sum is taken over all convex polygons with vertices in S.
+NB. A line segment, a point and the empty set are considered as convex polygons of 2, 1
+and 0 vertices, respectively.
+(Colombia)
+Solution 1. For each convex polygon P whose vertices are in S, let c(P ) be the number of
+points of S which are inside P , so that a(P ) + b(P ) + c(P ) = n, the total number of points
+in S. Denoting 1 − x by y,
+X
+P
+
+a(P ) b(P )
+
+x
+
+y
+
+=
+
+X
+
+a(P ) b(P )
+
+x
+
+y
+
+P
+
+(x + y)
+
+c(P )
+
+
+c(P ) 
+XX
+c(P ) a(P )+i b(P )+c(P )−i
+x
+y
+.
+=
+i
+P i=0
+
+View this expression as a homogeneous polynomial of degree n in two independent variables
+x, y. In the expanded form, it is the sum of terms xr y n−r (0 ≤ r ≤ n) multiplied by some
+nonnegative integer coefficients.
+For a fixed r, the coefficient of xr y n−r represents the number of ways of choosing a convex
+polygon P and then choosing some of the points of S inside P so that the number of vertices
+of P and the number of chosen points inside P jointly add up to r.
+This corresponds to just choosing an r-element subset of S. The correspondence is bijective
+because every set T of points from S splits in exactly one way into the union of two disjoint
+subsets, of which the first is the set of vertices of a convex polygon — namely, the convex hull
+of T — and the second consists of some points inside that polygon.
+So the coefficient of xr y n−r equals nr . The desired result follows:
+X
+P
+
+a(P ) b(P )
+
+x
+
+y
+
+n  
+X
+n r n−r
+xy
+= (x + y)n = 1.
+=
+r
+r=0
+
+24
+Solution 2. Apply induction on the number n of points. The case n = 0 is trivial. Let n > 0
+and assume the statement for less than n points. Take a set S of n points.
+Let C be the set of vertices of the convex hull of S, let m = |C|.
+Let X ⊂ C be an arbitrary nonempty set. For any convex polygon P with vertices in the
+set S \ X, we have b(P ) points of S outside P . Excluding the points of X — all outside P
+— the set S \ X contains exactly b(P ) − |X| of them. Writing 1 − x = y, by the induction
+hypothesis
+X
+xa(P ) y b(P )−|X| = 1
+P ⊂S\X
+
+(where P ⊂ S \ X means that the vertices of P belong to the set S \ X). Therefore
+X
+xa(P ) y b(P ) = y |X| .
+P ⊂S\X
+
+All convex polygons appear at least once, except the convex hull C itself. The convex hull
+adds xm . We can use the inclusion-exclusion principle to compute the sum of the other terms:
+X
+
+a(P ) b(P )
+
+x
+
+y
+
+=
+
+P 6=C
+
+k−1
+
+(−1)
+
+k=1
+
+=
+
+m
+X
+k=1
+
+and then
+
+m
+X
+
+X
+P
+
+X X
+
+a(P ) b(P )
+
+x
+
+|X|=k P ⊂S\X
+
+k−1
+
+(−1)
+
+y
+
+m
+X
+X
+(−1)k−1
+yk
+=
+k=1
+
+ 
+
+m k
+y = − (1 − y)m − 1 = 1 − xm
+k
+
+xa(P ) y b(P ) =
+
+X
+
+P =C
+
++
+
+X
+
+P 6=C
+
+= xm + (1 − xm ) = 1.
+
+|X|=k
+
+25
+
+C4. A cake has the form of an n × n square composed of n2 unit squares. Strawberries lie
+
+on some of the unit squares so that each row or column contains exactly one strawberry; call
+this arrangement A.
+Let B be another such arrangement. Suppose that every grid rectangle with one vertex
+at the top left corner of the cake contains no fewer strawberries of arrangement B than of
+arrangement A. Prove that arrangement B can be obtained from A by performing a number
+of switches, defined as follows:
+A switch consists in selecting a grid rectangle with only two strawberries, situated at its
+top right corner and bottom left corner, and moving these two strawberries to the other two
+corners of that rectangle.
+(Taiwan)
+Solution. We use capital letters to denote unit squares; O is the top left corner square. For
+any two squares X and Y let [XY ] be the smallest grid rectangle containing these two squares.
+Strawberries lie on some squares in arrangement A. Put a plum on each square of the target
+configuration B. For a square X denote by a(X) and b(X) respectively the number of strawberries and the number of plums in [OX]. By hypothesis a(X) ≤ b(X) for each X, with strict
+inequality for some X (otherwise the two arrangements coincide and there is nothing to prove).
+The idea is to show that by a legitimate switch one can obtain an arrangement A0 such that
+X
+X
+a(X) ≤ a0 (X) ≤ b(X) for each X;
+a(X) <
+a0 (X)
+(1)
+X
+
+X
+
+(with a0 (X) defined analogously to a(X); the sums range over all unit squares X). This will be
+enough because the same reasoning
+thenP
+applies to P
+A0 , giving rise to a new arrangement A00 ,
+P
+0
+and so P
+on (induction). Since
+a(X) < a (X) < a00 (X) < . . . and all these sums do not
+exceed
+b(X), we eventually obtain a sum with all summands equal to the respective b(X)s;
+all strawberries will meet with plums.
+Consider the uppermost row in which the plum and the strawberry lie on different squares
+P and S (respectively); clearly P must be situated left to S. In the column passing through P ,
+let T be the top square and B the bottom square. The strawberry in that column lies below
+the plum (because there is no plum in that column above P , and the positions of strawberries
+and plums coincide everywhere above the row of P ). Hence there is at least one strawberry in
+the region [BS] below [P S]. Let V be the position of the uppermost strawberry in that region.
+O
+
+T
+P
+
+U
+
+S
+
+X
+
+R
+V
+
+B
+
+W
+
+26
+Denote by W the square at the intersection of the row through V with the column through S
+and let R be the square vertex-adjacent to W up-left. We claim that
+a(X) < b(X)
+
+for all X ∈ [P R].
+
+(2)
+
+This is so because if X ∈ [P R] then the portion of [OX] left to column [T B] contains at least
+as many plums as strawberries (the hypothesis of the problem); in the portion above the row
+through P and S we have perfect balance; and in the remaining portion, i.e. rectangle [P X]
+we have a plum on square P and no strawberry at all.
+Now we are able to perform the required switch. Let U be the square at the intersection
+of the row through P with the column through V (some of P, U, R can coincide). We move
+strawberries from squares S and V to squares U and W . Then
+a0 (X) = a(X) + 1
+
+for X ∈ [UR];
+
+a0 (X) = a(X)
+
+for other X.
+
+And since the rectangle [UR] is contained in [P R], we still have a0 (X) ≤ b(X) for all S, in view
+of (2); conditions (1) are satisfied and the proof is complete.
+
+27
+
+C5. An (n, k)-tournament is a contest with n players held in k rounds such that:
+(i) Each player plays in each round, and every two players meet at most once.
+(ii) If player A meets player B in round i, player C meets player D in round i, and player A
+meets player C in round j, then player B meets player D in round j.
+Determine all pairs (n, k) for which there exists an (n, k)-tournament.
+(Argentina)
+Solution. For each k, denote by tk the unique integer such that 2tk −1 < k + 1 ≤ 2tk . We show
+that an (n, k)-tournament exists if and only if 2tk divides n.
+First we prove that if n = 2t for some t then there is an (n, k)-tournament for all k ≤ 2t − 1.
+Let S be the set of 0−1 sequences with length t. We label the 2t players with the elements of S
+in an arbitrary fashion (which is possible as there are exactly 2t sequences in S). Players are
+identified with their labels in the construction below. If α, β ∈ S, let α + β ∈ S be the result
+of the modulo 2 term-by-term addition of α and β (with rules 0 + 0 = 0, 0 + 1 = 1 + 0 = 1,
+1 + 1 = 0; there is no carryover). For each i = 1, . . . , 2t − 1 let ω(i) ∈ S be the sequence of
+base 2 digits of i, completed with leading zeros if necessary to achieve length t.
+Now define a tournament with n = 2t players in k ≤ 2t − 1 rounds as follows: For all
+i = 1, . . . , k, let player α meet player α + ω(i) in round i. The tournament is well-defined as
+α + ω(i) ∈ S and α + ω(i) = β + ω(i) implies α = β; also [α + ω(i)] + ω(i) = α for each α ∈ S
+(meaning that player α + ω(i) meets player α in round i, as needed). Each player plays in each
+round. Next, every two players meet at most once (exactly once if k = 2t − 1), since ω(i) 6= ω(j)
+if i 6= j. Thus condition (i) holds true, and condition (ii) is also easy to check.
+Let player α meet player β in round i, player γ meet player δ in round i, and player α meet
+player γ in round j. Then β = α + ω(i), δ = γ + ω(i) and γ = α + ω(j). By definition, β will
+play in round j with
+β + ω(j) = [α + ω(i)] + ω(j) = [α + ω(j)] + ω(i) = γ + ω(i) = δ,
+as required by (ii).
+So there exists an (n, k)-tournament for pairs (n, k) such that n = 2t and k ≤ 2t − 1. The
+same conclusion is straightforward for n of the form n = 2t s and k ≤ 2t − 1. Indeed, consider
+s different (2t , k)-tournaments T1 , . . . , Ts , no two of them having players in common. Their
+union can be regarded as a (2t s, k)-tournament T where each round is the union of the respective
+rounds in T1 , . . . , Ts .
+In summary, the condition that 2tk divides n is sufficient for an (n, k)-tournament to exist.
+We prove that it is also necessary.
+Consider an arbitrary (n, k)-tournament. Represent each player by a point and after each
+round, join by an edge every two players who played in this round. Thus to a round i = 1, . . . , k
+there corresponds a graph Gi . We say that player Q is an i-neighbour of player P if there is a
+path of edges in Gi from P to Q; in other words, if there are players P = X1 , X2 , . . . , Xm = Q
+such that player Xj meets player Xj+1 in one of the first i rounds, j = 1, 2 . . . , m−1. The set
+of i-neighbours of a player will be called its i-component. Clearly two i-components are either
+disjoint or coincide.
+Hence after each round i the set of players is partitioned into pairwise disjoint i-components.
+So, to achieve our goal, it suffices to show that all k-components have size divisible by 2tk .
+To this end, let us see how the i-component Γ of a player A changes after round i+1.
+Suppose that A meets player B with i-component ∆ in round i+1 (components Γ and ∆ are
+
+28
+not necessarily distinct). We claim that then in round i+1 each player from Γ meets a player
+from ∆, and vice versa.
+Indeed, let C be any player in Γ, and let C meet D in round i+1. Since C is an i-neighbour
+of A, there is a sequence of players A = X1 , X2 , . . . , Xm = C such that Xj meets Xj+1 in one
+of the first i rounds, j = 1, 2 . . . , m−1. Let Xj meet Yj in round i+1, for j = 1, 2 . . . , m; in
+particular Y1 = B and Ym = D. Players Yj exists in view of condition (i). Suppose that Xj
+and Xj+1 met in round r, where r ≤ i. Then condition (ii) implies that and Yj and Yj+1 met
+in round r, too. Hence B = Y1 , Y2, . . . , Ym = D is a path in Gi from B to D. This is to say, D
+is in the i-component ∆ of B, as claimed. By symmetry, each player from ∆ meets a player
+from Γ in round i+1. It follows in particular that Γ and ∆ have the same cardinality.
+It is straightforward now that the (i+1)-component of A is Γ ∪ ∆, the union of two sets
+with the same size. Since Γ and ∆ are either disjoint or coincide, we have either |Γ ∪ ∆| = 2|Γ|
+or |Γ ∪ ∆| = |Γ|; as usual, |· · ·| denotes the cardinality of a finite set.
+Let Γ1 , . . . , Γk be the consecutive components of a given player A. We obtained that either
+|Γi+1 | = 2|Γi| or |Γi+1 | = |Γi| for i = 1, . . . , k−1. Because |Γ1 | = 2, each |Γi | is a power of 2,
+i = 1, . . . , k−1. In particular |Γk | = 2u for some u.
+On the other hand, player A has played with k different opponents by (i). All of them
+belong to Γk , therefore |Γk | ≥ k+1.
+Thus 2u ≥ k+1, and since tk is the least integer satisfying 2tk ≥ k+1, we conclude that
+u ≥ tk . So the size of each k-component is divisible by 2tk , which completes the argument.
+
+29
+
+C6. A holey triangle is an upward equilateral triangle of side length n with n upward unit
+triangular holes cut out. A diamond is a 60◦ −120◦ unit rhombus. Prove that a holey triangle T
+can be tiled with diamonds if and only if the following condition holds: Every upward equilateral
+triangle of side length k in T contains at most k holes, for 1 ≤ k ≤ n.
+(Colombia)
+Solution. Let T be a holey triangle. The unit triangles in it will be called cells. We say simply
+“triangle” instead of “upward equilateral triangle” and “size” instead of “side length.”
+The necessity will be proven first. Assume that a holey triangle T can be tiled with diamonds
+and consider such a tiling. Let T 0 be a triangle of size k in T containing h holes. Focus on the
+diamonds which cover (one or two) cells in T 0 . Let them form a figure R. The boundary of T 0
+consists of upward cells, so R is a triangle of size k with h upward holes cut out and possibly
+some downward cells sticking out. Hence there are exactly (k 2 + k)/2 − h upward cells in R, and
+at least (k 2 − k)/2 downward cells (not counting those sticking out). On the other hand each
+diamond covers one upward and one downward cell, which implies (k 2 + k)/2 − h ≥ (k 2 − k)/2.
+It follows that h ≤ k, as needed.
+We pass on to the sufficiency. For brevity, let us say that a set of holes in a given triangle T
+is spread out if every triangle of size k in T contains at most k holes. For any set S of spread
+out holes, a triangle of size k will be called full of S if it contains exactly k holes of S. The
+proof is based on the following observation.
+Lemma. Let S be a set of spread out holes in T . Suppose that two triangles T 0 and T 00 are full
+of S, and that they touch or intersect. Let T 0 + T 00 denote the smallest triangle in T containing
+them. Then T 0 + T 00 is also full of S.
+Proof. Let triangles T 0 , T 00 , T 0 ∩ T 00 and T 0 + T 00 have sizes a, b, c and d, and let them contain
+a, b, x and y holes of S, respectively. (Note that T 0 ∩ T 00 could be a point, in which case c = 0.)
+Since S is spread out, we have x ≤ c and y ≤ d. The geometric configuration of triangles
+clearly satisfies a + b = c + d. Furthermore, a + b ≤ x + y, since a + b counts twice the holes in
+T 0 ∩ T 00 . These conclusions imply x = c and y = d, as we wished to show. 
+Now let Tn be a holey triangle of size n, and let the set H of its holes be spread out. We
+show by induction on n that Tn can be tiled with diamonds. The base n = 1 is trivial. Suppose
+that n ≥ 2 and that the claim holds for holey triangles of size less than n.
+Denote by B the bottom row of Tn and by T 0 the triangle formed by its top n − 1 rows.
+There is at least one hole in B as T 0 contains at most n − 1 holes. If this hole is only one,
+there is a unique way to tile B with diamonds. Also, T 0 contains exactly n − 1 holes, making
+it a holey triangle of size n − 1, and these holes are spread out. Hence it remains to apply the
+induction hypothesis.
+So suppose that there are m ≥ 2 holes in B and label them a1 , . . . , am from left to right. Let
+` be the line separating B from T 0 . For each i = 1, . . . , m − 1, pick an upward cell bi between ai
+and ai+1 , with base on `. Place a diamond to cover bi and its lower neighbour, a downward
+cell in B. The remaining part of B can be tiled uniquely with diamonds. Remove from Tn
+row B and the cells b1 , . . . , bm−1 to obtain a holey triangle Tn−1 of size n − 1. The conclusion
+will follow by induction if the choice of b1 , . . . , bm−1 guarantees that the following condition
+is satisfied: If the holes a1 , . . . , am−1 are replaced by b1 , . . . , bm−1 then the new set of holes is
+spread out again.
+We show that such a choice is possible. The cells b1 , . . . , bm−1 can be defined one at a time
+in this order, making sure that the above condition holds at each step. Thus it suffices to prove
+that there is an appropriate choice for b1 , and we set a1 = u, a2 = v for clarity.
+
+30
+Let ∆ be the triangle of maximum size which is full of H, contains the top vertex of the
+hole u, and has base on line `. Call ∆ the associate of u. Observe that ∆ does not touch v.
+Indeed, if ∆ has size r then it contains r holes of Tn . Extending its slanted sides downwards
+produces a triangle ∆0 of size r + 1 containing at least one more hole, namely u. Since there
+are at most r + 1 holes in ∆0 , it cannot contain v. Consequently, ∆ does not contain the top
+vertex of v.
+Let w be the upward cell with base on ` which is to the right of ∆ and shares a common
+vertex with it. The observation above shows that w is to the left of v. Note that w is not a
+hole, or else ∆ could be extended to a larger triangle full of H.
+We prove that if the hole u is replaced by w then the new set of holes is spread out again.
+To verify this, we only need to check that if a triangle Γ in Tn contains w but not u then Γ is
+not full of H. Suppose to the contrary that Γ is full of H. Consider the minimum triangle Γ+∆
+containing Γ and the associate ∆ of u. Clearly Γ + ∆ is larger than ∆, because Γ contains w
+but ∆ does not. Next, Γ + ∆ is full of H \ {u} by the lemma, since Γ and ∆ have a common
+point and neither of them contains u.
+
+Γ+∆
+
+Γ
+∆
+
+w
+u
+
+v
+
+If Γ is above line ` then so is Γ + ∆, which contradicts the maximum choice of ∆. If Γ
+contains cells from row B, observe that Γ + ∆ contains u. Let s be the size of Γ + ∆. Being
+full of H \ {u}, Γ + ∆ contains s holes other than u. But it also contains u, contradicting the
+assumption that H is spread out.
+The claim follows, showing that b1 = w is an appropriate choice for a1 = u and a2 = v. As
+explained above, this is enough to complete the induction.
+
+31
+
+C7. Consider a convex polyhedron without parallel edges and without an edge parallel to
+any face other than the two faces adjacent to it.
+Call a pair of points of the polyhedron antipodal if there exist two parallel planes passing
+through these points and such that the polyhedron is contained between these planes.
+Let A be the number of antipodal pairs of vertices, and let B be the number of antipodal
+pairs of midpoints of edges. Determine the difference A − B in terms of the numbers of vertices,
+edges and faces.
+(Japan)
+Solution 1. Denote the polyhedron by Γ; let its vertices, edges and faces be V1 , V2 , . . . , Vn ,
+E1 , E2 , . . . , Em and F1 , F2 , . . . , F` , respectively. Denote by Qi the midpoint of edge Ei .
+Let S be the unit sphere, the set of all unit vectors in three-dimensional space. Map the
+boundary elements of Γ to some objects on S as follows.
+For a face Fi , let S + (Fi ) and S − (Fi ) be the unit normal vectors of face Fi , pointing outwards
+from Γ and inwards to Γ, respectively. These points are diametrically opposite.
+For an edge Ej , with neighbouring faces Fi1 and Fi2 , take all support planes of Γ (planes
+which have a common point with Γ but do not intersect it) containing edge Ej , and let S + (Ej )
+be the set of their outward normal vectors. The set S + (Ej ) is an arc of a great circle on S.
+Arc S + (Ej ) is perpendicular to edge Ej and it connects points S + (Fi1 ) and S + (Fi2 ).
+Define also the set of inward normal vectors S − (Ei ) which is the reflection of S + (Ei ) across
+the origin.
+For a vertex Vk , which is the common endpoint of edges Ej1 , . . . , Ejh and shared by faces
+Fi1 , . . . , Fih , take all support planes of Γ through point Vk and let S + (Vk ) be the set of their outward normal vectors. This is a region on S, a spherical polygon with vertices S + (Fi1 ), . . . , S + (Fih )
+bounded by arcs S + (Ej1 ), . . . , S + (Ejh ). Let S − (Vk ) be the reflection of S + (Vk ), the set of inward
+normal vectors.
+Note that region S + (Vk ) is convex in the sense that it is the intersection of several half
+spheres.
+
+S + (Vk )
+Vk
+Ej
+Fi
+Γ
+
+S + (Fi )
+
+S + (Ej )
+
+S
+
+Now translate the conditions on Γ to the language of these objects.
+(a) Polyhedron Γ has no parallel edges — the great circles of arcs S + (Ei ) and S − (Ej ) are
+different for all i 6= j.
+(b) If an edge Ei does not belong to a face Fj then they are not parallel — the great circle
+which contains arcs S + (Ei ) and S − (Ei ) does not pass through points S + (Fj ) and S − (Fj ).
+(c) Polyhedron Γ has no parallel faces — points S + (Fi ) and S − (Fj ) are pairwise distinct.
+The regions S + (Vk ), arcs S + (Ej ) and points S + (Fi ) provide a decomposition of the surface
+of the sphere. Regions S − (Vk ), arcs S − (Ej ) and points S − (Fi ) provide the reflection of this
+decomposition. These decompositions are closely related to the problem.
+
+32
+Lemma 1. For any 1 ≤ i, j ≤ n, regions S − (Vi ) and S + (Vj ) overlap if and only if vertices Vi
+and Vj are antipodal.
+Lemma 2. For any 1 ≤ i, j ≤ m, arcs S − (Ei ) and S + (Ej ) intersect if and only if the midpoints
+Qi and Qj of edges Ei and Ej are antipodal.
+Proof of lemma 1. First note that by properties (a,b,c) above, the two regions cannot share
+only a single point or an arc. They are either disjoint or they overlap.
+Assume that the two regions have a common interior point u. Let P1 and P2 be two parallel
+support planes of Γ through points Vi and Vj , respectively, with normal vector u. By the
+definition of regions S − (Vi ) and S + (Vj ), u is the inward normal vector of P1 and the outward
+normal vector of P2 . Therefore polyhedron Γ lies between the two planes; vertices Vi and Vj
+are antipodal.
+To prove the opposite direction, assume that Vi and Vj are antipodal. Then there exist two
+parallel support planes P1 and P2 through Vi and Vj , respectively, such that Γ is between them.
+Let u be the inward normal vector of P1 ; then u is the outward normal vector of P2 , therefore
+u ∈ S − (Vi ) ∩ S + (Vj ). The two regions have a common point, so they overlap. 
+
+Proof of lemma 2. Again, by properties (a,b) above, the endpoints of arc S − (Ei ) cannot belong
+to S + (Ej ) and vice versa. The two arcs are either disjoint or intersecting.
+Assume that arcs S − (Ei ) and S + (Ej ) intersect at point u. Let P1 and P2 be the two
+support planes through edges Ei and Ej , respectively, with normal vector u. By the definition
+of arcs S − (Ei ) and S + (Ej ), vector u points inwards from P1 and outwards from P2 . Therefore
+Γ is between the planes. Since planes P1 and P2 pass through Qi and Qj , these points are
+antipodal.
+For the opposite direction, assume that points Qi and Qj are antipodal. Let P1 and P2
+be two support planes through these points, respectively. An edge cannot intersect a support
+plane, therefore Ei and Ej lie in the planes P1 and P2 , respectively. Let u be the inward normal
+vector of P1 , which is also the outward normal vector of P2 . Then u ∈ S − (Ei ) ∩ S + (Ej ). So
+the two arcs are not disjoint; they therefore intersect. 
+Now create a new decomposition of sphere S. Draw all arcs S + (Ei ) and S − (Ej ) on sphere S
+and put a knot at each point where two arcs meet. We have ` knots at points S + (Fi ) and
+another ` knots at points S − (Fi ), corresponding to the faces of Γ; by property (c) they are
+different. We also have some pairs 1 ≤ i, j ≤ m where arcs S − (Ei ) and S + (Ej ) intersect. By
+Lemma 2, each antipodal pair (Qi , Qj ) gives rise to two such intersections; hence, the number
+of all intersections is 2B and we have 2` + 2B knots in all.
+Each intersection knot splits two arcs, increasing the number of arcs by 2. Since we started
+with 2m arcs, corresponding the edges of Γ, the number of the resulting curve segments is
+2m + 4B.
+The network of these curve segments divides the sphere into some “new” regions. Each new
+region is the intersection of some overlapping sets S − (Vi ) and S + (Vj ). Due to the convexity,
+the intersection of two overlapping regions is convex and thus contiguous. By Lemma 1, each
+pair of overlapping regions corresponds to an antipodal vertex pair and each antipodal vertex
+pair gives rise to two different overlaps, which are symmetric with respect to the origin. So the
+number of new regions is 2A.
+The result now follows from Euler’s polyhedron theorem. We have n + l = m + 2 and
+(2` + 2B) + 2A = (2m + 4B) + 2,
+therefore
+A − B = m − ` + 1 = n − 1.
+
+Therefore A − B is by one less than the number of vertices of Γ.
+
+33
+Solution 2. Use the same notations for the polyhedron and its vertices, edges and faces as
+in Solution 1. We regard points as vectors starting from the origin. Polyhedron Γ is regarded
+as a closed convex set, including its interior. In some cases the edges and faces of Γ are also
+regarded as sets of points. The symbol ∂ denotes the boundary of the certain set; e.g. ∂Γ is
+the surface of Γ.
+Let ∆ = Γ − Γ = {U − V : U, V ∈ Γ} be the set of vectors between arbitrary points of
+Γ. Then ∆, being the sum of two bounded convex sets, is also a bounded convex set and, by
+construction, it is also centrally symmetric with respect to the origin. We will prove that ∆ is
+also a polyhedron and express the numbers of its faces, edges and vertices in terms n, m, `, A
+and B.
+Lemma 1. For points U, V ∈ Γ, point W = U − V is a boundary point of ∆ if and only if U
+and V are antipodal. Moreover, for each boundary point W ∈ ∂∆ there exists exactly one pair
+of points U, V ∈ Γ such that W = U − V .
+Proof. Assume first that U and V are antipodal points of Γ. Let parallel support planes
+P1 and P2 pass through them such that Γ is in between. Consider plane P = P1 − U =
+P2 − V . This plane separates the interiors of Γ − U and Γ − V . After reflecting one of the
+sets, e.g. Γ − V , the sets Γ − U and −Γ + V lie in the same half space bounded by P . Then
+(Γ − U) + (−Γ + V ) = ∆ − W lies in that half space, so 0 ∈ P is a boundary point of the set
+∆ − W . Translating by W we obtain that W is a boundary point of ∆.
+To prove the opposite direction, let W = U − V be a boundary point of ∆, and let Ψ =
+(Γ − U) ∩ (Γ − V ). We claim that Ψ = {0}. Clearly Ψ is a bounded convex set and 0 ∈ Ψ. For
+any two points X, Y ∈ Ψ, we have U +X, V +Y ∈ Γ and W +(X −Y ) = (U +X)−(V +Y ) ∈ ∆.
+Since W is a boundary point of ∆, the vector X −Y cannot have the same direction as W . This
+implies that the interior of Ψ is empty. Now suppose that Ψ contains a line segment S. Then
+S + U and S + V are subsets of some faces or edges of Γ and these faces/edges are parallel to S.
+In all cases, we find two faces, two edges, or a face and an edge which are parallel, contradicting
+the conditions of the problem. Therefore, Ψ = {0} indeed.
+Since Ψ = (Γ−U)∩(Γ−V ) consists of a single point, the interiors of bodies Γ−U and Γ−V
+are disjoint and there exists a plane P which separates them. Let u be the normal vector of P
+pointing into that half space bounded by P which contains Γ − U. Consider the planes P + U
+and P + V ; they are support planes of Γ, passing through U and V , respectively. From plane
+P + U, the vector u points into that half space which contains Γ. From plane P + V , vector
+u points into the opposite half space containing Γ. Therefore, we found two proper support
+through points U and V such that Γ is in between.
+For the uniqueness part, assume that there exist points U1 , V1 ∈ Γ such that U1 −V1 = U −V .
+The points U1 − U and V1 − V lie in the sets Γ − U and Γ − V separated by P . Since
+U1 − U = V1 − V , this can happen only if both are in P ; but the only such point is 0. Therefore,
+U1 − V1 = U − V implies U1 = U and V1 = V . The lemma is complete. 
+
+Lemma 2. Let U and V be two antipodal points and assume that plane P , passing through
+0, separates the interiors of Γ − U and Γ − V . Let Ψ1 = (Γ − U) ∩ P and Ψ2 = (Γ − V ) ∩ P .
+Then ∆ ∩ (P + U − V ) = Ψ1 − Ψ2 + U − V .
+Proof. The sets Γ − U and −Γ + V lie in the same closed half space bounded by P . Therefore,
+for any points X ∈ (Γ − U) and Y ∈ (−Γ + V ), we have X + Y ∈ P if and only if X, Y ∈ P .
+Then
+
+
+
+(∆ − (U − V )) ∩ P = (Γ − U) + (−Γ + V ) ∩ P = (Γ − U) ∩ P + (−Γ + V ) ∩ P = Ψ1 − Ψ2 .
+Now a translation by (U − V ) completes the lemma. 
+
+34
+Now classify the boundary points W = U − V of ∆, according to the types of points U and
+V . In all cases we choose a plane P through 0 which separates the interiors of Γ − U and Γ − V .
+We will use the notation Ψ1 = (Γ − U) ∩ P and Ψ2 = (Γ − V ) ∩ P as well.
+Case 1: Both U and V are vertices of Γ. Bodies Γ − U and Γ − V have a common vertex
+which is 0. Choose plane P in such a way that Ψ1 = Ψ2 = {0}. Then Lemma 2 yields
+∆ ∩ (P + W ) = {W }. Therefore P + W is a support plane of ∆ such that they have only one
+common point so no line segment exists on ∂∆ which would contain W in its interior.
+Since this case occurs for antipodal vertex pairs and each pair is counted twice, the number
+of such boundary points on ∆ is 2A.
+Case 2: Point U is an interior point of an edge Ei and V is a vertex of Γ. Choose plane
+P such that Ψ1 = Ei − U and Ψ2 = {0}. By Lemma 2, ∆ ∩ (P + W ) = Ei − V . Hence there
+exists a line segment in ∂∆ which contains W in its interior, but there is no planar region in
+∂∆ with the same property.
+We obtain a similar result if V belongs to an edge of Γ and U is a vertex.
+Case 3: Points U and V are interior points of edges Ei and Ej , respectively. Let P be the
+plane of Ei − U and Ej − V . Then Ψ1 = Ei − U, Ψ2 = Ej − V and ∆ ∩ (P + W ) = Ei − Ej .
+Therefore point W belongs to a parallelogram face on ∂∆.
+The centre of the parallelogram is Qi − Qj , the vector between the midpoints. Therefore an
+edge pair (Ei , Ej ) occurs if and only if Qi and Qj are antipodal which happens 2B times.
+Case 4: Point U lies in the interior of a face Fi and V is a vertex of Γ. The only choice for
+P is the plane of Fi − U. Then we have Ψ1 = Fi − U, Ψ2 = {0} and ∆ ∩ (P + W ) = Fi − V .
+This is a planar face of ∂∆ which is congruent to Fi .
+For each face Fi , the only possible vertex V is the farthest one from the plane of Fi .
+If U is a vertex and V belongs to face Fi then we obtain the same way that W belongs to
+a face −Fi + U which is also congruent to Fi . Therefore, each face of Γ has two copies on ∂∆,
+a translated and a reflected copy.
+Case 5: Point U belongs to a face Fi of Γ and point V belongs to an edge or a face G. In
+this case objects Fi and G must be parallel which is not allowed.
+Γ−V
+P
+
+0
+Γ−U
+
+case 1
+
+Γ−V
+P
+
+0
+Γ−U
+
+case 2
+
+Γ−V
+P
+
+0
+Γ−U
+
+case 3
+
+Γ−V
+P
+
+0
+Γ−U
+
+case 4
+
+Now all points in ∂∆ belong to some planar polygons (cases 3 and 4), finitely many line
+segments (case 2) and points (case 1). Therefore ∆ is indeed a polyhedron. Now compute the
+numbers of its vertices, edges and faces.
+The vertices are obtained in case 1, their number is 2A.
+Faces are obtained in cases 3 and 4. Case 3 generates 2B parallelogram faces. Case 4
+generates 2` faces.
+We compute the number of edges of ∆ from the degrees (number of sides) of faces of Γ. Let
+di be the the degree of face Fi . The sum of degrees is twice as much as the number of edges, so
+d1 +d2 +. . .+dl = 2m. The sum of degrees of faces of ∆ is 2B ·4+2(d1 +d2 +· · ·+dl ) = 8B +4m,
+so the number of edges on ∆ is 4B + 2m.
+Applying Euler’s polyhedron theorem on Γ and ∆, we have n+l = m+2 and 2A+(2B+2`) =
+(4B + 2m) + 2. Then the conclusion follows:
+A − B = m − ` + 1 = n − 1.
+
+Geometry
+
+G1. Let ABC be a triangle with incentre I. A point P in the interior of the triangle satisfies
+∠P BA + ∠P CA = ∠P BC + ∠P CB.
+Show that AP ≥ AI and that equality holds if and only if P coincides with I.
+
+(Korea)
+
+Solution. Let ∠A = α, ∠B = β, ∠C = γ. Since ∠P BA + ∠P CA + ∠P BC + ∠P CB = β + γ,
+the condition from the problem statement is equivalent to ∠P BC + ∠P CB = (β + γ)/2, i. e.
+∠BP C = 90◦ + α/2.
+On the other hand ∠BIC = 180◦ − (β + γ)/2 = 90◦ + α/2. Hence ∠BP C = ∠BIC, and
+since P and I are on the same side of BC, the points B, C, I and P are concyclic. In other
+words, P lies on the circumcircle ω of triangle BCI.
+
+C
+M
+
+Ω
+
+I
+
+ω
+
+P
+A
+
+B
+
+Let Ω be the circumcircle of triangle ABC. It is a well-known fact that the centre of ω
+is the midpoint M of the arc BC of Ω. This is also the point where the angle bisector AI
+intersects Ω.
+From triangle AP M we have
+AP + P M ≥ AM = AI + IM = AI + P M.
+Therefore AP ≥ AI. Equality holds if and only if P lies on the line segment AI, which occurs
+if and only if P = I.
+
+36
+
+G2. Let ABCD be a trapezoid with parallel sides AB > CD. Points K and L lie on the
+line segments AB and CD, respectively, so that AK/KB = DL/LC. Suppose that there are
+points P and Q on the line segment KL satisfying
+∠AP B = ∠BCD
+
+and
+
+∠CQD = ∠ABC.
+
+Prove that the points P , Q, B and C are concyclic.
+(Ukraine)
+Solution 1. Because AB k CD, the relation AK/KB = DL/LC readily implies that the lines
+AD, BC and KL have a common point S.
+S
+
+Y
+
+D
+
+L
+
+C
+
+P
+
+Q
+A
+
+K
+
+B
+
+X
+
+Consider the second intersection points X and Y of the line SK with the circles (ABP )
+and (CDQ), respectively. Since AP BX is a cyclic quadrilateral and AB k CD, one has
+∠AXB = 180◦ − ∠AP B = 180◦ − ∠BCD = ∠ABC.
+This shows that BC is tangent to the circle (ABP ) at B. Likewise, BC is tangent to the
+circle (CDQ) at C. Therefore SP · SX = SB 2 and SQ · SY = SC 2 .
+Let h be the homothety with centre S and ratio SC/SB. Since h(B) = C, the above
+conclusion about tangency implies that h takes circle (ABP ) to circle (CDQ). Also, h takes AB
+to CD, and it easily follows that h(P ) = Y , h(X) = Q, yielding SP/SY = SB/SC = SX/SQ.
+Equalities SP · SX = SB 2 and SQ/SX = SC/SB imply SP · SQ = SB · SC, which is
+equivalent to P , Q, B and C being concyclic.
+
+37
+Solution 2. The case where P = Q is trivial. Thus assume that P and Q are two distinct
+points. As in the first solution, notice that the lines AD, BC and KL concur at a point S.
+S
+
+D
+
+L
+
+C
+P
+
+E
+
+F
+Q
+
+A
+
+K
+
+B
+
+Let the lines AP and DQ meet at E, and let BP and CQ meet at F . Then ∠EP F = ∠BCD
+and ∠F QE = ∠ABC by the condition of the problem. Since the angles BCD and ABC add
+up to 180◦ , it follows that P EQF is a cyclic quadrilateral.
+Applying Menelaus’ theorem, first to triangle ASP and line DQ and then to triangle BSP
+and line CQ, we have
+AD SQ P E
+·
+·
+= 1 and
+DS QP EA
+
+BC SQ P F
+·
+·
+= 1.
+CS QP F B
+
+The first factors in these equations are equal, as ABkCD. Thus the last factors are also equal,
+which implies that EF is parallel to AB and CD. Using this and the cyclicity of P EQF , we
+obtain
+∠BCD = ∠BCF + ∠F CD = ∠BCQ + ∠EF Q = ∠BCQ + ∠EP Q.
+On the other hand,
+∠BCD = ∠AP B = ∠EP F = ∠EP Q + ∠QP F,
+and consequently ∠BCQ = ∠QP F . The latter angle either coincides with ∠QP B or is supplementary to ∠QP B, depending on whether Q lies between K and P or not. In either case it
+follows that P , Q, B and C are concyclic.
+
+38
+
+G3. Let ABCDE be a convex pentagon such that
+∠BAC = ∠CAD = ∠DAE
+
+and
+
+∠ABC = ∠ACD = ∠ADE.
+
+The diagonals BD and CE meet at P . Prove that the line AP bisects the side CD.
+(USA)
+Solution. Let the diagonals AC and BD meet at Q, the diagonals AD and CE meet at R,
+and let the ray AP meet the side CD at M. We want to prove that CM = MD holds.
+E
+A
+
+R
+P
+B
+
+Q
+
+D
+M
+
+C
+
+The idea is to show that Q and R divide AC and AD in the same ratio, or more precisely
+AQ
+AR
+=
+QC
+RD
+
+(1)
+
+(which is equivalent to QRkCD). The given angle equalities imply that the triangles ABC,
+ACD and ADE are similar. We therefore have
+AC
+AD
+AB
+=
+=
+.
+AC
+AD
+AE
+Since ∠BAD = ∠BAC + ∠CAD = ∠CAD + ∠DAE = ∠CAE, it follows from AB/AC =
+AD/AE that the triangles ABD and ACE are also similar. Their angle bisectors in A are AQ
+and AR, respectively, so that
+AB
+AQ
+=
+.
+AC
+AR
+Because AB/AC = AC/AD, we obtain AQ/AR = AC/AD, which is equivalent to (1). Now
+Ceva’s theorem for the triangle ACD yields
+AQ CM DR
+·
+·
+= 1.
+QC MD RA
+In view of (1), this reduces to CM = MD, which completes the proof.
+Comment. Relation (1) immediately follows from the fact that quadrilaterals ABCD and ACDE
+are similar.
+
+39
+
+G4. A point D is chosen on the side AC of a triangle ABC with ∠C < ∠A < 90◦ in such
+a way that BD = BA. The incircle of ABC is tangent to AB and AC at points K and L,
+respectively. Let J be the incentre of triangle BCD. Prove that the line KL intersects the line
+segment AJ at its midpoint.
+(Russia)
+Solution. Denote by P be the common point of AJ and KL. Let the parallel to KL through
+J meet AC at M. Then P is the midpoint of AJ if and only if AM = 2 · AL, which we are
+about to show.
+B
+
+K
+
+J
+P
+C
+
+M T
+
+D
+
+L
+
+A
+
+Denoting ∠BAC = 2α, the equalities BA = BD and AK = AL imply ∠ADB = 2α and
+∠ALK = 90◦ − α. Since DJ bisects ∠BDC, we obtain ∠CDJ = 12 · (180◦ − ∠ADB) = 90◦ − α.
+Also ∠DMJ = ∠ALK = 90◦ − α since JMkKL. It follows that JD = JM.
+Let the incircle of triangle BCD touch its side CD at T . Then JT ⊥ CD, meaning that JT
+is the altitude to the base DM of the isosceles triangle DMJ. It now follows that DT = MT ,
+and we have
+DM = 2 · DT = BD + CD − BC.
+Therefore
+AM =
+=
+=
+=
+which completes the proof.
+
+AD + (BD + CD − BC)
+AD + AB + DC − BC
+AC + AB − BC
+2 · AL,
+
+40
+
+G5. In triangle ABC, let J be the centre of the excircle tangent to side BC at A1 and to
+the extensions of sides AC and AB at B1 and C1 , respectively. Suppose that the lines A1 B1
+and AB are perpendicular and intersect at D. Let E be the foot of the perpendicular from C1
+to line DJ. Determine the angles ∠BEA1 and ∠AEB1 .
+(Greece)
+Solution 1. Let K be the intersection point of lines JC and A1 B1 . Obviously JC ⊥ A1 B1 and
+since A1 B1 ⊥ AB, the lines JK and C1 D are parallel and equal. From the right triangle B1 CJ
+we obtain JC12 = JB12 = JC · JK = JC · C1 D from which we infer that DC1 /C1 J = C1 J/JC
+and the right triangles DC1 J and C1 JC are similar. Hence ∠C1 DJ = ∠JC1 C, which implies
+that the lines DJ and C1 C are perpendicular, i.e. the points C1 , E, C are collinear.
+
+B1
+
+K
+
+C
+
+J
+
+E
+
+A1
+
+A
+
+D
+
+B
+
+C1
+
+Since ∠CA1 J = ∠CB1 J = ∠CEJ = 90◦ , points A1 , B1 and E lie on the circle of diameter
+CJ. Then ∠DBA1 = ∠A1 CJ = ∠DEA1 , which implies that quadrilateral BEA1 D is cyclic;
+therefore ∠A1 EB = 90◦ .
+Quadrilateral ADEB1 is also cyclic because ∠EB1 A = ∠EJC = ∠EDC1 , therefore we
+obtain ∠AEB1 = ∠ADB = 90◦ .
+
+B1
+
+C
+
+ω3
+
+J
+
+A1
+
+E
+
+ω2
+A
+
+D
+
+C1
+
+B
+ω1
+
+41
+Solution 2. Consider the circles ω1 , ω2 and ω3 of diameters C1 D, A1 B and AB1 , respectively.
+Line segments JC1 , JB1 and JA1 are tangents to those circles and, due to the right angle at D,
+ω2 and ω3 pass through point D. Since ∠C1 ED is a right angle, point E lies on circle ω1 ,
+therefore
+JC12 = JD · JE.
+Since JA1 = JB1 = JC1 are all radii of the excircle, we also have
+JA21 = JD · JE
+
+and
+
+JB12 = JD · JE.
+
+These equalities show that E lies on circles ω2 and ω3 as well, so ∠BEA1 = ∠AEB1 = 90◦ .
+Solution 3. First note that A1 B1 is perpendicular to the external angle bisector CJ of ∠BCA
+and parallel to the internal angle bisector of that angle. Therefore, A1 B1 is perpendicular to
+AB if and only if triangle ABC is isosceles, AC = BC. In that case the external bisector CJ
+is parallel to AB.
+Triangles ABC and B1 A1 J are similar, as their corresponding sides are perpendicular. In
+particular, we have ∠DA1 J = ∠C1 BA1 ; moreover, from cyclic deltoid JA1 BC1 ,
+1
+1
+∠C1 A1 J = ∠C1 BJ = ∠C1 BA1 = ∠DA1 J.
+2
+2
+Therefore, A1 C1 bisects angle ∠DA1 J.
+
+B1
+
+C
+
+J
+
+ω
+A1
+
+A
+
+D
+
+O=E
+
+B
+
+C1
+
+In triangle B1 A1 J, line JC1 is the external bisector at vertex J. The point C1 is the
+intersection of two external angle bisectors (at A1 and J) so C1 is the centre of the excircle ω,
+tangent to side A1 J, and to the extension of B1 A1 at point D.
+Now consider the similarity transform ϕ which moves B1 to A, A1 to B and J to C. This
+similarity can be decomposed into a rotation by 90◦ around a certain point O and a homothety
+from the same centre. This similarity moves point C1 (the centre of excircle ω) to J and moves
+D (the point of tangency) to C1 .
+Since the rotation angle is 90◦ , we have ∠XOϕ(X) = 90◦ for an arbitrary point X 6= O.
+For X = D and X = C1 we obtain ∠DOC1 = ∠C1 OJ = 90◦ . Therefore O lies on line segment
+DJ and C1 O is perpendicular to DJ. This means that O = E.
+For X = A1 and X = B1 we obtain ∠A1 OB = ∠B1 OA = 90◦ , i.e.
+∠BEA1 = ∠AEB1 = 90◦ .
+Comment. Choosing X = J, it also follows that ∠JEC = 90◦ which proves that lines DJ and CC1
+intersect at point E. However, this is true more generally, without the assumption that A1 B1 and
+AB are perpendicular, because points C and D are conjugates with respect to the excircle. The last
+observation could replace the first paragraph of Solution 1.
+
+42
+
+G6.
+
+Circles ω1 and ω2 with centres O1 and O2 are externally tangent at point D and
+internally tangent to a circle ω at points E and F , respectively. Line t is the common tangent
+of ω1 and ω2 at D. Let AB be the diameter of ω perpendicular to t, so that A, E and O1 are
+on the same side of t. Prove that lines AO1 , BO2 , EF and t are concurrent.
+(Brasil)
+Solution 1. Point E is the centre of a homothety h which takes circle ω1 to circle ω. The
+radii O1 D and OB of these circles are parallel as both are perpendicular to line t. Also, O1 D
+and OB are on the same side of line EO, hence h takes O1 D to OB. Consequently, points E,
+D and B are collinear. Likewise, points F , D and A are collinear as well.
+Let lines AE and BF intersect at C. Since AF and BE are altitudes in triangle ABC, their
+common point D is the orthocentre of this triangle. So CD is perpendicular to AB, implying
+that C lies on line t. Note that triangle ABC is acute-angled. We mention the well-known fact
+that triangles F EC and ABC are similar in ratio cos γ, where γ = ∠ACB. In addition, points
+C, E, D and F lie on the circle with diameter CD.
+C
+γ
+Ω
+E
+P
+ω
+
+F
+
+D
+
+O1
+
+N
+
+O2
+ω2
+ω1
+
+A
+
+t
+V
+
+U
+
+K
+
+O
+
+B
+
+L
+
+Let P be the common point of lines EF and t. We are going to prove that P lies on
+line AO1 . Denote by N the second common point of circle ω1 and AC; this is the point of ω1
+diametrically opposite to D. By Menelaus’ theorem for triangle DCN, points A, O1 and P are
+collinear if and only if
+CA NO1 DP
+·
+·
+= 1.
+AN O1 D P C
+Because NO1 = O1 D, this reduces to CA/AN = CP/P D. Let line t meet AB at K. Then
+CA/AN = CK/KD, so it suffices to show that
+CK
+CP
+=
+.
+PD
+KD
+
+(1)
+
+To verify (1), consider the circumcircle Ω of triangle ABC. Draw its diameter CU through C,
+and let CU meet AB at V . Extend CK to meet Ω at L. Since AB is parallel to UL, we have
+∠ACU = ∠BCL. On the other hand ∠EF C = ∠BAC, ∠F EC = ∠ABC and EF/AB = cos γ,
+as stated above. So reflection in the bisector of ∠ACB followed by a homothety with centre C
+and ratio 1/ cos γ takes triangle F EC to triangle ABC. Consequently, this transformation
+
+43
+takes CD to CU, which implies CP/P D = CV /V U. Next, we have KL = KD, because D
+is the orthocentre of triangle ABC. Hence CK/KD = CK/KL. Finally, CV /V U = CK/KL
+because AB is parallel to UL. Relation (1) follows, proving that P lies on line AO1 . By
+symmetry, P also lies on line AO2 which completes the solution.
+Solution 2. We proceed as in the first solution to define a triangle ABC with orthocentre D,
+in which AF and BE are altitudes.
+Denote by M the midpoint of CD. The quadrilateral CEDF is inscribed in a circle with
+centre M, hence MC = ME = MD = MF .
+C
+
+M
+E
+Q
+F
+
+O1
+
+O2
+
+D
+ω2
+ω1
+A
+
+t
+O
+
+B
+
+Consider triangles ABC and O1 O2 M. Lines O1 O2 and AB are parallel, both of them being
+perpendicular to line t. Next, MO1 is the line of centres of circles (CEF ) and ω1 whose common
+chord is DE. Hence MO1 bisects ∠DME which is the external angle at M in the isosceles
+triangle CEM. It follows that ∠DMO1 = ∠DCA, so that MO1 is parallel to AC. Likewise,
+MO2 is parallel to BC.
+Thus the respective sides of triangles ABC and O1 O2 M are parallel; in addition, these
+triangles are not congruent. Hence there is a homothety taking ABC to O1 O2 M. The lines AO1 ,
+BO2 and CM = t are concurrent at the centre Q of this homothety.
+Finally, apply Pappus’ theorem to the triples of collinear points A, O, B and O2 , D, O1 .
+The theorem implies that the points AD ∩ OO2 = F , AO1 ∩ BO2 = Q and OO1 ∩ BD = E are
+collinear. In other words, line EF passes through the common point Q of AO1 , BO2 and t.
+Comment. Relation (1) from Solution 1 expresses the well-known fact that points P and K are
+harmonic conjugates with respect to points C and D. It is also easy to justify it by direct computation.
+Denoting ∠CAB = α, ∠ABC = β, it is straightforward to obtain CP/P D = CK/KD = tan α tan β.
+
+44
+
+45
+
+G7. In a triangle ABC, let Ma , Mb , Mc be respectively the midpoints of the sides BC, CA,
+AB and Ta , Tb , Tc be the midpoints of the arcs BC, CA, AB of the circumcircle of ABC, not
+containing the opposite vertices. For i ∈ {a, b, c}, let ωi be the circle with Mi Ti as diameter.
+Let pi be the common external tangent to ωj , ωk ({i, j, k} = {a, b, c}) such that ωi lies on the
+opposite side of pi than ωj , ωk do. Prove that the lines pa , pb , pc form a triangle similar to ABC
+and find the ratio of similitude.
+(Slovakia)
+Solution. Let Ta Tb intersect circle ωb at Tb and U, and let Ta Tc intersect circle ωc at Tc and V .
+Further, let UX be the tangent to ωb at U, with X on AC, and let V Y be the tangent to ωc
+at V , with Y on AB. The homothety with centre Tb and ratio Tb Ta /Tb U maps the circle ωb
+onto the circumcircle of ABC and the line UX onto the line tangent to the circumcircle at Ta ,
+which is parallel to BC; thus UXkBC. The same is true of V Y , so that UXkBCkV Y .
+Let Ta Tb cut AC at P and let Ta Tc cut AB at Q. The point X lies on the hypotenuse P Mb
+of the right triangle P UMb and is equidistant from U and Mb . So X is the midpoint of Mb P .
+Similarly Y is the midpoint of Mc Q.
+Denote the incentre of triangle ABC as usual by I. It is a known fact that Ta I = Ta B
+and Tc I = Tc B. Therefore the points B and I are symmetric across Ta Tc , and consequently
+∠QIB = ∠QBI = ∠IBC. This implies that BC is parallel to the line IQ, and likewise, to IP .
+In other words, P Q is the line parallel to BC passing through I.
+A
+ωb
+Tb
+ωc
+Tc
+
+Mc
+
+Mb
+
+Y
+
+X
+
+V
+Q
+
+I
+
+U
+P
+
+Ma
+B
+
+C
+ωa
+Ta
+
+Clearly Mb Mc kBC. So P Mb Mc Q is a trapezoid and the segment XY connects the midpoints
+of its nonparallel sides; hence XY kBC. This combined with the previously established relations
+UXkBCkV Y shows that all the four points U, X, Y, V lie on a line which is the common tangent
+to circles ωb , ωc . Since it leaves these two circles on one side and the circle ωa on the other,
+this line is just the line pa from the problem statement.
+Line pa runs midway between I and Mb Mc . Analogous conclusions hold for the lines pb
+and pc . So these three lines form a triangle homothetic from centre I to triangle Ma Mb Mc in
+ratio 1/2, hence similar to ABC in ratio 1/4.
+
+46
+
+G8.
+
+Let ABCD be a convex quadrilateral. A circle passing through the points A and D
+and a circle passing through the points B and C are externally tangent at a point P inside the
+quadrilateral. Suppose that
+∠P AB + ∠P DC ≤ 90◦
+
+∠P BA + ∠P CD ≤ 90◦ .
+
+and
+
+Prove that AB + CD ≥ BC + AD.
+
+(Poland)
+
+Solution. We start with a preliminary observation. Let T be a point inside the quadrilateral
+ABCD. Then:
+Circles (BCT ) and (DAT ) are tangent at T
+if and only if ∠ADT + ∠BCT = ∠AT B.
+(1)
+Indeed, if the two circles touch each other then their common tangent at T intersects the
+segment AB at a point Z, and so ∠ADT = ∠AT Z, ∠BCT = ∠BT Z, by the tangent-chord
+theorem. Thus ∠ADT + ∠BCT = ∠AT Z + ∠BT Z = ∠AT B.
+And conversely, if ∠ADT + ∠BCT = ∠AT B then one can draw from T a ray T Z with Z
+on AB so that ∠ADT = ∠AT Z, ∠BCT = ∠BT Z. The first of these equalities implies that
+T Z is tangent to the circle (DAT ); by the second equality, T Z is tangent to the circle (BCT ),
+so the two circles are tangent at T .
+D
+C
+
+T
+B
+Z
+
+A
+
+So the equivalence (1) is settled. It will be used later on. Now pass to the actual solution.
+Its key idea is to introduce the circumcircles of triangles ABP and CDP and to consider their
+second intersection Q (assume for the moment that they indeed meet at two distinct points P
+and Q).
+Since the point A lies outside the circle (BCP ), we have ∠BCP + ∠BAP < 180◦ . Therefore
+the point C lies outside the circle (ABP ). Analogously, D also lies outside that circle. It follows
+that P and Q lie on the same arc CD of the circle (BCP ).
+D
+
+C
+P
+
+Q
+B
+
+A
+
+47
+By symmetry, P and Q lie on the same arc AB of the circle (ABP ). Thus the point Q lies
+either inside the angle BP C or inside the angle AP D. Without loss of generality assume that
+Q lies inside the angle BP C. Then
+∠AQD = ∠P QA + ∠P QD = ∠P BA + ∠P CD ≤ 90◦ ,
+
+(2)
+
+by the condition of the problem.
+In the cyclic quadrilaterals AP QB and DP QC, the angles at vertices A and D are acute.
+So their angles at Q are obtuse. This implies that Q lies not only inside the angle BP C but in
+fact inside the triangle BP C, hence also inside the quadrilateral ABCD.
+Now an argument similar to that used in deriving (2) shows that
+∠BQC = ∠P AB + ∠P DC ≤ 90◦ .
+
+(3)
+
+Moreover, since ∠P CQ = ∠P DQ, we get
+∠ADQ + ∠BCQ = ∠ADP + ∠P DQ + ∠BCP − ∠P CQ = ∠ADP + ∠BCP.
+The last sum is equal to ∠AP B, according to the observation (1) applied to T = P . And
+because ∠AP B = ∠AQB, we obtain
+∠ADQ + ∠BCQ = ∠AQB.
+Applying now (1) to T = Q we conclude that the circles (BCQ) and (DAQ) are externally
+tangent at Q. (We have assumed P 6= Q; but if P = Q then the last conclusion holds trivially.)
+Finally consider the halfdiscs with diameters BC and DA constructed inwardly to the
+quadrilateral ABCD. They have centres at M and N, the midpoints of BC and DA respectively. In view of (2) and (3), these two halfdiscs lie entirely inside the circles (BQC)
+and (AQD); and since these circles are tangent, the two halfdiscs cannot overlap. Hence
+MN ≥ 21 BC + 21 DA.
+−−→
+−→ −−→
+On the other hand, since MN = 21 (BA + CD ), we have MN ≤ 21 (AB + CD). Thus indeed
+AB + CD ≥ BC + DA, as claimed.
+
+48
+
+G9. Points A1 , B1 , C1 are chosen on the sides BC, CA, AB of a triangle ABC, respectively.
+The circumcircles of triangles AB1 C1 , BC1 A1 , CA1 B1 intersect the circumcircle of triangle
+ABC again at points A2 , B2 , C2 , respectively (A2 6= A, B2 6= B, C2 6= C). Points A3 , B3 , C3 are
+symmetric to A1 , B1 , C1 with respect to the midpoints of the sides BC, CA, AB respectively.
+Prove that the triangles A2 B2 C2 and A3 B3 C3 are similar.
+(Russia)
+Solution. We will work with oriented angles between lines. For two straight lines `, m in the
+plane, ∠(`, m) denotes the angle of counterclockwise rotation which transforms line ` into a
+line parallel to m (the choice of the rotation centre is irrelevant). This is a signed quantity;
+values differing by a multiple of π are identified, so that
+∠(`, m) = −∠(m, `),
+
+∠(`, m) + ∠(m, n) = ∠(`, n).
+
+If ` is the line through points K, L and m is the line through M, N, one writes ∠(KL, MN)
+for ∠(`, m); the characters K, L are freely interchangeable; and so are M, N.
+The counterpart of the classical theorem about cyclic quadrilaterals is the following:
+If K, L, M, N are four noncollinear points in the plane then
+K, L, M, N are concyclic if and only if ∠(KM, LM) = ∠(KN, LN).
+
+(1)
+
+Passing to the solution proper, we first show that the three circles (AB1 C1 ), (BC1 A1 ),
+(CA1 B1 ) have a common point. So, let (AB1 C1 ) and (BC1 A1 ) intersect at the points C1
+and P . Then by (1)
+∠(P A1 , CA1 ) = ∠(P A1 , BA1 ) = ∠(P C1 , BC1 )
+= ∠(P C1, AC1 ) = ∠(P B1 , AB1 ) = ∠(P B1 , CB1 ).
+Denote this angle by ϕ.
+The equality between the outer terms shows, again by (1), that the points A1 , B1 , P, C are
+concyclic. Thus P is the common point of the three mentioned circles.
+From now on the basic property (1) will be used without explicit reference. We have
+ϕ = ∠(P A1 , BC) = ∠(P B1, CA) = ∠(P C1 , AB).
+
+(2)
+A
+
+A
+A2
+
+A2
+
+ϕ
+B4
+
+B1
+ϕ
+C1
+
+ϕ
+
+O
+
+A1
+ϕ
+
+B
+
+C
+
+2ϕ
+
+B
+
+C
+
+C4
+P
+
+P
+C2
+
+B2
+
+C2
+B2
+A4
+
+49
+Let lines A2 P , B2 P , C2 P meet the circle (ABC) again at A4 , B4 , C4 , respectively. As
+∠(A4 A2 , AA2 ) = ∠(P A2 , AA2 ) = ∠(P C1 , AC1 ) = ∠(P C1, AB) = ϕ,
+we see that line A2 A is the image of line A2 A4 under rotation about A2 by the angle ϕ. Hence
+the point A is the image of A4 under rotation by 2ϕ about O, the centre of (ABC). The same
+rotation sends B4 to B and C4 to C. Triangle ABC is the image of A4 B4 C4 in this map. Thus
+∠(A4 B4 , AB) = ∠(B4 C4 , BC) = ∠(C4 A4 , CA) = 2ϕ.
+
+(3)
+
+Since the rotation by 2ϕ about O takes B4 to B, we have ∠(AB4 , AB) = ϕ. Hence by (2)
+∠(AB4 , P C1) = ∠(AB4 , AB) + ∠(AB, P C1 ) = ϕ + (−ϕ) = 0,
+which means that AB4 kP C1.
+A
+
+ϕ
+
+B4
+
+C3
+B1
+
+B4
+
+A5
+
+B3
+C1
+
+ϕ
+
+A5
+
+ϕ
+
+2ϕ
+O
+
+B
+
+A1
+
+C4
+A3
+
+C
+
+P
+
+C4
+P
+
+ϕ
+
+B5
+
+C5
+
+ϕ
+B5
+
+A4
+
+C5
+A4
+
+Let C5 be the intersection of lines P C1 and A4 B4 ; define A5 , B5 analogously. So AB4 kC1 C5
+and, by (3) and (2),
+∠(A4 B4 , P C1) = ∠(A4 B4 , AB) + ∠(AB, P C1) = 2ϕ + (−ϕ) = ϕ;
+
+(4)
+
+i.e., ∠(B4 C5 , C5 C1 ) = ϕ. This combined with ∠(C5 C1 , C1 A) = ∠(P C1 , AB) = ϕ (see (2)) proves
+that the quadrilateral AB4 C5 C1 is an isosceles trapezoid with AC1 = B4 C5 .
+Interchanging the roles of A and B we infer that also BC1 = A4 C5 . And since AC1 + BC1 =
+AB = A4 B4 , it follows that the point C5 lies on the line segment A4 B4 and partitions it into
+segments A4 C5 , B4 C5 of lengths BC1 (= AC3 ) and AC1 (= BC3 ). In other words, the rotation
+which maps triangle A4 B4 C4 onto ABC carries C5 onto C3 . Likewise, it sends A5 to A3 and
+B5 to B3 . So the triangles A3 B3 C3 and A5 B5 C5 are congruent. It now suffices to show that the
+latter is similar to A2 B2 C2 .
+Lines B4 C5 and P C5 coincide respectively with A4 B4 and P C1 . Thus by (4)
+∠(B4 C5 , P C5 ) = ϕ.
+Analogously (by cyclic shift) ϕ = ∠(C4 A5 , P A5), which rewrites as
+ϕ = ∠(B4 A5 , P A5 ).
+
+50
+These relations imply that the points P, B4 , C5 , A5 are concyclic. Analogously, P, C4, A5 , B5
+and P, A4, B5 , C5 are concyclic quadruples. Therefore
+∠(A5 B5 , C5 B5 ) = ∠(A5 B5 , P B5 ) + ∠(P B5 , C5 B5 ) = ∠(A5 C4 , P C4 ) + ∠(P A4 , C5 A4 ).
+
+(5)
+
+On the other hand, since the points A2 , B2 , C2 , A4 , B4 , C4 all lie on the circle (ABC), we have
+∠(A2 B2 , C2B2 ) = ∠(A2 B2 , B4 B2 ) + ∠(B4 B2 , C2 B2 ) = ∠(A2 A4 , B4 A4 ) + ∠(B4 C4 , C2 C4 ). (6)
+But the lines A2 A4 , B4 A4 , B4 C4 , C2 C4 coincide respectively with P A4 , C5 A4 , A5 C4 , P C4 .
+So the sums on the right-hand sides of (5) and (6) are equal, leading to equality between
+their left-hand sides: ∠(A5 B5 , C5 B5 ) = ∠(A2 B2 , C2 B2 ). Hence (by cyclic shift, once more) also
+∠(B5 C5 , A5 C5 ) = ∠(B2 C2 , A2 C2 ) and ∠(C5 A5 , B5 A5 ) = ∠(C2 A2 , B2 A2 ). This means that the
+triangles A5 B5 C5 and A2 B2 C2 have their corresponding angles equal, and consequently they
+are similar.
+Comment 1. This is the way in which the proof has been presented by the proposer. Trying to work
+it out in the language of classical geometry, so as to avoid oriented angles, one is led to difficulties due
+to the fact that the reasoning becomes heavily case-dependent. Disposition of relevant points can vary
+in many respects. Angles which are equal in one case become supplementary in another. Although it
+seems not hard to translate all formulas from the shapes they have in one situation to the one they
+have in another, the real trouble is to identify all cases possible and rigorously verify that the key
+conclusions retain validity in each case.
+The use of oriented angles is a very efficient method to omit this trouble. It seems to be the most
+appropriate environment in which the solution can be elaborated.
+Comment 2. Actually, the fact that the circles (AB1 C1 ), (BC1 A1 ) and (CA1 B1 ) have a common
+point does not require a proof; it is known as Miquel’s theorem.
+
+51
+
+G10. To each side a of a convex polygon we assign the maximum area of a triangle contained
+in the polygon and having a as one of its sides. Show that the sum of the areas assigned to all
+sides of the polygon is not less than twice the area of the polygon.
+(Serbia)
+Solution 1.
+Lemma. Every convex (2n)-gon, of area S, has a side and a vertex that jointly span a triangle
+of area not less than S/n.
+Proof. By main diagonals of the (2n)-gon we shall mean those which partition the (2n)-gon
+into two polygons with equally many sides. For any side b of the (2n)-gon denote by ∆b the
+triangle ABP where A, B are the endpoints of b and P is the intersection point of the main
+diagonals AA0 , BB 0 . We claim that the union of triangles ∆b , taken over all sides, covers the
+whole polygon.
+To show this, choose any side AB and consider the main diagonal AA0 as a directed segment.
+Let X be any point in the polygon, not on any main diagonal. For definiteness, let X lie on the
+left side of the ray AA0 . Consider the sequence of main diagonals AA0 , BB 0 , CC 0 , . . . , where
+A, B, C, . . . are consecutive vertices, situated right to AA0 .
+The n-th item in this sequence is the diagonal A0 A (i.e. AA0 reversed), having X on its
+right side. So there are two successive vertices K, L in the sequence A, B, C, . . . before A0 such
+that X still lies to the left of KK 0 but to the right of LL0 . And this means that X is in the
+triangle ∆`0 , `0 = K 0 L0 . Analogous reasoning applies to points X on the right of AA0 (points
+lying on main diagonals can be safely ignored). Thus indeed the triangles ∆b jointly cover the
+whole polygon.
+The sum of their areas is no less than S. So we can find two opposite sides, say b = AB
+and b0 = A0 B 0 (with AA0 , BB 0 main diagonals) such that [∆b ] + [∆b0 ] ≥ S/n, where [· · · ] stands
+for the area of a region. Let AA0 , BB 0 intersect at P ; assume without loss of generality that
+P B ≥ P B 0 . Then
+[ABA0 ] = [ABP ] + [P BA0 ] ≥ [ABP ] + [P A0 B 0 ] = [∆b ] + [∆b0 ] ≥ S/n,
+proving the lemma. 
+Now, let P be any convex polygon, of area S, with m sides a1 , . . . , am . Let Si be the area
+of the greatest triangle in P with side ai . Suppose, contrary to the assertion, that
+m
+X
+Si
+
+S
+i=1
+
+< 2.
+
+P
+Then there exist rational numbers q1 , . . . , qm such that
+qi = 2 and qi > Si /S for each
+P i.
+Let n be a common denominator of the m fractions q1 , . . . , qm . Write qi = ki /n; so ki = 2n.
+Partition each side ai of P into ki equal segments, creating a convex (2n)-gon of area S (with
+some angles of size 180◦ ), to which we apply the lemma. Accordingly, this refined polygon has
+a side b and a vertex H spanning a triangle T of area [T ] ≥ S/n. If b is a piece of a side ai
+of P, then the triangle W with base ai and summit H has area
+[W ] = ki · [T ] ≥ ki · S/n = qi · S > Si ,
+in contradiction with the definition of Si . This ends the proof.
+
+52
+Solution 2. As in the first solution, we allow again angles of size 180◦ at some vertices of the
+convex polygons considered.
+To each convex n-gon P = A1 A2 . . . An we assign a centrally symmetric convex (2n)-gon Q
+−−−−→
+with side vectors ±Ai Ai+1 , 1 ≤ i ≤ n. The construction is as follows. Attach the 2n vectors
+−
+→ −
+→
+−→
+−−−−→
+±Ai Ai+1 at a common origin and label them b1 , b2 , . . . , b2n in counterclockwise direction; the
+−
+→
+choice of the first vector b1 is irrelevant. The order of labelling is well-defined if P has neither
+parallel sides nor angles equal to 180◦ . Otherwise several collinear vectors with the same
+−
+→ −−→
+−−→
+direction are labelled consecutively bj , bj+1 , . . . , bj+r . One can assume that in such cases the
+−
+→ −−→
+−−→
+−−→
+−
+→
+respective opposite vectors occur in the order −bj , −bj+1 , . . . , −bj+r , ensuring that bj+n = −bj
+for j = 1, . . . , 2n. Indices are taken cyclically here and in similar situations below.
+→
+−−−−→ −
+Choose points B1 , B2 , . . . , B2n satisfying Bj Bj+1 = bj for j = 1, . . . , 2n. The polygonal line
+P −
+→ −
+→
+Q = B1 B2 . . . B2n is closed, since 2n
+j=1 bj = 0 . Moreover, Q is a convex (2n)-gon due to the
+−
+→
+−−−−→
+arrangement of the vectors bj , possibly with 180◦ -angles. The side vectors of Q are ±Ai Ai+1 ,
+−−−−→
+1 ≤ i ≤ n. So in particular Q is centrally symmetric, because it contains as side vectors Ai Ai+1
+−−−−→
+and −Ai Ai+1 for each i = 1, . . . , n. Note that Bj Bj+1 and Bj+n Bj+n+1 are opposite sides of Q,
+1 ≤ j ≤ n. We call Q the associate of P.
+Let Si be the maximum area of a triangle with side Ai Ai+1 in P, 1 ≤ i ≤ n. We prove that
+[B1 B2 . . . B2n ] = 2
+
+n
+X
+
+Si
+
+(1)
+
+i=1
+
+and
+
+[B1 B2 . . . B2n ] ≥ 4 [A1 A2 . . . An ] .
+
+(2)
+
+It is clear that (1) and (2) imply the conclusion of the original problem.
+Lemma. For a side Ai Ai+1 of P, let hi be the maximum distance from a point of P to line Ai Ai+1 ,
+−−−−→ −−−−→
+i = 1, . . . , n. Denote by Bj Bj+1 the side of Q such that Ai Ai+1 = Bj Bj+1 . Then the distance
+between Bj Bj+1 and its opposite side in Q is equal to 2hi .
+Proof. Choose a vertex Ak of P at distance hi from line Ai Ai+1 . Let u be the unit vector
+perpendicular to Ai Ai+1 and pointing inside P. Denoting by x · y the dot product of vectors x
+and y, we have
+−−−→
+−−−−→
+−−−−−→
+−−−−→
+−−−−−→
+h = u · Ai Ak = u · (Ai Ai+1 + · · · + Ak−1 Ak ) = u · (Ai Ai−1 + · · · + Ak+1 Ak ).
+In Q, the distance Hi between the opposite sides Bj Bj+1 and Bj+n Bj+n+1 is given by
+−
+→ −−→
+−−−−→
+−−−−→
+−−−−−−−−→
+Hi = u · (Bj Bj+1 + · · · + Bj+n−1 Bj+n ) = u · (bj + bj+1 + · · · + bj+n−1 ).
+
+−
+→ −−→
+−−−−→
+The choice of vertex Ak implies that the n consecutive vectors bj , bj+1 , . . . , bj+n−1 are precisely
+−−−−→
+−−−−−→
+−−−−→
+−−−−−→
+Ai Ai+1 , . . . , Ak−1 Ak and Ai Ai−1 , . . . , Ak+1Ak , taken in some order. This implies Hi = 2hi . 
+For a proof of (1), apply the lemma to each side of P. If O the centre of Q then, using the
+notation of the lemma,
+[Bj Bj+1 O] = [Bj+n Bj+n+1O] = [Ai Ai+1 Ak ] = Si .
+Summation over all sides of P yields (1).
+Set d(P) = [Q] − 4[P] for a convex polygon P with associate Q. Inequality (2) means that
+d(P) ≥ 0 for each convex polygon P. The last inequality will be proved by induction on the
+
+53
+number ` of side directions of P, i. e. the number of pairwise nonparallel lines each containing
+a side of P.
+We choose to start the induction with ` = 1 as a base case, meaning that certain degenerate polygons are allowed. More exactly, we regard as degenerate convex polygons all closed
+polygonal lines of the form X1 X2 . . . Xk Y1 Y2 . . . Ym X1 , where X1 , X2 , . . . , Xk are points in this
+order on a line segment X1 Y1 , and so are Ym , Ym−1 , . . . , Y1 . The initial construction applies to
+degenerate polygons; their associates are also degenerate, and the value of d is zero. For the
+inductive step, consider a convex polygon P which determines ` side directions, assuming that
+d(P) ≥ 0 for polygons with smaller values of `.
+Suppose first that P has a pair of parallel sides, i. e. sides on distinct parallel lines. Let
+Ai Ai+1 and Aj Aj+1 be such a pair, and let Ai Ai+1 ≤ Aj Aj+1. Remove from P the parallelo−−−−→
+−−−−→
+gram R determined by vectors Ai Ai+1 and Ai Aj+1 . Two polygons are obtained in this way.
+−−−−→
+Translating one of them by vector Ai Ai+1 yields a new convex polygon P 0 , of area [P] − [R]
+and with value of ` not exceeding the one of P. The construction just described will be called
+operation A.
+Aj+1
+
+Aj
+R
+
+Ai
+
+P
+Ai+1
+
+Q
+
+Q0
+
+P0
+
+The associate of P 0 is obtained from Q upon decreasing the lengths of two opposite sides
+by an amount of 2Ai Ai+1 . By the lemma, the distance between these opposite sides is twice
+the distance between Ai Ai+1 and Aj Aj+1 . Thus operation A decreases [Q] by the area of a
+parallelogram with base and respective altitude twice the ones of R, i. e. by 4[R]. Hence A
+leaves the difference d(P) = [Q] − 4[P] unchanged.
+Now, if P 0 also has a pair of parallel sides, apply operation A to it. Keep doing so with
+the subsequent polygons obtained for as long as possible. Now, A decreases the number p of
+pairs of parallel sides in P. Hence its repeated applications gradually reduce p to 0, and further
+applications of A will be impossible after several steps. For clarity, let us denote by P again
+the polygon obtained at that stage.
+The inductive step is complete if P is degenerate. Otherwise ` > 1 and p = 0, i. e. there
+are no parallel sides in P. Observe that then ` ≥ 3. Indeed, ` = 2 means that the vertices of P
+all lie on the boundary of a parallelogram, implying p > 0.
+−
+→
+Furthermore, since P has no parallel sides, consecutive collinear vectors in the sequence bk
+(if any) correspond to consecutive 180◦ -angles in P. Removing the vertices of such angles, we
+obtain a convex polygon with the same value of d(P).
+In summary, if operation A is impossible for a nondegenerate polygon P, then ` ≥ 3. In
+addition, one may assume that P has no angles of size 180◦ .
+The last two conditions then also hold for the associate Q of P, and we perform the following construction. Since ` ≥ 3, there is a side Bj Bj+1 of Q such that the sum of the angles
+at Bj and Bj+1 is greater than 180◦. (Such a side exists in each convex k-gon for k > 4.) Naturally, Bj+n Bj+n+1 is a side with the same property. Extend the pairs of sides Bj−1 Bj , Bj+1 Bj+2
+
+54
+and Bj+n−1 Bj+n , Bj+n+1Bj+n+2 to meet at U and V , respectively. Let Q0 be the centrally symmetric convex 2(n+1)-gon obtained from Q by inserting U and V into the sequence B1 , . . . , B2n
+as new vertices between Bj , Bj+1 and Bj+n , Bj+n+1, respectively. Informally, we adjoin to Q
+the congruent triangles Bj Bj+1 U and Bj+n Bj+n+1V . Note that Bj , Bj+1 , Bj+n and Bj+n+1 are
+kept as vertices of Q0 , although Bj Bj+1 and Bj+n Bj+n+1 are no longer its sides.
+→
+−−−−→ −−−−→ −
+Let Ai Ai+1 be the side of P such that Ai Ai+1 = Bj Bj+1 = bj . Consider the point W such
+that triangle Ai Ai+1 W is congruent to triangle Bj Bj+1U and exterior to P. Insert W into the
+sequence A1 , A2 , . . . , An as a new vertex between Ai and Ai+1 to obtain an (n+1)-gon P 0 . We
+claim that P 0 is convex and its associate is Q0 .
+Ai−1
+Ai
+
+Bj
+P
+
+W
+Ai+1
+
+Ai+2
+
+U
+
+Bj+n+1
+V
+
+Q
+Bj+1
+
+Bj+n
+
+−−→
+−−→
+−−−−→
+Vectors Ai W and bj−1 are collinear and have the same direction,
+aswell as vectors W Ai+1
+
+−−→
+−−→ −
+→ −−→
+−
+→
+and bj+1 . Since bj−1 , bj , bj+1 are consecutive terms in the sequence bk , the angle inequalities
+−−→ →
+−
+−
+−
+→ −−→
+−
+→ −−−−−−→
+−−−−→ →
+∠(bj−1 , bj ) ≤ ∠(Ai−1 Ai , bj ) and ∠(bj , bj+1 ) ≤ ∠(bj , Ai+1 Ai+2 ) hold true. They show that P 0 is
+−
+→
+−−−−→
+a convex polygon. To 
+construct its associate, vectors ±Ai Ai+1 = ±bj must be deleted from the
+−
+→
+−−→ −−−−→
+defining sequence bk of Q, and the vectors ±Ai W , ±W Ai+1 must be inserted appropriately
+into it. The latter can be done as follows:
+−−→ −−→ −−−−→ −−→
+−−→
+−−→
+−−→
+−−−−→
+. . . , bj−1, Ai W , W Ai+1 , bj+1 , . . . , −bj−1 , −Ai W , −W Ai+1 , −bj+1 , . . . .
+This updated sequence produces Q0 as the associate of P 0 .
+It follows from the construction that [P 0 ] = [P] + [Ai Ai+1 W ] and [Q0 ] = [Q] + 2[Ai Ai+1 W ].
+Therefore d(P 0 ) = d(P) − 2[Ai Ai+1 W ] < d(P).
+To finish the induction, it remains to notice that the value of ` for P 0 is less than the one
+for P. This is because side Ai Ai+1 was removed. The newly added sides Ai W and W Ai+1 do
+not introduce new side directions. Each one of them is either parallel to a side of P or lies on
+the line determined by such a side. The proof is complete.
+
+Number Theory
+
+N1. Determine all pairs (x, y) of integers satisfying the equation
+1 + 2x + 22x+1 = y 2 .
+(USA)
+Solution. If (x, y) is a solution then obviously x ≥ 0 and (x, −y) is a solution too. For x = 0
+we get the two solutions (0, 2) and (0, −2).
+Now let (x, y) be a solution with x > 0; without loss of generality confine attention to y > 0.
+The equation rewritten as
+2x (1 + 2x+1 ) = (y − 1)(y + 1)
+shows that the factors y − 1 and y + 1 are even, exactly one of them divisible by 4. Hence
+x ≥ 3 and one of these factors is divisible by 2x−1 but not by 2x . So
+y = 2x−1 m + ,
+
+m odd,
+
+ = ±1.
+
+(1)
+
+Plugging this into the original equation we obtain
+
+2
+2x 1 + 2x+1 = 2x−1 m +  − 1 = 22x−2 m2 + 2x m,
+or, equivalently
+
+1 + 2x+1 = 2x−2 m2 + m.
+Therefore
+1 − m = 2x−2 (m2 − 8).
+
+(2)
+
+For  = 1 this yields m2 − 8 ≤ 0, i.e., m = 1, which fails to satisfy (2).
+For  = −1 equation (2) gives us
+1 + m = 2x−2(m2 − 8) ≥ 2(m2 − 8),
+implying 2m2 − m − 17 ≤ 0. Hence m ≤ 3; on the other hand m cannot be 1 by (2). Because
+m is odd, we obtain m = 3, leading to x = 4. From (1) we get y = 23. These values indeed
+satisfy the given equation. Recall that then y = −23 is also good. Thus we have the complete
+list of solutions (x, y): (0, 2), (0, −2), (4, 23), (4, −23).
+
+56
+
+N2. For x ∈ (0, 1) let y ∈ (0, 1) be the number whose nth digit after the decimal point is the
+(2n )th digit after the decimal point of x. Show that if x is rational then so is y.
+
+(Canada)
+Solution. Since x is rational, its digits repeat periodically starting at some point. We wish to
+show that this is also true for the digits of y, implying that y is rational.
+Let d be the length of the period of x and let d = 2u · v, where v is odd. There is a positive
+integer w such that
+2w ≡ 1 (mod v).
+(For instance, one can choose w to be ϕ(v), the value of Euler’s function at v.) Therefore
+2n+w = 2n · 2w ≡ 2n
+
+(mod v)
+
+for each n. Also, for n ≥ u we have
+2n+w ≡ 2n ≡ 0
+
+(mod 2u ).
+
+It follows that, for all n ≥ u, the relation
+2n+w ≡ 2n
+
+(mod d)
+
+holds. Thus, for n sufficiently large, the 2n+w th digit of x is in the same spot in the cycle of x
+as its 2n th digit, and so these digits are equal. Hence the (n + w)th digit of y is equal to its
+nth digit. This means that the digits of y repeat periodically with period w from some point
+on, as required.
+
+57
+
+N3. The sequence f (1), f (2), f (3), . . . is defined by
+f (n) =
+
+j n k
+1 j n k j n k
++
++···+
+,
+n
+1
+2
+n
+
+where bxc denotes the integer part of x.
+(a) Prove that f (n + 1) > f (n) infinitely often.
+(b) Prove that f (n + 1) < f (n) infinitely often.
+
+(South Africa)
+Solution. Let g(n) = nf (n) for n ≥ 1 and g(0) = 0. We note that, for k = 1, . . . , n,
+jnk n − 1
+−
+=0
+k
+k
+if k is not a divisor of n and
+
+
+n−1
+−
+=1
+k
+k
+
+jnk
+
+
+
+if k divides n. It therefore follows that if d(n) is the number of positive divisors of n ≥ 1 then
+
+ j k
+jnk jnk
+n
+n
++
++···+
++
+g(n) =
+1
+2
+n−1
+n
+ 
+
+
+ 
+
+
+n−1
+n−1
+n−1
+n−1
++
++···+
++
++ d(n)
+=
+1
+2
+n−1
+n
+= g(n − 1) + d(n).
+Hence
+g(n) = g(n−1) + d(n) = g(n−2) + d(n−1) + d(n) = · · · = d(1) + d(2) + · · · + d(n),
+meaning that
+d(1) + d(2) + · · · + d(n)
+.
+n
+In other words, f (n) is equal to the arithmetic mean of d(1), d(2), . . . , d(n). In order to prove
+the claims, it is therefore sufficient to show that d(n + 1) > f (n) and d(n + 1) < f (n) both
+hold infinitely often.
+We note that d(1) = 1. For n > 1, d(n) ≥ 2 holds, with equality if and only if n is prime.
+Since f (6) = 7/3 > 2, it follows that f (n) > 2 holds for all n ≥ 6.
+Since there are infinitely many primes, d(n + 1) = 2 holds for infinitely many values of n,
+and for each such n ≥ 6 we have d(n + 1) = 2 < f (n). This proves claim (b).
+To prove (a), notice that the sequence d(1), d(2), d(3), . . . is unbounded (e. g. d(2k ) = k + 1
+for all k). Hence d(n + 1) > max{d(1), d(2), . . . , d(n)} for infinitely many n. For all such n, we
+have d(n + 1) > f (n). This completes the solution.
+f (n) =
+
+58
+
+N4. Let P be a polynomial of degree n > 1 with integer coefficients and let k be any positive
+integer. Consider the polynomial Q(x) = P (P (. . . P (P (x)) . . .)), with k pairs of parentheses.
+Prove that Q has no more than n integer fixed points, i.e. integers satisfying the equation
+Q(x) = x.
+(Romania)
+Solution. The claim is obvious if every integer fixed point of Q is a fixed point of P itself.
+For the sequel assume that this is not the case. Take any integer x0 such that Q(x0 ) = x0 ,
+P (x0 ) 6= x0 and define inductively xi+1 = P (xi ) for i = 0, 1, 2, . . . ; then xk = x0 .
+It is evident that
+P (u) − P (v) is divisible by u − v for distinct integers u, v.
+(1)
+P
+(Indeed, if P (x) = ai xi then each ai (ui − v i ) is divisible by u − v.) Therefore each term in
+the chain of (nonzero) differences
+x0 − x1 ,
+
+x1 − x2 ,
+
+... ,
+
+xk−1 − xk ,
+
+xk − xk+1
+
+(2)
+
+is a divisor of the next one; and since xk − xk+1 = x0 − x1 , all these differences have equal
+absolute values. For xm = min(x1 , . . . , xk ) this means that xm−1 − xm = −(xm − xm+1 ). Thus
+xm−1 = xm+1 (6= xm ). It follows that consecutive differences in the sequence (2) have opposite
+signs. Consequently, x0 , x1 , x2 , . . . is an alternating sequence of two distinct values. In other
+words, every integer fixed point of Q is a fixed point of the polynomial P (P (x)). Our task is
+to prove that there are at most n such points.
+Let a be one of them so that b = P (a) 6= a (we have assumed that such an a exists); then
+a = P (b). Take any other integer fixed point α of P (P (x)) and let P (α) = β, so that P (β) = α;
+the numbers α and β need not be distinct (α can be a fixed point of P ), but each of α, β is
+different from each of a, b. Applying property (1) to the four pairs of integers (α, a), (β, b),
+(α, b), (β, a) we get that the numbers α − a and β − b divide each other, and also α − b and
+β − a divide each other. Consequently
+α − b = ±(β − a),
+
+α − a = ±(β − b).
+
+(3)
+
+Suppose we have a plus in both instances: α − b = β − a and α − a = β − b. Subtraction yields
+a − b = b − a, a contradiction, as a 6= b. Therefore at least one equality in (3) holds with a minus
+sign. For each of them this means that α + β = a + b; equivalently a + b − α − P (α) = 0.
+Denote a + b by C. We have shown that every integer fixed point of Q other that a and b is
+a root of the polynomial F (x) = C − x − P (x). This is of course true for a and b as well. And
+since P has degree n > 1, the polynomial F has the same degree, so it cannot have more than
+n roots. Hence the result.
+Comment. The first part of the solution, showing that integer fixed points of any iterate of P are
+in fact fixed points of the second iterate P ◦P is standard; moreover, this fact has already appeared
+in contests. We however do not consider this as a major drawback to the problem because the only
+tricky moment comes up only at the next stage of the reasoning—to apply the divisibility property (1)
+to points from distinct 2-orbits of P . Yet maybe it would be more appropriate to state the problem
+in a version involving k = 2 only.
+
+59
+
+N5. Find all integer solutions of the equation
+x7 − 1
+= y 5 − 1.
+x−1
+(Russia)
+Solution. The equation has no integer solutions. To show this, we first prove a lemma.
+x7 − 1
+Lemma. If x is an integer and p is a prime divisor of
+then either p ≡ 1 (mod 7) or p = 7.
+x−1
+Proof. Both x7 −1 and xp−1 −1 are divisible by p, by hypothesis and by Fermat’s little theorem,
+respectively. Suppose that 7 does not divide p − 1. Then gcd(p−1, 7) = 1, so there exist integers
+k and m such that 7k + (p − 1)m = 1. We therefore have
+x ≡ x7k+(p−1)m ≡ (x7 )k · (xp−1 )m ≡ 1 (mod p),
+and so
+
+x7 − 1
+= 1 + x + · · · + x6 ≡ 7 (mod p).
+x−1
+It follows that p divides 7, hence p = 7 must hold if p ≡ 1 (mod 7) does not, as stated. 
+x7 − 1
+satisfies either d ≡ 0 (mod 7) or
+The lemma shows that each positive divisor d of
+x−1
+d ≡ 1 (mod 7).
+Now assume that (x, y) is an integer solution of the original equation. Notice that y − 1 > 0,
+x7 − 1
+x7 − 1
+> 0 for all x 6= 1. Since y − 1 divides
+= y 5 − 1, we have y ≡ 1 (mod 7)
+because
+x−1
+x−1
+or y ≡ 2 (mod 7) by the previous paragraph. In the first case, 1 + y + y 2 + y 3 + y 4 ≡ 5 (mod 7),
+and in the second 1 + y + y 2 + y 3 + y 4 ≡ 3 (mod 7). Both possibilities contradict the fact that
+x7 − 1
+the positive divisor 1 + y + y 2 + y 3 + y 4 of
+is congruent to 0 or 1 modulo 7. So the given
+x−1
+equation has no integer solutions.
+
+60
+
+N6. Let a > b > 1 be relatively prime positive integers. Define the weight of an integer c,
+denoted by w(c), to be the minimal possible value of |x| + |y| taken over all pairs of integers x
+and y such that
+ax + by = c.
+An integer c is called a local champion if w(c) ≥ w(c ± a) and w(c) ≥ w(c ± b).
+Find all local champions and determine their number.
+(USA)
+Solution. Call the pair of integers (x, y) a representation of c if ax + by = c and |x| + |y| has
+the smallest possible value, i.e. |x| + |y| = w(c).
+We characterise the local champions by the following three observations.
+Lemma 1. If (x, y) a representation of a local champion c then xy < 0.
+Proof. Suppose indirectly that x ≥ 0 and y ≥ 0 and consider the values w(c) and w(c + a). All
+representations of the numbers c and c + a in the form au + bv can be written as
+c = a(x − kb) + b(y + ka),
+
+c + a = a(x + 1 − kb) + b(y + ka)
+
+where k is an arbitrary integer.
+Since |x| + |y| is minimal, we have
+x + y = |x| + |y| ≤ |x − kb| + |y + ka|
+for all k. On the other hand, w(c + a) ≤ w(c), so there exists a k for which
+|x + 1 − kb| + |y + ka| ≤ |x| + |y| = x + y.
+Then
+(x + 1 − kb) + (y + ka) ≤ |x + 1 − kb| + |y + ka| ≤ x + y ≤ |x − kb| + |y + ka|.
+Comparing the first and the third expressions, we find k(a − b) + 1 ≤ 0 implying k < 0.
+Comparing the second and fourth expressions, we get |x + 1 − kb| ≤ |x − kb|, therefore kb > x;
+this is a contradiction.
+If x, y ≤ 0 then we can switch to −c, −x and −y. 
+From this point, write c = ax − by instead of c = ax + by and consider only those cases
+where x and y are nonzero and have the same sign. By Lemma 1, there is no loss of generality
+in doing so.
+Lemma 2. Let c = ax − by where |x| + |y| is minimal and x,
+ y have
+ the same sign. The number
+c is a local champion if and only if |x| < b and |x| + |y| = a+b
+.
+2
+Proof. Without loss of generality we may assume x, y > 0.
+The numbers c − a and c + b can be written as
+c − a = a(x − 1) − by
+
+and c + b = ax − b(y − 1)
+
+and trivially w(c − a) ≤ (x − 1) + y < w(c) and w(c + b) ≤ x + (y − 1) < w(c) in all cases.
+Now assume that c is a local champion and consider w(c + a). Since w(c + a) ≤ w(c), there
+exists an integer k such that
+c + a = a(x + 1 − kb) − b(y − ka) and |x + 1 − kb| + |y − ka| ≤ x + y.
+
+61
+This inequality cannot hold if k ≤ 0, therefore k > 0. We prove that we can choose k = 1.
+Consider the function f (t) = |x + 1 − bt| + |y − at| − (x + y). This is a convex function and
+we have f (0) = 1 and f (k) ≤ 0. By Jensen’s inequality, f (1) ≤ 1 − k1 f (0) + k1 f (k) < 1. But
+f (1) is an integer. Therefore f (1) ≤ 0 and
+|x + 1 − b| + |y − a| ≤ x + y.
+Knowing c = a(x − b) − b(y − a), we also have
+x + y ≤ |x − b| + |y − a|.
+Combining the two inequalities yields |x + 1 − b| ≤ |x − b| which is equivalent to x < b.
+Considering w(c − b), we obtain similarly that y < a.
+Now |x − b| = b − x, |x + 1 − b| = b − x − 1 and |y − a| = a − y, therefore we have
+(b − x − 1) + (a − y) ≤ x + y ≤ (b − x) + (a − y),
+a+b
+a+b−1
+≤x+y ≤
+.
+2
+2
+ 
+Hence x + y = a+b
+.
+2
+ 
+. Since a > b, we also
+To prove the opposite direction, assume 0 < x < b and x + y = a+b
+2
+have 0 < y < a. Then
+w(c + a) ≤ |x + 1 − b| + |y − a| = a + b − 1 − (x + y) ≤ x + y = w(c)
+and
+w(c − b) ≤ |x − b| + |y + 1 − a| = a + b − 1 − (x + y) ≤ x + y = w(c)
+
+therefore c is a local champion indeed. 
+
+Lemma 3. Let c = ax − by and assume that x and y have the same sign, |x| < b, |y| < a and
+|x| + |y| = a+b
+. Then w(c) = x + y.
+2
+Proof. By definition w(c) = min{|x − kb| + |y − ka| : k ∈ Z}. If k ≤ 0 then obviously
+|x − kb| + |y − ka| ≥ x + y. If k ≥ 1 then
+|x − kb| + |y − ka| = (kb − x) + (ka − y) = k(a + b) − (x + y) ≥ (2k − 1)(x + y) ≥ x + y.
+Therefore w(c) = x + y indeed. 
+Lemmas 1, 2 and 3 together yield that the set of local champions is
+
+
+
+a+b
+.
+C = ± (ax − by) : 0 < x < b, x + y =
+2
+Denote by C + and C − the two sets generated by the expressions +(ax − by) and −(ax − by),
+respectively. It is easy to see that both sets are arithmetic progressions of length b − 1, with
+difference a + b.
+If a and b are odd, then C + = C − , because a(−x) − b(−y) = a(b − x) − b(a − y) and
+x + y = a+b
+is equivalent to (b − x) + (a − y) = a+b
+. In this case there exist b − 1 local
+2
+2
+champions.
+If a and b have opposite parities then the answer is different. For any c1 ∈ C + and c2 ∈ C − ,
+
+
+a+b−1
+2c1 ≡ −2c2 ≡ 2 a
+− b · 0 ≡ −a (mod a + b)
+2
+
+62
+and
+2c1 − 2c2 ≡ −2a
+
+(mod a + b).
+
+The number a + b is odd and relatively prime to a, therefore the elements of C + and C − belong
+to two different residue classes modulo a + b. Hence, the set C is the union of two disjoint
+arithmetic progressions and the number of all local champions is 2(b − 1).
+So the number of local champions is b − 1 if both a and b are odd and 2(b − 1) otherwise.
+Comment. The original question, as stated by the proposer, was:
+(a) Show that there exists only finitely many local champions;
+(b) Show that there exists at least one local champion.
+
+63
+
+N7. Prove that, for every positive integer n, there exists an integer m such that 2m + m is
+divisible by n.
+(Estonia)
+Solution. We will prove by induction on d that, for every positive integer N, there exist positive
+integers b0 , b1 , . . . , bd−1 such that, for each i = 0, 1, 2, . . . , d − 1, we have bi > N and
+2bi + bi ≡ i
+
+(mod d).
+
+This yields the claim for m = b0 .
+The base case d = 1 is trivial. Take an a > 1 and assume that the statement holds for
+all d < a. Note that the remainders of 2i modulo a repeat periodically starting with some
+0
+exponent M. Let k be the length of the period; this means that 2M +k ≡ 2M (mod a) holds
+only for those k 0 which are multiples of k. Note further that the period cannot contain all the
+a remainders, since 0 either is missing or is the only number in the period. Thus k < a.
+Let d = gcd(a, k) and let a0 = a/d, k 0 = k/d. Since 0 < k < a, we also have 0 < d < a. By
+the induction hypothesis, there exist positive integers b0 , b1 , . . . , bd−1 such that bi > max(2M , N)
+and
+2bi + bi ≡ i (mod d) for i = 0, 1, 2, . . . , d − 1.
+(1)
+For each i = 0, 1, . . . , d − 1 consider the sequence
+0
+
+2bi + bi , 2bi +k + (bi + k), . . . , 2bi +(a −1)k + (bi + (a0 − 1)k).
+
+(2)
+
+Modulo a, these numbers are congruent to
+2bi + bi , 2bi + (bi + k), . . . , 2bi + (bi + (a0 − 1)k),
+respectively. The d sequences contain a0 d = a numbers altogether. We shall now prove that no
+two of these numbers are congruent modulo a.
+Suppose that
+2bi + (bi + mk) ≡ 2bj + (bj + nk) (mod a)
+(3)
+for some values of i, j ∈ {0, 1, . . . , d − 1} and m, n ∈ {0, 1, . . . , a0 − 1}. Since d is a divisor of a,
+we also have
+2bi + (bi + mk) ≡ 2bj + (bj + nk) (mod d).
+
+Because d is a divisor of k and in view of (1), we obtain i ≡ j (mod d). As i, j ∈ {0, 1, . . . , d−1},
+this just means that i = j. Substituting this into (3) yields mk ≡ nk (mod a). Therefore
+mk 0 ≡ nk 0 (mod a0 ); and since a0 and k 0 are coprime, we get m ≡ n (mod a0 ). Hence also
+m = n.
+It follows that the a numbers that make up the d sequences (2) satisfy all the requirements;
+they are certainly all greater than N because we chose each bi > max(2M , N). So the statement
+holds for a, completing the induction.
+
+64
+
+

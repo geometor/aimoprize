@@ -1,0 +1,35 @@
+Sixth International Olympiad, 1964
+1964/1.
+(a) Find all positive integers n for which 2n − 1 is divisible by 7.
+(b) Prove that there is no positive integer n for which 2n + 1 is divisible by
+7.
+
+1964/2.
+Suppose a, b, c are the sides of a triangle. Prove that
+a2 (b + c − a) + b2 (c + a − b) + c2 (a + b − c) ≤ 3abc.
+
+1964/3.
+A circle is inscribed in triangle ABC with sides a, b, c. Tangents to the circle
+parallel to the sides of the triangle are constructed. Each of these tangents
+cuts off a triangle from ∆ABC. In each of these triangles, a circle is inscribed.
+Find the sum of the areas of all four inscribed circles (in terms of a, b, c).
+
+1964/4.
+Seventeen people correspond by mail with one another - each one with all
+the rest. In their letters only three different topics are discussed. Each pair
+of correspondents deals with only one of these topics. Prove that there are
+at least three people who write to each other about the same topic.
+
+1964/5.
+Suppose five points in a plane are situated so that no two of the straight lines
+joining them are parallel, perpendicular, or coincident. From each point perpendiculars are drawn to all the lines joining the other four points. Determine
+the maximum number of intersections that these perpendiculars can have.
+
+1964/6.
+In tetrahedron ABCD, vertex D is connected with D0 the centroid of ∆ABC.
+Lines parallel to DD0 are drawn through A, B and C. These lines intersect the
+planes BCD, CAD and ABD in points A1 , B1 and C1 , respectively. Prove
+that the volume of ABCD is one third the volume of A1 B1 C1 D0 . Is the result
+true if point D0 is selected anywhere within ∆ABC?
+
+

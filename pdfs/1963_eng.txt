@@ -1,0 +1,59 @@
+Fifth International Olympiad, 1963
+1963/1.
+Find all real roots of the equation
+q
+
+√
+x2 − p + 2 x2 − 1 = x,
+
+where p is a real parameter.
+
+1963/2.
+Point A and segment BC are given. Determine the locus of points in space
+which are vertices of right angles with one side passing through A, and the
+other side intersecting the segment BC.
+
+1963/3.
+In an n-gon all of whose interior angles are equal, the lengths of consecutive
+sides satisfy the relation
+a1 ≥ a2 ≥ · · · ≥ an .
+Prove that a1 = a2 = · · · = an .
+
+1963/4.
+Find all solutions x1 , x2 , x3 , x4 , x5 of the system
+x5 + x2
+x1 + x3
+x2 + x4
+x3 + x5
+x4 + x1
+where y is a parameter.
+
+1963/5.
++ cos 3π
+= 12 .
+Prove that cos π7 − cos 2π
+7
+7
+
+=
+=
+=
+=
+=
+
+yx1
+yx2
+yx3
+yx4
+yx5 ,
+
+1963/6.
+Five students, A, B, C, D, E, took part in a contest. One prediction was that
+the contestants would finish in the order ABCDE. This prediction was very
+poor. In fact no contestant finished in the position predicted, and no two
+contestants predicted to finish consecutively actually did so. A second prediction had the contestants finishing in the order DAECB. This prediction
+was better. Exactly two of the contestants finished in the places predicted,
+and two disjoint pairs of students predicted to finish consecutively actually
+did so. Determine the order in which the contestants finished.
+
+

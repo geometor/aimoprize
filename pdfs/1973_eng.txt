@@ -1,0 +1,59 @@
+Fifteenth International Olympiad, 1973
+1973/1.
+
+−−→ −−→
+−−→
+Point O lies on line g; OP1 , OP2 , ..., OPn are unit vectors such that points
+P1 , P2 , ..., Pn all lie in a plane containing g and on one side of g. Prove that
+if n is odd,
+¯−−→ −−→
+−−→¯¯
+¯
+¯OP1 + OP2 + · · · + OPn ¯ ≥ 1
+¯−−→¯
+−−→
+¯
+¯
+Here ¯OM ¯ denotes the length of vector OM .
+
+1973/2.
+Determine whether or not there exists a finite set M of points in space not
+lying in the same plane such that, for any two points A and B of M, one can
+select two other points C and D of M so that lines AB and CD are parallel
+and not coincident.
+
+1973/3.
+Let a and b be real numbers for which the equation
+x4 + ax3 + bx2 + ax + 1 = 0
+has at least one real solution. For all such pairs (a, b), find the minimum
+value of a2 + b2 .
+
+1973/4.
+A soldier needs to check on the presence of mines in a region having the
+shape of an equilateral triangle. The radius of action of his detector is equal
+to half the altitude of the triangle. The soldier leaves from one vertex of the
+triangle. What path shouid he follow in order to travel the least possible
+distance and still accomplish his mission?
+
+1973/5.
+G is a set of non-constant functions of the real variable x of the form
+f (x) = ax + b, a and b are real numbers,
+and G has the following properties:
+(a) If f and g are in G, then g ◦ f is in G; here (g ◦ f )(x) = g[f (x)].
+(b) If f is in G, then its inverse f −1 is in G; here the inverse of f (x) = ax + b
+is f −1 (x) = (x − b)/a.
+(c) For every f in G, there exists a real number xf such that f (xf ) = xf .
+Prove that there exists a real number k such that f (k) = k for all f in G.
+
+1973/6.
+Let a1 , a2 , ..., an be n positive numbers, and let q be a given real number such
+that 0 < q < 1. Find n numbers b1 , b2 , ..., bn for which
+(a) ak < bk for k = 1, 2, · · · , n,
+(b) q < bk+1
+< 1q for k = 1, 2, ..., n − 1,
+bk
+(c) b1 + b2 + · · · + bn < 1+q
+(a1 + a2 + · · · + an ).
+1−q
+
+

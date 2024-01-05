@@ -1,0 +1,4246 @@
+Shortlisted Problems with Solutions
+
+54th International Mathematical Olympiad
+Santa Marta, Colombia 2013
+
+Note of Confidentiality
+
+The Shortlisted Problems should be kept
+strictly confidential until IMO 2014.
+
+Contributing Countries
+The Organizing Committee and the Problem Selection Committee of IMO 2013 thank the following
+50 countries for contributing 149 problem proposals.
+
+Argentina, Armenia, Australia, Austria, Belgium, Belarus, Brazil, Bulgaria,
+Croatia, Cyprus, Czech Republic, Denmark, El Salvador, Estonia, Finland,
+France, Georgia, Germany, Greece, Hungary, India, Indonesia, Iran, Ireland,
+Israel, Italy, Japan, Latvia, Lithuania, Luxembourg, Malaysia, Mexico,
+Netherlands, Nicaragua, Pakistan, Panama, Poland, Romania, Russia,
+Saudi Arabia, Serbia, Slovenia, Sweden, Switzerland, Tajikistan, Thailand,
+Turkey, U.S.A., Ukraine, United Kingdom
+
+Problem Selection Committee
+Federico Ardila (chairman)
+Ilya I. Bogdanov
+Géza Kós
+Carlos Gustavo Tamm de Araújo Moreira (Gugu)
+Christian Reiher
+
+Shortlisted problems
+
+3
+
+Problems
+Algebra
+A1.
+
+Let n be a positive integer and let a1 , . . . , an´1 be arbitrary real numbers. Define the
+sequences u0 , . . . , un and v0 , . . . , vn inductively by u0 “ u1 “ v0 “ v1 “ 1, and
+uk`1 “ uk ` ak uk´1 ,
+
+vk`1 “ vk ` an´k vk´1
+
+for k “ 1, . . . , n ´ 1.
+
+Prove that un “ vn .
+
+(France)
+A2. Prove that in any set of 2000 distinct real numbers there exist two pairs a ą b and c ą d
+with a ‰ c or b ‰ d, such that
+ˇ
+ˇ
+ˇa ´ b
+ˇ
+1
+ˇ
+ˇ
+ˇ c ´ d ´ 1ˇ ă 100000 .
+(Lithuania)
+A3. Let Qą0 be the set of positive rational numbers. Let f : Qą0 Ñ R be a function satisfying
+the conditions
+f pxqf pyq ě f pxyq and f px ` yq ě f pxq ` f pyq
+
+for all x, y P Qą0 . Given that f paq “ a for some rational a ą 1, prove that f pxq “ x for all
+x P Qą0 .
+
+(Bulgaria)
+A4. Let n be a positive integer, and consider a sequence a1 , a2 , . . . , an of positive integers.
+Extend it periodically to an infinite sequence a1 , a2 , . . . by defining an`i “ ai for all i ě 1. If
+a1 ď a2 ď ¨ ¨ ¨ ď an ď a1 ` n
+and
+aai ď n ` i ´ 1
+
+prove that
+
+for i “ 1, 2, . . . , n,
+
+a1 ` ¨ ¨ ¨ ` an ď n2 .
+(Germany)
+A5. Let Zě0 be the set of all nonnegative integers. Find all the functions f : Zě0 Ñ Zě0
+satisfying the relation
+f pf pf pnqqq “ f pn ` 1q ` 1
+
+for all n P Zě0 .
+
+(Serbia)
+A6. Let m ‰ 0 be an integer. Find all polynomials P pxq with real coefficients such that
+px3 ´ mx2 ` 1qP px ` 1q ` px3 ` mx2 ` 1qP px ´ 1q “ 2px3 ´ mx ` 1qP pxq
+for all real numbers x.
+(Serbia)
+
+4
+
+IMO 2013 Colombia
+
+Combinatorics
+C1. Let n be a positive integer. Find the smallest integer k with the following property: Given
+any real numbers a1 , . . . , ad such that a1 ` a2 ` ¨ ¨ ¨ ` ad “ n and 0 ď ai ď 1 for i “ 1, 2, . . . , d, it
+is possible to partition these numbers into k groups (some of which may be empty) such that the
+sum of the numbers in each group is at most 1.
+(Poland)
+
+C2.
+
+In the plane, 2013 red points and 2014 blue points are marked so that no three of the
+marked points are collinear. One needs to draw k lines not passing through the marked points and
+dividing the plane into several regions. The goal is to do it in such a way that no region contains
+points of both colors.
+Find the minimal value of k such that the goal is attainable for every possible configuration of
+4027 points.
+(Australia)
+
+C3. A crazy physicist discovered a new kind of particle which he called an imon, after some of
+them mysteriously appeared in his lab. Some pairs of imons in the lab can be entangled, and each
+imon can participate in many entanglement relations. The physicist has found a way to perform
+the following two kinds of operations with these particles, one operation at a time.
+piq If some imon is entangled with an odd number of other imons in the lab, then the physicist
+can destroy it.
+piiq At any moment, he may double the whole family of imons in his lab by creating a copy I 1
+of each imon I. During this procedure, the two copies I 1 and J 1 become entangled if and only if
+the original imons I and J are entangled, and each copy I 1 becomes entangled with its original
+imon I; no other entanglements occur or disappear at this moment.
+Prove that the physicist may apply a sequence of such operations resulting in a family of imons,
+no two of which are entangled.
+(Japan)
+
+C4. Let n be a positive integer, and let A be a subset of t1, . . . , nu. An A-partition of n into k
+parts is a representation of n as a sum n “ a1 ` ¨ ¨ ¨ ` ak , where the parts a1 , . . . , ak belong to A
+and are not necessarily distinct. The number of different parts in such a partition is the number
+of (distinct) elements in the set ta1 , a2 , . . . , ak u.
+We say that an A-partition of n into k parts is optimal if there is no A-partition
+of n into r
+?
+3
+parts with r ă k. Prove that any optimal A-partition of n contains at most 6n different parts.
+(Germany)
+
+C5.
+
+Let r be a positive integer, and let a0 , a1 , . . . be an infinite sequence of real numbers.
+Assume that for all nonnegative integers m and s there exists a positive integer n P rm ` 1, m ` rs
+such that
+am ` am`1 ` ¨ ¨ ¨ ` am`s “ an ` an`1 ` ¨ ¨ ¨ ` an`s .
+Prove that the sequence is periodic, i. e. there exists some p ě 1 such that an`p “ an for all n ě 0.
+(India)
+
+Shortlisted problems
+
+5
+
+C6. In some country several pairs of cities are connected by direct two-way flights. It is possible
+to go from any city to any other by a sequence of flights. The distance between two cities is defined
+to be the least possible number of flights required to go from one of them to the other. It is known
+that for any city there are at most 100 cities at distance exactly three from it. Prove that there is
+no city such that more than 2550 other cities have distance exactly four from it.
+(Russia)
+C7. Let n ě 2 be an integer. Consider all circular arrangements of the numbers 0, 1, . . . , n; the
+n ` 1 rotations of an arrangement are considered to be equal. A circular arrangement is called
+beautiful if, for any four distinct numbers 0 ď a, b, c, d ď n with a ` c “ b ` d, the chord joining
+numbers a and c does not intersect the chord joining numbers b and d.
+Let M be the number of beautiful arrangements of 0, 1, . . . , n. Let N be the number of pairs
+px, yq of positive integers such that x ` y ď n and gcdpx, yq “ 1. Prove that
+M “ N ` 1.
+(Russia)
+C8. Players A and B play a paintful game on the real line. Player A has a pot of paint with
+four units of black ink. A quantity p of this ink suffices to blacken a (closed) real interval of length
+p. In every round, player A picks some positive integer m and provides 1{2m units of ink from the
+pot. Player B then picks an integer k and blackens the interval from k{2m to pk ` 1q{2m (some
+parts of this interval may have been blackened before). The goal of player A is to reach a situation
+where the pot is empty and the interval r0, 1s is not completely blackened.
+Decide whether there exists a strategy for player A to win in a finite number of moves.
+(Austria)
+
+6
+
+IMO 2013 Colombia
+
+Geometry
+G1.
+
+Let ABC be an acute-angled triangle with orthocenter H, and let W be a point on
+side BC. Denote by M and N the feet of the altitudes from B and C, respectively. Denote
+by ω1 the circumcircle of BW N, and let X be the point on ω1 which is diametrically opposite
+to W . Analogously, denote by ω2 the circumcircle of CW M, and let Y be the point on ω2 which
+is diametrically opposite to W . Prove that X, Y and H are collinear.
+
+(Thaliand)
+G2. Let ω be the circumcircle of a triangle ABC. Denote by M and N the midpoints of the
+sides AB and AC, respectively, and denote by T the midpoint of the arc BC of ω not containing A.
+The circumcircles of the triangles AMT and ANT intersect the perpendicular bisectors of AC
+and AB at points X and Y , respectively; assume that X and Y lie inside the triangle ABC. The
+lines MN and XY intersect at K. Prove that KA “ KT .
+
+(Iran)
+G3. In a triangle ABC, let D and E be the feet of the angle bisectors of angles A and B,
+respectively. A rhombus is inscribed into the quadrilateral AEDB (all vertices of the rhombus
+lie on different sides of AEDB). Let ϕ be the non-obtuse angle of the rhombus. Prove that
+ϕ ď maxt=BAC, =ABCu.
+
+(Serbia)
+G4. Let ABC be a triangle with =B ą =C. Let P and Q be two different points on line AC
+such that =P BA “ =QBA “ =ACB and A is located between P and C. Suppose that there
+exists an interior point D of segment BQ for which P D “ P B. Let the ray AD intersect the circle
+ABC at R ‰ A. Prove that QB “ QR.
+(Georgia)
+G5. Let ABCDEF be a convex hexagon with AB “ DE, BC “ EF , CD “ F A, and
+=A ´ =D “ =C ´ =F “ =E ´ =B. Prove that the diagonals AD, BE, and CF are concurrent.
+(Ukraine)
+G6. Let the excircle of the triangle ABC lying opposite to A touch its side BC at the point A1 .
+Define the points B1 and C1 analogously. Suppose that the circumcentre of the triangle A1 B1 C1
+lies on the circumcircle of the triangle ABC. Prove that the triangle ABC is right-angled.
+(Russia)
+
+Shortlisted problems
+
+7
+
+Number Theory
+N1. Let Zą0 be the set of positive integers. Find all functions f : Zą0 Ñ Zą0 such that
+m2 ` f pnq | mf pmq ` n
+
+for all positive integers m and n.
+(Malaysia)
+N2.
+Prove that for any pair of positive integers k and n there exist k positive integers
+m1 , m2 , . . . , mk such that
+˙ˆ
+˙ ˆ
+˙
+ˆ
+2k ´ 1
+1
+1
+1
+1`
+1`
+¨¨¨ 1 `
+.
+“ 1`
+n
+m1
+m2
+mk
+(Japan)
+N3. Prove that there exist infinitely many positive integers n such that the largest prime divisor
+of n4 ` n2 ` 1 is equal to the largest prime divisor of pn ` 1q4 ` pn ` 1q2 ` 1.
+
+(Belgium)
+N4. Determine whether there exists an infinite sequence of nonzero digits a1 , a2 , a3 , . . . and a
+positive integer N such that for every integer k ą N, the number ak ak´1 . . . a1 is a perfect square.
+
+(Iran)
+N5. Fix an integer k ě 2. Two players, called Ana and Banana, play the following game of
+numbers: Initially, some integer n ě k gets written on the blackboard. Then they take moves
+in turn, with Ana beginning. A player making a move erases the number m just written on the
+blackboard and replaces it by some number m1 with k ď m1 ă m that is coprime to m. The first
+player who cannot move anymore loses.
+An integer n ě k is called good if Banana has a winning strategy when the initial number is n,
+and bad otherwise.
+Consider two integers n, n1 ě k with the property that each prime number p ď k divides n if
+and only if it divides n1 . Prove that either both n and n1 are good or both are bad.
+(Italy)
+
+N6. Determine all functions f : Q ÝÑ Z satisfying
+f
+
+ˆ
+
+f pxq ` a
+b
+
+˙
+
+“f
+
+´x ` a¯
+b
+
+for all x P Q, a P Z, and b P Zą0 . (Here, Zą0 denotes the set of positive integers.)
+
+(Israel)
+N7. Let ν be an irrational positive number, and let m be a positive integer. A pair pa, bq of
+positive integers is called good if
+arbνs ´ btaνu “ m.
+
+A good pair pa, bq is called excellent if neither of the pairs pa´b, bq and pa, b´aq is good. (As usual,
+by txu and rxs we denote the integer numbers such that x ´ 1 ă txu ď x and x ď rxs ă x ` 1.)
+Prove that the number of excellent pairs is equal to the sum of the positive divisors of m.
+(U.S.A.)
+
+8
+
+IMO 2013 Colombia
+
+Solutions
+Algebra
+A1.
+
+Let n be a positive integer and let a1 , . . . , an´1 be arbitrary real numbers. Define the
+sequences u0 , . . . , un and v0 , . . . , vn inductively by u0 “ u1 “ v0 “ v1 “ 1, and
+uk`1 “ uk ` ak uk´1 ,
+
+vk`1 “ vk ` an´k vk´1
+
+for k “ 1, . . . , n ´ 1.
+
+Prove that un “ vn .
+
+(France)
+
+Solution 1. We prove by induction on k that
+ÿ
+uk “
+
+p1q
+
+ai1 . . . ait .
+
+0ăi1 ă...ăit ăk,
+ij`1 ´ij ě2
+
+Note that we have one trivial summand equal to 1 (which corresponds to t “ 0 and the empty
+sequence, whose product is 1).
+For k “ 0, 1 the sum on the right-hand side only contains the empty product, so (1) holds due
+to u0 “ u1 “ 1. For k ě 1, assuming the result is true for 0, 1, . . . , k, we have
+ÿ
+ÿ
+ai1 . . . ait ¨ ak
+ai1 . . . ait `
+uk`1 “
+0ăi1 ă...ăit ăk´1,
+ij`1 ´ij ě2
+
+0ăi1 ă...ăit ăk,
+ij`1 ´ij ě2
+
+“
+
+ÿ
+
+0ăi1 ă...ăit ăk`1,
+ij`1 ´ij ě2,
+
+ai1 . . . ait `
+
+“
+
+ai1 . . . ait
+
+0ăi1 ă...ăit ăk`1,
+ij`1 ´ij ě2,
+kPti1 ,...,it u
+
+kRti1 ,...,it u
+
+ÿ
+
+ÿ
+
+ai1 . . . ait ,
+
+0ăi1 ă...ăit ăk`1,
+ij`1 ´ij ě2
+
+as required.
+Applying (1) to the sequence b1 , . . . , bn given by bk “ an´k for 1 ď k ď n, we get
+ÿ
+ÿ
+ai1 . . . ait .
+bi1 . . . bit “
+vk “
+0ăi1 ă...ăit ăk,
+ij`1 ´ij ě2
+
+nąi1 ą...ąit ąn´k,
+ij ´ij`1 ě2
+
+p2q
+
+For k “ n the expressions (1) and (2) coincide, so indeed un “ vn .
+Solution 2. Define recursively a sequence of multivariate polynomials by
+P0 “ P1 “ 1,
+
+Pk`1 px1 , . . . , xk q “ Pk px1 , . . . , xk´1 q ` xk Pk´1 px1 , . . . , xk´2 q,
+
+so Pn is a polynomial in n ´ 1 variables for each n ě 1. Two easy inductive arguments show that
+un “ Pn pa1 , . . . , an´1 q,
+
+vn “ Pn pan´1 , . . . , a1 q,
+
+Shortlisted problems – solutions
+
+9
+
+so we need to prove Pn px1 , . . . , xn´1 q “ Pn pxn´1 , . . . , x1 q for every positive integer n. The cases
+n “ 1, 2 are trivial, and the cases n “ 3, 4 follow from P3 px, yq “ 1 ` x ` y and P4 px, y, zq “
+1 ` x ` y ` z ` xz.
+Now we proceed by induction, assuming that n ě 5 and the claim hold for all smaller cases.
+Using F pa, bq as an abbreviation for P|a´b|`1 pxa , . . . , xb q (where the indices a, . . . , b can be either
+in increasing or decreasing order),
+F pn, 1q “ F pn, 2q ` x1 F pn, 3q “ F p2, nq ` x1 F p3, nq
+“ pF p2, n ´ 1q ` xn F p2, n ´ 2qq ` x1 pF p3, n ´ 1q ` xn F p3, n ´ 2qq
+“ pF pn ´ 1, 2q ` x1 F pn ´ 1, 3qq ` xn pF pn ´ 2, 2q ` x1 F pn ´ 2, 3qq
+“ F pn ´ 1, 1q ` xn F pn ´ 2, 1q “ F p1, n ´ 1q ` xn F p1, n ´ 2q
+“ F p1, nq,
+as we wished to show.
+Solution 3. Using matrix notation, we can rewrite the recurrence relation as
+˙
+˙ ˆ
+˙ˆ
+˙ ˆ
+ˆ
+uk
+uk ` ak uk´1
+uk`1
+1 ` ak ´ak
+“
+“
+ak
+´ak
+uk ´ uk´1
+ak uk´1
+uk`1 ´ uk
+
+for 1 ď k ď n ´ 1, and similarly
+ˆ
+˙
+´
+¯
+1 ` an´k ´an´k
+pvk`1; vk ´ vk`1 q “ vk ` an´k vk´1 ; ´an´k vk´1 “ pvk ; vk´1 ´ vk q
+an´k
+´an´k
+ˆ
+˙
+1 ` ak ´ak
+for 1 ď k ď n ´ 1. Hence, introducing the 2 ˆ 2 matrices Ak “
+we have
+ak
+´ak
+˙
+˙
+ˆ
+ˆ
+uk
+uk`1
+and pvk`1 ; vk ´ vk`1 q “ pvk ; vk´1 ´ vk qAn´k .
+“ Ak
+uk ´ uk´1
+uk`1 ´ uk
+` 1 ˘ `1˘
+for 1 ď k ď n ´ 1. Since u1u´u
+“ 0 and pv1 ; v0 ´ v1 q “ p1; 0q, we get
+0
+˙
+ˆ ˙
+ˆ
+1
+un
+and pvn ; vn´1 ´ vn q “ p1; 0q ¨ An´1 An´2 ¨ ¨ ¨ A1 .
+“ An´1 An´2 ¨ ¨ ¨ A1 ¨
+0
+un ´ un´1
+It follows that
+
+ˆ
+
+un
+pun q “ p1; 0q
+un ´ un´1
+
+˙
+
+ˆ ˙
+ˆ ˙
+1
+1
+“ pvn q.
+“ pvn ; vn´1 ´ vn q
+“ p1; 0q ¨ An´1 An´2 ¨ ¨ ¨ A1 ¨
+0
+0
+
+Comment 1. These sequences are related to the Fibonacci sequence; when a1 “ ¨ ¨ ¨ “ an´1 “ 1, we
+have uk “ vk “ Fk`1 , the pk ` 1qst Fibonacci number. Also, for every positive integer k, the polynomial
+Pk px1 , . . . , xk´1 q from Solution 2 is the sum of Fk`1 monomials.
+Comment 2. One may notice that the condition is equivalent to
+uk`1
+“1`
+uk
+
+1`
+
+ak
+ak´1
+1 ` ... `
+
+a2
+1 ` a1
+
+and
+
+vk`1
+“1`
+vk
+
+an´k
+an´k`1
+1`
+an´2
+1 ` ... `
+1 ` an´1
+
+so the problem claims that the corresponding continued fractions for un {un´1 and vn {vn´1 have the same
+numerator.
+
+10
+
+IMO 2013 Colombia
+
+Comment 3. An alternative variant of the problem is the following.
+Let n be a positive integer and let a1 , . . . , an´1 be arbitrary real numbers. Define the sequences
+u0 , . . . , un and v0 , . . . , vn inductively by u0 “ v0 “ 0, u1 “ v1 “ 1, and
+uk`1 “ ak uk ` uk´1 ,
+
+vk`1 “ an´k vk ` vk´1
+
+for k “ 1, . . . , n ´ 1.
+
+Prove that un “ vn .
+All three solutions above can be reformulated to prove this statement; one may prove
+ÿ
+u n “ vn “
+ai1 . . . ait´1
+for n ą 0
+0“i0 ăi1 ă...ăit “n,
+ij`1 ´ij is odd
+
+or observe that
+ˆ
+Here we have
+
+and
+
+uk`1
+uk
+
+˙
+
+“
+
+ˆ
+
+ak 1
+1 0
+
+˙ˆ
+
+uk`1
+“ ak `
+uk
+
+vk`1
+“ an´k `
+vk
+
+uk
+uk´1
+
+˙
+
+ˆ
+
+˙
+ak 1
+and pvk`1 ; vk q “ pvk ; vk´1 q
+.
+1 0
+1
+
+ak´1 `
+
+“ rak ; ak´1 , . . . , a1 s
+
+1
+ak´2 ` . . . `
+
+1
+a1
+
+1
+an´k`1 `
+
+“ ran´k ; an´k`1 , . . . , an´1 s,
+
+1
+an´k`2 ` . . . `
+
+1
+an´1
+
+so this alternative statement is equivalent to the known fact that the continued fractions ran´1 ; an´2 , . . . , a1 s
+and ra1 ; a2 , . . . , an´1 s have the same numerator.
+
+Shortlisted problems – solutions
+
+11
+
+A2. Prove that in any set of 2000 distinct real numbers there exist two pairs a ą b and c ą d
+with a ‰ c or b ‰ d, such that
+
+ˇ
+ˇ
+ˇa ´ b
+ˇ
+1
+ˇ
+ˇă
+´
+1
+ˇc ´ d
+ˇ 100000 .
+
+(Lithuania)
+
+Solution. For any set S of n “ 2000 distinct real numbers, let D1 ď D2 ď ¨ ¨ ¨ ď Dm be the
+distances between them, displayed with their multiplicities. Here m “ npn ´ 1q{2. By rescaling
+the numbers, we may assume that the smallest distance D1 between two elements of S is D1 “ 1.
+Let D1 “ 1 “ y ´ x for x, y P S. Evidently Dm “ v ´ u is the difference between the largest
+element v and the smallest element u of S.
+If Di`1 {Di ă 1 ` 10´5 for some i “ 1, 2, . . . , m ´ 1 then the required inequality holds, because
+0 ď Di`1 {Di ´ 1 ă 10´5 . Otherwise, the reverse inequality
+Di`1
+1
+ě1` 5
+Di
+10
+holds for each i “ 1, 2, . . . , m ´ 1, and therefore
+Dm
+D 3 D2
+Dm
+“
+¨¨¨
+¨
+ě
+v ´ u “ Dm “
+D1
+Dm´1
+D 2 D1
+
+ˆ
+
+1
+1` 5
+10
+
+˙m´1
+
+.
+
+´ 1 “ 1000 ¨ 1999 ´ 1 ą 19 ¨ 105 , together with the fact that for all n ě 1,
+`From 1m
+˘n´ 1 “ npn
+`n˘´ 1q{2
+1 ` n ě 1 ` 1 ¨ n1 “ 2, we get
+ˆ
+˙19¨105 ˜ˆ
+˙105 ¸19
+1
+1
+1` 5
+“
+1` 5
+ě 219 “ 29 ¨ 210 ą 500 ¨ 1000 ą 2 ¨ 105 ,
+10
+10
+and so v ´ u “ Dm ą 2 ¨ 105 .
+Since the distance of x to at least one of the numbers u, v is at least pu ´ vq{2 ą 105 , we have
+|x ´ z| ą 105 .
+for some z P tu, vu. Since y ´ x “ 1, we have either z ą y ą x (if z “ v) or y ą x ą z (if z “ u).
+If z ą y ą x, selecting a “ z, b “ y, c “ z and d “ x (so that b ‰ d), we obtain
+ˇ
+ˇ ˇ
+ˇ ˇ
+ˇ
+ˇ ˇz ´ y
+ˇ ˇx ´ y ˇ
+ˇa ´ b
+1
+´5
+ˇ
+ˇ ˇ
+ˇ ˇ
+ˇ
+ˇ c ´ d ´ 1ˇ “ ˇ z ´ x ´ 1ˇ “ ˇ z ´ x ˇ “ z ´ x ă 10 .
+
+Otherwise, if y ą x ą z, we may choose a “ y, b “ z, c “ x and d “ z (so that a ‰ c), and obtain
+ˇ
+ˇ
+ˇ ˇ
+ˇ ˇ
+ˇa ´ b
+ˇ ˇy ´ z
+ˇ ˇy ´ xˇ
+1
+´5
+ˇ
+ˇ
+ˇ
+ˇ
+ˇ
+ˇ
+ˇ c ´ d ´ 1ˇ “ ˇ x ´ z ´ 1ˇ “ ˇ x ´ z ˇ “ x ´ z ă 10 .
+The desired result follows.
+
+1
+appearing in the statement of the problem
+Comment. As the solution shows, the numbers 2000 and 100000
+may be replaced by any n P Zą0 and δ ą 0 satisfying
+
+δp1 ` δqnpn´1q{2´1 ą 2.
+
+12
+
+IMO 2013 Colombia
+
+A3. Let Qą0 be the set of positive rational numbers. Let f : Qą0 Ñ R be a function satisfying
+the conditions
+
+f pxqf pyq ě f pxyq,
+f px ` yq ě f pxq ` f pyq
+
+(1)
+(2)
+
+for all x, y P Qą0 . Given that f paq “ a for some rational a ą 1, prove that f pxq “ x for all
+x P Qą0 .
+(Bulgaria)
+
+Solution. Denote by Zą0 the set of positive integers.
+Plugging x “ 1, y “ a into (1) we get f p1q ě 1. Next, by an easy induction on n we get
+from (2) that
+f pnxq ě nf pxq for all n P Zą0 and x P Qą0 .
+(3)
+In particular, we have
+f pnq ě nf p1q ě n for all n P Zą0 .
+
+(4)
+
+From (1) again we have f pm{nqf pnq ě f pmq, so f pqq ą 0 for all q P Qą0 .
+Now, (2) implies that f is strictly increasing; this fact together with (4) yields
+f pxq ě f ptxuq ě txu ą x ´ 1 for all x ě 1.
+By an easy induction we get from (1) that f pxqn ě f pxn q, so
+?
+f pxqn ě f pxn q ą xn ´ 1 ùñ f pxq ě n xn ´ 1 for all x ą 1 and n P Zą0 .
+This yields
+f pxq ě x for every x ą 1.
+
+(5)
+
+(Indeed, if x ą y ą 1 then xn ´ y n “ px ´ yqpxn´1 ` xn´2 y ` ¨ ¨ ¨ ` y n q ą npx ´ yq, so for a large n
+we have xn ´ 1 ą y n and thus f pxq ą y.)
+Now, (1) and (5) give an “ f paqn ě f pan q ě an , so f pan q “ an . Now, for x ą 1 let us choose
+n P Zą0 such that an ´ x ą 1. Then by (2) and (5) we get
+an “ f pan q ě f pxq ` f pan ´ xq ě x ` pan ´ xq “ an
+and therefore f pxq “ x for x ą 1. Finally, for every x P Qą0 and every n P Zą0 , from (1) and (3)
+we get
+nf pxq “ f pnqf pxq ě f pnxq ě nf pxq,
+which gives f pnxq “ nf pxq. Therefore f pm{nq “ f pmq{n “ m{n for all m, n P Zą0 .
+Comment. The condition f paq “ a ą 1 is essential. Indeed, for b ě 1 the function f pxq “ bx2 satisfies (1)
+and (2) for all x, y P Qą0 , and it has a unique fixed point 1{b ď 1.
+
+Shortlisted problems – solutions
+
+13
+
+A4.
+
+Let n be a positive integer, and consider a sequence a1 , a2 , . . . , an of positive integers.
+Extend it periodically to an infinite sequence a1 , a2 , . . . by defining an`i “ ai for all i ě 1. If
+a1 ď a2 ď ¨ ¨ ¨ ď an ď a1 ` n
+
+(1)
+
+and
+aai ď n ` i ´ 1
+
+for i “ 1, 2, . . . , n,
+
+(2)
+
+prove that
+a1 ` ¨ ¨ ¨ ` an ď n2 .
+(Germany)
+Solution 1. First, we claim that
+ai ď n ` i ´ 1
+
+for i “ 1, 2, . . . , n.
+
+(3)
+
+Assume contrariwise that i is the smallest counterexample. From an ě an´1 ě ¨ ¨ ¨ ě ai ě n ` i
+and aai ď n ` i ´ 1, taking into account the periodicity of our sequence, it follows that
+ai cannot be congruent to i, i ` 1, . . . , n ´ 1, or n
+
+pmod nq.
+
+(4)
+
+Thus our assumption that ai ě n ` i implies the stronger statement that ai ě 2n ` 1, which by
+a1 ` n ě an ě ai gives a1 ě n ` 1. The minimality of i then yields i “ 1, and (4) becomes
+contradictory. This establishes our first claim.
+In particular we now know that a1 ď n. If an ď n, then a1 ď ¨ ¨ ¨ ď ¨ ¨ ¨ an ď n and the desired
+inequality holds trivially. Otherwise, consider the number t with 1 ď t ď n ´ 1 such that
+a1 ď a2 ď . . . ď at ď n ă at`1 ď . . . ď an .
+
+(5)
+
+Since 1 ď a1 ď n and aa1 ď n by (2), we have a1 ď t and hence an ď n ` t. Therefore if for each
+positive integer i we let bi be the number of indices j P tt ` 1, . . . , nu satisfying aj ě n ` i, we have
+b1 ě b2 ě . . . ě bt ě bt`1 “ 0.
+Next we claim that ai ` bi ď n for 1 ď i ď t. Indeed, by n ` i ´ 1 ě aai and ai ď n, each j
+with aj ě n ` i (thus aj ą aai ) belongs to tai ` 1, . . . , nu, and for this reason bi ď n ´ ai .
+It follows from the definition of the bi s and (5) that
+at`1 ` . . . ` an ď npn ´ tq ` b1 ` . . . ` bt .
+Adding a1 ` . . . ` at to both sides and using that ai ` bi ď n for 1 ď i ď t, we get
+a1 ` a2 ` ¨ ¨ ¨ ` an ď npn ´ tq ` nt “ n2
+as we wished to prove.
+
+14
+
+IMO 2013 Colombia
+
+Solution 2. In the first quadrant of an infinite grid, consider the increasing “staircase” obtained
+by shading in dark the bottom ai cells of the ith column for 1 ď i ď n. We will prove that there
+are at most n2 dark cells.
+To do it, consider the n ˆ n square S in the first quadrant with a vertex at the origin. Also
+consider the n ˆ n square directly to the left of S. Starting from its lower left corner, shade in light
+the leftmost aj cells of the jth row for 1 ď j ď n. Equivalently, the light shading is obtained by
+reflecting the dark shading across the line x “ y and translating it n units to the left. The figure
+below illustrates this construction for the sequence 6, 6, 6, 7, 7, 7, 8, 12, 12, 14.
+
+a ai
+
+ai
+
+n+i−1
+
+i
+
+We claim that there is no cell in S which is both dark and light. Assume, contrariwise, that
+there is such a cell in column i. Consider the highest dark cell in column i which is inside S. Since
+it is above a light cell and inside S, it must be light as well. There are two cases:
+Case 1. ai ď n
+If ai ď n then this dark and light cell is pi, ai q, as highlighted in the figure. However, this is the
+pn ` iq-th cell in row ai , and we only shaded aai ă n ` i light cells in that row, a contradiction.
+
+Case 2. ai ě n ` 1
+If ai ě n ` 1, this dark and light cell is pi, nq. This is the pn ` iq-th cell in row n and we shaded
+an ď a1 ` n light cells in this row, so we must have i ď a1 . But a1 ď aa1 ď n by (1) and (2), so
+i ď a1 implies ai ď aa1 ď n, contradicting our assumption.
+
+We conclude that there are no cells in S which are both dark and light. It follows that the
+number of shaded cells in S is at most n2 .
+Finally, observe that if we had a light cell to the right of S, then by symmetry we would have
+a dark cell above S, and then the cell pn, nq would be dark and light. It follows that the number
+of light cells in S equals the number of dark cells outside of S, and therefore the number of shaded
+cells in S equals a1 ` ¨ ¨ ¨ ` an . The desired result follows.
+
+Solution 3. As in Solution 1, we first establish that ai ď n ` i ´ 1 for 1 ď i ď n. Now define
+ci “ maxpai , iq for 1 ď i ď n and extend the sequence c1 , c2 , . . . periodically modulo n. We claim
+that this sequence also satisfies the conditions of the problem.
+For 1 ď i ă j ď n we have ai ď aj and i ă j, so ci ď cj . Also an ď a1 ` n and n ă 1 ` n imply
+cn ď c1 ` n. Finally, the definitions imply that cci P taai , ai , ai ´ n, iu so cci ď n ` i ´ 1 by (2) and
+(3). This establishes (1) and (2) for c1 , c2 , . . ..
+
+Shortlisted problems – solutions
+
+15
+
+Our new sequence has the additional property that
+ci ě i
+
+for i “ 1, 2, . . . , n,
+
+(6)
+
+which allows us to construct the following visualization: Consider n equally spaced points on a
+circle, sequentially labelled 1, 2, . . . , n pmod nq, so point k is also labelled n ` k. We draw arrows
+from vertex i to vertices i ` 1, . . . , ci for 1 ď i ď n, keeping in mind that ci ě i by (6). Since
+ci ď n ` i ´ 1 by (3), no arrow will be drawn twice, and there is no arrow from a vertex to itself.
+The total number of arrows is
+˙
+ˆ
+n
+n
+ÿ
+ÿ
+n`1
+number of arrows “ pci ´ iq “
+ci ´
+2
+i“1
+i“1
+Now we show that we never draw both arrows i Ñ j and j Ñ i for 1 ď i ă j ď n. Assume
+contrariwise. This means, respectively, that
+i ă j ď ci
+
+and
+
+j ă n ` i ď cj .
+
+We have n ` i ď cj ď c1 ` n by (1), so i ď c1 . Since c1 ď n by (3), this implies that ci ď cc1 ď n
+using (1) and (3). But then, using (1) again, j ď ci ď n implies cj ď cci , which combined with
+n ` i ď cj gives us that n ` i ď cci . This contradicts (2).
+` ˘
+This means that the number of arrows is at most n2 , which implies that
+˙
+ˆ ˙ ˆ
+n
+ÿ
+n`1
+n
+“ n2 .
+`
+ci ď
+2
+2
+i“1
+Recalling that ai ď ci for 1 ď i ď n, the desired inequality follows.
+
+Comment 1. We sketch an alternative proof by induction. Begin by verifying the initial case n “ 1 and
+the simple cases when a1 “ 1, a1 “ n, or an ď n. Then, as in Solution 1, consider the index t such that
+a1 ď ¨ ¨ ¨ ď at ď n ă at`1 ď ¨ ¨ ¨ ď an . Observe again that a1 ď t. Define the sequence d1 , . . . , dn´1 by
+#
+ai`1 ´ 1 if i ď t ´ 1
+di “
+ai`1 ´ 2 if i ě t
+and extend it periodically modulo n ´ 1. One may verify that this sequence also satisfies the hypotheses
+of the problem. The induction hypothesis then gives d1 ` ¨ ¨ ¨ ` dn´1 ď pn ´ 1q2 , which implies that
+n
+ÿ
+
+i“1
+
+ai “ a1 `
+
+t
+ÿ
+
+pdi´1 ` 1q `
+
+i“2
+
+n
+ÿ
+
+i“t`1
+
+pdi´1 ` 2q ď t ` pt ´ 1q ` 2pn ´ tq ` pn ´ 1q2 “ n2 .
+
+Comment 2. One unusual feature of this problem is that there are many different sequences for which
+equality holds. The discovery of such optimal sequences is not difficult, and it is useful in guiding the
+steps of a proof.
+In fact, Solution 2 gives a complete description of the optimal sequences. Start with any lattice path
+P from the lower left to the upper right corner of the n ˆ n square S using only steps up and right, such
+that the total number of steps along the left and top edges of S is at least n. Shade the cells of S below
+P dark, and the cells of S above P light. Now reflect the light shape across the line x “ y and shift it
+up n units, and shade it dark. As Solution 2 shows, the dark region will then correspond to an optimal
+sequence, and every optimal sequence arises in this way.
+
+16
+
+IMO 2013 Colombia
+
+A5.
+
+Let Zě0 be the set of all nonnegative integers. Find all the functions f : Zě0 Ñ Zě0
+satisfying the relation
+f pf pf pnqqq “ f pn ` 1q ` 1
+p˚q
+
+for all n P Zě0 .
+
+(Serbia)
+
+Answer. There are two such functions: f pnq “ n ` 1 for all n P Zě0 , and
+$
+’
+&n ` 1, n ” 0 pmod 4q or n ” 2 pmod 4q,
+f pnq “ n ` 5, n ” 1 pmod 4q,
+for all n P Zě0 .
+’
+%
+n ´ 3, n ” 3 pmod 4q
+
+(1)
+
+Throughout all the solutions, we write hk pxq to abbreviate the kth iteration of function h, so h0 is
+the identity function, and hk pxq “ loomoon
+hp. . . hpxq . . . qq for k ě 1.
+k times
+
+Solution 1. To start, we get from p˚q that
+`
+˘
+`
+˘
+f 4 pnq “ f pf 3 pnqq “ f f pn ` 1q ` 1 and f 4 pn ` 1q “ f 3 pf pn ` 1qq “ f f pn ` 1q ` 1 ` 1,
+thus
+
+f 4 pnq ` 1 “ f 4 pn ` 1q.
+
+(2)
+
+I. Let us denote by Ri the range of f i ; note that R0 “ Zě0 since f 0 is the identity function.
+Obviously, R0 Ě R1 Ě . . . . Next, from (2) we get that if a P R4 then also a ` 1 P R4 . This implies
+that Zě0 zR4 — and hence Zě0 zR1 — is finite. In particular, R1 is unbounded.
+Assume that f pmq “ f pnq for some distinct m and n. Then from p˚q we obtain f pm ` 1q “
+f pn ` 1q; by an easy induction we then get that f pm ` cq “ f pn ` cq for every c ě 0. So the
+function f pkq is periodic with period |m ´ n| for k ě m, and thus R1 should be bounded, which is
+false. So, f is injective.
+II. Denote now Si “ Ri´1 zRi ; all these sets are finite for i ď 4. On the other hand, by the
+injectivity we have n P Si ðñ f pnq P Si`1 . By the injectivity again, f implements a bijection
+between Si and Si`1 , thus |S1 | “ |S2 | “ . . . ; denote this common cardinality by k. If 0 P R3 then
+0 “ f pf pf pnqqq for some n, thus from p˚q we get f pn ` 1q “ ´1 which is impossible. Therefore
+0 P R0 zR3 “ S1 Y S2 Y S3 , thus k ě 1.
+Next, let us describe the elements b of R0 zR3 “ S1 Y S2 Y S3. We claim that each such element
+satisfies at least one of three conditions piq b “ 0, piiq b “ f p0q ` 1, and piiiq b ´ 1 P S1 . Otherwise
+b ´ 1 P Zě0 , and there exists some n ą 0 such that f pnq “ b ´ 1; but then f 3 pn ´ 1q “ f pnq ` 1 “ b,
+so b P R3 .
+This yields
+3k “ |S1 Y S2 Y S3 | ď 1 ` 1 ` |S1 | “ k ` 2,
+or k ď 1. Therefore k “ 1, and the inequality above comes to equality. So we have S1 “ tau,
+S2 “ tf paqu, and S3 “ tf 2 paqu for some a P Zě0 , and each one of the three options piq, piiq,
+and piiiq should be realized exactly once, which means that
+ta, f paq, f 2 paqu “ t0, a ` 1, f p0q ` 1u.
+
+(3)
+
+Shortlisted problems – solutions
+
+17
+
+III. From (3), we get a ` 1 P tf paq, f 2 paqu (the case a ` 1 “ a is impossible). If a ` 1 “ f 2 paq then
+we have f pa ` 1q “ f 3 paq “ f pa ` 1q ` 1 which is absurd. Therefore
+f paq “ a ` 1.
+
+(4)
+
+Next, again from (3) we have 0 P ta, f 2 paqu. Let us consider these two cases separately.
+Case 1. Assume that a “ 0, then f p0q “ f paq “ a ` 1 “ 1. Also from (3) we get f p1q “ f 2 paq “
+f p0q ` 1 “ 2. Now, let us show that f pnq “ n ` 1 by induction on n; the base cases n ď 1 are
+established. Next, if n ě 2 then the induction hypothesis implies
+n ` 1 “ f pn ´ 1q ` 1 “ f 3 pn ´ 2q “ f 2 pn ´ 1q “ f pnq,
+establishing the step. In this case we have obtained the first of two answers; checking that is
+satisfies p˚q is straightforward.
+Case 2. Assume now that f 2 paq “ 0; then by (3) we get a “ f p0q ` 1. By (4) we get f pa ` 1q “
+f 2 paq “ 0, then f p0q “ f 3 paq “ f pa ` 1q ` 1 “ 1, hence a “ f p0q ` 1 “ 2 and f p2q “ 3 by (4). To
+summarize,
+f p0q “ 1, f p2q “ 3, f p3q “ 0.
+Now let us prove by induction on m that (1) holds for all n “ 4k, 4k ` 2, 4k ` 3 with k ď m and
+for all n “ 4k ` 1 with k ă m. The base case m “ 0 is established above. For the step, assume
+that m ě 1. From p˚q we get f 3 p4m ´ 3q “ f p4m ´ 2q ` 1 “ 4m. Next, by (2) we have
+f p4mq “ f 4 p4m ´ 3q “ f 4 p4m ´ 4q ` 1 “ f 3 p4m ´ 3q ` 1 “ 4m ` 1.
+Then by the induction hypothesis together with p˚q we successively obtain
+f p4m ´ 3q “ f 3 p4m ´ 1q “ f p4mq ` 1 “ 4m ` 2,
+f p4m ` 2q “ f 3 p4m ´ 4q “ f p4m ´ 3q ` 1 “ 4m ` 3,
+f p4m ` 3q “ f 3 p4m ´ 3q “ f p4m ´ 2q ` 1 “ 4m,
+thus finishing the induction step.
+Finally, it is straightforward to check that the constructed function works:
+f 3 p4kq “ 4k ` 7 “ f p4k ` 1q ` 1,
+f 3 p4k ` 2q “ 4k ` 1 “ f p4k ` 3q ` 1,
+
+f 3 p4k ` 1q “ 4k ` 4 “ f p4k ` 2q ` 1,
+f 3 p4k ` 3q “ 4k ` 6 “ f p4k ` 4q ` 1.
+
+Solution 2. I. For convenience, let us introduce the function gpnq “ f pnq ` 1. Substituting f pnq
+instead of n into p˚q we obtain
+`
+˘
+f 4 pnq “ f f pnq ` 1 ` 1, or f 4 pnq “ g 2 pnq.
+(5)
+
+Applying f to both parts of p˚q and using (5) we get
+`
+˘
+f 4 pnq ` 1 “ f f pn ` 1q ` 1 ` 1 “ f 4 pn ` 1q.
+
+(6)
+
+Thus, if g 2 p0q “ f 4 p0q “ c then an easy induction on n shows that
+g 2pnq “ f 4 pnq “ n ` c,
+
+n P Zě0 .
+
+(7)
+
+18
+
+IMO 2013 Colombia
+
+This relation implies that both f and g are injective: if, say, f pmq “ f pnq then m ` c “
+f pmq “ f 4 pnq “ n ` c. Next, since gpnq ě 1 for every n, we have c “ g 2 p0q ě 1. Thus from (7)
+again we obtain f pnq ‰ n and gpnq ‰ n for all n P Zě0 .
+II. Next, application of f and g to (7) yields
+4
+
+f pn ` cq “ f 5 pnq “ f 4 pf pnqq “ f pnq ` c and gpn ` cq “ g 3 pnq “ gpnq ` c.
+
+(8)
+
+In particular, this means that if m ” n pmod cq then f pmq ” f pnq pmod cq. Conversely, if
+f pmq ” f pnq pmod cq then we get m ` c “ f 4 pmq ” f 4 pnq “ n ` c pmod cq. Thus,
+m ” n pmod cq ðñ f pmq ” f pnq pmod cq ðñ gpmq ” gpnq pmod cq.
+
+(9)
+
+Now, let us introduce the function δpnq “ f pnq ´ n “ gpnq ´ n ´ 1. Set
+S“
+
+c´1
+ÿ
+
+δpnq.
+
+n“0
+
+Using (8), we get that for every complete residue system n1 , . . . , nc modulo c we also have
+S“
+
+c
+ÿ
+
+i“1
+
+δpni q.
+
+By (9), we get that tf k pnq : n “ 0, . . . , c ´ 1u and tg k pnq : n “ 0, . . . , c ´ 1u are complete residue
+systems modulo c for all k. Thus we have
+2
+
+c “
+and similarly
+c2 “
+
+c´1
+ÿ
+
+c´1
+ÿ
+
+3 c´1
+3 c´1
+ÿ`
+ÿ
+` 4
+˘ ÿ
+˘ ÿ
+k`1
+k
+f pnq ´ n “
+f pnq ´ f pnq “
+δpf k pnqq “ 4S
+
+n“0
+
+k“0 n“0
+
+k“0 n“0
+
+1 c´1
+1 c´1
+ÿ`
+ÿ`
+` 2
+˘ ÿ
+˘ ÿ
+˘
+g pnq ´ n “
+g k`1 pnq ´ g k pnq “
+δpg k pnqq ` 1 “ 2S ` 2c.
+
+n“0
+
+k“0 n“0
+
+k“0 n“0
+
+Therefore c2 “ 4S “ 2 ¨ 2S “ 2pc2 ´ 2cq, or c2 “ 4c. Since c ‰ 0, we get c “ 4. Thus, in view of
+(8) it is sufficient to determine the values of f on the numbers 0, 1, 2, 3.
+III. Let d “ gp0q ě 1. Then gpdq “ g 2p0q “ 0 ` c “ 4. Now, if d ě 4, then we would
+have gpd ´ 4q “ gpdq ´ 4 “ 0 which is impossible. Thus d P t1, 2, 3u. If d “ 1 then we have
+f p0q “ gp0q ´ 1 “ 0 which is impossible since f pnq ‰ n for all n. If d “ 3 then gp3q “ g 2 p0q “ 4
+and hence f p3q “ 3 which is also impossible. Thus gp0q “ 2 and hence gp2q “ g 2 p0q “ 4.
+Next, if gp1q “ 1 ` 4k for some integer k, then 5 “ g 2 p1q “ gp1 ` 4kq “ gp1q ` 4k “ 1 ` 8k
+which is impossible. Thus, since tgpnq : n “ 0, 1, 2, 3u is a complete residue system modulo 4, we
+get gp1q “ 3 ` 4k and hence gp3q “ g 2p1q ´ 4k “ 5 ´ 4k, leading to k “ 0 or k “ 1. So, we obtain
+iether
+f p0q “ 1, f p1q “ 2, f p2q “ 3, f p3q “ 4,
+
+or f p0q “ 1, f p1q “ 6, f p2q “ 3, f p3q “ 0,
+
+thus arriving to the two functions listed in the answer.
+Finally, one can check that these two function work as in Solution 1. One may simplify the
+checking by noticing that (8) allows us to reduce it to n “ 0, 1, 2, 3.
+
+Shortlisted problems – solutions
+
+19
+
+A6. Let m ‰ 0 be an integer. Find all polynomials P pxq with real coefficients such that
+px3 ´ mx2 ` 1qP px ` 1q ` px3 ` mx2 ` 1qP px ´ 1q “ 2px3 ´ mx ` 1qP pxq
+
+(1)
+
+for all real numbers x.
+(Serbia)
+Answer. P pxq “ tx for any real number t.
+
+Solution. Let P pxq “ an xn ` ¨ ¨ ¨ ` a0 x0 with an ‰ 0. Comparing the coefficients of xn`1 on both
+sides gives an pn ´ 2mqpn ´ 1q “ 0, so n “ 1 or n “ 2m.
+If n “ 1, one easily verifies that P pxq “ x is a solution, while P pxq “ 1 is not. Since the given
+condition is linear in P , this means that the linear solutions are precisely P pxq “ tx for t P R.
+Now assume that n “ 2m. The polynomial xP px ` 1q ´ px ` 1qP pxq “ pn ´ 1qan xn ` ¨ ¨ ¨
+has degree n, and therefore it has at least one (possibly complex) root r. If r R t0, ´1u, define
+k “ P prq{r “ P pr ` 1q{pr ` 1q. If r “ 0, let k “ P p1q. If r “ ´1, let k “ ´P p´1q. We now
+consider the polynomial Spxq “ P pxq ´ kx. It also satisfies (1) because P pxq and kx satisfy it.
+Additionally, it has the useful property that r and r ` 1 are roots.
+Let Apxq “ x3 ´ mx2 ` 1 and Bpxq “ x3 ` mx2 ` 1. Plugging in x “ s into (1) implies that:
+If s ´ 1 and s are roots of S and s is not a root of A, then s ` 1 is a root of S.
+
+If s and s ` 1 are roots of S and s is not a root of B, then s ´ 1 is a root of S.
+Let a ě 0 and b ě 1 be such that r ´ a, r ´ a ` 1, . . . , r, r ` 1, . . . , r ` b ´ 1, r ` b are roots of S,
+while r ´ a ´ 1 and r ` b ` 1 are not. The two statements above imply that r ´ a is a root of B
+and r ` b is a root of A.
+Since r ´ a is a root of Bpxq and of Apx ` a ` bq, it is also a root of their greatest common
+divisor Cpxq as integer polynomials. If Cpxq was a non-trivial divisor of Bpxq, then B would have
+a rational root α. Since the first and last coefficients of B are 1, α can only be 1 or ´1; but
+Bp´1q “ m ą 0 and Bp1q “ m ` 2 ą 0 since n “ 2m.
+Therefore Bpxq “ Apx ` a ` bq. Writing c “ a ` b ě 1 we compute
+0 “ Apx ` cq ´ Bpxq “ p3c ´ 2mqx2 ` cp3c ´ 2mqx ` c2 pc ´ mq.
+Then we must have 3c ´ 2m “ c ´ m “ 0, which gives m “ 0, a contradiction. We conclude that
+f pxq “ tx is the only solution.
+Solution 2. Multiplying (1) by x, we rewrite it as
+xpx3 ´ mx2 ` 1qP px ` 1q ` xpx3 ` mx2 ` 1qP px ´ 1q “ rpx ` 1q ` px ´ 1qs px3 ´ mx ` 1qP pxq.
+After regrouping, it becomes
+px3 ´ mx2 ` 1qQpxq “ px3 ` mx2 ` 1qQpx ´ 1q,
+
+(2)
+
+where Qpxq “ xP px ` 1q ´ px ` 1qP pxq. If deg P ě 2 then deg Q “ deg P , so Qpxq has a finite
+multiset of complex roots, which we denote RQ . Each root is taken with its multiplicity. Then the
+multiset of complex roots of Qpx ´ 1q is RQ ` 1 “ tz ` 1 : z P RQ u.
+
+20
+
+IMO 2013 Colombia
+
+Let tx1 , x2 , x3 u and ty1 , y2 , y3 u be the multisets of roots of the polynomials Apxq “ x3 ´ mx2 ` 1
+and Bpxq “ x3 ` mx2 ` 1, respectively. From (2) we get the equality of multisets
+tx1 , x2 , x3 u Y RQ “ ty1 , y2 , y3u Y pRQ ` 1q.
+For every r P RQ , since r ` 1 is in the set of the right hand side, we must have r ` 1 P RQ or
+r ` 1 “ xi for some i. Similarly, since r is in the set of the left hand side, either r ´ 1 P RQ or
+r “ yi for some i. This implies that, possibly after relabelling y1 , y2 , y3 , all the roots of (2) may
+be partitioned into three chains of the form tyi , yi ` 1, . . . , yi ` ki “ xi u for i “ 1, 2, 3 and some
+integers k1 , k2, k3 ě 0.
+Now we analyze the roots of the polynomial Aa pxq “ x3 ` ax2 ` 1. Using calculus or elementary
+methods, we find that the local extrema of Aa pxq occur at x “ 0 and x “ ´2a{3; their values are
+Aa p0q “ 1 ą 0 and Aa p´2a{3q “ 1 ` 4a3 {27, which is positive for integers a ě ´1 and negative for
+integers a ď ´2. So when a P Z, Aa has three real roots if a ď ´2 and one if a ě ´1.
+Now, since yi ´ xi P Z for i “ 1, 2, 3, the cubics Am and A´m must have the same number of
+real roots. The previous analysis then implies that m “ 1 or m “ ´1. Therefore the real root α of
+3
+2
+A1 pxq “ x3 ` x2 ` 1 and the
+` real
+˘ root1 β of A´1 pxq “ x ´ x ` 1 must differ by an integer. But this
+3
+is impossible,
+A1 ´ 2 “ ´ 8 and A1 p´1q “ 1 so ´1.5 ă α ă ´1, while A´1 p´1q “ ´1
+` 1 ˘ because
+5
+and A´1 ´ 2 “ 8 , so ´1 ă β ă ´0.5.
+It follows that deg P ď 1. Then, as shown in Solution 1, we conclude that the solutions are
+P pxq “ tx for all real numbers t.
+
+Shortlisted problems – solutions
+
+21
+
+Combinatorics
+C1. Let n be a positive integer. Find the smallest integer k with the following property: Given
+any real numbers a1 , . . . , ad such that a1 ` a2 ` ¨ ¨ ¨ ` ad “ n and 0 ď ai ď 1 for i “ 1, 2, . . . , d, it
+is possible to partition these numbers into k groups (some of which may be empty) such that the
+sum of the numbers in each group is at most 1.
+(Poland)
+Answer. k “ 2n ´ 1.
+
+Solution 1. If d “ 2n ´ 1 and a1 “ ¨ ¨ ¨ “ a2n´1 “ n{p2n ´ 1q, then each group in such a partition
+can contain at most one number, since 2n{p2n ´ 1q ą 1. Therefore k ě 2n ´ 1. It remains to show
+that a suitable partition into 2n ´ 1 groups always exists.
+We proceed by induction on d. For d ď 2n ´ 1 the result is trivial. If d ě 2n, then since
+pa1 ` a2 q ` . . . ` pa2n´1 ` a2n q ď n
+we may find two numbers ai , ai`1 such that ai ` ai`1 ď 1. We “merge” these two numbers into
+one new number ai ` ai`1 . By the induction hypothesis, a suitable partition exists for the d ´ 1
+numbers a1 , . . . , ai´1 , ai ` ai`1 , ai`2 , . . . , ad . This induces a suitable partition for a1 , . . . , ad .
+Solution 2. We will show that it is even possible to split the sequence a1 , . . . , ad into 2n ´ 1
+contiguous groups so that the sum of the numbers in each groups does not exceed 1. Consider a
+segment S of length n, and partition it into segments S1 , . . . , Sd of lengths a1 , . . . , ad , respectively,
+as shown below. Consider a second partition of S into n equal parts by n ´ 1 “empty dots”.
+a1
+
+a2
+
+a3
+
+a4 a5
+
+a6
+
+a7
+
+a8 a9
+
+a10
+
+Assume that the n ´ 1 empty dots are in segments Si1 , . . . , Sin´1 . (If a dot is on the boundary
+of two segments, we choose the right segment). These n ´ 1 segments are distinct because they
+have length at most 1. Consider the partition:
+ta1 , . . . , ai1 ´1 u, tai1 u, tai1 `1 , . . . , ai2 ´1 u, tai2 u, . . . tain´1 u, tain´1 `1 , . . . , ad u.
+In the example above, this partition is ta1 , a2 u, ta3 u, ta4 , a5 u, ta6 u, H, ta7 u, ta8 , a9 , a10 u. We claim
+that in this partition, the sum of the numbers in this group is at most 1.
+For the sets tait u this is obvious since ait ď 1. For the sets tait ` 1, . . . , ait`1 ´1 u this follows
+from the fact that the corresponding segments lie between two neighboring empty dots, or between
+an endpoint of S and its nearest empty dot. Therefore the sum of their lengths cannot exceed 1.
+Solution 3. First put all numbers greater than 21 in their own groups. Then, form the remaining
+groups as follows: For each group, add new ai s one at a time until their sum exceeds 12 . Since the
+last summand is at most 12 , this group has sum at most 1. Continue this procedure until we have
+used all the ai s. Notice that the last group may have sum less than 21 . If the sum of the numbers
+in the last two groups is less than or equal to 1, we merge them into one group. In the end we are
+left with m groups. If m “ 1 we are done. Otherwise the first m ´ 2 have sums greater than 12 and
+the last two have total sum greater than 1. Therefore n ą pm ´ 2q{2 ` 1 so m ď 2n ´ 1 as desired.
+
+22
+
+IMO 2013 Colombia
+
+Comment 1. The original proposal asked for the minimal value of k when n “ 2.
+Comment 2. More generally, one may ask the same question for real numbers between 0 and 1 whose
+sum is a real number r. In this case the smallest value of k is k “ r2rs ´ 1, as Solution 3 shows.
+Solutions 1 and 2 lead to the slightly weaker bound k ď 2rrs ´ 1. This is actually the optimal bound
+for partitions into consecutive groups, which are the ones contemplated in these two solutions. To see
+this, assume that r is not an integer and let c “ pr ` 1 ´ rrsq{p1 ` rrsq. One easily checks that 0 ă c ă 21
+and rrsp2cq ` prrs ´ 1qp1 ´ cq “ r, so the sequence
+2c, 1 ´ c, 2c, 1 ´ c, . . . , 1 ´ c, 2c
+of 2rrs ´ 1 numbers satisfies the given conditions. For this sequence, the only suitable partition into
+consecutive groups is the trivial partition, which requires 2rrs ´ 1 groups.
+
+Shortlisted problems – solutions
+
+23
+
+C2.
+
+In the plane, 2013 red points and 2014 blue points are marked so that no three of the
+marked points are collinear. One needs to draw k lines not passing through the marked points and
+dividing the plane into several regions. The goal is to do it in such a way that no region contains
+points of both colors.
+Find the minimal value of k such that the goal is attainable for every possible configuration of
+4027 points.
+(Australia)
+Answer. k “ 2013.
+
+Solution 1. Firstly, let us present an example showing that k ě 2013. Mark 2013 red and 2013
+blue points on some circle alternately, and mark one more blue point somewhere in the plane. The
+circle is thus split into 4026 arcs, each arc having endpoints of different colors. Thus, if the goal is
+reached, then each arc should intersect some of the drawn lines. Since any line contains at most
+two points of the circle, one needs at least 4026{2 “ 2013 lines.
+It remains to prove that one can reach the goal using 2013 lines. First of all, let us mention
+that for every two points A and B having the same color, one can draw two lines separating these
+points from all other ones. Namely, it suffices to take two lines parallel to AB and lying on different
+sides of AB sufficiently close to it: the only two points between these lines will be A and B.
+Now, let P be the convex hull of all marked points. Two cases are possible.
+Case 1. Assume that P has a red vertex A. Then one may draw a line separating A from all the
+other points, pair up the other 2012 red points into 1006 pairs, and separate each pair from the
+other points by two lines. Thus, 2013 lines will be used.
+Case 2. Assume now that all the vertices of P are blue. Consider any two consecutive vertices
+of P , say A and B. One may separate these two points from the others by a line parallel to AB.
+Then, as in the previous case, one pairs up all the other 2012 blue points into 1006 pairs, and
+separates each pair from the other points by two lines. Again, 2013 lines will be used.
+Comment 1. Instead of considering the convex hull, one may simply take a line containing two marked
+points A and B such that all the other marked points are on one side of this line. If one of A and B is
+red, then one may act as in Case 1; otherwise both are blue, and one may act as in Case 2.
+
+Solution 2. Let us present a different proof of the fact that k “ 2013 suffices. In fact, we will
+prove a more general statement:
+If n points in the plane, no three of which are collinear, are colored in red and blue arbitrarily,
+then it suffices to draw tn{2u lines to reach the goal.
+We proceed by induction on n. If n ď 2 then the statement is obvious. Now assume that n ě 3,
+and consider a line ℓ containing two marked points A and B such that all the other marked points
+are on one side of ℓ; for instance, any line containing a side of the convex hull works.
+Remove for a moment the points A and B. By the induction hypothesis, for the remaining
+configuration it suffices to draw tn{2u ´ 1 lines to reach the goal. Now return the points A and B
+back. Three cases are possible.
+Case 1. If A and B have the same color, then one may draw a line parallel to ℓ and separating A
+and B from the other points. Obviously, the obtained configuration of tn{2u lines works.
+Case 2. If A and B have different colors, but they are separated by some drawn line, then again
+the same line parallel to ℓ works.
+
+24
+
+IMO 2013 Colombia
+
+Case 3. Finally, assume that A and B have different colors and lie in one of the regions defined by
+the drawn lines. By the induction assumption, this region contains no other points of one of the
+colors — without loss of generality, the only blue point it contains is A. Then it suffices to draw
+a line separating A from all other points.
+Thus the step of the induction is proved.
+Comment 2. One may ask a more general question, replacing the numbers 2013 and 2014 by any
+positive integers m and n, say with m ď n. Denote the answer for this problem by f pm, nq.
+One may show along the lines of Solution 1 that m ď f pm, nq ď m ` 1; moreover, if m is even then
+f pm, nq “ m. On the other hand, for every odd m there exists an N such that f pm, nq “ m for all
+m ď n ď N , and f pm, nq “ m ` 1 for all n ą N .
+
+Shortlisted problems – solutions
+
+25
+
+C3. A crazy physicist discovered a new kind of particle which he called an imon, after some of
+them mysteriously appeared in his lab. Some pairs of imons in the lab can be entangled, and each
+imon can participate in many entanglement relations. The physicist has found a way to perform
+the following two kinds of operations with these particles, one operation at a time.
+piq If some imon is entangled with an odd number of other imons in the lab, then the physicist
+can destroy it.
+piiq At any moment, he may double the whole family of imons in his lab by creating a copy I 1
+of each imon I. During this procedure, the two copies I 1 and J 1 become entangled if and only if
+the original imons I and J are entangled, and each copy I 1 becomes entangled with its original
+imon I; no other entanglements occur or disappear at this moment.
+Prove that the physicist may apply a sequence of such operations resulting in a family of imons,
+no two of which are entangled.
+(Japan)
+Solution 1. Let us consider a graph with the imons as vertices, and two imons being connected
+if and only if they are entangled. Recall that a proper coloring of a graph G is a coloring of its
+vertices in several colors so that every two connected vertices have different colors.
+Lemma. Assume that a graph G admits a proper coloring in n colors (n ą 1). Then one may
+perform a sequence of operations resulting in a graph which admits a proper coloring in n ´ 1
+colors.
+Proof. Let us apply repeatedly operation piq to any appropriate vertices while it is possible. Since
+the number of vertices decreases, this process finally results in a graph where all the degrees are
+even. Surely this graph also admits a proper coloring in n colors 1, . . . , n; let us fix this coloring.
+Now apply the operation piiq to this graph. A proper coloring of the resulting graph in n
+colors still exists: one may preserve the colors of the original vertices and color the vertex I 1 in
+a color k ` 1 pmod nq if the vertex I has color k. Then two connected original vertices still have
+different colors, and so do their two connected copies. On the other hand, the vertices I and I 1
+have different colors since n ą 1.
+All the degrees of the vertices in the resulting graph are odd, so one may apply operation piq
+to delete consecutively all the vertices of color n one by one; no two of them are connected by
+an edge, so their degrees do not change during the process. Thus, we obtain a graph admitting a
+proper coloring in n ´ 1 colors, as required. The lemma is proved.
+l
+Now, assume that a graph G has n vertices; then it admits a proper coloring in n colors.
+Applying repeatedly the lemma we finally obtain a graph admitting a proper coloring in one color,
+that is — a graph with no edges, as required.
+Solution 2. Again, we will use the graph language.
+I. We start with the following observation.
+Lemma. Assume that a graph G contains an isolated vertex A, and a graph G˝ is obtained from G
+by deleting this vertex. Then, if one can apply a sequence of operations which makes a graph with
+no edges from G˝ , then such a sequence also exists for G.
+Proof. Consider any operation applicable to G˝ resulting in a graph G˝1 ; then there exists a sequence
+of operations applicable to G and resulting in a graph G1 differing from G˝1 by an addition of an
+isolated vertex A. Indeed, if this operation is of type piq, then one may simply repeat it in G.
+
+26
+
+IMO 2013 Colombia
+
+Otherwise, the operation is of type piiq, and one may apply it to G and then delete the vertex A1
+(it will have degree 1).
+Thus one may change the process for G˝ into a corresponding process for G step by step. l
+In view of this lemma, if at some moment a graph contains some isolated vertex, then we may
+simply delete it; let us call this operation piiiq.
+II. Let V “ tA01 , . . . , A0n u be the vertices of the initial graph. Let us describe which graphs can
+appear during our operations. Assume that operation piiq was applied m times. If these were
+the only operations applied, then the resulting graph Gm
+n has the set of vertices which can be
+enumerated as
+Vnm “ tAji : 1 ď i ď n, 0 ď j ď 2m ´ 1u,
+
+where A0i is the common “ancestor” of all the vertices Aji , and the binary expansion of j (adjoined
+with some zeroes at the left to have m digits) “keeps the history” of this vertex: the dth digit from
+the right is 0 if at the dth doubling the ancestor of Aji was in the original part, and this digit is 1
+if it was in the copy.
+Next, the two vertices Aji and Aℓk in Gm
+n are connected with an edge exactly if either (1) j “ ℓ
+and there was an edge between A0i and A0k (so these vertices appeared at the same application of
+operation piiq); or (2) i “ k and the binary expansions of j and ℓ differ in exactly one digit (so
+their ancestors became connected as a copy and the original vertex at some application of piiq).
+Now, if some operations piq were applied during the process, then simply some vertices in Gm
+n
+disappeared. So, in any case the resulting graph is some induced subgraph of Gm
+n.
+III. Finally, we will show that from each (not necessarily induced) subgraph of Gm
+n one can obtain
+a graph with no vertices by applying operations piq, piiq and piiiq. We proceed by induction on n;
+the base case n “ 0 is trivial.
+For the induction step, let us show how to apply several operations so as to obtain a graph
+containing no vertices of the form Ajn for j P Z. We will do this in three steps.
+Step 1. We apply repeatedly operation piq to any appropriate vertices while it is possible. In the
+resulting graph, all vertices have even degrees.
+Step 2. Apply operation piiq obtaining a subgraph of Gm`1
+with all degrees being odd. In this
+n
+j
+graph, we delete one by one all the vertices An where the sum of the binary digits of j is even; it
+is possible since there are no edges between such vertices, so all their degrees remain odd. After
+that, we delete all isolated vertices.
+Step 3. Finally, consider any remaining vertex Ajn (then the sum of digits of j is odd). If its
+degree is odd, then we simply delete it. Otherwise, since Ajn is not isolated, we consider any vertex
+adjacent to it. It has the form Ajk for some k ă n (otherwise it would have the form Aℓn , where ℓ
+has an even digit sum; but any such vertex has already been deleted at Step 2). No neighbor of Ajk
+was deleted at Steps 2 and 3, so it has an odd degree. Then we successively delete Ajk and Ajn .
+Notice that this deletion does not affect the applicability of this step to other vertices, since
+no two vertices Aji and Aℓk for different j, ℓ with odd digit sum are connected with an edge. Thus
+we will delete all the remaining vertices of the form Ajn , obtaining a subgraph of Gm`1
+n´1 . The
+application of the induction hypothesis finishes the proof.
+Comment. In fact, the graph Gm
+n is a Cartesian product of G and the graph of an m-dimensional
+hypercube.
+
+Shortlisted problems – solutions
+
+27
+
+C4. Let n be a positive integer, and let A be a subset of t1, . . . , nu. An A-partition of n into k
+
+parts is a representation of n as a sum n “ a1 ` ¨ ¨ ¨ ` ak , where the parts a1 , . . . , ak belong to A
+and are not necessarily distinct. The number of different parts in such a partition is the number
+of (distinct) elements in the set ta1 , a2 , . . . , ak u.
+We say that an A-partition of n into k parts is optimal if there is no A-partition
+of n into r
+?
+parts with r ă k. Prove that any optimal A-partition of n contains at most 3 6n different parts.
+(Germany)
+
+Solution 1. If there are no A-partitions of n, the result is vacuously true. Otherwise, let kmin
+be the minimum number of parts in an A-partition of n, and let n “ a1 ` ¨ ¨ ¨ ` akmin be an
+optimal partition. Denote by s the number of different parts in this partition, so we can write
+S “ ta1 , . . ?
+. , akmin u “ tb1 , . . . , bs u for some pairwise different numbers b1 ă ¨ ¨ ¨ ă bs in A.
+3
+ř If s ą ř 6n, we will prove that there exist subsets X and Y of S such that |X| ă |Y | and
+xPX x “
+yPY y. Then, deleting the elements of Y from our partition and adding the elements of
+X to it, we obtain an A-partition of n into less than kmin parts, which is the desired contradiction.
+For each positive integer k ď s, we consider the k-element subset
+k
+S1,0
+:“ tb1 , . . . , bk u
+
+k
+as well as the following k-element subsets Si,j
+of S:
+
+(
+k
+Si,j
+:“ b1 , . . . , bk´i , bk´i`j`1 , bs´i`2 , . . . , bs ,
+
+i “ 1, . . . , k,
+
+j “ 1, . . . , s ´ k.
+
+Pictorially, if we represent the elements of S by a sequence of dots in increasing order, and represent
+a subset of S by shading in the appropriate dots, we have:
+k
+‚‚‚‚‚‚‚‚
+˝ ˝ ˝ ˝ ˝ ˝ ˝ ‚looooooomooooooon
+˝ ˝ ˝ ˝ ‚ looooomooooon
+Si,j
+“ looooomooooon
+‚ ‚ ‚ ‚ ‚ ‚ ‚ ˝looomooon
+j
+
+k´i
+
+s´k´j
+
+i´1
+
+k
+Denote by Σki,j the sum of elements in Si,j
+. Clearly, Σk1,0 is the minimum sum of a k-element
+subset of S. Next, for all appropriate indices i and j we have
+
+Σki,j “ Σki,j`1 ` bk´i`j`1 ´ bk´i`j`2 ă Σki,j`1
+
+and Σki,s´k “ Σki`1,1 ` bk´i ´ bk´i`1 ă Σki`1,1 .
+
+Therefore
+1 ď Σk1,0 ă Σk1,1 ă Σk1,2 ă ¨ ¨ ¨ ă Σk1,s´k ă Σk2,1 ă ¨ ¨ ¨ ă Σk2,s´k ă Σk3,1 ă ¨ ¨ ¨ ă Σkk,s´k ď n.
+To see this in the picture, we start with the k leftmost points marked. At each step, we look for
+the rightmost point which can move to the right, and move it one unit to the right. We continue
+until the k rightmost points are marked. As we do this, the corresponding sums clearly increase.
+For each k we have found kps ´ kq ` 1 different integers of the form Σki,j between 1 and n. As
+we vary k, the total number of integers we are considering is
+s
+ÿ
+`
+˘
+sps ` 1q sps ` 1qp2s ` 1q
+sps2 ` 5q
+s3
+kps ´ kq ` 1 “ s ¨
+´
+`s“
+ą
+ą n.
+2
+6
+6
+6
+k“1
+
+Since they are between 1 and n, at least two of these integers are equal. Consequently, there exist
+1
+k
+1 ď k ă k 1 ď s and X “ Si,j
+as well as Y “ Sik1 ,j 1 such that
+ÿ
+ÿ
+x“
+y, but |X| “ k ă k 1 “ |Y |,
+xPX
+
+as required. The result follows.
+
+yPY
+
+28
+
+IMO 2013 Colombia
+
+Solution 2. Assume, to the contrary, that the statement is false, and choose the minimum
+number n for which it fails. So there exists a set A Ď t1, . . . , nu together with an optimal Apartition n “ a1 ` ¨ ¨ ¨ ` akmin of n refuting our statement, where, of course, kmin is the minimum
+number of parts in an A-partition of n. Again, ?
+we define S “ ta1 , . . . , akmin u “ tb1 , . . . , bs u with
+b1 ă ¨ ¨ ¨ ă bs ; by our assumption we have s ą 3 6n ą 1. Without loss of generality we assume
+that akmin “ bs . Let us distinguish two cases.
+
+Case 1. bs ě sps´1q
+` 1.
+2
+Consider the partition n ´ bs “ a1 ` ¨ ¨ ¨ ` akmin ´1 , which is clearly a minimum A-partition
+3
+of n ´ bs with at least s ´ 1 ě 1 different parts. Now, from n ă s6 we obtain
+n ´ bs ď n ´
+
+sps ´ 1q
+s3 sps ´ 1q
+ps ´ 1q3
+´1ă
+´
+´1ă
+,
+2
+6
+2
+6
+
+a
+so s ´ 1 ą 3 6pn ´ bs q, which contradicts the choice of n.
+
+Case 2. bs ď sps´1q
+.
+2
+Set b0 “ 0, Σ0,0 “ 0, and Σi,j “ b1 `¨ ¨ ¨`bi´1 `bj for 1 ď i ď j ă s. There are sps´1q
+`1 ą bs such
+2
+sums; so at least two of them, say Σi,j and Σi1 ,j 1 , are congruent modulo bs (where pi, jq ‰ pi1 , j 1 q).
+This means that Σi,j ´ Σi1 ,j 1 “ rbs for some integer r. Notice that for i ď j ă k ă s we have
+0 ă Σi,k ´ Σi,j “ bk ´ bj ă bs ,
+so the indices i and i1 are distinct, and we may assume that i ą i1 . Next, we observe that
+Σi,j ´ Σi1 ,j 1 “ pbi1 ´ bj 1 q ` bj ` bi1 `1 ` ¨ ¨ ¨ ` bi´1 and bi1 ď bj 1 imply
+´bs ă ´bj 1 ă Σi,j ´ Σi1 ,j 1 ă pi ´ i1 qbs ,
+so 0 ď r ď i ´ i1 ´ 1.
+Thus, we may remove the i terms of Σi,j in our A-partition, and replace them by the i1 terms
+of Σi1 ,j 1 and r terms equal to bs , for a total of r ` i1 ă i terms. The result is an A-partition of n
+into a smaller number of parts, a contradiction.
+Comment. The original proposal also contained a second part, showing that the estimate appearing in
+the problem has the correct order of magnitude:
+?
+For every positive integer n, there exist a set A and an optimal A-partition of n that contains t 3 2nu
+different parts.
+The Problem Selection Committee removed this statement from the problem, since it seems to be less
+suitable for the
+? competiton; but for completeness we provide an outline of its proof here.
+Let k “ t 3 2nu ´ 1. The statement is trivial for n ă 4, so we assume n ě 4 and hence k ě 1. Let
+n
+h “ t n´1
+k u. Notice that h ě k ´ 1.
+Now let A “ t1, . . . , hu, and set a1 “ h, a2 “ h ´ 1, . . . , ak “ h ´ k ` 1, and ak`1 “ n ´ pa1 ` ¨ ¨ ¨ ` ak q.
+It is not difficult to prove that ak ą ak`1 ě 1, which shows that
+n “ a1 ` . . . ` ak`1
+is an A-partition of n into k ` 1 different parts. Since
+? kh ă n, any A-partition of n has at least k ` 1 parts.
+Therefore our A-partition is optimal, and it has t 3 2nu distinct parts, as desired.
+
+Shortlisted problems – solutions
+
+29
+
+C5.
+
+Let r be a positive integer, and let a0 , a1 , . . . be an infinite sequence of real numbers.
+Assume that for all nonnegative integers m and s there exists a positive integer n P rm ` 1, m ` rs
+such that
+am ` am`1 ` ¨ ¨ ¨ ` am`s “ an ` an`1 ` ¨ ¨ ¨ ` an`s .
+Prove that the sequence is periodic, i. e. there exists some p ě 1 such that an`p “ an for all n ě 0.
+(India)
+
+Solution. For every indices m ď n we will denote Spm, nq “ am ` am`1 ` ¨ ¨ ¨ ` an´1 ; thus
+Spn, nq “ 0. Let us start with the following lemma.
+Lemma. Let b0 , b1 , . . . be an infinite sequence. Assume that for every nonnegative integer m there
+exists a nonnegative integer n P rm ` 1, m ` rs such that bm “ bn . Then for every indices k ď ℓ
+there exists an index t P rℓ, ℓ ` r ´ 1s such that bt “ bk . Moreover, there are at most r distinct
+numbers among the terms of pbi q.
+Proof. To prove the first claim, let us notice that there exists an infinite sequence of indices
+k1 “ k, k2 , k3 , . . . such that bk1 “ bk2 “ ¨ ¨ ¨ “ bk and ki ă ki`1 ď ki ` r for all i ě 1. This sequence
+is unbounded from above, thus it hits each segment of the form rℓ, ℓ`r ´1s with ℓ ě k, as required.
+To prove the second claim, assume, to the contrary, that there exist r ` 1 distinct numbers
+bi1 , . . . , bir`1 . Let us apply the first claim to k “ i1 , . . . , ir`1 and ℓ “ maxti1 , . . . , ir`1 u; we obtain
+that for every j P t1, . . . , r ` 1u there exists tj P rs, s ` r ´ 1s such that btj “ bij . Thus the segment
+rs, s ` r ´ 1s should contain r ` 1 distinct integers, which is absurd.
+l
+Setting s “ 0 in the problem condition, we see that the sequence pai q satisfies the condition of the lemma, thus it attains at most r distinct values. Denote by Ai the ordered r-tuple
+pai , . . . , ai`r´1q; then among Ai ’s there are at most r r distinct tuples, so for every k ě 0 two of the
+tuples Ak , Ak`1 , . . . , Ak`rr are identical. This means that there exists a positive integer p ď r r such
+that the equality Ad “ Ad`p holds infinitely many times. Let D be the set of indices d satisfying
+this relation.
+Now we claim that D coincides with the set of all nonnegative integers. Since D is unbounded,
+it suffices to show that d P D whenever d ` 1 P D. For that, denote bk “ Spk, p ` kq. The
+sequence b0 , b1 , . . . satisfies the lemma conditions, so there exists an index t P rd ` 1, d ` rs such
+that Spt, t ` pq “ Spd, d ` pq. This last relation rewrites as Spd, tq “ Spd ` p, t ` pq. Since
+Ad`1 “ Ad`p`1 , we have Spd ` 1, tq “ Spd ` p ` 1, t ` pq, therefore we obtain
+ad “ Spd, tq ´ Spd ` 1, tq “ Spd ` p, t ` pq ´ Spd ` p ` 1, t ` pq “ ad`p
+and thus Ad “ Ad`p , as required.
+Finally, we get Ad “ Ad`p for all d, so in particular ad “ ad`p for all d, QED.
+Comment 1. In the present proof, the upper bound for the minimal period length is r r . This bound is
+not sharp; for instance, one may improve it to pr ´ 1qr for r ě 3..
+On the other hand, this minimal length may happen to be greater than r. For instance, it is easy to
+check that the sequence with period p3, ´3, 3, ´3, 3, ´1, ´1, ´1q satisfies the problem condition for r “ 7.
+Comment 2. The conclusion remains true even if the problem condition only holds for every s ě N for
+some positive integer N . To show that, one can act as follows. Firstly, the sums of the form Spi, i ` N q
+attain at most r values, as well as the sums of the form Spi, i`N `1q. Thus the terms ai “ Spi, i ` N ` 1q´
+Spi ` 1, i ` N ` 1q attain at most r 2 distinct values. Then, among the tuples Ak , Ak`N , . . . , Ak`r2r N two
+
+30
+
+IMO 2013 Colombia
+
+are identical, so for some p ď r 2r the set D “ td : Ad “ Ad`N p u is infinite. The further arguments apply
+almost literally, with p being replaced by N p.
+After having proved that such a sequence is also necessarily periodic, one may reduce the bound for
+the minimal period length to r r — essentially by verifying that the sequence satisfies the original version
+of the condition.
+
+Shortlisted problems – solutions
+
+31
+
+C6. In some country several pairs of cities are connected by direct two-way flights. It is possible
+to go from any city to any other by a sequence of flights. The distance between two cities is defined
+to be the least possible number of flights required to go from one of them to the other. It is known
+that for any city there are at most 100 cities at distance exactly three from it. Prove that there is
+no city such that more than 2550 other cities have distance exactly four from it.
+(Russia)
+Solution. Let us denote by dpa, bq the distance between the cities a and b, and by
+Si paq “ tc : dpa, cq “ iu
+the set of cities at distance exactly i from city a.
+Assume that for some city x the set D “ S4 pxq has size at least 2551. Let A “ S1 pxq. A
+subset A1 of A is said to be substantial, if every city in D can be reached from x with four flights
+while passing through some Ť
+member of A1 ; in other terms, every city in D has distance 3 from
+1
+some member of A , or D Ď aPA1 S3 paq. For instance, A itself is substantial. Now let us fix some
+substantial subset A˚ of A having the minimal cardinality m “ |A˚ |.
+Since
+mp101 ´ mq ď 50 ¨ 51 “ 2550,
+there has to be a city a P A˚ such that |S3 paq X D| ě 102 ´ m. As |S3 paq| ď 100, we obtain
+that S3 paq may contain at most 100 ´ p102 ´ mq “ m ´ 2 cities c with dpc, xq ď 3. Let us
+denote by T “ tc P S3 paq : dpx, cq ď 3u the set of all such cities, so |T | ď m ´ 2. Now, to get a
+contradiction, we will construct m ´ 1 distinct elements in T , corresponding to m ´ 1 elements of
+the set Aa “ A˚ ztau.
+
+Firstly, due to the minimality of A˚ , for each y P Aa there exists some city dy P D which can
+only be reached with four flights from x by passing through y. So, there is a way to get from x to
+dy along x–y–by –cy –dy for some cities by and cy ; notice that dpx, by q “ 2 and dpx, cy q “ 3 since this
+path has the minimal possible length.
+Now we claim that all 2pm ´ 1q cities of the form by , cy with y P Aa are distinct. Indeed,
+no by may coincide with any cz since their distances from x are different. On the other hand, if
+one had by “ bz for y ‰ z, then there would exist a path of length 4 from x to dz via y, namely
+x–y–bz –cz –dz ; this is impossible by the choice of dz . Similarly, cy ‰ cz for y ‰ z.
+
+So, it suffices to prove that for every y P Aa , one of the cities by and cy has distance 3
+from a (and thus belongs to T ). For that, notice that dpa, yq ď 2 due to the path a–x–y, while
+dpa, dy q ě dpx, dy q ´ dpx, aq “ 3. Moreover, dpa, dy q ‰ 3 by the choice of dy ; thus dpa, dy q ą 3.
+Finally, in the sequence dpa, yq, dpa, by q, dpa, cy q, dpa, dy q the neighboring terms differ by at most 1,
+the first term is less than 3, and the last one is greater than 3; thus there exists one which is equal
+to 3, as required.
+
+Comment 1. The upper bound 2550 is sharp. This can be seen by means of various examples; one of
+them is the “Roman Empire”: it has one capital, called “Rome”, that is connected to 51 semicapitals by
+internally disjoint paths of length 3. Moreover, each of these semicapitals is connected to 50 rural cities
+by direct flights.
+Comment 2. Observe that, under the conditions of the problem, there exists no bound for the size
+of S1 pxq or S2 pxq.
+
+32
+
+IMO 2013 Colombia
+
+Comment
+] numbers 100 and 2550 appearing in the statement of the problem may be replaced
+Y 3. 2The
+pn`1q
+for any positive integer n. Still more generally, one can also replace the pair p3, 4q of
+by n and
+4
+
+distances under consideration by any pair pr, sq of positive integers satisfying r ă s ď 32 r.
+To adapt the above proof to this situation, one takes A “ Ss´r pxq and defines the concept of substantiality as before. Then one takes A˚ to be a minimal substantial subset of A, and for each y P A˚ one
+fixes an element dy P Ss pxq which is only reachable from x by a path of length s by passing through y.
+As before, it suffices to show that for distinct a, y P A˚ and a path y “ y0 ´ y1 ´ . . . ´ yr “ dy , at least
+one of the cities y0 , . . . , yr´1 has distance r from a. This can be done as above; the relation s ď 32 r is
+used here to show that dpa, Yy0 q ď r.]
+2
+Moreover, the estimate pn`1q
+is also sharp for every positive integer n and every positive integers
+4
+r, s with r ă s ď 23 r. This may be shown by an example similar to that in the previous comment.
+
+Shortlisted problems – solutions
+
+33
+
+C7. Let n ě 2 be an integer. Consider all circular arrangements of the numbers 0, 1, . . . , n; the
+
+n ` 1 rotations of an arrangement are considered to be equal. A circular arrangement is called
+beautiful if, for any four distinct numbers 0 ď a, b, c, d ď n with a ` c “ b ` d, the chord joining
+numbers a and c does not intersect the chord joining numbers b and d.
+Let M be the number of beautiful arrangements of 0, 1, . . . , n. Let N be the number of pairs
+px, yq of positive integers such that x ` y ď n and gcdpx, yq “ 1. Prove that
+M “ N ` 1.
+(Russia)
+Solution 1. Given a circular arrangement of r0, ns “ t0, 1, . . . , nu, we define a k-chord to be
+a (possibly degenerate) chord whose (possibly equal) endpoints add up to k. We say that three
+chords of a circle are aligned if one of them separates the other two. Say that m ě 3 chords
+are aligned if any three of them are aligned. For instance, in Figure 1, A, B, and C are aligned,
+while B, C, and D are not.
+A
+
+B
+
+A
+
+B
+C
+D
+
+Figure 1
+
+D
+
+u
+0
+
+v
+n
+
+C
+t
+
+E
+
+n−t
+
+Figure 2
+
+Claim. In a beautiful arrangement, the k–chords are aligned for any integer k.
+Proof. We proceed by induction. For n ď 3 the statement is trivial. Now let n ě 4, and proceed
+by contradiction. Consider a beautiful arrangement S where the three k–chords A, B, C are not
+aligned. If n is not among the endpoints of A, B, and C, then by deleting n from S we obtain
+a beautiful arrangement Sztnu of r0, n ´ 1s, where A, B, and C are aligned by the induction
+hypothesis. Similarly, if 0 is not among these endpoints, then deleting 0 and decreasing all the
+numbers by 1 gives a beautiful arrangement Szt0u where A, B, and C are aligned. Therefore
+both 0 and n are among the endpoints of these segments. If x and y are their respective partners,
+we have n ě 0 ` x “ k “ n ` y ě n. Thus 0 and n are the endpoints of one of the chords; say it
+is C.
+Let D be the chord formed by the numbers u and v which are adjacent to 0 and n and on the
+same side of C as A and B, as shown in Figure 2. Set t “ u ` v. If we had t “ n, the n–chords A,
+B, and D would not be aligned in the beautiful arrangement Szt0, nu, contradicting the induction
+hypothesis. If t ă n, then the t-chord from 0 to t cannot intersect D, so the chord C separates t
+and D. The chord E from t to n ´ t does not intersect C, so t and n ´ t are on the same side of C.
+But then the chords A, B, and E are not aligned in Szt0, nu, a contradiction. Finally, the case
+t ą n is equivalent to the case t ă n via the beauty-preserving relabelling x ÞÑ n ´ x for 0 ď x ď n,
+which sends t-chords to p2n ´ tq–chords. This proves the Claim.
+
+Having established the Claim, we prove the desired result by induction. The case n “ 2 is
+trivial. Now assume that n ě 3. Let S be a beautiful arrangement of r0, ns and delete n to obtain
+
+34
+
+IMO 2013 Colombia
+
+the beautiful arrangement T of r0, n ´ 1s. The n–chords of T are aligned, and they contain every
+point except 0. Say T is of Type 1 if 0 lies between two of these n–chords, and it is of Type 2
+otherwise; i.e., if 0 is aligned with these n–chords. We will show that each Type 1 arrangement
+of r0, n ´ 1s arises from a unique arrangement of r0, ns, and each Type 2 arrangement of r0, n ´ 1s
+arises from exactly two beautiful arrangements of r0, ns.
+If T is of Type 1, let 0 lie between chords A and B. Since the chord from 0 to n must be
+aligned with A and B in S, n must be on the other arc between A and B. Therefore S can be
+recovered uniquely from T . In the other direction, if T is of Type 1 and we insert n as above,
+then we claim the resulting arrangement S is beautiful. For 0 ă k ă n, the k–chords of S are also
+k–chords of T , so they are aligned. Finally, for n ă k ă 2n, notice that the n–chords of S are
+parallel by construction, so there is an antisymmetry axis ℓ such that x is symmetric to n ´ x with
+respect to ℓ for all x. If we had two k–chords which intersect, then their reflections across ℓ would
+be two p2n ´ kq-chords which intersect, where 0 ă 2n ´ k ă n, a contradiction.
+If T is of Type 2, there are two possible positions for n in S, on either side of 0. As above, we
+check that both positions lead to beautiful arrangements of r0, ns.
+
+Hence if we let Mn be the number of beautiful arrangements of r0, ns, and let Ln be the number
+of beautiful arrangements of r0, n ´ 1s of Type 2, we have
+Mn “ pMn´1 ´ Ln´1 q ` 2Ln´1 “ Mn´1 ` Ln´1 .
+
+It then remains to show that Ln´1 is the number of pairs px, yq of positive integers with x ` y “ n
+and gcdpx, yq “ 1. Since n ě 3, this number equals ϕpnq “ #tx : 1 ď x ď n, gcdpx, nq “ 1u.
+To prove this, consider a Type 2 beautiful arrangement of r0, n ´ 1s. Label the positions
+0, . . . , n ´ 1 pmod nq clockwise around the circle, so that number 0 is in position 0. Let f piq be
+the number in position i; note that f is a permutation of r0, n ´ 1s. Let a be the position such
+that f paq “ n ´ 1.
+Since the n–chords are aligned with 0, and every point is in an n–chord, these chords are all
+parallel and
+f piq ` f p´iq “ n
+for all i.
+Similarly, since the pn ´ 1q–chords are aligned and every point is in an pn ´ 1q–chord, these chords
+are also parallel and
+f piq ` f pa ´ iq “ n ´ 1
+for all i.
+Therefore f pa ´ iq “ f p´iq ´ 1 for all i; and since f p0q “ 0, we get
+f p´akq “ k
+
+for all k.
+
+(1)
+
+Recall that this is an equality modulo n. Since f is a permutation, we must have pa, nq “ 1. Hence
+Ln´1 ď ϕpnq.
+To prove equality, it remains to observe that the labeling (1) is beautiful. To see this, consider
+four numbers w, x, y, z on the circle with w ` y “ x ` z. Their positions around the circle satisfy
+p´awq ` p´ayq “ p´axq ` p´azq, which means that the chord from w to y and the chord from
+x to z are parallel. Thus (1) is beautiful, and by construction it has Type 2. The desired result
+follows.
+
+Shortlisted problems – solutions
+
+35
+
+Solution 2. Notice that there are exactly N irreducible fractions f1 ă ¨ ¨ ¨ ă fN in p0, 1q whose
+denominator is at most n, since the pair px, yq with x ` y ď n and px, yq “ 1 corresponds to the
+fraction x{px ` yq. Write fi “ abii for 1 ď i ď N.
+We begin by constructing N ` 1 beautiful arrangements. Take any α P p0, 1q which is not one
+of the above N fractions. Consider a circle of perimeter 1. Successively mark points 0, 1, 2, . . . , n
+where 0 is arbitrary, and the clockwise distance from i to i`1 is α. The point k will be at clockwise
+distance tkαu from 0, where tru denotes the fractional part of r. Call such a circular arrangement
+cyclic and denote it by Apαq. If the clockwise order of the points is the same in Apα1 q and Apα2 q,
+we regard them as the same circular arrangement. Figure 3 shows the cyclic arrangement Ap3{5`ǫq
+of r0, 13s where ǫ ą 0 is very small.
+2
+
+7
+
+12
+
+10
+4
+5
+9
+0
+
+13
+
+1
+
+8
+
+6
+
+3
+
+11
+
+Figure 3
+If 0 ď a, b, c, d ď n satisfy a ` c “ b ` d, then aα ` cα “ bα ` dα, so the chord from a to c is
+parallel to the chord from b to d in Apαq. Hence in a cyclic arrangement all k—chords are parallel.
+In particular every cyclic arrangement is beautiful.
+Next we show that there are exactly N ` 1 distinct cyclic arrangements. To see this, let us
+see how Apαq changes as we increase α from 0 to 1. The order of points p and q changes precisely
+when we cross a value α “ f such that tpf u “ tqf u; this can only happen if f is one of the N
+fractions f1 , . . . , fN . Therefore there are at most N ` 1 different cyclic arrangements.
+To show they are all distinct, recall that fi “ ai {bi and let ǫ ą 0 be a very small number. In
+bi q
+the arrangement Apfi ` ǫq, point k lands at kai pmod
+` kǫ. Therefore the points are grouped
+bi
+bi ´1
+1
+into bi clusters next to the points 0, bi , . . . , bi of the circle. The cluster following bki contains the
+numbers congruent to ka´1
+modulo bi , listed clockwise in increasing order. It follows that the first
+i
+number after 0 in Apfi ` ǫq is bi , and the first number after 0 which is less than bi is a´1
+pmod bi q,
+i
+which uniquely determines ai . In this way we can recover fi from the cyclic arrangement. Note
+also that Apfi ` ǫq is not the trivial arrangement where we list 0, 1, . . . , n in order clockwise. It
+follows that the N ` 1 cyclic arrangements Apǫq, Apf1 ` ǫq, . . . , ApfN ` ǫq are distinct.
+Let us record an observation which will be useful later:
+if fi ă α ă fi`1 then 0 is immediately after bi`1 and before bi in Apαq.
+
+(2)
+
+Indeed, we already observed that bi is the first number after 0 in Apfi ` ǫq “ Apαq. Similarly we
+see that bi`1 is the last number before 0 in Apfi`1 ´ ǫq “ Apαq.
+
+36
+
+IMO 2013 Colombia
+
+Finally, we show that any beautiful arrangement of r0, ns is cyclic by induction on n. For n ď 2
+the result is clear. Now assume that all beautiful arrangements of r0, n ´ 1s are cyclic, and consider
+a beautiful arrangement A of r0, ns. The subarrangement An´1 “ Aztnu of r0, n ´ 1s obtained by
+deleting n is cyclic; say An´1 “ An´1 pαq.
+Let α be between the consecutive fractions pq11 ă pq22 among the irreducible fractions of dei
+ď i`1
+for
+nominator at most n ´ 1. There is at most one fraction ni in p pq11 , pq22 q, since ni ă n´1
+n
+0 ă i ď n ´ 1.
+Case 1. There is no fraction with denominator n between pq11 and pq22 .
+In this case the only cyclic arrangement extending An´1 pαq is An pαq. We know that A and
+An pαq can only differ in the position of n. Assume n is immediately after x and before y in An pαq.
+Since the neighbors of 0 are q1 and q2 by (2), we have x, y ě 1.
+y
+
+x−1
+n−1
+
+n
+
+y−1
+
+x
+
+Figure 4
+In An pαq the chord from n´ 1 to x is parallel and adjacent to the chord from n to x´ 1, so n´ 1
+is between x ´ 1 and x in clockwise order, as shown in Figure 4. Similarly, n ´ 1 is between y
+and y ´ 1. Therefore x, y, x ´ 1, n ´ 1, and y ´ 1 occur in this order in An pαq and hence in A
+(possibly with y “ x ´ 1 or x “ y ´ 1).
+Now, A may only differ from An pαq in the location of n. In A, since the chord from n ´ 1
+to x and the chord from n to x ´ 1 do not intersect, n is between x and n ´ 1. Similarly, n is
+between n ´ 1 and y. Then n must be between x and y and A “ An pαq. Therefore A is cyclic as
+desired.
+Case 2. There is exactly one i with pq11 ă ni ă pq22 .
+
+In this case there exist two cyclic arrangements An pα1 q and An pα2 q of the numbers 0, . . . , n
+extending An´1 pαq, where pq11 ă α1 ă ni and ni ă α2 ă pq22 . In An´1 pαq, 0 is the only number
+between q2 and q1 by (2). For the same reason, n is between q2 and 0 in An pα1 q, and between 0
+and q1 in An pα2 q.
+Letting x “ q2 and y “ q1 , the argument of Case 1 tells us that n must be between x and y
+in A. Therefore A must equal An pα1 q or An pα2 q, and therefore it is cyclic.
+This concludes the proof that every beautiful arrangement is cyclic. It follows that there are
+exactly N ` 1 beautiful arrangements of r0, ns as we wished to show.
+
+Shortlisted problems – solutions
+
+37
+
+C8. Players A and B play a paintful game on the real line. Player A has a pot of paint with
+four units of black ink. A quantity p of this ink suffices to blacken a (closed) real interval of length
+p. In every round, player A picks some positive integer m and provides 1{2m units of ink from the
+pot. Player B then picks an integer k and blackens the interval from k{2m to pk ` 1q{2m (some
+parts of this interval may have been blackened before). The goal of player A is to reach a situation
+where the pot is empty and the interval r0, 1s is not completely blackened.
+Decide whether there exists a strategy for player A to win in a finite number of moves.
+(Austria)
+Answer. No. Such a strategy for player A does not exist.
+Solution. We will present a strategy for player B that guarantees that the interval r0, 1s is completely blackened, once the paint pot has become empty.
+At the beginning of round r, let xr denote the largest real number for which the interval
+between 0 and xr has already been blackened; for completeness we define x1 “ 0. Let m be the
+integer picked by player A in this round; we define an integer yr by
+yr
+yr ` 1
+ď xr ă
+.
+m
+2
+2m
+Note that I0r “ ryr {2m , pyr ` 1q{2m s is the leftmost interval that may be painted in round r and
+that still contains some uncolored point.
+Player B now looks at the next interval I1r “ rpyr ` 1q{2m , pyr ` 2q{2m s. If I1r still contains an
+uncolored point, then player B blackens the interval I1r ; otherwise he blackens the interval I0r . We
+make the convention that, at the beginning of the game, the interval r1, 2s is already blackened;
+thus, if yr ` 1 “ 2m , then B blackens I0r .
+Our aim is to estimate the amount of ink used after each round. Firstly, we will prove by
+induction that, if before rth round the segment r0, 1s is not completely colored, then, before this
+move,
+piq the amount of ink used for the segment r0, xr s is at most 3xr ; and
+piiq for every m, B has blackened at most one interval of length 1{2m to the right of xr .
+Obviously, these conditions are satisfied for r “ 0. Now assume that they were satisfied before
+the rth move, and consider the situation after this move; let m be the number A has picked at
+this move.
+If B has blackened the interval I1r at this move, then xr`1 “ xr , and piq holds by the induction
+hypothesis. Next, had B blackened before the rth move any interval of length 1{2m to the right
+of xr , this interval would necessarily coincide with I1r . By our strategy, this cannot happen. So,
+condition piiq also remains valid.
+Assume now that B has blackened the interval I0r at the rth move, but the interval r0, 1s still
+contains uncolored parts (which means that I1r is contained in r0, 1s). Then condition piiq clearly
+remains true, and we need to check piq only. In our case, the intervals I0r and I1r are completely
+colored after the rth move, so xr`1 either reaches the right endpoint of I1 or moves even further
+to the right. So, xr`1 “ xr ` α for some α ą 1{2m .
+Next, any interval blackened by B before the rth move which intersects pxr , xr`1 q should be
+contained in rxr , xr`1 s; by piiq, all such intervals have different lengths not exceeding 1{2m , so
+the total amount of ink used for them is less than 2{2m . Thus, the amount of ink used for the
+segment r0, xr`1 s does not exceed the sum of 2{2m , 3xr (used for r0, xr s), and 1{2m used for the
+
+38
+
+IMO 2013 Colombia
+
+segment I0r . In total it gives at most 3pxr ` 1{2m q ă 3pxr ` αq “ 3xr`1 . Thus condition piq is also
+verified in this case. The claim is proved.
+Finally, we can perform the desired estimation. Consider any situation in the game, say after the
+pr´1qst move; assume that the segment r0, 1s is not completely black. By piiq, in the segment rxr , 1s
+player B has colored several segments of different lengths; all these lengths are negative powers
+of 2 not exceeding 1 ´ xr ; thus the total amount of ink used for this interval is at most 2p1 ´ xr q.
+Using piq, we obtain that the total amount of ink used is at most 3xr ` 2p1 ´ xr q ă 3. Thus the
+pot is not empty, and therefore A never wins.
+Comment 1. Notice that this strategy works even if the pot contains initially only 3 units of ink.
+Comment 2. There exist other strategies for B allowing him to prevent emptying the pot before the
+whole interval is colored. On the other hand, let us mention some idea which does not work.
+Player B could try a strategy in which the set of blackened points in each round is an interval of
+the type r0, xs. Such a strategy cannot work (even if there is more ink available). Indeed, under the
+assumption that B uses such a strategy, let us prove by induction on s the following statement:
+For any positive integer s, player A has a strategy picking only positive integers m ď s in which,
+if player B ever paints a point x ě 1 ´ 1{2s then after some move, exactly the interval r0, 1 ´ 1{2s s is
+blackened, and the amount of ink used up to this moment is at least s{2.
+For the base case s “ 1, player A just picks m “ 1 in the first round. If for some positive integer k
+player A has such a strategy, for s ` 1 he can first rescale his strategy to the interval r0, 1{2s (sending in
+each round half of the amount of ink he would give by the original strategy). Thus, after some round, the
+interval r0, 1{2 ´ 1{2s`1 s becomes blackened, and the amount of ink used is at least s{4. Now player A
+picks m “ 1{2, and player B spends 1{2 unit of ink to blacken the interval r0, 1{2s. After that, player A
+again rescales his strategy to the interval r1{2, 1s, and player B spends at least s{4 units of ink to blacken
+the interval r1{2, 1 ´ 1{2s`1 s, so he spends in total at least s{4 ` 1{2 ` s{4 “ ps ` 1q{2 units of ink.
+Comment 3. In order to avoid finiteness issues, the statement could be replaced by the following one:
+Players A and B play a paintful game on the real numbers. Player A has a paint pot with
+four units of black ink. A quantity p of this ink suffices to blacken a (closed) real interval of
+length p. In the beginning of the game, player A chooses (and announces) a positive integer
+N . In every round, player A picks some positive integer m ď N and provides 1{2m units
+of ink from the pot. The player B picks an integer k and blackens the interval from k{2m
+to pk ` 1q{2m (some parts of this interval may happen to be blackened before). The goal of
+player A is to reach a situation where the pot is empty and the interval r0, 1s is not completely
+blackened.
+Decide whether there exists a strategy for player A to win.
+However, the Problem Selection Committee believes that this version may turn out to be harder than the
+original one.
+
+Shortlisted problems – solutions
+
+39
+
+Geometry
+G1.
+
+Let ABC be an acute-angled triangle with orthocenter H, and let W be a point on
+side BC. Denote by M and N the feet of the altitudes from B and C, respectively. Denote
+by ω1 the circumcircle of BW N, and let X be the point on ω1 which is diametrically opposite
+to W . Analogously, denote by ω2 the circumcircle of CW M, and let Y be the point on ω2 which
+is diametrically opposite to W . Prove that X, Y and H are collinear.
+(Thaliand)
+Solution. Let L be the foot of the altitude from A, and let Z be the second intersection point of
+circles ω1 and ω2 , other than W . We show that X, Y , Z and H lie on the same line.
+Due to =BNC “ =BMC “ 90˝ , the points B, C, N and M are concyclic; denote their circle
+by ω3 . Observe that the line W Z is the radical axis of ω1 and ω2 ; similarly, BN is the radical axis
+of ω1 and ω3 , and CM is the radical axis of ω2 and ω3 . Hence A “ BN X CM is the radical center
+of the three circles, and therefore W Z passes through A.
+Since W X and W Y are diameters in ω1 and ω2 , respectively, we have =W ZX “ =W ZY “ 90˝ ,
+so the points X and Y lie on the line through Z, perpendicular to W Z.
+A
+ω2
+Y
+M
+
+ω1
+
+X
+
+B
+
+ω3
+
+Z
+
+N
+H
+
+L
+
+W
+
+C
+
+The quadrilateral BLHN is cyclic, because it has two opposite right angles. From the power
+of A with respect to the circles ω1 and BLHN we find AL ¨ AH “ AB ¨ AN “ AW ¨ AZ. If H lies
+AZ
+AL
+on the line AW then this implies H “ Z immediately. Otherwise, by AH
+“ AW
+the triangles AHZ
+˝
+and AW L are similar. Then =HZA “ =W LA “ 90 , so the point H also lies on the line XY Z.
+Comment. The original proposal also included a second statement:
+Let P be the point on ω1 such that W P is parallel to CN , and let Q be the point on ω2 such
+that W Q is parallel to BM . Prove that P , Q and H are collinear if and only if BW “ CW
+or AW K BC.
+The Problem Selection Committee considered the first part more suitable for the competition.
+
+40
+
+IMO 2013 Colombia
+
+G2. Let ω be the circumcircle of a triangle ABC. Denote by M and N the midpoints of the
+sides AB and AC, respectively, and denote by T the midpoint of the arc BC of ω not containing A.
+The circumcircles of the triangles AMT and ANT intersect the perpendicular bisectors of AC
+and AB at points X and Y , respectively; assume that X and Y lie inside the triangle ABC. The
+lines MN and XY intersect at K. Prove that KA “ KT .
+(Iran)
+
+Solution 1. Let O be the center of ω, thus O “ MY X NX. Let ℓ be the perpendicular bisector
+of AT (it also passes through O). Denote by r the operation of reflection about ℓ. Since AT is the
+angle bisector of =BAC, the line rpABq is parallel to AC. Since OM K AB and ON K AC, this
+means that the line rpOMq is parallel to the line ON and passes through O, so rpOMq “ ON.
+Finally, the circumcircle γ of the triangle AMT is symmetric about ℓ, so rpγq “ γ. Thus the
+point M maps to the common point of ON with the arc AMT of γ — that is, rpMq “ X.
+Similarly, rpNq “ Y . Thus, we get rpMNq “ XY , and the common point K of MN nd XY
+lies on ℓ. This means exactly that KA “ KT .
+A
+
+ω
+
+K
+
+γ
+
+M
+
+X
+
+N
+O
+
+ℓ
+
+Y
+
+B
+
+C
+
+T
+
+Solution 2. Let L be the second common point of the line AC with the circumcircle γ of
+the triangle AMT . From the cyclic quadrilaterals ABT C and AMT L we get =BT C “ 180˝ ´
+=BAC “ =MT L, which implies =BT M “ =CT L. Since AT is an angle bisector in these
+quadrilaterals, we have BT “ T C and MT “ T L. Thus the triangles BT M and CT L are
+congruent, so CL “ BM “ AM.
+Let X 1 be the common point of the line NX with the external bisector of =BAC; notice
+that it lies outside the triangle ABC. Then we have =T AX 1 “ 90˝ and X 1 A “ X 1 C, so we
+get =X 1 AM “ 90˝ ` =BAC{2 “ 180˝ ´ =X 1 AC “ 180˝ ´ =X 1 CA “ =X 1 CL. Thus the
+triangles X 1 AM and X 1 CL are congruent, and therefore
+=MX 1 L “ =AX 1 C ` p=CX 1 L ´ =AX 1 Mq “ =AX 1 C “ 180˝ ´ 2=X 1 AC “ =BAC “ =MAL.
+
+This means that X 1 lies on γ.
+Thus we have =T XN “ =T XX 1 “ =T AX 1 “ 90˝ , so T X k AC. Then =XT A “ =T AC “
+=T AM, so the cyclic quadrilateral MAT X is an isosceles trapezoid. Similarly, NAT Y is an
+isosceles trapezoid, so again the lines MN and XY are the reflections of each other about the
+perpendicular bisector of AT . Thus K belongs to this perpendicular bisector.
+
+Shortlisted problems – solutions
+
+41
+A
+X′
+
+ω
+M
+N
+X
+Y
+
+B
+
+C
+γ
+
+T
+
+L
+
+Comment. There are several different ways of showing that the points X and M are symmetrical with
+respect to ℓ. For instance, one can show that the quadrilaterals AM ON and T XOY are congruent. We
+chose Solution 1 as a simple way of doing it. On the other hand, Solution 2 shows some other interesting
+properties of the configuration.
+Let us define Y 1 , analogously to X 1 , as the common point of M Y and the external bisector of =BAC.
+One may easily see that in general the lines M N and X 1 Y 1 (which is the external bisector of =BAC)
+do not intersect on the perpendicular bisector of AT . Thus, any solution should involve some argument
+using the choice of the intersection points X and Y .
+
+42
+
+IMO 2013 Colombia
+
+G3.
+
+In a triangle ABC, let D and E be the feet of the angle bisectors of angles A and B,
+respectively. A rhombus is inscribed into the quadrilateral AEDB (all vertices of the rhombus
+lie on different sides of AEDB). Let ϕ be the non-obtuse angle of the rhombus. Prove that
+ϕ ď maxt=BAC, =ABCu.
+(Serbia)
+
+Solution 1. Let K, L, M, and N be the vertices of the rhombus lying on the sides AE, ED, DB,
+and BA, respectively. Denote by dpX, Y Zq the distance from a point X to a line Y Z. Since D
+and E are the feet of the bisectors, we have dpD, ABq “ dpD, ACq, dpE, ABq “ dpE, BCq, and
+dpD, BCq “ dpE, ACq “ 0, which implies
+dpD, ACq ` dpD, BCq “ dpD, ABq and dpE, ACq ` dpE, BCq “ dpE, ABq.
+Since L lies on the segment DE and the relation dpX, ACq ` dpX, BCq “ dpX, ABq is linear in X
+inside the triangle, these two relations imply
+dpL, ACq ` dpL, BCq “ dpL, ABq.
+
+(1)
+
+Denote the angles as in the figure below, and denote a “ KL. Then we have dpL, ACq “ a sin µ
+and dpL, BCq “ a sin ν. Since KLMN is a parallelogram lying on one side of AB, we get
+dpL, ABq “ dpL, ABq ` dpN, ABq “ dpK, ABq ` dpM, ABq “ apsin δ ` sin εq.
+Thus the condition (1) reads
+sin µ ` sin ν “ sin δ ` sin ε.
+
+(2)
+
+C
+
+E
+K
+
+L
+
+D
+
+µ
+ψ
+ν
+ψ M
+
+α
+A
+
+δ
+
+ε
+N
+
+β
+B
+
+If one of the angles α and β is non-acute, then the desired inequality is trivial. So we assume
+that α, β ă π{2. It suffices to show then that ψ “ =NKL ď maxtα, βu.
+Assume, to the contrary, that ψ ą maxtα, βu. Since µ ` ψ “ =CKN “ α ` δ, by our
+assumption we obtain µ “ pα ´ ψq ` δ ă δ. Similarly, ν ă ε. Next, since KN k ML, we have
+β “ δ ` ν, so δ ă β ă π{2. Similarly, ε ă π{2. Finally, by µ ă δ ă π{2 and ν ă ε ă π{2, we
+obtain
+sin µ ă sin δ and sin ν ă sin ε.
+
+This contradicts (2).
+
+Comment. One can see that the equality is achieved if α “ β for every rhombus inscribed into the
+quadrilateral AEDB.
+
+Shortlisted problems – solutions
+
+43
+
+G4. Let ABC be a triangle with =B ą =C. Let P and Q be two different points on line AC
+
+such that =P BA “ =QBA “ =ACB and A is located between P and C. Suppose that there
+exists an interior point D of segment BQ for which P D “ P B. Let the ray AD intersect the circle
+ABC at R ‰ A. Prove that QB “ QR.
+(Georgia)
+
+Solution 1. Denote by ω the circumcircle of the triangle ABC, and let =ACB “ γ. Note
+that the condition γ ă =CBA implies γ ă 90˝ . Since =P BA “ γ, the line P B is tangent
+A
+“ PP D
+the triangles P AD and P DC are similar, and
+to ω, so P A ¨ P C “ P B 2 “ P D 2. By PP D
+C
+=ADP “ =DCP .
+Next, since =ABQ “ =ACB, the triangles ABC and AQB are also similar. Then =AQB “
+=ABC “ =ARC, which means that the points D, R, C, and Q are concyclic. Therefore =DRQ “
+=DCQ “ =ADP .
+ω
+R
+
+B
+
+D
+
+P
+
+A
+
+Q
+
+C
+
+Figure 1
+Now from =ARB “ =ACB “ γ and =P DB “ =P BD “ 2γ we get
+=QBR “ =ADB ´ =ARB “ =ADP ` =P DB ´ =ARB “ =DRQ ` γ “ =QRB,
+so the triangle QRB is isosceles, which yields QB “ QR.
+Solution 2. Again, denote by ω the circumcircle of the triangle ABC. Denote =ACB “ γ. Since
+=P BA “ γ, the line P B is tangent to ω.
+Let E be the second intersection point of BQ with ω. If V 1 is any point on the ray CE
+beyond E, then =BEV 1 “ 180˝ ´ =BEC “ 180˝ ´ =BAC “ =P AB; together with =ABQ “
+=P BA this shows firstly, that the rays BA and CE intersect at some point V , and secondly
+that the triangle V EB is similar to the triangle P AB. Thus we have =BV E “ =BP A. Next,
+=AEV “ =BEV ´ γ “ =P AB ´ =ABQ “ =AQB; so the triangles P BQ and V AE are also
+similar.
+Let P H be an altitude in the isosceles triangle P BD; then BH “ HD. Let G be the intersection
+point of P H and AB. By the symmetry with respect to P H, we have =BDG “ =DBG “ γ “
+=BEA; thus DG k AE and hence BG
+“ BD
+. Thus the points G and D correspond to each other
+GA
+DE
+in the similar triangles P AB and V EB, so =DV B “ =GP B “ 90˝ ´ =P BQ “ 90˝ ´ =V AE.
+Thus V D K AE.
+
+44
+
+IMO 2013 Colombia
+
+Let T be the common point of V D and AE, and let DS be an altitude in the triangle BDR.
+The points S and T are the feet of corresponding altitudes in the similar triangles ADE and BDR,
+so BS
+“ TATE . On the other hand, the points T and H are feet of corresponding altitudes in the
+SR
+BH
+BH
+similar triangles V AE and P BQ, so TATE “ HQ
+. Thus BS
+“ TATE “ HQ
+, and the triangles BHS
+SR
+and BQR are similar.
+Finally, SH is a median in the right-angled triangle SBD; so BH “ HS, and hence BQ “ QR.
+R
+
+S
+
+B
+
+H
+G
+
+ω
+D
+
+P
+
+A
+
+C
+
+Q
+T
+E
+
+V
+
+Figure 2
+Solution 3. Denote by ω and O the circumcircle of the triangle ABC and its center, respectively.
+From the condition =P BA “ =BCA we know that BP is tangent to ω.
+Let E be the second point of intersection of ω and BD. Due to the isosceles triangle BDP ,
+the tangent of ω at E is parallel to DP and consequently it intersects BP at some point L. Of
+course, P D k LE. Let M be the midpoint of BE, and let H be the midpoint of BR. Notice that
+=AEB “ =ACB “ =ABQ “ =ABE, so A lies on the perpendicular bisector of BE; thus the
+points L, A, M, and O are collinear. Let ω1 be the circle with diameter BO. Let Q1 “ HO X BE;
+since HO is the perpendicular bisector of BR, the statement of the problem is equivalent to
+Q1 “ Q.
+Consider the following sequence of projections (see Fig. 3).
+1. Project the line BE to the line LB through the center A. (This maps Q to P .)
+2. Project the line LB to BE in parallel direction with LE. (P ÞÑ D.)
+3. Project the line BE to the circle ω through its point A. (D ÞÑ R.)
+4. Scale ω by the ratio 21 from the point B to the circle ω1 . (R ÞÑ H.)
+5. Project ω1 to the line BE through its point O. (H ÞÑ Q1 .)
+
+We prove that the composition of these transforms, which maps the line BE to itself, is the
+identity. To achieve this, it suffices to show three fixed points. An obvious fixed point is B which
+is fixed by all the transformations above. Another fixed point is M, its path being M ÞÑ L ÞÑ
+E ÞÑ E ÞÑ M ÞÑ M.
+
+Shortlisted problems – solutions
+
+45
+ω
+
+ω
+
+ω1
+
+O
+
+O
+
+B
+H
+
+R
+
+B
+
+U
+M
+Q
+
+C
+
+Q
+
+Z
+
+D
+′
+
+X
+Q
+
+P
+
+A
+
+E
+
+P
+A
+
+Y
+
+E
+L
+
+L
+
+Figure 3
+Figure 4
+In order to show a third fixed point, draw a line parallel with LE through A; let that line
+intersect BE, LB and ω at X, Y and Z ‰ A, respectively (see Fig. 4). We show that X is a
+fixed point. The images of X at the first three transformations are X ÞÑ Y ÞÑ X ÞÑ Z. From
+=XBZ “ =EAZ “ =AEL “ =LBA “ =BZX we can see that the triangle XBZ is isosceles.
+Let U be the midpoint of BZ; then the last two transformations do Z ÞÑ U ÞÑ X, and the point X
+is fixed.
+Comment. Verifying that the point E is fixed seems more natural at first, but it appears to be less
+straightforward. Here we outline a possible proof.
+Let the images of E at the first three transforms above be F , G and I. After comparing the angles
+depicted in Fig. 5 (noticing that the quadrilateral AF BG is cyclic) we can observe that the tangent LE
+of ω is parallel to BI. Then, similarly to the above reasons, the point E is also fixed.
+ω
+
+I
+
+B
+
+G
+Q
+A
+
+F
+P
+
+E
+L
+
+Figure 5
+
+46
+
+IMO 2013 Colombia
+
+G5.
+
+Let ABCDEF be a convex hexagon with AB “ DE, BC “ EF , CD “ F A, and
+=A ´ =D “ =C ´ =F “ =E ´ =B. Prove that the diagonals AD, BE, and CF are concurrent.
+(Ukraine)
+
+In all three solutions, we denote θ “ =A ´ =D “ =C ´ =F “ =E ´ =B and assume without loss
+of generality that θ ě 0.
+Solution 1. Let x “ AB “ DE, y “ CD “ F A, z “ EF “ BC. Consider the points P, Q,
+and R such that the quadrilaterals CDEP , EF AQ, and ABCR are parallelograms. We compute
+=P EQ “ =F EQ ` =DEP ´ =E “ p180˝ ´ =F q ` p180˝ ´ =Dq ´ =E
+`
+˘
+“ 360˝ ´ =D ´ =E ´ =F “ 21 =A ` =B ` =C ´ =D ´ =E ´ =F “ θ{2.
+
+Similarly, =QAR “ =RCP “ θ{2.
+
+B
+
+x
+z
+
+A
+Q
+P
+
+C
+
+y
+y
+F
+
+z
+
+R
+E
+
+x
+
+D
+
+If θ “ 0, since △RCP is isosceles, R “ P . Therefore AB k RC “ P C k ED, so ABDE is a
+parallelogram. Similarly, BCEF and CDF A are parallelograms. It follows that AD, BE and CF
+meet at their common midpoint.
+Now assume θ ą 0. Since △P EQ, △QAR, and △RCP are isosceles and have the same angle
+at the apex, we have △P EQ „ △QAR „ △RCP with ratios of similarity y : z : x. Thus
+△P QR is similar to the triangle with sidelengths y, z, and x.
+
+(1)
+
+Next, notice that
+RQ
+z
+RA
+“ “
+QP
+y
+AF
+and, using directed angles between rays,
+>pRQ, QP q “ >pRQ, QEq ` >pQE, QP q
+“ >pRQ, QEq ` >pRA, RQq “ >pRA, QEq “ >pRA, AF q.
+Thus △P QR „ △F AR. Since F A “ y and AR “ z, (1) then implies that F R “ x. Similarly
+F P “ x. Therefore CRF P is a rhombus.
+We conclude that CF is the perpendicular bisector of P R. Similarly, BE is the perpendicular
+bisector of P Q and AD is the perpendicular bisector of QR. It follows that AD, BE, and CF are
+concurrent at the circumcenter of P QR.
+
+Shortlisted problems – solutions
+
+47
+
+Solution 2. Let X “ CD X EF , Y “ EF X AB, Z “ AB X CD, X 1 “ F A X BC, Y 1 “
+BC X DE, and Z 1 “ DE X F A. From =A ` =B ` =C “ 360˝ ` θ{2 we get =A ` =B ą 180˝
+and =B ` =C ą 180˝, so Z and X 1 are respectively on the opposite sides of BC and AB from the
+hexagon. Similar conclusions hold for X, Y , Y 1 , and Z 1 . Then
+=Y ZX “ =B ` =C ´ 180˝ “ =E ` =F ´ 180˝ “ =Y 1 Z 1 X 1 ,
+and similarly =ZXY “ =Z 1 X 1 Y 1 and =XY Z “ =X 1 Y 1 Z 1 , so △XY Z „ △X 1Y 1 Z 1 . Thus there is
+a rotation `R which
+sends △XY Z to`a triangle
+with sides
+parallel
+to △X 1 Y 1 Z 1 . Since AB “ DE
+`ÝÝÑ
+˘ ÝÝÑ
+ÝÝÑ˘ ÝÝÑ
+ÝÝÑ˘ Ý
+Ý
+Ñ
+we have R AB “ DE. Similarly, R CD “ F A and R EF “ BC. Therefore
+`ÝÝÑ ÝÝÑ ÝÝÑ˘
+ÝÝÑ ÝÝÑ ÝÝÑ ÝÝÑ ÝÝÑ Ý
+Ý
+Ñ `ÝÝÑ ÝÝÑ ÝÝÑ˘
+Ñ
+Ý
+0 “ AB ` BC ` CD ` DE ` EF ` F A “ AB ` CD ` EF ` R AB ` CD ` EF .
+If R is a rotation by 180˝ , then any two opposite sides of our hexagon are equal and parallel,
+so the three diagonals meet at their common midpoint. Otherwise, we must have
+ÝÝÑ ÝÝÑ ÝÝÑ Ñ
+Ý
+AB ` CD ` EF “ 0 ,
+Ñ
+Ý
+or else we would have two vectors with different directions whose sum is 0 .
+X′
+
+Z
+
+N
+
+B
+O
+
+M
+C
+
+O1
+
+A
+
+L
+
+T
+Y
+
+O2
+
+O3
+F
+Z
+
+E
+
+Y′
+D
+X
+
+′
+
+ÝÝÑ ÝÝÑ ÝÝÑ ÝÝÑ
+ÝÝÑ ÝÝÑ
+This allows us to consider a triangle LMN with LM “ EF , MN “ AB, and NL “ CD. Let O
+be the circumcenter of △LMN and consider the points O1 , O2 , O3 such that △AO1B, △CO2 D,
+and △EO3 F are translations of △MON, △NOL, and △LOM, respectively. Since F O3 and AO1
+are translations of MO, quadrilateral AF O3 O1 is a parallelogram and O3 O1 “ F A “ CD “ NL.
+Similarly, O1 O2 “ LM and O2 O3 “ MN. Therefore △O1O2 O3 – △LMN. Moreover, by means
+of the rotation R one may check that these triangles have the same orientation.
+Let T be the circumcenter of △O1 O2 O3 . We claim that AD, BE, and CF meet at T . Let
+us show that C, T , and F are collinear. Notice that CO2 “ O2 T “ T O3 “ O3 F since they are
+all equal to the circumradius of △LMN. Therefore △T O3F and △CO2T are isosceles. Using
+directed angles between rays again, we get
+>pT F, T O3q “ >pF O3 , F T q
+
+and
+
+>pT O2 , T Cq “ >pCT, CO2 q.
+
+(2)
+
+Also, T and O are the circumcenters of the congruent triangles △O1O2 O3 and △LMN so we have
+>pT O3 , T O2q “ >pON, OMq. Since CO2 and F O3 are translations of NO and MO respectively,
+this implies
+>pT O3 , T O2 q “ >pCO2 , F O3 q.
+(3)
+
+48
+
+IMO 2013 Colombia
+
+Adding the three equations in (2) and (3) gives
+>pT F, T Cq “ >pCT, F T q “ ´>pT F, T Cq
+which implies that T is on CF . Analogous arguments show that it is on AD and BE also. The
+desired result follows.
+Solution 3. Place the hexagon on the complex plane, with A at the origin and vertices labelled
+clockwise. Now A, B, C, D, E, F represent the corresponding complex numbers. Also consider
+the complex numbers a, b, c, a1 , b1 , c1 given by B ´ A “ a, D ´ C “ b, F ´ E “ c, E ´ D “ a1 ,
+A ´ F “ b1 , and C ´ B “ c1 . Let k “ |a|{|b|. From a{b1 “ ´kei=A and a1 {b “ ´kei=D we get that
+pa1 {aqpb1 {bq “ e´iθ and similarly pb1 {bqpc1 {cq “ e´iθ and pc1 {cqpa1 {aq “ e´iθ . It follows that a1 “ ar,
+b1 “ br, and c1 “ cr for a complex number r with |r| “ 1, as shown below.
+a
+B
+
+cr
+
+a
+
+a + cr
+
+0 A
+
+C
+c(r − 1)λ
+
+b
+
+W
+W
+W
+W
+
+br
+
+D
+D
+D a + b + cr = c(r − 1)
+D
+
+F
+c
+
+−br
+
+E
+−br − c
+
+ar
+
+We have
+0 “ a ` cr ` b ` ar ` c ` br “ pa ` b ` cqp1 ` rq.
+
+If r “ ´1, then the hexagon is centrally symmetric and its diagonals intersect at its center of
+symmetry. Otherwise
+a ` b ` c “ 0.
+Therefore
+
+A “ 0,
+
+B “ a,
+
+C “ a ` cr,
+
+D “ cpr ´ 1q,
+
+E “ ´br ´ c,
+
+F “ ´br.
+
+Now consider a point W on AD given by the complex number cpr ´ 1qλ, where λ is a real number
+with 0 ă λ ă 1. Since D ‰ A, we have r ‰ 1, so we can define s “ 1{pr ´ 1q. From rr “ |r|2 “ 1
+we get
+r
+1
+r
+“
+“
+“ ´s.
+1`s“
+r´1
+r ´ rr
+1´r
+Now,
+W is on BE ðñ cpr ´ 1qλ ´ a k a ´ p´br ´ cq “ bpr ´ 1q ðñ cλ ´ as k b
+ðñ ´aλ ´ bλ ´ as k b ðñ apλ ` sq k b.
+One easily checks that r ‰ ˘1 implies that λ ` s ‰ 0 since s is not real. On the other hand,
+W on CF ðñ cpr ´ 1qλ ` br k ´br ´ pa ` crq “ apr ´ 1q ðñ cλ ` bp1 ` sq k a
+ðñ ´aλ ´ bλ ´ bs k a ðñ bpλ ` sq k a ðñ b k apλ ` sq,
+
+where in the last step we use that pλ ` sqpλ ` sq “ |λ ` s|2 P Rą0 . We conclude that AD X BE “
+CF X BE, and the desired result follows.
+
+Shortlisted problems – solutions
+
+49
+
+G6. Let the excircle of the triangle ABC lying opposite to A touch its side BC at the point A1 .
+Define the points B1 and C1 analogously. Suppose that the circumcentre of the triangle A1 B1 C1
+lies on the circumcircle of the triangle ABC. Prove that the triangle ABC is right-angled.
+(Russia)
+Solution 1. Denote the circumcircles of the triangles ABC and A1 B1 C1 by Ω and Γ, respectively.
+Denote the midpoint of the arc CB of Ω containing A by A0 , and define B0 as well as C0 analogously.
+By our hypothesis the centre Q of Γ lies on Ω.
+Lemma. One has A0 B1 “ A0 C1 . Moreover, the points A, A0 , B1 , and C1 are concyclic. Finally,
+the points A and A0 lie on the same side of B1 C1 . Similar statements hold for B and C.
+Proof. Let us consider the case A “ A0 first. Then the triangle ABC is isosceles at A, which
+implies AB1 “ AC1 while the remaining assertions of the Lemma are obvious. So let us suppose
+A ‰ A0 from now on.
+By the definition of A0 , we have A0 B “ A0 C. It is also well known and easy to show that BC1 “
+CB1 . Next, we have =C1 BA0 “ =ABA0 “ =ACA0 “ =B1 CA0 . Hence the triangles A0 BC1
+and A0 CB1 are congruent. This implies A0 C1 “ A0 B1 , establishing the first part of the Lemma.
+It also follows that =A0 C1 A “ =A0 B1 A, as these are exterior angles at the corresponding vertices
+C1 and B1 of the congruent triangles A0 BC1 and A0 CB1 . For that reason the points A, A0 , B1 ,
+and C1 are indeed the vertices of some cyclic quadrilateral two opposite sides of which are AA0
+and B1 C1 .
+l
+Now we turn to the solution. Evidently the points A1 , B1 , and C1 lie interior to some semicircle
+arc of Γ, so the triangle A1 B1 C1 is obtuse-angled. Without loss of generality, we will assume that
+its angle at B1 is obtuse. Thus Q and B1 lie on different sides of A1 C1 ; obviously, the same holds
+for the points B and B1 . So, the points Q and B are on the same side of A1 C1 .
+Notice that the perpendicular bisector of A1 C1 intersects Ω at two points lying on different
+sides of A1 C1 . By the first statement from the Lemma, both points B0 and Q are among these
+points of intersection; since they share the same side of A1 C1 , they coincide (see Figure 1).
+B00000(=
+(= Q)
+Q)
+B
+B
+Γ
+
+A11111
+A
+
+C11111
+C
+A
+
+C
+
+B1111
+B
+Ω
+A0
+C0
+
+Figure 1
+
+50
+
+IMO 2013 Colombia
+
+Now, by the first part of the Lemma again, the lines QA0 and QC0 are the perpendicular
+bisectors of B1 C1 and A1 B1 , respectively. Thus
+=C1 B0 A1 “ =C1 B0 B1 ` =B1 B0 A1 “ 2=A0 B0 B1 ` 2=B1 B0 C0 “ 2=A0 B0 C0 “ 180˝ ´ =ABC,
+recalling that A0 and C0 are the midpoints of the arcs CB and BA, respectively.
+On the other hand, by the second part of the Lemma we have
+=C1 B0 A1 “ =C1 BA1 “ =ABC.
+From the last two equalities, we get =ABC “ 90˝ , whereby the problem is solved.
+
+Solution 2. Let Q again denote the centre of the circumcircle of the triangle A1 B1 C1 , that lies
+on the circumcircle Ω of the triangle ABC. We first consider the case where Q coincides with one
+of the vertices of ABC, say Q “ B. Then BC1 “ BA1 and consequently the triangle ABC is
+isosceles at B. Moreover we have BC1 “ B1 C in any triangle, and hence BB1 “ BC1 “ B1 C;
+similarly, BB1 “ B1 A. It follows that B1 is the centre of Ω and that the triangle ABC has a right
+angle at B.
+So from now on we may suppose Q R tA, B, Cu. We start with the following well known fact.
+Lemma. Let XY Z and X 1 Y 1 Z 1 be two triangles with XY “ X 1 Y 1 and Y Z “ Y 1 Z 1 .
+piq If XZ ‰ X 1 Z 1 and =Y ZX “ =Y 1 Z 1 X 1 , then =ZXY ` =Z 1 X 1 Y 1 “ 180˝ .
+piiq If =Y ZX ` =X 1 Z 1 Y 1 “ 180˝ , then =ZXY “ =Y 1 X 1 Z 1 .
+Proof. For both parts, we may move the triangle XY Z through the plane until Y “ Y 1 and Z “ Z 1 .
+Possibly after reflecting one of the two triangles about Y Z, we may also suppose that X and X 1
+lie on the same side of Y Z if we are in case piq and on different sides if we are in case piiq. In both
+cases, the points X, Z, and X 1 are collinear due to the angle condition (see Fig. 2). Moreover we
+have X ‰ X 1 , because in case piq we assumed XZ ‰ X 1 Z 1 and in case piiq these points even lie
+on different sides of Y Z. Thus the triangle XX 1 Y is isosceles at Y . The claim now follows by
+considering the equal angles at its base.
+l
+Y =Y′
+
+Y =Y′
+
+X
+
+X′
+
+Z = Z′
+
+Figure 2(i)
+
+X
+
+Z = Z′
+
+X′
+
+Figure 2(ii)
+
+Relabeling the vertices of the triangle ABC if necessary we may suppose that Q lies in the
+interior of the arc AB of Ω not containing C. We will sometimes use tacitly that the six triangles QBA1 , QA1 C, QCB1 , QB1 A, QC1 A, and QBC1 have the same orientation.
+As Q cannot be the circumcentre of the triangle ABC, it is impossible that QA “ QB “ QC
+and thus we may also suppose that QC ‰ QB. Now the above Lemma piq is applicable to the
+triangles QB1 C and QC1 B, since QB1 “ QC1 and B1 C “ C1 B, while =B1 CQ “ =C1 BQ holds
+as both angles appear over the same side of the chord QA in Ω (see Fig. 3). So we get
+=CQB1 ` =BQC1 “ 180˝ .
+
+(1)
+
+Shortlisted problems – solutions
+
+51
+
+We claim that QC “ QA. To see this, let us assume for the sake of a contradiction that
+QC ‰ QA. Then arguing similarly as before but now with the triangles QA1 C and QC1 A we get
+=A1 QC ` =C1 QA “ 180˝ .
+Adding this equation to (1), we get =A1 QB1 ` =BQA “ 360˝ , which is absurd as both summands
+lie in the interval p0˝ , 180˝q.
+This proves QC “ QA; so the triangles QA1 C and QC1 A are congruent their sides being equal,
+which in turn yields
+=A1 QC “ =C1 QA.
+
+(2)
+
+Finally our Lemma piiq is applicable to the triangles QA1 B and QB1 A. Indeed we have QA1 “ QB1
+and A1 B “ B1 A as usual, and the angle condition =A1 BQ ` =QAB1 “ 180˝ holds as A and B
+lie on different sides of the chord QC in Ω. Consequently we have
+=BQA1 “ =B1 QA.
+
+(3)
+
+From (1) and (3) we get
+p=B1 QC ` =B1 QAq ` p=C1 QB ´ =BQA1 q “ 180˝ ,
+i.e. =CQA ` =A1 QC1 “ 180˝ . In light of (2) this may be rewritten as 2=CQA “ 180˝ and as Q
+lies on Ω this implies that the triangle ABC has a right angle at B.
+Q
+Q
+B
+
+A11111
+A
+C11111
+C
+A
+
+C
+
+B11111
+B
+
+Figure 3
+
+Comment 1.
+acute-angled.
+
+One may also check that Q is in the interior of Ω if and only if the triangle ABC is
+
+Comment 2. The original proposal asked to prove the converse statement as well: if the triangle ABC
+is right-angled, then the point Q lies on its circumcircle. The Problem Selection Committee thinks that
+the above simplified version is more suitable for the competition.
+
+52
+
+IMO 2013 Colombia
+
+Number Theory
+N1. Let Zą0 be the set of positive integers. Find all functions f : Zą0 Ñ Zą0 such that
+m2 ` f pnq | mf pmq ` n
+for all positive integers m and n.
+(Malaysia)
+Answer. f pnq “ n.
+
+Solution 1. Setting m “ n “ 2 tells us that 4 ` f p2q | 2f p2q ` 2. Since 2f p2q ` 2 ă 2p4 ` f p2qq, we
+must have 2f p2q ` 2 “ 4 ` f p2q, so f p2q “ 2. Plugging in m “ 2 then tells us that 4 ` f pnq | 4 ` n,
+which implies that f pnq ď n for all n.
+Setting m “ n gives n2 ` f pnq | nf pnq ` n, so nf pnq ` n ě n2 ` f pnq which we rewrite as
+pn ´ 1qpf pnq ´ nq ě 0. Therefore f pnq ě n for all n ě 2. This is trivially true for n “ 1 also.
+It follows that f pnq “ n for all n. This function obviously satisfies the desired property.
+
+Solution 2. Setting m “ f pnq we get f pnqpf pnq`1q | f pnqf pf pnqq`n. This implies that f pnq | n
+for all n.
+Now let m be any positive integer, and let p ą 2m2 be a prime number. Note that p ą mf pmq
+also. Plugging in n “ p´mf pmq we learn that m2 `f pnq divides p. Since m2 `f pnq cannot equal 1,
+it must equal p. Therefore p ´ m2 “ f pnq | n “ p ´ mf pmq. But p ´ mf pmq ă p ă 2pp ´ m2 q, so
+we must have p ´ mf pmq “ p ´ m2 , i.e., f pmq “ m.
+Solution 3. Plugging m “ 1 we obtain 1 ` f pnq ď f p1q ` n, so f pnq ď n ` c for the constant c “
+f p1q´1. Assume that f pnq ‰ n for some fixed n. When m is large enough (e.g. m ě maxpn, c`1q)
+we have
+mf pmq ` n ď mpm ` cq ` n ď 2m2 ă 2pm2 ` f pnqq,
+so we must have mf pmq ` n “ m2 ` f pnq. This implies that
+
+0 ‰ f pnq ´ n “ mpf pmq ´ mq,
+which is impossible for m ą |f pnq ´ n|. It follows that f is the identity function.
+
+Shortlisted problems – solutions
+
+53
+
+N2.
+
+Prove that for any pair of positive integers k and n there exist k positive integers
+m1 , m2 , . . . , mk such that
+2k ´ 1
+“
+1`
+n
+
+ˆ
+
+1
+1`
+m1
+
+˙ˆ
+˙ ˆ
+˙
+1
+1
+1`
+¨¨¨ 1 `
+.
+m2
+mk
+(Japan)
+
+Solution 1. We proceed by induction on k. For k “ 1 the statement is trivial. Assuming we
+have proved it for k “ j ´ 1, we now prove it for k “ j.
+Case 1. n “ 2t ´ 1 for some positive integer t.
+
+Observe that
+
+2j ´ 1
+2pt ` 2j´1 ´ 1q
+2t
+1`
+“
+¨
+“
+2t ´ 1
+2t
+2t ´ 1
+
+˙ˆ
+˙
+ˆ
+1
+2j´1 ´ 1
+1`
+.
+1`
+t
+2t ´ 1
+
+By the induction hypothesis we can find m1 , . . . , mj´1 such that
+2j´1 ´ 1
+“
+1`
+t
+
+ˆ
+
+1
+1`
+m1
+
+˙ˆ
+˙ ˆ
+˙
+1
+1
+1`
+¨¨¨ 1 `
+,
+m2
+mj´1
+
+so setting mj “ 2t ´ 1 gives the desired expression.
+Case 2. n “ 2t for some positive integer t.
+
+Now we have
+
+2t ` 2j ´ 1 2t ` 2j ´ 2
+2j ´ 1
+“
+¨
+“
+1`
+2t
+2t ` 2j ´ 2
+2t
+
+ˆ
+1`
+
+1
+2t ` 2j ´ 2
+
+˙ˆ
+˙
+2j´1 ´ 1
+1`
+,
+t
+
+noting that 2t ` 2j ´ 2 ą 0. Again, we use that
+2j´1 ´ 1
+1`
+“
+t
+
+ˆ
+
+1
+1`
+m1
+
+˙ˆ
+˙ ˆ
+˙
+1
+1
+1`
+¨¨¨ 1 `
+.
+m2
+mj´1
+
+Setting mj “ 2t ` 2j ´ 2 then gives the desired expression.
+
+Solution 2. Consider the base 2 expansions of the residues of n ´ 1 and ´n modulo 2k :
+n ´ 1 ” 2a1 ` 2a2 ` ¨ ¨ ¨ ` 2ar pmod 2k q
+
+where 0 ď a1 ă a2 ă . . . ă ar ď k ´ 1,
+
+´n ” 2b1 ` 2b2 ` ¨ ¨ ¨ ` 2bs pmod 2k q
+
+where 0 ď b1 ă b2 ă . . . ă bs ď k ´ 1.
+
+Since ´1 ” 20 ` 21 ` ¨ ¨ ¨ ` 2k´1 pmod 2k q, we have ta1 , . . . , ar u Y tb1 . . . , bs u “ t0, 1, . . . , k ´ 1u and
+r ` s “ k. Write
+Sp “ 2ap ` 2ap`1 ` ¨ ¨ ¨ ` 2ar
+b1
+
+b2
+
+Tq “ 2 ` 2 ` ¨ ¨ ¨ ` 2
+
+bq
+
+for 1 ď p ď r,
+
+for 1 ď q ď s.
+
+54
+
+IMO 2013 Colombia
+
+Also set Sr`1 “ T0 “ 0. Notice that S1 ` Ts “ 2k ´ 1 and n ` Ts ” 0 pmod 2k q. We have
+1`
+
+2k ´ 1
+n ` S1 ` Ts
+n ` S1 ` Ts n ` Ts
+“
+“
+¨
+n
+n
+n ` Ts
+n
+“
+
+s
+r
+ź
+n ` Sp ` Ts ź n ` Tq
+¨
+n ` Sp`1 ` Ts q“1 n ` Tq´1
+p“1
+
+r ˆ
+ź
+“
+1`
+p“1
+
+2ap
+n ` Sp`1 ` Ts
+
+˙ ź
+s ˆ
+¨
+1`
+q“1
+
+2bq
+n ` Tq´1
+
+˙
+
+,
+
+so if we define
+mp “
+
+n ` Sp`1 ` Ts
+2ap
+
+for 1 ď p ď r
+
+and
+
+mr`q “
+
+n ` Tq´1
+2bq
+
+for 1 ď q ď s,
+
+the desired equality holds. It remains to check that every mi is an integer. For 1 ď p ď r we have
+n ` Sp`1 ` Ts ” n ` Ts ” 0 pmod 2ap q
+and for 1 ď q ď r we have
+The desired result follows.
+
+n ` Tq´1 ” n ` Ts ” 0 pmod 2bq q.
+
+Shortlisted problems – solutions
+
+55
+
+N3. Prove that there exist infinitely many positive integers n such that the largest prime divisor
+of n4 ` n2 ` 1 is equal to the largest prime divisor of pn ` 1q4 ` pn ` 1q2 ` 1.
+
+(Belgium)
+
+Solution. Let pn be the largest prime divisor of n4 ` n2 ` 1 and let qn be the largest prime divisor
+of n2 ` n ` 1. Then pn “ qn2 , and from
+n4 ` n2 ` 1 “ pn2 ` 1q2 ´ n2 “ pn2 ´ n ` 1qpn2 ` n ` 1q “ ppn ´ 1q2 ` pn ´ 1q ` 1qpn2 ` n ` 1q
+it follows that pn “ maxtqn , qn´1 u for n ě 2. Keeping in mind that n2 ´ n ` 1 is odd, we have
+gcdpn2 ` n ` 1, n2 ´ n ` 1q “ gcdp2n, n2 ´ n ` 1q “ gcdpn, n2 ´ n ` 1q “ 1.
+Therefore qn ‰ qn´1 .
+To prove the result, it suffices to show that the set
+S “ tn P Zě2 | qn ą qn´1 and qn ą qn`1 u
+is infinite, since for each n P S one has
+pn “ maxtqn , qn´1 u “ qn “ maxtqn , qn`1 u “ pn`1 .
+Suppose on the contrary that S is finite. Since q2 “ 7 ă 13 “ q3 and q3 “ 13 ą 7 “ q4 , the set S
+is non-empty. Since it is finite, we can consider its largest element, say m.
+Note that it is impossible that qm ą qm`1 ą qm`2 ą . . . because all these numbers are positive
+integers, so there exists a k ě m such that qk ă qk`1 (recall that qk ‰ qk`1 ). Next observe that it
+is impossible to have qk ă qk`1 ă qk`2 ă . . . , because qpk`1q2 “ pk`1 “ maxtqk , qk`1 u “ qk`1 , so
+let us take the smallest ℓ ě k ` 1 such that qℓ ą qℓ`1 . By the minimality of ℓ we have qℓ´1 ă qℓ ,
+so ℓ P S. Since ℓ ě k ` 1 ą k ě m, this contradicts the maximality of m, and hence S is indeed
+infinite.
+Comment. Once the factorization of n4 ` n2 ` 1 is found and the set S is introduced, the problem is
+mainly about ruling out the case that
+qk ă qk`1 ă qk`2 ă . . .
+
+(1)
+
+might hold for some k P Zą0 . In the above solution, this is done by observing qpk`1q2 “ maxpqk , qk`1 q.
+Alternatively one may notice that (1) implies that qj`2 ´ qj ě 6 for j ě k ` 1, since every prime greater
+than 3 is congruent to ´1 or 1 modulo 6. Then there is some integer C ě 0 such that qn ě 3n ´ C for
+all n ě k.
+Now let the integer t be sufficiently large (e.g. t “ maxtk ` 1, C ` 3u) and set p “ qt´1 ě 2t. Then
+p | pt ´ 1q2 ` pt ´ 1q ` 1 implies that p | pp ´ tq2 ` pp ´ tq ` 1, so p and qp´t are prime divisors of
+pp ´ tq2 ` pp ´ tq ` 1. But p ´ t ą t ´ 1 ě k, so qp´t ą qt´1 “ p and p ¨ qp´t ą p2 ą pp ´ tq2 ` pp ´ tq ` 1,
+a contradiction.
+
+56
+
+IMO 2013 Colombia
+
+N4. Determine whether there exists an infinite sequence of nonzero digits a1 , a2 , a3 , . . . and a
+positive integer N such that for every integer k ą N, the number ak ak´1 . . . a1 is a perfect square.
+(Iran)
+
+Answer. No.
+Solution. Assume that a1 , a2 , a3 , . . . is such a sequence. For each positive integer k, let yk “
+ak ak´1 . . . a1 . By the assumption, for each k ą N there exists a positive integer xk such that
+yk “ x2k .
+I. For every n, let 5γn be the greatest power of 5 dividing xn . Let us show first that 2γn ě n for
+every positive integer n ą N.
+Assume, to the contrary, that there exists a positive integer n ą N such that 2γn ă n, which
+yields
+´
+yn ¯
+yn`1 “ an`1 an . . . a1 “ 10n an`1 ` an an´1 . . . a1 “ 10n an`1 ` yn “ 52γn 2n 5n´2γn an`1 ` 2γn .
+5
+
+Since 5 {| yn {52γn , we obtain γn`1 “ γn ă n ă n ` 1. By the same arguments we obtain that
+γn “ γn`1 “ γn`2 “ . . . . Denote this common value by γ.
+Now, for each k ě n we have
+pxk`1 ´ xk qpxk`1 ` xk q “ x2k`1 ´ x2k “ yk`1 ´ yk “ ak`1 ¨ 10k .
+γ`1
+One of`the numbers xk`1 ´ xk and
+since otherwise one would have
+˘ xk`1 ` xk is not divisible by 5
+γ`1
+5
+| pxk`1 ´ xk q ` pxk`1 ` xk q “ 2xk`1 . On the other hand, we have 5k | pxk`1 ´ xk qpxk`1 ` xk q,
+so 5k´γ divides one of these two factors. Thus we get
+?
+5k´γ ď maxtxk`1 ´ xk , xk`1 ` xk u ă 2xk`1 “ 2 yk`1 ă 2 ¨ 10pk`1q{2 ,
+
+which implies 52k ă 4 ¨ 52γ ¨ 10k`1 , or p5{2qk ă 40 ¨ 52γ . The last inequality is clearly false for
+sufficiently large values of k. This contradiction shows that 2γn ě n for all n ą N.
+II. Consider now any integer k ą maxtN{2, 2u. Since 2γ2k`1 ě 2k ` 1 and 2γ2k`2 ě 2k ` 2,
+we have γ2k`1 ě k ` 1 and γ2k`2 ě k ` 1. So, from y2k`2 “ a2k`2 ¨ 102k`1 ` y2k`1 we obtain
+52k`2 | y2k`2 ´ y2k`1 “ a2k`2 ¨ 102k`1 and thus 5 | a2k`2 , which implies a2k`2 “ 5. Therefore,
+px2k`2 ´ x2k`1 qpx2k`2 ` x2k`1 q “ x22k`2 ´ x22k`1 “ y2k`2 ´ y2k`1 “ 5 ¨ 102k`1 “ 22k`1 ¨ 52k`2 .
+Setting Ak “ x2k`2 {5k`1 and Bk “ x2k`1 {5k`1 , which are integers, we obtain
+pAk ´ Bk qpAk ` Bk q “ 22k`1 .
+
+(1)
+
+Both Ak and Bk are odd, since otherwise y2k`2 or y2k`1 would be a multiple of 10 which is false
+by a1 ‰ 0; so one of the numbers Ak ´ Bk and Ak ` Bk is not divisible by 4. Therefore (1) yields
+Ak ´ Bk “ 2 and Ak ` Bk “ 22k , hence Ak “ 22k´1 ` 1 and thus
+x2k`2 “ 5k`1 Ak “ 10k`1 ¨ 2k´2 ` 5k`1 ą 10k`1,
+since k ě 2. This implies that y2k`2 ą 102k`2 which contradicts the fact that y2k`2 contains 2k ` 2
+digits. The desired result follows.
+
+Shortlisted problems – solutions
+
+57
+
+Solution 2. Again, we assume that a sequence a1 , a2 , a3 , . . . satisfies the problem conditions,
+introduce the numbers xk and yk as in the previous solution, and notice that
+yk`1 ´ yk “ pxk`1 ´ xk qpxk`1 ` xk q “ 10k ak`1
+
+(2)
+
+for all k ą N. Consider any such k. Since a1 ‰ 0, the numbers xk and xk`1 are not multiples of 10,
+and therefore the numbers pk “ xk`1 ´ xk and qk “ xk`1 ` xk cannot be simultaneously multiples
+of 20, and hence one of them is not divisible either by 4 or by 5. In view of (2), this means that
+the other one is divisible by either 5k or by 2k´1. Notice also that pk and qk have the same parity,
+so both are even.
+?
+On the other hand, we have x2k`1 “ x2k ` 10k ak`1 ě x2k ` 10k ą 2x2k , so xk`1 {xk ą 2, which
+implies that
+qk
+2
+2
+1ă
+ă 6.
+(3)
+“1`
+ă1` ?
+pk
+xk`1 {xk ´ 1
+2´1
+Thus, if one of the numbers pk and qk is divisible by 5k , then we have
+p5k q2
+6
+k
+and hence p5{2q ă 60 which is false for sufficiently large k. So, assuming that k is large, we get
+that 2k´1 divides one of the numbers pk and qk . Hence
+10k`1 ą 10k ak`1 “ pk qk ě
+
+tpk , qk u “ t2k´1 ¨ 5rk bk , 2 ¨ 5k´rk ck u with nonnegative integers bk , ck , rk such that bk ck “ ak`1 .
+
+Moreover, from (3) we get
+
+so
+
+1
+2k´1 ¨ 5rk bk
+ě
+¨
+6ą
+k´r
+2 ¨ 5 k ck
+36
+
+ˆ ˙k
+2
+¨ 52rk
+5
+
+αk ` c1 ă rk ă αk ` c2
+
+4
+2 ¨ 5k´rk ck
+ě ¨
+and 6 ą k´1 r
+2
+¨ 5 k bk
+9
+
+ˆ ˙k
+5
+¨ 5´2rk ,
+2
+
+` ˘
+for α “ 21 log5 25 ă 1 and some constants c2 ą c1 .
+
+Consequently, for C “ c2 ´ c1 ` 1 ´ α ą 0 we have
+
+pk ` 1q ´ rk`1 ď k ´ rk ` C.
+
+(4)
+(5)
+
+Next, we will use the following easy lemma.
+s
+Lemma. Let s be a positive integer. Then 5s`2 ” 5s pmod 10s q.
+s
+s
+s
+Proof. Euler’s theorem gives 52 ” 1 pmod 2s q, so 5s`2 ´ 5s “ 5s p52 ´ 1q is divisible by 2s and 5s .
+Now, for every large k we have
+pk ` qk
+xk`1 “
+“ 5rk ¨ 2k´2 bk ` 5k´rk ck ” 5k´rk ck pmod 10rk q
+(6)
+2
+since rk ď k ´ 2 by (4); hence yk`1 ” 52pk´rk q c2k pmod 10rk q. Let us consider some large integer s,
+and choose the minimal k such that
+2pk ˘´ rk q ě s ` 2s ; it exists by (4). Set d “ 2pk ´ rk q ´ ps ` 2s q.
+`
+By (4) we have 2s ă 2pk ´ rk q ă α2 ´ 2 rk ´ 2cα1 ; if s is large this implies rk ą s, so (6) also holds
+modulo 10s . Then (6) and the lemma give
+s
+
+yk`1 ” 52pk´rk q c2k “ 5s`2 ¨ 5d c2k ” 5s ¨ 5d c2k
+
+pmod 10s q.
+
+(7)
+
+By (5) and the minimality of k we have d ď 2C, so 5d c2k ď 52C ¨ 81 “ D. Using 54 ă 103 we obtain
+5s ¨ 5d c2k ă 103s{4 D ă 10s´1
+
+for sufficiently large s. This, together with (7), shows that the sth digit from the right in yk`1,
+which is as , is zero. This contradicts the problem condition.
+
+58
+
+IMO 2013 Colombia
+
+N5.
+
+Fix an integer k ě 2. Two players, called Ana and Banana, play the following game of
+numbers: Initially, some integer n ě k gets written on the blackboard. Then they take moves
+in turn, with Ana beginning. A player making a move erases the number m just written on the
+blackboard and replaces it by some number m1 with k ď m1 ă m that is coprime to m. The first
+player who cannot move anymore loses.
+An integer n ě k is called good if Banana has a winning strategy when the initial number is n,
+and bad otherwise.
+Consider two integers n, n1 ě k with the property that each prime number p ď k divides n if
+and only if it divides n1 . Prove that either both n and n1 are good or both are bad.
+(Italy)
+Solution 1. Let us first observe that the number appearing on the blackboard decreases after
+every move; so the game necessarily ends after at most n steps, and consequently there always has
+to be some player possessing a winning strategy. So if some n ě k is bad, then Ana has a winning
+strategy in the game with starting number n.
+More precisely, if n ě k is such that there is a good integer m with n ą m ě k and
+gcdpm, nq “ 1, then n itself is bad, for Ana has the following winning strategy in the game with
+initial number n: She proceeds by first playing m and then using Banana’s strategy for the game
+with starting number m.
+Otherwise, if some integer n ě k has the property that every integer m with n ą m ě k and
+gcdpm, nq “ 1 is bad, then n is good. Indeed, if Ana can make a first move at all in the game with
+initial number n, then she leaves it in a position where the first player has a winning strategy, so
+that Banana can defeat her.
+In particular, this implies that any two good numbers have a non–trivial common divisor. Also,
+k itself is good.
+For brevity, we say that n ÝÑ x is a move if n and x are two coprime integers with n ą x ě k.
+Claim 1. If n is good and n1 is a multiple of n, then n1 is also good.
+Proof. If n1 were bad, there would have to be some move n1 ÝÑ x, where x is good. As n1 is a
+multiple of n this implies that the two good numbers n and x are coprime, which is absurd.
+l
+
+Claim 2. If r and s denote two positive integers for which rs ě k is bad, then r 2 s is also bad.
+Proof. Since rs is bad, there is a move rs ÝÑ x for some good x. Evidently x is coprime to r 2 s as
+well, and hence the move r 2 s ÝÑ x shows that r 2 s is indeed bad.
+l
+
+Claim 3. If p ą k is prime and n ě k is bad, then np is also bad.
+Proof. Otherwise we choose a counterexample with n being as small as possible. In particular, np
+is good. Since n is bad, there is a move n ÝÑ x for some good x. Now np ÝÑ x cannot be a
+valid move, which tells us that x has to be divisible by p. So we can write x “ pr y, where r and y
+denote some positive integers, the latter of which is not divisible by p.
+Note that y “ 1 is impossible, for then we would have x “ pr and the move x ÝÑ k would
+establish that x is bad. In view of this, there is a least power y α of y that is at least as large
+as k. Since the numbers np and y α are coprime and the former is good, the latter has to be
+x
+n
+bad. Moreover, the minimality of α implies y α ă ky ă py “ pr´1
+ă pr´1
+. So pr´1 ¨ y α ă n and
+consequently all the numbers y α, py α , . . . , pr ¨ y α “ pppr´1 ¨ y α q are bad due to the minimal choice
+of n. But now by Claim 1 the divisor x of pr ¨ y α cannot be good, whereby we have reached a
+contradiction that proves Claim 3.
+l
+
+Shortlisted problems – solutions
+
+59
+
+We now deduce the statement of the problem from these three claims. To this end, we call two
+integers a, b ě k similar if they are divisible by the same prime numbers not exceeding k. We are
+to prove that if a and b are similar, then either both of them are good or both are bad. As in this
+case the product ab is similar to both a and b, it suffices to show the following: if c ě k is similar
+to some of its multiples d, then either both c and d are good or both are bad.
+Assuming that this is not true in general, we choose a counterexample pc0 , d0 q with d0 being
+as small as possible. By Claim 1, c0 is bad whilst d0 is good. Plainly d0 is strictly greater than c0
+and hence the quotient dc00 has some prime factor p. Clearly p divides d0 . If p ď k, then p
+divides c0 as well due to the similarity, and hence d0 is actually divisible by p2 . So dp0 is good by
+the contrapositive of Claim 2. Since c0 | dp0 , the pair pc0 , dp0 q contradicts the supposed minimality
+of d0 . This proves p ą k, but now we get the same contradiction using Claim 3 instead of Claim 2.
+Thereby the problem is solved.
+Solution 2. We use the same analysis of the game of numbers as in the first five paragraphs of
+the first solution. Let us call a prime number p small in case p ď k and big otherwise. We again
+call two integers similar if their sets of small prime factors coincide.
+Claim 4. For each integer b ě k having some small prime factor, there exists an integer x
+similar to it with b ě x ě k and having no big prime factors.
+Proof. Unless b has a big prime factor we may simply choose x “ b. Now let p and q denote a
+small and a big prime factor of b, respectively. Let a be the product of all small prime factors
+of b. Further define n to be the least non–negative integer for which the number x “ pn a is at
+least as large as k. It suffices to show that b ą x. This is clear in case n “ 0, so let us assume
+n ą 0 from now on. Then we have x ă pk due to the minimality of n, p ď a because p divides a
+by construction, and k ă q. Therefore x ă aq and, as the right hand side is a product of distinct
+prime factors of b, this implies indeed x ă b.
+l
+
+Let us now assume that there is a pair pa, bq of similar numbers such that a is bad and b is
+good. Take such a pair with maxpa, bq being as small as possible. Since a is bad, there exists a
+move a ÝÑ r for some good r. Since the numbers k and r are both good, they have a common
+prime factor, which necessarily has to be small. Thus Claim 4 is applicable to r, which yields
+an integer r 1 similar to r containing small prime factors only and satisfying r ě r 1 ě k. Since
+maxpr, r 1 q “ r ă a ď maxpa, bq the number r 1 is also good. Now let p denote a common prime
+factor of the good numbers r 1 and b. By our construction of r 1 , this prime is small and due to
+the similarities it consequently divides a and r, contrary to a ÝÑ r being a move. Thereby the
+problem is solved.
+Comment 1. Having reached Claim 4 of Solution 2, there are various other ways to proceed. For
+instance, one may directly obtain the following fact, which seems to be interesting in its own right:
+
+Claim 5. Any two good numbers have a common small prime factor.
+Proof. Otherwise there exists a pair pb, b1 q of good numbers with b1 ě b ě k all of whose common prime
+factors are big. Choose such a pair with b1 being as small as possible. Since b and k are both good, there
+has to be a common prime factor p of b and k. Evidently p is small and thus it cannot divide b1 , which in
+turn tells us b1 ą b. Applying Claim 4 to b we get an integer x with b ě x ě k that is similar to b and has
+no big prime divisors at all. By our assumption, b1 and x are coprime, and as b1 is good this implies that
+x is bad. Consequently there has to be some move x ÝÑ b˚ such that b˚ is good. But now all the small
+prime factors of b also appear in x and thus they cannot divide b˚ . Therefore the pair pb˚ , bq contradicts
+the supposed minimality of b1 .
+l
+
+60
+
+IMO 2013 Colombia
+
+From that point, it is easy to complete the solution: assume that there are two similar integers a and b
+such that a is bad and b is good. Since a is bad, there is a move a ÝÑ b1 for some good b1 . By Claim 5,
+there is a small prime p dividing b and b1 . Due to the similarity of a and b, the prime p has to divide a
+as well, but this contradicts the fact that a ÝÑ b1 is a valid move. Thereby the problem is solved.
+Comment 2. There are infinitely many good numbers, e.g. all multiples of k. The increasing sequence
+b0 , b1 , . . . , of all good numbers may be constructed recursively as follows:
+‚ Start with b0 “ k.
+‚ If bn has just been defined for some n ě 0, then bn`1 is the smallest number b ą bn that is coprime
+to none of b0 , . . . , bn .
+This construction can be used to determine the set of good numbers for any specific k as explained in the
+next comment. It is already clear that if k “ pα is a prime power, then a number b ě k is good if and
+only if it is divisible by p.
+Comment 3. Let P ą 1 denote the product of all small prime numbers. Then any two integers a, b ě k
+that are congruent modulo P are similar. Thus the infinite word Wk “ pXk , Xk`1 , . . .q defined by
+#
+A if i is bad
+Xi “
+B if i is good
+for all i ě k is periodic and the length of its period divides P . As the prime power example shows, the
+true period can sometimes be much smaller than P . On the other hand, there are cases where the period
+is rather large; e.g., if k “ 15, the sequence of good numbers begins with 15, 18, 20, 24, 30, 36, 40, 42, 45
+and the period of W15 is 30.
+Comment 4. The original proposal contained two questions about the game of numbers, namely paq to
+show that if two numbers have the same prime factors then either both are good or both are bad, and pbq
+to show that the word Wk introduced in the previous comment is indeed periodic. The Problem Selection
+Committee thinks that the above version of the problem is somewhat easier, even though it demands to
+prove a stronger result.
+
+Shortlisted problems – solutions
+
+61
+
+N6. Determine all functions f : Q ÝÑ Z satisfying
+f
+
+ˆ
+
+f pxq ` a
+b
+
+˙
+
+“f
+
+´x ` a¯
+b
+
+for all x P Q, a P Z, and b P Zą0 . (Here, Zą0 denotes the set of positive integers.)
+
+(1)
+
+(Israel)
+
+Answer. There are three kinds of such functions, which are: all constant functions, the floor
+function, and the ceiling function.
+Solution 1. I. We start by verifying that these functions do indeed satisfy (1). This is clear for
+all constant functions. Now consider any triple px, a, bq P Q ˆ Z ˆ Zą0 and set
+Yx ` a]
+q“
+.
+b
+This means that q is an integer and bq ď x ` a ă bpq ` 1q. It follows that bq ď txu ` a ă bpq ` 1q
+holds as well, and thus we have
+^ Y
+Z
+txu ` a
+x ` a]
+“
+,
+b
+b
+meaning that the floor function does indeed satisfy (1). One can check similarly that the ceiling
+function has the same property.
+II. Let us now suppose conversely that the function f : Q ÝÑ Z satisfies (1) for all px, a, bq P
+Q ˆ Z ˆ Zą0 . According to the behaviour of the restriction of f to the integers we distinguish two
+cases.
+Case 1: There is some m P Z such that f pmq ‰ m.
+Write f pmq “ C and let η P t´1, `1u and b denote the sign and absolute value of f pmq ´ m,
+respectively. Given any integer r, we may plug the triple pm, rb ´ C, bq into (1), thus getting
+f prq “ f pr ´ ηq. Starting with m and using induction in both directions, we deduce from this that
+the equation f prq “ C holds for all integers r. Now any rational number y can be written in the
+form y “ pq with pp, qq P ZˆZą0 , and substituting pC ´p, p´C, qq into (1) we get f pyq “ f p0q “ C.
+Thus f is the constant function whose value is always C.
+Case 2: One has f pmq “ m for all integers m.
+Note that now the special case b “ 1 of (1) takes a particularly simple form, namely
+f pxq ` a “ f px ` aq
+Defining f
+
+`1˘
+2
+
+for all px, aq P Q ˆ Z.
+
+(2)
+
+“ ω we proceed in three steps.
+
+Step A. We show that ω P t0, 1u.
+`
+˘
+`1˘
+If ω ď 0, we may plug 12 , ´ω, 1 ´ 2ω into (1),
+` 1 obtaining 0 “ ˘f p0q “ f 2 “ ω. In the contrary
+case ω ě 1 we argue similarly using the triple 2 , ω ´ 1, 2ω ´ 1 .
+
+Step B. We show that f pxq “ ω for all rational numbers x with 0 ă x ă 1.
+Assume that this fails and pick some rational number ab P p0, 1q with minimal b such that f p ab q ‰ ω.
+Obviously,
+` 1 a´1 b ˘ gcdpa, bq “ 1 and b ě 2. If b is even, then a has to be odd and we can substitute
+, 2 , 2 into (1), which yields
+2
+˙
+ˆ
+´a¯
+ω ` pa ´ 1q{2
+“f
+‰ ω.
+(3)
+f
+b{2
+b
+
+62
+
+IMO 2013 Colombia
+
+Recall that 0 ď pa ´ 1q{2 ă b{2. Thus, in both cases ω “ 0 and ω “ 1, the left-hand part of (3)
+equals ω either by the minimality of b, or by f pωq “ ω. A contradiction. `
+˘
+Thus b has to be odd, so b “ 2k ` 1 for some k ě 1. Applying (1) to 12 , k, b we get
+˙
+ˆ ˙
+ˆ
+1
+ω`k
+“f
+“ ω.
+(4)
+f
+b
+2
+Since a and b are coprime, there exist integers r P t1, 2, . . . , bu and m such that ra ´ mb “ k ` ω.
+Note that we actually have 1 ď r ă b, since the right hand side is not a multiple of b. If m
+is negative, then we have ra ´ mb ą b ě k ` ω, which is absurd. Similarly, m ě r leads to
+ra ´ mb ă br ´ br “ 0, which
+impossible; so we must have 0 ď m ď r ´ 1.
+` k`ω is likewise
+˘
+We finally substitute b , m, r into (1) and use (4) to learn
+f
+
+´ω ` m¯
+r
+
+“f
+
+´a¯
+b
+
+‰ ω.
+
+But as above one may see that the left hand side has to equal ω due to the minimality of b. This
+contradiction concludes our step B.
+Step C. Now notice that if ω “ 0, then f pxq “ txu holds for all rational x with 0 ď x ă 1 and
+hence by (2) this even holds for all rational numbers x. Similarly, if ω “ 1, then f pxq “ rxs holds
+for all x P Q. Thereby the problem is solved.
+Comment 1. An alternative treatment of Steps B and C from the second case, due to the proposer,
+proceeds as follows. Let square brackets indicate the floor function in case ω “ 0 and the ceiling function
+if ω “ 1. We are to prove that f pxq “ rxs holds for all x P Q, and because of Step A and (2) we already
+know this in case 2x P Z. Applying (1) to p2x, 0, 2q we get
+ˆ
+˙
+f p2xq
+f pxq “ f
+,
+2
+and by the previous observation this yields
+
+„
+f p2xq
+f pxq “
+2
+
+for all x P Q.
+
+(5)
+
+for all px, nq P Q ˆ Zą0 .
+
+(6)
+
+An easy induction now shows
+f p2n xq
+f pxq “
+2n
+„
+
+
+
+Now suppose first that x is not an integer but can be written in the form pq with p P Z and q P Zą0 both
+being odd. Let d denote the multiplicative order of 2 modulo q and let m be any large integer. Plugging
+n “ dm into (6) and using (2) we get
+f pxq “
+
+„
+
+ „
+ „
+
+f p2dm xq
+f pxq ` p2dm ´ 1qx
+f pxq ´ x
+“
+“
+x
+`
+.
+2dm
+2dm
+2dm
+
+Since x is not an integer, the square bracket function is continuous at x; hence as m tends to infinity the
+above fomula gives f pxq “ rxs. To complete´the¯argument
+just need to observe that if some y P Q
+” ı we
+“y‰
+`y ˘
+rys
+rys
+satisfies f pyq “ rys, then (5) yields f 2 “ f 2 “ 2 “ 2 .
+
+Shortlisted problems – solutions
+
+63
+
+Solution 2. Here we just give another argument for the second case of the above solution. Again
+we use equation (2). It follows that the set S of all zeros of f contains for each x P Q exactly one
+term from the infinite sequence . . . , x ´ 2, x ´ 1, x, x ` 1, x ` 2, . . . .
+Next we claim that
+p
+P S holds as well.
+if pp, qq P Z ˆ Zą0 and pq P S, then q`1
+
+(7)
+
+`
+˘
+` p ˘
+` ˘
+To see this we just plug pq , p, q ` 1 into (1), thus getting f q`1
+“ f pq “ 0.
+From this we get that
+if x, y P Q, x ą y ą 0, and x P S, then y P S.
+
+(8)
+
+Indeed, if we write x “ pq and y “ rs with p, q, r, s P Zą0 , then ps ą qr and (7) tells us
+ˆ ˙
+ˆ
+˙
+ˆ ˙
+ˆ ˙
+ˆ ˙
+pr
+pr
+pr
+r
+p
+“f
+“f
+“ ... “ f
+“f
+.
+0“f
+q
+qr
+qr ` 1
+ps
+s
+Essentially the same argument also establishes that
+if x, y P Q, x ă y ă 0, and x P S, then y P S.
+
+(9)
+
+From (8) and (9) we get 0 P S Ď p´1, `1q and hence the real number α “ suppSq exists and
+satisfies 0 ď α ď 1.
+
+Let us assume that we actually had 0 ă α ă 1. Note that f pxq “ 0 if x P p0, αq X Q by (8),
+and f pxq “ 1 if x P pα, 1q X Q by (9) and (2). Let K denote the unique positive integer satisfying
+1`α
+, and thus there is a
+Kα ă 1 ď pK ` 1qα. The first of these two inequalities entails α ă K`1
+` 1`α ˘
+rational number x P α, K`1 . Setting y “ pK ` 1qx ´ 1 and substituting py, 1, K ` 1q into (1) we
+learn
+ˆ
+˙
+ˆ
+˙
+f pyq ` 1
+y`1
+f
+“f
+“ f pxq.
+K `1
+K `1
+
+Since α ă x ă 1 and 0 ă y ă α, this simplifies to
+f
+
+ˆ
+
+1
+K `1
+
+˙
+
+“ 1.
+
+1
+1
+But, as 0 ă K`1
+ď α, this is only possible if α “ K`1
+and f pαq “ 1. From this, however, we get
+the contradiction
+ˆ
+˙
+ˆ
+˙
+˙
+ˆ
+1
+f pαq ` 0
+α`0
+0“f
+“f
+“ f pαq “ 1.
+“f
+pK ` 1q2
+K `1
+K `1
+
+Thus our assumption 0 ă α ă 1 has turned out to be wrong and it follows that α P t0, 1u. If
+α “ 0, then we have S Ď p´1, 0s, whence S “ p´1, 0s X Q, which in turn yields f pxq “ rxs for all
+x P Q due to (2). Similarly, α “ 1 entails S “ r0, 1q X Q and f pxq “ txu for all x P Q. Thereby
+the solution is complete.
+
+64
+
+IMO 2013 Colombia
+
+Comment 2. It seems that all solutions to this problems involve some case distinction separating the
+constant solutions from the unbounded ones, though the “descriptions” of the cases may be different
+depending on the work that has been done at the beginning of the solution. For instance, these two cases
+can also be “f is periodic on the integers” and “f is not periodic on the integers”. The case leading to
+the unbounded solutions appears to be the harder one.
+In most approaches, the cases leading to the two functions x ÞÝÑ txu and x ÞÝÑ rxs can easily be
+treated parallelly, but sometimes it may be useful to know that there is some symmetry in the problem
+interchanging these two functions. Namely, if a function f : Q ÝÑ Z satisfies (1), then so does the
+function g : Q ÝÑ Z defined by gpxq “ ´f p´xq for all x P Q. For that reason, we could have restricted
+our attention to the case ω “ 0 in the first solution and, once α P t0, 1u had been obtained, to the case
+α “ 0 in the second solution.
+
+Shortlisted problems – solutions
+
+65
+
+N7.
+
+Let ν be an irrational positive number, and let m be a positive integer. A pair pa, bq of
+positive integers is called good if
+arbνs ´ btaνu “ m.
+p˚q
+
+A good pair pa, bq is called excellent if neither of the pairs pa´b, bq and pa, b´aq is good. (As usual,
+by txu and rxs we denote the integer numbers such that x ´ 1 ă txu ď x and x ď rxs ă x ` 1.)
+Prove that the number of excellent pairs is equal to the sum of the positive divisors of m.
+(U.S.A.)
+Solution. For positive integers a and b, let us denote
+f pa, bq “ arbνs ´ btaνu.
+
+We will deal with various values of m; thus it is convenient to say that a pair pa, bq is m-good or
+m-excellent if the corresponding conditions are satisfied.
+To start, let us investigate how the values f pa ` b, bq and f pa, b ` aq are related to f pa, bq. If
+taνu ` tbνu ă 1, then we have tpa ` bqνu “ taνu ` tbνu and rpa ` bqνs “ raνs ` rbνs ´ 1, so
+f pa ` b, bq “ pa ` bqrbνs ´ bptaνu ` tbνuq “ f pa, bq ` bprbνs ´ tbνuq “ f pa, bq ` b
+and
+f pa, b ` aq “ aprbνs ` raνs ´ 1q ´ pb ` aqtaνu “ f pa, bq ` apraνs ´ 1 ´ taνuq “ f pa, bq.
+Similarly, if taνu ` tbνu ě 1 then one obtains
+f pa ` b, bq “ f pa, bq and f pa, b ` aq “ f pa, bq ` a.
+So, in both cases one of the numbers f pa ` b, aq and f pa, b ` aq is equal to f pa, bq while the other
+is greater than f pa, bq by one of a and b. Thus, exactly one of the pairs pa ` b, bq and pa, b ` aq is
+excellent (for an appropriate value of m).
+Now let us say that the pairs pa ` b, bq and pa, b ` aq are the children of the pair pa, bq, while
+this pair is their parent. Next, if a pair pc, dq can be obtained from pa, bq by several passings from a
+parent to a child, we will say that pc, dq is a descendant of pa, bq, while pa, bq is an ancestor of pc, dq
+(a pair is neither an ancestor nor a descendant of itself). Thus each pair pa, bq has two children,
+it has a unique parent if a ‰ b, and no parents otherwise. Therefore, each pair of distinct positive
+integers has a unique ancestor of the form pa, aq; our aim is now to find how many m-excellent
+descendants each such pair has.
+Notice now that if a pair pa, bq is m-excellent then minta, bu ď m. Indeed, if a “ b then
+f pa, aq “ a “ m, so the statement is valid. Otherwise, the pair pa, bq is a child of some pair pa1 , b1 q. If
+b “ b1 and a “ a1 `b1 , then we should have m “ f pa, bq “ f pa1 , b1 q`b1 , so b “ b1 “ m´f pa1 , b1 q ă m.
+Similarly, if a “ a1 and b “ b1 ` a1 then a ă m.
+Let us consider the set Sm of all pairs pa, bq such that f pa, bq ď m and minta, bu ď m. Then
+all the ancestors of the elements in Sm are again in Sm , and each element in Sm either is of the
+form pa, aq with a ď m, or has a unique ancestor of this form. From the arguments above we see
+that all m-excellent pairs lie in Sm .
+We claim now that the set Sm is finite. Indeed, assume, for instance, that it contains infinitely
+many pairs pc, dq with d ą 2m. Such a pair is necessarily a child of pc, d ´ cq, and thus a descendant
+of some pair pc, d1 q with m ă d1 ď 2m. Therefore, one of the pairs pa, bq P Sm with m ă b ď 2m
+
+66
+
+IMO 2013 Colombia
+
+has infinitely many descendants in Sm , and all these descendants have the form pa, b ` kaq with k
+a positive integer. Since f pa, b ` kaq does not decrease as k grows, it becomes constant for k ě k0 ,
+where k0 is some positive integer. This means that taνu ` tpb ` kaqνu ă 1 for all k ě k0 . But this
+yields 1 ą tpb ` kaqνu “ tpb ` k0 aqνu ` pk ´ k0 qtaνu for all k ą k0 , which is absurd.
+Similarly, one can prove that Sm contains finitely many pairs pc, dq with c ą 2m, thus finitely
+many elements at all.
+We are now prepared for proving the following crucial lemma.
+Lemma. Consider any pair pa, bq with f pa, bq ‰ m. Then the number gpa, bq of its m-excellent
+descendants is equal to the number hpa, bq of ways to represent the number t “ m ´ f pa, bq as
+t “ ka ` ℓb with k and ℓ being some nonnegative integers.
+Proof. We proceed by induction on the number N of descendants of pa, bq in Sm . If N “ 0 then
+clearly gpa, bq “ 0. Assume that hpa, bq ą 0; without loss of generality, we have a ď b. Then,
+clearly, m ´ f pa, bq ě a, so f pa, b ` aq ď f pa, bq ` a ď m and a ď m, hence pa, b ` aq P Sm which
+is impossible. Thus in the base case we have gpa, bq “ hpa, bq “ 0, as desired.
+Now let N ą 0. Assume that f pa ` b, bq “ f pa, bq ` b and f pa, b ` aq “ f pa, bq (the other case
+is similar). If f pa, bq ` b ‰ m, then by the induction hypothesis we have
+gpa, bq “ gpa ` b, bq ` gpa, b ` aq “ hpa ` b, bq ` hpa, b ` aq.
+Notice that both pairs pa ` b, bq and pa, b ` aq are descendants of pa, bq and thus each of them has
+strictly less descendants in Sm than pa, bq does.
+Next, each one of the hpa ` b, bq representations of m ´ f pa ` b, bq “ m ´ b ´ f pa, bq as the sum
+1
+k pa ` bq ` ℓ1 b provides the representation m ´ f pa, bq “ ka ` ℓb with k “ k 1 ă k 1 ` ℓ1 ` 1 “ ℓ.
+Similarly, each one of the hpa, b ` aq representations of m ´ f pa, b ` aq “ m ´ f pa, bq as the sum
+k 1 a ` ℓ1 pb ` aq provides the representation m ´ f pa, bq “ ka ` ℓb with k “ k 1 ` ℓ1 ě ℓ1 “ ℓ. This
+correspondence is obviously bijective, so
+hpa, bq “ hpa ` b, bq ` hpa, b ` aq “ gpa, bq,
+as required.
+Finally, if f pa, bq`b “ m then pa`b, bq is m-excellent, so gpa, bq “ 1`gpa, b`aq “ 1`hpa, b`aq
+by the induction hypothesis. On the other hand, the number m ´ f pa, bq “ b has a representation
+0 ¨ a ` 1 ¨ b and sometimes one more representation as ka ` 0 ¨ b; this last representation exists
+simultaneously with the representation m ´ f pa, b ` aq “ ka ` 0 ¨ pb ` aq, so hpa, bq “ 1 ` hpa, b ` aq
+as well. Thus in this case the step is also proved.
+l
+Now it is easy to finish the solution. There exists a unique m-excellent pair of the form pa, aq,
+and each other m-excellent pair pa, bq has a unique ancestor of the form px, xq with x ă m. By the
+lemma, for every x ă m the number of its m-excellent descendants is hpx, xq, which is the number
+of ways to represent m ´ f px, xq “ m ´ x as kx ` ℓx (with nonnegative integer k and ℓ). This
+number is 0 if x {| m, and m{x otherwise. So the total number of excellent pairs is
+1`
+as required.
+
+ÿ
+ÿ
+m
+“1`
+d“
+d,
+x
+x|m, xăm
+d|m, dą1
+d|m
+ÿ
+
+Shortlisted problems – solutions
+
+67
+
+Comment. Let us present a sketch of an outline of a different solution. The plan is to check that the
+number of excellent pairs does not depend on the (irrational) number ν, and to find this number for some
+appropriate value of ν. For that, we first introduce some geometrical language. We deal only with the
+excellent pairs pa, bq with a ‰ b.
+
+Part I. Given an irrational positive ν, for every positive integer n we introduce two integral points Fν pnq “
+pn, tnνuq and Cν pnq “ pn, rnνsq on the coordinate plane Oxy. Then p˚q reads as rOFν paqCν pbqs “ m{2;
+here r¨s stands for the signed area. Next, we rewrite in these terms the condition on a pair pa, bq to be
+´
+excellent. Let ℓν , ℓ`
+ν , and ℓν be the lines determined by the equations y “ νx, y “ νx ` 1, and y “ νx ´ 1,
+respectively.
+a). Firstly, we deal with all excellent pairs pa, bq with a ă b. Given some value of a, all the points C such
+that rOFν paqCs “ m{2 lie on some line fν paq; if there exist any good pairs pa, bq at all, this line has to
+contain at least one integral point, which happens exactly when gcdpa, taνuq | m.
+Let Pν paq be the point of intersection of ℓ`
+ν and fν paq, and let pν paq be its abscissa; notice that pν paq
+is irrational if it is nonzero. Now, if pa, bq is good, then the point Cν pbq lies on fν paq, which means that
+the point of fν paq with abscissa b lies between ℓν and ℓ`
+ν and is integral. If in addition the pair pa, b ´ aq
+is not good, then the point of fν paq with abscissa b ´ a lies above ℓ`
+ν (see Fig. 1). Thus, the pair pa, bq
+with b ą a is excellent exactly when pν paq lies between b ´ a and b, and the point of fν paq with abscissa b
+is integral (which means that this point is Cν pbq).
+Notice now that, if pν paq ą a, then the number of excellent pairs of the form pa, bq (with b ą a) is
+gcdpa, taνuq.
+ℓν
+
+ℓ+
+ν
+C
+(b)
+C
+Cννννν(b)
+(b)
+C
+(b)
+Pν (a)
+
+Fννννν(a)
+(a)
+F
+
+ℓν
+C
+(b)
+C
+Cννννν(b)
+(b)
+C
+(b)
+
+Q
+(b)
+Q
+Qννννν(b)
+(b)
+Q
+(b)
+
+C
+(a)
+C
+Cννννν(a)
+(a)
+C
+(a)
+
+(a)
+ffννννν(a)
+
+F
+F
+Fννννν(a)
+(a)
+(a)
+
+b−a
+
+ℓ−
+ν
+
+a
+
+Figure 1
+
+b
+
+F
+F
+Fννννν(b)
+(b)
+(b)
+
+(b)
+ccννννν(b)
+
+b a−b
+
+a
+
+Figure 2
+
+b). Analogously, considering the pairs pa, bq with a ą b, we fix the value of b, introduce the line cν pbq
+containing all the points F with rOF Cν pbqs “ m{2, assume that this line contains an integral point
+(which means gcdpb, rbνsq | m), and denote the common point of cν pbq and ℓ´
+ν by Qν pbq, its abscissa
+being qν pbq. Similarly to the previous case, we obtain that the pair pa, bq is excellent exactly when qν paq
+lies between a ´ b and a, and the point of cν pbq with abscissa a is integral (see Fig. 2). Again, if qν pbq ą b,
+then the number of excellent pairs of the form pa, bq (with a ą b) is gcdpb, rbνsq.
+
+Part II, sketchy. Having obtained such a description, one may check how the number of excellent pairs
+changes as ν grows. (Having done that, one may find this number
+for
+˘ one appropriate value of ν; for
+`
+1
+instance, it is relatively easy to make this calculation for ν P 1, 1 ` m .)
+
+Consider, for the initial value of ν, some excellent pair pa, tq with a ą t. As ν grows, this pair
+eventually stops being excellent; this happens when the point Qν ptq passes through Fν paq. At the same
+moment, the pair pa ` t, tq becomes excellent instead.
+This process halts when the point Qν ptq eventually disappears, i.e. when ν passes through the ratio
+of the coordinates of the point T “ Cν ptq. Hence, the point T afterwards is regarded as Fν ptq. Thus, all
+the old excellent pairs of the form pa, tq with a ą t disappear; on the other hand, the same number of
+excellent pairs with the first element being t just appear.
+
+68
+
+IMO 2013 Colombia
+
+Similarly, if some pair pt, bq with t ă b is initially ν-excellent, then at some moment it stops being
+excellent when Pν ptq passes through Cν pbq; at the same moment, the pair pt, b´ tq becomes excellent. This
+process eventually stops when b ´ t ă t. At this moment, again the second element of the pair becomes
+fixed, and the first one starts to increase.
+These ideas can be made precise enough to show that the number of excellent pairs remains unchanged,
+as required.
+We should warn the reader that the rigorous elaboration of Part II is technically quite involved, mostly
+by the reason that the set of moments when the collection of excellent pairs changes is infinite. Especially
+much care should be applied to the limit points of this set, which are exactly the points when the line ℓν
+passes through some point of the form Cν pbq.
+
+The same ideas may be explained in an algebraic language instead of a geometrical one; the same
+technicalities remain in this way as well.
+
+

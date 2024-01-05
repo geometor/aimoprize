@@ -1,0 +1,48 @@
+28th International Mathematical Olympiad
+Havana, Cuba
+Day I
+July 10, 1987
+
+1. Let pn (k) be the number of permutations of the set {1, . . . , n}, n ≥ 1, which
+have exactly k fixed points. Prove that
+n
+X
+
+k · pn (k) = n!.
+
+k=0
+
+(Remark: A permutation f of a set S is a one-to-one mapping of S onto itself.
+An element i in S is called a fixed point of the permutation f if f (i) = i.)
+2. In an acute-angled triangle ABC the interior bisector of the angle A intersects
+BC at L and intersects the circumcircle of ABC again at N . From point L
+perpendiculars are drawn to AB and AC, the feet of these perpendiculars being
+K and M respectively. Prove that the quadrilateral AKN M and the triangle
+ABC have equal areas.
+3. Let x1 , x2 , . . . , xn be real numbers satisfying x21 + x22 + · · · + x2n = 1. Prove that
+for every integer k ≥ 2 there are integers a1 , a2 , . . . , an , not all 0, such that
+|ai | ≤ k − 1 for all i and
+√
+(k − 1) n
+.
+|a1 x1 + a1 x2 + · · · + an xn | ≤
+kn − 1
+
+28th International Mathematical Olympiad
+Havana, Cuba
+Day II
+July 11, 1987
+
+4. Prove that there is no function f from the set of non-negative integers into itself
+such that f (f (n)) = n + 1987 for every n.
+5. Let n be an integer greater than or equal to 3. Prove that there is a set of n
+points in the plane such that the distance between any two points is irrational
+and each set of three points determines a non-degenerate triangle with rational
+area.
+2
+6. Let n be an integer greater than or equal
+p to 2. Prove 2that if k + k + n is prime
+for all integers k such that 0 ≤ k ≤ n/3, then k + k + n is prime for all
+integers k such that 0 ≤ k ≤ n − 2.
+
+

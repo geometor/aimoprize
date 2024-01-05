@@ -1,0 +1,5641 @@
+Shortlisted
+Problems
+(with solutions)
+
+59th International Mathematical Olympiad
+Cluj-Napoca — Romania, 3–14 July 2018
+
+Note of Condentiality
+
+The Shortlist has to be kept stri tly ondential
+until the on lusion of the following
+International Mathemati al Olympiad.
+IMO General Regulations 6.6
+
+Contributing Countries
+The Organising Committee and the Problem Sele tion Committee of IMO 2018 thank the
+following 49 ountries for ontributing 168 problem proposals:
+Armenia,
+
+Australia,
+
+Austria,
+
+Azerbaijan,
+
+Belarus,
+
+Belgium,
+
+Bosnia and Herzegovina, Brazil, Bulgaria, Canada, China, Croatia, Cyprus,
+Cze h Republi , Denmark, Estonia, Germany, Gree e, Hong Kong, I eland,
+India, Indonesia, Iran, Ireland, Israel, Japan, Kosovo, Luxembourg, Mexi o,
+Moldova,
+
+Mongolia,
+
+Singapore,
+
+Slovakia,
+
+Netherlands,
+Slovenia,
+
+Ni aragua,
+
+South Afri a,
+
+Poland,
+
+Russia,
+
+South Korea,
+
+Serbia,
+
+Switzerland,
+
+Taiwan, Tanzania, Thailand, Turkey, Ukraine, United Kingdom, U.S.A.
+
+Problem Sele tion Committee
+
+Calin Popes u, Radu Gologan, Marian Androna he, Mihail Baluna,
+Ni olae Beli, Ilya Bogdanov, Pavel Kozhevnikov, Géza Kós, Sever Moldoveanu
+
+Shortlisted problems
+
+3
+
+Problems
+
+Algebra
+A1.
+
+Let Qą0 denote the set of all positive rational numbers. Determine all fun tions
+f : Qą0 Ñ Qą0 satisfying
+`
+˘
+f x2 f pyq2 “ f pxq2 f pyq
+for all x, y P Qą0 .
+
+(Switzerland)
+
+A2.
+
+Find all positive integers n ě 3 for whi h there exist real numbers a1 , a2 , . . . , an ,
+an`1 “ a1 , an`2 “ a2 su h that
+ai ai`1 ` 1 “ ai`2
+for all i “ 1, 2, . . . , n.
+
+(Slovakia)
+
+A3.
+
+Given any set S of positive integers, show that at least one of the following two
+assertions holds:
+ř
+ř
+(1) There exist distin t nite subsets F and G of S su h that xPF 1{x “ xPG 1{x ;
+ř
+(2) There exists a positive rational number r ă 1 su h that xPF 1{x ‰ r for all nite subsets
+F of S .
+
+(Luxembourg)
+
+A4.
+
+Let a0 , a1 , a2 , . . . be a sequen e of real numbers su h that a0 “ 0, a1 “ 1, and for
+every n ě 2 there exists 1 ď k ď n satisfying
+an´1 ` ¨ ¨ ¨ ` an´k
+.
+an “
+k
+Find the maximal possible value of a2018 ´ a2017 .
+
+A5.
+
+(Belgium)
+
+Determine all fun tions f : p0, 8q Ñ R satisfying
+ˆ
+˙
+´y¯
+1
+f pyq “ f pxyq ` f
+x`
+x
+x
+
+for all x, y ą 0.
+
+A6.
+
+su h that
+
+(South Korea)
+
+Let m, n ě 2 be integers. Let f px1 , . . . , xn q be a polynomial with real oe ients
+
+f px1 , . . . , xn q “
+
+Yx ` . . . ` x ]
+1
+
+n
+
+(
+for every x1 , . . . , xn P 0, 1, . . . , m ´ 1 .
+
+m
+Prove that the total degree of f is at least n.
+
+A7.
+
+(Brazil)
+
+Find the maximal value of
+c
+c
+c
+c
+a
+b
+c
+d
+3
+3
+3
+3
+S“
+`
+`
+`
+,
+b`7
+c`7
+d`7
+a`7
+
+where a, b, c, d are nonnegative real numbers whi h satisfy a ` b ` c ` d “ 100.
+
+(Taiwan)
+
+4
+
+Cluj-Napo a  Romania, 314 July 2018
+
+Combinatori s
+C1.
+
+Let n ě 3 be an integer. Prove that there exists a set S of 2n positive integers
+satisfying the following property: For every m “ 2, 3, . . . , n the set S an be partitioned into
+two subsets with equal sums of elements, with one of subsets of ardinality m.
+
+(I eland)
+
+C2.
+
+Queenie and Horst play a game on a 20 ˆ 20 hessboard. In the beginning the board
+is empty. In every turn, Horst pla es a bla k knight on an empty square in su h a way that his
+new knight does not atta k any previous knights. Then Queenie pla es a white queen on an
+empty square. The game gets nished when somebody annot move.
+Find the maximal positive K su h that, regardless of the strategy of Queenie, Horst an
+put at least K knights on the board.
+
+(Armenia)
+
+C3.
+
+Let n be a given positive integer. Sisyphus performs a sequen e of turns on a board
+onsisting of n ` 1 squares in a row, numbered 0 to n from left to right. Initially, n stones
+are put into square 0, and the other squares are empty. At every turn, Sisyphus hooses any
+nonempty square, say with k stones, takes one of those stones and moves it to the right by at
+most k squares (the stone should stay within the board). Sisyphus' aim is to move all n stones
+to square n.
+Prove that Sisyphus annot rea h the aim in less than
+QnU QnU QnU
+QnU
+`
+`
+` ¨¨¨`
+1
+2
+3
+n
+turns. (As usual, rxs stands for the least integer not smaller than x.)
+
+C4.
+
+(Netherlands)
+
+An anti-Pas al pyramid is a nite set of numbers, pla ed in a triangle-shaped array
+so that the rst row of the array ontains one number, the se ond row ontains two numbers,
+the third row ontains three numbers and so on; and, ex ept for the numbers in the bottom
+row, ea h number equals the absolute value of the dieren e of the two numbers below it. For
+instan e, the triangle below is an anti-Pas al pyramid with four rows, in whi h every integer
+from 1 to 1 ` 2 ` 3 ` 4 “ 10 o urs exa tly on e:
+4
+
+2 6
+5 7 1
+8 3 10 9 .
+Is it possible to form an anti-Pas al pyramid with 2018 rows, using every integer from 1 to
+1 ` 2 ` ¨ ¨ ¨ ` 2018 exa tly on e?
+
+C5.
+
+(Iran)
+
+Let k be a positive integer. The organising ommittee of a tennis tournament is to
+s hedule the mat hes for 2k players so that every two players play on e, ea h day exa tly one
+mat h is played, and ea h player arrives to the tournament site the day of his rst mat h, and
+departs the day of his last mat h. For every day a player is present on the tournament, the
+ommittee has to pay 1 oin to the hotel. The organisers want to design the s hedule so as to
+minimise the total ost of all players' stays. Determine this minimum ost.
+
+(Russia)
+
+Shortlisted problems
+
+5
+
+C6.
+
+Let a and b be distin t positive integers. The following innite pro ess takes pla e on
+an initially empty board.
+
+piq If there is at least a pair of equal numbers on the board, we hoose su h a pair and
+in rease one of its omponents by a and the other by b.
+piiq If no su h pair exists, we write down two times the number 0.
+Prove that, no matter how we make the hoi es in piq, operation piiq will be performed only
+nitely many times.
+
+C7.
+
+(Serbia)
+
+Consider 2018 pairwise rossing ir les no three of whi h are on urrent. These ir les
+subdivide the plane into regions bounded by ir ular edges that meet at verti es. Noti e that
+there are an even number of verti es on ea h ir le. Given the ir le, alternately olour the
+verti es on that ir le red and blue. In doing so for ea h ir le, every vertex is oloured twi e 
+on e for ea h of the two ir les that ross at that point. If the two olourings agree at a vertex,
+then it is assigned that olour; otherwise, it be omes yellow. Show that, if some ir le ontains
+at least 2061 yellow points, then the verti es of some region are all yellow.
+
+(India)
+
+6
+
+Cluj-Napo a  Romania, 314 July 2018
+
+Geometry
+G1.
+
+Let ABC be an a ute-angled triangle with ir um ir le Γ. Let D and E be points on
+the segments AB and AC , respe tively, su h that AD “ AE . The perpendi ular bise tors of
+Ŋ and AC
+Ŋ at points F and G respe tively.
+the segments BD and CE interse t the small ar s AB
+Prove that DE k F G.
+
+G2.
+
+(Gree e)
+
+Let ABC be a triangle with AB “ AC , and let M be the midpoint of BC . Let P be
+a point su h that P B ă P C and P A is parallel to BC . Let X and Y be points on the lines
+P B and P C , respe tively, so that B lies on the segment P X , C lies on the segment P Y , and
+=P XM “ =P Y M . Prove that the quadrilateral AP XY is y li .
+
+G3.
+
+(Australia)
+
+A ir le ω of radius 1 is given. A olle tion T of triangles is alled good, if the following
+onditions hold:
+
+piq ea h triangle from T is ins ribed in ω ;
+piiq no two triangles from T have a ommon interior point.
+Determine all positive real numbers t su h that, for ea h positive integer n, there exists a
+good olle tion of n triangles, ea h of perimeter greater than t.
+
+G4.
+
+(South Afri a)
+
+A point T is hosen inside a triangle ABC . Let A1 , B1 , and C1 be the ree tions
+of T in BC , CA, and AB , respe tively. Let Ω be the ir um ir le of the triangle A1 B1 C1 .
+The lines A1 T , B1 T , and C1 T meet Ω again at A2 , B2 , and C2 , respe tively. Prove that the
+lines AA2 , BB2 , and CC2 are on urrent on Ω.
+
+G5.
+
+(Mongolia)
+
+Let ABC be a triangle with ir um ir le ω and in entre I . A line ℓ interse ts the
+lines AI , BI , and CI at points D , E , and F , respe tively, distin t from the points A, B , C ,
+and I . The perpendi ular bise tors x, y , and z of the segments AD , BE , and CF , respe tively
+determine a triangle Θ. Show that the ir um ir le of the triangle Θ is tangent to ω .
+
+G6.
+
+(Denmark)
+
+A onvex quadrilateral ABCD satises AB ¨ CD “ BC ¨ DA. A point X is hosen
+inside the quadrilateral so that =XAB “ =XCD and =XBC “ =XDA. Prove that =AXB `
+=CXD “ 180˝.
+
+(Poland)
+
+G7. Let O be the ir um entre, and Ω be the ir um ir le of an a ute-angled triangle ABC .
+
+Let P be an arbitrary point on Ω, distin t from A, B , C , and their antipodes in Ω. Denote
+the ir um entres of the triangles AOP , BOP , and COP by OA , OB , and OC , respe tively.
+The lines ℓA , ℓB , and ℓC perpendi ular to BC , CA, and AB pass through OA , OB , and OC ,
+respe tively. Prove that the ir um ir le of the triangle formed by ℓA , ℓB , and ℓC is tangent to
+the line OP .
+
+(Russia)
+
+Shortlisted problems
+
+7
+
+Number Theory
+N1.
+
+Determine all pairs pn, kq of distin t positive integers su h that there exists a positive
+integer s for whi h the numbers of divisors of sn and of sk are equal.
+
+(Ukraine)
+
+N2.
+
+Let n ą 1 be a positive integer. Ea h ell of an n ˆ n table ontains an integer.
+Suppose that the following onditions are satised:
+
+piq Ea h number in the table is ongruent to 1 modulo n;
+piiq The sum of numbers in any row, as well as the sum of numbers in any olumn, is ongruent
+to n modulo n2 .
+Let Ri be the produ t of the numbers in the ith row, and Cj be the produ t of the numbers in
+the j th olumn. Prove that the sums R1 ` ¨ ¨ ¨ ` Rn and C1 ` ¨ ¨ ¨ ` Cn are ongruent modulo n4 .
+
+(Indonesia)
+
+N3.
+
+Dene the sequen e a0 , a1 , a2 , . . . by an “ 2n ` 2tn{2u . Prove that there are innitely
+many terms of the sequen e whi h an be expressed as a sum of (two or more) distin t terms
+of the sequen e, as well as innitely many of those whi h annot be expressed in su h a way.
+
+N4.
+
+(Serbia)
+
+Let a1 , a2 , . . ., an , . . . be a sequen e of positive integers su h that
+
+a1 a2
+an´1 an
+`
+` ¨¨¨`
+`
+a2 a3
+an
+a1
+is an integer for all n ě k , where k is some positive integer. Prove that there exists a positive
+integer m su h that an “ an`1 for all n ě m.
+
+N5.
+
+(Mongolia)
+
+Four positive integers x, y , z , and t satisfy the relations
+
+xy ´ zt “ x ` y “ z ` t.
+Is it possible that both xy and zt are perfe t squares?
+
+N6.
+
+(Russia)
+
+Let f : t1, 2, 3, . . .u Ñ t2, 3, . . .u be a fun tion su h that f pm ` nq | f pmq ` f pnq for
+all pairs m, n of positive integers. Prove that there exists a positive integer c ą 1 whi h divides
+all values of f .
+
+(Mexi o)
+
+N7.
+
+Let n ě 2018 be an integer, and let a1 , a2 , . . . , an , b1 , b2 , . . . , bn be pairwise distin t
+positive integers not ex eeding 5n. Suppose that the sequen e
+
+a1 a2
+an
+, , ...,
+b1 b2
+bn
+forms an arithmeti progression. Prove that the terms of the sequen e are equal.
+
+(Thailand)
+
+8
+
+Cluj-Napo a  Romania, 314 July 2018
+
+Shortlisted problems  solutions
+
+9
+
+Solutions
+Algebra
+A1.
+
+Let Qą0 denote the set of all positive rational numbers. Determine all fun tions
+f : Qą0 Ñ Qą0 satisfying
+`
+˘
+f x2 f pyq2 “ f pxq2 f pyq
+p˚q
+for all x, y P Qą0 .
+
+(Switzerland)
+
+Answer: f pxq “ 1 for all x P Qą0 .
+
+Solution. Take any a, b P Qą0 . By substituting x “ f paq, y “ b and x “ f pbq, y “ a into p˚q
+
+we get
+
+`
+˘2
+`
+˘
+`
+˘2
+f f paq f pbq “ f f paq2 f pbq2 “ f f pbq f paq,
+
+whi h yields
+
+`
+˘2
+`
+˘2
+f f paq
+f f pbq
+“
+f paq
+f pbq
+
+for all a, b P Qą0 .
+
+`
+˘2
+In other words, this shows that there exists a onstant C P Qą0 su h that f f paq “ Cf paq,
+or
+˜ `
+˘ ¸2
+f f paq
+f paq
+“
+for all a P Qą0 .
+(1)
+C
+C
+f pf p. . . pf pxqq . . . qq the nth iteration of f . Equality (1) yields
+Denote by f n pxq “ loooomoooon
+n
+
+f paq
+“
+C
+
+ˆ n`1 ˙2n
+ˆ 2 ˙2 ˆ 3 ˙4
+f paq
+f paq
+f paq
+“
+“ ¨¨¨ “
+C
+C
+C
+
+for all positive integer n. So, f paq{C is the 2n -th power of a rational number for all positive
+integer n. This is impossible unless f paq{C “ 1, sin e otherwise the exponent of some prime in
+the prime de omposition of f paq{C is not divisible by su iently large powers of 2. Therefore,
+f paq “ C for all a P Qą0 .
+Finally, after substituting f ” C into p˚q we get C “ C 3 , when e C “ 1. So f pxq ” 1 is the
+unique fun tion satisfying p˚q.
+
+Comment 1.
+
+There are several variations of the solution above. For instan e, one may start with
+
+2
+
+nding f p1q “ 1. To do this, let d “ f p1q. By substituting x “ y “ 1 and x “ d , y “ 1 into p˚q
+
+2
+3
+6
+2 2
+7
+we get f pd q “ d and f pd q “ f pd q ¨ d “ d . By substituting now x “ 1, y
+f pd6 q “ d2 ¨ d3 “ d5 . Therefore, d7 “ f pd6 q “ d5 , when e d “ 1.
+
+“ d2 we obtain
+
+After that, the rest of the solution simplies a bit, sin e we already know that C “
+
+f pf p1qq2
+“ 1.
+f p1q
+
+2 “ f paq, whi h yields f paq “ 1 in a similar manner.
+
+Hen e equation p1q be omes merely f pf paqq
+
+Comment 2.
+?
+e.g., f pxq “
+
+There exist non onstant fun tions f : R
+
+x.
+
+` Ñ R` satisfying p˚q for all real x, y ą 0 
+
+10
+
+Cluj-Napo a  Romania, 314 July 2018
+
+A2.
+
+Find all positive integers n ě 3 for whi h there exist real numbers a1 , a2 , . . . , an ,
+an`1 “ a1 , an`2 “ a2 su h that
+ai ai`1 ` 1 “ ai`2
+for all i “ 1, 2, . . . , n.
+
+(Slovakia)
+
+Answer: n an be any multiple of 3.
+
+For the sake of onvenien e, extend the sequen e a1 , . . . , an`2 to an innite
+periodi sequen e with period n. (n is not ne essarily the shortest period.)
+Solution 1.
+
+If n is divisible by 3, then pa1 , a2 , . . .q “ p´1, ´1, 2, ´1, ´1, 2, . . .q is an obvious solution.
+We will show that in every periodi sequen e satisfying the re urren e, ea h positive term is
+followed by two negative values, and after them the next number is positive again. From this,
+it follows that n is divisible by 3.
+If the sequen e ontains two onse utive positive numbers ai , ai`1 , then ai`2 “ ai ai`1 `1 ą 1,
+so the next value is positive as well; by indu tion, all numbers are positive and greater than 1.
+But then ai`2 “ ai ai`1 ` 1 ě 1 ¨ ai`1 ` 1 ą ai`1 for every index i, whi h is impossible: our
+sequen e is periodi , so it annot in rease everywhere.
+If the number 0 o urs in the sequen e, ai “ 0 for some index i, then it follows that
+ai`1 “ ai´1 ai ` 1 and ai`2 “ ai ai`1 ` 1 are two onse utive positive elements in the sequen es
+and we get the same ontradi tion again.
+Noti e that after any two onse utive negative numbers the next one must be positive: if
+ai ă 0 and ai`1 ă 0, then ai`2 “ a1 ai`1 ` 1 ą 1 ą 0. Hen e, the positive and negative numbers
+follow ea h other in su h a way that ea h positive term is followed by one or two negative values
+and then omes the next positive term.
+Consider the ase when the positive and negative values alternate. So, if ai is a negative
+value then ai`1 is positive, ai`2 is negative and ai`3 is positive again.
+Noti e that ai ai`1 ` 1 “ ai`2 ă 0 ă ai`3 “ ai`1 ai`2 ` 1; by ai`1 ą 0 we on lude ai ă ai`2 .
+Hen e, the negative values form an innite in reasing subsequen e, ai ă ai`2 ă ai`4 ă . . .,
+whi h is not possible, be ause the sequen e is periodi .
+The only ase left is when there are onse utive negative numbers in the sequen e. Suppose
+that ai and ai`1 are negative; then ai`2 “ ai ai`1 ` 1 ą 1. The number ai`3 must be negative.
+We show that ai`4 also must be negative.
+Noti e that ai`3 is negative and ai`4 “ ai`2 ai`3 ` 1 ă 1 ă ai ai`1 ` 1 “ ai`2 , so
+
+ai`5 ´ ai`4 “ pai`3 ai`4 ` 1q ´ pai`2 ai`3 ` 1q “ ai`3 pai`4 ´ ai`2 q ą 0,
+therefore ai`5 ą ai`4 . Sin e at most one of ai`4 and ai`5 an be positive, that means that ai`4
+must be negative.
+Now ai`3 and ai`4 are negative and ai`5 is positive; so after two negative and a positive
+terms, the next three terms repeat the same pattern. That ompletes the solution.
+Solution 2. We prove that the shortest period of the sequen e must be 3. Then it follows
+that n must be divisible by 3.
+Noti e that the equation x2 ` 1 “ x has no real root, so the numbers a1 , . . . , an annot be
+all equal, hen e the shortest period of the sequen e annot be 1.
+
+By applying the re urren e relation for i and i ` 1,
+
+pai`2 ´ 1qai`2 “ ai ai`1 ai`2 “ ai pai`3 ´ 1q,
+a2i`2 ´ ai ai`3 “ ai`2 ´ ai .
+
+so
+
+Shortlisted problems  solutions
+
+11
+
+By summing over i “ 1, 2, . . . , n, we get
+n
+ÿ
+
+pai ´ ai`3 q2 “ 0.
+
+i“1
+
+That proves that ai “ ai`3 for every index i, so the sequen e a1 , a2 , . . . is indeed periodi with
+period 3. The shortest period annot be 1, so it must be 3; therefore, n is divisible by 3.
+
+Comment. By solving the system of equations ab ` 1 “ c,
+
+bc ` 1 “ a,
+
+ca ` 1 “ b, it
+
+that the pattern p´1, ´1, 2q is repeated in all sequen es satisfying the problem
+
+onditions.
+
+an be seen
+
+12
+
+Cluj-Napo a  Romania, 314 July 2018
+
+A3.
+
+Given any set S of positive integers, show that at least one of the following two
+assertions holds:
+(1) There exist distin t nite subsets F and G of S su h that
+(2) There exists a positive rational number r ă 1 su h that
+
+F of S .
+
+ř
+
+ř
+
+xPF 1{x “
+
+ř
+
+xPG 1{x ;
+
+xPF 1{x ‰ r for all nite subsets
+
+(Luxembourg)
+Solution 1. Argue indire tly. Agree, as usual, that the empty sum is 0 to onsider rationals
+
+ř
+in r0, 1q; adjoining 0 auses no harm, sin e xPF 1{x “ 0 for no nonempty nite ř
+subset F of S .
+For every rational r in r0, 1q, let Fr be the unique nite subset of S su h that xPFr 1{x “ r .
+The argument hinges on the lemma below.
+Lemma. If x is a member of S and q and r are rationals in r0, 1q su h that q ´ r “ 1{x, then x
+is a member of Fq if and only if it is not one of Fr .
+Proof. If x is a member of Fq , then
+ÿ 1 1
+ÿ 1
+1
+1
+“
+´ “q´ “r“
+,
+y
+y
+x
+x
+y
+yPF
+yPF
+yPF rtxu
+ÿ
+q
+
+q
+
+r
+
+so Fr “ Fq r txu, and x is not a member of Fr . Conversely, if x is not a member of Fr , then
+
+ÿ 1 1
+ÿ 1
+1
+1
+“
+` “r` “q“
+,
+y yPF y x
+x
+y
+yPF
+yPF Ytxu
+ÿ
+r
+
+r
+
+q
+
+so Fq “ Fr Y txu, and x is a member of Fq .
+l
+Consider now an element x of S and a positive rational r ă 1. Let n “ trxu and onsider
+the sets Fr´k{x , k “ 0, . . . , n. Sin e 0 ď r ´ n{x ă 1{x, the set Fr´n{x does not ontain x, and
+a repeated appli ation of the lemma shows that the Fr´pn´2kq{x do not ontain x, whereas the
+Fr´pn´2k´1q{x do. Consequently, x is a member of Fr if and only if n is odd.
+Finally, onsider F2{3 . By the pre eding, t2x{3u is odd for ea h x in F2{3 , so 2x{3 is not
+integral. Sin e F2{3 is nite, there exists a positive rational ε su h that tp2{3 ´ εqxu “ t2x{3u
+for all x in F2{3 . This implies that F2{3 is a subset of F2{3´ε whi h is impossible.
+
+Comment. The solution above an be adapted to show that the problem statement still holds, if the
+ondition r ă 1 in (2) is repla ed with r ă δ , for an arbitrary positive δ . This yields that, if S does not
+ř
+satisfy (1), then there exist innitely many positive rational numbers r ă 1 su h that
+xPF 1{x ‰ r
+
+for all nite subsets F of S .
+
+A nite S learly satises (2), so let S be innite. If S fails both onditions,
+so does S r t1u. We may and will therefore assume that S onsists of integers greater than 1.
+Label the elements of S in reasingly x1 ă x2 ă ¨ ¨ ¨ , where x1 ě 2.
+We rst show that S satises (2) if xn`1 ě 2xn for all n. In this ase, xn ě 2n´1 x1 for
+all n, so
+ÿ
+ÿ 1
+2
+1
+ď
+“
+.
+s“
+n´1 x
+x
+2
+x
+n
+1
+1
+ně1
+ně1
+ř
+If x1 ě 3, or x1 “ 2 and xn`1 ą 2xn for some n, then xPF 1{x ă s ă 1 for every nite subset
+n
+F of S , so S satises (2); and if x1 “ 2 and xn`1 “ 2xř
+n for all n, that is, xn “ 2 for all n, then
+every nite subset F of S onsists of powers of 2, so xPF 1{x ‰ 1{3 and again S satises (2).
+Finally, we deal with the ase where
+ř xn`1 ă 2xn for some n. Consider the positive rational
+r “ 1{xn ´ 1{xn`1 ă 1{xn`1 . If r “ xPF 1{x for no nite subset F of S , then S satises (2).
+Solution 2.
+
+Shortlisted problems  solutions
+
+13
+
+ř
+We now
+ř assume that r “ xPF0 1{x for some nite subset F0 of S , and show that S satises (1).
+Sin e xPF0 1{x “ r ă 1{xn`1 , it follows that xn`1 is not a member of F0 , so
+ÿ
+
+xPF0 Ytxn`1
+
+ÿ 1
+1
+1
+1
+1
+“
+`
+“r`
+“
+.
+x xPF x xn`1
+xn`1
+xn
+u
+0
+
+Consequently,
+ř
+ř F “ F0 Y txn`1 u and G “ txn u are distin t nite subsets of S su h that
+1{x
+“
+xPF
+xPG 1{x, and S satises (1).
+
+14
+
+Cluj-Napo a  Romania, 314 July 2018
+
+A4. Let a , a , a , . . . be a sequen e of real numbers su h that a “ 0, a “ 1, and for every
+0
+
+1
+
+2
+
+n ě 2 there exists 1 ď k ď n satisfying
+
+an “
+
+0
+
+1
+
+an´1 ` ¨ ¨ ¨ ` an´k
+.
+k
+
+Find the maximal possible value of a2018 ´ a2017 .
+
+(Belgium)
+
+2016
+Answer: The maximal value is 2017
+2.
+
+Solution 1. The laimed maximal value is a hieved at
+
+a2016 ` ¨ ¨ ¨ ` a0
+1
+“1´
+,
+2017
+2017
+1
+a2017 ` ¨ ¨ ¨ ` a1
+“1´
+.
+a2018 “
+2017
+20172
+
+a1 “ a2 “ ¨ ¨ ¨ “ a2016 “ 1,
+
+a2017 “
+
+Now we need to show that this value is optimal. For brevity, we use the notation
+
+Spn, kq “ an´1 ` an´2 ` ¨ ¨ ¨ ` an´k
+
+for nonnegative integers k ď n.
+
+In parti ular, Spn, 0q “ 0 and Spn, 1q “ an´1 . In these terms, for every integer n ě 2 there
+exists a positive integer k ď n su h that an “ Spn, kq{k .
+For every integer n ě 1 we dene
+
+Spn, kq
+,
+1ďkďn
+k
+
+Mn “ max
+
+Spn, kq
+,
+1ďkďn
+k
+
+mn “ min
+
+and
+
+∆n “ Mn ´ mn ě 0.
+
+By denition, an P rmn , Mn s for all n ě 2; on the other hand, an´1 “ Spn, 1q{1 P rmn , Mn s.
+Therefore,
+a2018 ´ a2017 ď M2018 ´ m2018 “ ∆2018 ,
+and we are interested in an upper bound for ∆2018 .
+Also by denition, for any 0 ă k ď n we have kmn ď Spn, kq ď kMn ; noti e that these
+inequalities are also valid for k “ 0.
+∆n´1 .
+Claim 1. For every n ą 2, we have ∆n ď n´1
+n
+Proof. Choose positive integers k, ℓ ď n su h that Mn “ Spn, kq{k and mn “ Spn, ℓq{ℓ. We
+have Spn, kq “ an´1 ` Spn ´ 1, k ´ 1q, so
+
+kpMn ´ an´1 q “ Spn, kq ´ kan´1 “ Spn ´ 1, k ´ 1q ´ pk ´ 1qan´1 ď pk ´ 1qpMn´1 ´ an´1 q,
+sin e Spn ´ 1, k ´ 1q ď pk ´ 1qMn´1 . Similarly, we get
+
+ℓpan´1 ´ mn q “ pℓ ´ 1qan´1 ´ Spn ´ 1, ℓ ´ 1q ď pℓ ´ 1qpan´1 ´ mn´1 q.
+Sin e mn´1 ď an´1 ď Mn´1 and k, ℓ ď n, the obtained inequalities yield
+
+n´1
+k´1
+pMn´1 ´ an´1 q ď
+pMn´1 ´ an´1 q and
+k
+n
+ℓ´1
+n´1
+an´1 ´ mn ď
+pan´1 ´ mn´1 q ď
+pan´1 ´ mn´1 q.
+ℓ
+n
+
+Mn ´ an´1 ď
+
+Therefore,
+
+∆n “ pMn ´ an´1 q ` pan´1 ´ mn q ď
+
+˘ n´1
+n ´ 1`
+pMn´1 ´ an´1 q ` pan´1 ´ mn´1 q “
+∆n´1 . l
+n
+n
+
+Shortlisted problems  solutions
+
+15
+
+Ba k to the problem, if an “ 1 for all n ď 2017, then a2018 ď 1 and hen e a2018 ´ a2017 ď 0.
+Otherwise, let 2 ď q ď 2017 be the minimal index with aq ă 1. We have Spq, iq “ i for all
+i “ 1, 2, . . . , q ´ 1, while Spq, qq “ q ´ 1. Therefore, aq ă 1 yields aq “ Spq, qq{q “ 1 ´ 1q .
+Now we have Spq ` 1, iq “ i ´ 1q for i “ 1, 2, . . . , q , and Spq ` 1, q ` 1q “ q ´ 1q . This gives us
+
+mq`1 “
+
+Spq ` 1, 1q
+Spq ` 1, q ` 1q
+q´1
+“
+“
+1
+q`1
+q
+
+and Mq`1 “
+
+Spq ` 1, qq
+q2 ´ 1
+“
+,
+q
+q2
+
+so ∆q`1 “ Mq`1 ´ mq`1 “ pq ´ 1q{q 2 . Denoting N “ 2017 ě q and using Claim 1 for
+n “ q ` 2, q ` 3, . . . , N ` 1 we nally obtain
+ˆ
+ˆ
+˙
+˙
+1
+1
+N
+1
+1
+N ´1
+q´1 q`1 q`2
+1´ 2 ď
+1´ 2 “
+¨
+¨¨¨
+“
+,
+∆N `1 ď 2 ¨
+q
+q`2 q`3
+N `1
+N `1
+q
+N `1
+N
+N2
+as required.
+
+Comment 1.
+
+One may
+
+he k that the maximal value of a2018 ´ a2017 is attained at the unique
+
+sequen e, whi h is presented in the solution above.
+
+Comment 2. An easier question would be to determine the maximal value of |a2018 ´ a2017 |. In this
+
+version, the answer
+
+1
+2018 is a hieved at
+
+a1 “ a2 “ ¨ ¨ ¨ “ a2017 “ 1,
+
+a2018 “
+
+a2017 ` ¨ ¨ ¨ ` a0
+1
+“1´
+.
+2018
+2018
+
+To prove that this value is optimal, it su es to noti e that ∆2 “
+
+|a2018 ´ a2017 | ď ∆2018 ď
+
+1
+2 and to apply Claim 1 obtaining
+
+1 2
+2017
+1
+¨ ¨¨¨
+“
+.
+2 3
+2018
+2018
+
+2016
+We present a dierent proof of the estimate a2018 ´ a2017 ď 2017
+2 . We keep the
+same notations of Spn, kq, mn and Mn from the previous solution.
+Noti e that Spn, nq “ Spn, n ´ 1q, as a0 “ 0. Also noti e that for 0 ď k ď ℓ ď n we have
+Spn, ℓq “ Spn, kq ` Spn ´ k, ℓ ´ kq.
+Claim 2. For every positive integer n, we have mn ď mn`1 and Mn`1 ď Mn , so the segment
+rmn`1 , Mn`1 s is ontained in rmn , Mn s.
+Proof. Choose a positive integer k ď n ` 1 su h that mn`1 “ Spn ` 1, kq{k. Then we have
+
+Solution 2.
+
+kmn`1 “ Spn ` 1, kq “ an ` Spn, k ´ 1q ě mn ` pk ´ 1qmn “ kmn ,
+whi h establishes the rst inequality in the Claim. The proof of the se ond inequality is
+similar.
+l
+
+Claim 3. For every positive integers k ě n, we have mn ď ak ď Mn .
+Proof. By Claim 2, we have rmk , Mk s Ď rmk´1 , Mk´1 s Ď ¨ ¨ ¨ Ď rmn , Mn s. Sin e ak P rmk , Mk s,
+the laim follows.
+
+l
+
+16
+
+Cluj-Napo a  Romania, 314 July 2018
+
+Claim 4. For every integer n ě 2, we have Mn “ Spn, n ´ 1q{pn ´ 1q and mn “ Spn, nq{n.
+Proof. We use indu tion on n. The base ase n “ 2 is routine. To perform the indu tion step,
+we need to prove the inequalities
+
+Spn, nq
+Spn, kq
+ď
+n
+k
+
+and
+
+Spn, kq
+Spn, n ´ 1q
+ď
+k
+n´1
+
+(1)
+
+for every positive integer k ď n. Clearly, these inequalities hold for k “ n and k “ n ´ 1, as
+Spn, nq “ Spn, n ´ 1q ą 0. In the sequel, we assume that k ă n ´ 1. `
+˘
+Now the rst inequality in (1) rewrites as nSpn, kq ě kSpn, nq “ k Spn, kq`Spn´k, n´kq ,
+or, an elling the terms o urring on both parts, as
+
+Spn ´ k, n ´ kq
+.
+n´k
+By the indu tion hypothesis, we have Spn ´ k, n ´ kq{pn ´ kq “ mn´k . By Claim 3, we get
+an´i ě mn´k for all i “ 1, 2, . . . , k . Summing these k inequalities we obtain
+pn ´ kqSpn, kq ě kSpn ´ k, n ´ kq ðñ Spn, kq ě k ¨
+
+Spn, kq ě kmn´k “ k ¨
+
+Spn ´ k, n ´ kq
+,
+n´k
+
+as required.
+The se ond inequality in (1) is proved similarly. Indeed, this inequality is equivalent to
+
+pn ´ 1qSpn, kq ď kSpn, n ´ 1q ðñ pn ´ k ´ 1qSpn, kq ď kSpn ´ k, n ´ k ´ 1q
+Spn ´ k, n ´ k ´ 1q
+ðñ Spn, kq ď k ¨
+“ kMn´k ;
+n´k´1
+the last inequality follows again from Claim 3, as ea h term in Spn, kq is at most Mn´k .
+Now we an prove the required estimate for a2018 ´ a2017 . Set N “ 2017. By Claim 4,
+
+aN `1 ´ aN ď MN `1 ´ aN “
+
+l
+
+aN ` SpN, N ´ 1q
+SpN ` 1, Nq
+´ aN “
+´ aN
+N
+N
+SpN, N ´ 1q N ´ 1
+“
+´
+¨ aN .
+N
+N
+
+On the other hand, the same Claim yields
+
+aN ě mN “
+
+SpN, N ´ 1q
+SpN, Nq
+“
+.
+N
+N
+
+Noti ing that ea h term in SpN, N ´ 1q is at most 1, so SpN, N ´ 1q ď N ´ 1, we nally obtain
+
+aN `1 ´ aN ď
+
+SpN, N ´ 1q
+N ´1
+SpN, N ´ 1q N ´ 1 SpN, N ´ 1q
+´
+¨
+“
+ď
+.
+2
+N
+N
+N
+N
+N2
+
+Comment 1. Claim 1 in Solution 1 an be dedu ed from Claims 2 and 4 in Solution 2.
+By Claim 4 we have Mn “
+
+Spn,n´1q
+Spn,nq
+and mn “
+. It follows that ∆n “ Mn ´ mn “
+“ Spn,n´1q
+n´1
+n
+n
+
+Spn,n´1q
+pn´1qn and so Mn “ n∆n and mn “ pn ´ 1q∆n
+
+Similarly, Mn´1 “ pn ´ 1q∆n´1 and mn´1 “ pn ´ 2q∆n´1 . Then the inequalities mn´1 ď mn and
+Mn ď Mn´1 from Claim 2 write as pn ´ 2q∆n´1 ď pn ´ 1q∆n and n∆n ď pn ´ 1q∆n´1 . Hen e we have
+the double inequality
+
+n´1
+n´2
+∆n´1 ď ∆n ď
+∆n´1 .
+n´1
+n
+
+Shortlisted problems  solutions
+
+Comment 2.
+problem
+
+17
+
+Both solutions above dis uss the properties of an arbitrary sequen e satisfying the
+
+onditions. Instead, one may investigate only an
+
+of a2018 ´ a2017 .
+
+optimal sequen e whi h maximises the value
+
+Here we present an observation whi h allows to simplify su h investigation  for
+
+instan e, the proofs of Claim 1 in Solution 1 and Claim 4 in Solution 2.
+The sequen e pan q is uniquely determined by
+
+su h that an
+
+“ Spn, kpnqq{kpnq.
+
+hoosing, for every n ě 2, a positive integer kpnq ď n
+
+Take an arbitrary 2 ď n0 ď 2018, and assume that all su h inte-
+
+gers kpnq, for n ‰ n0 , are xed. Then, for every n, the value of an is a linear fun tion in an0 (whose
+possible values
+
+onstitute some dis rete subset of
+
+rmn0 , Mn0 s
+
+ontaining both endpoints).
+
+Hen e,
+
+a2018 ´ a2017 is also a linear fun tion in an0 , so it attains its maximal value at one of the endpoints of
+the segment rmn0 , Mn0 s.
+This shows that, while dealing with an optimal sequen e, we may assume an P tmn , Mn u for all
+`nMn
+2 ď n ď 2018. Now one an easily see that, if an “ mn , then mn`1 “ mn and Mn`1 ď mnn`1
+; similar
+estimates hold in the ase an “ Mn . This already establishes Claim 1, and simplies the indu tive
+proof of Claim 4, both applied to an optimal sequen e.
+
+18
+
+A5.
+
+Cluj-Napo a  Romania, 314 July 2018
+Determine all fun tions f : p0, 8q Ñ R satisfying
+ˆ
+˙
+´y¯
+1
+x`
+f pyq “ f pxyq ` f
+x
+x
+
+for all x, y ą 0.
+
+p1q
+
+(South Korea)
+
+C2
+with arbitrary onstants C1 and C2 .
+x
+Solution 1. Fix a real number a ą 1, and take a new variable t. For the values f ptq, f pt2 q,
+f patq and f pa2 t2 q, the relation (1) provides a system of linear equations:
+˙
+ˆ
+1
+f ptq
+“ f pt2 q ` f p1q
+x “ y “ t:
+t`
+(2a)
+t
+˙
+ˆ
+t
+t a
+x “ , y “ at :
+(2b)
+f patq
+“ f pt2 q ` f pa2 q
+`
+a
+a
+t
+˙
+ˆ ˙
+ˆ
+1
+1
+x “ a2 t, y “ t :
+a2 t ` 2 f ptq “ f pa2 t2 q ` f
+(2 )
+a ˙t
+a2
+ˆ
+1
+f patq “ f pa2 t2 q ` f p1q
+x “ y “ at :
+at `
+(2d)
+at
+Answer: f pxq “ C1 x `
+
+In order to eliminate f pt2 q, take the dieren e of (2a) and (2b); from (2 ) and (2d) eliminate
+f pa2 t2 q; then by taking a linear ombination, eliminate f patq as well:
+ˆ
+˙
+ˆ
+˙
+1
+t a
+t`
+f ptq ´
+f patq “ f p1q ´ f pa2 q and
+`
+t
+a t
+ˆ
+˙
+ˆ
+˙
+1
+1
+2
+a t ` 2 f ptq ´ at `
+f patq “ f p1{a2 q ´ f p1q, so
+at
+at
+˜ˆ
+˙ˆ
+˙ ˆ
+˙ˆ
+˙¸
+1
+1
+1
+t a
+at `
+t`
+´
+a2 t ` 2
+f ptq
+`
+at
+t
+a t
+at
+ˆ
+˙
+˙
+ˆ
+˘
+˘
+1 `
+t a `
+2
+“ at `
+f p1q ´ f pa q ´
+`
+f p1{a2 q ´ f p1q .
+at
+a t
+Noti e that on the left-hand side, the oe ient of f ptq is nonzero and does not depend on t:
+ˆ
+˙ˆ
+˙ ˆ
+˙ˆ
+˙
+˙
+ˆ
+1
+1
+1
+1
+1
+t a
+2
+3
+at `
+t`
+´
+a t` 2
+“ a ` ´ a ` 3 ă 0.
+`
+at
+t
+a t
+at
+a
+a
+After dividing by this xed number, we get
+
+f ptq “ C1 t `
+
+C2
+t
+
+p3q
+
+where the numbers C1 and C2 are expressed in terms of a, f p1q, f pa2 q and f p1{a2 q, and they
+do not depend on t.
+The fun tions of the form (3) satisfy the equation:
+ˆ
+˙
+ˆ
+˙ˆ
+˙ ˆ
+˙ ˆ
+˙
+´y¯
+1
+1
+C2
+C2
+y
+x
+x`
+f pyq “ x `
+C1 y `
+“ C1 xy `
+` C1 ` C2
+“ f pxyq ` f
+.
+x
+x
+y
+xy
+x
+y
+x
+
+Shortlisted problems  solutions
+
+19
+
+Solution 2. We start with an observation. If we substitute x “ a ‰ 1 and y “ an in (1), we
+
+obtain
+
+n`1
+
+f pa
+
+˙
+ˆ
+1
+f pan q ` f pan´1 q “ 0.
+q´ a`
+a
+
+For the sequen e zn “ an , this is`a homogeneous
+linear re urren e of the se ond order, and its
+˘
+hara teristi polynomial is t2 ´ a ` a1 t ` 1 “ pt ´ aqpt ´ a1 q with two distin t nonzero roots,
+namely a and 1{a. As is well-known, the general solution is zn “ C1 an ` C2 p1{aqn where the
+index n an be as well positive as negative. Of ourse, the numbers C1 and C2 may depend of
+the hoi e of a, so in fa t we have two fun tions, C1 and C2 , su h that
+
+f pan q “ C1 paq ¨ an `
+
+C2 paq
+an
+
+for every a ‰ 1 and every integer n.
+
+p4q
+
+The relation (4) an be easily extended to rational values of n, so we may onje ture that C1
+and C2 are onstants, and when e f ptq “ C1 t ` Ct2 . As it was seen in the previous solution,
+su h fun tions indeed satisfy (1).
+The equation (1) is linear in f ; so if some fun tions f1 and f2 satisfy (1) and c1 , c2 are real
+numbers, then c1 f1 pxq ` c2 f2 pxq is also a solution of (1). In order to make our formulas simpler,
+dene
+f0 pxq “ f pxq ´ f p1q ¨ x.
+This fun tion is another one satisfying (1) and the extra onstraint f0 p1q “ 0. Repeating the
+same argument on linear re urren es, we an write f0 paq “ Kpaqan ` Lpaq
+with some fun tions
+an
+K and L. By substituting n “ 0, we an see that Kpaq ` Lpaq “ f0 p1q “ 0 for every a. Hen e,
+˙
+ˆ
+1
+n
+n
+f0 pa q “ Kpaq a ´ n .
+a
+
+Now take two numbers a ą b ą 1 arbitrarily and substitute x “ pa{bqn and y “ pabqn in (1):
+ˆ n
+˙
+`
+˘
+` ˘
+` ˘
+bn
+a
+` n f0 pabqn “ f0 a2n ` f0 b2n , so
+n
+b
+a
+ˆ n
+˙
+ˆ
+˙
+ˆ
+˙
+ˆ
+˙
+n
+1
+1
+1
+a
+b
+n
+2n
+2n
+Kpabq pabq ´
+“ Kpaq a ´ 2n ` Kpbq b ´ 2n , or equivalently
+`
+bn an
+pabqn
+a
+b
+˙
+ˆ
+˙
+ˆ
+˙
+ˆ
+1
+1
+1
+1
+2n
+2n
+2n
+2n
+Kpabq a ´ 2n ` b ´ 2n “ Kpaq a ´ 2n ` Kpbq b ´ 2n .
+(5)
+a
+b
+a
+b
+By dividing (5) by a2n and then taking limit with n Ñ `8 we get Kpabq “ Kpaq. Then (5)
+redu es to Kpaq “ Kpbq. Hen e, Kpaq “ Kpbq for all a ą b ą 1.
+Fix a ą 1. For every x ą 0 there is some b and an integer n su h that 1 ă b ă a and x “ bn .
+Then
+˙
+˙
+ˆ
+ˆ
+1
+1
+n
+n
+.
+f0 pxq “ f0 pb q “ Kpbq b ´ n “ Kpaq x ´
+b
+x
+
+Hen e, we have f pxq “ f0 pxq ` f p1qx “ C1 x ` Cx2 with C1 “ Kpaq ` f p1q and C2 “ ´Kpaq.
+
+Comment. After establishing (5), there are several variants of nishing the solution. For example,
+instead of taking a limit, we
+
+an obtain a system of linear equations for Kpaq, Kpbq and Kpabq by
+
+substituting two positive integers n in (5), say n “ 1 and n “ 2.
+
+ending as in the rst solution.
+
+Optionally, we dene another fun tion
+another xed c. Then we
+
+an
+
+This approa h leads to a similar
+
+`
+˘
+f1 pxq “ f0 pxq ´ C x ´ x1 and pres ribe Kpcq “ 0 for
+
+hoose ab “ c and de rease the number of terms in (5).
+
+20
+
+Cluj-Napo a  Romania, 314 July 2018
+
+A6. Let m, n ě 2 be integers. Let f px , . . . , x q be a polynomial with real oe ients su h
+n
+
+1
+
+that
+
+f px1 , . . . , xn q “
+
+Yx ` . . . ` x ]
+1
+
+n
+
+(
+for every x1 , . . . , xn P 0, 1, . . . , m ´ 1 .
+
+m
+Prove that the total degree of f is at least n.
+
+(Brazil)
+
+Solution. We transform the problem to a single variable question by the following
+
+Lemma. Let a1 , . . . , an be nonnegative integers and let Gpxq be a nonzero polynomial with
+deg G ď a1 ` . . . ` an . Suppose that some polynomial F px1 , . . . , xn q satises
+
+F px1 , . . . , xn q “ Gpx1 ` . . . ` xn q for px1 , . . . , xn q P t0, 1, . . . , a1 u ˆ . . . ˆ t0, 1, . . . , an u.
+Then F annot be the zero polynomial, and deg F ě deg G.
+
+For proving the lemma, we will use forward dieren es of polynomials. If ppxq is a polynomial with a single variable, then dene p∆pqpxq “ ppx ` 1q ´ ppxq. It is well-known that if p is
+a non onstant polynomial then deg ∆p “ deg p ´ 1.
+If ppx1 , . . . , xn q is a polynomial with n variables and 1 ď k ď n then let
+
+p∆k pqpx1 , . . . , xn q “ ppx1 , . . . , xk´1 , xk ` 1, xk`1, . . . , xn q ´ ppx1 , . . . , xn q.
+It is also well-known that either ∆k p is the zero polynomial or degp∆k pq ď deg p ´ 1.
+
+Proof of the lemma. We apply indu tion on the degree of G. If G is a onstant polynomial
+
+then we have F p0, . . . , 0q “ Gp0q ‰ 0, so F annot be the zero polynomial.
+Suppose that deg G ě 1 and the lemma holds true for lower degrees. Sin e a1 ` . . . ` an ě
+deg G ą 0, at least one of a1 , . . . , an is positive; without loss of generality suppose a1 ě 1.
+Consider the polynomials F1 “ ∆1 F and G1 “ ∆G. On the grid t0, . . . , a1 ´1uˆt0, . . . , a2 uˆ
+. . . ˆ t0, . . . , an u we have
+
+F1 px1 , . . . , xn q “ F px1 ` 1, x2 , . . . , xn q ´ F px1 , x2 , . . . , xn q “
+“ Gpx1 ` . . . ` xn ` 1q ´ Gpx1 ` . . . ` xn q “ G1 px1 ` . . . ` xn q.
+Sin e G is non onstant, we have deg G1 “ deg G ´ 1 ď pa1 ´ 1q ` a2 ` . . . ` an . Therefore we an
+apply the indu tion hypothesis to F1 and G1 and on lude that F1 is not the zero polynomial
+and deg F1 ě deg G1 . Hen e, deg F ě deg F1 ` 1 ě deg G1 ` 1 “ deg G. That nishes the
+proof.
+l
+Xx\
+To prove the problem
+( statement, take the unique polynomial gpxq so that gpxq “ m for
+x P 0, 1, . . . , npm ´ 1q and deg g ď npm ´ 1q. Noti e that pre isely npm ´ 1q ` 1 values
+of g are pres ribed, so gpxq indeed exists and is unique. Noti e further that the onstraints
+gp0q “ gp1q “ 0 and gpmq “ 1 together enfor e deg g ě 2.
+By applying the lemma to a1 “ . . . “ an “ m ´ 1 and the polynomials f and g , we a hieve
+deg f ě deg g . Hen e we just need a suitable lower bound on deg g .
+Consider the polynomial hpxq “ gpx ` mq ´ gpxq ´ 1. The degree of gpx ` mq ´ gpxq is
+deg g ´ 1 ě 1, so deg h “ deg g ´ 1 ě 1, and therefore h annot be the zero polynomial. On the
+other hand, h vanishes at the points 0, 1, . . . , npm ´ 1q ´ m, so h has at least pn ´ 1qpm ´ 1q
+roots. Hen e,
+deg f ě deg g “ deg h ` 1 ě pn ´ 1qpm ´ 1q ` 1 ě n.
+
+Shortlisted problems  solutions
+
+Comment 1.
+
+21
+
+In the lemma we have equality for the
+
+hoi e F px1 , . . . , xn q “ Gpx1 ` . . . ` xn q, so it
+
+indeed transforms the problem to an equivalent single-variable question.
+
+Comment 2. If m ě 3, the polynomial hpxq an be repla ed by ∆g. Noti e that
+#
+1
+p∆gqpxq “
+0
+
+if x ” ´1
+
+pmod mq
+
+otherwise
+
+for x “ 0, 1, . . . , npm ´ 1q ´ 1.
+
+Hen e, ∆g vanishes at all integers x with 0 ď x ă npm ´ 1q and x ı ´1 pmod mq.
+
+This leads to
+
+2n
+deg g ě pm´1q
+` 1.
+m
+
+an be improved to npm ´ 1q.
+
+If m is even then this lower bound
+
+pN ` 1qst forward dieren e at x “ 0 is
+
+ˆ ˙
+N
+ÿ
+` N `1 ˘
+N ´k N
+∆
+gp0q “
+p´1q
+p∆gqpkq “
+k
+k“0
+
+ÿ
+
+For 0 ď N
+
+N ´k
+
+p´1q
+
+0ďkďN
+k”´1 pmod mq
+
+ă npm ´ 1q, the
+
+ˆ ˙
+N
+.
+k
+
+Sin e m is even, all signs in the last sum are equal; with N “ npm ´ 1q´ 1 this proves ∆
+indi ating that deg g ě npm ´ 1q.
+
+However, there are innitely many
+odd divisor of n ` 1. In su h
+
+ases when all terms in p˚q
+
+ases, deg f
+
+p˚q
+npm´1q gp0q ‰ 0,
+
+an el out, for example if m is an
+
+an be less than npm ´ 1q.
+
+Comment 3. The lemma is losely related to the so- alled
+AlonFüredi bound. Let S1 , . . . , Sn be nonempty nite sets in a eld and suppose that
+the polynomial P px1 , . . . , xn q vanishes at the points of the grid S1 ˆ . . . ˆ Sn , ex ept for a
+n `
+˘
+ř
+single point. Then deg P ě
+|Si | ´ 1 .
+i“1
+
+(A well-known appli ation of the AlonFüredi bound was the former IMO problem 2007/6.
+Sin e then, this result be ame popular among the students and is part of the IMO training
+for many IMO teams.)
+
+The proof of the lemma an be repla ed by an appli ation of the AlonFüredi bound as follows. Let
+(
+d “ deg G, and let G0 be the unique polynomial su h that G0 pxq “ Gpxq for x P 0, 1, . . . , d ´ 1 but
+deg G0 ă d. The polynomials G0 and G are dierent be ause they have dierent degrees, and they
+attain the same values at 0, 1, . . . , d ´ 1; that enfor es G0 pdq ‰ Gpdq.
+Choose some nonnegative integers b1 , . . . , bn so that b1 ď a1 , . . . , bn ď an , and b1 ` . . . ` bn “ d,
+and
+
+onsider the polynomial
+
+Hpx1 , . . . , xn q “ F px1 , . . . , xn q ´ G0 px1 ` . . . ` xn q
+(
+(
+on the grid 0, 1, . . . , b1 ˆ . . . ˆ 0, 1, . . . , bn .
+At the point pb1 , . . . , bn q we have Hpb1 , . . . , bn q “ Gpdq ´ G0 pdq ‰ 0. At all other points of the grid
+we have F “ G and therefore H “ G´G0 “ 0. So, by the AlonFüredi bound, deg H ě b1 `. . .`bn “ d.
+Sin e deg G0 ă d, this implies deg F “ degpH ` G0 q “ deg H ě d “ deg G.
+l
+
+22
+
+Cluj-Napo a  Romania, 314 July 2018
+
+A7.
+
+Find the maximal value of
+c
+c
+c
+c
+a
+b
+c
+d
+3
+3
+3
+3
+S“
+`
+`
+`
+,
+b`7
+c`7
+d`7
+a`7
+
+where a, b, c, d are nonnegative real numbers whi h satisfy a ` b ` c ` d “ 100.
+
+8
+7
+
+(Taiwan)
+
+Answer: ?
+3 , rea hed when pa, b, c, dq is a y li permutation of p1, 49, 1, 49q.
+Solution 1. Sin e the value 8{
+
+?
+?
+3
+3
+7 is rea hed, it su es to prove that S ď 8{ 7.
+
+Assume that x, y, z, t is a permutation of the variables, with x ď y ď z ď t. Then, by the
+rearrangement inequality,
+¸ ˆc
+˜c
+c
+˙
+c
+x
+t
+y
+z
+3
+3
+3
+3
+`
+.
+`
+`
+Sď
+t`7
+x`7
+z`7
+y`7
+
+Claim. The rst bra ket above does not ex eed
+Proof. Sin e
+
+c
+3
+
+x ` t ` 14
+.
+7
+
+`
+˘
+1
+X 3 ` Y 3 ` 3XY Z ´ Z 3 “ pX ` Y ´ Zq pX ´ Y q2 ` pX ` Zq2 ` pY ` Zq2 ,
+2
+
+the inequality X ` Y ď Z is equivalent (when X, Y, Z ě 0) to X 3 ` Y 3 ` 3XY Z ď Z 3 .
+Therefore, the laim is equivalent to
+d
+x
+t
+x ` t ` 14
+3 xtpx ` t ` 14q
+`
+`3
+ď
+.
+t`7 x`7
+7px ` 7qpt ` 7q
+7
+Noti e that
+d
+d
+7px ` t ` 14q
+3 tpx ` 7q xpt ` 7q
+3 xtpx ` t ` 14q
+“3
+¨
+¨
+3
+7px ` 7qpt ` 7q
+7pt ` 7q 7px ` 7q pt ` 7qpx ` 7q
+
+ď
+
+tpx ` 7q xpt ` 7q
+7px ` t ` 14q
+`
+`
+7pt ` 7q 7px ` 7q pt ` 7qpx ` 7q
+
+by the AMGM inequality, so it su es to prove
+
+x
+t
+tpx ` 7q xpt ` 7q
+7px ` t ` 14q
+x ` t ` 14
+`
+`
+`
+`
+ď
+.
+t ` 7 x ` 7 7pt ` 7q 7px ` 7q pt ` 7qpx ` 7q
+7
+A straightforward he k veries that the last inequality is in fa t an equality.
+
+l
+
+The laim leads now to
+c
+c
+c
+8
+3 y ` z ` 14
+3 x ` y ` z ` t ` 28
+3 x ` t ` 14
+`
+ď2
+“ ?
+Sď
+3 ,
+7
+7
+14
+7
+the last inequality being due to the AMCM inequality (or to the fa t that
+r0, 8q).
+
+?
+3
+
+is on ave on
+
+Shortlisted problems  solutions
+
+23
+
+Solution 2. We present a dierent proof for the estimate S ď 8{
+
+?
+3
+7.
+
+Start by using Hölder's inequality:
+
+S3 “
+
+˜
+
+Noti e that
+yields
+
+Finally,
+
+ÿ
+
+?
+6a¨ 6 a
+ÿ?
+?
+3
+b`7
+cyc
+
+¸3
+
+ÿ` ? ˘3 ÿ` ? ˘3 ÿ ˆ 1 ˙3
+6
+6
+?
+“
+a ¨
+a ¨
+ď
+3
+b
+`
+7
+cyc
+cyc
+cyc
+
+˜
+
+¸2
+ÿ?
+ÿ
+a
+cyc
+
+1
+.
+b
+`
+7
+cyc
+
+px ´ 1q2 px ´ 7q2
+448
+2
+ě
+0
+ðñ
+x
+´
+16x
+`
+71
+ě
+x2 ` 7
+x2 ` 7
+?
+ÿ ? ¯ 48 ´ 2 ř b
+?
+˘
+1 ÿ`
+1
+1 ´
+b ´ 16 b ` 71 “
+384 ´ 16
+ď
+.
+b “
+b`7
+448
+448
+56
+
+ÿ? ¯
+1 ´ÿ ? ¯2 ´
+1
+S3 ď
+a
+48 ´ 2
+a ď
+56
+56
+
+˜ř ?
+
+a`
+
+`
+ř?
+ř ? ˘ ¸3
+a ` 48 ´ 2
+a
+512
+“
+3
+7
+
+by the AMGM inequality. The on lusion follows.
+
+Comment. All the above works if we repla e 7 and 100 with k ą 0 and 2pk2 ` 1q, respe tively; in this
+ase, the answer be omes
+
+2
+
+c
+3
+
+pk ` 1q2
+.
+k
+
+Even further, a linear substitution allows to extend the solutions to a version with 7 and 100 being
+repla ed with arbitrary positive real numbers p and q satisfying q ě 4p.
+
+24
+
+Cluj-Napo a  Romania, 314 July 2018
+
+Combinatori s
+C1.
+
+Let n ě 3 be an integer. Prove that there exists a set S of 2n positive integers
+satisfying the following property: For every m “ 2, 3, . . . , n the set S an be partitioned into
+two subsets with equal sums of elements, with one of subsets of ardinality m.
+
+(I eland)
+
+Solution. We show that one of possible examples is the set
+
+*
+3n ` 9
+´1 .
+S “ t1 ¨ 3 , 2 ¨ 3 : k “ 1, 2, . . . , n ´ 1u Y 1,
+2
+k
+
+"
+
+k
+
+It is readily veried that all the numbers listed above are distin t (noti e that the last two are
+not divisible by 3).
+The sum of elements in S is
+ˆ n
+˙ n´1
+n´1
+ÿ
+3 `9
+3n ` 9 ÿ k`1 3n ` 9 3n`1 ´ 9
+k
+k
+Σ “ 1`
+´1 `
+p1 ¨ 3 ` 2 ¨ 3 q “
+`
+3
+“
+`
+“ 2 ¨ 3n .
+2
+2
+2
+2
+k“1
+k“1
+Hen e, in order to show that this set satises the problem requirements, it su es to present,
+for every m “ 2, 3, . . . , n, an m-element subset Am Ă S whose sum of elements equals 3n .
+Su h a subset is
+
+Am “ t2 ¨ 3k : k “ n ´ m ` 1, n ´ m ` 2, . . . , n ´ 1u Y t1 ¨ 3n´m`1 u.
+Clearly, |Am | “ m. The sum of elements in Am is
+
+3n´m`1 `
+as required.
+
+n´1
+ÿ
+
+k“n´m`1
+
+2 ¨ 3k “ 3n´m`1 `
+
+2 ¨ 3n ´ 2 ¨ 3n´m`1
+“ 3n ,
+2
+
+Comment. Let us present a more general onstru tion. Let s1 , s2 , . . . , s2n´1 be a sequen e of pairwise
+distin t positive integers satisfying s2i`1 “ s2i ` s2i´1 for all i “ 2, 3, . . . , n ´ 1. Set s2n “ s1 ` s2 `
+
+¨ ¨ ¨ ` s2n´4 .
+
+Assume that s2n is distin t from the other terms of the sequen e. Then the set S “ ts1 , s2 , . . . , s2n u
+
+satises the problem requirements. Indeed, the sum of its elements is
+
+Σ“
+
+2n´4
+ÿ
+i“1
+
+si ` ps2n´3 ` s2n´2 q ` s2n´1 ` s2n “ s2n ` s2n´1 ` s2n´1 ` s2n “ 2s2n ` 2s2n´1 .
+
+Therefore, we have
+
+Σ
+“ s2n ` s2n´1 “ s2n ` s2n´2 ` s2n´3 “ s2n ` s2n´2 ` s2n´4 ` s2n´5 “ . . . ,
+2
+whi h shows that the required sets Am
+
+an be
+
+hosen as
+
+Am “ ts2n , s2n´2 , . . . , s2n´2m`4 , s2n´2m`3 u.
+So, the only
+
+ondition to be satised is s2n R ts1 , s2 , . . . , s2n´1 u, whi h
+
+dierent ways (e.g., by
+
+hoosing properly the number s1 after spe ifying s2 , s3 , . . . , s2n´1 ).
+
+The solution above is an instan e of this general
+set
+
+an be a hieved in many
+
+onstru tion. Another instan e, for n ą 3, is the
+
+tF1 , F2 , . . . , F2n´1 , F1 ` ¨ ¨ ¨ ` F2n´4 u,
+where F1 “ 1, F2 “ 2, Fn`1 “ Fn ` Fn´1 is the usual Fibona
+
+i sequen e.
+
+Shortlisted problems  solutions
+
+25
+
+C2.
+
+Queenie and Horst play a game on a 20 ˆ 20 hessboard. In the beginning the board
+is empty. In every turn, Horst pla es a bla k knight on an empty square in su h a way that his
+new knight does not atta k any previous knights. Then Queenie pla es a white queen on an
+empty square. The game gets nished when somebody annot move.
+Find the maximal positive K su h that, regardless of the strategy of Queenie, Horst an
+put at least K knights on the board.
+
+(Armenia)
+
+Answer: K “ 202 {4 “ 100. In ase of a 4N ˆ 4M board, the answer is K “ 4NM .
+
+Solution. We show two strategies, one for Horst to pla e at least 100 knights, and another
+strategy for Queenie that prevents Horst from putting more than 100 knights on the board.
+A strategy for Horst:
+
+o upied.
+
+Put knights only on bla k squares, until all bla k squares get
+
+Colour the squares of the board bla k and white in the usual way, su h that the white
+and bla k squares alternate, and let Horst put his knights on bla k squares as long as it is
+possible. Two knights on squares of the same olour never atta k ea h other. The number of
+bla k squares is 202 {2 “ 200. The two players o upy the squares in turn, so Horst will surely
+nd empty bla k squares in his rst 100 steps.
+A strategy for Queenie: Group the squares into
+
+of Horst, o upy the opposite square in the same y le.
+
+y les of length 4, and after ea h step
+
+Consider the squares of the board as verti es of a graph; let two squares be onne ted if
+two knights on those squares would atta k ea h other. Noti e that in a 4 ˆ 4 board the squares
+an be grouped into 4 y les of length 4, as shown in Figure 1. Divide the board into parts of
+size 4 ˆ 4, and perform the same grouping in every part; this way we arrange the 400 squares
+of the board into 100 y les (Figure 2).
+
+D
+A
+
+C
+B
+
+Figure 1
+
+Figure 2
+
+Figure 3
+
+The strategy of Queenie an be as follows: Whenever Horst puts a new knight to a ertain
+square A, whi h is part of some y le A ´ B ´ C ´ D ´ A, let Queenie put her queen on the
+opposite square C in that y le (Figure 3). From this point, Horst annot put any knight on
+A or C be ause those squares are already o upied, neither on B or D be ause those squares
+are atta ked by the knight standing on A. Hen e, Horst an put at most one knight on ea h
+y le, that is at most 100 knights in total.
+
+Comment 1.
+
+Queenie's strategy
+
+an be pres ribed by a simple rule: divide the board into 4 ˆ 4
+
+parts; whenever Horst puts a knight in a part P , Queenie ree ts that square about the
+
+entre of P
+
+and puts her queen on the ree ted square.
+
+Comment 2.
+
+The result remains the same if Queenie moves rst. In the rst turn, she may put
+
+her rst queen arbitrarily. Later, if she has to put her next queen on a square that already
+queen, she may move arbitrarily again.
+
+ontains a
+
+26
+
+Cluj-Napo a  Romania, 314 July 2018
+
+C3.
+
+Let n be a given positive integer. Sisyphus performs a sequen e of turns on a board
+onsisting of n ` 1 squares in a row, numbered 0 to n from left to right. Initially, n stones
+are put into square 0, and the other squares are empty. At every turn, Sisyphus hooses any
+nonempty square, say with k stones, takes one of those stones and moves it to the right by at
+most k squares (the stone should stay within the board). Sisyphus' aim is to move all n stones
+to square n.
+Prove that Sisyphus annot rea h the aim in less than
+QnU QnU QnU
+QnU
+`
+`
+` ¨¨¨`
+1
+2
+3
+n
+turns. (As usual, rxs stands for the least integer not smaller than x.)
+
+(Netherlands)
+
+Solution. The stones are indistinguishable, and all have the same origin and the same nal
+
+position. So, at any turn we an pres ribe whi h stone from the hosen square to move. We
+do it in the following manner. Number the stones from 1 to n. At any turn, after hoosing a
+square, Sisyphus moves the stone with the largest number from this square.
+This way, when stone k is moved from some square, that square ontains not more than k
+stones (sin e all their numbers are at most k ). Therefore, stone k is moved by at most k squares
+at ea h turn. Sin e the total shift of the stone is exa tly n, at least rn{ks moves of stone k
+should have been made, for every k “ 1, 2, . . . , n.
+By summing up over all k “ 1, 2, . . . , n, we get the required estimate.
+
+Comment. The original submission ontained the se ond part, asking for whi h values of n the equality
+an be a hieved. The answer is n “ 1, 2, 3, 4, 5, 7. The Problem Sele tion Committee
+
+part to be less suitable for the
+
+ompetition, due to te hni alities.
+
+onsidered this
+
+Shortlisted problems  solutions
+
+27
+
+C4.
+
+An anti-Pas al pyramid is a nite set of numbers, pla ed in a triangle-shaped array
+so that the rst row of the array ontains one number, the se ond row ontains two numbers,
+the third row ontains three numbers and so on; and, ex ept for the numbers in the bottom
+row, ea h number equals the absolute value of the dieren e of the two numbers below it. For
+instan e, the triangle below is an anti-Pas al pyramid with four rows, in whi h every integer
+from 1 to 1 ` 2 ` 3 ` 4 “ 10 o urs exa tly on e:
+4
+2 6
+5 7 1
+8 3 10 9 .
+
+Is it possible to form an anti-Pas al pyramid with 2018 rows, using every integer from 1 to
+1 ` 2 ` ¨ ¨ ¨ ` 2018 exa tly on e?
+
+(Iran)
+
+Answer: No, it is not possible.
+Solution. Let T be an anti-Pas al pyramid with n rows, ontaining every integer from 1 to
+
+1`2`¨ ¨ ¨`n, and let a1 be the topmost number in T (Figure 1). The two numbers below a1 are
+some a2 and b2 “ a1 ` a2 , the two numbers below b2 are some a3 and b3 “ a1 ` a2 ` a3 , and so
+on and so forth all the way down to the bottom row, where some an and bn “ a1 ` a2 ` ¨ ¨ ¨ ` an
+are the two neighbours below bn´1 “ a1 ` a2 ` ¨ ¨ ¨ ` an´1 . Sin e the ak are n pairwise distin t
+positive integers whose sum does not ex eed the largest number in T , whi h is 1 ` 2 ` ¨ ¨ ¨ ` n,
+it follows that they form a permutation of 1, 2, . . . , n.
+
+a1
+a2
+
+b2
+a3
+
+b3
+
+T
+
+..................
+
+an-1 bn-1
+bn an
+Figure 1
+
+T’
+
+T’’
+
+Figure 2
+
+Consider now (Figure 2) the two `equilateral' subtriangles of T whose bottom rows ontain
+the numbers to the left, respe tively right, of the pair an , bn . (One of these subtriangles may
+very well be empty.) At least one of these subtriangles, say T 1 , has side length ℓ ě rpn ´ 2q{2s.
+Sin e T 1 obeys the anti-Pas al rule, it ontains ℓ pairwise distin t positive integers a11 , a12 , . . . , a1ℓ ,
+where a11 is at the apex, and a1k and b1k “ a11 ` a12 ` ¨ ¨ ¨` a1k are the two neighbours below b1k´1 for
+ea h k “ 2, 3 . . . , ℓ. Sin e the ak all lie outside T 1 , and they form a permutation of 1, 2, . . . , n,
+the a1k are all greater than n. Consequently,
+
+ℓp2n ` ℓ ` 1q
+b1ℓ ě pn ` 1q ` pn ` 2q ` ¨ ¨ ¨ ` pn ` ℓq “
+2
+ˆ
+˙
+1 n´2
+n´2
+5npn ´ 2q
+ě ¨
+2n `
+`1 “
+,
+2
+2
+2
+8
+
+whi h is greater than 1 ` 2 ` ¨ ¨ ¨ ` n “ npn ` 1q{2 for n “ 2018. A ontradi tion.
+
+Comment. The above estimate may be slightly improved by noti ing that b1ℓ ‰ bn . This implies
+
+npn ` 1q{2 “ bn ą b1ℓ ě rpn ´ 2q{2s p2n ` rpn ´ 2q{2s ` 1q {2, so n ď 7 if n is odd, and n ď 12 if n is
+even. It seems that the largest anti-Pas al pyramid whose entries are a permutation of the integers
+
+from 1 to 1 ` 2 ` ¨ ¨ ¨ ` n has 5 rows.
+
+28
+
+Cluj-Napo a  Romania, 314 July 2018
+
+C5.
+
+Let k be a positive integer. The organising ommittee of a tennis tournament is to
+s hedule the mat hes for 2k players so that every two players play on e, ea h day exa tly one
+mat h is played, and ea h player arrives to the tournament site the day of his rst mat h, and
+departs the day of his last mat h. For every day a player is present on the tournament, the
+ommittee has to pay 1 oin to the hotel. The organisers want to design the s hedule so as to
+minimise the total ost of all players' stays. Determine this minimum ost.
+
+(Russia)
+
+Answer: The required minimum is kp4k 2 ` k ´ 1q{2.
+
+`2k˘
+. Let b1 ď b2 ď ¨ ¨ ¨ ď b2k be
+2
+the days the players arrive to the tournament, arranged in nonde reasing order; similarly, let
+e1 ě ¨ ¨ ¨ ě e2k be the days they depart arranged in nonin reasing order (it may happen that a
+player arrives on day bi and departs on day ej , where i ‰ j ). If a player arrives on day b and
+departs on day e, then his stay ost is e ´ b ` 1. Therefore, the total stay ost is
+
+Solution 1. Enumerate the days of the tournament 1, 2, . . . ,
+
+Σ“
+
+2k
+ÿ
+
+i“1
+
+ei ´
+
+2k
+ÿ
+
+i“1
+
+bi ` n “
+
+2k
+ÿ
+
+pei ´ bi ` 1q.
+
+i“1
+
+Bounding the total ost from below. To` ˘this end, estimate ei`1 ´ bi`1 ` 1. Before day
+` ˘ bi`1 ,
+only i players were present, so at most 2i mat hes ould be played. Therefore, bi`1 ď 2i ` 1.
+` ˘ `i˘
+`˘
+´ 2 . Thus,
+Similarly, at most 2i mat hes ould be played after day ei`1 , so ei ě 2k
+2
+ˆ ˙
+ˆ ˙
+i
+2k
+“ kp2k ´ 1q ´ ipi ´ 1q.
+´2
+ei`1 ´ bi`1 ` 1 ě
+2
+2
+
+This lower bound an be improved for i ą k : List the i players who arrived rst, and
+the i players who departed last; at least 2i ´ 2k players appear in both lists. The mat hes
+between these players were ounted twi e, though the players in ea h pair have played only
+on e. Therefore, if i ą k , then
+ˆ ˙
+ˆ ˙ ˆ
+˙
+2k
+i
+2i ´ 2k
+ei`1 ´ bi`1 ` 1 ě
+´2
+`
+“ p2k ´ iq2 .
+2
+2
+2
+
+An optimal tournament, We now des ribe a s hedule in whi h the lower bounds above are all
+
+a hieved simultaneously. Split players into two groups X and Y , ea h of ardinality k . Next,
+partition the s hedule into three parts. During the rst part, the players from X arrive one by
+one, and ea h newly arrived player immediately plays with everyone already present. During
+the third part (after all players from X have already departed) the players from Y depart one
+by one, ea h playing with everyone still present just before departing.
+In the middle part, everyone from X should play with everyone from Y . Let S1 , S2 , . . . , Sk
+be the players in X , and let T1 , T2 , . . . , Tk be the players in Y . Let T1 , T2 , . . . , Tk arrive in
+this order; after Tj arrives, he immediately plays with all the Si , i ą j . Afterwards, players Sk ,
+Sk´1 , . . . , S1 depart in this order; ea h Si plays with all the Tj , i ď j , just before his departure,
+and Sk departs the day Tk arrives. For 0 ď s ď k ´ 1, the number of mat hes played between
+Tk´s 's arrival and Sk´s 's departure is
+k´1
+ÿ
+
+pk ´ jq ` 1 `
+
+j“k´s
+
+k´1
+ÿ
+
+pk ´ j ` 1q “
+
+j“k´s
+
+1
+1
+sps ` 1q ` 1 ` sps ` 3q “ ps ` 1q2 .
+2
+2
+
+Thus, if i ą k , then the number of mat hes that have been played between Ti´k`1 's arrival,
+whi h is bi`1 , and Si´k`1 's departure, whi h is ei`1 , is p2k ´iq2 ; that is, ei`1 ´bi`1 `1 “ p2k ´iq2 ,
+showing the se ond lower bound a hieved for all i ą k .
+
+Shortlisted problems  solutions
+
+29
+
+If i ď k , then the mat hes `between
+the i players `present
+before bi`1 all fall in the rst part
+˘
+˘
+of the s hedule, so there are 2i su h, and bi`1 “ 2i ` 1. Similarly, after ei`1 , there are i
+` ˘ `i˘
+`˘
+players left, all 2i mat hes now fall in the third part of the s hedule, and ei`1 “ 2k
+´ 2 .
+2
+The rst lower bound is therefore also a hieved for all i ď k .
+Consequently, all lower bounds are a hieved simultaneously, and the s hedule is indeed
+optimal.
+
+Evaluation. Finally, evaluate the total ost for the optimal s hedule:
+Σ“
+
+k
+ÿ
+`
+
+i“0
+
+k
+k´1
+ÿ
+ÿ
+ÿ
+˘ 2k´1
+p2k ´ iq2 “ pk ` 1qkp2k ´ 1q ´
+ipi ´ 1q `
+j2
+kp2k ´ 1q ´ ipi ´ 1q `
+i“0
+
+i“k`1
+
+j“1
+
+1
+1
+“ kpk ` 1qp2k ´ 1q ´ k 2 ` kpk ` 1q “ kp4k 2 ` k ´ 1q.
+2
+2
+
+Consider any tournament s hedule. Label players P1 , P2 , . . . , P2k in order of
+their arrival, and label them again Q2k , Q2k´1 , . . ., Q1 in order of their departure, to dene a
+permutation a1 , a2 , . . . , a2k of 1, 2, . . . , 2k by Pi “ Qai .
+We rst des ribe an optimal tournament for any given permutation a1 , a2 , . . . , a2k of the
+indi es 1, 2, . . . , 2k . Next, we nd an optimal permutation and an optimal tournament.
+
+Solution 2.
+
+Optimisation for a xed a1 , . . . , a2k . We say that the ost of the mat h between Pi and Pj
+is the number of players present at the tournament when this mat h is played. Clearly, the
+Committee pays for ea h day the ost of the mat h of that day. Hen e, we are to minimise the
+total ost of all mat hes.
+Noti e that Q2k 's departure does not pre ede P2k 's arrival. Hen e, the number of players at the tournament monotoni ally in reases (non-stri tly) until it rea hes 2k , and then
+monotoni ally de reases (non-stri tly). So, the best time to s hedule the mat h between Pi
+and `Pj is either when Pmaxpi,jq
+arrives, or when Qmaxpai ,aj q departs, in whi h ase the ost is
+˘
+min maxpi, jq, maxpai , aj q .
+Conversely, assuming that i ą j , if this mat h is s heduled between the arrivals of Pi and
+Pi`1 , then its ost will be exa tly i “ maxpi, jq. Similarly, one an make it ost maxpai , aj q.
+Obviously, these onditions an all be simultaneously satised, so the minimal ost for a xed
+sequen e a1 , a2 , . . . , a2k is
+ÿ
+`
+˘
+Σpa1 , . . . , a2k q “
+min maxpi, jq, maxpai , aj q .
+(1)
+1ďiăjď2k
+
+Optimising the sequen e pai q. Optimisation hinges on the lemma below.
+Lemma. If a ď b and c ď d, then
+
+`
+˘
+`
+˘
+min maxpa, xq, maxpc, yq ` min maxpb, xq, maxpd, yq
+`
+˘
+`
+˘
+ě min maxpa, xq, maxpd, yq ` min maxpb, xq, maxpc, yq .
+
+Proof. Write a1 “ maxpa, xq ď maxpb, xq “ b1 and c1 “ maxpc, yq ď maxpd, yq “ d1 and he k
+
+that minpa1 , c1 q ` minpb1 , d1 q ě minpa1 , d1 q ` minpb1 , c1 q.
+l
+Consider a permutation a1 , a2 , . . . , a2k su h that ai ă aj for some i ă j . Swapping ai
+and aj does not hange the pi, jqth summand in (1), and for ℓ R ti, ju the sum of the pi, ℓqth
+and the pj, ℓqth summands does not in rease by the Lemma. Hen e the optimal value does not
+in rease, but the number of disorders in the permutation in reases. This pro ess stops when
+ai “ 2k ` 1 ´ i for all i, so the required minimum is
+ÿ
+`
+˘
+Sp2k, 2k ´ 1, . . . , 1q “
+min maxpi, jq, maxp2k ` 1 ´ i, 2k ` 1 ´ jq
+1ďiăjď2k
+
+“
+
+ÿ
+
+1ďiăjď2k
+
+minpj, 2k ` 1 ´ iq.
+
+30
+
+Cluj-Napo a  Romania, 314 July 2018
+
+The latter sum is fairly tra table and yields the stated result; we omit the details.
+
+Comment. If the number of players is odd, say, 2k ´ 1, the required minimum is kpk ´ 1qp4k ´ 1q{2.
+
+In this
+
+ase,
+
+|X| “ k, |Y | “ k ´ 1, the argument goes along the same lines, but some additional
+
+te hni alities are to be taken
+
+are of.
+
+Shortlisted problems  solutions
+
+This page is intentionally left blank
+
+31
+
+32
+
+Cluj-Napo a  Romania, 314 July 2018
+
+C6.
+
+Let a and b be distin t positive integers. The following innite pro ess takes pla e on
+an initially empty board.
+
+piq If there is at least a pair of equal numbers on the board, we hoose su h a pair and
+in rease one of its omponents by a and the other by b.
+piiq If no su h pair exists, we write down two times the number 0.
+Prove that, no matter how we make the hoi es in piq, operation piiq will be performed only
+nitely many times.
+
+(Serbia)
+
+Solution 1. We may assume gcdpa, bq “ 1; otherwise we work in the same way with multiples
+
+of d “ gcdpa, bq.
+Suppose that after N moves of type piiq and some moves of type piq we have to add two
+new zeros. For ea h integer k , denote by f pkq the number of times that the number k appeared
+on the board up to this moment. Then f p0q “ 2N and f pkq “ 0 for k ă 0. Sin e the board
+ontains at most one k ´ a, every se ond o urren e of k ´ a on the board produ ed, at some
+moment, an o urren e of k ; the same stands for k ´ b. Therefore,
+^ Z
+^
+Z
+f pk ´ bq
+f pk ´ aq
+`
+,
+p1q
+f pkq “
+2
+2
+yielding
+
+f pk ´ aq ` f pk ´ bq
+´ 1.
+p2q
+2
+Sin e gcdpa, bq “ 1, every integer x ą ab ´ a ´ b is expressible in the form x “ sa ` tb, with
+integer s, t ě 0.
+We will prove by indu tion on s ` t that if x “ sa ` bt, with s, t nonnegative integers, then
+f pkq ě
+
+f pxq ą
+
+f p0q
+´ 2.
+2s`t
+
+p3q
+
+The base ase s`t “ 0 is trivial. Assume now that p3q is true for s`t “ v . Then, if s`t “ v `1
+and x “ sa ` tb, at least one of the numbers s and t  say s  is positive, hen e by p2q,
+`
+˘
+ˆ
+˙
+f ps ´ 1qa ` tb
+1 f p0q
+f p0q
+´1ą
+´ 2 ´ 1 “ s`t ´ 2.
+f pxq “ f psa ` tbq ě
+s`t´1
+2
+2 2
+2
+Assume now that we must perform moves of type piiq ad innitum. Take n “ ab ´ a ´ b and
+suppose b ą a. Sin e ea h of the numbers n ` 1, n ` 2, . . . , n ` b an be expressed in the form
+sa ` tb, with 0 ď s ď b and 0 ď t ď a, after moves of type piiq have been performed 2a`b`1
+times and we have to add a new pair of zeros, ea h f pn ` kq, k “ 1, 2, . . . , b, is at least 2. In
+this ase p1q yields indu tively f pn ` kq ě 2 for all k ě 1. But this is absurd: after a nite
+number of moves, f annot attain nonzero values at innitely many points.
+Solution 2. We start by showing that the result of the pro ess in the problem does not
+depend on the way the operations are performed. For that purpose, it is onvenient to modify
+the pro ess a bit.
+Claim 1. Suppose that the board initially ontains a nite number of nonnegative integers,
+and one starts performing type piq moves only. Assume that one had applied k moves whi h led
+to a nal arrangement where no more type piq moves are possible. Then, if one starts from the
+same initial arrangement, performing type piq moves in an arbitrary fashion, then the pro ess
+will ne essarily stop at the same nal arrangement
+
+Shortlisted problems  solutions
+
+33
+
+Proof. Throughout this proof, all moves are supposed to be of type piq.
+
+Indu t on k ; the base ase k “ 0 is trivial, sin e no moves are possible. Assume now that
+k ě 1. Fix some anoni al pro ess, onsisting of k moves M1 , M2 , . . . , Mk , and rea hing the
+nal arrangement A. Consider any sample pro ess m1 , m2 , . . . starting with the same initial
+arrangement and pro eeding as long as possible; learly, it ontains at least one move. We need
+to show that this pro ess stops at A.
+Let move m1 onsist in repla ing two opies of x with x ` a and x ` b. If move M1 does
+the same, we may apply the indu tion hypothesis to the arrangement appearing after m1 .
+Otherwise, the anoni al pro ess should still ontain at least one move onsisting in repla ing
+px, xq ÞÑ px ` a, x ` bq, be ause the initial arrangement ontains at least two opies of x, while
+the nal one ontains at most one su h.
+Let Mi be the rst su h move. Sin e the opies of x are indistinguishable and no other opy
+of x disappeared before Mi in the anoni al pro ess, the moves in this pro ess an be permuted
+as Mi , M1 , . . . , Mi´1 , Mi`1 , . . . , Mk , without ae ting the nal arrangement. Now it su es to
+perform the move m1 “ Mi and apply the indu tion hypothesis as above.
+l
+
+Claim 2. Consider any pro ess starting from the empty board, whi h involved exa tly n moves
+
+of type piiq and led to a nal arrangement where all the numbers are distin t. Assume that
+one starts with the board ontaining 2n zeroes (as if n moves of type piiq were made in the
+beginning), applying type piq moves in an arbitrary way. Then this pro ess will rea h the same
+nal arrangement.
+Proof. Starting with the board with 2n zeros, one may indeed model the rst pro ess mentioned
+in the statement of the laim, omitting the type piiq moves. This way, one rea hes the same
+nal arrangement. Now, Claim 1 yields that this nal arrangement will be obtained when
+l
+type piq moves are applied arbitrarily.
+Claim 2 allows now to reformulate the problem statement as follows: There exists an integer
+n su h that, starting from 2n zeroes, one may apply type piq moves indenitely.
+
+In order to prove this, we start with an obvious indu tion on s ` t “ k ě 1 to show that if
+we start with 2s`t zeros, then we an get simultaneously on the board, at some point, ea h of
+the numbers sa ` tb, with s ` t “ k .
+Suppose now that a ă b. Then, an appropriate use of separate groups of zeros allows us to
+get two opies of ea h of the numbers sa ` tb, with 1 ď s, t ď b.
+Dene N “ ab´a´b, and noti e that after representing ea h of numbers N `k , 1 ď k ď b, in
+the form sa`tb, 1 ď s, t ď b we an get, using enough zeros, the numbers N `1, N `2, . . . , N `a
+and the numbers N ` 1, N ` 2, . . . , N ` b.
+From now on we an perform only moves of type piq. Indeed, if n ě N , the o urren e of the
+numbers n ` 1, n ` 2, . . . , n ` a and n ` 1, n ` 2, . . . , n ` b and the repla ement pn ` 1, n ` 1q ÞÑ
+pn ` b ` 1, n ` a ` 1q leads to the o urren e of the numbers n ` 2, n ` 3, . . . , n ` a ` 1 and
+n ` 2, n ` 3, . . . , n ` b ` 1.
+
+Comment. The proofs of Claims 1 and 2 may be extended in order to show that in fa t the number
+of moves in the
+
+anoni al pro ess is the same as in an arbitrary sample one.
+
+34
+
+Cluj-Napo a  Romania, 314 July 2018
+
+C7. Consider 2018 pairwise rossing ir les no three of whi h are on urrent. These ir les
+
+subdivide the plane into regions bounded by ir ular edges that meet at verti es. Noti e that
+there are an even number of verti es on ea h ir le. Given the ir le, alternately olour the
+verti es on that ir le red and blue. In doing so for ea h ir le, every vertex is oloured twi e 
+on e for ea h of the two ir les that ross at that point. If the two olourings agree at a vertex,
+then it is assigned that olour; otherwise, it be omes yellow. Show that, if some ir le ontains
+at least 2061 yellow points, then the verti es of some region are all yellow.
+
+(India)
+
+Solution 1. Letting n “ 2018, we will show that,
+? if every region has at least one non-yellow
+vertex, then every ir le ontains at most n ` t n ´ 2u ´ 2 yellow points. In the ase at hand,
+the latter equals 2018 ` 44 ´ 2 “ 2060, ontradi ting the hypothesis.
+Consider the natural geometri graph G asso iated with the onguration of n ir les. Fix
+any ir le C in the onguration, let k be the number of yellow points on C , and nd a suitable
+lower bound for the total number of yellow verti es of G in terms of k and n. It turns out that
+k is even, and G has at least
+˙
+ˆ
+ˆ ˙
+k2
+n ´ k{2 ´ 1
+k{2
+“
+`2
+k`2
+´ pn ´ 2qk ` pn ´ 2qpn ´ 1q
+p˚q
+2
+2
+2
+
+yellow verti es. The proof hinges on the two lemmata below.
+Lemma 1. Let two ir les in the onguration ross at x and y . Then x and y are either both
+yellow or both non-yellow.
+Proof. This is be ause the numbers of interior verti es on the four ar s x and y determine on
+the two ir les have like parities.
+l
+In parti ular, ea h ir le in the onguration ontains an even number of yellow verti es.
+Lemma 2. If xŇy , yŇz , and zŇx are ir ular ar s of three pairwise distin t ir les in the onguration, then the number of yellow verti es in the set tx, y, zu is odd.
+Proof. Let C1 , C2 , C3 be the three ir les under onsideration. Assume, without loss of generality, that C2 and C3 ross at x, C3 and C1 ross at y , and C1 and C2 ross at z . Let k1 ,
+k2 , k3 be the numbers of interior verti es on the three ir ular ar s under onsideration. Sin e
+ea h ir le in the onguration, dierent from the Ci , rosses the y le x
+Ňy Y yŇz Y zŇ
+x at an even
+number of points (re all that no three ir les are on urrent), and self- rossings are ounted
+twi e, the sum k1 ` k2 ` k3 is even.
+Let Z1 be the olour z gets from C1 and dene the other olours similarly. By the pre eding,
+the number of bi hromati pairs in the list pZ1 , Y1 q, pX2 , Z2 q, pY3 , X3 q is odd. Sin e the total
+number of olour hanges in a y le Z1 Y1 Y3 X3 X2 Z2 Z1 is even, the number of bi hromati
+pairs in the list pX2 , X3 q, pY1 , Y3 q, pZ1 , Z2q is odd, and the lemma follows.
+l
+We are now in a position to prove that p˚q bounds the total number of yellow verti es from
+below. Refer to Lemma 1 to infer that the k yellow verti es on C pair o to form the pairs of
+points where C is rossed by k{2` ir˘les in the onguration. By Lemma 2, these ir les ross
+pairwise to a ount for another 2 k{2
+yellow verti es. Finally, the remaining n ´ k{2 ´ 1 ir les
+2
+in the onguration ross C at non-yellow verti es, by Lemma 1, and` Lemma
+˘ 2 applies again
+n´k{2´1
+to show that these ir les ross pairwise to a ount for yet another 2
+yellow verti es.
+2
+Consequently, there are at least p˚q yellow verti es.
+Next, noti e that G is a plane graph on npn ´ 1q degree 4 verti es, having exa tly 2npn ´ 1q
+edges and exa tly npn ´ 1q ` 2 fa es (regions), the outer fa e in lusive (by Euler's formula for
+planar graphs).
+
+Lemma 3. Ea h fa e of G has equally many red and blue verti es. In parti ular, ea h fa e has
+
+an even number of non-yellow verti es.
+
+Shortlisted problems  solutions
+
+35
+
+Proof. Tra e the boundary of a fa e on e in ir ular order, and onsider the olours ea h vertex
+is assigned in the olouring of the two ir les that ross at that vertex, to infer that olours of
+non-yellow verti es alternate.
+l
+Consequently, if ea h region has at least one non-yellow vertex, then it has at least two su h.
+Sin e ea h vertex of G has degree 4, onsideration of vertex-fa e in iden es shows that G has
+at least npn ´ 1q{2 ` 1 non-yellow verti es, and hen e at most npn ´ 1q{2 ´ 1 yellow verti es. (In
+fa t, Lemma 3 shows that there are at least npn ´ 1q{4 ` 1{2 red, respe tively blue, verti es.)
+Finally, re all the lower bound p˚q for the total number of yellow verti es?in G, to write
+npn ´ 1q{2 ´ 1 ě k 2 {2 ´ pn ´ 2qk ` pn ´ 2qpn ´ 1q, and on lude that k ď n ` t n ´ 2u ´ 2, as
+laimed in the rst paragraph.
+The rst two lemmata in Solution 1 show that the ir les in the onguration
+split into two lasses: Consider any ir le C along with all ir les that ross C at yellow points
+to form one lass; the remaining ir les then form the other lass. Lemma 2 shows that any pair
+of ir les in the same lass ross at yellow points; otherwise, they ross at non-yellow points.
+Call the ir les from the two lasses white and bla k, respe tively. Call a region yellow if
+its verti es are all yellow. Let w and b be the numbers of white and bla k ir les, respe tively;
+learly, w ` b “ n. Assume that w ě b, and that there is no yellow region. Clearly, b ě 1,
+otherwise ea h region is yellow. The white ir les subdivide the plane into wpw ´ 1q ` 2 larger
+regions  all them white. The white regions (or rather their boundaries) subdivide ea h bla k
+ir le into bla k ar s. Sin e there are no yellow regions, ea h white region ontains at least one
+bla k ar .
+Consider any white region; let it ontain t ě 1 bla k ar s. We laim that the number of
+points at whi h these t ar s ross does not ex eed t ´ 1. To prove this, onsider a multigraph
+whose verti es are these bla k ar s, two verti es being joined by an edge for ea h point at whi h
+the orresponding ar s ross. If this graph had more than t ´ 1 edges, it would ontain a y le,
+sin e it has t verti es; this y le would orrespond to a losed ontour formed by bla k sub-ar s,
+lying inside the region under onsideration. This ontour would, in turn, dene at least one
+yellow region, whi h is impossible.
+Let ř
+ti be the number of bla k ar s `inside
+the ith white region. The total number of bla k
+˘
+ar s is i ti “ 2wb, and they ross at 2 2b “ bpb ´ 1q points. By the pre eding,
+Solution 2.
+
+bpb ´ 1q ď
+
+w2 ÿ
+´w`2
+i“1
+
+pti ´ 1q “
+
+w2 ÿ
+´w`2
+i“1
+
+ti ´ pw 2 ´ w ` 2q “ 2wb ´ pw 2 ´ w ` 2q,
+
+?
+or, equivalently, pw ´ bq2`ď w `?b ´ 2 “˘n ´ 2, whi h is the ase if and only if w ´ b ?
+ď t n ´ 2u.
+Consequently, b ď w ď n ` t n ´ 2u {2, so there are at most 2pw ´ 1q ď n ` t n ´ 2u ´ 2
+yellow verti es on ea h ir le  a ontradi tion.
+
+36
+
+Cluj-Napo a  Romania, 314 July 2018
+
+Geometry
+G1. Let ABC be an a ute-angled triangle with ir um ir le Γ. Let D and E be points on
+
+the segments AB and AC , respe tively, su h that AD “ AE . The perpendi ular bise tors of
+Ŋ and AC
+Ŋ at points F and G respe tively.
+the segments BD and CE interse t the small ar s AB
+Prove that DE k F G.
+
+(Gree e)
+
+Solution 1. In the sequel, all the onsidered ar s are small ar s.
+
+Ŋ . Then AP is the bise tor of =BAC , hen e, in the
+Let P be the midpoint of the ar BC
+isos eles triangle ADE , AP K DE . So, the statement of the problem is equivalent to AP K F G.
+In order to prove this, let K be the se ond interse tion of Γ with F D . Then the triangle
+F BD is isos eles, therefore
+=AKF “ =ABF “ =F DB “ =ADK,
+
+yielding AK “ AD . In the same way, denoting by L the se ond interse tion of Γ with GE , we
+get AL “ AE . This shows that AK “ AL.
+A
+
+K
+
+L
+
+E
+D
+
+G
+
+F
+
+B
+
+C
+P
+
+Ŋ “ BF
+Ŋ ` AK
+Ŋ “ BF
+Ŋ ` AL
+Ň , hen e BF
+Ŋ “ LF
+Ň . In a similar
+Now =F BD “ =F DB gives AF
+Ŋ “ GK
+Ŋ . This yields
+way, we get CG
+Ŋ`P
+Ŋ
+Ň ` LF
+Ň `P
+Ŋ
+Ŋ
+Ŋ ` LB
+Ŋ ` BC
+Ŋ ` CK
+Ŋ
+AF
+G
+AL
+C ` CG
+KL
+=pAP, F Gq “
+“
+“
+“ 90˝ .
+2
+2
+4
+Solution 2. Let Z “ AB X F G, T “ AC X F G. It su es to prove that =AT Z “ =AZT .
+
+Let X be the point for whi h F XAD is a parallelogram. Then
+
+=F XA “ =F DA “ 180˝ ´ =F DB “ 180˝ ´ =F BD,
+
+where in the last equality we used that F D “ F B . It follows that the quadrilateral BF XA is
+y li , so X lies on Γ.
+G
+C
+
+Y
+E
+A
+
+D
+
+T
+
+Z
+B
+
+X
+F
+
+Shortlisted problems  solutions
+
+37
+
+Analogously, if Y is the point for whi h GY AE is a parallelogram, then Y lies on Γ. So
+the quadrilateral XF GY is y li and F X “ AD “ AE “ GY , hen e XF GY is an isos eles
+trapezoid.
+Now, by XF k AZ and Y G k AT , it follows that =AT Z “ =Y GF “ =XF G “ =AZT .
+Solution 3. As in the rst solution, we prove that F G K AP , where P is the midpoint of the
+
+Ŋ.
+small ar BC
+Let O be the ir um entre of the triangle ABC , and let M and N be the midpoints of the
+Ŋ and AC
+Ŋ , respe tively. Then OM and ON are the perpendi ular bise tors of AB
+small ar s AB
+and AC , respe tively.
+A
+
+N
+M
+O
+d
+
+E
+
+d
+G
+
+D
+
+F
+C
+
+B
+P
+
+The distan e d between OM and the perpendi ular bise tor of BD is 12 AB ´ 12 BD “ 21 AD ,
+hen e it is equal to the distan e between ON and the perpendi ular bise tor of CE .
+This shows that the isos eles trapezoid determined by the diameter δ of Γ through M and
+the hord parallel to δ through F is ongruent to the isos eles trapezoid determined by the
+diameter δ 1 of Γ through N and the hord parallel to δ 1 through G. Therefore MF “ NG,
+yielding MN k F G.
+Now
+1 ` Ŋ Ŋ Ŋ ˘ 1 `Ŋ Ŋ Ŋ˘
+AM ` P C ` CN “
+AB ` BC ` CA “ 90˝ ,
+=pMN, AP q “
+2
+4
+hen e MN K AP , and the on lusion follows.
+
+38
+
+Cluj-Napo a  Romania, 314 July 2018
+
+G2. Let ABC be a triangle with AB “ AC , and let M be the midpoint of BC . Let P be
+
+a point su h that P B ă P C and P A is parallel to BC . Let X and Y be points on the lines
+P B and P C , respe tively, so that B lies on the segment P X , C lies on the segment P Y , and
+=P XM “ =P Y M . Prove that the quadrilateral AP XY is y li .
+
+(Australia)
+
+Solution. Sin e AB “ AC , AM is the perpendi ular bise tor of BC , hen e =P AM “
+
+=AMC “ 90˝ .
+
+P
+
+A
+
+M
+
+B
+
+C
+Y
+
+X
+
+Z
+
+Now let Z be the ommon point of AM and the perpendi ular through Y to P C (noti e
+that Z lies on to the ray AM beyond M ). We have =P AZ “ =P Y Z “ 90˝ . Thus the points
+P , A, Y , and Z are on y li .
+Sin e =CMZ “ =CY Z “ 90˝ , the quadrilateral CY ZM is y li , hen e =CZM “
+=CY M . By the ondition in the statement, =CY M “ =BXM , and, by symmetry in ZM ,
+=CZM “ =BZM . Therefore, =BXM “ =BZM . It follows that the points B , X , Z , and M
+are on y li , hen e =BXZ “ 180˝ ´ =BMZ “ 90˝ .
+Finally, we have =P XZ “ =P Y Z “ =P AZ “ 90˝ , hen e the ve points P, A, X, Y, Z are
+on y li . In parti ular, the quadrilateral AP XY is y li , as required.
+
+Comment 1. Clearly, the key point Z from the solution above an be introdu ed in several dierent
+ways, e.g., as the se ond meeting point of the
+point of the
+
+ir le CM Y and the line AM , or as the se ond meeting
+
+ir les CM Y and BM X , et .
+
+For some of denitions of Z its lo ation is not obvious. For instan e, if Z is dened as a
+point of AM and the perpendi ular through X to P X , it is not
+
+ommon
+
+lear that Z lies on the ray AM
+
+beyond M . To avoid su h slippery details some more restri tions on the
+
+onstru tion may be required.
+
+Comment 2.
+
+y li
+
+Let us dis uss a
+
+onne tion to the Miquel point of a
+
+M X X P C , Y 1 “ M Y X P B , and Q “ XY X X 1 Y 1 (see the gure below).
+We
+
+quadrilateral. Set X
+
+1 “
+
+laim that BC k P Q. (One way of proving this is the following. Noti e that the quadruple
+
+of lines P X, P M, P Y, P Q is harmoni , hen e the quadruple B , M , C , P Q X BC of their interse tion
+
+points with
+
+P Q k BC .)
+
+BC is harmoni .
+
+Sin e
+
+M is the midpoint of BC , P Q X BC is an ideal point, i.e.,
+
+“ =P Y M that the quadrilateral XY X 1 Y 1 is y li .
+Note that A is the proje tion of M onto P Q. By a known des ription, A is the Miquel point for the
+1
+1
+1 1
+sidelines XY, XY , X Y, X Y . In parti ular, the ir le P XY passes through A.
+It follows from the given equality =P XM
+
+Shortlisted problems  solutions
+
+39
+P
+A
+
+B
+
+Y’
+X’
+M
+
+X
+
+C
+Y
+Q
+
+Comment 3.
+
+An alternative approa h is the following. One
+
+an note that the (oriented) lengths of
+
+the segments CY and BX are both linear fun tions of a parameter t “ cot =P XM . As t varies, the
+interse tion point S of the perpendi ular bise tors of P X and P Y tra es a xed line, thus the family
+
+of
+
+ir les P XY has a xed
+
+ommon point (other than P ). By
+
+he king parti ular
+
+ases, one
+
+an show
+
+that this xed point is A.
+
+Comment 4. The problem states that =P XM “ =P Y M implies that AP XY is y li . The original
+
+submission
+
+laims that these two
+
+omitted the
+
+onverse part, sin e it follows easily from the dire t one, by reversing arguments.
+
+onditions are in fa t equivalent. The Problem Sele tion Committee
+
+40
+
+Cluj-Napo a  Romania, 314 July 2018
+
+G3. A ir le ω of radius 1 is given. A olle tion T of triangles is alled good, if the following
+onditions hold:
+
+piq ea h triangle from T is ins ribed in ω ;
+piiq no two triangles from T have a ommon interior point.
+Determine all positive real numbers t su h that, for ea h positive integer n, there exists a
+good olle tion of n triangles, ea h of perimeter greater than t.
+
+(South Afri a)
+
+Answer: t P p0, 4s.
+
+Solution. First, we show how to onstru t a good olle tion of n triangles, ea h of perimeter
+greater than 4. This will show that all t ď 4 satisfy the required onditions.
+Constru t indu tively an pn ` 2q-gon BA1 A2 . . . An C ins ribed in ω su h that BC is a
+diameter, and BA1 A2 , BA2 A3 , . . . , BAn´1 An , BAn C is a good olle tion of n triangles. For
+n “ 1, take any triangle BA1 C ins ribed in ω su h that BC is a diameter; its perimeter is greater
+than 2BC “ 4. To perform the indu tive step, assume that the pn ` 2q-gon BA1 A2 . . . An C is
+already onstru ted. Sin e An B ` An C ` BC ą 4, one an hoose a point An`1 on the small
+Őn , lose enough to C , so that An B ` An An`1 ` BAn`1 is still greater than 4. Thus ea h
+ar CA
+of these new triangles BAn An`1 and BAn`1 C has perimeter greater than 4, whi h ompletes
+the indu tion step.
+A2
+
+A1
+
+A3
+C
+
+B
+
+We pro eed by showing that no t ą 4 satises the onditions of the problem. To this end,
+we assume that there exists a good olle tion T of n triangles, ea h of perimeter greater than t,
+and then bound n from above.
+Take ε ą 0 su h that t “ 4 ` 2ε.
+
+Claim. There exists a positive onstant σ “ σpεq su h that any triangle ∆ with perimeter
+
+2s ě 4 ` 2ε, ins ribed in ω , has area Sp∆q at least σ .
+Proof. Let a, b, c be the side lengths of ∆. Sin e ∆ is ins ribed in ω , ea h side has length at
+most 2. Therefore,
+By Heron's
+as ´ a ě p2 ` εq ´ 2 “ ε.aSimilarly, s ´ b ě ε and s ´ c ě ε. a
+3
+formula, Sp∆q “ sps ´ aqps ´ bqps ´ cq ě p2 ` εqε . Thus we an set σpεq “ p2 ` εqε3 .
+l
+Now we see that the total area S of all triangles from T is at least nσpεq. On the other
+hand, S does not ex eed the area of the disk bounded by ω . Thus nσpεq ď π , whi h means
+that n is bounded from above.
+
+Comment 1. One may prove the Claim using the formula S “
+
+abc
+instead of Heron's formula.
+4R
+
+Comment 2. In the statement of the problem ondition piq ould be repla ed by a weaker one: ea h
+
+triangle from T lies within ω . This does not ae t the solution above, but redu es the number of ways
+to prove the Claim.
+
+Shortlisted problems  solutions
+
+This page is intentionally left blank
+
+41
+
+42
+
+Cluj-Napo a  Romania, 314 July 2018
+
+G4.
+
+A point T is hosen inside a triangle ABC . Let A1 , B1 , and C1 be the ree tions
+of T in BC , CA, and AB , respe tively. Let Ω be the ir um ir le of the triangle A1 B1 C1 .
+The lines A1 T , B1 T , and C1 T meet Ω again at A2 , B2 , and C2 , respe tively. Prove that the
+lines AA2 , BB2 , and CC2 are on urrent on Ω.
+
+(Mongolia)
+
+Solution. By ?pℓ, nq we always mean the dire ted angle of the lines ℓ and n, taken modulo 180˝ .
+
+Let CC2 meet Ω again at K (as usual, if CC2 is tangent to Ω, we set T “ C2 ). We show
+that the line BB2 ontains K ; similarly, AA2 will also pass through K . For this purpose, it
+su es to prove that
+?pC2 C, C2 A1 q “ ?pB2 B, B2 A1 q.
+(1)
+By the problem ondition, CB and CA are the perpendi ular bise tors of T A1 and T B1 ,
+respe tively. Hen e, C is the ir um entre of the triangle A1 T B1 . Therefore,
+
+?pCA1 , CBq “ ?pCB, CT q “ ?pB1 A1 , B1 T q “ ?pB1 A1 , B1 B2 q.
+In ir le Ω we have ?pB1 A1 , B1 B2 q “ ?pC2 A1 , C2 B2 q. Thus,
+
+?pCA1 , CBq “ ?pB1 A1 , B1 B2 q “ ?pC2 A1 , C2 B2 q.
+
+(2)
+
+?pBA1 , BCq “ ?pC1 A1 , C1 C2 q “ ?pB2 A1 , B2 C2 q.
+
+(3)
+
+Similarly, we get
+The two obtained relations yield that the triangles A1 BC and A1 B2 C2 are similar and
+equioriented, hen e
+
+A1 B2
+A1 C2
+“
+A1 B
+A1 C
+
+and
+
+?pA1 B, A1 Cq “ ?pA1 B2 , A1 C2 q.
+
+The se ond equality may be rewritten as ?pA1 B, A1 B2 q “ ?pA1 C, A1 C2 q, so the triangles
+A1 BB2 and A1 CC2 are also similar and equioriented. This establishes (1).
+C1
+
+A2
+A
+A
+K
+
+Ω
+
+B1
+TT
+
+B22222
+B
+B
+
+C
+
+C2
+A11111
+A
+
+Comment 1.
+at A1 ; in this
+
+In fa t, the triangle A1 BC is an image of A1 B2 C2 under a spiral similarity
+ase, the triangles ABB2 and ACC2 are also spirally similar with the same
+
+entred
+
+entre.
+
+Shortlisted problems  solutions
+
+43
+
+Comment 2. After obtaining (2) and (3), one an nish the solution in dierent ways.
+For instan e, introdu ing the point X “ BC XB2 C2 , one gets from these relations that the 4-tuples
+pA1 , B, B2 , Xq and pA1 , C, C2 , Xq are both y li . Therefore, K is the Miquel point of the lines BB2 ,
+CC2 , BC , and B2 C2 ; this yields that the meeting point of BB2 and CC2 lies on Ω.
+Yet another way is to show that the points A1 , B , C , and K are
+
+on y li , as
+
+?pKC, KA1 q “ ?pB2 C2 , B2 A1 q “ ?pBC, BA1 q.
+By symmetry, the se ond point K
+
+1 of interse tion of BB
+
+1
+hen e K “ K .
+
+2 with Ω is also
+
+to A1 , B , and C ,
+
+on y li
+
+A2
+
+C1
+
+A
+A
+K
+
+Ω
+C′′′′′
+C
+C
+C
+
+TT
+
+B1
+B′′′′′
+B
+
+B
+B
+
+B22222
+B
+A′
+
+B
+B
+
+X
+X
+
+C
+
+C2
+A
+A11111
+
+Comment 3.
+
+The requirement that the
+
+ommon point of the lines AA2 , BB2 , and CC2 should lie
+
+on Ω may seem to make the problem easier, sin e it suggests some approa hes. On the other hand,
+there are also dierent ways of showing that the lines AA2 , BB2 , and CC2 are just
+In parti ular, the problem
+the
+
+orresponding sides of the triangle ABC . One may show that the lines AT , BT , and CT are also
+
+perpendi ular to the
+are
+
+on urrent.
+
+onditions yield that the lines A2 T , B2 T , and C2 T are perpendi ular to
+
+orresponding sides of the triangle A2 B2 C2 , i.e., the triangles ABC and A2 B2 C2
+
+orthologi , and their orthology entres oin ide. It is known that su h triangles are also perspe tive,
+
+i.e. the lines AA2 , BB2 , and CC2 are
+
+on urrent (in proje tive sense).
+
+To show this mutual orthology, one may again apply angle hasing, but there are also other methods.
+
+1
+
+1
+1 be the proje tions of T onto the sides of the triangle ABC . Then A T ¨ T A1 “
+2
+1
+B2 T ¨ T B “ C2 T ¨ T C 1 , sin e all three produ ts equal (minus) half the power of T with respe t to Ω.
+
+Let A , B , and C
+
+This means that A2 , B2 , and C2 are the poles of the sidelines of the triangle ABC with respe t to
+some
+
+ir le
+
+entred at T and having
+
+pure imaginary radius (in other words, the ree tions of A2 , B2 ,
+
+and C2 in T are the poles of those sidelines with respe t to some regular
+
+ir le
+
+entred at T ). Hen e,
+
+dually, the verti es of the triangle ABC are also the poles of the sidelines of the triangle A2 B2 C2 .
+
+44
+
+Cluj-Napo a  Romania, 314 July 2018
+
+G5.
+
+Let ABC be a triangle with ir um ir le ω and in entre I . A line ℓ interse ts the
+lines AI , BI , and CI at points D , E , and F , respe tively, distin t from the points A, B , C ,
+and I . The perpendi ular bise tors x, y , and z of the segments AD , BE , and CF , respe tively
+determine a triangle Θ. Show that the ir um ir le of the triangle Θ is tangent to ω .
+
+(Denmark)
+
+Let X “ y X z , Y “ x X z , Z “ x X y and let Ω denote the ir um ir le of the
+triangle XY Z . Denote by X0 , Y0 , and Z0 the se ond interse tion points of AI , BI and CI ,
+respe tively, with ω . It is known that Y0 Z0 is the perpendi ular bise tor of AI , Z0 X0 is the
+perpendi ular bise tor of BI , and X0 Y0 is the perpendi ular bise tor of CI . In parti ular, the
+triangles XY Z and X0 Y0 Z0 are homotheti , be ause their orresponding sides are parallel.
+The solutions below mostly exploit the following approa h. Consider the triangles XY Z
+and X0 Y0 Z0 , or some other pair of homotheti triangles ∆ and δ ins ribed into Ω and ω ,
+respe tively. In order to prove that Ω and ω are tangent, it su es to show that the entre T
+of the homothety taking ∆ to δ lies on ω (or Ω), or, in other words, to show that ∆ and δ are
+perspe tive (i.e., the lines joining orresponding verti es are on urrent), with their perspe tor
+lying on ω (or Ω).
+We use dire ted angles throughout all the solutions.
+
+Preamble.
+
+Solution 1.
+
+Claim 1. The ree tions ℓa , ℓb and ℓc of the line ℓ in the lines x, y , and z , respe tively, are
+on urrent at a point T whi h belongs to ω .
+
+T
+
+A
+
+Y0
+
+la
+
+Y
+
+l
+Z0
+
+I
+
+Z
+
+x
+
+w
+
+F
+
+D
+
+W
+
+lc
+
+B
+
+C
+
+E
+Dc
+lb
+
+y
+
+X0
+
+z
+
+Db
+
+X
+
+Proof. Noti e that ?pℓb , ℓcq “ ?pℓb , ℓq ` ?pℓ, ℓc q “ 2?py, ℓq ` 2?pℓ, zq “ 2?py, zq. But y K BI
+and z K CI implies ?py, zq “ ?pBI, ICq, so, sin e 2?pBI, ICq “ ?pBA, ACq, we obtain
+
+?pℓb , ℓc q “ ?pBA, ACq.
+
+p1q
+
+Sin e A is the ree tion of D in x, A belongs to ℓa ; similarly, B belongs to ℓb . Then p1q
+shows that the ommon point T 1 of ℓa and ℓb lies on ω ; similarly, the ommon point T 2 of ℓc
+and ℓb lies on ω .
+If B R ℓa and B R ℓc , then T 1 and T 2 are the se ond point of interse tion of ℓb and ω , hen e
+they oin ide. Otherwise, if, say, B P ℓc , then ℓc “ BC , so ?pBA, ACq “ ?pℓb , ℓc q “ ?pℓb , BCq,
+whi h shows that ℓb is tangent at B to ω and T 1 “ T 2 “ B . So T 1 and T 2 oin ide in all the
+ases, and the on lusion of the laim follows.
+l
+
+Shortlisted problems  solutions
+
+45
+
+Now we prove that X , X0 , T are ollinear. Denote by Db and Dc the ree tions of the point
+D in the lines y and z , respe tively. Then Db lies on ℓb , Dc lies on ℓc , and
+
+?pDb X, XDc q “ ?pDb X, DXq ` ?pDX, XDc q “ 2?py, DXq ` 2?pDX, zq “ 2?py, zq
+“ ?pBA, ACq “ ?pBT, T Cq,
+hen e the quadrilateral XDb T Dc is y li . Noti e also that sin e XDb “ XD “ XDc , the
+points D, Db , Dc lie on a ir le with entre X . Using in this ir le the diameter Dc Dc1 yields
+?pDb Dc , Dc Xq “ 90˝ ` ?pDb Dc1 , Dc1 Xq “ 90˝ ` ?pDb D, DDc q. Therefore,
+
+?pℓb , XT q “ ?pDb T, XT q “ ?pDb Dc , Dc Xq “ 90˝ ` ?pDb D, DDc q
+“ 90˝ ` ?pBI, ICq “ ?pBA, AIq “ ?pBA, AX0 q “ ?pBT, T X0 q “ ?pℓb , X0 T q,
+so the points X , X0 , T are ollinear. By a similar argument, Y, Y0 , T and Z, Z0 , T are ollinear.
+As mentioned in the preamble, the statement of the problem follows.
+
+Comment 1. After proving Claim 1 one may pro eed in another way. As it was shown, the ree tions
+of ℓ in the sidelines of XY Z are
+
+on urrent at T . Thus ℓ is the Steiner line of T with respe t to ∆XY Z
+
+ontaining the ree tions Ta , Tb , Tc of T in the sidelines of XY Z ). The properties of
+
+(that is the line
+
+the Steiner line imply that T lies on Ω, and ℓ passes through the ortho entre H of the triangle XY Z .
+
+Ha
+
+T
+
+A
+
+la
+
+lc
+
+lb
+
+Y
+
+l
+Z
+
+x
+
+Ta
+
+I
+
+W
+
+w
+
+H
+
+D
+
+B
+
+Tc
+
+F
+C
+
+E
+Hb
+
+Hc
+
+y
+
+z
+
+Tb
+X
+Let Ha , Hb , and Hc be the ree tions of the point H in the lines x, y , and z , respe tively. Then
+the triangle Ha Hb Hc is ins ribed in Ω and homotheti
+
+to ABC (by an easy angle hasing). Sin e
+Ha P ℓa , Hb P ℓb , and Hc P ℓc , the triangles Ha Hb Hc and ABC form a required pair of triangles ∆ and
+δ mentioned in the preamble.
+
+Comment 2.
+
+The following observation shows how one may guess the des ription of the tangen y
+
+point T from Solution 1.
+Let us x a dire tion and move the line ℓ parallel to this dire tion with
+Then the points D , E , and F are moving with
+respe tively. In this
+
+ase x, y , and z are moving with
+
+triangles XY Z with a
+
+ommon
+
+We may spe ify the lo ation of T
+
+on urrent. In this degenerate
+
+ommon point. Note that the lines ℓa , ℓb , ℓc remain
+Thus T should be the
+
+onstant speeds, dening a family of homotheti
+
+entre of homothety T . Noti e that the triangle X0 Y0 Z0 belongs to
+
+this family (for ℓ passing through I ).
+ase when x, y , and z are
+
+onstant speed.
+
+onstant speeds along the lines AI , BI , and CI ,
+
+onsidering the degenerate
+
+ase all the lines x, y , z , ℓ, ℓa , ℓb , ℓc have a
+
+onstant as ℓ is moving (keeping its dire tion).
+
+ommon point of ℓa , ℓb , and ℓc , lying on ω .
+
+46
+
+Cluj-Napo a  Romania, 314 July 2018
+
+Solution 2. As mentioned in the preamble, it is su ient to prove that the entre T of the
+
+homothety taking XY Z to X0 Y0 Z0 belongs to ω . Thus, it su es to prove that ?pT X0 , T Y0 q “
+?pZ0 X0 , Z0 Y0 q, or, equivalently, ?pXX0 , Y Y0 q “ ?pZ0 X0 , Z0 Y0 q.
+Re all that Y Z and Y0 Z0 are the perpendi ular bise tors of AD and AI , respe tively. Then,
+ÝÑ
+Ý
+the ve tor Ñ
+x perpendi ular to Y Z and shifting the line Y0 Z0 to Y Z is equal to 12 ID. Dene
+ÝÑ Ý
+ÝÑ
+Ý
+the shifting ve tors Ñ
+y “ 21 IE , Ñ
+z “ 12 IF similarly. Consider now the triangle UV W formed by
+the perpendi ulars to AI , BI , and CI through D , E , and F , respe tively (see gure below).
+This is another triangle whose sides are parallel to the orresponding sides of XY Z .
+Ñ
+ÝÝÝÑ ÝÑ
+ÝÝÑ ÝÝÑ
+ÝÝÑ
+Claim 2. Ý
+IU “ 2X0 X , IV “ 2Y0 Y , IW “ 2Z0 Z .
+
+Proof. We prove one of the relations, the other proofs being similar. To prove the equality of two
+ve tors it su es to proje t them onto two non-parallel axes and he k that their proje tions
+are equal.
+ÝÝÝÑ
+ÝÑ
+ÝÑ
+The proje tion of X0 X onto IB equals ~y , while the proje tion of IU onto IB is IE “ 2~y .
+ÝÑ
+ÝÑ
+ÝÝÝÑ
+The proje tions onto the other axis IC are ~z and IF “ 2~z. Then IU “ 2X0 X follows.
+l
+
+Noti e that the line ℓ is the Simson line of the point I with respe t to the triangle UV W ;
+thus U , V , W , and I are on y li . It follows from Claim 2 that ?pXX0 , Y Y0 q “ ?pIU, IV q “
+?pW U, W V q “ ?pZ0 X0 , Z0 Y0 q, and we are done.
+V
+Y
+
+l
+
+Ib
+
+u
+x
+
+W
+
+Y0
+w
+
+F
+
+C
+
+A
+T
+
+w
+
+D
+
+I
+Z0
+
+z
+
+X0
+Ia
+
+B
+y
+
+Ic
+
+Z
+
+E
+
+X
+
+U
+
+v
+
+W
+
+Solution 3. Let Ia , Ib , and Ic be the ex entres of triangle ABC orresponding to A, B , and
+
+C , respe tively. Also, let u, v , and w be the lines through D , E , and F whi h are perpendi ular
+to AI , BI , and CI , respe tively, and let UV W be the triangle determined by these lines, where
+u “ V W , v “ UW and w “ UV (see gure above).
+Noti e that the line u is the ree tion of Ib Ic in the line x, be ause u, x, and Ib Ic are
+perpendi ular to AD and x is the perpendi ular bise tor of AD . Likewise, v and Ia Ic are
+ree tions of ea h other in y , while w and Ia Ib are ree tions of ea h other in z . It follows that
+X , Y , and Z are the midpoints of UIa , V Ib and W Ic , respe tively, and that the triangles UV W ,
+XY Z and Ia Ib Ic are either translates of ea h other or homotheti with a ommon homothety
+entre.
+Constru t the points T and S su h that the quadrilaterals UV IW , XY T Z and Ia Ib SIc are
+homotheti . Then T is the midpoint of IS . Moreover, note that ℓ is the Simson line of the
+point I with respe t to the triangle UV W , hen e I belongs to the ir um ir le of the triangle
+UV W , therefore T belongs to Ω.
+
+Shortlisted problems  solutions
+
+47
+
+Consider now the homothety or translation h1 that maps XY ZT to Ia Ib Ic S and the homothety h2 with entre I and fa tor 12 . Furthermore, let h “ h2 ˝ h1 . The transform h an be a
+homothety or a translation, and
+
+h pT q “ h2 ph1 pT qq “ h2 pSq “ T,
+hen e T is a xed point of h. So, h is a homothety with entre T . Note that h2 maps the
+ex entres Ia , Ib , Ic to X0 , Y0 , Z0 dened in the preamble. Thus the entre T of the homothety
+taking XY Z to X0 Y0 Z0 belongs to Ω, and this ompletes the proof.
+
+48
+
+Cluj-Napo a  Romania, 314 July 2018
+
+G6.
+
+A onvex quadrilateral ABCD satises AB ¨ CD “ BC ¨ DA. A point X is hosen
+inside the quadrilateral so that =XAB “ =XCD and =XBC “ =XDA. Prove that =AXB `
+=CXD “ 180˝.
+
+(Poland)
+
+Let B 1 be the ree tion of B in the internal angle bise tor of =AXC , so that
+=AXB 1 “ =CXB and =CXB 1 “ =AXB . If X , D , and B 1 are ollinear, then we are done.
+Now assume the ontrary.
+On the ray XB 1 take a point E su h that XE ¨ XB “ XA ¨ XC , so that △AXE „
+△BXC and △CXE „ △BXA. We have =XCE ` =XCD “ =XBA ` =XAB ă 180˝ and
+=XAE ` =XAD “ =XDA ` =XAD ă 180˝ , whi h proves that X lies inside the angles
+=ECD and =EAD of the quadrilateral EADC . Moreover, X lies in the interior of exa tly
+one of the two triangles EAD , ECD (and in the exterior of the other).
+Solution 1.
+
+B’
+
+E
+
+C
+
+B
+
+X
+
+A
+D
+
+The similarities mentioned above imply XA ¨ BC “ XB ¨ AE and XB ¨ CE “ XC ¨ AB .
+Multiplying these equalities with the given equality AB ¨ CD “ BC ¨ DA, we obtain XA ¨ CD ¨
+CE “ XC ¨ AD ¨ AE , or, equivalently,
+
+XA ¨ DE
+XC ¨ DE
+“
+.
+AD ¨ AE
+CD ¨ CE
+
+p˚q
+
+Lemma. Let P QR be a triangle, and let X be a point in the interior of the angle QP R su h that
+
+P X ¨ QR
+ă 1 if and only if X lies in the interior of the triangle P QR.
+PQ ¨ PR
+Proof. The lo us of points X with =QP X “ =P RX lying inside the angle QP R is an ar α
+of the ir le γ through R tangent to P Q at P . Let γ interse t the line QR again at Y (if γ
+PQ ¨ PR
+.
+is tangent to QR, then set Y “ R). The similarity △QP Y „ △QRP yields P Y “
+QR
+Now it su es to show that P X ă P Y if and only if X lies in the interior of the triangle P QR.
+Let m be a line through Y parallel to P Q. Noti e that the points Z of γ satisfying P Z ă P Y
+are exa tly those between the lines m and P Q.
+=QP X “ =P RX . Then
+
+Case 1: Y lies in the segment QR (see the left gure below).
+Ŋ
+Ŋ
+Ŋ
+In this ase Y splits α into two ar s P
+Y and Y
+R. The ar P
+Y lies inside the triangle P QR,
+Ŋ
+Ŋ
+Ŋ
+and P Y lies between m and P Q, hen e P X ă P Y for points X P P
+R
+Y . The other ar Y
+Ŋ
+lies outside triangle P QR, and Y R is on the opposite side of m than P , hen e P X ą P Y for
+Ŋ
+X PY
+R.
+
+Shortlisted problems  solutions
+
+49
+
+Case 2: Y lies on the ray QR beyond R (see the right gure below).
+In this ase the whole ar α lies inside triangle P QR, and between m and P Q, thus P X ă
+P Y for all X P α.
+l
+P
+
+P
+R
+X
+Q
+
+Q
+
+Y
+
+R
+Y
+
+X
+
+Applying the Lemma (to △EAD with the point X , and to △ECD with the point X ),
+XA ¨ DE
+XC ¨ DE
+and
+is less than 1, whi h
+we obtain that exa tly one of two expressions
+AD ¨ AE
+CD ¨ CE
+ontradi ts (˚).
+
+Comment 1.
+
+One may show that AB ¨ CD “ XA ¨ XC ` XB ¨ XD . We know that D, X, E are
+
+˝ ´ =AXB . Therefore,
+
+ollinear and =DCE “ =CXD “ 180
+
+AB ¨ CD “ XB ¨
+
+sin =AXB
+sin =CED
+¨ DE ¨
+“ XB ¨ DE.
+sin =BAX
+sin =DCE
+
+Furthermore, XB ¨ DE “ XB ¨ pXD ` XEq “ XB ¨ XD ` XB ¨ XE “ XB ¨ XD ` XA ¨ XC .
+
+Comment 2. For a onvex quadrilateral ABCD with AB ¨ CD “ BC ¨ DA, it is known that
+=DAC ` =ABD ` =BCA ` =CDB “ 180˝ (among other, it was used as a problem on the Regional
+
+round of All-Russian olympiad in 2012), but it seems that there is no essential
+
+onne tion between this
+
+fa t and the original problem.
+
+Solution 2.
+
+that
+
+The solution onsists of two parts. In Part 1 we show that it su es to prove
+
+and
+
+XB
+AB
+“
+XD
+CD
+
+p1q
+
+DA
+XA
+“
+.
+XC
+BC
+
+p2q
+
+In Part 2 we establish these equalities.
+Part 1. Using the sine law and applying (1) we obtain
+
+AB
+CD
+sin =CXD
+sin =AXB
+“
+“
+“
+,
+sin =XAB
+XB
+XD
+sin =XCD
+so sin =AXB “ sin =CXD by the problem onditions. Similarly, (2) yields sin =DXA “
+sin =BXC . If at least one of the pairs p=AXB, =CXDq and p=BXC, =DXAq onsists of
+supplementary angles, then we are done. Otherwise, =AXB “ =CXD and =DXA “ =BXC .
+In this ase X “ AC X BD , and the problem onditions yield that ABCD is a parallelogram
+and hen e a rhombus. In this last ase the laim also holds.
+Part 2. To prove the desired equality (1), invert ABCD at entre X with unit radius; the
+
+images of points are denoted by primes.
+We have
+
+=A1 B 1 C 1 “ =XB 1 A1 ` =XB 1 C 1 “ =XAB ` =XCB “ =XCD ` =XCB “ =BCD.
+
+50
+
+Cluj-Napo a  Romania, 314 July 2018
+
+Similarly, the orresponding angles of quadrilaterals ABCD and D 1 A1 B 1 C 1 are equal.
+Moreover, we have
+
+A1 B 1 ¨ C 1 D 1 “
+
+AB
+CD
+BC
+DA
+¨
+“
+¨
+“ B 1 C 1 ¨ D 1 A1 .
+XA ¨ XB XC ¨ XD
+XB ¨ XC XD ¨ DA
+B′
+B
+
+X
+
+7→
+
+A
+
+X
+A′
+
+C′
+
+C
+D
+
+D′
+
+Now we need the following Lemma.
+Lemma. Assume that the orresponding angles of onvex quadrilaterals XY ZT and X 1 Y 1 Z 1 T 1
+are equal, and that XY ¨ ZT “ Y Z ¨ T X and X 1 Y 1 ¨ Z 1 T 1 “ Y 1 Z 1 ¨ T 1 X 1 . Then the two
+quadrilaterals are similar.
+Proof. Take the quadrilateral XY Z1 T1 similar to X 1 Y 1 Z 1 T 1 and sharing the side XY with
+XY ZT , su h that Z1 and T1 lie on the rays Y Z and XT , respe tively, and Z1 T1 k ZT . We
+need to prove that Z1 “ Z and T1 “ T . Assume the ontrary. Without loss of generality,
+T X ą XT1 . Let segments XZ and Z1 T1 interse t at U . We have
+
+T1 X
+T1 X
+TX
+XY
+XY
+ă
+,
+“
+“
+ă
+T1 Z1
+T1 U
+ZT
+YZ
+Y Z1
+
+thus T1 X ¨ Y Z1 ă T1 Z1 ¨ XY . A ontradi tion.
+
+l
+
+X
+
+Y
+
+Z1
+T1
+
+U
+Z
+
+T
+
+It follows from the Lemma that the quadrilaterals ABCD and D 1 A1 B 1 C 1 are similar, hen e
+
+and therefore
+
+BC
+A1 B 1
+AB
+XD ¨ XA
+AB XD
+“ 1 1 “
+¨
+“
+¨
+,
+AB
+DA
+XA ¨ XB
+DA
+AD XB
+
+XB
+AB 2
+AB 2
+AB
+“
+“
+“
+.
+XD
+BC ¨ AD
+AB ¨ CD
+CD
+We obtain (1), as desired; (2) is proved similarly.
+
+Comment. Part 1 is an easy one, while part 2 seems to be
+
+ru ial.
+
+On the other hand, after the
+
+D 1 A1 B 1 C 1 „ ABCD one may nish the solution in dierent ways, e.g., as
+1 1 1 1
+1
+follows. The similarity taking D A B C to ABCD maps X to the point X isogonally onjugate
+1
+1
+of X with respe t to ABCD (i.e. to the point X inside ABCD su h that =BAX “ =DAX ,
+1
+1
+1
+=CBX “ =ABX , =DCX “ =BCX , =ADX “ =CDX ). It is known that the required equality
+=AXB ` =CXD “ 180˝ is one of known onditions on a point X inside ABCD equivalent to the
+proof of the similarity
+
+existen e of its isogonal
+
+onjugate.
+
+Shortlisted problems  solutions
+
+This page is intentionally left blank
+
+51
+
+52
+
+Cluj-Napo a  Romania, 314 July 2018
+
+G7. Let O be the ir um entre, and Ω be the ir um ir le of an a ute-angled triangle ABC .
+
+Let P be an arbitrary point on Ω, distin t from A, B , C , and their antipodes in Ω. Denote
+the ir um entres of the triangles AOP , BOP , and COP by OA , OB , and OC , respe tively.
+The lines ℓA , ℓB , and ℓC perpendi ular to BC , CA, and AB pass through OA , OB , and OC ,
+respe tively. Prove that the ir um ir le of the triangle formed by ℓA , ℓB , and ℓC is tangent to
+the line OP .
+
+(Russia)
+
+Solution. As usual, we denote the dire ted angle between the lines a and b by ?pa, bq. We
+
+frequently use the fa t that a1 K a2 and b1 K b2 yield ?pa1 , b1 q “ ?pa2 , b2 q.
+Let the lines ℓB and ℓC meet at LA ; dene the points LB and LC similarly. Note that
+the sidelines of the triangle LA LB LC are perpendi ular to the orresponding sidelines of ABC .
+Points OA , OB , OC are lo ated on the orresponding sidelines of LA LB LC ; moreover, OA , OB ,
+OC all lie on the perpendi ular bise tor of OP .
+A
+
+L
+L
+LC
+C
+C
+C
+C
+ωC
+Ω
+C
+C
+
+O
+O
+OA
+A
+A
+A
+A
+
+ωB
+
+O
+L
+L
+LA
+A
+A
+A
+A
+
+B
+
+O
+O
+OCC
+C
+C
+C
+
+O
+O
+OB
+B
+B
+B
+B
+P
+P
+P
+P
+LB
+
+Claim 1. The points LB , P , OA , and OC are on y li .
+Proof. Sin e O is symmetri to P in OAOC , we have
+?pOA P, OC P q “ ?pOC O, OA Oq “ ?pCP, AP q “ ?pCB, ABq “ ?pOA LB , OC LB q.
+
+l
+
+Denote the ir le through LB , P , OA , and OC by ωB . Dene the ir les ωA and ωC similarly.
+Claim 2. The ir um ir le of the triangle LA LB LC passes through P .
+Proof. From y li quadruples of points in the ir les ωB and ωC , we have
+
+?pLC LA , LC P q “ ?pLC OB , LC P q “ ?pOA OB , OA P q
+“ ?pOA OC , OA P q “ ?pLB OC , LB P q “ ?pLB LA , LB P q.
+
+l
+
+Claim 3. The points P , LC , and C are ollinear.
+Proof. We have ?pP LC , LC LA q “ ?pP LC , LC OB q “ ?pP OA, OAOB q. Further, sin e OA is
+
+the entre of the ir le AOP , ?pP OA , OA OB q “ ?pP A, AOq. As O is the ir um entre of the
+triangle P CA, ?pP A, AOq “ π{2 ´ ?pCA, CP q “ ?pCP, LC LA q. We obtain ?pP LC , LC LA q “
+?pCP, LC LA q, whi h shows that P P CLC .
+l
+
+Shortlisted problems  solutions
+
+53
+
+Similarly, the points P , LA , A are ollinear, and the points P , LB , B are also ollinear.
+Finally, the omputation above also shows that
+
+?pOP, P LA q “ ?pP A, AOq “ ?pP LC , LC LA q,
+whi h means that OP is tangent to the ir le P LA LB LC .
+
+Comment 1. The proof of Claim 2 may be repla ed by the following remark: sin e P belongs to the
+ir les ωA and ωC , P is the Miquel point of the four lines ℓA , ℓB , ℓC , and OA OB OC .
+
+Comment 2. Claims 2 and 3 an be proved in several dierent ways and, in parti ular, in the reverse
+order.
+Claim 3 implies that the triangles ABC and LA LB LC are perspe tive with perspe tor P . Claim 2
+an be derived from this observation using spiral similarity. Consider the
+that maps ABC to LA LB LC .
+
+entre Q of the spiral similarity
+
+From known spiral similarity properties, the points LA , LB , P, Q are
+
+on y li , and so are LA , LC , P, Q.
+
+Comment 3. The nal on lusion an also be proved it terms of spiral similarity: the spiral similarity
+with
+
+entre Q lo ated on the
+
+ir le ABC maps the
+
+ir le ABC to the
+
+ir le P LA LB LC . Thus these
+
+ir les are orthogonal.
+
+Comment 4. Noti e that the homothety with entre O and ratio 2 takes OA to A1 that is the ommon
+1 and O to C 1 . Let
+C
+2
+2
+2
+the tangents to Ω at B and C meet at A , and dene the points B and C similarly. Now, repla ing
+point of tangents to Ω at A and P . Similarly, let this homothety take OB to B
+
+2
+
+2
+
+labels O with I , Ω with ω , and swapping labels A Ø A , B Ø B , C Ø C
+
+2 we obtain the following
+
+Reformulation. Let ω be the in ir le, and let I be the in entre of a triangle ABC . Let P be
+
+a point of ω (other than the points of
+
+onta t of ω with the sides of ABC ). The tangent to ω at P
+
+1
+
+1
+
+1
+
+meets the lines AB , BC , and CA at A , B , and C , respe tively.
+
+1
+angle bise tor of =BAC passes through A ; dene lines ℓ
+tangent to the
+
+Line ℓA parallel to the internal
+
+B and ℓC similarly. Prove that the line IP is
+
+ir um ir le of the triangle formed by ℓA , ℓB , and ℓC .
+
+Though this formulation is equivalent to the original one, it seems more
+of
+
+onta t is now hidden.
+
+hallenging, sin e the point
+
+54
+
+Cluj-Napo a  Romania, 314 July 2018
+
+Number Theory
+N1. Determine all pairs pn, kq of distin t positive integers su h that there exists a positive
+
+integer s for whi h the numbers of divisors of sn and of sk are equal.
+
+(Ukraine)
+
+Answer: All pairs pn, kq su h that n ∤ k and k ∤ n.
+
+Solution. As usual, the number of divisors of a positive integer n is denoted by dpnq. If
+
+ś
+ś
+n “ i pαi i is the prime fa torisation of n, then dpnq “ i pαi ` 1q.
+We start by showing that one annot nd any suitable number s if k | n or n | k (and
+k ‰ n). Suppose that n | k , and hoose any positive integer s. Then the set of divisors of sn is
+a proper subset of that of sk , hen e dpsnq ă dpskq. Therefore, the pair pn, kq does not satisfy
+the problem requirements. The ase k | n is similar.
+Now assume that n ∤ k and k ∤ n. Let p1 , . . . , pt be all primes dividing nk , and onsider the
+prime fa torisations
+t
+t
+ź
+ź
+αi
+n“
+pi and k “
+pβi i .
+i“1
+
+i“1
+
+It is reasonable to sear h for the number s having the form
+
+s“
+
+t
+ź
+pγi i .
+i“1
+
+The (nonnegative integer) exponents γi should be hosen so as to satisfy
+t
+dpsnq ź αi ` γi ` 1
+“
+“ 1.
+dpskq i“1 βi ` γi ` 1
+
+(1)
+
+First of all, if αi “ βi for some i, then, regardless of the value of γi , the orresponding fa tor
+in (1) equals 1 and does not ae t the produ t. So we may assume that there is no su h index i.
+For the other fa tors in (1), the following lemma is useful.
+Lemma. Let α ą β be nonnegative integers. Then, for every integer M ě β ` 1, there exists a
+nonnegative integer γ su h that
+
+Proof.
+
+α`γ`1
+1
+M `1
+“1`
+“
+.
+β`γ`1
+M
+M
+α`γ`1
+1
+α´β
+1
+“1`
+ðñ
+“
+ðñ γ “ Mpα ´ βq ´ pβ ` 1q ě 0.
+β`γ`1
+M
+β`γ`1
+M
+
+l
+
+Now we an nish the solution. Without loss of generality, there exists an index u su h that
+αi ą βi for i “ 1, 2, . . . , u, and αi ă βi for i “ u ` 1, . . . , t. The onditions n ∤ k and k ∤ n mean
+that 1 ď u ď t ´ 1.
+Choose an integer X greater than all the αi and βi . By the lemma, we an dene the
+numbers γi so as to satisfy
+
+uX ` i
+αi ` γ i ` 1
+“
+βi ` γi ` 1
+uX ` i ´ 1
+pt ´ uqX ` i
+βu`i ` γu`i ` 1
+“
+αu`i ` γu`i ` 1
+pt ´ uqX ` i ´ 1
+
+for i “ 1, 2, . . . , u, and
+for i “ 1, 2, . . . , t ´ u.
+
+Shortlisted problems  solutions
+
+55
+
+Then we will have
+u
+t´u
+ź
+dpsnq ź uX ` i
+upX ` 1q
+pt ´ uqX
+pt ´ uqX ` i ´ 1
+“
+¨
+“
+¨
+“ 1,
+dpskq
+uX ` i ´ 1 i“1 pt ´ uqX ` i
+uX
+pt ´ uqpX ` 1q
+i“1
+
+as required.
+
+Comment. The lemma
+
+an be used in various ways, in order to provide a suitable value of s.
+
+parti ular, one may apply indu tion on the number t of prime fa tors, using identities like
+
+n2
+n`1
+n
+“ 2
+¨
+.
+n´1
+n ´1
+n
+
+In
+
+56
+
+Cluj-Napo a  Romania, 314 July 2018
+
+N2.
+
+Let n ą 1 be a positive integer. Ea h ell of an n ˆ n table ontains an integer.
+Suppose that the following onditions are satised:
+
+piq Ea h number in the table is ongruent to 1 modulo n;
+piiq The sum of numbers in any row, as well as the sum of numbers in any olumn, is ongruent
+to n modulo n2 .
+Let Ri be the produ t of the numbers in the ith row, and Cj be the produ t of the numbers in
+the j th olumn. Prove that the sums R1 ` ¨ ¨ ¨ ` Rn and C1 ` ¨ ¨ ¨ ` Cn are ongruent modulo n4 .
+
+(Indonesia)
+
+Solution 1. Let Ai,j be the entry in the ith row and the j th olumn; let P be the produ t of
+
+all n2 entries. For onvenien e, denote ai,j “ Ai,j ´ 1 and ri “ Ri ´ 1. We show that
+n
+ÿ
+
+i“1
+
+Ri ” pn ´ 1q ` P
+
+(1)
+
+pmod n4 q.
+
+Due to symmetry of the problem onditions, the sum of all the Cj is also ongruent to pn ´ 1q`P
+modulo n4 , when e the on lusion.
+By ondition piq, the number n divides ai,j for all i and j . So, every produ t of at least two
+of the ai,j is divisible by n2 , hen e
+
+Ri “
+
+n
+n
+ź
+ÿ
+p1`ai,j q “ 1` ai,j `
+j“1
+
+j“1
+
+ÿ
+
+1ďj1 ăj2 ďn
+
+ai,j1 ai,j2 `¨ ¨ ¨ ” 1`
+
+n
+ÿ
+
+j“1
+
+ai,j ” 1´n`
+
+n
+ÿ
+
+Ai,j
+
+j“1
+
+pmod n2 q
+
+for every index i. Using ondition piiq, we obtain Ri ” 1 pmod n2 q, and so n2 | ri .
+Therefore, every produ t of at least two of the ri is divisible by n4 . Repeating the same
+argument, we obtain
+
+P “
+when e
+
+n
+ÿ
+
+i“1
+
+as desired.
+
+n
+ź
+i“1
+
+n
+n
+ÿ
+ź
+ri
+p1 ` ri q ” 1 `
+Ri “
+
+pmod n4 q,
+
+i“1
+
+i“1
+
+n
+ÿ
+
+ri ” n ` pP ´ 1q pmod n4 q,
+
+Ri “ n `
+
+i“1
+
+Comment. The original version of the problem statement ontained also the ondition
+piiiq The produ t of all the numbers in the table is
+This
+
+4
+
+ongruent to 1 modulo n .
+
+ondition appears to be superuous, so it was omitted.
+
+Solution 2. We present a more straightforward (though lengthier) way to establish (1). We
+
+also use the notation of ai,j .
+By ondition piq, all the ai,j are divisible by n. Therefore, we have
+
+P “
+
+n ź
+n
+ź
+ÿ
+p1 ` ai,j q ” 1 `
+ai,j `
+i“1 j“1
+
+pi,jq
+
+`
+
+ÿ
+
+ai1 ,j1 ai2 ,j2
+
+pi1 ,j1 q, pi2 ,j2 q
+
+ÿ
+
+pi1 ,j1 q, pi2 ,j2 q, pi3 ,j3 q
+
+ai1 ,j1 ai2 ,j2 ai3 ,j3
+
+pmod n4 q,
+
+Shortlisted problems  solutions
+
+57
+
+where the last two sums are taken over all unordered pairs/triples of pairwise dierent pairs
+pi, jq; su h onventions are applied throughout the solution.
+Similarly,
+n
+ÿ
+
+i“1
+
+n ź
+n
+ÿ ÿ
+ÿ
+ÿÿ
+ÿ ÿ
+ai,j1 ai,j2 ai,j3
+ai,j1 ai,j2 `
+Ri “
+p1 ` ai,j q ” n `
+ai,j `
+i“1 j“1
+
+i
+
+j
+
+i j1 , j2 , j3
+
+i j1 , j2
+
+pmod n4 q.
+
+Therefore,
+
+P ` pn ´ 1q ´
+
+ÿ
+i
+
+Ri ”
+
+ÿ
+
+pi1 ,j1 q, pi2 ,j2 q
+i1 ‰i2
+
+ai1 ,j1 ai2 ,j2 `
+`
+
+ÿ
+
+ai1 ,j1 ai2 ,j2 ai3 ,j3
+
+pi1 ,j1 q, pi2 ,j2 q, pi3 ,j3 q
+i1 ‰i2 ‰i3 ‰i1
+
+ÿ
+
+ai1 ,j1 ai2 ,j2 ai3 ,j3
+
+pi1 ,j1 q, pi2 ,j2 q, pi3 ,j3 q
+i1 ‰i2 “i3
+
+pmod n4 q.
+
+We show that in fa t ea h of the three sums appearing in the right-hand part of this ongruen e
+is divisible by n4 ; this yields (1). Denote those three sums by Σ1 , Σ2 , and Σ3 in order of
+appearan e. Re all that by ondition piiq we have
+ÿ
+for all indi es i.
+ai,j ” 0 pmod n2 q
+j
+
+For every two indi es i1 ă i2 we have
+ˆÿ
+˙ ˆÿ
+˙
+ÿÿ
+ai1 ,j1 ai2 ,j2 “
+ai1 ,j1 ¨
+ai2 ,j2 ” 0
+j1
+
+j2
+
+j1
+
+j2
+
+pmod n4 q,
+
+sin e ea h of the two fa tors is divisible by n2 . Summing over all pairs pi1 , i2 q we obtain n4 | Σ1 .
+Similarly, for every three indi es i1 ă i2 ă i3 we have
+˙
+˙ ˆÿ
+˙ ˆÿ
+ˆÿ
+ÿÿÿ
+ai3 ,j3
+ai2 ,j2 ¨
+ai1 ,j1 ai2 ,j2 ai3 ,j3 “
+ai1 ,j1 ¨
+j1
+
+j2
+
+j3
+
+j1
+
+j2
+
+j3
+
+whi h is divisible even by n6 . Hen e n4 | Σ2 .
+Finally, for every indi es i1 ‰ i2 “ i3 and j2 ă j3 we have
+ÿ
+ai2 ,j2 ¨ ai2 ,j3 ¨ ai1 ,j1 ” 0 pmod n4 q,
+j1
+
+sin e the three fa tors are divisible by n, n, and n2 , respe tively. Summing over all 4-tuples of
+indi es pi1 , i2 , j2 , j3 q we get n4 | Σ3 .
+
+58
+
+Cluj-Napo a  Romania, 314 July 2018
+
+N3.
+
+Dene the sequen e a0 , a1 , a2 , . . . by an “ 2n ` 2tn{2u . Prove that there are innitely
+many terms of the sequen e whi h an be expressed as a sum of (two or more) distin t terms
+of the sequen e, as well as innitely many of those whi h annot be expressed in su h a way.
+
+(Serbia)
+
+Solution 1. Call a nonnegative integer representable if it equals the sum of several (possibly 0
+
+or 1) distin t terms of the sequen e. We say that two nonnegative integers b and c are equivalent
+(written as b „ c) if they are either both representable or both non-representable.
+One an easily ompute
+
+Sn´1 :“ a0 ` ¨ ¨ ¨ ` an´1 “ 2n ` 2rn{2s ` 2tn{2u ´ 3.
+
+Indeed, we have Sn ´ Sn´1 “ 2n ` 2tn{2u “ an so we an use the indu tion. In parti ular,
+S2k´1 “ 22k ` 2k`1 ´ 3.
+Note that, if n ě 3, then 2rn{2s ě 22 ą 3, so
+
+Sn´1 “ 2n ` 2rn{2s ` 2tn{2u ´ 3 ą 2n ` 2tn{2u “ an .
+
+Also noti e that Sn´1 ´ an “ 2rn{2s ´ 3 ă an .
+The main tool of the solution is the following laim.
+Claim 1. Assume that b is a positive integer su h that Sn´1 ´ an ă b ă an for some n ě 3.
+Then b „ Sn´1 ´ b.
+Proof. As seen above, we have Sn´1 ą an . Denote c “ Sn´1 ´ b; then Sn´1 ´ an ă c ă an , so
+the roles of b and c are symmetri al.
+Assume that b is representable. The representation annot ontain ai with i ě n, sin e
+b ă an . So b is the sum of some subset of ta0 , a1 , . . . , an´1 u; then c is the sum of the omplement.
+The onverse is obtained by swapping b and c.
+l
+We also need the following version of this laim.
+Claim 2. For any n ě 3, the number an an be represented as a sum of two or more distin t
+terms of the sequen e if and only if Sn´1 ´ an “ 2rn{2s ´ 3 is representable.
+Proof. Denote c “ Sn´1 ´ an ă an . If an satises the required ondition, then it is the sum
+of some subset of ta0 , a1 , . . . , an´1 u; then c is the sum of the omplement. Conversely, if c is
+representable, then its representation onsists only of the numbers from ta0 , . . . , an´1 u, so an is
+the sum of the omplement.
+l
+By Claim 2, in order to prove the problem statement, it su es to nd innitely many
+representable numbers of the form 2t ´ 3, as well as innitely many non-representable ones.
+Claim 3. For every t ě 3, we have 2t ´ 3 „ 24t´6 ´ 3, and 24t´6 ´ 3 ą 2t ´ 3.
+Proof. The inequality follows from t ě 3. In order to prove the equivalen e, we apply Claim 1
+twi e in the following manner.
+First, sin e S2t´3 ´ a2t´2 “ 2t´1 ´ 3 ă 2t ´ 3 ă 22t´2 ` 2t´1 “ a2t´2 , by Claim 1 we have
+2t ´ 3 „ S2t´3 ´ p2t ´ 3q “ 22t´2 .
+Se ond, sin e S4t´7 ´ a4t´6 “ 22t´3 ´ 3 ă 22t´2 ă 24t´6 ` 22t´3 “ a4t´6 , by Claim 1 we have
+2t´2
+2
+„ S4t´7 ´ 22t´2 “ 24t´6 ´ 3.
+Therefore, 2t ´ 3 „ 22t´2 „ 24t´6 ´ 3, as required.
+l
+3
+Now it is easy to nd the required numbers. Indeed, the number 2 ´ 3 “ 5 “ a0 ` a1 is
+representable, so Claim 3 provides an innite sequen e of representable numbers
+
+23 ´ 3 „ 26 ´ 3 „ 218 ´ 3 „ ¨ ¨ ¨ „ 2t ´ 3 „ 24t´6 ´ 3 „ ¨ ¨ ¨ .
+
+On the other hand, the number 27 ´ 3 “ 125 is non-representable (sin e by Claim 1 we have
+125 „ S6 ´ 125 “ 24 „ S4 ´ 24 “ 17 „ S3 ´ 17 “ 4 whi h is learly non-representable). So
+Claim 3 provides an innite sequen e of non-representable numbers
+
+27 ´ 3 „ 222 ´ 3 „ 282 ´ 3 „ ¨ ¨ ¨ „ 2t ´ 3 „ 24t´6 ´ 3 „ ¨ ¨ ¨ .
+
+Shortlisted problems  solutions
+
+59
+
+We keep the notion of representability and the notation Sn from the previous
+solution. We say that an index n is good if an writes as a sum of smaller terms from the
+sequen e a0 , a1 , . . .. Otherwise we say it is bad. We must prove that there are innitely many
+good indi es, as well as innitely many bad ones.
+Solution 2.
+
+Lemma 1. If m ě 0 is an integer, then 4m is representable if and only if either of 2m ` 1 and
+2m ` 2 is good.
+
+Proof. The ase m “ 0 is obvious, so we may assume that m ě 1. Let n “ 2m ` 1 or 2m ` 2.
+Then n ě 3. We noti e that
+
+Sn´1 ă an´2 ` an .
+
+The inequality writes as 2n ` 2rn{2s ` 2tn{2u ´ 3 ă 2n ` 2tn{2u ` 2n´2 ` 2tn{2u´1 , i.e. as 2rn{2s ă
+2n´2 ` 2tn{2u´1 ` 3. If n ě 4, then n{2 ď n ´ 2, so rn{2s ď n ´ 2 and 2rn{2s ď 2n´2 . For n “ 3
+the inequality veries separately.
+If n is good, then an writes as an “ ai1 ` ¨ ¨ ¨ ` air , where r ě 2 and i1 ă ¨ ¨ ¨ ă ir ă n.
+Then ir “ n ´ 1 and ir´1 “ n ´ 2, for if n ´ 1 or n ´ 2 is missing from the sequen e i1 , . . . , ir ,
+then ai1 ` ¨ ¨ ¨ ` air ď a0 ` ¨ ¨ ¨ ` an´3 ` an´1 “ Sn´1 ´ an´2 ă an . Thus, if n is good, then both
+an ´ an´1 and an ´ an´1 ´ an´2 are representable.
+We now onsider the ases n “ 2m ` 1 and n “ 2m ` 2 separately.
+If n “ 2m ` 1, then an ´ an´1 “ a2m`1 ´ a2m “ p22m`1 ` 2m q ´ p22m ` 2m q “ 22m . So we
+proved that, if 2m ` 1 is good, then 22m is representable. Conversely, if 22m is representable,
+then 22m ă a2m , so 22m is a sum of some distin t terms ai with i ă 2m. It follows that
+a2m`1 “ a2m ` 22m writes as a2m plus a sum of some distin t terms ai with i ă 2m. Hen e
+2m ` 1 is good.
+If n “ 2m ` 2, then an ´ an´1 ´ an´2 “ a2m`2 ´ a2m`1 ´ a2m “ p22m`2 ` 2m`1 q ´ p22m`1 `
+2m q ´ p22m ` 2m q “ 22m . So we proved that, if 2m ` 2 is good, then 22m is representable.
+Conversely, if 22m is representable, then, as seen in the previous ase, it writes as a sum of some
+distin t terms ai with i ă 2m. Hen e a2m`2 “ a2m`1 ` a2m ` 22m writes as a2m`1 ` a2m plus a
+sum of some distin t terms ai with i ă 2m. Thus 2m ` 2 is good.
+l
+
+Lemma 2. If k ě 2, then 24k´2 is representable if and only if 2k`1 is representable.
+4
+
+In parti ular, if s ě 2, then 4s is representable if and only if 44s´3 is representable. Also,
+ą 4s .
+
+4s´3
+
+Proof. We have 24k´2 ă a4k´2 , so in a representation of 24k´2 we an have only terms ai with
+i ď 4k ´ 3. Noti e that
+
+a0 ` ¨ ¨ ¨ ` a4k´3 “ 24k´2 ` 22k ´ 3 ă 24k´2 ` 22k ` 2k “ 24k´2 ` a2k .
+Hen e, any representation of 24k´2 must ontain all terms from a2k to a4k´3 . (If any of these
+terms is missing, then the sum of the remaining
+ones is ď pa0 ` ¨ ¨ ¨ ` a4k´3 q ´ a2k ă 24k´2 .)
+ř4k´3
+4k´2
+4k´2
+Hen e, if 2
+is representable, then 2
+´ i“2k ai is representable. But
+
+24k´2 ´
+
+4k´3
+ÿ
+i“2k
+
+ai “ 24k´2 ´ pS4k´3 ´ S2k´1 q “ 24k´2 ´ p24k´2 ` 22k ´ 3q ` p22k ` 2k`1 ´ 3q “ 2k`1 .
+
+So, if 24k´2 is representable, then 2k`1 is representable. Conversely, if 2k`1 is representable,
+then 2k`1 ă 22k ` 2k ř
+“ a2k , so 2k`1 writes as a sum of some distin t terms ai with i ă 2k . It
+4k´3
+ai ` 2k`1 writes as a4k´3 ` a4k´4 ` ¨ ¨ ¨ ` a2k plus the sum of some
+follows that 24k´2 “ i“2k
+distin t terms ai with i ă 2k . Hen e 24k´2 is representable.
+For the se ond statement, if s ě 2, then we just take k “ 2s´1 and we noti e that 2k`1 “ 4s
+and 24k´2 “ 44s´3 . Also, s ě 2 implies that 4s ´ 3 ą s.
+l
+
+60
+
+Cluj-Napo a  Romania, 314 July 2018
+
+Now 42 “ a2 `a3 is representable, whereas 46 “ 4096 is not. Indeed, note that 46 “ 212 ă a12 ,
+so the only available terms for a representation are a0 , . . . , a11 , i.e., 2, 3, 6, 10, 20, 36, 72,
+136, 272, 528, 1056, 2080. Their sum is S11 “ 4221, whi h ex eeds 4096 by 125. Then any
+representation of 4096 must ontain all the terms from a0 , . . . , a11 that are greater that 125,
+i.e., 136, 272, 528, 1056, 2080. Their sum is 4072. Sin e 4096 ´ 4072 “ 24 and 24 is learly not
+representable, 4096 is non-representable as well.
+Starting with these values of m, by using Lemma 2, we an obtain innitely many representable powers of 4, as well as innitely many non-representable ones. By Lemma 1, this
+solves our problem.
+
+Shortlisted problems  solutions
+
+This page is intentionally left blank
+
+61
+
+62
+
+Cluj-Napo a  Romania, 314 July 2018
+
+N4.
+
+Let a1 , a2 , . . ., an , . . . be a sequen e of positive integers su h that
+
+a1 a2
+an´1 an
+`
+` ¨¨¨`
+`
+a2 a3
+an
+a1
+is an integer for all n ě k , where k is some positive integer. Prove that there exists a positive
+integer m su h that an “ an`1 for all n ě m.
+
+(Mongolia)
+
+Solution 1. The argument hinges on the following two fa ts: Let a, b, c be positive integers
+
+su h that N “ b{c ` pc ´ bq{a is an integer.
+
+(1) If gcdpa, cq “ 1, then c divides b ; and
+(2) If gcdpa, b, cq “ 1, then gcdpa, bq “ 1.
+
+To prove (1), write ab “ cpaN ` b ´ cq. Sin e gcdpa, cq “ 1, it follows that c divides b. To
+prove (2), write c2 ´ bc “ apcN ´ bq to infer that a divides c2 ´ bc. Letting d “ gcdpa, bq, it
+follows that d divides c2 , and sin e the two are relatively prime by hypothesis, d “ 1.
+Now, let sn “ a1 {a2 ` a2 {a3 ` ¨ ¨ ¨ ` an´1 {an ` an {a1 , let δn “ gcdpa1 , an , an`1 q and write
+
+sn`1 ´ sn “
+
+an`1 ´ an
+an {δn
+an`1 {δn ´ an {δn
+an
+`
+“
+`
+.
+an`1
+a1
+an`1 {δn
+a1 {δn
+
+Let n ě k . Sin e gcdpa1 {δn , an {δn , an`1 {δn q “ 1, it follows by (2) that gcdpa1 {δn , an {δn q “ 1.
+Let dn “ gcdpa1 , an q. Then dn “ δn ¨ gcdpa1 {δn , an {δn q “ δn , so dn divides an`1 , and therefore
+dn divides dn`1 .
+Consequently, from some rank on, the dn form a nonde reasing sequen e of integers not
+ex eeding a1 , so dn “ d for all n ě ℓ, where ℓ is some positive integer.
+Finally, sin e gcdpa1 {d, an`1 {dq “ 1, it follows by (1) that an`1 {d divides an {d, so an ě an`1
+for all n ě ℓ. The on lusion follows.
+Solution 2. We use the same notation sn . This time, we explore the exponents of primes in
+
+the prime fa torizations of the an for n ě k .
+To start, for every n ě k , we know that the number
+
+sn`1 ´ sn “
+
+an
+an`1 an
+`
+´
+an`1
+a1
+a1
+
+p˚q
+
+is integer. Multiplying it by a1 we obtain that a1 an {an`1 is integer as well, so that an`1 | a1 an .
+This means that an | a1n´k ak , so all prime divisors of an are among those of a1 ak . There are
+nitely many su h primes; therefore, it su es to prove that the exponent of ea h of them in
+the prime fa torization of an is eventually onstant.
+Choose any prime p | a1 ak . Re all that vp pqq is the standard notation for the exponent of p
+in the prime fa torization of a nonzero rational number q . Say that an index n ě k is large if
+vp pan q ě vp pa1 q. We separate two ases.
+
+Case 1: There exists a large index n.
+
+If vp pan`1 q ă vp pa1 q, then vp pan {an`1 q and vp pan {a1 q are nonnegative, while vp pan`1 {a1 q ă 0;
+hen e p˚q annot be an integer. This ontradi tion shows that index n ` 1` is also large. ˘
+On the other hand, if vp pan`1 q ą vp pan q, then vp pan {an`1 q ă 0, while vp pan`1 ´an q{a1 ě 0,
+so p˚q is not integer again. Thus, vp pa1 q ď vp pan`1 q ď vp pan q.
+The above arguments an now be applied su essively to indi es n ` 1, n ` 2, . . . , showing
+that all the indi es greater than n are large, and the sequen e vp pan q, vp pan`1 q, vp pan`2 q, . . . is
+nonin reasing  hen e eventually onstant.
+
+Shortlisted problems  solutions
+
+63
+
+Case 2: There is no large index.
+We have vp pa1 q ą vp pan q for all n ě k . If we had vp pan`1 q ă vp pan q for some n ě k ,
+then vp pan`1 {a1 q ă vp pan {a1 q ă 0 ă vp pan {an`1 q whi h would also yield that p˚q is not integer.
+Therefore, in this ase the sequen e vp pak q, vp pak`1 q, vp pak`2 q, . . . is nonde reasing and bounded
+by vp pa1 q from above; hen e it is also eventually onstant.
+
+Comment. Given any positive odd integer m, onsider the m-tuple p2, 22 , . . . , 2m´1 , 2m q. Appending
+an innite string of 1's to this m-tuple yields an eventually
+the
+
+onstant sequen e of integers satisfying
+
+ondition in the statement, and shows that the rank from whi h the sequen e stabilises may be
+
+arbitrarily large.
+There are more sophisti ated examples. The solution to part
+
+(b) of 10532, Amer. Math. Monthly,
+
+Vol. 105 No. 8 (O t. 1998), 775777 (available at https://www.jstor.org/stable/2589009), shows
+that, for every integer m ě 5, there exists an m-tuple pa1 , a2 , . . . , am q of pairwise distin t positive
+
+integers su h that gcdpa1 , a2 q “ gcdpa2 , a3 q “ ¨ ¨ ¨ “ gcdpam´1 , am q “ gcdpam , a1 q “
+
+1, and the sum
+
+a1 {a2 ` a2 {a3 ` ¨ ¨ ¨ ` am´1 {am ` am {a1 is an integer. Letting am`k “ a1 , k “ 1, 2, . . . , extends su h an
+m-tuple to an eventually onstant sequen e of positive integers satisfying the ondition in the statement
+of the problem at hand.
+
+Here is the example given by the proposers of 10532. Let b1 “ 2, let bk`1 “ 1 ` b1 ¨ ¨ ¨ bk “
+1 ` bk pbk ´ 1q, k ě 1, and set Bm “ b1 ¨ ¨ ¨ bm´4 “ bm´3 ´ 1. The m-tuple pa1 , a2 , . . . , am q dened below
+satises the required
+
+onditions:
+
+a1 “ 1, a2 “ p8Bm ` 1qBm ` 8, a3 “ 8Bm ` 1, ak “ bm´k for 4 ď k ď m ´ 1,
+ˆ
+˙
+a2
+1
+Bm
+Bm
+am “
+¨ a3 ¨
+“
+p8Bm ` 1qBm ` 4 ¨ p8Bm ` 1q ¨
+.
+2
+2
+2
+2
+It is readily
+
+he ked that a1 ă am´1 ă am´2 ă ¨ ¨ ¨ ă a3 ă a2 ă am . For further details we refer to
+
+the solution mentioned above. A quaintan e with this example (or more elaborated examples derived
+from) oers no advantage in ta kling the problem.
+
+64
+
+N5.
+
+Cluj-Napo a  Romania, 314 July 2018
+Four positive integers x, y , z , and t satisfy the relations
+
+xy ´ zt “ x ` y “ z ` t.
+
+p˚q
+
+Is it possible that both xy and zt are perfe t squares?
+
+(Russia)
+
+Answer: No.
+Solution 1. Arguing indire tly, assume that xy “ a2 and zt “ c2 with a, c ą 0.
+
+Suppose that the number x ` y “ z ` t is odd. Then x and y have opposite parity, as well
+as z and t. This means that both xy and zt are even, as well as xy ´ zt “ x ` y ; a ontradi tion.
+“ z`t
+Thus, x ` y is even, so the number s “ x`y
+is a positive integer.
+2
+2
+|x´y|
+|z´t|
+Next, we set b “ 2 , d “ 2 . Now the problem onditions yield
+
+s2 “ a2 ` b2 “ c2 ` d2
+
+(1)
+
+2s “ a2 ´ c2 “ d2 ´ b2
+
+(2)
+
+and
+
+(the last equality in (2) follows from (1)). We readily get from (2) that a, d ą 0.
+In the sequel we will use only the relations (1) and (2), along with the fa t that a, d, s
+are positive integers, while b and c are nonnegative integers, at most one of whi h may be
+zero. Sin e both relations are symmetri with respe t to the simultaneous swappings a Ø d
+and b Ø c, we assume, without loss of generality, that b ě c (and hen e b ą 0). Therefore,
+d2 “ 2s ` b2 ą c2 , when e
+c2 ` d 2
+s2
+d2 ą
+(3)
+“ .
+2
+2
+On the other hand, sin e d2 ´ b2 is even by (2), the numbers b and d have the same parity,
+so 0 ă b ď d ´ 2. Therefore,
+
+2s “ d2 ´ b2 ě d2 ´ pd ´ 2q2 “ 4pd ´ 1q,
+
+i.e.,
+
+dď
+
+s
+` 1.
+2
+
+(4)
+
+Combining (3) and (4) we obtain
+
+2s2 ă 4d2 ď 4
+
+´s
+
+2
+
+`1
+
+¯2
+
+,
+
+or
+
+ps ´ 2q2 ă 8,
+
+whi h yields s ď 4.
+Finally, an easy he k shows that ea h number of the form s2 with 1 ď s ď 4 has a unique
+representation as a sum of two squares, namely s2 “ s2 ` 02 . Thus, (1) along with a, d ą 0
+imply b “ c “ 0, whi h is impossible.
+Solution 2. We start with a omplete des ription of all 4-tuples px, y, z, tq of positive integers
+
+satisfying p˚q. As in the solution above, we noti e that the numbers
+
+s“
+
+z`t
+x`y
+“
+,
+2
+2
+
+p“
+
+x´y
+,
+2
+
+and
+
+q“
+
+z´t
+2
+
+are integers (we may, and will, assume that p, q ě 0). We have
+
+2s “ xy ´ zt “ ps ` pqps ´ pq ´ ps ` qqps ´ qq “ q 2 ´ p2 ,
+so p and q have the same parity, and q ą p.
+
+Shortlisted problems  solutions
+
+65
+2
+
+2
+
+“ 2kℓ and hen e
+Set now k “ q´p
+, ℓ “ q`p
+. Then we have s “ q ´p
+2
+2
+2
+x “ s ` p “ 2kℓ ´ k ` ℓ,
+z “ s ` q “ 2kℓ ` k ` ℓ,
+
+y “ s ´ p “ 2kℓ ` k ´ ℓ,
+t “ s ´ q “ 2kℓ ´ k ´ ℓ.
+
+(5)
+
+Re all here that ℓ ě k ą 0 and, moreover, pk, ℓq ‰ p1, 1q, sin e otherwise t “ 0.
+
+Assume now that both xy and zt are squares. Then xyzt is also a square. On the other
+hand, we have
+
+xyzt “ p2kℓ ´ k ` ℓqp2kℓ ` k ´ ℓqp2kℓ ` k ` ℓqp2kℓ ´ k ´ ℓq
+`
+˘`
+˘
+“ 4k 2 ℓ2 ´ pk ´ ℓq2 4k 2 ℓ2 ´ pk ` ℓq2 “ p4k 2 ℓ2 ´ k 2 ´ ℓ2 q2 ´ 4k 2 ℓ2 . (6)
+Denote D “ 4k 2 ℓ2 ´ k 2 ´ ℓ2 ą 0. From (6) we get D 2 ą xyzt. On the other hand,
+
+pD ´ 1q2 “ D 2 ´ 2p4k 2 ℓ2 ´ k 2 ´ ℓ2 q ` 1 “ pD 2 ´ 4k 2 ℓ2 q ´ p2k 2 ´ 1qp2ℓ2 ´ 1q ` 2
+“ xyzt ´ p2k 2 ´ 1qp2ℓ2 ´ 1q ` 2 ă xyzt,
+sin e ℓ ě 2 and k ě 1. Thus pD ´ 1q2 ă xyzt ă D 2 , and xyzt annot be a perfe t square; a
+ontradi tion.
+
+Comment. The rst part of Solution 2 shows that all 4-tuples of positive integers x ě y , z ě t
+satisfying p˚q have the form (5), where ℓ ě k ą 0 and ℓ ě 2. The
+
+onverse is also true: every pair
+
+of positive integers ℓ ě k ą 0, ex ept for the pair k “ ℓ “ 1, generates via (5) a 4-tuple of positive
+
+integers satisfying p˚q.
+
+66
+
+Cluj-Napo a  Romania, 314 July 2018
+
+N6. Let f : t1, 2, 3, . . .u Ñ t2, 3, . . .u be a fun tion su h that f pm ` nq | f pmq ` f pnq for all
+
+pairs m, n of positive integers. Prove that there exists a positive integer c ą 1 whi h divides
+all values of f .
+
+(Mexi o)
+
+Solution 1. For every positive integer m, dene Sm “ tn : m | f pnqu.
+
+Lemma. If the set Sm is innite, then Sm “ td, 2d, 3d, . . .u “ d ¨ Zą0 for some positive integer d.
+Proof. Let d “ min Sm ; the denition of Sm yields m | f pdq.
+
+Whenever n P Sm and n ą d, we have m | f pnq | f pn ´ dq ` f pdq, so m | f pn ´ dq and
+therefore n ´ d P Sm . Let r ď d be the least positive integer with n ” r pmod dq; repeating
+the same step, we an see that n ´ d, n ´ 2d, . . . , r P Sm . By the minimality of d, this shows
+r “ d and therefore d | n.
+Starting from an arbitrarily large element of Sm , the pro ess above rea hes all multiples
+of d; so they all are elements of Sm .
+l
+The solution for the problem will be split into two ases.
+
+Case 1: The fun tion f is bounded.
+Call a prime p frequent if the set Sp is innite, i.e., if p divides f pnq for innitely many
+positive integers n; otherwise all p sporadi . Sin e the fun tion f is bounded, there are only
+a nite number of primes that divide at least one f pnq; so altogether there are nitely many
+numbers n su h that f pnq has a sporadi prime divisor. Let N be a positive integer, greater
+than all those numbers n.
+Let p1 , . . . , pk be the frequent primes. By the lemma we have Spi “ di ¨ Zą0 for some di .
+Consider the number
+n “ Nd1 d2 ¨ ¨ ¨ dk ` 1.
+
+Due to n ą N , all prime divisors of f pnq are frequent primes. Let pi be any frequent prime
+divisor of f pnq. Then n P Spi , and therefore di | n. But n ” 1 pmod di q, whi h means di “ 1.
+Hen e Spi “ 1 ¨ Zą0 “ Zą0 and therefore pi is a ommon divisor of all values f pnq.
+
+Case 2: f is unbounded.
+
+We prove that f p1q divides all f pnq.
+Let a “ f p1q. Sin e 1 P Sa , by the lemma it su es to prove that Sa is an innite set.
+`
+˘
+Call a positive integer p a peak if f ppq ą max f p1q, . . . , f pp ´ 1q . Sin e f is not bounded,
+there are innitely many peaks. Let 1 “ p1 ă p2 ă . . . be the sequen e of all peaks, and let
+hk “ f ppk q. Noti e that for any peak pi and for any k ă pi , we have f ppi q | f pkq ` f ppi ´ kq ă
+2f ppi q, hen e
+f pkq ` f ppi ´ kq “ f ppi q “ hi .
+p1q
+
+By the pigeonhole prin iple, among the numbers h1 , h2 , . . . there are innitely many that
+are ongruent modulo a. Let k0 ă k1 ă k2 ă . . . be an innite sequen e of positive integers
+su h that hk0 ” hk1 ” . . . pmod aq. Noti e that
+
+f ppki ´ pk0 q “ f ppki q ´ f ppk0 q “ hki ´ hk0 ” 0 pmod aq,
+so pki ´ pk0 P Sa for all i “ 1, 2, . . .. This provides innitely many elements in Sa .
+Hen e, Sa is an innite set, and therefore f p1q “ a divides f pnq for every n.
+
+Comment. As an extension of the solution above, it
+f pnq “ an with a “ f p1q.
+
+an be proven that if f is not bounded then
+
+Take an arbitrary positive integer n; we will show that f pn ` 1q “ f pnq ` a. Then it follows by
+
+indu tion that f pnq “ an.
+
+Shortlisted problems  solutions
+
+67
+
+Take a peak p su h that p ą n ` 2 and h “ f ppq ą f pnq ` 2a. By (1) we have f pp ´ 1q “
+f ppq ´ f p1q “ h ´ a and f pn ` 1q “ f ppq ´ f pp ´ n ´ 1q “ h ´ f pp ´ n ´ 1q. From h ´ a “ f pp ´ 1q |
+f pnq ` f pp ´ n ´ 1q ă f pnq ` h ă 2ph ´ aq we get f pnq ` f pp ´ n ´ 1q “ h ´ a. Then
+`
+˘ `
+˘
+f pn ` 1q ´ f pnq “ h ´ f pp ´ n ´ 1q ´ h ´ a ´ f pp ´ n ´ 1q “ a.
+On the other hand, there exists a wide family of bounded fun tions satisfying the required proper-
+
+ties. Here we present a few examples:
+
+f pnq “ c;
+
+f pnq “
+
+#
+
+2c
+c
+
+if n is even
+if n is odd;
+
+f pnq “
+
+#
+
+2018c
+c
+
+if n ď 2018
+
+if n ą 2018.
+
+`
+˘
+Let dn “ gcd f pnq, f p1q . From` dn`1 | f p1q
+˘ and dn`1 | f pn ` 1q | f pnq ` f p1q,
+we an see that dn`1 | f pnq; then dn`1 | gcd f pnq, f p1q “ dn . So the sequen e d1 , d2 , . . .
+is nonin reasing in the sense that every element
+is a divisor
+of the previous elements. Let
+`
+˘
+d “ minpd1 , d2 , . . .q “ gcdpd1 .d2 , . . .q “ gcd f p1q, f p2q, . . . ; we have to prove d ě 2.
+For the sake of ontradi tion, suppose that the statement is wrong, so d “ 1; that means
+there is some index n0 su h that dn “ 1 for every n ě n0 , i.e., f pnq is oprime with f p1q.
+Solution 2.
+
+Claim 1. If 2k ě n0 then f p2k q ď 2k .
+Proof. By the ondition, f p2nq | 2f pnq; a trivial indu tion yields f p2k q | 2k f p1q. If 2k ě n0 then
+
+f p2k q is oprime with f p1q, so f p2k q is a divisor of 2k .
+
+l
+
+Claim 2. There is a onstant C su h that f pnq ă n ` C for every n.
+Proof. Take the rst power of 2 whi h is greater than or equal to n0 : let K “ 2k ě n0 . By
+
+Claim 1, we have f pKq ď K . Noti e that f pn ` Kq | f pnq ` f pKq implies f pn ` Kq ď
+f pnq ` f pKq ď f pnq ` K . If n “ tK ` r for some t ě 0 and 1 ď r ď K , then we on lude
+`
+˘
+f pnq ď K ` f pn ´ Kq ď 2K ` f pn ´ 2Kq ď . . . ď tK ` f prq ă n ` max f p1q, f p2q, . . . , f pKq ,
+`
+˘
+so the laim is true with C “ max f p1q, . . . , f pKq .
+l
+`
+˘
+Claim 3. If a, b P Zą0 are oprime then gcd f paq, f pbq | f p1q. In parti ular, if a, b ě n0 are
+oprime then f paq and f pbq are oprime.
+`
+˘
+Proof. Let d “ gcd f paq, f pbq . We an repli ate Eu lid's algorithm. Formally, apply indu tion
+on a ` b. If a “ 1 or b “ 1 then we already have d | f p1q.
+Without loss of generality, suppose` 1 ă a ă b. Then
+d | f paq and d | f pbq | f paq ` f pb ´ aq,
+˘
+so d | f pb´aq. Therefore d divides gcd f paq, f pb´aq whi h is a divisor of f p1q by the indu tion
+hypothesis.
+l
+
+Let p1 ă p2 ă . . . be the sequen e of all prime numbers; for every k , let qk be the lowest
+power of pk with qk ě n0 . (Noti e that there are only nitely many positive integers with
+qk ‰ pk .)
+Take a positive integer N , and onsider the numbers
+
+f p1q, f pq1 q, f pq2 q, . . . , f pqN q.
+
+Here we have N ` 1 numbers, ea h being greater than 1, and they are pairwise oprime by
+Claim 3. Therefore, they have at least N ` 1 dierent prime divisors in total, and their greatest
+prime divisor is at least pN `1 . Hen e, maxpf p1q, f pq1q, . . . , f pqN qq ě pN `1 .
+Choose N su h that maxpq1 , . . . , qN q “ pN (this is a hieved if N is su iently large), and
+pN `1 ´ pN ą C (that is possible, be ause there are arbitrarily long gaps between the primes).
+Then we establish a ontradi tion
+
+pN `1 ď maxpf p1q, f pq1 q, . . . , f pqN qq ă maxp1 ` C, q1 ` C, . . . , qN ` Cq “ pN ` C ă pN `1
+
+whi h proves the statement.
+
+68
+
+Cluj-Napo a  Romania, 314 July 2018
+
+N7.
+
+Let n ě 2018 be an integer, and let a1 , a2 , . . . , an , b1 , b2 , . . . , bn be pairwise distin t
+positive integers not ex eeding 5n. Suppose that the sequen e
+a1 a2
+an
+, , ...,
+p1q
+b1 b2
+bn
+forms an arithmeti progression. Prove that the terms of the sequen e are equal.
+
+(Thailand)
+
+Solution. Suppose that (1) is an arithmeti progression with nonzero dieren e.
+
+dieren e be ∆ “ dc , where d ą 0 and c, d are
+
+oprime.
+
+Let the
+
+We will show that too many denominators bi should be divisible by d. To this end, for any
+1 ď i ď n and any prime divisor p of d, say that the index i is p-wrong, if vp pbi q ă vp pdq. (vp pxq
+stands for the exponent of p in the prime fa torisation of x.)
+
+Claim 1. For any prime p, all p-wrong indi es are ongruent modulo p. In other words, the
+
+p-wrong indi es (if they exist) are in luded in an arithmeti progression with dieren e p.
+Proof. Let α “ vp pdq. For the sake of ontradi tion, suppose that i and j are p-wrong indi es
+(i.e., none of bi and bj is divisible by pα ) su h that i ı j pmod pq. Then the least ommon
+a
+denominator of abii and bjj is not divisible by pα . But this is impossible be ause in their dieren e,
+pi ´ jq∆ “ pi´jqc
+, the numerator is oprime to p, but pα divides the denominator d.
+d
+
+l
+
+Claim 2. d has no prime divisors greater than 5.
+Suppose that p ě 7 is a prime divisor of d. Among the indi es 1, 2, . . . , n, at most
+T
+PProof.
+n ´ 1 of b1 , . . . , bn . Sin e these denominators
+ă np ` 1 are p-wrong, so p divides at least p´1
+p
+are distin t,
+˙
+ˆ
+(
+p´1
+n ´ 1 p “ pp ´ 1qpn ´ 1q ´ 1 ě 6pn ´ 1q ´ 1 ą 5n,
+5n ě max bi : p | bi ě
+p
+n
+p
+
+a ontradi tion.
+
+l
+
+Claim 3. For every 0 ď k ď n ´ 30, among the denominators bk`1 , bk`2 , . . . , bk`30 , at least
+ϕp30q “ 8 are divisible by d.
+Proof. By Claim 1, the 2-wrong, 3-wrong and 5-wrong indi es an be overed by three arithmeti
+progressions with dieren es 2, 3 and 5. By a simple in lusion-ex lusion, p2´1q¨p3´1q¨p5´1q “ 8
+indi es are not overed; by Claim 2, we have d | bi for every un overed index i.
+l
+20
+Claim 4. |∆| ă n´2
+and d ą n´2
+.
+20
+Proof. From the sequen e (1), remove all fra tions with bn ă n2 , There remain at least n2
+5n
+fra tions, and they annot ex eed n{2
+“ 10. So we have at least n2 elements of the arithmeti
+10
+20
+.
+progression (1) in the interval p0, 10s, hen e the dieren e must be below n{2´1
+“ n´2
+
+The se ond inequality follows from 1d ď |c|
+“ |∆|.
+d
+
+l
+
+Now
+tion. By Claim 3, we have d | bi for at
+X n \we have everything to get the nal ontradi
+n´2
+least 30 ¨ 8 indi es i. By Claim 4, we have d ě 20 . Therefore,
+´n
+¯
+( ´Y n ] ¯
+n´2
+5n ě max bi : d | bi ě
+¨8 ¨dą
+´1 ¨8¨
+ą 5n.
+30
+30
+20
+
+Comment 1. It is possible that all terms in (1) are equal, for example with ai “ 2i´ 1 and bi “ 4i´ 2
+we have
+
+ai
+1
+bi “ 2 .
+
+Comment 2.
+
+The bound 5n in the statement is far from sharp; the solution above
+
+to work for 9n. For large n, the bound 5n
+
+3
+
+an be repla ed by n 2
+
+´ε
+
+.
+
+an be modied
+
+

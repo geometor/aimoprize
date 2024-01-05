@@ -1,0 +1,5000 @@
+48th International Mathematical Olympiad
+Vietnam 2007
+
+Shortlisted Problems with Solutions
+
+Contents
+Contributing Countries & Problem Selection Committee
+
+5
+
+Algebra
+Problem A1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem A2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem A3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem A4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem A5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem A6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem A7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+7
+7
+10
+12
+14
+16
+20
+22
+
+Combinatorics
+Problem C1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem C2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem C3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem C4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem C5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem C6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem C7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem C8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+25
+25
+28
+30
+31
+32
+34
+36
+37
+
+Geometry
+Problem G1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+39
+39
+41
+42
+43
+44
+46
+49
+52
+
+Number Theory
+Problem N1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem N2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem N3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem N4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem N5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem N6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem N7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+55
+55
+56
+57
+58
+60
+62
+63
+
+Contributing Countries
+Austria, Australia, Belgium, Bulgaria, Canada, Croatia,
+Czech Republic, Estonia, Finland, Greece, India, Indonesia, Iran,
+Japan, Korea (North), Korea (South), Lithuania, Luxembourg,
+Mexico, Moldova, Netherlands, New Zealand, Poland, Romania,
+Russia, Serbia, South Africa, Sweden, Thailand, Taiwan, Turkey,
+Ukraine, United Kingdom, United States of America
+
+Problem Selection Committee
+Ha Huy Khoai
+Ilya Bogdanov
+Tran Nam Dung
+Le Tuan Hoa
+Géza Kós
+
+Algebra
+A1. Given a sequence a1 , a2 , . . . , an of real numbers. For each i (1 ≤ i ≤ n) define
+di = max{aj : 1 ≤ j ≤ i} − min{aj : i ≤ j ≤ n}
+and let
+d = max{di : 1 ≤ i ≤ n}.
+(a) Prove that for arbitrary real numbers x1 ≤ x2 ≤ . . . ≤ xn ,
+
+d
+max |xi − ai | : 1 ≤ i ≤ n ≥ .
+2
+
+(1)
+
+(b) Show that there exists a sequence x1 ≤ x2 ≤ . . . ≤ xn of real numbers such that we have
+equality in (1).
+(New Zealand)
+Solution 1. (a) Let 1 ≤ p ≤ q ≤ r ≤ n be indices for which
+d = dq ,
+
+ap = max{aj : 1 ≤ j ≤ q},
+
+ar = min{aj : q ≤ j ≤ n}
+
+and thus d = ap − ar . (These indices are not necessarily unique.)
+ap
+a1
+
+xn
+xr
+xp
+an
+
+x1
+ar
+p
+
+q
+
+r
+
+For arbitrary real numbers x1 ≤ x2 ≤ . . . ≤ xn , consider just the two quantities |xp − ap |
+and |xr − ar |. Since
+(ap − xp ) + (xr − ar ) = (ap − ar ) + (xr − xp ) ≥ ap − ar = d,
+we have either ap − xp ≥
+
+d
+d
+or xr − ar ≥ . Hence,
+2
+2
+
+
+d
+max{|xi − ai | : 1 ≤ i ≤ n} ≥ max |xp − ap |, |xr − ar | ≥ max{ap − xp , xr − ar } ≥ .
+2
+
+8
+(b) Define the sequence (xk ) as
+
+
+d
+xk = max xk−1 , ak −
+2
+
+d
+x1 = a1 − ,
+2
+
+
+
+for 2 ≤ k ≤ n.
+
+We show that we have equality in (1) for this sequence.
+d
+By the definition, sequence (xk ) is non-decreasing and xk − ak ≥ − for all 1 ≤ k ≤ n.
+2
+Next we prove that
+d
+xk − ak ≤
+for all 1 ≤ k ≤ n.
+(2)
+2
+Consider an arbitrary index 1 ≤ k ≤ n. Let ` ≤ k be the smallest index such that xk = x` . We
+have either ` = 1, or ` ≥ 2 and x` > x`−1 . In both cases,
+d
+xk = x` = a` − .
+2
+
+(3)
+
+Since
+a` − ak ≤ max{aj : 1 ≤ j ≤ k} − min{aj : k ≤ j ≤ n} = dk ≤ d,
+equality (3) implies
+xk − ak = a` − ak −
+
+d
+d
+d
+≤ d− = .
+2
+2
+2
+
+d
+d
+We obtained that − ≤ xk − ak ≤ for all 1 ≤ k ≤ n, so
+2
+2
+
+d
+max |xi − ai | : 1 ≤ i ≤ n ≤ .
+2
+
+d
+We have equality because |x1 − a1 | = .
+2
+
+Solution 2. We present another construction of a sequence (xi ) for part (b).
+For each 1 ≤ i ≤ n, let
+Mi = max{aj : 1 ≤ j ≤ i} and mi = min{aj : i ≤ j ≤ n}.
+For all 1 ≤ i < n, we have
+Mi = max{a1 , . . . , ai } ≤ max{a1 , . . . , ai , ai+1 } = Mi+1
+and
+mi = min{ai , ai+1 , . . . , an } ≤ min{ai+1 , . . . , an } = mi+1 .
+Therefore sequences (Mi ) and (mi ) are non-decreasing. Moreover, since ai is listed in both
+definitions,
+mi ≤ ai ≤ Mi .
+To achieve equality in (1), set
+Mi + mi
+.
+2
+Since sequences (Mi ) and (mi ) are non-decreasing, this sequence is non-decreasing as well.
+xi =
+
+9
+From di = Mi − mi we obtain that
+−
+
+mi − Mi
+Mi − mi
+di
+di
+=
+= xi − Mi ≤ xi − ai ≤ xi − mi =
+= .
+2
+2
+2
+2
+
+Therefore
+
+max |xi − ai | : 1 ≤ i ≤ n ≤ max
+
+
+
+
+di
+d
+: 1≤i≤n = .
+2
+2
+
+Since the opposite inequality has been proved in part (a), we must have equality.
+
+10
+
+A2. Consider those functions f : N → N which satisfy the condition
+
+f (m + n) ≥ f (m) + f f (n) − 1
+
+(1)
+
+for all m, n ∈ N. Find all possible values of f (2007).
+(N denotes the set of all positive integers.)
+
+(Bulgaria)
+Answer. 1, 2, . . . , 2008.
+Solution. Suppose that a function f : N → N satisfies (1). For arbitrary positive integers m > n, by (1) we have
+
+
+f (m) = f n + (m − n) ≥ f (n) + f f (m − n) − 1 ≥ f (n),
+
+so f is nondecreasing.
+Function f ≡ 1 is an obvious solution. To find other solutions, assume that f 6≡ 1 and take
+the smallest a ∈ N such that f (a) > 1. Then f (b) ≥ f (a) > 1 for all integer b ≥ a.
+Suppose that f (n) > n for some n ∈ N. Then we have
+
+
+
+
+
+
+f f (n) = f f (n) − n + n ≥ f f (n) − n + f f (n) − 1,
+
+so f f (n)−n ≤ 1 and hence f (n)−n < a. Then there exists a maximal value of the expression
+f (n) − n; denote this value by c, and let f (k) − k = c ≥ 1. Applying the monotonicity together
+with (1), we get
+
+2k + c ≥ f (2k) = f (k + k) ≥ f (k) + f f (k) − 1
+≥ f (k) + f (k) − 1 = 2(k + c) − 1 = 2k + (2c − 1),
+hence c ≤ 1 and f (n) ≤ n + 1 for all n ∈ N. In particular, f (2007) ≤ 2008.
+
+Now we present a family of examples showing that all values from 1 to 2008 can be realized.
+
+Let
+fj (n) = max{1, n + j − 2007} for j = 1, 2, . . . , 2007;
+
+(
+n,
+2007 6 n,
+f2008 (n) =
+n + 1, 2007 n.
+
+We show that these functions satisfy the condition (1) and clearly fj (2007) = j.
+To check the condition (1) for
+ the function fj (j ≤ 2007), note first that fj is nondecreasing
+and fj (n) ≤ n, hence fj fj (n) ≤ fj (n) ≤ n for all n ∈ N. Now, if fj (m)
+ = 1, then the
+inequality (1) is clear since fj (m + n) ≥ fj (n) ≥ fj fj (n) = fj (m) + fj fj (n) − 1. Otherwise,
+
+fj (m) + fj fj (n) − 1 ≤ (m + j − 2007) + n = (m + n) + j − 2007 = fj (m + n).
+
+In the case
+ j = 2008, clearly n + 1 ≥ f2008 (n) ≥ n for all n ∈ N; moreover, n + 1 ≥
+f2008 f2008 (n) as well. Actually, the latter is trivial if f2008 (n) = n; otherwise,
+ f2008 (n) = n + 1,
+which implies 2007 6 n + 1 and hence n + 1 = f2008 (n + 1) = f2008 f2008 (n) .
+So, if 2007 m + n, then
+
+f2008 (m + n) = m + n + 1 = (m + 1) + (n + 1) − 1 ≥ f2008 (m) + f2008 f2008 (n) − 1.
+Otherwise, 2007 6 m+n, hence 2007 6 m or 2007 6 n. In the former case we have f2008 (m) = m,
+while in the latter one f2008 f2008 (n) = f2008 (n) = n, providing
+
+f2008 (m) + f2008 f2008 (n) − 1 ≤ (m + n + 1) − 1 = f2008 (m + n).
+
+11
+Comment. The examples above are not unique. The values 1, 2, . . . , 2008 can be realized in several
+ways. Here we present other two constructions for j ≤ 2007, without proof:
+
+
+
+ 
+1, n < 2007,
+jn
+.
+hj (n) = max 1,
+gj (n) = j, n = 2007,
+
+2007
+
+n, n > 2007;
+
+Also the example for j = 2008 can be generalized. In particular, choosing a divisor d > 1 of 2007,
+one can set
+(
+n,
+d 6 n,
+f2008,d (n) =
+n + 1, d n.
+
+12
+
+A3. Let n be a positive integer, and let x and y be positive real numbers such that xn +y n = 1.
+Prove that
+
+n
+X
+1 + x2k
+k=1
+
+1 + x4k
+
+!
+
+n
+X
+1 + y 2k
+k=1
+
+1 + y 4k
+
+!
+
+<
+
+1
+.
+(1 − x)(1 − y)
+(Estonia)
+
+Solution 1. For each real t ∈ (0, 1),
+1 (1 − t)(1 − t3 )
+1
+1 + t2
+= −
+< .
+4
+4
+1+t
+t
+t(1 + t )
+t
+Substituting t = xk and t = y k ,
+n
+X
+1 + x2k
+
+n
+X
+1
+
+1 − xn
+0<
+<
+=
+1 + x4k
+xk
+xn (1 − x)
+k=1
+k=1
+
+and 0 <
+
+n
+X
+1 + y 2k
+k=1
+
+Since 1 − y n = xn and 1 − xn = y n ,
+
+1 − xn
+yn
+=
+,
+xn (1 − x)
+xn (1 − x)
+
+1+y
+
+<
+4k
+
+n
+X
+1
+k=1
+
+y
+
+=
+k
+
+1 − yn
+.
+y n (1 − y)
+
+1 − yn
+xn
+=
+y n (1 − y)
+y n (1 − y)
+
+and therefore
+n
+X
+1 + x2k
+k=1
+
+1 + x4k
+
+!
+
+n
+X
+1 + y 2k
+k=1
+
+1 + y 4k
+
+!
+
+<
+
+yn
+xn
+1
+·
+=
+.
+n
+n
+x (1 − x) y (1 − y)
+(1 − x)(1 − y)
+
+Solution 2. We prove
+n
+X
+1 + x2k
+k=1
+
+1 + x4k
+
+!
+
+n
+X
+1 + y 2k
+k=1
+
+1 + y 4k
+
+!
+
+<
+
+
+
+2
+√
+1+ 2
+ln
+2
+2
+
+(1 − x)(1 − y)
+
+<
+
+0.7001
+.
+(1 − x)(1 − y)
+
+(1)
+
+The idea is to estimate each term on the left-hand side with the same constant. To find the
+1+t
+1 + x2k
+, consider the function f (t) =
+in interval (0, 1).
+upper bound for the expression
+4k
+1+x
+1 + t2
+Since
+√
+√
+1 − 2t − t2
+( 2 + 1 + t)( 2 − 1 − t)
+0
+f (t) =
+=
+,
+(1 + t2 )2
+(1 + t2 )2
+√
+√
+the function increases
+in interval (0, 2−1] and decreases in [ 2−1, 1). Therefore the maximum
+√
+is at point t0 = 2 − 1 and
+√
+1+ 2
+1+t
+≤ f (t0 ) =
+= α.
+f (t) =
+1 + t2
+2
+Applying this to each term on the left-hand side of (1), we obtain
+! n
+!
+n
+X 1 + y 2k
+X
+1 + x2k
+≤ nα · nα = (nα)2 .
+4k
+4k
+1
++
+x
+1
++
+y
+k=1
+k=1
+To estimate (1 − x)(1 − y) on the right-hand side, consider the function
+
+g(t) = ln(1 − t1/n ) + ln 1 − (1 − t)1/n .
+
+(2)
+
+13
+Substituting s for 1 − t, we have
+
+
+
+s1/n−1
+1 (1 − t)t1/n (1 − s)s1/n
+h(t) − h(s)
+t1/n−1
+−
+=
+−
+=
+.
+−ng (t) =
+1 − t1/n 1 − s1/n
+st 1 − t1/n
+1 − s1/n
+st
+0
+
+The function
+1/n
+
+h(t) = t
+
+n
+X
+1−t
+=
+ti/n
+1 − t1/n
+i=1
+
+is obviously increasing for t ∈ (0, 1), hence for these values of t we have
+1
+g 0(t) > 0 ⇐⇒ h(t) < h(s) ⇐⇒ t < s = 1 − t ⇐⇒ t < .
+2
+Then, the maximum of g(t) in (0, 1) is attained at point t1 = 1/2 and therefore
+ 
+1
+g(t) ≤ g
+= 2 ln(1 − 2−1/n ),
+t ∈ (0, 1).
+2
+Substituting t = xn , we have 1 − t = y n , (1 − x)(1 − y) = exp g(t) and hence
+(1 − x)(1 − y) = exp g(t) ≤ (1 − 2−1/n )2 .
+
+(3)
+
+Combining (2) and (3), we get
+! n
+!
+2
+n
+−1/n 2
+X 1 + y 2k
+X
+αn(1 − 2−1/n )
+)
+1 + x2k
+2
+2 (1 − 2
+≤ (αn) · 1 ≤ (αn)
+=
+.
+4k
+4k
+1
++
+x
+1
++
+y
+(1
+−
+x)(1
+−
+y)
+(1
+−
+x)(1
+−
+y)
+k=1
+k=1
+ln 2
+, we obtain
+n
+√
+
+
+
+2
+ln
+2
+ln
+2
+1
++
+αn(1 − 2−1/n ) = αn 1 − exp −
+< αn ·
+= α ln 2 =
+ln 2.
+n
+n
+2
+
+Applying the inequality 1 − exp(−t) < t for t =
+
+Hence,
+n
+X
+1 + x2k
+
+1 + x4k
+k=1
+
+!
+
+n
+X
+1 + y 2k
+
+1 + y 4k
+k=1
+
+!
+
+<
+
+
+
+(1 − x)(1 − y)
+
+Comment. It is a natural idea to compare the sum Sn (x) =
+Z n
+
+2
+√
+1+ 2
+ln
+2
+2
+
+n
+X
+1 + x2k
+k=1
+
+1 + x4k
+
+.
+
+with the integral In (x) =
+
+1 + x2t
+dt. Though computing the integral is quite standard, many difficulties arise. First, the
+4t
+0 1+x
+1 + x2k
+has an increasing segment and, depending on x, it can have a decreasing segment as
+integrand
+1 + x4k
+well. So comparing Sn (x) and In (x) is not completely obvious. We can add a term to fix the estimate,
+e.g. Sn ≤ In + (α − 1), but then the final result will be weak for the small values of n. Second, we
+have to minimize (1 − x)(1 − y)In (x)In (y) which leads to very unpleasant computations.
+However, by computer search we found that the maximum of In (x)In (y) is at x = y = 2−1/n , as
+well as the maximum of Sn (x)Sn (y), and the latter is less. Hence, one can conjecture that the exact
+constant which can be put into the numerator on the right-hand side of (1) is
+2
+
+
+
+Z 1
+1 1 17
+π 2
+1 + 4−t
+≈ 0.6484.
+dt =
+ln
++ arctan 4 −
+ln 2 ·
+−t
+4 2
+2
+4
+0 1 + 16
+
+14
+
+A4. Find all functions f : R+ → R+ such that
+
+f x + f (y) = f (x + y) + f (y)
+
+for all x, y ∈ R+ . (Symbol R+ denotes the set of all positive real numbers.)
+
+(1)
+(Thaliand)
+
+Answer. f (x) = 2x.
++
+Solution 1.
+ First we show that f (y) > y for all y ∈ R . Functional equation (1) yields
+f x + f (y) > f (x + y) and hence f (y) 6= y immediately. If f (y) < y for some y, then setting
+x = y − f (y) we get
+
+
+
+
+
+
+f (y) = f y − f (y) + f (y) = f y − f (y) + y + f (y) > f (y),
+
+contradiction. Therefore f (y) > y for all y ∈ R+ .
+For x ∈ R+ define g(x) = f (x) − x; then f (x) = g(x) + x and, as we have seen, g(x) > 0.
+Transforming (1) for function g(x) and setting t = x + y,
+
+f t + g(y) = f (t) + f (y),
+
+
+
+g t + g(y) + t + g(y) = g(t) + t + g(y) + y
+and therefore
+
+
+g t + g(y) = g(t) + y
+
+for all t > y > 0.
+
+(2)
+
+Next we prove that function g(x) is injective. Suppose that g(y1) = g(y2 ) for some numbers
+y1 , y2 ∈ R+ . Then by (2),
+
+
+g(t) + y1 = g t + g(y1) = g t + g(y2) = g(t) + y2
+
+for all t > max{y1 , y2 }. Hence, g(y1) = g(y2 ) is possible only if y1 = y2 .
+Now let u, v be arbitrary positive numbers and t > u + v. Applying (2) three times,
+
+
+
+g t + g(u) + g(v) = g t + g(u) + v = g(t) + u + v = g t + g(u + v) .
+
+By the injective property we conclude that t + g(u) + g(v) = t + g(u + v), hence
+g(u) + g(v) = g(u + v).
+
+(3)
+
+Since function g(v) is positive, equation (3) also shows that g is an increasing function.
+Finally we prove that g(x) = x. Combining (2) and (3), we obtain
+
+
+g(t) + y = g t + g(y) = g(t) + g g(y)
+
+and hence
+
+
+g g(y) = y.
+
+Suppose that there exists an x ∈ R+ such that g(x) 6= x. By the monotonicity
+of g, if
+
+x > g(x) then g(x) > g g(x) = x. Similarly, if x < g(x) then g(x) < g g(x) = x. Both cases
+lead to contradiction, so there exists no such x.
+We have proved that g(x) = x and therefore f (x) = g(x) + x = 2x for all x ∈ R+ . This
+function indeed satisfies the functional equation (1).
+
+15
+Comment. It is well-known that the additive property (3) together with g(x) ≥ 0 (for x > 0) imply
+g(x) = cx. So, after proving (3), it is sufficient to test functions f (x) = (c + 1)x.
+
+Solution 2. We prove that f (y) > y and introduce function g(x) = f (x) − x > 0 in the same
+way as in Solution 1.
+For arbitrary t > y > 0, substitute x = t − y into (1) to obtain
+
+f t + g(y) = f (t) + f (y)
+
+which, by induction, implies
+
+
+f t + ng(y) = f (t) + nf (y)
+
+for all t > y > 0, n ∈ N.
+
+
+
+g(y)
+f (y) − y
+f (z) = f (y) −
+f (z)
+g(z)
+f (z) − z
+
+(4)
+
+Take two arbitrary positive
+ y and z and a third fixed number t > max{y, z}. For each
+ reals
+g(y)
+. Then t + kg(y) − `k g(z) ≥ t > z and, applying (4) twice,
+positive integer k, let `k = k
+g(z)
+
+
+f t + kg(y) − `k g(z) + `k f (z) = f t + kg(y) = f (t) + kf (y),
+ f (t)
+1
+`k
+0 < f t + kg(y) − `k g(z) =
++ f (y) − f (z).
+k
+k
+k
+As k → ∞ we get
+0 ≤ lim
+
+k→∞
+
+f (t)
+`k
++ f (y) − f (z)
+k
+k
+
+and therefore
+
+
+
+= f (y) −
+
+f (z)
+f (y)
+≤
+.
+y
+z
+
+Exchanging variables y and z, we obtain the reverse inequality. Hence,
+
+f (y) f (z)
+=
+for arbiy
+z
+
+f (x)
+is constant, f (x) = cx.
+x
+Substituting back into (1), we find that f (x) = cx is a solution if and only if c = 2. So the
+only solution for the problem is f (x) = 2x.
+
+trary y and z; so function
+
+16
+
+A5. Let c > 2, and let a(1), a(2), . . . be a sequence of nonnegative real numbers such that
+a(m + n) ≤ 2a(m) + 2a(n) for all m, n ≥ 1,
+and
+a(2k ) ≤
+
+1
+(k + 1)c
+
+(1)
+
+for all k ≥ 0.
+
+(2)
+
+Prove that the sequence a(n) is bounded.
+(Croatia)
+Solution 1. For convenience, define a(0) = 0; then condition (1) persists for all pairs of
+nonnegative indices.
+Lemma 1. For arbitrary nonnegative indices n1 , . . . , nk , we have
+!
+k
+k
+X
+X
+a
+ni ≤
+2i a(ni )
+(3)
+i=1
+
+and
+a
+
+k
+X
+
+i=1
+
+ni
+
+i=1
+
+!
+
+≤ 2k
+
+k
+X
+
+a(ni ).
+
+(4)
+
+i=1
+
+Proof. Inequality (3) is proved by induction on k. The base case k = 1 is trivial, while the
+induction step is provided by
+!
+!
+!
+k+1
+k+1
+k
+k
+k+1
+X
+X
+X
+X
+X
+i
+a
+ni = a n1 +
+ni ≤ 2a(n1 )+2a
+ni+1 ≤ 2a(n1 )+2
+2 a(ni+1 ) =
+2i a(ni ).
+i=1
+
+i=2
+
+i=1
+
+i=1
+
+i=1
+
+To establish (4), first the inequality
+d
+
+a
+
+2
+X
+
+ni
+
+i=1
+
+!
+
+d
+
+≤2
+
+d
+
+2
+X
+
+a(ni )
+
+i=1
+
+can be proved by an obvious induction on d. Then, turning to (4), we find an integer d such
+that 2d−1 < k ≤ 2d to obtain
+!
+!
+!
+k
+k
+2d
+k
+k
+k
+2d
+X
+X
+X
+X
+X
+X
+X
+d
+d
+a
+ni = a
+a(ni ) +
+a(0) = 2
+a(ni ) ≤ 2k
+a(ni ).
+ni +
+0 ≤2
+i=1
+
+i=1
+
+i=1
+
+i=k+1
+
+i=1
+
+i=k+1
+
+i=1
+
+
+Fix an increasing unbounded sequence 0 = M0 < M1 < M2 < . . . of real numbers; the exact
+values will be defined later. Let n be an arbitrary positive integer and write
+n=
+
+d
+X
+i=0
+
+ε i · 2i ,
+
+where εi ∈ {0, 1}.
+
+Set εi = 0 for i > d, and take some positive integer f such that Mf > d. Applying (3), we get
+!
+!
+f
+f
+X
+X
+X
+X
+ε i · 2i .
+2k a
+ε i · 2i ≤
+a(n) = a
+k=1 Mk−1 ≤i<Mk
+
+k=1
+
+Mk−1 ≤i<Mk
+
+17
+Note that there are less than Mk − Mk−1 + 1 integers in interval [Mk−1 , Mk ); hence, using (4)
+we have
+a(n) ≤
+
+f
+X
+k=1
+
+≤
+
+f
+X
+
+≤
+
+X
+
+k=1
+f
+
+2k · 2(Mk − Mk−1 + 1)
+
+2
+
+k=1
+
+εi · a(2i )
+
+max
+
+a(2i )
+
+Mk−1 ≤i<Mk
+
+2k · 2(Mk − Mk−1 + 1)2
+k+1
+
+X
+
+Mk−1 ≤i<Mk
+
+2
+f 
+X
+Mk + 1
+
+1
+
+2
+
+(Mk + 1) ·
+
+=
+(Mk−1 + 1)c
+Mk−1 + 1
+k=1
+
+Setting Mk = 4k/(c−2) − 1, we obtain
+a(n) ≤
+
+f
+X
+
+4
+
+2k+1
+
+2/(c−2)
+
+(4(k−1)/(c−2) )c−2
+
+k=1
+
+=8·4
+
+2/(c−2)
+
+and the sequence a(n) is bounded.
+
+f  k
+X
+1
+k=1
+
+2
+
+2k+1
+.
+(Mk−1 + 1)c−2
+
+< 8 · 42/(c−2) ,
+
+Solution 2.
+Lemma 2. Suppose that s1 , . . . , sk are positive integers such that
+k
+X
+i=1
+
+2−si ≤ 1.
+
+Then for arbitrary positive integers n1 , . . . , nk we have
+!
+k
+k
+X
+X
+a
+ni ≤
+2si a(ni ).
+i=1
+
+i=1
+
+Proof. Apply an induction on k. The base cases are k = 1 (trivial) and k = 2 (follows from the
+condition (1)). Suppose that k > 2. We can assume that s1 ≤ s2 ≤ · · · ≤ sk . Note that
+k−1
+X
+i=1
+
+2−si ≤ 1 − 2−sk−1 ,
+
+since the left-hand side is a fraction with the denominator 2sk−1 , and this fraction is less than 1.
+Define s0k−1 = sk−1 − 1 and n0k−1 = nk−1 + nk ; then we have
+k−2
+X
+i=1
+
+0
+
+2−si + 2−sk−1 ≤ (1 − 2 · 2−sk−1 ) + 21−sk−1 = 1.
+
+Now, the induction hypothesis can be applied to achieve
+!
+! k−2
+k
+k−2
+X
+X
+X
+0
+a
+ni = a
+2si a(ni ) + 2sk−1 a(n0k−1 )
+ni + n0k−1 ≤
+i=1
+
+i=1
+
+≤
+≤
+
+i=1
+k−2
+X
+i=1
+
+k−2
+X
+i=1
+
+2si a(ni ) + 2sk−1 −1 · 2 a(nk−1 ) + a(nk )
+2si a(ni ) + 2sk−1 a(nk−1 ) + 2sk a(nk ).
+
+
+
+
+18
+Let q = c/2 > 1. Take an arbitrary positive integer n and write
+k
+X
+
+n=
+
+2ui ,
+
+0 ≤ u1 < u2 < · · · < uk .
+
+i=1
+
+Choose si = blog2 (ui + 1)q c + d (i = 1, . . . , k) for some integer d. We have
+k
+X
+
+2−si = 2−d
+
+i=1
+
+k
+X
+
+q
+
+2−blog2 (ui +1) c ,
+
+i=1
+
+and we choose d in such a way that
+
+k
+1 X −si
+<
+2 ≤ 1.
+2
+i=1
+
+In particular, this implies
+2d < 2
+
+k
+X
+
+q
+
+2−blog2 (ui +1) c < 4
+
+i=1
+
+Now, by Lemma 2 we obtain
+a(n) = a
+
+k
+X
+
+2ui
+
+i=1
+
+!
+
+≤
+
+k
+X
+i=1
+
+2si a(2ui ) ≤
+
+k
+X
+
+1
+.
+q
+(u
++
+1)
+i
+i=1
+
+k
+X
+i=1
+
+2d (ui + 1)q ·
+
+1
+(ui + 1)2q
+!2
+
+k
+X
+1
+1
+<4
+=2
+q
+(ui + 1)
+(ui + 1)q
+i=1
+i=1
+d
+
+which is bounded since q > 1.
+
+k
+X
+
+,
+
+In fact, Lemma 2 (applied to the case ni = 2ui only) provides a sharp bound for
+1
+any a(n). Actually, let b(k) =
+and consider the sequence
+(k + 1)c
+)
+( k
+k
+k
+X
+X
+X
+ui
+−si
+si
+2 =n .
+(5)
+2
+≤ 1,
+2 b(ui ) k ∈ N,
+a(n) = min
+
+Comment 1.
+
+i=1
+
+i=1
+
+i=1
+
+We show that this sequence satisfies the conditions of the problem. Take two arbitrary indices m
+and n. Let
+a(m) =
+
+a(n) =
+
+k
+X
+
+i=1
+l
+X
+
+k
+X
+
+2si b(ui ),
+
+i=1
+l
+X
+
+2ri b(wi ),
+
+i=1
+
+i=1
+
+Then we have
+k
+X
+i=1
+
+2−1−si +
+
+l
+X
+i=1
+
+2−1−ri ≤
+
+1 1
++ = 1,
+2 2
+
+2−si ≤ 1,
+2−ri ≤ 1,
+
+k
+X
+i=1
+
+k
+X
+
+i=1
+l
+X
+
+2ui = m;
+2wi = n.
+
+i=1
+
+2ui +
+
+l
+X
+
+2wi = m + n,
+
+i=1
+
+so by (5) we obtain
+a(n + m) ≤
+
+k
+X
+i=1
+
+1+si
+
+2
+
+b(ui ) +
+
+l
+X
+i=1
+
+21+ri b(wi ) = 2a(m) + 2a(n).
+
+19
+Comment 2. The condition c > 2 is sharp; we show that the sequence (5) is not bounded if c ≤ 2.
+First, we prove that for an arbitrary n the minimum in (5) is attained with a sequence (ui )
+consisting of distinct numbers. To the contrary, assume that uk−1 = uk . Replace uk−1 and uk by
+a single number u0k−1 = uk + 1, and sk−1 and sk by s0k−1 = min{sk−1 , sk }. The modified sequences
+provide a better bound since
+0
+
+0
+
+2sk−1 b(u0k−1 ) = 2sk−1 b(uk + 1) < 2sk−1 b(uk−1 ) + 2sk b(uk )
+(we used the fact that b(k) is decreasing). This is impossible.
+Hence, the claim is proved, and we can assume that the minimum is attained with u1 < · · · < uk ;
+then
+k
+X
+2ui
+n=
+i=1
+
+is simply the binary representation of n. (In particular,
+it follows that a(2n ) = b(n) for each n.)
+
+Now we show that the sequence a(2k − 1) is not bounded. For some s1 , . . . , sk we have
+k
+
+a(2 − 1) = a
+
+k
+X
+
+i−1
+
+2
+
+i=1
+
+!
+
+=
+
+k
+X
+i=1
+
+si
+
+2 b(i − 1) =
+
+k
+X
+2si
+i=1
+
+ic
+
+.
+
+By the Cauchy–Schwarz inequality we get
+a(2k − 1) = a(2k − 1) · 1 ≥
+
+k
+X
+2si
+i=1
+
+ic
+
+!
+
+k
+X
+1
+i=1
+
+2si
+
+!
+
+≥
+
+k
+X
+1
+c/2
+i
+i=1
+
+!2
+
+,
+
+which is unbounded.
+For c ≤ 2, it is also possible to show a concrete counterexample. Actually, one can prove that the
+sequence
+!
+k
+k
+X
+X
+i
+ui
+=
+2
+a
+(0 ≤ u1 < . . . < uk )
+(ui + 1)2
+i=1
+
+i=1
+
+satisfies (1) and (2) but is not bounded.
+
+20
+
+A6. Let a1 , a2 , . . . , a100 be nonnegative real numbers such that a21 + a22 + . . . + a2100 = 1. Prove
+that
+a21 a2 + a22 a3 + . . . + a2100 a1 <
+
+12
+.
+25
+(Poland)
+
+Solution. Let S =
+
+100
+X
+
+a2k ak+1 . (As usual, we consider the indices modulo 100, e.g. we set
+
+k=1
+
+a101 = a1 and a102 = a2 .)
+Applying the Cauchy-Schwarz inequality to sequences (ak+1 ) and (a2k + 2ak+1 ak+2 ), and then
+the AM-GM inequality to numbers a2k+1 and a2k+2 ,
+!2
+! 100
+!
+100
+100
+X
+X
+X
+(3S)2 =
+ak+1 (a2k + 2ak+1 ak+2 ) ≤
+(1)
+a2k+1
+(a2k + 2ak+1 ak+2 )2
+k=1
+100
+X
+
+=1·
+≤
+
+k=1
+
+(a2k + 2ak+1 ak+2 )2 =
+
+k=1
+
+100
+X
+k=1
+
+100
+X
+
+k=1
+
+(a4k + 4a2k ak+1 ak+2 + 4a2k+1 a2k+2 )
+
+k=1
+
+100
+
+ X
+a4k + 6a2k a2k+1 + 2a2k a2k+2 .
+a4k + 2a2k (a2k+1 + a2k+2 ) + 4a2k+1 a2k+2 =
+k=1
+
+Applying the trivial estimates
+100
+X
+k=1
+
+(a4k + 2a2k a2k+1 + 2a2k a2k+2 ) ≤
+
+100
+X
+
+a2k
+
+k=1
+
+!2
+
+100
+X
+
+and
+
+k=1
+
+a2k a2k+1 ≤
+
+50
+X
+
+a22i−1
+
+i=1
+
+!
+
+50
+X
+
+a22j
+
+j=1
+
+!
+
+,
+
+we obtain that
+(3S)2 ≤
+
+100
+X
+k=1
+
+a2k
+
+!2
+
++4
+
+50
+X
+
+a22i−1
+
+i=1
+
+hence
+S≤
+
+!
+
+50
+X
+j=1
+
+a22j
+
+!
+
+≤1+
+
+50
+X
+
+a22i−1 +
+
+i=1
+
+50
+X
+j=1
+
+a22j
+
+!2
+
+= 2,
+
+√
+
+2
+12
+≈ 0.4714 <
+= 0.48.
+3
+25
+
+Comment 1. By applying the Lagrange multiplier method, one can see that the maximum is
+attained at values of ai satisfying
+(2)
+a2k−1 + 2ak ak+1 = 2λak
+for all k = 1, 2, . . . , 100. Though this system of equations seems hard to solve, it can help to find the
+estimate above; it may suggest to have a closer look at the expression a2k−1 ak + 2a2k ak+1 .
+Moreover, if the numbers a1 , . . . , a100 satisfy (2), we have equality in (1). (See also Comment 3.)
+Comment 2. It is natural to ask what is the best constant cn in the inequality
+3/2
+a21 a2 + a22 a3 + . . . + a2n a1 ≤ cn a21 + a22 + . . . + a2n
+.
+(3)
+√
+For 1 ≤ n ≤ 4 one may prove cn = 1/ n which is achieved when a1 = a2 = . . . = an . However, the
+situation changes completely if n ≥ 5. In this case we do not know the exact value of cn . By computer
+search it can be found that cn ≈ 0.4514 and it is realized for example if
+a1 ≈ 0.5873,
+
+a2 ≈ 0.6771,
+
+a3 ≈ 0.4224,
+
+a4 ≈ 0.1344,
+
+and ak ≈ 0 for k ≥ 6. This example also proves that cn > 0.4513.
+
+a5 ≈ 0.0133
+
+21
+Comment 3. The solution can be improved in several ways to give somewhat better bounds for cn .
+Here we show a variant which proves cn < 0.4589 for n ≥ 5.
+The value of cn does not change if negative values are also allowed in (3). So the problem is
+equivalent to maximizing
+f (a1 , a2 , . . . , an ) = a21 a2 + a22 a3 + . . . + a2n a1
+on the unit sphere a21 + a22 + . . . + a2n = 1 in Rn . Since the unit sphere is compact, the function has a
+maximum and we can apply the Lagrange multiplier method; for each maximum point there exists a
+real number λ such that
+a2k−1 + 2ak ak+1 = λ · 2ak
+Then
+3S =
+
+n
+X
+
+for all k = 1, 2, . . . , n.
+
+a2k−1 ak + 2a2k ak+1
+
+k=1
+
+and therefore
+
+a2k−1 + 2ak ak+1 = 3Sak
+
+
+
+=
+
+n
+X
+
+2λa2k = 2λ
+
+k=1
+
+for all k = 1, 2, . . . , n.
+
+(4)
+
+From (4) we can derive
+9S 2 =
+
+n
+n
+n
+n
+n
+X
+X
+X
+X
+2 X
+a2k ak+1 ak+2
+a2k a2k+1 + 4
+a4k + 4
+a2k−1 + 2ak ak+1 =
+(3Sak )2 =
+k=1
+
+and
+2
+
+3S =
+
+n
+X
+
+3Sa2k−1 ak =
+
+n
+X
+
+a2k−1 a2k−1 + 2ak ak+1
+
+k=1
+
+k=1
+
+k=1
+
+k=1
+
+k=1
+
+k=1
+
+
+
+=
+
+n
+X
+
+a4k + 2
+
+k=1
+
+n
+X
+
+a2k ak+1 ak+2 .
+
+k=1
+
+Let p be a positive number. Combining (5) and (6) and applying the AM-GM inequality,
+(9 + 3p)S 2 = (1 + p)
+
+n
+X
+
+a4k + 4
+
+k=1
+
+n
+X
+
+n
+X
+
+a2k a2k+1 + (4 + 2p)
+
+k=1
+
+n
+X
+
+n
+X
+
+a2k ak+1 ak+2
+
+k=1
+
+n 
+X
+
+
+(2 + p)2 2 2
+ak ak+1
+2(1 + p)
+k=1
+k=1
+k=1
+X
+
+n
+n
+X
+(2 + p)2
+4
+2 2
+2 2
+− 2(1 + p)
+a2k a2k+1
+= (1 + p)
+(ak + 2ak ak+1 + 2ak ak+2 ) + 4 +
+2(1 + p)
+k=1
+k=1
+!2
+n
+n
+X
+8 + 4p − 3p2 X 2 2
+ak ak+1
+≤ (1 + p)
+a2k
++
+2(1 + p)
+
+≤ (1 + p)
+
+a4k + 4
+
+a2k a2k+1 +
+
+= (1 + p) +
+
+n
+8 + 4p − 3p2 X
+
+2(1 + p)
+
+2(1 + p)a2k a2k+2 +
+
+k=1
+
+k=1
+
+(5)
+
+a2k a2k+1 .
+
+k=1
+
+√
+2+2 7
+Setting p =
+which is the positive root of 8 + 4p − 3p2 = 0, we obtain
+3
+s
+√
+r
+1+p
+5+2 7
+√ ≈ 0.458879.
+S≤
+=
+9 + 3p
+33 + 6 7
+
+(6)
+
+22
+
+A7. Let n > 1 be an integer. In the space, consider the set
+
+S = (x, y, z) | x, y, z ∈ {0, 1, . . . , n}, x + y + z > 0 .
+
+Find the smallest number of planes that jointly contain all (n + 1)3 − 1 points of S but none of
+them passes through the origin.
+(Netherlands)
+Answer. 3n planes.
+Solution. It is easy to find 3n such planes. For example, planes x = i, y = i or z = i
+(i = 1, 2, . . . , n) cover the set S but none of them contains the origin. Another such collection
+consists of all planes x + y + z = k for k = 1, 2, . . . , 3n.
+We show that 3n is the smallest possible number.
+Lemma 1. Consider a nonzero polynomial P (x1 , . . . , xk ) in k variables. Suppose that P
+vanishes at all points (x1 , . . . , xk ) such that x1 , . . . , xk ∈ {0, 1, . . . , n} and x1 + · · · + xk > 0,
+while P (0, 0, . . . , 0) 6= 0. Then deg P ≥ kn.
+
+Proof. We use induction on k. The base case k = 0 is clear since P 6= 0. Denote for clarity
+y = xk .
+Let R(x1 , . . . , xk−1 , y) be the residue of P modulo Q(y) = y(y − 1) . . . (y − n). Polynomial Q(y) vanishes at each y = 0, 1, . . . , n, hence P (x1 , . . . , xk−1 , y) = R(x1 , . . . , xk−1 , y) for
+all x1 , . . . , xk−1 , y ∈ {0, 1, . . . , n}. Therefore, R also satisfies the condition of the Lemma;
+moreover, degy R ≤ n. Clearly, deg R ≤ deg P , so it suffices to prove that deg R ≥ nk.
+Now, expand polynomial R in the powers of y:
+R(x1 , . . . , xk−1 , y) = Rn (x1 , . . . , xk−1 )y n + Rn−1 (x1 , . . . , xk−1 )y n−1 + · · · + R0 (x1 , . . . , xk−1 ).
+
+We show that polynomial Rn (x1 , . . . , xk−1 ) satisfies the condition of the induction hypothesis.
+Consider the polynomial T (y) = R(0, . . . , 0, y) of degree ≤ n. This polynomial has n roots
+y = 1, . . . , n; on the other hand, T (y) 6≡ 0 since T (0) 6= 0. Hence deg T = n, and its leading
+coefficient is Rn (0, 0, . . . , 0) 6= 0. In particular, in the case k = 1 we obtain that coefficient Rn
+is nonzero.
+Similarly, take any numbers a1 , . . . , ak−1 ∈ {0, 1, . . . , n} with a1 +· · ·+ak−1 > 0. Substituting
+xi = ai into R(x1 , . . . , xk−1 , y), we get a polynomial in y which vanishes at all points y = 0, . . . , n
+and has degree ≤ n. Therefore, this polynomial is null, hence Ri (a1 , . . . , ak−1) = 0 for all
+i = 0, 1, . . . , n. In particular, Rn (a1 , . . . , ak−1 ) = 0.
+Thus, the polynomial Rn (x1 , . . . , xk−1 ) satisfies the condition of the induction hypothesis.
+So, we have deg Rn ≥ (k − 1)n and deg P ≥ deg R ≥ deg Rn + n ≥ kn.
+
+Now we can finish the solution. Suppose that there are N planes covering all the points
+of S but not containing the origin. Let their equations be ai x + bi y + ci z + di = 0. Consider
+the polynomial
+N
+Y
+P (x, y, z) =
+(ai x + bi y + ci z + di ).
+i=1
+
+It has total degree N. This polynomial has the property that P (x0 , y0, z0 ) = 0 for any
+(x0 , y0, z0 ) ∈ S, while P (0, 0, 0) 6= 0. Hence by Lemma 1 we get N = deg P ≥ 3n, as desired.
+Comment 1. There are many other collections of 3n planes covering the set S but not covering the
+origin.
+
+23
+Solution 2. We present a different proof of the main Lemma 1. Here we confine ourselves to
+the case k = 3, which is applied in the solution, and denote the variables by x, y and z. (The
+same proof works for the general statement as well.)
+The following fact is known with various proofs; we provide one possible proof for the
+completeness.
+Lemma 2. For arbitrary integers 0 ≤ m < n and for an arbitrary polynomial P (x) of degree m,
+ 
+n
+X
+k n
+P (k) = 0.
+(1)
+(−1)
+k
+k=0
+Proof. We use an induction on n. If n = 1, then P (x) is a constant polynomial, hence
+P (1) − P (0) = 0, and the base is proved.
+For the induction step, define P1 (x) = P (x + 1) − P (x). Then clearly deg P1 = deg P − 1 =
+m − 1 < n − 1, hence by the induction hypothesis we get
+
+
+
+
+n−1
+X
+
+n−1
+k n−1
+P (k) − P (k + 1)
+P1 (k) =
+(−1)
+0=−
+(−1)
+k
+k
+k=0
+k=0
+
+
+
+
+n−1
+n−1
+X
+X
+k n−1
+k n−1
+P (k + 1)
+(−1)
+P (k) −
+(−1)
+=
+k
+k
+k=0
+k=0
+
+
+
+
+n
+n−1
+X
+X
+k n−1
+k n−1
+P (k)
+P (k) +
+(−1)
+=
+(−1)
+k
+−
+1
+k
+k=1
+k=0
+!
+
+
+
+ 
+n
+n−1
+X
+X
+n−1
+n−1
+n
+k n
+k
+P (k) + (−1) P (n) =
+(−1)
++
+= P (0) +
+(−1)
+P (k). 
+k
+k−1
+k
+k=0
+k=1
+n−1
+X
+
+k
+
+Now return to the proof of Lemma 1. Suppose, to the contrary, that deg P = N < 3n.
+Consider the sum
+   
+n X
+n X
+n
+X
+n n
+i+j+k n
+P (i, j, k).
+Σ=
+(−1)
+k
+j
+i
+i=0 j=0 k=0
+ 3
+n
+The only nonzero term in this sum is P (0, 0, 0) and its coefficient is
+= 1; therefore
+0
+Σ = P (0, 0, 0) 6= 0.
+X
+pα,β,γ xα y β z γ , then
+On the other hand, if P (x, y, z) =
+α+β+γ≤N
+
+n X
+n X
+n
+X
+
+    X
+n n n
+pα,β,γ iα j β k γ
+(−1)
+Σ=
+k
+j
+i
+i=0 j=0 k=0
+α+β+γ≤N
+!
+  !
+  ! X
+
+
+n
+n
+n
+X
+X
+X
+n γ
+n
+n
+k .
+(−1)k
+jβ
+iα
+(−1)j
+pα,β,γ
+(−1)i
+=
+k
+j
+i
+j=0
+i=0
+k=0
+α+β+γ≤N
+i+j+k
+
+Consider an arbitrary term in this sum. We claim that it is zero. Since N < 3n, one of three
+inequalities α < n, β < n or γ < n is valid. For the convenience, suppose that α < n. Applying
+ 
+n
+X
+i n
+α
+iα = 0, hence the term is zero as required.
+Lemma 2 to polynomial x , we get
+(−1)
+i
+i=0
+This yields Σ = 0 which is a contradiction. Therefore, deg P ≥ 3n.
+
+24
+Comment 2. The proof does not depend on the concrete coefficients in Lemma 2. Instead of this
+Lemma, one can simply use the fact that there exist numbers α0 , α1 , . . . , αn (α0 6= 0) such that
+n
+X
+k=0
+
+αk km = 0
+
+for every 0 ≤ m < n.
+
+This is a system of homogeneous linear equations in variables αi . Since the number of equations is
+less than the number of variables, the only nontrivial thing is that there exists a solution with α0 6= 0.
+It can be shown in various ways.
+
+Combinatorics
+C1.
+
+Let n > 1 be an integer. Find all sequences a1 , a2 , . . . , an2 +n satisfying the following
+conditions:
+(a) ai ∈ {0, 1} for all 1 ≤ i ≤ n2 + n;
+(b) ai+1 + ai+2 + . . . + ai+n < ai+n+1 + ai+n+2 + . . . + ai+2n for all 0 ≤ i ≤ n2 − n.
+(Serbia)
+Answer. Such a sequence is unique. It can be defined as follows:
+(
+0, u + v ≤ n,
+for all 1 ≤ u ≤ n and 0 ≤ v ≤ n.
+au+vn =
+1, u + v ≥ n + 1
+
+(1)
+
+The terms can be arranged into blocks of length n as
+(0| .{z
+. . 0)
+. . 0} 1) (0| .{z
+. . 0} 1 1) . . . (|0 .{z
+. . 0} |1 .{z
+. . 1)
+. . 1)
+. . 1).
+} (0| .{z
+} . . . (0 1| .{z
+} (|1 .{z
+}
+n
+
+n−1
+
+n−2
+
+n−v
+
+v
+
+n−1
+
+n
+
+Solution 1. Consider a sequence (ai ) satisfying the conditions. For arbitrary integers 0 ≤
+k ≤ l ≤ n2 + n denote S(k, l] = ak+1 + · · · + al . (If k = l then S(k, l] = 0.) Then condition (b)
+can be rewritten as S(i, i + n] < S(i + n, i + 2n] for all 0 ≤ i ≤ n2 − n. Notice that for
+0 ≤ k ≤ l ≤ m ≤ n2 + n we have S(k, m] = S(k, l] + S(l, m].
+By condition (b),
+0 ≤ S(0, n] < S(n, 2n] < · · · < S(n2 , n2 + n] ≤ n.
+We have only n + 1 distinct integers in the interval [0, n]; hence,
+
+S vn, (v + 1)n = v
+
+for all 0 ≤ v ≤ n.
+
+(2)
+
+In particular, S(0, n] = 0 and S(n2 , n2 + n] = n, therefore
+a1 = a2 = . . . = an = 0,
+an2 +1 = an2 +2 = . . . = an2 +n = 1.
+
+(3)
+(4)
+
+Subdivide sequence (ai ) into n+1 blocks, each consisting of n consecutive terms, and number
+them from 0 to n. We show by induction on v that the vth blocks has the form
+. . 0} 1| .{z
+. . 1).
+(0| .{z
+}
+n−v
+
+The base case v = 0 is provided by (3).
+
+v
+
+26
+Consider the vth block for v > 0. By (2), it contains some “ones”. Let the first “one” in this
+block be at the uth position (that is, au+vn = 1). By the induction hypothesis, the (v − 1)th
+and vth blocks of (ai ) have the form
+P
+
+=v
+
+(0| . . . {z
+0 . . . 0} |1 .{z
+. . 1)
+. . 0} 1 ∗ . . . ∗),
+} (0| .{z
+n−v+1
+
+v−1
+
+u−1
+
+where each star can appear to be any binary digit. Observe that u ≤ n − v + 1, since the sum
+in this block is v. Then, the fragment of length n bracketed above has exactly (v − 1) + 1 ones,
+i. e. S u + (v − 1)n, u + vn = v. Hence,
+
+
+
+v = S u + (v − 1)n, u + vn < S u + vn, u + (v + 1)n < · · · < S u + (n − 1)n, u + n2 ≤ n;
+
+we have n − v + 1 distinct integers in the interval [v, n], therefore S(u + (t − 1)n, u + tn] = t for
+each t = v, . . . , n.
+Thus, the end of sequence (ai ) looks as following:
+u zeroes
+
+P
+
+P
+
+=v
+
+P
+
+=v+1
+
+=n
+
+n − u ones
+
+···
+z }| {
+z }| {
+(|0 . . . 0 0 .{z
+. . 0 1 . . . 1)
+(
+∗
+.
+.
+.
+∗)
+(
+∗
+.
+.
+.
+∗)
+.
+.
+.
+(
+0
+.
+.
+.
+0
+1
+∗
+.
+.
+.
+∗
+1
+.
+.
+.
+1
+|
+} |
+{z
+} | P {z
+}
+{z1 . . . 1)
+}
+P
+P
+P
+=v−1
+
+=v
+
+=v+1
+
+=n
+
+(each bracketed fragment contains n terms). Computing in two ways the sum of all digits
+above, we obtain n − u = v − 1 and u = n − v + 1. Then, the first n − v terms in the vth
+block are zeroes, and the next v terms are ones, due to the sum of all terms in this block. The
+statement is proved.
+We are left to check that the sequence obtained satisfies the condition. Notice that ai ≤ ai+n
+for all 1 ≤ i ≤ n2 . Moreover, if 1 ≤ u ≤ n and 0 ≤ v ≤ n − 1, then au+vn < au+vn+n exactly
+when u + v = n. In this case we have u + vn = n + v(n − 1).
+Consider now an arbitrary index 0 ≤ i ≤ n2 − n. Clearly, there exists an integer v such that
+n + v(n − 1) ∈ [i + 1, i + n]. Then, applying the above inequalities we obtain that condition (b)
+is valid.
+Solution 2. Similarly to Solution 1, we introduce the notation S(k, l] and obtain (2), (3),
+and (4) in the same way. The sum of all elements of the sequence can be computed as
+S(0, n2 + n] = S(0, n] + S(n, 2n] + . . . + S(n2 , n2 + n] = 0 + 1 + . . . + n.
+For an arbitrary integer 0 ≤ u ≤ n, consider the numbers
+
+S(u, u + n] < S(u + n, u + 2n] < . . . < S u + (n − 1)n, u + n2 .
+
+(5)
+
+They are n distinct integers from the n + 1 possible values 0, 1, 2, . . . , n. Denote by m the
+“missing” value which is not listed. We determine m from S(0, n2 + n]. Write this sum as
+S(0, n2 +n] = S(0, u]+S(u, u+n]+S(u+n, u+2n]+. . .+S(u+(n−1)n, u+n2 ]+S(u+n2 , n2 +n].
+Since a1 = a2 = . . . = au = 0 and au+n2 +1 = . . . = an2 +n = 1, we have S(0, u] = 0 and
+S(u + n2 , n + n2 ] = n − u. Then
+
+0 + 1 + . . . + n = S(0, n2 + n] = 0 + (0 + 1 + . . . + n) − m + (n − u),
+
+27
+so m = n − u.
+Hence, the numbers listed in (5) are 0, 1, . . . , n − u − 1 and n − u + 1, . . . , n, respectively,
+therefore
+(
+
+v,
+v ≤ n − u − 1,
+for all 0 ≤ u ≤ n, 0 ≤ v ≤ n − 1. (6)
+S u + vn, u + (v + 1)n =
+v + 1, v ≥ n − u
+Conditions (6), together with (3), provide a system of linear equations in variables ai . Now
+we solve this system and show that the solution is unique and satisfies conditions (a) and (b).
+First, observe that any solution of the system (3), (6) satisfies the condition (b). By the construction, equations (6) immediately imply (5). On the other hand, all inequalities mentioned
+in condition (b) are included into the chain (5) for some value of u.
+
+Next, note that the system (3), (6) is redundant. The numbers S kn, (k + 1)n , where
+1 ≤ k ≤ n − 1,appear twice in (6). For u = 0 and v = k we have v ≤ n − u − 1, and (6) gives
+S kn, (k + 1)n = v =
+ k. For u = n and v = k − 1 we have v ≥ n − u and we obtain the same
+value, S kn, (k + 1)n = v + 1 = k. Therefore, deleting one equation from each redundant pair,
+we can make every sum S(k, k + n] appear exactly once on the left-hand side in (6).
+Now, from (3), (6), the sequence (ai ) can be reconstructed inductively by
+a1 = a2 = . . . = an−1 = 0,
+
+ak+n = S(k, k + n] − (ak+1 + ak+2 + . . . + ak+n−1 ) (0 ≤ k ≤ n2 ),
+
+taking the values of S(k, k + n] from (6). This means first that there exists at most one solution
+of our system. Conversely, the constructed sequence obviously satisfies all equations (3), (6)
+(the only missing equation is an = 0, which follows from S(0, n] = 0). Hence it satisfies
+condition (b), and we are left to check condition (a) only.
+For arbitrary integers 1 ≤ u, t ≤ n we get
+
+
+au+tn − au+(t−1)n = S u + (t − 1)n, u + tn − S (u − 1) + (t − 1)n, (u − 1) + tn
+
+
+(t − 1) − (t − 1) = 0, t ≤ n − u,
+= t − (t − 1) = 1,
+t = n − u + 1,
+
+
+t − t = 0,
+t ≥ n − u + 2.
+Since au = 0, we have
+
+au+vn = au+vn − au =
+
+v
+X
+t=1
+
+(au+tn − au+(t−1)n )
+
+for all 1 ≤ u, v ≤ n. If v < n−u + 1 then all terms are 0 on the right-hand side. If v ≥ n−u + 1,
+then variable t attains the value n − u + 1 once. Hence,
+(
+0, u + v ≤ n,
+au+vn =
+1, u + v ≥ n + 1,
+according with (1). Note that the formula is valid for v = 0 as well.
+Finally, we presented the direct formula for (ai ), and we have proved that it satisfies condition (a). So, the solution is complete.
+
+28
+
+C2. A unit square is dissected into n > 1 rectangles such that their sides are parallel to the
+sides of the square. Any line, parallel to a side of the square and intersecting its interior, also
+intersects the interior of some rectangle. Prove that in this dissection, there exists a rectangle
+having no point on the boundary of the square.
+(Japan)
+Solution 1. Call the directions of the sides of the square horizontal and vertical. A horizontal
+or vertical line, which intersects the interior of the square but does not intersect the interior of
+any rectangle, will be called a splitting line. A rectangle having no point on the boundary of
+the square will be called an interior rectangle.
+Suppose, to the contrary, that there exists a dissection of the square into more than one
+rectangle, such that no interior rectangle and no splitting line appear. Consider such a dissection
+with the least possible number of rectangles. Notice that this number of rectangles is greater
+than 2, otherwise their common side provides a splitting line.
+If there exist two rectangles having a common side, then we can replace them by their union
+(see Figure 1). The number of rectangles was greater than 2, so in a new dissection it is greater
+than 1. Clearly, in the new dissection, there is also no splitting line as well as no interior
+rectangle. This contradicts the choice of the original dissection.
+Denote the initial square by ABCD, with A and B being respectively the lower left and lower
+right vertices. Consider those two rectangles a and b containing vertices A and B, respectively.
+(Note that a 6= b, otherwise its top side provides a splitting line.) We can assume that the
+height of a is not greater than that of b. Then consider the rectangle c neighboring to the lower
+right corner of a (it may happen that c = b). By aforementioned, the heights of a and c are
+distinct. Then two cases are possible.
+D
+
+C
+
+D
+
+C
+d
+
+d
+a
+
+b
+
+c
+
+A
+
+Figure 1
+
+a
+B
+
+Figure 2
+
+c
+
+b
+
+A
+
+B
+
+Figure 3
+
+Case 1. The height of c is less than that of a. Consider the rectangle d which is adjacent
+to both a and c, i. e. the one containing the angle marked in Figure 2. This rectangle has no
+common point with BC (since a is not higher than b), as well as no common point with AB
+or with AD (obviously). Then d has a common point with CD, and its left side provides a
+splitting line. Contradiction.
+Case 2. The height of c is greater than that of a. Analogously, consider the rectangle d
+containing the angle marked on Figure 3. It has no common point with AD (otherwise it has
+a common side with a), as well as no common point with AB or with BC (obviously). Then d
+has a common point with CD. Hence its right side provides a splitting line, and we get the
+contradiction again.
+
+29
+Solution 2. Again, we suppose the contrary. Consider an arbitrary counterexample. Then we
+know that each rectangle is attached to at least one side of the square. Observe that a rectangle
+cannot be attached to two opposite sides, otherwise one of its sides lies on a splitting line.
+We say that two rectangles are opposite if they are attached to opposite sides of ABCD. We
+claim that there exist two opposite rectangles having a common point.
+Consider the union L of all rectangles attached to the left. Assume, to the contrary, that L
+has no common point with the rectangles attached to the right. Take a polygonal line p
+connecting the top and the bottom sides of the square and passing close from the right to the
+boundary of L (see Figure 4). Then all its points belong to the rectangles attached either to
+the top or to the bottom. Moreover, the upper end-point of p belongs to a rectangle attached
+to the top, and the lower one belongs to an other rectangle attached to the bottom. Hence,
+there is a point on p where some rectangles attached to the top and to the bottom meet each
+other. So, there always exists a pair of neighboring opposite rectangles.
+`
+
+X
+
+L
+a
+
+c
+
+b
+a0
+a
+
+Y
+
+b0
+
+X
+
+b
+
+p
+
+Figure 4
+
+Figure 5
+
+Figure 6
+
+Now, take two opposite neighboring rectangles a and b. We can assume that a is attached
+to the left and b is attached to the right. Let X be their common point. If X belongs to their
+horizontal sides (in particular, X may appear to be a common vertex of a and b), then these
+sides provide a splitting line (see Figure 5). Otherwise, X lies on the vertical sides. Let ` be
+the line containing these sides.
+Since ` is not a splitting line, it intersects the interior of some rectangle. Let c be such a
+rectangle, closest to X; we can assume that c lies above X. Let Y be the common point of `
+and the bottom side of c (see Figure 6). Then Y is also a vertex of two rectangles lying below c.
+So, let Y be the upper-right and upper-left corners of the rectangles a0 and b0 , respectively.
+Then a0 and b0 are situated not lower than a and b, respectively (it may happen that a = a0
+or b = b0 ). We claim that a0 is attached to the left. If a = a0 then of course it is. If a 6= a0
+then a0 is above a, below c and to the left from b0 . Hence, it can be attached to the left only.
+Analogously, b0 is attached to the right. Now, the top sides of these two rectangles pass
+through Y , hence they provide a splitting line again. This last contradiction completes the
+proof.
+
+30
+
+C3. Find all positive integers n, for which the numbers in the set S = {1, 2, . . . , n} can be
+colored red and blue, with the following condition being satisfied: the set S × S × S contains
+exactly 2007 ordered triples (x, y, z) such that (i) x, y, z are of the same color and (ii) x + y + z
+is divisible by n.
+(Netherlands)
+Answer. n = 69 and n = 84.
+Solution. Suppose that the numbers 1, 2, . . . , n are colored red and blue. Denote by R and B
+the sets of red and blue numbers, respectively; let |R| = r and |B| = b = n − r. Call a
+triple (x, y, z) ∈ S × S × S monochromatic if x, y, z have the same color, and bichromatic
+otherwise. Call a triple (x, y, z) divisible if x + y + z is divisible by n. We claim that there are
+exactly r 2 − rb + b2 divisible monochromatic triples.
+For any pair (x, y) ∈ S × S there exists a unique zx,y ∈ S such that the triple (x, y, zx,y ) is
+divisible; so there are exactly n2 divisible triples. Furthermore, if a divisible triple (x, y, z) is
+bichromatic, then among x, y, z there are either one blue and two red numbers, or vice versa.
+In both cases, exactly one of the pairs (x, y), (y, z) and (z, x) belongs to the set R × B. Assign
+such pair to the triple (x, y, z).
+Conversely, consider any pair (x, y) ∈ R × B, and denote z = zx,y . Since x 6= y, the
+triples (x, y, z), (y, z, x) and (z, x, y) are distinct, and (x, y) is assigned to each of them. On the
+other hand, if (x, y) is assigned to some triple, then this triple is clearly one of those mentioned
+above. So each pair in R × B is assigned exactly three times.
+Thus, the number of bichromatic divisible triples is three times the number of elements
+in R × B, and the number of monochromatic ones is n2 − 3rb = (r + b)2 − 3rb = r 2 − rb + b2 ,
+as claimed.
+So, to find all values of n for which the desired coloring is possible, we have to find all
+n, for which there exists a decomposition n = r + b with r 2 − rb + b2 = 2007. Therefore,
+9 r 2 − rb + b2 = (r + b)2 − 3rb. From this it consequently follows that 3 r + b, 3 rb, and
+then 3 r, 3 b. Set r = 3s, b = 3c. We can assume that s ≥ c. We have s2 − sc + c2 = 223.
+Furthermore,
+892 = 4(s2 − sc + c2 ) = (2c − s)2 + 3s2 ≥ 3s2 ≥ 3s2 − 3c(s − c) = 3(s2 − sc + c2 ) = 669,
+so 297 ≥ s2 ≥ 223 and 17 ≥ s ≥ 15. If s = 15 then
+c(15 − c) = c(s − c) = s2 − (s2 − sc + c2 ) = 152 − 223 = 2
+which is impossible for an integer c. In a similar way, if s = 16 then c(16 − c) = 33, which is
+also impossible. Finally, if s = 17 then c(17 − c) = 66, and the solutions are c = 6 and c = 11.
+Hence, (r, b) = (51, 18) or (r, b) = (51, 33), and the possible values of n are n = 51 + 18 = 69
+and n = 51 + 33 = 84.
+Comment. After the formula for the number of monochromatic divisible triples is found, the solution
+can be finished in various ways. The one presented is aimed to decrease the number of considered
+cases.
+
+31
+
+C4. Let A0 = (a1 , . . . , an) be a finite sequence of real numbers. For each k ≥ 0, from the
+sequence Ak = (x1 , . . . , xn ) we construct a new sequence Ak+1 in the following way.
+1. We choose a partition {1, . . . , n} = I ∪ J, where I and J are two disjoint sets, such that
+the expression
+X
+X
+xi −
+xj
+i∈I
+
+j∈J
+
+attains the smallest possible value. (We allow the sets I or J to be empty; in this case the
+corresponding sum is 0.) If there are several such partitions, one is chosen arbitrarily.
+2. We set Ak+1 = (y1 , . . . , yn ), where yi = xi + 1 if i ∈ I, and yi = xi − 1 if i ∈ J.
+Prove that for some k, the sequence Ak contains an element x such that |x| ≥ n/2.
+(Iran)
+
+Solution.
+Lemma. Suppose that all terms of the sequence (x1 , . . . , xn ) satisfy the inequality |xi | < a.
+Then there exists a partition {1, 2, . . . , n} = I ∪ J into two disjoint sets such that
+X
+X
+xi −
+xj < a.
+(1)
+i∈I
+
+j∈J
+
+Proof. Apply an induction on n. The base case n = 1 is trivial. For the induction step,
+consider a sequence (x1 , . . . , xn ) (n > 1). By the induction hypothesis there exists a splitting
+{1, . . . , n − 1} = I 0 ∪ J 0 such that
+X
+X
+xi −
+xj < a.
+i∈I 0
+
+P
+
+j∈J 0
+
+P
+
+xj . If xn ≥ 0 then choose I = I 0 , J = J ∪ {n}; otherP
+P
+wise choose I = I 0 ∪ {n}, J = J . In both cases, we have
+xi −
+xj ∈ [0, a) and |xn | ∈ [0, a);
+
+For convenience, suppose that
+
+i∈I 0
+0
+
+xi ≥
+
+j∈J 0
+
+i∈I 0
+
+hence
+
+X
+i∈I
+
+xi −
+
+X
+j∈J
+
+xj =
+
+X
+i∈I 0
+
+xi −
+
+X
+
+j∈J 0
+
+j∈J 0
+
+xj − |xn | ∈ (−a, a),
+
+as desired.
+
+Let us turn now to the problem. To the contrary, assume that for all k, all the numbers
+in Ak lie in interval (−n/2, n/2). Consider an arbitrary sequence Ak = (b1 , . . . , bn ). To obtain
+the term bi , we increased and decreased number ai by one several times. Therefore bi − ai is
+always an integer, and there are not more than n possible values for bi . So, there are not more
+than nn distinct possible sequences Ak , and hence two of the sequences A1 , A2 , . . . , Ann +1
+should be identical, say Ap = Aq for some p < q.
+For any positive integer k, let Sk be the sum of squares of elements in Ak . Consider two
+consecutive sequences Ak = (x1 , . . . , xn ) and Ak+1 = (y1 , . . . , yn ). Let {1, 2, . . . , n} = I ∪ J be
+the partition used in this step — that is, yi = xi + 1 for all i ∈ I and yj = xj − 1 for all j ∈ J.
+P
+P
+Since the value of
+xi −
+xj is the smallest possible, the Lemma implies that it is less
+i∈I
+
+j∈J
+
+than n/2. Then we have
+X
+X 
+X
+
+ X
+n
+2
+2
+2
+2
+(xj − 1) − xj = n + 2
+xi −
+xj > n − 2 · = 0.
+(xi + 1) − xi +
+Sk+1 − Sk =
+2
+i∈I
+j∈J
+j∈J
+i∈I
+
+Thus we obtain Sq > Sq−1 > · · · > Sp . This is impossible since Ap = Aq and hence Sp = Sq .
+
+32
+
+C5.
+
+In the Cartesian coordinate plane define the strip Sn = {(x, y) | n ≤ x < n + 1} for
+every integer n. Assume that each strip Sn is colored either red or blue, and let a and b be two
+distinct positive integers. Prove that there exists a rectangle with side lengths a and b such
+that its vertices have the same color.
+(Romania)
+Solution. If Sn and Sn+a have the same color for some integer n, then we can choose the
+rectangle with vertices (n, 0) ∈ Sn , (n, b) ∈ Sn , (n + a, 0) ∈ Sn+a , and (n + a, b) ∈ Sn+a , and we
+are done. So it can be assumed that Sn and Sn+a have opposite colors for each n.
+Similarly, it also can be assumed that Sn and Sn+b have opposite colors. Then, by induction
+on |p| + |q|, we obtain that for arbitrary integers p and q, strips Sn and Sn+pa+qb have the same
+color if p + q is even, and these two strips have opposite colors if p + q is odd.
+Let d = gcd(a, b), a1 = a/d and b1 = b/d. Apply the result above for p = b1 and q = −a1 .
+The strips S0 and S0+b1 a−a1 b are identical and therefore they have the same color. Hence, a1 +b1
+is even. By the construction, a1 and b1 are coprime, so this is possible only if both are odd.
+Without loss of generality, we can assume a > b. Then a1 > b1 ≥ 1, so a1 ≥ 3.
+Choose integers k and ` such that ka1 − `b1 = 1 and therefore ka − `b = d. Since a1 and b1
+are odd, k + ` is odd as well. Hence, for every integer n, strips Sn and Sn+ka−`b = Sn+d have
+opposite colors. This also implies that the coloring is periodic with period 2d, i.e. strips Sn
+and Sn+2d have the same color for every n.
+B
+b
+C
+a
+
+a
+A
+t
+
+B0
+t + 2d
+
+D0
+u
+
+u + 2d x
+
+b
+D
+
+Figure 1
+We will construct the desired rectangle ABCD with AB = CD = a and BC = AD = b in
+a position such that vertex A lies on the x-axis, and the projection of side AB onto the x-axis
+is of length 2d (see Figure 1). This is possible since a = a1 d > 2d. The coordinates of the
+vertices will have the forms
+A = (t, 0),
+Let ϕ =
+
+B = (t + 2d, y1),
+
+p
+a21 − 4. By Pythagoras’ theorem,
+y1 = BB0 =
+
+√
+
+C = (u + 2d, y2),
+
+a2 − 4d2 = d
+
+p
+
+D = (u, y3).
+
+a21 − 4 = dϕ.
+
+So, by the similar triangles ADD0 and BAB0 , we have the constraint
+u − t = AD0 =
+
+AD
+bd
+· BB0 = ϕ
+AB
+a
+
+(1)
+
+33
+for numbers t and u. Computing the numbers y2 and y3 is not required since they have no
+effect to the colors.
+2
+p Observe that the number ϕ is irrational, because ϕ is an integer, but ϕ is not: a1 > ϕ ≥
+a21 − 2a1 + 2 > a1 − 1.
+By the periodicity, points A and B have the same color; similarly, points C and D have the
+same color. Furthermore, these colors depend only on the values of t and u. So it is sufficient
+to choose numbers t and u such that vertices A and D have the same color.
+Let w be the largest positive integer such that there exist w consecutive strips Sn0 , Sn0 +1 , . . . ,
+Sn0 +w−1 with the same color, say red. (Since Sn0 +d must be blue, we have w ≤ d.) We will
+choose t from the interval (n0 , n0 + w).
+
+A
+(
+n0 t
+
+)
+n0 + w
+
+B0
+t + 2d
+
+D0
+(
+)
+u
+I
+
+x
+
+Figure 2
+
+
+bd
+bd
+Consider the interval I = n0 + ϕ, n0 + ϕ + w on the x-axis (see Figure 2). Its length
+a
+a
+is w, and the end-points are irrational. Therefore, this interval intersects w + 1 consecutive
+strips. Since at most w consecutive strips may have the same color, interval I must contain both
+bd
+red and blue points. Choose u ∈ I such that the line x = u is red and set t = u− ϕ, according
+a
+to the constraint (1). Then t ∈ (n0 , n0 + w) and A = (t, 0) is red as well as D = (u, y3).
+Hence, variables u and t can be set such that they provide a rectangle with four red vertices.
+Comment. The statement is false for squares, i.e. in the case a = b. If strips S2ka , S2ka+1 , . . .,
+S(2k+1)a−1 are red, and strips S(2k+1)a , S(2k+1)a+1 , . . ., S(2k+2)a−1 are blue for every integer k, then
+each square of size a × a has at least one red and at least one blue vertex as well.
+
+34
+
+C6. In a mathematical competition some competitors are friends; friendship is always mutual.
+Call a group of competitors a clique if each two of them are friends. The number of members
+in a clique is called its size.
+It is known that the largest size of cliques is even. Prove that the competitors can be
+arranged in two rooms such that the largest size of cliques in one room is the same as the
+largest size of cliques in the other room.
+(Russia)
+Solution. We present an algorithm to arrange the competitors. Let the two rooms be Room A
+and Room B. We start with an initial arrangement, and then we modify it several times by
+sending one person to the other room. At any state of the algorithm, A and B denote the sets
+of the competitors in the rooms, and c(A) and c(B) denote the largest sizes of cliques in the
+rooms, respectively.
+Step 1. Let M be one of the cliques of largest size, |M| = 2m. Send all members of M to
+Room A and all other competitors to Room B.
+Since M is a clique of the largest size, we have c(A) = |M| ≥ c(B).
+Step 2. While c(A) > c(B), send one person from Room A to Room B.
+Room A
+
+Room B
+
+A∩M
+
+B∩M
+
+Note that c(A) > c(B) implies that Room A is not empty.
+In each step, c(A) decreases by one and c(B) increases by at most one. So at the end we
+have c(A) ≤ c(B) ≤ c(A) + 1.
+We also have c(A) = |A| ≥ m at the end. Otherwise we would have at least m + 1 members
+of M in Room B and at most m − 1 in Room A, implying c(B) − c(A) ≥ (m + 1) − (m − 1) = 2.
+Step 3. Let k = c(A). If c(B) = k then STOP.
+If we reached c(A) = c(B) = k then we have found the desired arrangement.
+In all other cases we have c(B) = k + 1.
+From the estimate above we also know that k = |A| = |A ∩ M| ≥ m and |B ∩ M| ≤ m.
+Step 4. If there exists a competitor x ∈ B ∩ M and a clique C ⊂ B such that |C| = k + 1
+and x ∈
+/ C, then move x to Room A and STOP.
+Room A
+
+Room B
+
+A∩M
+
+B∩M
+x
+
+C
+
+After moving x back to Room A, we will have k + 1 members of M in Room A, thus
+c(A) = k + 1. Due to x ∈
+/ C, c(B) = |C| is not decreased, and after this step we have
+c(A) = c(B) = k + 1.
+
+35
+If there is no such competitor x, then in Room B, all cliques of size k + 1 contain B ∩ M
+as a subset.
+Step 5. While c(B) = k + 1, choose a clique C ⊂ B such that |C| = k + 1 and move one
+member of C \ M to Room A.
+Room A
+
+Room B
+
+A∩M
+
+C
+
+B∩M
+
+Note that |C| = k + 1 > m ≥ |B ∩ M|, so C \ M cannot be empty.
+Every time we move a single person from Room B to Room A, so c(B) decreases by at
+most 1. Hence, at the end of this loop we have c(B) = k.
+In Room A we have the clique A ∩ M with size |A ∩ M| = k thus c(A) ≥ k. We prove that
+there is no clique of larger size there. Let Q ⊂ A be an arbitrary clique. We show that |Q| ≤ k.
+Room A
+
+Room B
+
+A∩M
+
+B∩M
+
+Q
+
+In Room A, and specially in set Q, there can be two types of competitors:
+– Some members of M. Since M is a clique, they are friends with all members of B ∩ M.
+– Competitors which were moved to Room A in Step 5. Each of them has been in a clique
+with B ∩ M so they are also friends with all members of B ∩ M.
+Hence, all members of Q are friends with all members of B ∩ M. Sets Q and B ∩ M are
+cliques themselves, so Q ∪ (B ∩ M) is also a clique. Since M is a clique of the largest size,
+|M| ≥ |Q ∪ (B ∩ M)| = |Q| + |B ∩ M| = |Q| + |M| − |A ∩ M|,
+therefore
+|Q| ≤ |A ∩ M| = k.
+Finally, after Step 5 we have c(A) = c(B) = k.
+Comment. Obviously, the statement is false without the assumption that the largest clique size is
+even.
+
+36
+√
+3− 5
+C7. Let α <
+be a positive real number. Prove that there exist positive integers n
+2
+n
+and p > α · 2 for which one can select 2p pairwise distinct subsets S1 , . . . , Sp , T1 , . . . , Tp of
+the set {1, 2, . . . , n} such that Si ∩ Tj 6= ∅ for all 1 ≤ i, j ≤ p.
+(Austria)
+Solution. Let k and m be positive integers (to be determined later) and set n = km. Decompose the set {1, 2, . . . , n} into k disjoint subsets, each of size m; denote these subsets
+by A1 , . . . , Ak . Define the following families of sets:
+
+S = S ⊂ {1, 2, . . . , n} : ∀i S ∩ Ai 6= ∅ ,
+
+T1 = T ⊂ {1, 2, . . . , n} : ∃i Ai ⊂ T ,
+T = T1 \ S.
+
+For each set T ∈ T ⊂ T1 , there exists an index 1 ≤ i ≤ k such that Ai ⊂ T . Then for all S ∈ S,
+S ∩ T ⊃ S ∩ Ai 6= ∅. Hence, each S ∈ S and each T ∈ T have at least one common element.
+Below we showthat the numbers m and k can be chosen such that |S|, |T | > α · 2n . Then,
+choosing p = min |S|, |T | , one can select the desired 2p sets S1 , . . . , Sp and T1 , . . . , Tp from
+families S and T , respectively. Since families S and T are disjoint, sets Si and Tj will be
+pairwise distinct.
+To count the sets S ∈ S, observe that each Ai has 2m −1 nonempty subsets so we have 2m −1
+choices for S ∩ Ai . These intersections uniquely determine set S, so
+|S| = (2m − 1)k .
+
+(1)
+
+Similarly, if a set H ⊂ {1, 2, . . . , n} does not contain a certain set Ai then we have 2m − 1
+choices for H ∩ Ai : all subsets of Ai , except Ai itself. Therefore, the complement of T1 contains (2m − 1)k sets and
+|T1 | = 2km − (2m − 1)k .
+(2)
+
+Next consider the family S \ T1 . If a set S intersects all Ai but does not contain any of them,
+then there exists 2m − 2 possible values for each S ∩ Ai : all subsets of Ai except ∅ and Ai .
+Therefore the number of such sets S is (2m − 2)k , so
+From (1), (2), and (3) we obtain
+
+|S \ T1 | = (2m − 2)k .
+
+(3)
+
+
+|T | = |T1 | − |S ∩ T1 | = |T1 | − |S| − |S \ T1 | = 2km − 2(2m − 1)k + (2m − 2)k .
+√
+
+
+3− 5
+Let δ =
+and k = k(m) = 2m log 1δ . Then
+2
+
+k
+
+
+1
+|S|
+k
+lim
+= lim 1 − m = exp − lim m = δ
+m→∞ 2km
+m→∞
+m→∞ 2
+2
+
+and similarly
+
+k
+k
+
+
+1
+2
+|T |
+= 1 − 2 lim 1 − m + lim 1 − m = 1 − 2δ + δ 2 = δ.
+lim
+m→∞
+m→∞
+m→∞ 2km
+2
+2
+Hence, if m is sufficiently large then
+|S|, |T | > α · 2mk = α · 2n .
+
+|T |
+|S|
+and
+are greater than α (since α < δ). So
+2mk
+2mk
+
+√
+3− 5
+Comment. It can be proved that the constant
+is sharp. Actually, if S1 , . . . , Sp , T1 , . . . , Tp
+2
+√
+3− 5 n
+are distinct subsets of {1, 2, . . . , n} such that each Si intersects each Tj , then p <
+·2 .
+2
+
+37
+
+C8. Given a convex n-gon P in the plane. For every three vertices of P , consider the triangle
+determined by them. Call such a triangle good if all its sides are of unit length.
+Prove that there are not more than 23 n good triangles.
+(Ukraine)
+Solution. Consider all good triangles containing a certain vertex A. The other two vertices
+of any such triangle lie on the circle ωA with unit radius and center A. Since P is convex, all
+these vertices lie on an arc of angle less than 180◦ . Let LA RA be the shortest such arc, oriented
+clockwise (see Figure 1). Each of segments ALA and ARA belongs to a unique good triangle.
+We say that the good triangle with side ALA is assigned counterclockwise to A, and the second
+one, with side ARA , is assigned clockwise to A. In those cases when there is a single good
+triangle containing vertex A, this triangle is assigned to A twice.
+There are at most two assignments to each vertex of the polygon. (Vertices which do not
+belong to any good triangle have no assignment.) So the number of assignments is at most 2n.
+Consider an arbitrary good triangle ABC, with vertices arranged clockwise. We prove
+that ABC is assigned to its vertices at least three times. Then, denoting the number of good
+triangles by t, we obtain that the number K of all assignments is at most 2n, while it is not
+less than 3t. Then 3t ≤ K ≤ 2n, as required.
+Actually, we prove that triangle ABC is assigned either counterclockwise to C or clockwise
+to B. Then, by the cyclic symmetry of the vertices, we obtain that triangle ABC is assigned
+either counterclockwise to A or clockwise to C, and either counterclockwise to B or clockwise
+to A, providing the claim.
+LA
+ωA
+
+A0
+ωC
+
+RA
+
+ωB
+
+B
+A
+
+C
+
+A
+
+ωA
+
+LA
+ωA
+RA
+
+Figure 1
+
+C0
+
+(0)
+Y =RB
+
+A
+
+(0)
+X=LC
+
+B0
+
+Figure 2
+
+Assume, to the contrary, that LC 6= A and RB 6= A. Denote by A0 , B 0 , C 0 the intersection
+points of circles ωA , ωB and ωC , distinct from A, B, C (see Figure 2). Let CLC L0C be the good
+triangle containing CLC . Observe that the angle of arc LC A is less than 120◦ . Then one of the
+points LC and L0C belongs to arc B 0 A of ωC ; let this point be X. In the case when LC = B 0
+and L0C = A, choose X = B 0 .
+0
+Analogously, considering the good triangle BRB
+RB which contains BRB as an edge, we see
+0
+0
+that one of the points RB and RB lies on arc AC of ωB . Denote this point by Y , Y 6= A.
+Then angles XAY , Y AB, BAC and CAX (oriented clockwise) are not greater than 180◦ .
+Hence, point A lies in quadrilateral XY BC (either in its interior or on segment XY ). This is
+impossible, since all these five points are vertices of P .
+Hence, each good triangle has at least three assignments, and the statement is proved.
+Comment 1. Considering a diameter AB of the polygon, one can prove that every good triangle
+
+containing either A or B has at least four assignments. This observation leads to t ≤ 32 (n − 1) .
+
+38
+
+
+Comment 2. The result t ≤ 23 (n − 1) is sharp. To
+construct a polygon with n = 3k + 1 vertices and t = 2k triangles, take a rhombus AB1 C1 D1 with unit side length and
+∠B1 = 60◦ . Then rotate it around A by small angles obtaining rhombi AB2 C2 D2 , . . . , ABk Ck Dk (see Figure 3). The
+polygon AB1 . . . Bk C1 . . . Ck D1 . . . Dk has 3k + 1 vertices and
+contains 2k good triangles.
+The construction for n = 3k and n = 3k − 1 can be
+obtained by deleting vertices Dn and Dn−1 .
+
+Cn
+
+C1
+
+D1
+
+Bn
+
+Dn
+
+B1
+A
+
+Figure 3
+
+Geometry
+G1. In triangle ABC, the angle bisector at vertex C intersects the circumcircle and the perpendicular bisectors of sides BC and CA at points R, P , and Q, respectively. The midpoints of
+BC and CA are S and T , respectively. Prove that triangles RQT and RP S have the same area.
+(Czech Republic)
+Solution 1. If AC = BC then triangle ABC is isosceles, triangles RQT and RP S are
+symmetric about the bisector CR and the statement is trivial. If AC 6= BC then it can be
+assumed without loss of generality that AC < BC.
+C
+
+T
+
+Q
+`
+
+O
+
+S
+
+P
+
+B
+
+A
+R
+
+Denote the circumcenter by O. The right triangles CT Q and CSP have equal angles at
+vertex C, so they are similar, ∠CP S = ∠CQT = ∠OQP and
+CQ
+QT
+=
+.
+(1)
+PS
+CP
+Let ` be the perpendicular bisector of chord CR; of course, ` passes through the circumcenter O. Due to the equal angles at P and Q, triangle OP Q is isosceles with OP = OQ.
+Then line ` is the axis of symmetry in this triangle as well. Therefore, points P and Q lie
+symmetrically on line segment CR,
+RP = CQ and RQ = CP.
+Triangles RQT and RP S have equal angles at vertices Q and P , respectively. Then
+1
+· RQ · QT · sin ∠RQT
+RQ QT
+area(RQT )
+= 21
+·
+.
+=
+area(RP S)
+RP P S
+· RP · P S · sin ∠RP S
+2
+
+Substituting (1) and (2),
+
+area(RQT )
+RQ QT
+CP CQ
+=
+·
+=
+·
+= 1.
+area(RP S)
+RP P S
+CQ CP
+Hence, area(RQT ) = area(RSP ).
+
+(2)
+
+40
+Solution 2. Assume again AC < BC. Denote the circumcenter by O, and let γ be the
+angle at C. Similarly to the first solution, from right triangles CT Q and CSP we obtain
+that ∠OP Q = ∠OQP = 90◦ − γ2 . Then triangle OP Q is isosceles, OP = OQ and moreover
+∠P OQ = γ.
+As is well-known, point R is the midpoint of arc AB and ∠ROA = ∠BOR = γ.
+C
+γ
+
+Q
+
+T
+
+γ
+
+S
+
+O
+γ
+
+P
+
+B
+
+A
+
+R
+
+Consider the rotation around point O by angle γ. This transform moves A to R, R to B
+and Q to P ; hence triangles RQA and BP R are congruent and they have the same area.
+Triangles RQT and RQA have RQ as a common side, so the ratio between their areas is
+d(T, CR)
+CT
+1
+area(RQT )
+=
+=
+= .
+area(RQA)
+d(A, CR)
+CA
+2
+(d(X, Y Z) denotes the distance between point X and line Y Z).
+It can be obtained similarly that
+area(RP S)
+CS
+1
+=
+= .
+area(BP R)
+CB
+2
+Now the proof can be completed as
+area(RQT ) =
+
+1
+1
+area(RQA) = area(BP R) = area(RP S).
+2
+2
+
+41
+
+G2. Given an isosceles triangle ABC with AB = AC. The midpoint of side BC is denoted
+by M. Let X be a variable point on the shorter arc MA of the circumcircle of triangle ABM.
+Let T be the point in the angle domain BMA, for which ∠T MX = 90◦ and T X = BX. Prove
+that ∠MT B − ∠CT M does not depend on X.
+(Canada)
+Solution 1. Let N be the midpoint of segment BT (see Figure 1). Line XN is the axis of
+symmetry in the isosceles triangle BXT , thus ∠T NX = 90◦ and ∠BXN = ∠NXT . Moreover,
+in triangle BCT , line MN is the midline parallel to CT ; hence ∠CT M = ∠NMT .
+Due to the right angles at points M and N, these points lie on the circle with diameter XT .
+Therefore,
+∠MT B = ∠MT N = ∠MXN
+
+and
+
+∠CT M = ∠NMT = ∠NXT = ∠BXN.
+
+Hence
+∠MT B − ∠CT M = ∠MXN − ∠BXN = ∠MXB = ∠MAB
+which does not depend on X.
+A
+
+A
+
+X
+T
+T
+X
+B
+
+M
+
+N
+
+B
+
+M
+
+C
+
+Figure 1
+
+C
+
+S
+
+Figure 2
+
+Solution 2. Let S be the reflection of point T over M (see Figure 2). Then XM is the perpendicular bisector of T S, hence XB = XT = XS, and X is the circumcenter of triangle BST .
+Moreover, ∠BSM = ∠CT M since they are symmetrical about M. Then
+∠MT B − ∠CT M = ∠ST B − ∠BST =
+
+∠SXB − ∠BXT
+.
+2
+
+Observe that ∠SXB = ∠SXT − ∠BXT = 2∠MXT − ∠BXT , so
+∠MT B − ∠CT M =
+which is constant.
+
+2∠MXT − 2∠BXT
+= ∠MXB = ∠MAB,
+2
+
+42
+
+G3. The diagonals of a trapezoid ABCD intersect at point P . Point Q lies between the
+parallel lines BC and AD such that ∠AQD = ∠CQB, and line CD separates points P and Q.
+Prove that ∠BQP = ∠DAQ.
+(Ukraine)
+AD
+Solution. Let t =
+. Consider the homothety h with center P and scale −t. Triangles P DA
+BC
+and P BC are similar with ratio t, hence h(B) = D and h(C) = A.
+B
+
+C
+
+0
+
+Q
+
+P
+Q
+
+A
+
+D
+
+Let Q0 = h(Q) (see Figure 1). Then points Q, P and Q0 are obviously collinear. Points Q
+and P lie on the same side of AD, as well as on the same side of BC; hence Q0 and P are
+also on the same side of h(BC) = AD, and therefore Q and Q0 are on the same side of AD.
+Moreover, points Q and C are on the same side of BD, while Q0 and A are on the opposite
+side (see Figure above).
+By the homothety, ∠AQ0 D = ∠CQB = ∠AQD, hence quadrilateral AQ0 QD is cyclic. Then
+∠DAQ = ∠DQ0 Q = ∠DQ0 P = ∠BQP
+(the latter equality is valid by the homothety again).
+Comment. The statement of the problem is a limit case of the following result.
+In an arbitrary quadrilateral ABCD, let P = AC ∩ BD, I = AD ∩ BC, and let Q be an arbitrary
+point which is not collinear with any two of points A, B, C, D. Then ∠AQD = ∠CQB if and only if
+∠BQP = ∠IQA (angles are oriented; see Figure below to the left).
+In the special case of the trapezoid, I is an ideal point and ∠DAQ = ∠IQA = ∠BQP .
+C
+b
+
+B
+
+B
+P
+
+I
+
+i
+U
+
+I
+
+c
+
+p
+
+a
+
+C
+
+P
+
+A
+
+Q
+
+V
+
+Q
+
+I
+
+d
+D
+
+I
+
+A
+
+D
+
+Let a = QA, b = QB, c = QC, d = QD, i = QI and p = QP . Let line QA intersect lines BC
+and BD at points U and V , respectively. On lines BC and BD we have
+(abci) = (U BCI)
+
+and
+
+(badp) = (abpd) = (V BP D).
+
+Projecting from A, we get
+(abci) = (U BCI) = (V BP D) = (badp).
+Suppose that ∠AQD = ∠CQB. Let line p0 be the reflection of line i about the bisector of
+angle AQB. Then by symmetry we have (badp0 ) = (abci) = (badp). Hence p = p0 , as desired.
+The converse statement can be proved analogously.
+
+43
+
+G4. Consider five points A, B, C, D, E such that ABCD is a parallelogram and BCED is
+a cyclic quadrilateral. Let ` be a line passing through A, and let ` intersect segment DC and
+line BC at points F and G, respectively. Suppose that EF = EG = EC. Prove that ` is the
+bisector of angle DAB.
+(Luxembourg)
+Solution. If CF = CG, then ∠F GC = ∠GF C, hence ∠GAB = ∠GF C = ∠F GC = ∠F AD,
+and ` is a bisector.
+Assume that CF < GC. Let EK and EL be the altitudes in the isosceles triangles ECF
+and EGC, respectively. Then in the right triangles EKF and ELC we have EF = EC and
+KF =
+so
+KE =
+
+√
+
+GC
+CF
+<
+= LC,
+2
+2
+
+EF 2 − KF 2 >
+
+√
+
+EC 2 − LC 2 = LE.
+
+Since quadrilateral BCED is cyclic, we have ∠EDC = ∠EBC, so the right triangles BEL
+and DEK are similar. Then KE > LE implies DK > BL, and hence
+DF = DK − KF > BL − LC = BC = AD.
+AD
+GC
+But triangles ADF and GCF are similar, so we have 1 >
+=
+; this contradicts our
+DF
+CF
+assumption.
+The case CF > GC is completely similar. We consequently obtain the converse inequalities
+AD
+GC
+KF > LC, KE < LE, DK < BL, DF < AD, hence 1 <
+=
+; a contradiction.
+DF
+CF
+`
+B
+
+C
+
+L
+
+K
+
+E
+
+F
+
+A
+
+D
+
+G
+
+44
+
+G5. Let ABC be a fixed triangle, and let A1 , B1 , C1 be the midpoints of sides BC, CA, AB,
+respectively. Let P be a variable point on the circumcircle. Let lines P A1 , P B1 , P C1 meet the
+circumcircle again at A0 , B 0 , C 0 respectively. Assume that the points A, B, C, A0 , B 0 , C 0 are
+distinct, and lines AA0 , BB 0 , CC 0 form a triangle. Prove that the area of this triangle does not
+depend on P .
+(United Kingdom)
+Solution 1. Let A0 , B0 , C0 be the points of intersection of the lines AA0 , BB 0 and CC 0 (see
+Figure). We claim that area(A0 B0 C0 ) = 21 area(ABC), hence it is constant.
+Consider the inscribed hexagon ABCC 0 P A0 . By Pascal’s theorem, the points of intersection
+of its opposite sides (or of their extensions) are collinear. These points are AB ∩ C 0 P = C1 ,
+BC ∩ P A0 = A1 , CC 0 ∩ A0 A = B0 . So point B0 lies on the midline A1 C1 of triangle ABC.
+Analogously, points A0 and C0 lie on lines B1 C1 and A1 B1 , respectively.
+Lines AC and A1 C1 are parallel, so triangles B0 C0 A1 and AC0 B1 are similar; hence we have
+C
+
+B0 C0
+A1 C0
+=
+.
+AC0
+B1 C0
+
+P
+
+Analogously, from BC k B1 C1 we obtain
+
+B1
+
+A1 C0
+BC0
+=
+.
+B1 C0
+A0 C0
+
+C0
+
+A1
+A0
+
+B0
+
+Combining these equalities, we get
+BC0
+B0 C0
+=
+,
+AC0
+A0 C0
+or
+A0 C0 · B0 C0 = AC0 · BC0 .
+Hence we have
+
+A
+
+B
+
+C1
+B0
+C0
+A0
+
+1
+1
+area(A0 B0 C0 ) = A0 C0 · B0 C0 sin ∠A0 C0 B0 = AC0 · BC0 sin ∠AC0 B = area(ABC0 ).
+2
+2
+Since C0 lies on the midline, we have d(C0 , AB) = 12 d(C, AB) (we denote by d(X, Y Z) the
+distance between point X and line Y Z). Then we obtain
+1
+1
+1
+area(A0 B0 C0 ) = area(ABC0 ) = AB · d(C0 , AB) = AB · d(C, AB) = area(ABC).
+2
+4
+2
+Solution 2. Again, we prove that area(A0 B0 C0 ) = 21 area(ABC).
+We can assume that P lies on arc AC. Mark a point L on side AC such that ∠CBL =
+∠P BA; then ∠LBA = ∠CBA − ∠CBL = ∠CBA − ∠P BA = ∠CBP . Note also that
+∠BAL = ∠BAC = ∠BP C and ∠LCB = ∠AP B. Hence, triangles BAL and BP C are
+similar, and so are triangles LCB and AP B.
+Analogously, mark points K and M respectively on the extensions of sides CB and AB
+beyond point B, such that ∠KAB = ∠CAP and ∠BCM = ∠P CA. For analogous reasons,
+∠KAC = ∠BAP and ∠ACM = ∠P CB. Hence 4ABK ∼ 4AP C ∼ 4MBC, 4ACK ∼
+4AP B, and 4MAC ∼ 4BP C. From these similarities, we have ∠CMB = ∠KAB = ∠CAP ,
+while we have seen that ∠CAP = ∠CBP = ∠LBA. Hence, AK k BL k CM.
+
+45
+C
+
+P
+
+C0
+
+A1
+
+L
+
+0
+
+A
+X=B0
+A
+
+C1
+
+B
+
+M
+
+A0
+
+B0
+
+C0
+
+K
+
+0
+
+Let line CC intersect BL at point X. Note that ∠LCX = ∠ACC 0 = ∠AP C 0 = ∠AP C1 ,
+and P C1 is a median in triangle AP B. Since triangles AP B and LCB are similar, CX is a
+median in triangle LCB, and X is a midpoint of BL. For the same reason, AA0 passes through
+this midpoint, so X = B0 . Analogously, A0 and C0 are the midpoints of AK and CM.
+Now, from AA0 k CC0 , we have
+area(A0 B0 C0 ) = area(AC0 A0 ) − area(AB0 A0 ) = area(ACA0 ) − area(AB0 A0 ) = area(ACB0 ).
+Finally,
+1
+1
+1
+area(A0 B0 C0 ) = area(ACB0 ) = B0 L · AC sin ALB0 = BL · AC sin ALB = area(ABC).
+2
+4
+2
+Comment 1. The equality area(A0 B0 C0 ) = area(ACB0 ) in Solution 2 does not need to be proved
+since the following fact is frequently known.
+Suppose that the lines KL and M N are parallel, while the lines KM and LN intersect in a point E.
+Then area(KEN ) = area(M EL).
+Comment 2. It follows immediately from both solutions that AA0 k BB0 k CC0 . These lines pass
+through an ideal point which is isogonally conjugate to P . It is known that they are parallel to the
+Simson line of point Q which is opposite to P on the circumcircle.
+Comment 3. If A = A0 , then one can define the line AA0 to be the tangent to the circumcircle at
+point A. Then the statement of the problem is also valid in this case.
+
+46
+
+G6. Determine the smallest positive real number k with the following property.
+Let ABCD be a convex quadrilateral, and let points A1 , B1 , C1 and D1 lie on sides AB, BC,
+CD and DA, respectively. Consider the areas of triangles AA1 D1 , BB1 A1 , CC1 B1 , and DD1 C1 ;
+let S be the sum of the two smallest ones, and let S1 be the area of quadrilateral A1 B1 C1 D1 .
+Then we always have kS1 ≥ S.
+(U.S.A.)
+Answer. k = 1.
+Solution. Throughout the solution, triangles AA1 D1 , BB1 A1 , CC1 B1 , and DD1 C1 will be
+referred to as border triangles. We will denote by [R] the area of a region R.
+First, we show that k ≥ 1. Consider a triangle ABC with unit area; let A1 , B1 , K be
+the midpoints of its sides AB, BC, AC, respectively. Choose a point D on the extension
+of BK, close to K. Take points C1 and D1 on sides CD and DA close to D (see Figure 1).
+We have [BB1 A1 ] = 14 . Moreover, as C1 , D1 , D → K, we get [A1 B1 C1 D1 ] → [A1 B1 K] = 14 ,
+[AA1 D1 ] → [AA1 K] = 14 , [CC1 B1 ] → [CKB1 ] = 41 and [DD1 C1 ] → 0. Hence, the sum of the
+two smallest areas of border triangles tends to 41 , as well as [A1 B1 C1 D1 ]; therefore, their ratio
+tends to 1, and k ≥ 1.
+We are left to prove that k = 1 satisfies the desired property.
+Y
+
+B
+
+B
+
+B
+
+A1
+
+A1
+A1
+
+B1
+C0
+C1
+
+A
+
+D1
+
+K
+
+C1
+
+D
+
+Figure 1
+
+C0
+
+A0
+
+A0
+
+C1
+
+X
+
+C
+A
+
+B1
+
+B0
+
+Figure 2
+
+C
+
+Z
+
+A
+
+B 0 B1
+
+C
+
+Figure 3
+
+Lemma. Let points
+ A1 , B1 , C1 lie respectively on sides BC, CA, AB of a triangle ABC. Then
+[A1 B1 C1 ] ≥ min [AC1 B1 ], [BA1 C1 ], [CB1 A1 ] .
+
+Proof. Let A0 , B 0 , C 0 be the midpoints of sides BC, CA and AB, respectively.
+Suppose that two of points A1 , B1 , C1 lie in one of triangles AC 0 B 0 , BA0 C 0 and CB 0 A0
+(for convenience, let points B1 and C1 lie in triangle AC 0 B 0 ; see Figure 2). Let segments B1 C1
+and AA1 intersect at point X. Then X also lies in triangle AC 0 B 0 . Hence A1 X ≥ AX, and we
+have
+1
+A1 X · B1 C1 · sin ∠A1 XC1
+A1 X
+[A1 B1 C1 ]
+= 21
+≥ 1,
+=
+[AC1 B1 ]
+AX
+AX
+·
+B
+C
+·
+sin
+∠AXB
+1
+1
+1
+2
+as required.
+Otherwise, each one of triangles AC 0 B 0 , BA0 C 0 , CB 0 A0 contains exactly one of points A1 ,
+B1 , C1 , and we can assume that BA1 < BA0 , CB1 < CB 0 , AC1 < AC 0 (see Figure 3). Then
+lines B1 A1 and AB intersect at a point Y on the extension of AB beyond point B, hence
+C1 Y
+[A1 B1 C1 ]
+= 0
+> 1; also, lines A1 C 0 and CA intersect at a point Z on the extension
+0
+[A1 B1 C ]
+CY
+B1 Z
+[A1 B1 C 0 ]
+=
+> 1. Finally, since A1 A0 k B 0 C 0 , we have
+of CA beyond point A, hence
+[A1 B 0 C 0 ]
+B0Z
+[A1 B1 C1 ] > [A1 B1 C 0 ] > [A1 B 0 C 0 ] = [A0 B 0 C 0 ] = 14 [ABC].
+
+47
+Now, from [A1 B1 C1 ] + [AC1 B1 ] + [BA1 C1 ] + [CB1 A1 ] = [ABC] we obtain that one of
+the remaining triangles AC1 B1 , BA1 C1 , CB1 A1 has an area less than 14 [ABC], so it is less
+than [A1 B1 C1 ].
+
+Now we return to the problem. We say that triangle A1 B1 C1 is small if [A1 B1 C1 ] is less than
+each of [BB1 A1 ] and [CC1 B1 ]; otherwise this triangle is big (the similar notion is introduced
+for triangles B1 C1 D1 , C1 D1 A1 , D1 A1 B1 ). If both triangles A1 B1 C1 and C1 D1 A1 are big,
+then [A1 B1 C1 ] is not less than the area of some border triangle, and [C1 D1 A1 ] is not less than
+the area of another one; hence, S1 = [A1 B1 C1 ] + [C1 D1 A1 ] ≥ S. The same is valid for the pair
+of B1 C1 D1 and D1 A1 B1 . So it is sufficient to prove that in one of these pairs both triangles
+are big.
+Suppose the contrary. Then there is a small triangle in each pair. Without loss of generality,
+assume that triangles A1 B1 C1 and D1 A1 B1 are small. We can assume also that [A1 B1 C1 ] ≤
+[D1 A1 B1 ]. Note that in this case ray D1 C1 intersects line BC.
+Consider two cases.
+B
+
+K
+
+A
+
+A1
+
+B
+
+A1
+
+B1
+C
+
+B1
+
+A
+
+D1
+
+C
+K
+
+D1
+
+D
+
+C1
+
+D
+
+C1
+
+L
+L
+
+Figure 4
+Figure 5
+Case 1. Ray C1 D1 intersects line AB at some point K. Let ray D1 C1 intersect line BC at
+point L (see Figure 4). Then we have [A1 B1 C1 ] < [CC1 B1 ] < [LC1 B1 ], [A1 B1 C1 ] < [BB1 A1 ]
+(both — since [A1 B1 C1 ] is small), and [A1 B1 C1 ] ≤ [D1 A1 B1 ] < [AA1 D1 ] < [KA1 D1 ] < [KA1 C1 ]
+(since triangle D1 A1 B1 is small). This contradicts the Lemma, applied for triangle A1 B1 C1
+inside LKB.
+Case 2. Ray C1 D1 does not intersect AB. Then choose a “sufficiently far” point K on
+ray BA such that [KA1 C1 ] > [A1 B1 C1 ], and that ray KC1 intersects line BC at some point L
+(see Figure 5). Since ray C1 D1 does not intersect line AB, the points A and D1 are on different
+sides of KL; then A and D are also on different sides, and C is on the same side as A and B.
+Then analogously we have [A1 B1 C1 ] < [CC1 B1 ] < [LC1 B1 ] and [A1 B1 C1 ] < [BB1 A1 ] since
+triangle A1 B1 C1 is small. This (together with [A1 B1 C1 ] < [KA1 C1 ]) contradicts the Lemma
+again.
+
+48
+
+49
+
+G7. Given an acute triangle ABC with angles α, β and γ at vertices A, B and C, respectively,
+such that β > γ. Point I is the incenter, and R is the circumradius. Point D is the foot of
+the altitude from vertex A. Point K lies on line AD such that AK = 2R, and D separates A
+and K. Finally, lines DI and KI meet sides AC and BC at E and F , respectively.
+Prove that if IE = IF then β ≤ 3γ.
+(Iran)
+Solution 1. We first prove that
+∠KID =
+
+β−γ
+2
+
+(1)
+
+even without the assumption that IE = IF . Then we will show that the statement of the
+problem is a consequence of this fact.
+Denote the circumcenter by O. On the circumcircle, let P be the point opposite to A, and
+let the angle bisector AI intersect the circle again at M. Since AK = AP = 2R, triangle AKP
+is isosceles. It is known that ∠BAD = ∠CAO, hence ∠DAI = ∠BAI − ∠BAD = ∠CAI −
+∠CAO = ∠OAI, and AM is the bisector line in triangle AKP . Therefore, points K and P
+are symmetrical about AM, and ∠AMK = ∠AMP = 90◦ . Thus, M is the midpoint of KP ,
+and AM is the perpendicular bisector of KP .
+
+A
+
+D0
+
+B1
+
+I
+
+O
+
+T
+
+B
+
+D
+
+C
+
+A1
+
+P
+
+M
+K
+
+Denote the perpendicular feet of incenter I on lines BC, AC, and AD by A1 , B1 , and T ,
+respectively. Quadrilateral DA1 IT is a rectangle, hence T D = IA1 = IB1 .
+Due to the right angles at T and B1 , quadrilateral AB1 IT is cyclic. Hence ∠B1 T I =
+∠B1 AI = ∠CAM = ∠BAM = ∠BP M and ∠IB1 T = ∠IAT = ∠MAK = ∠MAP =
+IT
+MP
+∠MBP . Therefore, triangles B1 T I and BP M are similar and
+=
+.
+IB1
+MB
+It is well-known that MB = MC = MI. Then right triangles IT D and KMI are also
+
+50
+similar, because
+
+IT
+MP
+KM
+IT
+=
+=
+=
+. Hence, ∠KIM = ∠IDT = ∠IDA, and
+TD
+IB1
+MB
+MI
+
+∠KID = ∠MID − ∠KIM = (∠IAD + ∠IDA) − ∠IDA = ∠IAD.
+Finally, from the right triangle ADB we can compute
+∠KID = ∠IAD = ∠IAB − ∠DAB =
+
+α
+α α+β+γ
+β−γ
+− (90◦ − β) = −
++β =
+.
+2
+2
+2
+2
+
+Now let us turn to the statement and suppose that IE = IF . Since IA1 = IB1 , the right
+triangles IEB1 and IF A1 are congruent and ∠IEB1 = ∠IF A1 . Since β > γ, A1 lies in the
+interior of segment CD and F lies in the interior of A1 D. Hence, ∠IF C is acute. Then two
+cases are possible depending on the order of points A, C, B1 and E.
+
+A
+
+A
+B1
+
+E
+E
+
+B1
+
+I
+B
+
+D
+
+I
+
+C
+
+F A1
+
+B
+
+D
+
+C
+
+F A1
+
+M
+K
+
+K
+
+M
+
+If point E lies between C and B1 then ∠IF C = ∠IEA, hence quadrilateral CEIF is cyclic
+and ∠F CE = 180◦ − ∠EIF = ∠KID. By (1), in this case we obtain ∠F CE = γ = ∠KID =
+β−γ
+and β = 3γ.
+2
+Otherwise, if point E lies between A and B1 , quadrilateral CEIF is a deltoid such that
+∠IEC = ∠IF C < 90◦ . Then we have ∠F CE > 180◦ − ∠EIF = ∠KID. Therefore,
+β−γ
+∠F CE = γ > ∠KID =
+and β < 3γ.
+2
+Comment 1. In the case when quadrilateral CEIF is a deltoid, one can prove the desired inequality
+without using (1). Actually, from ∠IEC = ∠IF C < 90◦ it follows that ∠ADI = 90◦ − ∠EDC <
+∠AED − ∠EDC = γ. Since the incircle lies inside triangle ABC, we have AD > 2r (here r is the
+β−γ
+= ∠IAD < ∠ADI < γ.
+inradius), which implies DT < T A and DI < AI; hence
+2
+
+Solution 2. We give a different proof for (1). Then the solution can be finished in the same
+way as above.
+Define points M and P again; it can be proved in the same way that AM is the perpendicular
+bisector of KP . Let J be the center of the excircle touching side BC. It is well-known that
+points B, C, I, J lie on a circle with center M; denote this circle by ω1 .
+Let B 0 be the reflection of point B about the angle bisector AM. By the symmetry, B 0 is the
+second intersection point of circle ω1 and line AC. Triangles P BA and KB 0 A are symmetrical
+
+51
+with respect to line AM, therefore ∠KB 0 A = ∠P BA = 90◦. By the right angles at D and B 0 ,
+points K, D, B 0 , C are concyclic and
+AD · AK = AB 0 · AC.
+From the cyclic quadrilateral IJCB 0 we obtain AB 0 · AC = AI · AJ as well, therefore
+AD · AK = AB 0 · AC = AI · AJ
+and points I, J, K, D are also concyclic. Denote circle IDKJ by ω2 .
+A
+
+I
+
+B0
+
+C
+
+B
+
+N
+
+D
+
+P
+M
+K
+
+ω2
+
+ω1
+J
+
+Let N be the point on circle ω2 which is opposite to K. Since ∠NDK = 90◦ = ∠CDK,
+point N lies on line BC. Point M, being the center of circle ω1 , is the midpoint of segment IJ,
+and KM is perpendicular to IJ. Therefore, line KM is the perpendicular bisector of IJ and
+hence it passes through N.
+From the cyclic quadrilateral IDKN we obtain
+∠KID = ∠KND = 90◦ − ∠DKN = 90◦ − ∠AKM = ∠MAK =
+
+β−γ
+.
+2
+
+Comment 2. The main difficulty in the solution is finding (1). If someone can guess this fact, he or
+she can compute it in a relatively short way.
+One possible way is finding and applying the relation AI 2 = 2R(ha − 2r), where ha = AD is the
+length of the altitude. Using this fact, one can see that triangles AKI and AID0 are similar (here D 0
+is the point symmetrical to D about T ). Hence, ∠M IK = ∠DD0 I = ∠IDD0 . The proof can be
+finished as in Solution 1.
+
+52
+
+G8.
+
+Point P lies on side AB of a convex quadrilateral ABCD. Let ω be the incircle
+of triangle CP D, and let I be its incenter. Suppose that ω is tangent to the incircles of
+triangles AP D and BP C at points K and L, respectively. Let lines AC and BD meet at E,
+and let lines AK and BL meet at F . Prove that points E, I, and F are collinear.
+(Poland)
+Solution. Let Ω be the circle tangent to segment AB and to rays AD and BC; let J be its
+center. We prove that points E and F lie on line IJ.
+Ω
+
+D
+
+ω
+
+C
+
+J
+F
+I
+
+ωA
+K
+
+ωB
+
+L
+
+IA
+
+IB
+
+A
+
+P
+
+B
+
+Denote the incircles of triangles ADP and BCP by ωA and ωB . Let h1 be the homothety
+with a negative scale taking ω to Ω. Consider this homothety as the composition of two
+homotheties: one taking ω to ωA (with a negative scale and center K), and another one
+taking ωA to Ω (with a positive scale and center A). It is known that in such a case the three
+centers of homothety are collinear (this theorem is also referred to as the theorem on the three
+similitude centers). Hence, the center of h1 lies on line AK. Analogously, it also lies on BL,
+so this center is F . Hence, F lies on the line of centers of ω and Ω, i. e. on IJ (if I = J,
+then F = I as well, and the claim is obvious).
+Consider quadrilateral AP CD and mark the equal segments of tangents to ω and ωA (see the
+figure below to the left). Since circles ω and ωA have a common point of tangency with P D,
+one can easily see that AD + P C = AP + CD. So, quadrilateral AP CD is circumscribed;
+analogously, circumscribed is also quadrilateral BCDP . Let ΩA and ΩB respectively be their
+incircles.
+Ω
+
+D
+D
+
+ω
+C
+
+ω
+
+ΩB
+
+J
+ΩA
+
+ΩA
+
+I
+
+ωA
+
+JA
+
+JB
+
+E
+A
+
+P
+
+A
+
+P
+
+B
+
+C
+
+53
+Consider the homothety h2 with a positive scale taking ω to Ω. Consider h2 as the composition of two homotheties: taking ω to ΩA (with a positive scale and center C), and taking ΩA
+to Ω (with a positive scale and center A), respectively. So the center of h2 lies on line AC. By
+analogous reasons, it lies also on BD, hence this center is E. Thus, E also lies on the line of
+centers IJ, and the claim is proved.
+Comment. In both main steps of the solution, there can be several different reasonings for the same
+claims. For instance, one can mostly use Desargues’ theorem instead of the three homotheties theorem.
+Namely, if IA and IB are the centers of ωA and ωB , then lines IA IB , KL and AB are concurrent (by
+the theorem on three similitude centers applied to ω, ωA and ωB ). Then Desargues’ theorem, applied
+to triangles AIA K and BIB L, yields that the points J = AIA ∩BIB , I = IA K ∩IB L and F = AK ∩BL
+are collinear.
+For the second step, let JA and JB be the centers of ΩA and ΩB . Then lines JA JB , AB and CD are
+concurrent, since they appear to be the two common tangents and the line of centers of ΩA and ΩB .
+Applying Desargues’ theorem to triangles AJA C and BJB D, we obtain that the points J = AJA ∩BJB ,
+I = CJA ∩ DJB and E = AC ∩ BD are collinear.
+
+54
+
+Number Theory
+N1. Find all pairs (k, n) of positive integers for which 7k − 3n divides k4 + n2 .
+
+(Austria)
+
+Answer. (2, 4).
+Solution. Suppose that a pair (k, n) satisfies the condition of the problem. Since 7k − 3n is
+even, k 4 + n2 is also even, hence k and n have the same parity. If k and n are odd, then
+k 4 + n2 ≡ 1 + 1 = 2 (mod 4), while 7k − 3n ≡ 7 − 3 ≡ 0 (mod 4), so k 4 + n2 cannot be divisible
+by 7k − 3n . Hence, both k and n must be even.
+7a − 3b
+Write k = 2a, n = 2b. Then 7k − 3n = 72a − 32b =
+· 2(7a + 3b ), and both factors are
+2
+integers. So 2(7a + 3b ) 7k − 3n and 7k − 3n k 4 + n2 = 2(8a4 + 2b2 ), hence
+7a + 3b ≤ 8a4 + 2b2 .
+
+(1)
+
+We prove by induction that 8a4 < 7a for a ≥ 4, 2b2 < 3b for b ≥ 1 and 2b2 + 9 ≤ 3b for b ≥ 3.
+In the initial cases a = 4, b = 1, b = 2 and b = 3 we have 8 · 44 = 2048 < 74 = 2401, 2 < 3,
+2 · 22 = 8 < 32 = 9 and 2 · 32 + 9 = 33 = 27, respectively.
+If 8a4 < 7a (a ≥ 4) and 2b2 + 9 ≤ 3b (b ≥ 3), then
+
+
+4
+ 4
+a+1
+5
+625
+a
+8(a + 1) = 8a
+< 7a+1
+and
+<7
+= 7a
+a
+4
+256
+2
+ 2
+
+4
+16
+b+1
+b
+2
+2
+≤3
+= 3b < 3b+1 ,
+2(b + 1) + 9 < (2b + 9)
+b
+3
+9
+4
+
+4
+
+as desired.
+For a ≥ 4 we obtain 7a + 3b > 8a4 + 2b2 and inequality (1) cannot hold. Hence a ≤ 3, and
+three cases are possible.
+Case 1: a = 1. Then k = 2 and 8 + 2b2 ≥ 7 + 3b , thus 2b2 + 1 ≥ 3b . This is possible only
+k 4 + n2
+2 4 + 22
+1
+if b ≤ 2. If b = 1 then n = 2 and k
+=
+= , which is not an integer. If b = 2
+n
+2
+2
+7 −3
+7 −3
+2
+k 4 + n2
+2 4 + 42
+then n = 4 and k
+= 2
+= −1, so (k, n) = (2, 4) is a solution.
+7 − 3n
+7 − 34
+Case 2: a = 2. Then k = 4 and k 4 + n2 = 256 + 4b2 ≥ |74 − 3n | = |49 − 3b | · (49 + 3b ). The
+smallest value of the first factor is 22, attained at b = 3, so 128 + 2b2 ≥ 11(49 + 3b ), which is
+impossible since 3b > 2b2 .
+Case 3: a = 3. Then k = 6 and k 4 + n2 = 1296 + 4b2 ≥ |76 − 3n | = |343 − 3b | · (343 + 3b ).
+Analogously, |343 − 3b | ≥ 100 and we have 324 + b2 ≥ 25(343 + 3b ), which is impossible again.
+We find that there exists a unique solution (k, n) = (2, 4).
+
+56
+
+N2. Let b, n > 1 be integers. Suppose that for each k > 1 there exists an integer ak such
+that b − ank is divisible by k. Prove that b = An for some integer A.
+(Canada)
+Solution. Let the prime factorization of b be b = pα1 1 . . . pαs s , where p1 , . . . , ps are distinct primes.
+α /n
+α /n
+Our goal is to show that all exponents αi are divisible by n, then we can set A = p1 1 . . . ps s .
+Apply the condition for k = b2 . The number b − ank is divisible by b2 and hence, for
+i
+each 1 ≤ i ≤ s, it is divisible by p2α
+> pαi i as well. Therefore
+i
+ank ≡ b ≡ 0 (mod pαi i )
+and
+ank ≡ b 6≡ 0 (mod piαi +1 ),
+
+which implies that the largest power of pi dividing ank is pαi i . Since ank is a complete nth power,
+this implies that αi is divisible by n.
+Comment. If n = 8 and b = 16, then for each prime p there exists an integer ap such that b − anp is
+divisible by p. Actually, the congruency x8 − 16 ≡ 0 (mod p) expands as
+(x2 − 2)(x2 + 2)(x2 − 2x + 2)(x2 + 2x + 2) ≡ 0 (mod p).
+Hence, if −1 is a quadratic residue modulo p, then congruency x2 + 2x + 2 = (x + 1)2 + 1 ≡ 0 has a
+solution. Otherwise, one of congruencies x2 ≡ 2 and x2 ≡ −2 has a solution.
+Thus, the solution cannot work using only prime values of k.
+
+57
+
+N3. Let X be a set of 10 000 integers, none of them is divisible by 47. Prove that there
+exists a 2007-element subset Y of X such that a − b + c − d + e is not divisible by 47 for any
+a, b, c, d, e ∈ Y .
+(Netherlands)
+Solution. Call a set M of integers good if 47 6 a − b + c − d + e for any a, b, c, d, e ∈ M .
+Consider the set J = {−9, −7, −5, −3, −1, 1, 3, 5, 7, 9}. We claim that J is good. Actually,
+for any a, b, c, d, e ∈ J the number a − b + c − d + e is odd and
+−45 = (−9) − 9 + (−9) − 9 + (−9) ≤ a − b + c − d + e ≤ 9 − (−9) + 9 − (−9) + 9 = 45.
+But there is no odd number divisible by 47 between −45 and 45.
+For any k = 1, . . . , 46 consider the set
+Ak = {x ∈ X | ∃j ∈ J :
+
+kx ≡ j (mod 47)}.
+
+If Ak is not good, then 47 a − b + c − d + e for some a, b, c, d, e ∈ Ak , hence 47 ka − kb +
+kc − kd + ke. But set J contains numbers with the same residues modulo 47, so J also is not
+good. This is a contradiction; therefore each Ak is a good subset of X.
+Then it suffices to prove that there exists a number k such that |Ak | ≥ 2007. Note that
+each x ∈ X is contained in exactly 10 sets Ak . Then
+46
+X
+k=1
+
+|Ak | = 10|X| = 100 000,
+
+hence for some value of k we have
+|Ak | ≥
+
+100 000
+> 2173 > 2007.
+46
+
+This completes the proof.
+Comment. For the solution, it is essential to find a good set consisting of 10 different residues.
+Actually, consider a set X containing almost uniform distribution of the nonzero residues (i. e. each
+residue occurs 217 or 218 times). Let Y ⊂ X be a good subset containing 2007 elements. Then the
+set K of all residues appearing in Y contains not less than 10 residues, and obviously this set is good.
+On the other hand, there is no good set K consisting of 11 different residues. The Cauchy–
+Davenport theorem claims that for any sets A, B of residues modulo a prime p,
+|A + B| ≥ min{p, |A| + |B| − 1}.
+Hence, if |K| ≥ 11, then |K + K| ≥ 21, |K + K + K| ≥ 31 > 47 − |K + K|, hence |K + K + K +
+(−K) + (−K)| = 47, and 0 ≡ a + c + e − b − d (mod 47) for some a, b, c, d, e ∈ K.
+From the same reasoning, one can see that a good set K containing 10 residues should satisfy
+equalities |K + K| = 19 = 2|K| − 1 and |K + K + K| = 28 = |K + K| + |K| − 1. It can be proved that
+in this case set K consists of 10 residues forming an arithmetic progression. As an easy consequence,
+one obtains that set K has the form aJ for some nonzero residue a.
+
+58
+
+N4. For every integer k ≥ 2, prove that 23k divides the number
+ k+1  k 
+2
+2
+− k−1
+k
+2
+2
+
+(1)
+
+but 23k+1 does not.
+(Poland)
+Solution. We use the notation (2n − 1)!! = 1 · 3 · · · (2n − 1) and (2n)!! = 2 · 4 · · · (2n) = 2n n!
+for any positive integer n. Observe that (2n)! = (2n)!! (2n − 1)!! = 2n n! (2n − 1)!!.
+For any positive integer n we have
+ 
+(4n)!
+4n
+22n (2n)! (4n − 1)!!
+22n
+=
+=
+=
+(4n − 1)!!,
+2n
+(2n)!2
+(2n)!2
+(2n)!
+
+2
+ 
+2
+(2n)!
+1
+22n
+1
+2n
+2n (2n − 1)!! =
+=
+(2n − 1)!!2 .
+=
+(2n)!
+n!
+(2n)!
+(2n)!
+n
+Then expression (1) can be rewritten as follows:
+
+ k+1   k 
+k
+k
+22
+2
+2
+22
+k+1
+− k−1 = k (2
+− 1)!! − k (2k − 1)!!2
+k
+2
+2
+(2 )!
+(2 )!
+
+
+2k k
+2 (2 − 1)!!
+k
+k
+k
+k
+k
+k
+k
+k
+·
+(2
++
+1)(2
++
+3)
+.
+.
+.
+(2
++
+2
+−
+1)
+−
+(2
+−
+1)(2
+−
+3)
+.
+.
+.
+(2
+−
+2
++
+1)
+.
+=
+(2k )!
+(2)
+We compute the exponent of 2 in the prime decomposition of each factor (the first one is a
+rational number but not necessarily an integer; it is not important).
+First, we show by induction on n that the exponent of 2 in (2n )! is 2n − 1. The base
+n
+case n = 1 is trivial. Suppose that (2n )! = 22 −1 (2d + 1) for some integer d. Then we have
+n
+
+n
+
+n
+
+n+1 −1
+
+(2n+1 )! = 22 (2n )! (2n+1 − 1)!! = 22 22 −1 · (2d + 1)(2n+1 − 1)!! = 22
+
+· (2q + 1)
+
+for some integer q. This finishes the induction step.
+Hence, the exponent of 2 in the first factor in (2) is 2k − (2k − 1) = 1.
+The second factor in (2) can be considered as the value of the polynomial
+P (x) = (x + 1)(x + 3) . . . (x + 2k − 1) − (x − 1)(x − 3) . . . (x − 2k + 1).
+
+(3)
+
+at x = 2k . Now we collect some information about P (x).
+Observe that P (−x) = −P (x), since k ≥ 2. So P (x) is an odd function, and it has nonzero
+coefficients only at odd powers of x. Hence P (x) = x3 Q(x) + cx, where Q(x) is a polynomial
+with integer coefficients.
+Compute the exponent of 2 in c. We have
+k−1
+2X
+
+k−1
+
+
+2X 
+1
+1
+1
+k
+c = 2(2 − 1)!!
+= (2 − 1)!!
++
+2i − 1
+2i − 1 2k − 2i + 1
+i=1
+i=1
+k
+
+k−1
+2X
+
+2k−1
+
+X
+(2k − 1)!!
+2k
+k
+=2
+= 2k S.
+= (2 − 1)!!
+k
+k
+(2i − 1)(2 − 2i + 1)
+(2i − 1)(2 − 2i + 1)
+i=1
+i=1
+k
+
+59
+For any integer i = 1, . . . , 2k−1, denote by a2i−1 the residue inverse to 2i − 1 modulo 2k . Clearly,
+when 2i − 1 runs through all odd residues, so does a2i−1 , hence
+k−1
+2X
+
+k−1
+
+k−1
+
+2X
+2X
+(2k − 1)!!
+(2k − 1)!!
+S=
+≡−
+≡−
+(2k − 1)!! a22i−1
+k − 2i + 1)
+2
+(2i
+−
+1)(2
+(2i
+−
+1)
+i=1
+i=1
+i=1
+k−1
+2X
+
+2k−1(22k − 1)
+= −(2 − 1)!!
+(2i − 1) = −(2 − 1)!!
+3
+i=1
+k
+
+2
+
+k
+
+(mod 2k ).
+
+Therefore, the exponent of 2 in S is k − 1, so c = 2k S = 22k−1 (2t + 1) for some integer t.
+Finally we obtain that
+P (2k ) = 23k Q(2k ) + 2k c = 23k Q(2k ) + 23k−1 (2t + 1),
+which is divisible exactly by 23k−1 . Thus, the exponent of 2 in (2) is 1 + (3k − 1) = 3k.
+
+Comment. The fact that (1) is divisible by 22k is known; but it does not help in solving this problem.
+
+60
+
+N5. Find all surjective functions f : N → N such that for every m, n ∈ N and every prime p,
+the number f (m + n) is divisible by p if and only if f (m) + f (n) is divisible by p.
+(N is the set of all positive integers.)
+
+(Iran)
+Answer. f (n) = n.
+Solution. Suppose that function f : N → N satisfies the problem conditions.
+Lemma. For any prime p and any x, y ∈ N, we have x ≡ y (mod p) if and only if f (x) ≡ f (y)
+(mod p). Moreover, p f (x) if and only if p x.
+Proof. Consider an arbitrary prime p. Since f is surjective, there exists some x ∈ N such
+that p f (x). Let
+
+d = min x ∈ N : p f (x) .
+
+By induction on k, we obtain that p f (kd) for all k ∈ N. The base is true since p f (d).
+Moreover, if p f (kd) and p f (d) then, by the problem condition, p f (kd + d) = f (k + 1)d
+as required.
+Suppose that there exists an x ∈ N such that d 6 x but p f (x). Let
+
+y = min x ∈ N : d 6 x, p f (x) .
+
+By the choice of d, we have y > d, and y − d is a positive integer not divisible by d.
+Then p 6 f (y − d), while p f (d) and p f d + (y − d) = f (y). This contradicts the problem
+condition. Hence, there is no such x, and
+p f (x) ⇐⇒ d x.
+
+(1)
+
+
+Take arbitrary x, y ∈ N such that x ≡ y (mod d). We have p f x +
+(2xd
+−
+x)
+= f (2xd);
+
+moreover, since d 2xd+(y−x) = y+(2xd−x), we get p f y+(2xd−x) . Then by the problem
+condition p f (x) + f (2xd − x), p f (y) + f (2xd − x), and hence f (x) ≡ −f (2xd − x) ≡ f (y)
+(mod p).
+On the other hand, assume that f (x) ≡ f (y) (mod p). Again we havep f (x) + f (2xd − x)
+which by our assumption implies that p f (x) + f (2xd
+ −x) + f (y) −f (x) = f (y) + f (2xd −x).
+Hence by the problem condition p f y + (2xd −x) . Using (1) we get 0 ≡ y + (2xd −x) ≡ y −x
+(mod d).
+Thus, we have proved that
+x≡y
+
+(mod d) ⇐⇒ f (x) ≡ f (y) (mod p).
+
+(2)
+
+We are left to show that p = d: in this case (1) and (2) provide the desired statements.
+The numbers 1, 2, . . . , d have distinct residues modulo d. By (2), numbers f (1), f (2), . . . ,
+f (d) have distinct residues modulo p; hence there are at least d distinct residues, and p ≥ d.
+On the other hand, by the surjectivity of f , there exist x1 , . . . , xp ∈ N such that f (xi ) = i for
+any i = 1, 2, . . . , p. By (2), all these xi ’s have distinct residues modulo d. For the same reasons,
+d ≥ p. Hence, d = p.
+
+Now we prove that f (n) = n by induction on n. If n = 1 then, by the Lemma, p 6 f (1) for
+any prime p, so f (1) = 1, and the base is established. Suppose that n > 1 and denote k = f (n).
+Note that there exists a prime q n, so by the Lemma q k and k > 1.
+If k > n then k − n + 1 > 1, and there exists a prime p k − n + 1; we have k ≡ n − 1
+(mod p). By the induction hypothesis we have f (n − 1) = n − 1 ≡ k = f (n) (mod p). Now,
+by the Lemma we obtain n − 1 ≡ n (mod p) which cannot be true.
+
+61
+Analogously, if k < n, then f (k−1) = k−1 by induction hypothesis. Moreover, n−k+1 > 1,
+so there exists a prime p n − k + 1 and n ≡ k − 1 (mod p). By the Lemma again, k = f (n) ≡
+f (k − 1) = k − 1 (mod p), which is also false. The only remaining case is k = n, so f (n) = n.
+Finally, the function f (n) = n obviously satisfies the condition.
+
+62
+
+N6. Let k be a positive integer. Prove that the number (4k2 − 1)2 has a positive divisor of
+
+the form 8kn − 1 if and only if k is even.
+
+(United Kingdom)
+
+Solution. The statement follows from the following fact.
+Lemma. For arbitrary positive integers x and y, the number 4xy − 1 divides (4x2 − 1)2 if and
+only if x = y.
+Proof. If x = y then 4xy − 1 = 4x2 − 1 obviously divides (4x2 − 1)2 so it is sufficient to consider
+the opposite direction.
+Call a pair (x, y) of positive integers bad if 4xy − 1 divides (4x2 − 1)2 but x 6= y. In order to
+prove that bad pairs do not exist, we present two properties of them which provide an infinite
+descent.
+Property (i). If (x, y) is a bad pair and x < y then there exists a positive integer z < x such
+that (x, z) is also bad.
+(4x2 − 1)2
+Let r =
+. Then
+4xy − 1
+r = −r · (−1) ≡ −r(4xy − 1) = −(4x2 − 1)2 ≡ −1 (mod 4x)
+and r = 4xz − 1 with some positive integer z. From x < y we obtain that
+4xz − 1 =
+
+(4x2 − 1)2
+< 4x2 − 1
+4xy − 1
+
+and therefore z < x. By the construction, the number 4xz − 1 is a divisor of (4x2 − 1)2 so (x, z)
+is a bad pair.
+Property (ii). If (x, y) is a bad pair then (y, x) is also bad.
+Since 1 = 12 ≡ (4xy)2 (mod 4xy − 1), we have
+(4y 2 − 1)2 ≡ 4y 2 − (4xy)2
+
+2
+
+= 16y 4(4x2 − 1)2 ≡ 0 (mod 4xy − 1).
+
+Hence, the number 4xy − 1 divides (4y 2 − 1)2 as well.
+
+Now suppose that there exists at least one bad pair. Take a bad pair (x, y) such that 2x + y
+attains its smallest possible value. If x < y then property (i) provides a bad pair (x, z)
+with z < y and thus 2x + z < 2x + y. Otherwise, if y < x, property (ii) yields that pair (y, x) is
+also bad while 2y + x < 2x + y. Both cases contradict the assumption that 2x + y is minimal;
+the Lemma is proved.
+
+To prove the problem statement, apply the Lemma for x = k and y = 2n; the number 8kn − 1 divides (4k 2 − 1)2 if and only if k = 2n. Hence, there is no such n if k is odd and
+n = k/2 is the only solution if k is even.
+Comment. The constant 4 in the Lemma can be replaced with an arbitrary integer greater than 1:
+if a > 1 and axy − 1 divides (ax2 − 1)2 then x = y.
+
+63
+
+N7. For a prime p and a positive integer n, denote by νp (n) the exponent of p in the prime
+factorization of n!. Given a positive integer d and a finite set {p1 , . . . , pk } of primes. Show that
+there are infinitely many positive integers n such that d νpi (n) for all 1 ≤ i ≤ k.
+(India)
+Solution 1. For arbitrary prime p and positive integer n, denote by ordp (n) the exponent of p
+in n. Thus,
+n
+X
+νp (n) = ordp (n!) =
+ordp (i).
+i=1
+
+Lemma. Let p be a prime number, q be a positive integer, k and r be positive integers such
+that pk > r. Then νp (qpk + r) = νp (qpk ) + νp (r).
+Proof. We claim that ordp (qpk + i) = ordp (i) for all 0 < i < pk . Actually, if d = ordp (i)
+then d < k, so qpk + i is divisible by pd , but only the first term is divisible by pd+1 ; hence the
+sum is not.
+Using this claim, we obtain
+k
+
+νp (qp + r) =
+
+k
+
+qpk +r
+
+k
+
+qp
+X
+
+ordp (i) +
+
+i=1
+
+X
+
+i=qpk +1
+
+ordp (i) =
+
+qp
+X
+
+ordp (i) +
+
+i=1
+
+r
+X
+
+ordp (i) = νp (qpk ) + νp (r). 
+
+i=1
+
+For any integer a, denote by a its residue modulo d. The addition of residues will also be
+
+performed modulo d, i. e. a+b = a + b. For any positive integer n, let f (n) = f1 (n), . . . , fk (n) ,
+where fi (n) = νpi (n).
+Define the sequence n1 = 1, n`+1 = (p1 p2 . . . pk )n` . We claim that
+
+f (n`1 + n`2 + . . . + n`m ) = f (n`1 ) + f (n`2 ) + . . . + f (n`m )
+for any `1 < `2 < . . . < `m . (The addition of k-tuples is componentwise.) The base case m = 1
+is trivial.
+n
+Suppose that m > 1. By the construction of the sequence, pi `1 divides n`2 +. . .+n`m ; clearly,
+n
+pi `1 > n`1 for all 1 ≤ i ≤ k. Therefore the Lemma can be applied for p = pi , k = r = n`1
+and qpk = n`2 + . . . + n`m to obtain
+fi (n`1 + n`2 + . . . + n`m ) = fi (n`1 ) + fi (n`2 + . . . + n`m )
+
+for all 1 ≤ i ≤ k,
+
+and hence
+f (n`1 + n`2 + . . . + n`m ) = f (n`1 ) + f (n`2 + . . . + n`m ) = f (n`1 ) + f (n`2 ) + . . . + f (n`m )
+by the induction hypothesis.
+Now consider the values f (n1 ), f (n2 ), . . . . There exist finitely many possible values of f .
+Hence, there exists an infinite sequence of indices `1 < `2 < . . . such that f (n`1 ) = f (n`2 ) = . . .
+and thus
+f (n`m+1 + n`m+2 + . . . + n`m+d ) = f (n`m+1 ) + . . . + f (n`m+d ) = d · f (n`1 ) = (0, . . . , 0)
+for all m. We have found infinitely many suitable numbers.
+
+64
+Solution 2. We use the same Lemma and definition of the function f .
+Let S = {f (n) : n ∈ N}. Obviously, set S is finite. For every s ∈ S choose the minimal ns
+such that f (ns ) = s. Denote N = max ns . Moreover, let g be an integer such that pgi > N for
+s∈S
+
+each i = 1, 2, . . . , k. Let P = (p1 p2 . . . pk )g .
+We claim that
+
+f (n) | n ∈ [mP, mP + N] = S
+
+(1)
+
+for every positive integer m. In particular, since (0, . . . , 0) = f (1) ∈ S, it follows that for an
+arbitrary m there exists n ∈ [mP, mP + N] such that f (n) = (0, . . . , 0). So there are infinitely
+many suitable numbers.
+To prove (1), let ai = fi (mP ). Consider all numbers of the form nm,s = mP + ns with
+s = (s1 , . . . , sk ) ∈ S (clearly, all nm,s belong to [mP, mP +N]). Since ns ≤ N < pgi and pgi mP ,
+we can apply the Lemma for the values p = pi , r = ns , k = g, qpk = mP to obtain
+fi (nm,s ) = fi (mP ) + fi (ns ) = ai + si ;
+hence for distinct s, t ∈ S we have f (nm,s ) 6= f (nm,t ).
+Thus, the function f attains at least |S| distinct values in [mP, mP + N]. Since all these
+values belong to S, f should attain all possible values in [mP, mP + N].
+Comment. Both solutions can be extended to prove the following statements.
+Claim 1. For any K there exist infinitely many n divisible by K, such that d νpi (n) for each i.
+Claim 2. For any s ∈ S, there exist infinitely many n ∈ N such that f (n) = s.
+
+

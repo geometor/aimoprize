@@ -1,0 +1,76 @@
+Language: English
+Day: 1
+
+Tuesday, July 8, 2014
+
+Let a0 < a1 < a2 < · · · be an innite sequence of positive integers. Prove that there
+exists a unique integer n ≥ 1 such that
+
+Problem 1.
+
+an <
+
+a0 + a1 + · · · + an
+≤ an+1 .
+n
+
+Let n ≥ 2 be an integer. Consider an n × n chessboard consisting of n2 unit squares.
+A conguration of n rooks on this board is peaceful if every row and every column contains exactly
+one rook. Find the greatest positive integer k such that, for each peaceful conguration of n rooks,
+there is a k × k square which does not contain a rook on any of its k 2 unit squares.
+Problem 2.
+
+Convex quadrilateral ABCD has ∠ABC = ∠CDA = 90◦ . Point H is the foot of the
+perpendicular from A to BD. Points S and T lie on sides AB and AD, respectively, such that H
+lies inside triangle SCT and
+
+Problem 3.
+
+∠CHS − ∠CSB = 90◦ ,
+
+∠T HC − ∠DT C = 90◦ .
+
+Prove that line BD is tangent to the circumcircle of triangle T SH .
+
+Language: English
+
+Time: 4 hours and 30 minutes
+Each problem is worth 7 points
+
+Language: English
+Day: 2
+
+Wednesday, July 9, 2014
+
+Points P and Q lie on side BC of acute-angled triangle ABC so that ∠P AB = ∠BCA
+and ∠CAQ = ∠ABC . Points M and N lie on lines AP and AQ, respectively, such that P is the
+midpoint of AM , and Q is the midpoint of AN . Prove that lines BM and CN intersect on the
+circumcircle of triangle ABC .
+Problem 4.
+
+For each positive integer n, the Bank of Cape Town issues coins of denomination n1 .
+Given a nite collection of such coins (of not necessarily dierent denominations) with total value at
+most 99 + 21 , prove that it is possible to split this collection into 100 or fewer groups, such that each
+group has total value at most 1.
+Problem 5.
+
+A set of lines in the plane is in general position if no two are parallel and no three
+pass through the same point. A set of lines in general position cuts the plane into regions, some of
+which have nite area; we call these its nite regions. Prove that√for all suciently large n, in any
+set of n lines in general position it is possible to colour at least n of the lines blue in such a way
+that none of its nite regions has a completely blue boundary.
+Problem 6.
+
+Note: Results with
+constant c.
+
+Language: English
+
+√
+√
+n replaced by c n will be awarded points depending on the value of the
+
+Time: 4 hours and 30 minutes
+Each problem is worth 7 points
+
+

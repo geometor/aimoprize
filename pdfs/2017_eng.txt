@@ -1,0 +1,63 @@
+English (eng), day 1
+
+Tuesday, July 18, 2017
+Problem 1. For each integer a0 > 1, define the sequence a0 , a1 , a2 , . . . by:
+ √
+√
+an
+if an is an integer,
+an+1 =
+for each n > 0.
+an + 3 otherwise,
+Determine all values of a0 for which there is a number A such that an = A for infinitely many values
+of n.
+Problem 2. Let R be the set of real numbers. Determine all functions f : R → R such that, for
+all real numbers x and y,
+f (f (x)f (y)) + f (x + y) = f (xy).
+Problem 3. A hunter and an invisible rabbit play a game in the Euclidean plane. The rabbit’s
+starting point, A0 , and the hunter’s starting point, B0 , are the same. After n − 1 rounds of the game,
+the rabbit is at point An−1 and the hunter is at point Bn−1 . In the nth round of the game, three
+things occur in order.
+(i) The rabbit moves invisibly to a point An such that the distance between An−1 and An is
+exactly 1.
+(ii) A tracking device reports a point Pn to the hunter. The only guarantee provided by the tracking
+device to the hunter is that the distance between Pn and An is at most 1.
+(iii) The hunter moves visibly to a point Bn such that the distance between Bn−1 and Bn is
+exactly 1.
+Is it always possible, no matter how the rabbit moves, and no matter what points are reported
+by the tracking device, for the hunter to choose her moves so that after 109 rounds she can ensure
+that the distance between her and the rabbit is at most 100?
+
+Language: English
+
+Time: 4 hours and 30 minutes
+Each problem is worth 7 points
+
+English (eng), day 2
+
+Wednesday, July 19, 2017
+Problem 4. Let R and S be different points on a circle Ω such that RS is not a diameter. Let `
+be the tangent line to Ω at R. Point T is such that S is the midpoint of the line segment RT . Point
+J is chosen on the shorter arc RS of Ω so that the circumcircle Γ of triangle JST intersects ` at two
+distinct points. Let A be the common point of Γ and ` that is closer to R. Line AJ meets Ω again
+at K. Prove that the line KT is tangent to Γ.
+Problem 5. An integer N > 2 is given. A collection of N (N + 1) soccer players, no two of whom
+are of the same height, stand in a row. Sir Alex wants to remove N (N − 1) players from this row
+leaving a new row of 2N players in which the following N conditions hold:
+(1) no one stands between the two tallest players,
+(2) no one stands between the third and fourth tallest players,
+..
+.
+(N ) no one stands between the two shortest players.
+Show that this is always possible.
+Problem 6. An ordered pair (x, y) of integers is a primitive point if the greatest common divisor
+of x and y is 1. Given a finite set S of primitive points, prove that there exist a positive integer n
+and integers a0 , a1 , . . . , an such that, for each (x, y) in S, we have:
+a0 xn + a1 xn−1 y + a2 xn−2 y 2 + · · · + an−1 xy n−1 + an y n = 1.
+
+Language: English
+
+Time: 4 hours and 30 minutes
+Each problem is worth 7 points
+
+

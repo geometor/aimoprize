@@ -1,0 +1,47 @@
+First International Olympiad, 1959
+1959/1.
+Prove that the fraction 21n+4
+is irreducible for every natural number n.
+14n+3
+
+1959/2.
+For what real values of x is
+q
+q
+√
+√
+(x + 2x − 1) + (x − 2x − 1) = A,
+√
+given (a) A = 2, (b) A = 1, (c) A = 2, where only non-negative real
+numbers are admitted for square roots?
+
+1959/3.
+Let a, b, c be real numbers. Consider the quadratic equation in cos x :
+a cos2 x + b cos x + c = 0.
+Using the numbers a, b, c, form a quadratic equation in cos 2x, whose roots
+are the same as those of the original equation. Compare the equations in
+cos x and cos 2x for a = 4, b = 2, c = −1.
+
+1959/4.
+Construct a right triangle with given hypotenuse c such that the median
+drawn to the hypotenuse is the geometric mean of the two legs of the triangle.
+
+1959/5.
+An arbitrary point M is selected in the interior of the segment AB. The
+squares AM CD and M BEF are constructed on the same side of AB, with
+the segments AM and M B as their respective bases. The circles circumscribed about these squares, with centers P and Q, intersect at M and also
+at another point N. Let N 0 denote the point of intersection of the straight
+lines AF and BC.
+(a) Prove that the points N and N 0 coincide.
+(b) Prove that the straight lines M N pass through a fixed point S independent of the choice of M.
+(c) Find the locus of the midpoints of the segments P Q as M varies between
+A and B.
+
+1959/6.
+Two planes, P and Q, intersect along the line p. The point A is given in the
+plane P, and the point C in the plane Q; neither of these points lies on the
+straight line p. Construct an isosceles trapezoid ABCD (with AB parallel to
+CD) in which a circle can be inscribed, and with vertices B and D lying in
+the planes P and Q respectively.
+
+

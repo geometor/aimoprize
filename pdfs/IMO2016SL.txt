@@ -1,0 +1,5123 @@
+Shortlisted Problems with Solutions
+57th International Mathematical Olympiad
+Hong Kong, 2016
+
+Note of Confidentiality
+The shortlisted problems should be kept
+strictly confidential until IMO 2017.
+Contributing Countries
+The Organising Committee and the Problem Selection Committee of IMO 2016 thank the
+following 40 countries for contributing 121 problem proposals:
+
+Albania, Algeria, Armenia, Australia, Austria, Belarus,
+Belgium, Bulgaria, Colombia, Cyprus, Czech Republic,
+Denmark, Estonia, France, Georgia, Greece, Iceland,
+India, Iran, Ireland, Israel, Japan, Latvia, Luxembourg,
+Malaysia, Mexico, Mongolia, Netherlands, Philippines,
+Russia, Serbia, Slovakia, Slovenia, South Africa, Taiwan,
+Tanzania, Thailand, Trinidad and Tobago, Turkey, Ukraine.
+Problem Selection Committee
+
+Front row from left:
+
+Yong-Gao Chen, Andy Liu, Tat Wing Leung (Chairman).
+
+Back row from left:
+
+Yi-Jun Yao, Yun-Hao Fu, Yi-Jie He,
+Zhongtao Wu, Heung Wing Joseph Lee, Chi Hong Chow,
+Ka Ho Law, Tak Wing Ching.
+
+Shortlisted problems
+
+3
+
+Problems
+Algebra
+A1. Let a, b and c be positive real numbers such that min {ab, bc, ca} > 1. Prove that
+Ç
+
+»
+3
+
+(a2 + 1)(b2 + 1)(c2 + 1) 6
+
+a+b+c
+3
+
+å2
+
++ 1.
+
+A2. Find the smallest real constant C such that for any positive real numbers a1 , a2 , a3 , a4
+and a5 (not necessarily distinct), one can always choose distinct subscripts i, j, k and l such
+that
+ak
+ai
+−
+6 C.
+aj
+al
+
+A3. Find all integers n > 3 with the following property: for all real numbers a1 , a2 , . . . , an
+and b1 , b2 , . . . , bn satisfying |ak | + |bk | = 1 for 1 6 k 6 n, there exist x1 , x2 , . . . , xn , each of
+which is either −1 or 1, such that
+n
+X
+k=1
+
+x k ak +
+
+n
+X
+
+xk bk 6 1.
+
+k=1
+
+A4. Denote by R+ the set of all positive real numbers. Find all functions f : R+ → R+ such
+that
+Ä
+
+ä
+
+xf (x2 )f (f (y)) + f (yf (x)) = f (xy) f (f (x2 )) + f (f (y 2 ))
+for all positive real numbers x and y.
+
+A5.
+(a) Prove that for every positive integer n, there exists a fraction ab where a and b are integers
+√
+√
+√
+satisfying 0 < b 6 n + 1 and n 6 ab 6 n + 1.
+(b) Prove that there are infinitely many positive integers n such that there is no fraction ab
+√
+√
+√
+where a and b are integers satisfying 0 < b 6 n and n 6 ab 6 n + 1.
+
+4
+
+IMO 2016 Hong Kong
+
+A6. The equation
+(x − 1)(x − 2) · · · (x − 2016) = (x − 1)(x − 2) · · · (x − 2016)
+is written on the board. One tries to erase some linear factors from both sides so that each
+side still has at least one factor, and the resulting equation has no real roots. Find the least
+number of linear factors one needs to erase to achieve this.
+
+A7. Denote by R the set of all real numbers. Find all functions f : R → R such that
+f (0) 6= 0 and
+f (x + y)2 = 2f (x)f (y) + max {f (x2 ) + f (y 2 ), f (x2 + y 2 )}
+for all real numbers x and y.
+
+A8. Determine the largest real number a such that for all n > 1 and for all real numbers
+x0 , x1 , . . . , xn satisfying 0 = x0 < x1 < x2 < · · · < xn , we have
+Ç
+
+å
+
+1
+1
+2
+3
+n+1
+1
++
++ ··· +
+>a
++
++ ··· +
+.
+x1 − x0 x2 − x1
+xn − xn−1
+x1 x2
+xn
+
+Shortlisted problems
+
+5
+
+Combinatorics
+C1. The leader of an IMO team chooses positive integers n and k with n > k, and announces
+them to the deputy leader and a contestant. The leader then secretly tells the deputy leader
+an n-digit binary string, and the deputy leader writes down all n-digit binary strings which
+differ from the leader’s in exactly k positions. (For example, if n = 3 and k = 1, and if the
+leader chooses 101, the deputy leader would write down 001, 111 and 100.) The contestant
+is allowed to look at the strings written by the deputy leader and guess the leader’s string.
+What is the minimum number of guesses (in terms of n and k) needed to guarantee the correct
+answer?
+
+C2. Find all positive integers n for which all positive divisors of n can be put into the cells
+of a rectangular table under the following constraints:
+• each cell contains a distinct divisor;
+• the sums of all rows are equal; and
+• the sums of all columns are equal.
+
+C3. Let n be a positive integer relatively prime to 6. We paint the vertices of a regular
+n-gon with three colours so that there is an odd number of vertices of each colour. Show that
+there exists an isosceles triangle whose three vertices are of different colours.
+
+C4. Find all positive integers n for which we can fill in the entries of an n × n table with
+the following properties:
+• each entry can be one of I, M and O;
+• in each row and each column, the letters I, M and O occur the same number of times;
+and
+• in any diagonal whose number of entries is a multiple of three, the letters I, M and O
+occur the same number of times.
+
+C5. Let n > 3 be a positive integer. Find the maximum number of diagonals of a regular
+n-gon one can select, so that any two of them do not intersect in the interior or they are
+perpendicular to each other.
+
+6
+
+IMO 2016 Hong Kong
+
+C6. There are n > 3 islands in a city. Initially, the ferry company offers some routes between
+some pairs of islands so that it is impossible to divide the islands into two groups such that
+no two islands in different groups are connected by a ferry route.
+After each year, the ferry company will close a ferry route between some two islands X
+and Y . At the same time, in order to maintain its service, the company will open new routes
+according to the following rule: for any island which is connected by a ferry route to exactly
+one of X and Y , a new route between this island and the other of X and Y is added.
+Suppose at any moment, if we partition all islands into two nonempty groups in any way,
+then it is known that the ferry company will close a certain route connecting two islands from
+the two groups after some years. Prove that after some years there will be an island which is
+connected to all other islands by ferry routes.
+
+C7. Let n > 2 be an integer. In the plane, there are n segments given in such a way that
+any two segments have an intersection point in the interior, and no three segments intersect
+at a single point. Jeff places a snail at one of the endpoints of each of the segments and claps
+his hands n − 1 times. Each time when he claps his hands, all the snails move along their own
+segments and stay at the next intersection points until the next clap. Since there are n − 1
+intersection points on each segment, all snails will reach the furthest intersection points from
+their starting points after n − 1 claps.
+(a) Prove that if n is odd then Jeff can always place the snails so that no two of them ever
+occupy the same intersection point.
+(b) Prove that if n is even then there must be a moment when some two snails occupy the
+same intersection point no matter how Jeff places the snails.
+
+C8. Let n be a positive integer. Determine the smallest positive integer k with the following
+property: it is possible to mark k cells on a 2n × 2n board so that there exists a unique
+partition of the board into 1 × 2 and 2 × 1 dominoes, none of which contains two marked
+cells.
+
+Shortlisted problems
+
+7
+
+Geometry
+G1. In a convex pentagon ABCDE, let F be a point on AC such that ∠F BC = 90◦ .
+Suppose triangles ABF , ACD and ADE are similar isosceles triangles with
+∠F AB = ∠F BA = ∠DAC = ∠DCA = ∠EAD = ∠EDA.
+Let M be the midpoint of CF . Point X is chosen such that AM XE is a parallelogram. Show
+that BD, EM and F X are concurrent.
+
+G2. Let ABC be a triangle with circumcircle Γ and incentre I. Let M be the midpoint of
+side BC. Denote by D the foot of perpendicular from I to side BC. The line through I perpendicular to AI meets sides AB and AC at F and E respectively. Suppose the circumcircle
+of triangle AEF intersects Γ at a point X other than A. Prove that lines XD and AM meet
+on Γ.
+
+G3. Let B = (−1, 0) and C = (1, 0) be fixed points on the coordinate plane. A nonempty,
+bounded subset S of the plane is said to be nice if
+(i) there is a point T in S such that for every point Q in S, the segment T Q lies entirely
+in S; and
+(ii) for any triangle P1 P2 P3 , there exists a unique point A in S and a permutation σ of the
+indices {1, 2, 3} for which triangles ABC and Pσ(1) Pσ(2) Pσ(3) are similar.
+Prove that there exist two distinct nice subsets S and S 0 of the set {(x, y) : x > 0, y > 0}
+such that if A ∈ S and A0 ∈ S 0 are the unique choices of points in (ii), then the product
+BA · BA0 is a constant independent of the triangle P1 P2 P3 .
+
+G4. Let ABC be a triangle with AB = AC 6= BC and let I be its incentre. The line BI
+meets AC at D, and the line through D perpendicular to AC meets AI at E. Prove that the
+reflection of I in AC lies on the circumcircle of triangle BDE.
+
+G5. Let D be the foot of perpendicular from A to the Euler line (the line passing through the
+circumcentre and the orthocentre) of an acute scalene triangle ABC. A circle ω with centre
+S passes through A and D, and it intersects sides AB and AC at X and Y respectively. Let
+P be the foot of altitude from A to BC, and let M be the midpoint of BC. Prove that the
+circumcentre of triangle XSY is equidistant from P and M .
+
+8
+
+IMO 2016 Hong Kong
+
+G6. Let ABCD be a convex quadrilateral with ∠ABC = ∠ADC < 90◦ . The internal
+angle bisectors of ∠ABC and ∠ADC meet AC at E and F respectively, and meet each
+other at point P . Let M be the midpoint of AC and let ω be the circumcircle of triangle
+BP D. Segments BM and DM intersect ω again at X and Y respectively. Denote by Q the
+intersection point of lines XE and Y F . Prove that P Q ⊥ AC.
+
+G7. Let I be the incentre of a non-equilateral triangle ABC, IA be the A-excentre, IA0 be
+the reflection of IA in BC, and lA be the reflection of line AIA0 in AI. Define points IB , IB0
+and line lB analogously. Let P be the intersection point of lA and lB .
+(a) Prove that P lies on line OI where O is the circumcentre of triangle ABC.
+(b) Let one of the tangents from P to the incircle of triangle ABC meet the circumcircle at
+points X and Y . Show that ∠XIY = 120◦ .
+
+G8. Let A1 , B1 and C1 be points on sides BC, CA and AB of an acute triangle ABC
+respectively, such that AA1 , BB1 and CC1 are the internal angle bisectors of triangle ABC.
+Let I be the incentre of triangle ABC, and H be the orthocentre of triangle A1 B1 C1 . Show
+that
+AH + BH + CH > AI + BI + CI.
+
+Shortlisted problems
+
+9
+
+Number Theory
+N1. For any positive integer k, denote the sum of digits of k in its decimal representation by
+S(k). Find all polynomials P (x) with integer coefficients such that for any positive integer
+n > 2016, the integer P (n) is positive and
+S(P (n)) = P (S(n)).
+
+N2. Let τ (n) be the number of positive divisors of n. Let τ1 (n) be the number of positive
+divisors of n which have remainders 1 when divided by 3. Find all possible integral values of
+the fraction ττ1(10n)
+.
+(10n)
+
+N3. Define P (n) = n2 + n + 1. For any positive integers a and b, the set
+{P (a), P (a + 1), P (a + 2), . . . , P (a + b)}
+is said to be fragrant if none of its elements is relatively prime to the product of the other
+elements. Determine the smallest size of a fragrant set.
+
+N4. Let n, m, k and l be positive integers with n 6= 1 such that nk + mnl + 1 divides nk+l − 1.
+Prove that
+• m = 1 and l = 2k; or
+k−l
+
+• l|k and m = nnl −1−1 .
+
+N5. Let a be a positive integer which is not a square number. Denote by A the set of all
+positive integers k such that
+x2 − a
+k= 2
+x − y2
+
+(1)
+
+√
+for some integers x and y with x > a. Denote by B the set
+√ of all positive integers k such
+that (1) is satisfied for some integers x and y with 0 6 x < a. Prove that A = B.
+
+N6. Denote by N the set of all positive integers. Find all functions f : N → N such that
+for all positive integers m and n, the integer f (m) + f (n) − mn is nonzero and divides
+mf (m) + nf (n).
+
+10
+
+IMO 2016 Hong Kong
+
+N7. Let n be an odd positive integer. In the Cartesian plane, a cyclic polygon P with area
+S is chosen. All its vertices have integral coordinates, and all squares of its side lengths are
+divisible by n. Prove that 2S is an integer divisible by n.
+
+N8. Find all polynomials P (x) of odd degree d and with integer coefficients satisfying the
+following property: for each positive integer n, there exist n positive integers x1 , x2 , . . . , xn
+(xi )
+(xi )
+such that 21 < PP (x
+< 2 and PP (x
+is the d-th power of a rational number for every pair of
+j)
+j)
+indices i and j with 1 6 i, j 6 n.
+
+Shortlisted problems
+
+11
+
+Solutions
+Algebra
+A1. Let a, b and c be positive real numbers such that min {ab, bc, ca} > 1. Prove that
+Ç
+
+»
+3
+
+(a2 + 1)(b2 + 1)(c2 + 1) 6
+
+a+b+c
+3
+
+å2
+
++ 1.
+
+(1)
+
+Solution 1. We first show the following.
+• Claim. For any positive real numbers x, y with xy > 1, we have
+2
+
+2
+
+(x + 1)(y + 1) 6
+
+ÇÅ
+
+2
+x + y ã2
++1 .
+2
+
+å
+
+(2)
+
+Proof. Note that xy > 1 implies ( x+y
+)2 − 1 > xy − 1 > 0. We find that
+2
+2
+
+2
+
+2
+
+2
+
+(x + 1)(y + 1) = (xy − 1) + (x + y) 6
+
+ÇÅ
+
+å2
+ÇÅ
+å2
+x + y ã2
+x + y ã2
+2
+− 1 + (x + y) =
++1 .
+2
+2
+
+Without loss of generality, assume a > b > c. This implies a > 1. Let d = a+b+c
+. Note
+3
+that
+a(a + b + c)
+1+1+1
+ad =
+>
+= 1.
+3
+3
+Then we can apply (2) to the pair (a, d) and the pair (b, c). We get
+2
+
+2
+
+2
+
+2
+
+Ç
+
+(a + 1)(d + 1)(b + 1)(c + 1) 6
+Next, from
+
+a+d
+2
+
+!2
+
+å2
+
++1
+
+Ç
+
+b+c
+2
+
+!2
+
+å2
+
++1
+
+.
+
+(3)
+
+√
+a+d b+c √
+·
+> ad · bc > 1,
+2
+2
+
+we can apply (2) again to the pair ( a+d
+, b+c
+). Together with (3), we have
+2
+2
+2
+
+2
+
+2
+
+2
+
+(a + 1)(d + 1)(b + 1)(c + 1) 6
+
+Ç
+
+a+b+c+d
+4
+
+!4
+
+å2
+
++1
+
+= (d2 + 1)4 .
+
+Therefore, (a2 + 1)(b2 + 1)(c2 + 1) 6 (d2 + 1)3 , and (1) follows by taking cube root of both
+sides.
+
+12
+
+IMO 2016 Hong Kong
+
+Comment. After justifying the Claim, one may also obtain (1) by mixing variables. Indeed,
+the function involved is clearly continuous, and hence it suffices to check that the condition
+xy > 1 is preserved under each mixing step. This is true since whenever ab, bc, ca > 1, we
+have
+a+b
+1+1
+a+b a+b
+·
+> ab > 1 and
+·c>
+= 1.
+2
+2
+2
+2
+Solution 2. Let f (x) = ln (1 + x2 ). Then the inequality (1) to be shown is equivalent to
+f (a) + f (b) + f (c)
+6f
+3
+
+Ç
+
+å
+
+a+b+c
+,
+3
+
+while (2) becomes
+Å
+f (x) + f (y)
+x + yã
+6f
+2
+2
+
+for xy > 1.
+Without loss of generality, assume a > b > c. From the Claim in Solution 1, we have
+f (a) + 2f ( b+c
+)
+f (a) + f (b) + f (c)
+2
+6
+.
+3
+3
+√
+Note that a > 1 and b+c
+bc > 1. Since
+>
+2
+f 00 (x) =
+
+2(1 − x2 )
+,
+(1 + x2 )2
+
+we know that f is concave on [1, ∞). Then we can apply Jensen’s Theorem to get
+f (a) + 2f ( b+c
+)
+2
+6f
+3
+This completes the proof.
+
+a + 2 · b+c
+2
+3
+
+!
+
+Ç
+
+=f
+
+å
+
+a+b+c
+.
+3
+
+Shortlisted problems
+
+13
+
+A2. Find the smallest real constant C such that for any positive real numbers a1 , a2 , a3 , a4
+and a5 (not necessarily distinct), one can always choose distinct subscripts i, j, k and l such
+that
+ai
+ak
+−
+6 C.
+(1)
+aj
+al
+Answer. The smallest C is 12 .
+Solution. We first show that C 6 12 . For any positive real numbers a1 6 a2 6 a3 6 a4 6 a5 ,
+consider the five fractions
+a1 a3 a1 a2 a4
+, , , , .
+(2)
+a2 a4 a5 a3 a5
+Each of them lies in the interval (0, 1]. Therefore, by the Pigeonhole Principle, at least three
+of them must lie in (0, 21 ] or lie in ( 12 , 1] simultaneously. In particular, there must be two
+consecutive terms in (2) which belong to an interval of length 12 (here, we regard aa21 and aa45
+as consecutive). In other words, the difference of these two fractions is less than 12 . As the
+indices involved in these two fractions are distinct, we can choose them to be i, j, k, l and
+conclude that C 6 21 .
+Next, we show that C = 12 is best possible. Consider the numbers 1, 2, 2, 2, n where n is
+a large real number. The fractions formed by two of these numbers in ascending order are
+1 2 1 2 2 n n
+, , , , , , . Since the indices i, j, k, l are distinct, n1 and n2 cannot be chosen simultanen n 2 2 1 2 1
+ously. Therefore the minimum value of the left-hand side of (1) is 21 − n2 . When n tends to
+infinity, this value approaches 12 , and so C cannot be less than 21 .
+These conclude that C = 21 is the smallest possible choice.
+Comment. The conclusion still holds if a1 , a2 , . . . , a5 are pairwise distinct, since in the construction, we may replace the 2’s by real numbers sufficiently close to 2.
+There are two possible simplifications for this problem:
+(i) the answer C = 21 is given to the contestants; or
+(ii) simply ask the contestants to prove the inequality (1) for C = 12 .
+
+14
+
+IMO 2016 Hong Kong
+
+A3. Find all integers n > 3 with the following property: for all real numbers a1 , a2 , . . . , an
+and b1 , b2 , . . . , bn satisfying |ak | + |bk | = 1 for 1 6 k 6 n, there exist x1 , x2 , . . . , xn , each of
+which is either −1 or 1, such that
+n
+X
+
+xk ak +
+
+k=1
+
+n
+X
+
+xk bk 6 1.
+
+(1)
+
+k=1
+
+Answer. n can be any odd integer greater than or equal to 3.
+Solution 1. For any even integer n > 4, we consider the case
+a1 = a2 = · · · = an−1 = bn = 0 and b1 = b2 = · · · = bn−1 = an = 1.
+The condition |ak | + |bk | = 1 is satisfied for each 1 6 k 6 n. No matter how we choose each
+P
+P
+P
+xk , both sums nk=1 xk ak and nk=1 xk bk are odd integers. This implies | nk=1 xk ak | > 1 and
+P
+| nk=1 xk bk | > 1, which shows (1) cannot hold.
+For any odd integer n > 3, we may assume without loss of generality bk > 0 for 1 6 k 6 n
+(this can be done by flipping the pair (ak , bk ) to (−ak , −bk ) and xk to −xk if necessary) and
+a1 > a2 > · · · > am > 0 > am+1 > · · · > an . We claim that the choice xk = (−1)k+1 for
+1 6 k 6 n will work. Define
+s=
+
+m
+X
+k=1
+
+x k ak
+
+and t = −
+
+n
+X
+
+x k ak .
+
+k=m+1
+
+Note that
+s = (a1 − a2 ) + (a3 − a4 ) + · · · > 0
+by the assumption a1 > a2 > · · · > am (when m is odd, there is a single term am at the end,
+which is also positive). Next, we have
+s = a1 − (a2 − a3 ) − (a4 − a5 ) − · · · 6 a1 6 1.
+Similarly,
+t = (−an + an−1 ) + (−an−2 + an−3 ) + · · · > 0
+and
+t = −an + (an−1 − an−2 ) + (an−3 − an−4 ) + · · · 6 −an 6 1.
+From the condition, we have ak +bk = 1 for 1 6 k 6 m and −ak +bk = 1 for m+1 6 k 6 n.
+P
+P
+It follows that nk=1 xk ak = s − t and nk=1 xk bk = 1 − s − t. Hence it remains to prove
+|s − t| + |1 − s − t| 6 1
+under the constraint 0 6 s, t 6 1. By symmetry, we may assume s > t. If 1 − s − t > 0, then
+we have
+|s − t| + |1 − s − t| = s − t + 1 − s − t = 1 − 2t 6 1.
+If 1 − s − t 6 0, then we have
+|s − t| + |1 − s − t| = s − t − 1 + s + t = 2s − 1 6 1.
+Hence, the inequality is true in both cases.
+These show n can be any odd integer greater than or equal to 3.
+
+Shortlisted problems
+
+15
+
+Solution 2. The even case can be handled in the same way as Solution 1. For the odd case,
+we prove by induction on n.
+Firstly, for n = 3, we may assume without loss of generality a1 > a2 > a3 > 0 and
+b1 = a1 − 1 (if b1 = 1 − a1 , we may replace each bk by −bk ).
+• Case 1. b2 = a2 − 1 and b3 = a3 − 1, in which case we take (x1 , x2 , x3 ) = (1, −1, 1).
+Let c = a1 − a2 + a3 so that 0 6 c 6 1. Then |b1 − b2 + b3 | = |a1 − a2 + a3 − 1| = 1 − c
+and hence |c| + |b1 − b2 + b3 | = 1.
+• Case 2. b2 = 1 − a2 and b3 = 1 − a3 , in which case we take (x1 , x2 , x3 ) = (1, −1, 1).
+Let c = a1 − a2 + a3 so that 0 6 c 6 1. Since a3 6 a2 and a1 6 1, we have
+c − 1 6 b1 − b2 + b3 = a1 + a2 − a3 − 1 6 1 − c.
+This gives |b1 − b2 + b3 | 6 1 − c and hence |c| + |b1 − b2 + b3 | 6 1.
+• Case 3. b2 = a2 − 1 and b3 = 1 − a3 , in which case we take (x1 , x2 , x3 ) = (−1, 1, 1).
+Let c = −a1 + a2 + a3 . If c > 0, then a3 6 1 and a2 6 a1 imply
+c − 1 6 −b1 + b2 + b3 = −a1 + a2 − a3 + 1 6 1 − c.
+If c < 0, then a1 6 a2 + 1 and a3 > 0 imply
+−c − 1 6 −b1 + b2 + b3 = −a1 + a2 − a3 + 1 6 1 + c.
+In both cases, we get | − b1 + b2 + b3 | 6 1 − |c| and hence |c| + | − b1 + b2 + b3 | 6 1.
+• Case 4. b2 = 1 − a2 and b3 = a3 − 1, in which case we take (x1 , x2 , x3 ) = (−1, 1, 1).
+Let c = −a1 + a2 + a3 . If c > 0, then a2 6 1 and a3 6 a1 imply
+c − 1 6 −b1 + b2 + b3 = −a1 − a2 + a3 + 1 6 1 − c.
+If c < 0, then a1 6 a3 + 1 and a2 > 0 imply
+−c − 1 6 −b1 + b2 + b3 = −a1 − a2 + a3 + 1 6 1 + c.
+In both cases, we get | − b1 + b2 + b3 | 6 1 − |c| and hence |c| + | − b1 + b2 + b3 | 6 1.
+We have found x1 , x2 , x3 satisfying (1) in each case for n = 3.
+Now, let n > 5 be odd and suppose the result holds for any smaller odd cases. Again
+we may assume ak > 0 for each 1 6 k 6 n. By the Pigeonhole Principle, there are at least
+three indices k for which bk = ak − 1 or bk = 1 − ak . Without loss of generality, suppose
+bk = ak − 1 for k = 1, 2, 3. Again by the Pigeonhole Principle, as a1 , a2 , a3 lies between 0
+and 1, the difference of two of them is at most 21 . By changing indices if necessary, we may
+assume 0 6 d = a1 − a2 6 21 .
+P
+By the inductive hypothesis, we can choose x3 , x4 , . . . , xn such that a0 = nk=3 xk ak and
+P
+b0 = nk=3 xk bk satisfy |a0 | + |b0 | 6 1. We may further assume a0 > 0.
+
+16
+
+IMO 2016 Hong Kong
+
+• Case 1. b0 > 0, in which case we take (x1 , x2 ) = (−1, 1).
+We have | − a1 + a2 + a0 | + | − (a1 − 1) + (a2 − 1) + b0 | = | − d + a0 | + | − d + b0 | 6
+max {a0 + b0 − 2d, a0 − b0 , b0 − a0 , 2d − a0 − b0 } 6 1 since 0 6 a0 , b0 , a0 + b0 6 1 and 0 6 d 6 12 .
+• Case 2. 0 > b0 > −a0 , in which case we take (x1 , x2 ) = (−1, 1).
+We have | − a1 + a2 + a0 | + | − (a1 − 1) + (a2 − 1) + b0 | = | − d + a0 | + | − d + b0 |. If −d + a0 > 0,
+this equals a0 − b0 = |a0 | + |b0 | 6 1. If −d + a0 < 0, this equals 2d − a0 − b0 6 2d 6 1.
+• Case 3. b0 < −a0 , in which case we take (x1 , x2 ) = (1, −1).
+We have |a1 − a2 + a0 | + |(a1 − 1) − (a2 − 1) + b0 | = |d + a0 | + |d + b0 |. If d + b0 > 0, this
+equals 2d + a0 + b0 < 2d 6 1. If d + b0 < 0, this equals a0 − b0 = |a0 | + |b0 | 6 1.
+Therefore, we have found x1 , x2 , . . . , xn satisfying (1) in each case. By induction, the
+property holds for all odd integers n > 3.
+
+Shortlisted problems
+
+17
+
+A4. Denote by R+ the set of all positive real numbers. Find all functions f : R+ → R+ such
+that
+Ä
+
+ä
+
+xf (x2 )f (f (y)) + f (yf (x)) = f (xy) f (f (x2 )) + f (f (y 2 ))
+
+(1)
+
+for all positive real numbers x and y.
+Answer. f (x) = x1 for any x ∈ R+ .
+Solution 1. Taking x = y = 1 in (1), we get f (1)f (f (1)) + f (f (1)) = 2f (1)f (f (1)) and
+hence f (1) = 1. Swapping x and y in (1) and comparing with (1) again, we find
+xf (x2 )f (f (y)) + f (yf (x)) = yf (y 2 )f (f (x)) + f (xf (y)).
+
+(2)
+
+Taking y = 1 in (2), we have xf (x2 ) + f (f (x)) = f (f (x)) + f (x), that is,
+f (x)
+.
+(3)
+x
+Take y = 1 in (1) and apply (3) to xf (x2 ). We get f (x) + f (f (x)) = f (x)(f (f (x2 )) + 1),
+which implies
+f (f (x))
+.
+(4)
+f (f (x2 )) =
+f (x)
+For any x ∈ R+ , we find that
+f (x2 ) =
+
+2
+
+(3) f (f (x)) (4)
+
+f (f (x) ) =
+
+2
+
+(3)
+
+Ç
+
+= f (f (x )) = f
+
+f (x)
+
+å
+
+f (x)
+.
+x
+
+(5)
+
+It remains to show the following key step.
+• Claim. The function f is injective.
+Proof. Using (3) and (4), we rewrite (1) as
+Ç
+
+å
+
+f (f (x)) f (f (y))
++
+f (x)f (f (y)) + f (yf (x)) = f (xy)
+.
+f (x)
+f (y)
+
+(6)
+
+Take x = y in (6) and apply (3). This gives f (x)f (f (x)) + f (xf (x)) = 2 f (fx(x)) , which means
+Ç
+
+å
+
+2
+f (xf (x)) = f (f (x))
+− f (x) .
+x
+
+(7)
+
+Using (3), equation (2) can be rewritten as
+f (x)f (f (y)) + f (yf (x)) = f (y)f (f (x)) + f (xf (y)).
+Suppose f (x) = f (y) for some x, y ∈ R+ . Then (8) implies
+f (yf (y)) = f (yf (x)) = f (xf (y)) = f (xf (x)).
+Using (7), this gives
+Ç
+
+å
+
+Ç
+
+å
+
+2
+2
+f (f (y))
+− f (y) = f (f (x))
+− f (x) .
+y
+x
+Noting f (x) = f (y), we find x = y. This establishes the injectivity.
+
+(8)
+
+18
+
+IMO 2016 Hong Kong
+
+By the Claim and (5), we get the only possible solution f (x) = x1 . It suffices to check that
+this is a solution. Indeed, the left-hand side of (1) becomes
+1
+y x
+x
+x· 2 ·y+ = + ,
+x
+y
+x y
+while the right-hand side becomes
+1 2
+x y
+(x + y 2 ) = + .
+xy
+y x
+The two sides agree with each other.
+Solution 2. Taking x = y = 1 in (1), we get f (1)f (f (1)) + f (f (1)) = 2f (1)f (f (1)) and
+hence f (1) = 1. Putting x = 1 in (1), we have f (f (y)) + f (y) = f (y)(1 + f (f (y 2 ))) so that
+f (f (y)) = f (y)f (f (y 2 )).
+
+(9)
+
+Putting y = 1 in (1), we get xf (x2 ) + f (f (x)) = f (x)(f (f (x2 )) + 1). Using (9), this gives
+xf (x2 ) = f (x).
+
+(10)
+
+Replace y by x1 in (1). Then we have
+2
+
+Ç Ç åå
+
+xf (x )f f
+
+1
+x
+
+Ç
+
++f
+
+f (x)
+x
+
+å
+
+2
+
+Ç Ç
+
+= f (f (x )) + f f
+
+1
+x2
+
+åå
+
+.
+
+) = f (f (x2 )). Also, using (9) with y = x1 and using (10) again,
+The relation (10) shows f ( f (x)
+x
+the last equation reduces to
+Ç å
+1
+f (x)f
+= 1.
+(11)
+x
+Replace x by x1 and y by y1 in (1) and apply (11). We get
+1
+1
+1
++
+=
+2
+xf (x )f (f (y)) f (yf (x))
+f (xy)
+
+Ç
+
+å
+
+1
+1
++
+.
+2
+f (f (x )) f (f (y 2 ))
+
+Clearing denominators, we can use (1) to simplify the numerators and obtain
+f (xy)2 f (f (x2 ))f (f (y 2 )) = xf (x2 )f (f (y))f (yf (x)).
+Using (9) and (10), this is the same as
+f (xy)2 f (f (x)) = f (x)2 f (y)f (yf (x)).
+
+(12)
+
+Substitute y = f (x) in (12) and apply (10) (with x replaced by f (x)). We have
+f (xf (x))2 = f (x)f (f (x)).
+
+(13)
+
+Taking y = x in (12), squaring both sides, and using (10) and (13), we find that
+f (f (x)) = x4 f (x)3 .
+
+(14)
+
+Finally, we combine (9), (10) and (14) to get
+(14)
+
+(9)
+
+(14)
+
+(10)
+
+y 4 f (y)3 = f (f (y)) = f (y)f (f (y 2 )) = f (y)y 8 f (y 2 )3 = y 5 f (y)4 ,
+which implies f (y) = y1 . This is a solution by the checking in Solution 1.
+
+Shortlisted problems
+
+19
+
+A5.
+(a) Prove that for every positive integer n, there exists a fraction ab where a and b are integers
+√
+√
+√
+satisfying 0 < b 6 n + 1 and n 6 ab 6 n + 1.
+(b) Prove that there are infinitely many positive integers n such that there is no fraction ab
+√
+√
+√
+where a and b are integers satisfying 0 < b 6 n and n 6 ab 6 n + 1.
+Solution.
+(a) Let r be the unique positive integer for which r2 6 n < (r + 1)2 . Write n = r2 + s. Then
+we have 0 6 s 6 2r. We discuss in two cases according to the parity of s.
+• Case 1. s is even.
+Consider the number (r + 2rs )2 = r2 + s + ( 2rs )2 . We find that
+s ã2
+n=r +s6r +s+
+6 r2 + s + 1 = n + 1.
+2r
+2
+
+It follows that
+
+2
+
+Å
+
+√
+√
+s
+n6r+
+6 n + 1.
+2r
+2
+
+Since s is even, we can choose the fraction r + 2rs = r +(s/2)
+since r 6
+r
+
+√
+
+n.
+
+• Case 2. s is odd.
+Consider the number (r + 1 − 2r+1−s
+)2 = (r + 1)2 − (2r + 1 − s) + ( 2r+1−s
+)2 . We find that
+2(r+1)
+2(r+1)
+2r + 1 − s
+n = r + s = (r + 1) − (2r + 1 − s) 6 (r + 1) − (2r + 1 − s) +
+2(r + 1)
+2
+6 (r + 1) − (2r + 1 − s) + 1 = n + 1.
+2
+
+2
+
+It follows that
+
+2
+
+Ç
+
+å2
+
+√
+2r + 1 − s √
+n6r+1−
+6 n + 1.
+2(r + 1)
+2
+
+Since s is odd, we can choose the fraction (r + 1) − 2r+1−s
+= (r+1) −r+((s−1)/2)
+since
+2(r+1)
+r+1
+√
+r + 1 6 n + 1.
+√
+(b) We show that for every positive integer r, there is no fraction ab with b 6 r2 + 1 such
+√
+√
+that r2 + 1 6 ab 6 r2 + 2. Suppose on the contrary that such a fraction exists. Since
+√
+b 6 r2 + 1 < r + 1 and b is an integer, we have b 6 r. Hence,
+(br)2 < b2 (r2 + 1) 6 a2 6 b2 (r2 + 2) 6 b2 r2 + 2br < (br + 1)2 .
+This shows the square number a2 is strictly bounded between the two consecutive squares
+(br)2 and (br + 1)2 , which is impossible. Hence, we have found infinitely many n = r2 + 1
+for which there is no fraction of the desired form.
+
+20
+
+IMO 2016 Hong Kong
+
+A6. The equation
+(x − 1)(x − 2) · · · (x − 2016) = (x − 1)(x − 2) · · · (x − 2016)
+is written on the board. One tries to erase some linear factors from both sides so that each
+side still has at least one factor, and the resulting equation has no real roots. Find the least
+number of linear factors one needs to erase to achieve this.
+Answer. 2016.
+Solution. Since there are 2016 common linear factors on both sides, we need to erase at least
+2016 factors. We claim that the equation has no real roots if we erase all factors (x − k) on
+the left-hand side with k ≡ 2, 3 (mod 4), and all factors (x − m) on the right-hand side with
+m ≡ 0, 1 (mod 4). Therefore, it suffices to show that no real number x satisfies
+503
+Y
+
+(x − 4j − 1)(x − 4j − 4) =
+
+j=0
+
+503
+Y
+
+(x − 4j − 2)(x − 4j − 3).
+
+(1)
+
+j=0
+
+• Case 1. x = 1, 2, . . . , 2016.
+In this case, one side of (1) is zero while the other side is not. This shows x cannot satisfy
+(1).
+• Case 2. 4k + 1 < x < 4k + 2 or 4k + 3 < x < 4k + 4 for some k = 0, 1, . . . , 503.
+For j = 0, 1, . . . , 503 with j 6= k, the product (x − 4j − 1)(x − 4j − 4) is positive. For
+j = k, the product (x − 4k − 1)(x − 4k − 4) is negative. This shows the left-hand side of (1)
+is negative. On the other hand, each product (x − 4j − 2)(x − 4j − 3) on the right-hand side
+of (1) is positive. This yields a contradiction.
+• Case 3. x < 1 or x > 2016 or 4k < x < 4k + 1 for some k = 1, 2, . . . , 503.
+The equation (1) can be rewritten as
+1=
+
+503
+Y
+(x − 4j − 1)(x − 4j − 4)
+j=0 (x − 4j − 2)(x − 4j − 3)
+
+=
+
+503
+Y
+j=0
+
+Ç
+
+å
+
+2
+1−
+.
+(x − 4j − 2)(x − 4j − 3)
+
+Note that (x − 4j − 2)(x − 4j − 3) > 2 for 0 6 j 6 503 in this case. So each term in the
+product lies strictly between 0 and 1, and the whole product must be less than 1, which is
+impossible.
+• Case 4. 4k + 2 < x < 4k + 3 for some k = 0, 1, . . . , 503.
+This time we rewrite (1) as
+503
+(x − 4j)(x − 4j − 1)
+x − 1 x − 2016 Y
+·
+1=
+x − 2 x − 2015 j=1 (x − 4j + 1)(x − 4j − 2)
+503
+x − 1 x − 2016 Y
+2
+=
+·
+1+
+.
+x − 2 x − 2015 j=1
+(x − 4j + 1)(x − 4j − 2)
+
+Ç
+
+å
+
+Clearly, x−1
+and x−2016
+are both greater than 1. For the range of x in this case, each term
+x−2
+x−2015
+in the product is also greater than 1. Then the right-hand side must be greater than 1 and
+hence a contradiction arises.
+
+Shortlisted problems
+
+21
+
+From the four cases, we conclude that (1) has no real roots. Hence, the minimum number
+of linear factors to be erased is 2016.
+Comment. We discuss the general case when 2016 is replaced by a positive integer n. The
+above solution works equally well when n is divisible by 4.
+If n ≡ 2 (mod 4), one may leave l(x) = (x − 1)(x − 2) · · · (x − n2 ) on the left-hand side
+and r(x) = (x − n2 − 1)(x − n2 − 2) · · · (x − n) on the right-hand side. One checks that for
+x < n+1
+, we have |l(x)| < |r(x)|, while for x > n+1
+, we have |l(x)| > |r(x)|.
+2
+2
+If n ≡ 3 (mod 4), one may leave l(x) = (x − 1)(x − 2) · · · (x − n+1
+) on the left-hand side
+2
+n+3
+x+5
+and r(x) = (x − 2 )(x − 2 ) · · · (x − n) on the right-hand side. For x < 1 or n+1
+< x < n+3
+,
+2
+2
+n+1
+n+3
+we have l(x) > 0 > r(x). For 1 < x < 2 , we have |l(x)| < |r(x)|. For x > 2 , we have
+|l(x)| > |r(x)|.
+If n ≡ 1 (mod 4), as the proposer mentioned, the situation is a bit more out of control.
+Since the construction for n − 1 ≡ 0 (mod 4) works, the answer can be either n or n − 1. For
+n = 5, we can leave the products (x − 1)(x − 2)(x − 3)(x − 4) and (x − 5). For n = 9, the
+only example that works is l(x) = (x − 1)(x − 2)(x − 9) and r(x) = (x − 3)(x − 4) · · · (x − 8),
+while there seems to be no such partition for n = 13.
+
+22
+
+IMO 2016 Hong Kong
+
+A7. Denote by R the set of all real numbers. Find all functions f : R → R such that
+f (0) 6= 0 and
+f (x + y)2 = 2f (x)f (y) + max {f (x2 ) + f (y 2 ), f (x2 + y 2 )}
+
+(1)
+
+for all real numbers x and y.
+Answer.
+• f (x) = −1 for any x ∈ R; or
+• f (x) = x − 1 for any x ∈ R.
+Solution 1. Taking x = y = 0 in (1), we get f (0)2 = 2f (0)2 +max {2f (0), f (0)}. If f (0) > 0,
+then f (0)2 + 2f (0) = 0 gives no positive solution. If f (0) < 0, then f (0)2 + f (0) = 0 gives
+f (0) = −1. Putting y = 0 in (1), we have f (x)2 = −2f (x) + f (x2 ), which is the same as
+(f (x) + 1)2 = f (x2 ) + 1. Let g(x) = f (x) + 1. Then for any x ∈ R, we have
+g(x2 ) = g(x)2 > 0.
+
+(2)
+
+From (1), we find that f (x + y)2 > 2f (x)f (y) + f (x2 ) + f (y 2 ). In terms of g, this becomes
+(g(x + y) − 1)2 > 2(g(x) − 1)(g(y) − 1) + g(x2 ) + g(y 2 ) − 2. Using (2), this means
+(g(x + y) − 1)2 > (g(x) + g(y) − 1)2 − 1.
+
+(3)
+
+Putting x = 1 in (2), we get g(1) = 0 or 1. The two cases are handled separately.
+• Case 1. g(1) = 0, which is the same as f (1) = −1.
+We put x = −1 and y = 0 in (1). This gives f (−1)2 = −2f (−1) − 1, which forces
+f (−1) = −1. Next, we take x = −1 and y = 1 in (1) to get 1 = 2 + max {−2, f (2)}. This
+clearly implies 1 = 2 + f (2) and hence f (2) = −1, that is, g(2) = 0. From (2), we can prove
+n
+n
+n
+inductively that g(22 ) = g(2)2 = 0 for any n ∈ N. Substitute y = 22 − x in (3). We obtain
+n
+
+n
+
+(g(x) + g(22 − x) − 1)2 6 (g(22 ) − 1)2 + 1 = 2.
+n
+
+For any fixed x > 0, we consider n to be sufficiently
+large so that 22 − x > 0. From (2), this
+√
+2n
+implies g(2 − x) > 0 so that g(x) 6 1 + 2. Using (2) again, we get
+√
+n
+n
+g(x)2 = g(x2 ) 6 1 + 2
+for any n ∈ N. Therefore, |g(x)| 6 1 for any x > 0.
+If there exists a ∈ R for which g(a) 6= 0, then for sufficiently large n we must have
+1
+1
+1
+g((a2 ) 2n ) = g(a2 ) 2n > 12 . By taking x = −y = −(a2 ) 2n in (1), we obtain
+1 = 2f (x)f (−x) + max {2f (x2 ), f (2x2 )}
+= 2(g(x) − 1)(g(−x) − 1) + max {2(g(x2 ) − 1), g(2x2 ) − 1}
+Ç
+åÇ
+å
+1
+1
+1
+62 −
+−
++0=
+2
+2
+2
+since |g(−x)| = |g(x)| ∈ ( 12 , 1] by (2) and the choice of x, and since g(z) 6 1 for z > 0. This
+yields a contradiction and hence g(x) = 0 must hold for any x. This means f (x) = −1 for
+any x ∈ R, which clearly satisfies (1).
+
+Shortlisted problems
+
+23
+
+• Case 2. g(1) = 1, which is the same as f (1) = 0.
+We put x = −1 and y = 1 in (1) to get 1 = max {0, f (2)}. This clearly implies f (2) = 1
+and hence g(2) = 2. Setting x = 2n and y = 2 in (3), we have
+(g(2n + 2) − 1)2 > (g(2n) + 1)2 − 1.
+By induction on n, it is easy to prove that g(2n) > n + 1 for all n ∈ N. For any real
+number a > 1, we choose a large n ∈ N and take k to be the positive integer such that
+n
+2k 6 a2 < 2k + 2. From (2) and (3), we have
+1 n
+n
+n
+n
+(g(a)2 − 1)2 + 1 = (g(a2 ) − 1)2 + 1 > (g(2k) + g(a2 − 2k) − 1)2 > k 2 > (a2 − 2)2
+4
+n
+
+n
+
+since g(a2 − 2k) > 0. For large n, this clearly implies g(a)2 > 1. Thus,
+1 n
+n
+n
+(g(a)2 )2 > (g(a)2 − 1)2 + 1 > (a2 − 2)2 .
+4
+This yields
+1 n
+n
+g(a)2 > (a2 − 2).
+2
+Note that
+
+n
+
+(4)
+
+a2
+2
+2
+=
+1
++
+6
+1
++
+n
+n
+a2 − 2
+a2 − 2
+2n (a2n − 2)
+Ç
+
+å2n
+
+by binomial expansion. This can be rewritten as
+n
+
+a
+
+1
+
+(a2 − 2) 2n >
+
+1 + 2n (a22n −2)
+
+.
+
+Together with (4), we conclude g(a) > a by taking n sufficiently large.
+Consider x = na and y = a > 1 in (3). This gives (g((n+1)a)−1)2 > (g(na)+g(a)−1)2 −1.
+By induction on n, it is easy to show g(na) > (n − 1)(g(a) − 1) + a for any n ∈ N. We choose
+n
+a large n ∈ N and take k to be the positive integer such that ka 6 22 < (k + 1)a. Using (2)
+and (3), we have
+n+1
+
+22
+
+n
+
+n
+
+n
+
+> (22 −1)2 +1 = (g(22 )−1)2 +1 > (g(22 −ka)+g(ka)−1)2 > ((k−1)(g(a)−1)+a−1)2 ,
+
+from which it follows that
+n
+
+n
+
+22 > (k − 1)(g(a) − 1) + a − 1 >
+
+22
+(g(a) − 1) − 2(g(a) − 1) + a − 1
+a
+
+holds for sufficiently large n. Hence, we must have g(a)−1
+6 1, which implies g(a) 6 a + 1 for
+a
+any a > 1. Then for large n ∈ N, from (3) and (2) we have
+4a2
+
+n+1
+
+n
+
+n
+
+n
+
+n
+
+= (2a2 )2 > (g(2a2 ) − 1)2 > (2g(a2 ) − 1)2 − 1 = (2g(a)2 − 1)2 − 1.
+
+24
+
+IMO 2016 Hong Kong
+
+This implies
+»
+1
+n
+n
+2a2 > (1 + 4a2n+1 + 1) > g(a)2 .
+2
+When n tends to infinity, this forces g(a) 6 a. Together with g(a) > a, we get g(a) = a for
+all real numbers a > 1, that is, f (a) = a − 1 for all a > 1.
+Finally, for any x ∈ R, we choose y sufficiently large in (1) so that y, x + y > 1. This gives
+(x + y − 1)2 = 2f (x)(y − 1) + max {f (x2 ) + y 2 − 1, x2 + y 2 − 1}, which can be rewritten as
+
+2(x − 1 − f (x))y = −x2 + 2x − 2 − 2f (x) + max {f (x2 ), x2 }.
+As the right-hand side is fixed, this can only hold for all large y when f (x) = x − 1. We now
+check that this function satisfies (1). Indeed, we have
+f (x + y)2 = (x + y − 1)2 = 2(x − 1)(y − 1) + (x2 + y 2 − 1)
+= 2f (x)f (y) + max {f (x2 ) + f (y 2 ), f (x2 + y 2 )}.
+Solution 2. Taking x = y = 0 in (1), we get f (0)2 = 2f (0)2 +max {2f (0), f (0)}. If f (0) > 0,
+then f (0)2 + 2f (0) = 0 gives no positive solution. If f (0) < 0, then f (0)2 + f (0) = 0 gives
+f (0) = −1. Putting y = 0 in (1), we have
+f (x)2 = −2f (x) + f (x2 ).
+
+(5)
+
+Replace x by −x in (5) and compare with (5) again. We get f (x)2 +2f (x) = f (−x)2 +2f (−x),
+which implies
+f (x) = f (−x) or f (x) + f (−x) = −2.
+(6)
+Taking x = y and x = −y respectively in (1) and comparing the two equations obtained,
+we have
+f (2x)2 − 2f (x)2 = 1 − 2f (x)f (−x).
+(7)
+Combining (6) and (7) to eliminate f (−x), we find that f (2x) can be ±1 (when f (x) = f (−x))
+or ±(2f (x) + 1) (when f (x) + f (−x) = −2).
+We prove the following.
+• Claim. f (x) + f (−x) = −2 for any x ∈ R.
+Proof. Suppose there exists a ∈ R such that f (a) + f (−a) 6= −2. Then f (a) = f (−a) 6= −1
+and we may assume a > 0. We first show that f (a) 6= 1. Suppose f (a) = 1. Consider y = a
+in (7). We get f (2a)2 = 1. Taking x = y = a in (1), we have 1 = 2 + max {2f (a2 ), f (2a2 )}.
+From (5), f (a2 ) = 3 so that 1 > 2 + 6. This is impossible, and thus f (a) 6= 1.
+As f (a) 6= ±1, we have f (a) = ±(2f ( a2 ) + 1). Similarly, f (−a) = ±(2f (− a2 ) + 1). These
+two expressions are equal since f (a) = f (−a). If f ( a2 ) = f (− a2 ), then the above argument
+works when we replace a by a2 . In particular, we have f (a)2 = f (2 · a2 )2 = 1, which is a
+contradiction. Therefore, (6) forces f ( a2 ) + f (− a2 ) = −2. Then we get
+ã
+Å
+Å ã
+ã
+a
+a
+± 2f
++ 1 = ± −2f
+−3 .
+2
+2
+Å
+
+Å ã
+
+Shortlisted problems
+
+25
+
+For any choices of the two signs, we either get a contradiction or f ( a2 ) = −1, in which case
+f ( a2 ) = f (− a2 ) and hence f (a) = ±1 again. Therefore, there is no such real number a and the
+Claim follows.
+Replace x and y by −x and −y in (1) respectively and compare with (1). We get
+f (x + y)2 − 2f (x)f (y) = f (−x − y)2 − 2f (−x)f (−y).
+Using the Claim, this simplifies to f (x+y) = f (x)+f (y)+1. In addition, (5) can be rewritten
+as (f (x) + 1)2 = f (x2 ) + 1. Therefore, the function g defined by g(x) = f (x) + 1 satisfies
+g(x + y) = g(x) + g(y) and g(x)2 = g(x2 ). The latter relation shows g(y) is nonnegative for
+y > 0. For such a function satisfying the Cauchy Equation g(x + y) = g(x) + g(y), it must
+be monotonic increasing and hence g(x) = cx for some constant c.
+From (cx)2 = g(x)2 = g(x2 ) = cx2 , we get c = 0 or 1, which corresponds to the two
+functions f (x) = −1 and f (x) = x − 1 respectively, both of which are solutions to (1) as
+checked in Solution 1.
+Solution 3. As in Solution 2, we find that f (0) = −1,
+(f (x) + 1)2 = f (x2 ) + 1
+
+(8)
+
+f (x) = f (−x) or f (x) + f (−x) = −2
+
+(9)
+
+and
+for any x ∈ R. We shall show that one of the statements in (9) holds for all x ∈ R. Suppose
+f (a) = f (−a) but f (a) + f (−a) 6= −2, while f (b) 6= f (−b) but f (b) + f (−b) = −2. Clearly,
+a, b 6= 0 and f (a), f (b) 6= −1.
+Taking y = a and y = −a in (1) respectively and comparing the two equations obtained,
+we have f (x + a)2 = f (x − a)2 , that is, f (x + a) = ±f (x − a). This implies f (x + 2a) = ±f (x)
+for all x ∈ R. Putting x = b and x = −2a − b respectively, we find f (2a + b) = ±f (b)
+and f (−2a − b) = ±f (−b) = ±(−2 − f (b)). Since f (b) 6= −1, the term ±(−2 − f (b)) is
+distinct from ±f (b) in any case. So f (2a + b) 6= f (−2a − b). From (9), we must have
+f (2a + b) + f (−2a − b) = −2. Note that we also have f (b) + f (−b) = −2 where |f (b)|, |f (−b)|
+are equal to |f (2a + b)|, |f (−2a − b)| respectively. The only possible case is f (2a + b) = f (b)
+and f (−2a − b) = f (−b).
+Applying the argument to −a instead of a and using induction, we have f (2ka + b) = f (b)
+and f (2ka − b) = f (−b) for any integer k. Note that f (b) + f (−b) = −2 and f (b) 6= −1
+imply one of √
+f (b), f (−b) is less than −1. Without loss of generality, assume f (b) < −1. We
+consider x = 2ka + b in (8) for sufficiently large k so that
+(f (x) + 1)2 = f (2ka + b) + 1 = f (b) + 1 < 0
+yields a contradiction. Therefore, one of the statements in (9) must hold for all x ∈ R.
+
+26
+
+IMO 2016 Hong Kong
+
+• Case 1. f (x) = f (−x) for any x ∈ R.
+For any a ∈ R, setting x = y = a2 and x = −y = a2 in (1) respectively and comparing
+these, we obtain f (a)2 = f (0)2 = 1, which means f (a) = ±1 for all√a ∈ R. If f (a) = 1 for
+some a, we may assume a > 0 since f (a) = f (−a). Taking x = y = a in (1), we get
+√
+√
+√
+f (2 a)2 = 2f ( a)2 + max {2, f (2a)} = 2f ( a)2 + 2.
+Note that the left-hand side is ±1 while the right-hand side is an even integer. This is a
+contradiction. Therefore, f (x) = −1 for all x ∈ R, which is clearly a solution.
+• Case 2. f (x) + f (−x) = −2 for any x ∈ R.
+This case can be handled in the same way as in Solution 2, which yields another solution
+f (x) = x − 1.
+
+Shortlisted problems
+
+27
+
+A8. Determine the largest real number a such that for all n > 1 and for all real numbers
+x0 , x1 , . . . , xn satisfying 0 = x0 < x1 < x2 < · · · < xn , we have
+Ç
+
+å
+
+1
+1
+1
+2
+3
+n+1
++
++ ··· +
+>a
++
++ ··· +
+.
+x1 − x0 x2 − x1
+xn − xn−1
+x1 x2
+xn
+
+(1)
+
+Answer. The largest a is 49 .
+Solution 1. We first show that a = 49 is admissible. For each 2 6 k 6 n, by the CauchySchwarz Inequality, we have
+(k − 1)2
+32
+(xk−1 + (xk − xk−1 ))
++
+xk−1
+xk − xk−1
+Ç
+
+å
+
+> (k − 1 + 3)2 ,
+
+which can be rewritten as
+(k + 2)2 (k − 1)2
+9
+>
+−
+.
+xk − xk−1
+xk
+xk−1
+
+(2)
+
+Summing (2) over k = 2, 3, . . . , n and adding x91 to both sides, we have
+n
+X
+
+n
+n
+X
+X
+1
+k + 1 n2
+k+1
+9
+>4
++
+>4
+.
+xn
+k=1 xk − xk−1
+k=1 xk
+k=1 xk
+
+This shows (1) holds for a = 94 .
+Next, we show that a = 94 is the optimal choice. Consider the sequence defined by x0 = 0
+and xk = xk−1 + k(k + 1) for k > 1, that is, xk = 13 k(k + 1)(k + 2). Then the left-hand side
+of (1) equals
+å
+n
+n Ç
+X
+X
+1
+1
+1
+1
+=
+−
+,
+=1−
+k+1
+n+1
+k=1 k(k + 1)
+k=1 k
+while the right-hand side equals
+a
+
+n
+X
+k+1
+k=1
+
+xk
+
+n
+X
+
+n
+1
+1
+3 X
+1
+= 3a
+= a
+−
+2 k=1 k k + 2
+k=1 k(k + 2)
+
+Ç
+
+å
+
+Ç
+
+å
+
+3
+1
+1
+1
+=
+1+ −
+−
+a.
+2
+2 n+1 n+2
+
+When n tends to infinity, the left-hand side tends to 1 while the right-hand side tends to
+9
+a. Therefore a has to be at most 49 .
+4
+Hence the largest value of a is 94 .
+
+Solution 2. We shall give an alternative method to establish (1) with a = 94 . We define
+yk = xk − xk−1 > 0 for 1 6 k 6 n. By the Cauchy-Schwarz Inequality, for 1 6 k 6 n, we have
+Ñ
+
+(y1 + y2 + · · · + yk )
+
+k
+X
+1
+
+j=1 yj
+
+j+1
+2
+
+!2 é
+
+!
+
+>
+
+!
+
+2
+3
+k+1
++
++ ··· +
+2
+2
+2
+
+!!2
+
+k+2
+=
+3
+
+!2
+
+.
+
+28
+
+IMO 2016 Hong Kong
+
+This can be rewritten as
+k+1
+36
+6 2
+y1 + y2 + · · · + yk
+k (k + 1)(k + 2)2
+
+Ñ
+
+k
+X
+1
+
+j+1
+2
+
+!2 é
+
+.
+
+(3)
+
+2
+3
+n+1
+c1
+c2
+cn
++
++ ··· +
+6
++
++ ··· +
+y1 y1 + y2
+y1 + y2 + · · · + yn
+y1 y2
+yn
+
+(4)
+
+j=1 yj
+
+Summing (3) over k = 1, 2, . . . , n, we get
+
+where for 1 6 m 6 n,
+m+1
+cm = 36
+2
+
+!2 n
+X
+k=m
+
+1
+k 2 (k + 1)(k + 2)2
+
+n
+9m2 (m + 1)2 X
+1
+1
+=
+−
+2
+2
+4
+(k + 1)2 (k + 2)2
+k=m k (k + 1)
+
+å
+
+9m2 (m + 1)2
+=
+4
+
+9
+< .
+4
+
+Ç
+
+Ç
+
+1
+1
+−
+2
+2
+2
+m (m + 1)
+(n + 1) (n + 2)2
+
+å
+
+From (4), the inequality (1) holds for a = 49 . This is also the upper bound as can be
+verified in the same way as Solution 1.
+
+Shortlisted problems
+
+29
+
+Combinatorics
+C1. The leader of an IMO team chooses positive integers n and k with n > k, and announces
+them to the deputy leader and a contestant. The leader then secretly tells the deputy leader
+an n-digit binary string, and the deputy leader writes down all n-digit binary strings which
+differ from the leader’s in exactly k positions. (For example, if n = 3 and k = 1, and if the
+leader chooses 101, the deputy leader would write down 001, 111 and 100.) The contestant
+is allowed to look at the strings written by the deputy leader and guess the leader’s string.
+What is the minimum number of guesses (in terms of n and k) needed to guarantee the correct
+answer?
+Answer. The minimum number of guesses is 2 if n = 2k and 1 if n 6= 2k.
+Solution 1. Let X be the binary string chosen by the leader and let X 0 be the binary string
+of length n every digit of which is different from that of X. The strings written by the deputy
+leader are the same as those in the case when the leader’s string is X 0 and k is changed to
+n − k. In view of this, we may assume k > n2 . Also, for the particular case k = n2 , this
+argument shows that the strings X and X 0 cannot be distinguished, and hence in that case
+the contestant has to guess at least twice.
+It remains to show that the number of guesses claimed suffices. Consider any string Y
+which differs from X in m digits where 0 < m < 2k. Without loss of generality, assume
+the first m digits of X and Y are distinct. Let Z be the binary string obtained from X by
+changing its first k digits. Then Z is written by the deputy leader. Note that Z differs from Y
+by |m − k| digits where |m − k| < k since 0 < m < 2k. From this observation, the contestant
+must know that Y is not the desired string.
+As we have assumed k > n2 , when n < 2k, every string Y 6= X differs from X in fewer
+than 2k digits. When n = 2k, every string except X and X 0 differs from X in fewer than 2k
+digits. Hence, the answer is as claimed.
+loss of generality suppose the firstÄ digit
+Solution 2. Firstly, assume n 6= 2k. Without
+Ä ä
+ä of
+the leader’s string is 1. Then among the nk strings written by the deputy leader, n−1
+will
+k
+Än−1ä
+begin with 1 and k−1 will begin with 0. Since n 6= 2k, we have k + (k − 1) 6= n − 1 and
+Ä
+ä
+Än−1ä
+so n−1
+=
+6
+. Thus, by counting the number of strings written by the deputy leader that
+k
+k−1
+start with 0 and 1, the contestant can tell the first digit of the leader’s string. The same can
+be done on the other digits, so 1 guess suffices when n 6= 2k.
+Secondly, for the case n = 2 and k = 1, the answer is clearly 2. For the remaining cases
+where n = 2k > 2, the deputy leader would write down the same strings if the leader’s string
+X is replaced by X 0 obtained by changing each digit of X. This shows at least 2 guesses
+are needed. We shall show that 2 guesses suffice in this case. Suppose the first two digits of
+the leader’s string are the same.
+Then
+among the strings written by the deputy leader,
+theä
+Ä
+ä
+Ä2k−2
+prefices 01 and 10 will occur 2k−2
+times
+each,
+while
+the
+prefices
+00
+and
+11
+will
+occur
+k−1
+k
+times each. The two
+numbers
+are
+interchanged
+if
+the
+first
+two
+digits
+of
+the
+leader’s
+string
+Ä
+ä
+Ä2k−2ä
+are different. Since 2k−2
+=
+6
+, the contestant can tell whether the first two digits of the
+k−1
+k
+leader’s string are the same or not. He can work out the relation of the first digit and the
+
+30
+
+IMO 2016 Hong Kong
+
+other digits in the same way and reduce the leader’s string to only 2 possibilities. The proof
+is complete.
+
+Shortlisted problems
+
+31
+
+C2. Find all positive integers n for which all positive divisors of n can be put into the cells
+of a rectangular table under the following constraints:
+• each cell contains a distinct divisor;
+• the sums of all rows are equal; and
+• the sums of all columns are equal.
+Answer. 1.
+Solution 1. Suppose all positive divisors of n can be arranged into a rectangular table of
+size k × l where the number of rows k does not exceed the number of columns l. Let the
+sum of numbers in each column be s. Since n belongs to one of the columns, we have s > n,
+where equality holds only when n = 1.
+For j = 1, 2, . . . , l, let dj be the largest number in the j-th column. Without loss of
+generality, assume d1 > d2 > · · · > dl . Since these are divisors of n, we have
+dl 6
+
+n
+.
+l
+
+(1)
+
+As dl is the maximum entry of the l-th column, we must have
+dl >
+
+s
+n
+> .
+k
+k
+
+(2)
+
+The relations (1) and (2) combine to give nl > nk , that is, k > l. Together with k 6 l, we
+conclude that k = l. Then all inequalities in (1) and (2) are equalities. In particular, s = n
+and so n = 1, in which case the conditions are clearly satisfied.
+Solution 2. Clearly n = 1 works. Then we assume n > 1 and let its prime factorization be
+n = pr11 pr22 · · · prt t . Suppose the table has k rows and l columns with 1 < k 6 l. Note that kl is
+the number of positive divisors of n and the sum of all entries is the sum of positive divisors
+of n, which we denote by σ(n). Consider the column containing n. Since the column sum is
+σ(n)
+, we must have σ(n)
+> n. Therefore, we have
+l
+l
+2
+
+Ç
+
+(r1 + 1)(r2 + 1) · · · (rt + 1) = kl 6 l <
+
+σ(n)
+n
+
+å2
+
+Ç
+
+1
+1
+= 1+
++ · · · + r1
+p1
+p1
+
+å2
+
+Ç
+
+1
+1
+· · · 1 + + · · · + rt
+pt
+pt
+
+å2
+
+.
+
+This can be rewritten as
+f (p1 , r1 )f (p2 , r2 ) · · · f (pt , rt ) < 1
+
+(3)
+
+where
+f (p, r) = 
+
+r+1
+1 + p1 + · · · + p1r
+
+
+
+2 =
+
+(r + 1) 1 − p1
+
+
+1
+1 − pr+1
+
+2
+
+2
+
+.
+
+32
+
+IMO 2016 Hong Kong
+
+Direct computation yields
+8
+f (2, 1) = ,
+9
+
+f (2, 2) =
+
+48
+,
+49
+
+9
+f (3, 1) = .
+8
+
+Also, we find that
+Ç
+
+f (2, r) > 1 −
+
+1
+
+å−2
+
+> 1 for r > 3,
+2r+1
+Ç
+å
+4
+1 −2 4
+9
+f (3, r) >
+1 − r+1
+> >
+for r > 2, and
+3
+3
+3
+8
+Ç
+å
+1 −2 32
+9
+32
+1 − r+1
+>
+>
+for p > 5.
+f (p, r) >
+25
+p
+25
+8
+From these values and bounds, it is clear that (3) holds only when n = 2 or 4. In both cases,
+it is easy to see that the conditions are not satisfied. Hence, the only possible n is 1.
+
+Shortlisted problems
+
+33
+
+C3. Let n be a positive integer relatively prime to 6. We paint the vertices of a regular
+n-gon with three colours so that there is an odd number of vertices of each colour. Show that
+there exists an isosceles triangle whose three vertices are of different colours.
+Solution. For k = 1, 2, 3, let ak be the number of isosceles triangles whose vertices contain
+exactly k colours. Suppose on the contrary that a3 = 0. Let b, c, d be the number of vertices
+of the three different colours respectively. We now count the number of pairs (4, E) where
+4 is an isosceles triangle and E is a side of 4 whose endpoints are of different colours.
+On the one hand, since we have assumed a3 = 0, each triangle in the pair must contain
+exactly two colours, and hence each triangle contributes twice. Thus the number of pairs is
+2a2 .
+On the other hand, if we pick any two vertices A, B of distinct colours, then there are
+three isosceles triangles having these as vertices, two when AB is not the base and one when
+AB is the base since n is odd. Note that the three triangles are all distinct as (n, 3) = 1. In
+this way, we count the number of pairs to be 3(bc + cd + db). However, note that 2a2 is even
+while 3(bc + cd + db) is odd, as each of b, c, d is. This yields a contradiction and hence a3 > 1.
+Comment. A slightly stronger version of this problem is to replace the condition (n, 6) = 1
+by n being odd (where equilateral triangles are regarded as isosceles triangles). In that case,
+the only difference in the proof is that by fixing any two vertices A, B, one can find exactly
+one or three isosceles triangles having these as vertices. But since only parity is concerned in
+the solution, the proof goes the same way.
+The condition that there is an odd number of vertices of each colour is necessary, as can be
+seen from the following example. Consider n = 25 and we label the vertices A0 , A1 , . . . , A24 .
+Suppose colour 1 is used for A0 , colour 2 is used for A5 , A10 , A15 , A20 , while colour 3 is used
+for the remaining vertices. Then any isosceles triangle having colours 1 and 2 must contain
+A0 and one of A5 , A10 , A15 , A20 . Clearly, the third vertex must have index which is a multiple
+of 5 so it is not of colour 3.
+
+34
+
+IMO 2016 Hong Kong
+
+C4. Find all positive integers n for which we can fill in the entries of an n × n table with
+the following properties:
+• each entry can be one of I, M and O;
+• in each row and each column, the letters I, M and O occur the same number of times;
+and
+• in any diagonal whose number of entries is a multiple of three, the letters I, M and O
+occur the same number of times.
+Answer. n can be any multiple of 9.
+Solution. We first show that such a table exists when n is a multiple of 9. Consider the
+following 9 × 9 table.
+
+
+
+
+I I I M M M O O O
+
+M M M O O O
+I I I
+
+
+
+O O O
+
+I
+I
+I
+M
+M
+M
+
+
+
+
+I
+I
+I
+M
+M
+M
+O
+O
+O
+
+
+
+M M M O O O
+
+I
+I
+I
+
+
+
+
+O O O
+I
+I
+I
+M
+M
+M
+
+
+
+I
+I I M M M O O O
+
+
+
+I I I
+M M M O O O
+
+O O O I I I M M M
+
+(1)
+
+It is a direct checking that the table (1) satisfies the requirements. For n = 9k where k is
+a positive integer, we form an n × n table using k × k copies of (1). For each row and each
+column of the table of size n, since there are three I’s, three M ’s and three O’s for any nine
+consecutive entries, the numbers of I, M and O are equal. In addition, every diagonal of the
+large table whose number of entries is divisible by 3 intersects each copy of (1) at a diagonal
+with number of entries divisible by 3 (possibly zero). Therefore, every such diagonal also
+contains the same number of I, M and O.
+Next, consider any n × n table for which the requirements can be met. As the number of
+entries of each row should be a multiple of 3, we let n = 3k where k is a positive integer. We
+divide the whole table into k × k copies of 3 × 3 blocks. We call the entry at the centre of
+such a 3 × 3 square a vital entry. We also call any row, column or diagonal that contains at
+least one vital entry a vital line. We compute the number of pairs (l, c) where l is a vital line
+and c is an entry belonging to l that contains the letter M . We let this number be N .
+On the one hand, since each vital line contains the same number of I, M and O, it is
+obvious that each vital row and each vital column contain k occurrences of M . For vital
+diagonals in either direction, we count there are exactly
+1 + 2 + · · · + (k − 1) + k + (k − 1) + · · · + 2 + 1 = k 2
+occurrences of M . Therefore, we have N = 4k 2 .
+
+Shortlisted problems
+
+35
+
+On the other hand, there are 3k 2 occurrences of M in the whole table. Note that each
+entry belongs to exactly 1 or 4 vital lines. Therefore, N must be congruent to 3k 2 mod 3.
+From the double counting, we get 4k 2 ≡ 3k 2 (mod 3), which forces k to be a multiple of
+3. Therefore, n has to be a multiple of 9 and the proof is complete.
+
+36
+
+IMO 2016 Hong Kong
+
+C5. Let n > 3 be a positive integer. Find the maximum number of diagonals of a regular
+n-gon one can select, so that any two of them do not intersect in the interior or they are
+perpendicular to each other.
+Answer. n − 2 if n is even and n − 3 if n is odd.
+Solution 1. We consider two cases according to the parity of n.
+• Case 1. n is odd.
+We first claim that no pair of diagonals is perpendicular. Suppose A, B, C, D are vertices
+where AB and CD are perpendicular, and let E be the vertex lying on the perpendicular
+bisector of AB. Let E 0 be the opposite point of E on the circumcircle of the regular polygon.
+Since EC = E 0 D and C, D, E are vertices of the regular polygon, E 0 should also belong to
+the polygon. This contradicts the fact that a regular polygon with an odd number of vertices
+does not contain opposite points on the circumcircle.
+C
+
+E
+
+B
+
+A
+D
+
+E0
+
+Therefore in the odd case we can only select diagonals which do not intersect. In the
+maximal case these diagonals should divide the regular n-gon into n − 2 triangles, so we can
+select at most n − 3 diagonals. This can be done, for example, by selecting all diagonals
+emanated from a particular vertex.
+• Case 2. n is even.
+If there is no intersection, then the proof in the odd case works. Suppose there are two
+perpendicular diagonals selected. We consider the set S of all selected diagonals parallel to
+one of them which intersect with some selected diagonals. Suppose S contains k diagonals
+and the number of distinct endpoints of the k diagonals is l.
+Firstly, consider the longest diagonal in one of the two directions in S. No other diagonal
+in S can start from either endpoint of that diagonal, since otherwise it has to meet another
+longer diagonal in S. The same holds true for the other direction. Ignoring these two longest
+diagonals and their four endpoints, the remaining k − 2 diagonals share l − 4 endpoints where
+each endpoint can belong to at most two diagonals. This gives 2(l − 4) > 2(k − 2), so that
+k 6 l − 2.
+
+Shortlisted problems
+
+37
+
+d2
+d
+
+d2
+d1
+
+d
+
+d1
+
+Consider a group of consecutive vertices of the regular n-gon so that each of the two
+outermost vertices is an endpoint of a diagonal in S, while the interior points are not. There
+are l such groups. We label these groups P1 , P2 , . . . , Pl in this order. We claim that each
+selected diagonal outside S must connect vertices of the same group Pi . Consider any diagonal
+d joining vertices from distinct groups Pi and Pj . Let d1 and d2 be two diagonals in S each
+having one of the outermost points of Pi as endpoint. Then d must meet either d1 , d2 or a
+diagonal in S which is perpendicular to both d1 and d2 . In any case d should belong to S by
+definition, which is a contradiction.
+Within the same group Pi , there are no perpendicular diagonals since the vertices belong
+to the same side of a diameter of the circumcircle. Hence there can be at most |Pi |−2 selected
+diagonals within Pi , including the one joining the two outermost points of Pi when |Pi | > 2.
+Therefore, the maximum number of diagonals selected is
+l
+X
+i=1
+
+(|Pi | − 2) + k =
+
+l
+X
+
+|Pi | − 2l + k = (n + l) − 2l + k = n − l + k 6 n − 2.
+
+i=1
+
+This upper bound can be attained as follows. We take any vertex A and let A0 be the
+vertex for which AA0 is a diameter of the circumcircle. If we select all diagonals emanated
+from A together with the diagonal d0 joining the two neighbouring vertices of A0 , then the
+only pair of diagonals that meet each other is AA0 and d0 , which are perpendicular to each
+other. In total we can take n − 2 diagonals.
+A0
+d0
+
+A
+Solution 2. The constructions and the odd case are the same as Solution 1. Instead of
+dealing separately with the case where n is even, we shall prove by induction more generally
+that we can select at most n − 2 diagonals for any cyclic n-gon with circumcircle Γ.
+
+38
+
+IMO 2016 Hong Kong
+
+The base case n = 3 is trivial since there is no diagonal at all. Suppose the upper bound
+holds for any cyclic polygon with fewer than n sides. For a cyclic n-gon, if there is a selected
+diagonal which does not intersect any other selected diagonal, then this diagonal divides the
+n-gon into an m-gon and an l-gon (with m + l = n + 2) so that each selected diagonal belongs
+to one of them. Without loss of generality, we may assume the m-gon lies on the same side
+of a diameter of Γ. Then no two selected diagonals of the m-gon can intersect, and hence we
+can select at most m − 3 diagonals. Also, we can apply the inductive hypothesis to the l-gon.
+This shows the maximum number of selected diagonals is (m − 3) + (l − 2) + 1 = n − 2.
+It remains to consider the case when all selected diagonals meet at least one other selected
+diagonal. Consider a pair of selected perpendicular diagonals d1 , d2 . They divide the circumference of Γ into four arcs, each of which lies on the same side of a diameter of Γ. If there
+are two selected diagonals intersecting each other and neither is parallel to d1 or d2 , then
+their endpoints must belong to the same arc determined by d1 , d2 , and hence they cannot be
+perpendicular. This violates the condition, and hence all selected diagonals must have the
+same direction as one of d1 , d2 .
+
+d2
+d1
+
+Take the longest selected diagonal in one of the two directions. We argue as in Solution
+1 that its endpoints do not belong to any other selected diagonal. The same holds true for
+the longest diagonal in the other direction. Apart from these four endpoints, each of the
+remaining n − 4 vertices can belong to at most two selected diagonals. Thus we can select at
+most 12 (2(n − 4) + 4) = n − 2 diagonals. Then the proof follows by induction.
+
+Shortlisted problems
+
+39
+
+C6. There are n > 3 islands in a city. Initially, the ferry company offers some routes between
+some pairs of islands so that it is impossible to divide the islands into two groups such that
+no two islands in different groups are connected by a ferry route.
+After each year, the ferry company will close a ferry route between some two islands X
+and Y . At the same time, in order to maintain its service, the company will open new routes
+according to the following rule: for any island which is connected by a ferry route to exactly
+one of X and Y , a new route between this island and the other of X and Y is added.
+Suppose at any moment, if we partition all islands into two nonempty groups in any way,
+then it is known that the ferry company will close a certain route connecting two islands from
+the two groups after some years. Prove that after some years there will be an island which is
+connected to all other islands by ferry routes.
+Solution. Initially, we pick any pair of islands A and B which are connected by a ferry route
+and put A in set A and B in set B. From the condition, without loss of generality there must
+be another island which is connected to A. We put such an island C in set B. We say that
+two sets of islands form a network if each island in one set is connected to each island in the
+other set.
+Next, we shall included all islands to A ∪ B one by one. Suppose we have two sets A and
+B which form a network where 3 6 |A ∪ B| < n. This relation no longer holds only when a
+ferry route between islands A ∈ A and B ∈ B is closed. In that case, we define A0 = {A, B},
+and B 0 = (A ∪ B) − {A, B}. Note that B 0 is nonempty. Consider any island C ∈ A − {A}.
+From the relation of A and B, we know that C is connected to B. If C was not connected to
+A before the route between A and B closes, then there will be a route added between C and
+A afterwards. Hence, C must now be connected to both A and B. The same holds true for
+any island in B − {B}. Therefore, A0 and B 0 form a network, and A0 ∪ B 0 = A ∪ B. Hence
+these islands can always be partitioned into sets A and B which form a network.
+As |A ∪ B| < n, there are some islands which are not included in A ∪ B. From the
+condition, after some years there must be a ferry route between an island A in A ∪ B and an
+island D outside A ∪ B which closes. Without loss of generality assume A ∈ A. Then each
+island in B must then be connected to D, no matter it was or not before. Hence, we can
+put D in set A so that the new sets A and B still form a network and the size of A ∪ B is
+increased by 1. The same process can be done to increase the size of A ∪ B. Eventually, all
+islands are included in this way so we may now assume |A ∪ B| = n.
+Suppose a ferry route between A ∈ A and B ∈ B is closed after some years. We put A
+and B in set A0 and all remaining islands in set B 0 . Then A0 and B 0 form a network. This
+relation no longer holds only when a route between A, without loss of generality, and C ∈ B 0
+is closed. Since this must eventually occur, at that time island B will be connected to all
+other islands and the result follows.
+
+40
+
+IMO 2016 Hong Kong
+
+C7. Let n > 2 be an integer. In the plane, there are n segments given in such a way that
+any two segments have an intersection point in the interior, and no three segments intersect
+at a single point. Jeff places a snail at one of the endpoints of each of the segments and claps
+his hands n − 1 times. Each time when he claps his hands, all the snails move along their own
+segments and stay at the next intersection points until the next clap. Since there are n − 1
+intersection points on each segment, all snails will reach the furthest intersection points from
+their starting points after n − 1 claps.
+(a) Prove that if n is odd then Jeff can always place the snails so that no two of them ever
+occupy the same intersection point.
+(b) Prove that if n is even then there must be a moment when some two snails occupy the
+same intersection point no matter how Jeff places the snails.
+Solution. We consider a big disk which contains all the segments. We extend each segment
+to a line li so that each of them cuts the disk at two distinct points Ai , Bi .
+(a) For odd n, we travel along the circumference of the disk and mark each of the points Ai
+or Bi ‘in’ and ‘out’ alternately. Since every pair of lines intersect in the disk, there are
+exactly n − 1 points between Ai and Bi for any fixed 1 6 i 6 n. As n is odd, this means
+one of Ai and Bi is marked ‘in’ and the other is marked ‘out’. Then Jeff can put a snail
+on the endpoint of each segment which is closer to the ‘in’ side of the corresponding line.
+We claim that the snails on li and lj do not meet for any pairs i, j, hence proving part
+(a).
+Ai
+
+Ai
+
+Aj
+
+Aj
+
+P
+
+P
+
+Without loss of generality, we may assume the snails start at Ai and Aj respectively.
+Let li intersect lj at P . Note that there is an odd number of points between arc Ai Aj .
+Each of these points belongs to a line lk . Such a line lk must intersect exactly one of
+
+Shortlisted problems
+
+41
+
+the segments Ai P and Aj P , making an odd number of intersections. For the other lines,
+they may intersect both segments Ai P and Aj P , or meet none of them. Therefore, the
+total number of intersection points on segments Ai P and Aj P (not counting P ) is odd.
+However, if the snails arrive at P at the same time, then there should be the same number
+of intersections on Ai P and Aj P , which gives an even number of intersections. This is a
+contradiction so the snails do not meet each other.
+(b) For even n, we consider any way that Jeff places the snails and mark each of the points
+Ai or Bi ‘in’ and ‘out’ according to the directions travelled by the snails. In this case
+there must be two neighbouring points Ai and Aj both of which are marked ‘in’. Let
+P be the intersection of the segments Ai Bi and Aj Bj . Then any other segment meeting
+one of the segments Ai P and Aj P must also meet the other one, and so the number of
+intersections on Ai P and Aj P are the same. This shows the snails starting from Ai and
+Aj will meet at P .
+Comment. The conclusions do not hold for pseudosegments, as can be seen from the following examples.
+
+42
+
+IMO 2016 Hong Kong
+
+C8. Let n be a positive integer. Determine the smallest positive integer k with the following
+property: it is possible to mark k cells on a 2n × 2n board so that there exists a unique
+partition of the board into 1 × 2 and 2 × 1 dominoes, none of which contains two marked
+cells.
+Answer. 2n.
+Solution. We first construct an example of marking 2n cells satisfying the requirement.
+Label the rows and columns 1, 2, . . . , 2n and label the cell in the i-th row and the j-th column
+(i, j).
+For i = 1, 2, . . . , n, we mark the cells (i, i) and (i, i + 1). We claim that the required
+partition exists and is unique. The two diagonals of the board divide the board into four
+regions. Note that the domino covering cell (1, 1) must be vertical. This in turn shows that
+each domino covering (2, 2), (3, 3), . . . , (n, n) is vertical. By induction, the dominoes in the
+left region are all vertical. By rotational symmetry, the dominoes in the bottom region are
+horizontal, and so on. This shows that the partition exists and is unique.
+
+It remains to show that this value of k is the smallest possible. Assume that only k < 2n
+cells are marked, and there exists a partition P satisfying the requirement. It suffices to show
+there exists another desirable partition distinct from P . Let d be the main diagonal of the
+board.
+Construct the following graph with edges of two colours. Its vertices are the cells of the
+board. Connect two vertices with a red edge if they belong to the same domino of P . Connect
+two vertices with a blue edge if their reflections in d are connected by a red edge. It is possible
+that two vertices are connected by edges of both colours. Clearly, each vertex has both red
+and blue degrees equal to 1. Thus the graph splits into cycles where the colours of edges in
+each cycle alternate (a cycle may have length 2).
+Consider any cell c lying on the diagonal d. Its two edges are symmetrical with respect
+to d. Thus they connect c to different cells. This shows c belongs to a cycle C(c) of length at
+least 4. Consider a part of this cycle c0 , c1 , . . . , cm where c0 = c and m is the least positive
+integer such that cm lies on d. Clearly, cm is distinct from c. From the construction, the path
+symmetrical to this with respect to d also lies in the graph, and so these paths together form
+C(c). Hence, C(c) contains exactly two cells from d. Then all 2n cells in d belong to n cycles
+C1 , C2 , . . . , Cn , each has length at least 4.
+By the Pigeonhole Principle, there exists a cycle Ci containing at most one of the k marked
+cells. We modify P as follows. We remove all dominoes containing the vertices of Ci , which
+
+Shortlisted problems
+
+43
+
+correspond to the red edges of Ci . Then we put the dominoes corresponding to the blue edges
+of Ci . Since Ci has at least 4 vertices, the resultant partition P 0 is different from P . Clearly,
+no domino in P 0 contains two marked cells as Ci contains at most one marked cell. This
+shows the partition is not unique and hence k cannot be less than 2n.
+
+44
+
+IMO 2016 Hong Kong
+
+Geometry
+G1. In a convex pentagon ABCDE, let F be a point on AC such that ∠F BC = 90◦ .
+Suppose triangles ABF , ACD and ADE are similar isosceles triangles with
+∠F AB = ∠F BA = ∠DAC = ∠DCA = ∠EAD = ∠EDA.
+
+(1)
+
+Let M be the midpoint of CF . Point X is chosen such that AM XE is a parallelogram. Show
+that BD, EM and F X are concurrent.
+AF
+Solution 1. Denote the common angle in (1) by θ. As 4ABF ∼ 4ACD, we have AB
+= AD
+AC
+so that 4ABC ∼ 4AF D. From EA = ED, we get
+
+1
+∠AF D = ∠ABC = 90◦ + θ = 180◦ − ∠AED.
+2
+Hence, F lies on the circle with centre E and radius EA. In particular, EF = EA = ED.
+As ∠EF A = ∠EAF = 2θ = ∠BF C, points B, F, E are collinear.
+As ∠EDA = ∠M AD, we have ED//AM and hence E, D, X are collinear. As M is the
+midpoint of CF and ∠CBF = 90◦ , we get M F = M B. In the isosceles triangles EF A and
+M F B, we have ∠EF A = ∠M F B and AF = BF . Therefore, they are congruent to each
+other. Then we have BM = AE = XM and BE = BF + F E = AF + F M = AM = EX.
+This shows 4EM B ∼
+= 4EM X. As F and D lie on EB and EX respectively and EF = ED,
+we know that lines BD and XF are symmetric with respect to EM . It follows that the three
+lines are concurrent.
+X
+
+D
+
+C
+
+E
+
+M
+
+F
+A
+
+B
+
+Shortlisted problems
+
+45
+
+Solution 2. From ∠CAD = ∠EDA, we have AC//ED. Together with AC//EX, we know
+that E, D, X are collinear. Denote the common angle in (1) by θ. From 4ABF ∼ 4ACD,
+AF
+= AD
+so that 4ABC ∼ 4AF D. This yields ∠AF D = ∠ABC = 90◦ + θ and
+we get AB
+AC
+hence ∠F DC = 90◦ , implying that BCDF is cyclic. Let Γ1 be its circumcircle.
+AB
+AF
+Next, from 4ABF ∼ 4ADE, we have AD
+= AE
+so that 4ABD ∼ 4AF E. Therefore,
+∠AF E = ∠ABD = θ + ∠F BD = θ + ∠F CD = 2θ = 180◦ − ∠BF A.
+This implies B, F, E are collinear. Note that F is the incentre of triangle DAB. Point E
+lies on the internal angle bisector of ∠DBA and lies on the perpendicular bisector of AD. It
+follows that E lies on the circumcircle Γ2 of triangle ABD, and EA = EF = ED.
+Also, since CF is a diameter of Γ1 and M is the midpoint of CF , M is the centre of Γ1 and
+hence ∠AM D = 2θ = ∠ABD. This shows M lies on Γ2 . Next, ∠M DX = ∠M AE = ∠DXM
+since AM XE is a parallelogram. Hence M D = M X and X lies on Γ1 .
+X
+
+D
+
+C
+
+E
+
+M
+
+F
+A
+
+B
+
+We now have two ways to complete the solution.
+• Method 1. From EF = EA = XM and EX//F M , EF M X is an isosceles trapezoid and
+is cyclic. Denote its circumcircle by Γ3 . Since BD, EM, F X are the three radical axes of
+Γ1 , Γ2 , Γ3 , they must be concurrent.
+• Method 2. As ∠DM F = 2θ = ∠BF M , we have DM//EB. Also,
+∠BF D + ∠XBF = ∠BF C + ∠CF D + 90◦ − ∠CBX = 2θ + (90◦ − θ) + 90◦ − θ = 180◦
+implies DF//XB. These show the corresponding sides of triangles DM F and BEX are
+parallel. By Desargues’ Theorem, the two triangles are perspective and hence DB, M E, F X
+meet at a point.
+
+46
+
+IMO 2016 Hong Kong
+
+Comment. In Solution 2, both the Radical Axis Theorem and Desargues’ Theorem could
+imply DB, M E, F X are parallel. However, this is impossible as can be seen from the configuration. For example, it is obvious that DB and M E meet each other.
+AF
+Solution 3. Let the common angle in (1) be θ. From 4ABF ∼ 4ACD, we have AB
+= AD
+AC
+so that 4ABC ∼ 4AF D. Then ∠ADF = ∠ACB = 90◦ − 2θ = 90◦ − ∠BAD and hence
+DF ⊥ AB. As F A = F B, this implies 4DAB is isosceles with DA = DB. Then F is the
+incentre of 4DAB.
+Next, from ∠AED = 180◦ − 2θ = 180◦ − ∠DBA, points A, B, D, E are concyclic. Since
+we also have EA = ED, this shows E, F, B are collinear and EA = EF = ED.
+
+X
+
+D
+
+C
+
+P
+
+E
+
+M
+
+Q
+F
+A
+
+B
+
+Note that C lies on the internal angle bisector of ∠BAD and lies on the external angle
+bisector of ∠DBA. It follows that it is the A-excentre of triangle DAB. As M is the midpoint
+of CF , M lies on the circumcircle of triangle DAB and it is the centre of the circle passing
+through D, F, B, C. By symmetry, DEF M is a rhombus. Then the midpoints of AX, EM
+and DF coincide, and it follows that DAF X is a parallelogram.
+Let P be the intersection of BD and EM , and Q be the intersection of AD and BE. From
+= CM
+. This is
+∠BAC = ∠DCA, we know that DC, AB, EM are parallel. Thus we have DP
+PB
+MA
+AE
+further equal to BE since CM = DM = DE = AE and M A = BE. From 4AEQ ∼ 4BEA,
+we find that
+DP
+AE
+AQ
+QF
+=
+=
+=
+PB
+BE
+BA
+FB
+by the Angle Bisector Theorem. This implies QD//F P and hence F, P, X are collinear, as
+desired.
+
+Shortlisted problems
+
+47
+
+G2. Let ABC be a triangle with circumcircle Γ and incentre I. Let M be the midpoint of
+side BC. Denote by D the foot of perpendicular from I to side BC. The line through I perpendicular to AI meets sides AB and AC at F and E respectively. Suppose the circumcircle
+of triangle AEF intersects Γ at a point X other than A. Prove that lines XD and AM meet
+on Γ.
+Solution 1. Let AM meet Γ again at Y and XY meet BC at D0 . It suffices to show D0 = D.
+We shall apply the following fact.
+• Claim. For any cyclic quadrilateral P QRS whose diagonals meet at T , we have
+QT
+P Q · QR
+=
+.
+TS
+P S · SR
+Proof. We use [W1 W2 W3 ] to denote the area of W1 W2 W3 . Then
+1
+P Q · QR sin ∠P QR
+P Q · QR
+QT
+[P QR]
+=
+=
+= 21
+.
+TS
+[P SR]
+P S · SR
+P S · SR sin ∠P SR
+2
+
+Applying the Claim to ABY C and XBY C respectively, we have 1 = BM
+= AB·BY
+and
+MC
+AC·CY
+BD0
+XB·BY
+= XC·CY . These combine to give
+D0 C
+XB BY
+XB AC
+BD0
+=
+·
+=
+·
+.
+0
+CD
+XC CY
+XC AB
+
+(1)
+
+Next, we use directed angles to find that ]XBF = ]XBA = ]XCA = ]XCE and
+]XF B = ]XF A = ]XEA = ]XEC. This shows triangles XBF and XCE are directly
+similar. In particular, we have
+XB
+BF
+=
+.
+(2)
+XC
+CE
+In the following, we give two ways to continue the proof.
+• Method 1. Here is a geometrical method. As ∠F IB = ∠AIB − 90◦ = 12 ∠ACB = ∠ICB
+and ∠F BI = ∠IBC, the triangles F BI and IBC are similar. Analogously, triangles EIC
+and IBC are also similar. Hence, we get
+FB
+BI
+=
+IB
+BC
+
+and
+
+EC
+IC
+=
+.
+IC
+BC
+
+(3)
+
+48
+
+IMO 2016 Hong Kong
+
+A
+
+X
+
+C1
+
+B1
+
+C2
+
+B2
+E
+F
+
+B
+
+I
+
+D
+
+C
+
+M
+
+Y
+
+Next, construct a line parallel to BC and tangent to the incircle. Suppose it meets sides
+AB and AC at B1 and C1 respectively. Let the incircle touch AB and AC at B2 and C2
+respectively. By homothety, the line B1 I is parallel to the external angle bisector of ∠ABC,
+and hence ∠B1 IB = 90◦ . Since ∠BB2 I = 90◦ , we get BB2 · BB1 = BI 2 , and similarly
+CC2 · CC1 = CI 2 . Hence,
+BB2 · BB1
+BB1 BD
+AB BD
+BI 2
+=
+=
+·
+=
+·
+.
+CI 2
+CC2 · CC1
+CC1 CD
+AC CD
+
+(4)
+
+Combining (1), (2), (3) and (4), we conclude
+BD0
+XB AC
+BF AC
+BI 2 AC
+BD
+=
+·
+=
+·
+=
+·
+=
+0
+2
+CD
+XC AB
+CE AB
+CI AB
+CD
+so that D0 = D. The result then follows.
+• Method 2. We continue the proof of Solution 1 using trigonometry. Let β = 12 ∠ABC
+sin γ
+∠F IB
+and γ = 12 ∠ACB. Observe that ∠F IB = ∠AIB − 90◦ = γ. Hence, BF
+= sin
+= sin
+.
+FI
+sin ∠IBF
+β
+sin β
+CE
+Similarly, EI = sin γ . As F I = EI, we get
+BF
+BF EI
+=
+·
+=
+CE
+F I CE
+
+Ç
+
+sin γ
+sin β
+
+å2
+
+.
+
+(5)
+
+Shortlisted problems
+
+49
+
+Together with (1) and (2), we find that
+BD0
+sin γ
+AC
+·
+=
+0
+CD
+AB
+sin β
+Ç
+
+å2
+
+Ç
+
+sin 2β
+sin γ
+=
+·
+sin 2γ
+sin β
+
+å2
+
+=
+
+tan γ
+ID/CD
+BD
+=
+=
+.
+tan β
+ID/BD
+CD
+
+This shows D0 = D and the result follows.
+Solution 2. Let ωA be the A-mixtilinear incircle of triangle ABC. From the properties of
+mixtilinear incircles, ωA touches sides AB and AC at F and E respectively. Suppose ωA
+is tangent to Γ at T . Let AM meet Γ again at Y , and let D1 , T1 be the reflections of D
+and T with respect to the perpendicular bisector of BC respectively. It is well-known that
+∠BAT = ∠D1 AC so that A, D1 , T1 are collinear.
+A
+
+X
+
+S
+
+F
+
+P
+
+R
+
+E
+I
+D
+
+B
+
+M
+
+C
+
+D1
+
+T
+
+T1
+Y
+
+We then show that X, M, T1 are collinear. Let R be the radical centre of ωA , Γ and the
+circumcircle of triangle AEF . Then R lies on AX, EF and the tangent at T to Γ. Let AT
+meet ωA again at S and meet EF at P . Obviously, SF T E is a harmonic quadrilateral.
+Projecting from T , the pencil (R, P ; F, E) is harmonic. We further project the pencil onto
+Γ from A, so that XBT C is a harmonic quadrilateral. As T T1 //BC, the projection from T1
+onto BC maps T to a point at infinity, and hence maps X to the midpoint of BC, which is
+M . This shows X, M, T1 are collinear.
+We have two ways to finish the proof.
+• Method 1. Note that both AY and XT1 are chords of Γ passing through the midpoint M
+of the chord BC. By the Butterfly Theorem, XY and AT1 cut BC at a pair of symmetric
+points with respect to M , and hence X, D, Y are collinear. The proof is thus complete.
+
+50
+
+IMO 2016 Hong Kong
+
+• Method 2. Here, we finish the proof without using the Butterfly Theorem. As DT T1 D1
+is an isosceles trapezoid, we have
+]Y T D = ]Y T T1 + ]T1 T D = ]Y AT1 + ]AD1 D = ]Y M D
+so that D, T, Y, M are concyclic. As X, M, T1 are collinear, we have
+]AY D = ]M T D = ]D1 T1 M = ]AT1 X = ]AY X.
+This shows X, D, Y are collinear.
+
+Shortlisted problems
+
+51
+
+G3. Let B = (−1, 0) and C = (1, 0) be fixed points on the coordinate plane. A nonempty,
+bounded subset S of the plane is said to be nice if
+(i) there is a point T in S such that for every point Q in S, the segment T Q lies entirely
+in S; and
+(ii) for any triangle P1 P2 P3 , there exists a unique point A in S and a permutation σ of the
+indices {1, 2, 3} for which triangles ABC and Pσ(1) Pσ(2) Pσ(3) are similar.
+Prove that there exist two distinct nice subsets S and S 0 of the set {(x, y) : x > 0, y > 0}
+such that if A ∈ S and A0 ∈ S 0 are the unique choices of points in (ii), then the product
+BA · BA0 is a constant independent of the triangle P1 P2 P3 .
+Solution. If in the similarity of 4ABC and 4Pσ(1) Pσ(2) Pσ(3) , BC corresponds to the longest
+side of 4P1 P2 P3 , then we have BC > AB > AC. The condition BC > AB is equivalent to
+(x + 1)2 + y 2 6 4, while AB > AC is trivially satisfied for any point in the first quadrant.
+Then we first define
+S = {(x, y) : (x + 1)2 + y 2 6 4, x > 0, y > 0}.
+Note that S is the intersection of a disk and the first quadrant, so it is bounded and convex,
+and we can choose any T ∈ S to meet condition (i). For any point A in S, the relation
+BC > AB > AC always holds. Therefore, the point A in (ii) is uniquely determined, while
+its existence is guaranteed by the above construction.
+y
+T0
+S0
+
+S
+B
+
+O
+
+C
+
+x
+
+Next, if in the similarity of 4A0 BC and 4Pσ(1) Pσ(2) Pσ(3) , BC corresponds to the second
+longest side of 4P1 P2 P3 , then we have A0 B > BC > A0 C. The two inequalities are equivalent
+to (x + 1)2 + y 2 > 4 and (x − 1)2 + y 2 6 4 respectively. Then we define
+S 0 = {(x, y) : (x + 1)2 + y 2 > 4, (x − 1)2 + y 2 6 4, x > 0, y > 0}.
+
+52
+
+IMO 2016 Hong Kong
+
+The boundedness condition is satisfied while (ii) can be argued as in the previous case. For
+(i), note that S 0 contains points inside the disk (x − 1)2 + y 2 6 4 and outside the disk
+(x + 1)2 + y 2 > 4. This shows we can take T 0 = (1, 2) in (i), which is the topmost point of
+the circle (x − 1)2 + y 2 = 4.
+It remains to check that the product BA · BA0 is a constant. Suppose we are given a
+triangle P1 P2 P3 with P1 P2 > P2 P3 > P3 P1 . By the similarity, we have
+BA = BC ·
+
+P2 P3
+P1 P2
+
+and BA0 = BC ·
+
+P 1 P2
+.
+P 2 P3
+
+Thus BA · BA0 = BC 2 = 4, which is certainly independent of the triangle P1 P2 P3 .
+Comment. The original version of this problem includes the condition that the interiors of
+S and S 0 are disjoint. We remove this condition since it is hard to define the interior of a
+point set rigorously.
+
+Shortlisted problems
+
+53
+
+G4. Let ABC be a triangle with AB = AC 6= BC and let I be its incentre. The line BI
+meets AC at D, and the line through D perpendicular to AC meets AI at E. Prove that the
+reflection of I in AC lies on the circumcircle of triangle BDE.
+Solution 1.
+J
+
+I0
+C
+D
+
+F
+A
+
+E
+
+I
+
+B
+
+Let Γ be the circle with centre E passing through B and C. Since ED ⊥ AC, the point
+F symmetric to C with respect to D lies on Γ. From ∠DCI = ∠ICB = ∠CBI, the line
+DC is a tangent to the circumcircle of triangle IBC. Let J be the symmetric point of I with
+respect to D. Using directed lengths, from
+DC · DF = −DC 2 = −DI · DB = DJ · DB,
+the point J also lies on Γ. Let I 0 be the reflection of I in AC. Since IJ and CF bisect each
+other, CJF I is a parallelogram. From ∠F I 0 C = ∠CIF = ∠F JC, we find that I 0 lies on Γ.
+This gives EI 0 = EB.
+Note that AC is the internal angle bisector of ∠BDI 0 . This shows DE is the external
+angle bisector of ∠BDI 0 as DE ⊥ AC. Together with EI 0 = EB, it is well-known that E
+lies on the circumcircle of triangle BDI 0 .
+Solution 2. Let I 0 be the reflection of I in AC and let S be the intersection of I 0 C and AI.
+Using directed angles, we let θ = ]ACI = ]ICB = ]CBI. We have
+]I 0 SE = ]I 0 CA + ]CAI = θ +
+and
+
+Å
+
+ã
+π
+π
++ 2θ = 3θ +
+2
+2
+
+π
+π
+π
+π
+= ]CDI + = ]DCB + ]CBD + = 3θ + .
+2
+2
+2
+2
+0
+This shows I , D, E, S are concyclic.
+Next, we find ]I 0 SB = 2]I 0 SE = 6θ and ]I 0 DB = 2]CDI = 6θ. Therefore, I 0 , D, B, S
+are concyclic so that I 0 , D, E, B, S lie on the same circle. The result then follows.
+]I 0 DE = ]I 0 DC +
+
+54
+
+IMO 2016 Hong Kong
+
+I0
+C
+D
+A
+
+S
+
+E I
+
+B
+Comment. The point S constructed in Solution 2 may lie on the same side as A of BC.
+Also, since S lies on the circumcircle of the non-degenerate triangle BDE, we implicitly know
+that S is not an ideal point. Indeed, one can verify that I 0 C and AI are parallel if and only
+if triangle ABC is equilateral.
+Solution 3. Let I 0 be the reflection of I in AC, and let D0 be the second intersection of AI
+and the circumcircle of triangle ABD. Since AD0 bisects ∠BAD, point D0 is the midpoint of
+the arc BD and DD0 = BD0 = CD0 . Obviously, A, E, D0 lie on AI in this order.
+I0
+C
+
+D
+D0
+
+A
+E I
+
+B
+We find that ∠ED0 D = ∠AD0 D = ∠ABD = ∠IBC = ∠ICB. Next, since D0 is the
+circumcentre of triangle BCD, we have ∠EDD0 = 90◦ − ∠D0 DC = ∠CBD = ∠IBC. The
+two relations show that triangles ED0 D and ICB are similar. Therefore, we have
+BC
+BC
+DD0
+BD0
+=
+=
+=
+.
+CI 0
+CI
+D0 E
+D0 E
+Also, we get
+∠BCI 0 = ∠BCA + ∠ACI 0 = ∠BCA + ∠ICA = ∠BCA + ∠DBC = ∠BDA = ∠BD0 E.
+These show triangles BCI 0 and BD0 E are similar, and hence triangles BCD0 and BI 0 E are
+similar. As BCD0 is isosceles, we obtain BE = I 0 E.
+As DE is the external angle bisector of ∠BDI 0 and EI 0 = EB, we know that E lies on
+the circumcircle of triangle BDI 0 .
+
+Shortlisted problems
+
+55
+
+Solution 4. Let AI and BI meet the circumcircle of triangle ABC again at A0 and B 0
+respectively, and let E 0 be the reflection of E in AC. From
+∠ABC ∠BAC
+∠ABC
+−
+= 90◦ − ∠BAC −
+2
+2
+2
+= 90◦ − ∠B 0 DA = ∠B 0 DE 0 ,
+
+∠B 0 AE 0 = ∠B 0 AD − ∠E 0 AD =
+
+points B 0 , A, D, E 0 are concyclic. Then
+∠BAC
+= ∠BAA0 = ∠DB 0 A0
+2
+and hence B 0 , E 0 , A0 are collinear. It is well-known that A0 B 0 is the perpendicular bisector of
+CI, so that CE 0 = IE 0 . Let I 0 be the reflection of I in AC. This implies BE = CE = I 0 E.
+As DE is the external angle bisector of ∠BDI 0 and EI 0 = EB, we know that E lies on the
+circumcircle of triangle BDI 0 .
+∠DB 0 E 0 = ∠DAE 0 =
+
+B0
+E0 I 0
+C
+D
+A
+
+A0
+
+E I
+
+B
+
+Solution 5. Let F be the intersection of CI and AB. Clearly, F and D are symmetric with
+respect to AI. Let O be the circumcentre of triangle BIF , and let I 0 be the reflection of I in
+AC.
+I0
+C
+D
+A
+
+E
+
+I
+O
+
+F
+B
+
+56
+
+IMO 2016 Hong Kong
+
+From ∠BF O = 90◦ − ∠F IB = 12 ∠BAC = ∠BAI, we get EI//F O. Also, from the
+relation ∠OIB = 90◦ − ∠BF I = 90◦ − ∠CDI = ∠I 0 ID, we know that O, I, I 0 are collinear.
+Note that ED//OI since both are perpendicular to AC. Then ∠F EI = ∠DEI = ∠OIE.
+Together with EI//F O, the quadrilateral EF OI is an isosceles trapezoid. Therefore, we find
+that ∠DIE = ∠F IE = ∠OEI so OE//ID. Then DEOI is a parallelogram. Hence, we have
+DI 0 = DI = EO, which shows DEOI 0 is an isosceles trapezoid. In addition, ED = OI = OB
+and OE//BD imply EOBD is another isosceles trapezoid. In particular, both DEOI 0 and
+EOBD are cyclic. This shows B, D, E, I 0 are concyclic.
+Solution 6. Let I 0 be the reflection of I in AC. Denote by T and M the projections from I
+to sides AB and BC respectively. Since BI is the perpendicular bisector of T M , we have
+DT = DM.
+
+(1)
+
+Since ∠ADE = ∠AT I = 90◦ and ∠DAE = ∠T AI, we have 4ADE ∼ 4AT I. This shows
+AT
+AD
+0
+0
+= AT
+= AI
+0 . Together with ∠DAT = 2∠DAE = ∠EAI , this yields 4DAT ∼ 4EAI .
+AE
+AI
+In particular, we have
+DT
+AT
+AT
+=
+=
+.
+(2)
+0
+0
+EI
+AI
+AI
+Obviously, the right-angled triangles AM B and AT I are similar. Then we get
+AM
+AT
+=
+.
+AB
+AI
+
+(3)
+
+Next, from 4AM B ∼ 4AT I ∼ 4ADE, we have AM
+= AD
+so that 4ADM ∼ 4AEB.
+AB
+AE
+It follows that
+AM
+DM
+=
+.
+(4)
+EB
+AB
+Combining (1), (2), (3) and (4), we get EB = EI 0 . As DE is the external angle bisector
+of ∠BDI 0 , we know that E lies on the circumcircle of triangle BDI 0 .
+I0
+C
+D
+A
+
+E I
+
+M
+
+T
+B
+
+Shortlisted problems
+
+57
+
+Comment. A stronger version of this problem is to ask the contestants to prove the reflection
+of I in AC lies on the circumcircle of triangle BDE if and only if AB = AC. Some of the
+above solutions can be modified to prove the converse statement to the original problem. For
+example, we borrow some ideas from Solution 2 to establish the converse as follows.
+
+I0
+C
+D
+A
+
+S
+
+E I
+
+B
+Let I 0 be the reflection of I in AC and suppose B, E, D, I 0 lie on a circle Γ. Let AI meet
+Γ again at S. As DE is the external angle bisector of ∠BDI 0 , we have EB = EI 0 . Using
+directed angles, we get
+]CI 0 S = ]CI 0 D + ]DI 0 S = ]DIC + ]DES = ]DIC + ]DEA = ]DIC + ]DCB = 0.
+This means I 0 , C, S are collinear. From this we get ]BSE = ]ESI 0 = ]ESC and hence
+AS bisects both ∠BAC and ∠BSC. Clearly, S and A are distinct points. It follows that
+4BAS ∼
+= 4CAS and thus AB = AC.
+As in some of the above solutions, an obvious way to prove the stronger version is to
+establish the following equivalence: BE = EI 0 if and only if AB = AC. In addition to the
+ideas used in those solutions, one can use trigonometry to express the lengths of BE and EI 0
+in terms of the side lengths of triangle ABC and to establish the equivalence.
+
+58
+
+IMO 2016 Hong Kong
+
+G5. Let D be the foot of perpendicular from A to the Euler line (the line passing through the
+circumcentre and the orthocentre) of an acute scalene triangle ABC. A circle ω with centre
+S passes through A and D, and it intersects sides AB and AC at X and Y respectively. Let
+P be the foot of altitude from A to BC, and let M be the midpoint of BC. Prove that the
+circumcentre of triangle XSY is equidistant from P and M .
+Solution 1. Denote the orthocentre and circumcentre of triangle ABC by H and O respectively. Let Q be the midpoint of AH and N be the nine-point centre of triangle ABC. It is
+known that Q lies on the nine-point circle of triangle ABC, N is the midpoint of QM and
+that QM is parallel to AO.
+Let the perpendicular from S to XY meet line QM at S 0 . Let E be the foot of altitude
+from B to side AC. Since Q and S lie on the perpendicular bisector of AD, using directed
+angles, we have
+ã
+π
+− ]AY X − ]BAP = ]CBA − ]AY X
+]SDQ = ]QAS = ]XAS − ]XAQ =
+2
+= (]CBA − ]ACB) − ]BCA − ]AY X = ]P EM − (]BCA + ]AY X)
+π
+= ]P QM − ∠(BC, XY ) = − ∠(S 0 Q, BC) − ∠(BC, XY ) = ]SS 0 Q.
+2
+Å
+
+This shows D, S 0 , S, Q are concyclic.
+
+A
+E
+Q
+S
+X
+D
+
+B
+
+H
+
+Y
+N
+
+S
+
+P
+
+0
+
+O
+
+M
+
+C
+
+O1
+Let the perpendicular from N to BC intersect line SS 0 at O1 . (Note that the two lines
+coincide when S is the midpoint of AO, in which case the result is true since the circumcentre
+of triangle XSY must lie on this line.) It suffices to show that O1 is the circumcentre of
+triangle XSY since N lies on the perpendicular bisector of P M . From
+]DS 0 O1 = ]DQS = ]SQA = ∠(SQ, QA) = ∠(OD, O1 N ) = ]DN O1
+
+Shortlisted problems
+
+59
+
+since SQ//OD and QA//O1 N , we know that D, O1 , S 0 , N are concyclic. Therefore, we get
+]SDS 0 = ]SQS 0 = ∠(SQ, QS 0 ) = ∠(N D, N S 0 ) = ]DN S 0 ,
+so that SD is a tangent to the circle through D, O1 , S 0 , N . Then we have
+SS 0 · SO1 = SD2 = SX 2 .
+
+(1)
+
+Next, we show that S and S 0 are symmetric with respect to XY . By the Sine Law, we
+have
+SS 0
+SQ
+SQ
+SA
+SQ
+=
+=
+=
+.
+=
+0
+0
+sin ∠SQS
+sin ∠SS Q
+sin ∠SDQ
+sin ∠SAQ
+sin ∠SQA
+It follows that
+SS 0 = SA ·
+
+sin ∠SQS 0
+sin ∠HOA
+AH
+= SA ·
+= SA ·
+= SA · 2 cos A,
+sin ∠SQA
+sin ∠OHA
+AO
+
+which is twice the distance from S to XY . Note that S and C lie on the same side of the
+perpendicular bisector of P M if and only if ∠SAC < ∠OAC if and only if ∠Y XA > ∠CBA.
+This shows S and O1 lie on different sides of XY . As S 0 lies on ray SO1 , it follows that S
+and S 0 cannot lie on the same side of XY . Therefore, S and S 0 are symmetric with respect
+to XY .
+Let d be the diameter of the circumcircle of triangle XSY . As SS 0 is twice the distance
+2
+. It follows from (1) that d = 2SO1 . As
+from S to XY and SX = SY , we have SS 0 = 2 SX
+d
+SO1 is the perpendicular bisector of XY , point O1 is the circumcentre of triangle XSY .
+Solution 2. Denote the orthocentre and circumcentre of triangle ABC by H and O respectively. Let O1 be the circumcentre of triangle XSY . Consider two other possible positions of
+S. We name them S 0 and S 00 and define the analogous points X 0 , Y 0 , O10 , X 00 , Y 00 O100 accordingly.
+Note that S, S 0 , S 00 lie on the perpendicular bisector of AD.
+As XX 0 and Y Y 0 meet at A and the circumcircles of triangles AXY and AX 0 Y 0 meet at
+D, there is a spiral similarity with centre D mapping XY to X 0 Y 0 . We find that
+]SXY =
+
+π
+π
+− ]Y AX = − ]Y 0 AX 0 = ]S 0 X 0 Y 0
+2
+2
+
+and similarly ]SY X = ]S 0 Y 0 X 0 . This shows triangles SXY and S 0 X 0 Y 0 are directly similar.
+Then the spiral similarity with centre D takes points S, X, Y, O1 to S 0 , X 0 , Y 0 , O10 . Similarly,
+there is a spiral similarity with centre D mapping S, X, Y, O1 to S 00 , X 00 , Y 00 , O100 . From these,
+we see that there is a spiral similarity taking the corresponding points S, S 0 , S 00 to points
+O1 , O10 , O100 . In particular, O1 , O10 , O100 are collinear.
+
+60
+
+IMO 2016 Hong Kong
+
+A
+
+S 00
+
+Y 00
+
+S0
+X
+
+X0
+X 00 D
+
+O100
+
+Y0
+S
+
+H
+
+Y
+
+O
+O10
+
+B
+
+P
+
+M
+
+C
+
+O1
+It now suffices to show that O1 lies on the perpendicular bisector of P M for two special
+cases.
+Firstly, we take S to be the midpoint of AH. Then X and Y are the feet of altitudes from
+C and B respectively. It is well-known that the circumcircle of triangle XSY is the nine-point
+circle of triangle ABC. Then O1 is the nine-point centre and O1 P = O1 M . Indeed, P and
+M also lies on the nine-point circle.
+Secondly, we take S 0 to be the midpoint of AO. Then X 0 and Y 0 are the midpoints of
+AB and AC respectively. Then X 0 Y 0 //BC. Clearly, S 0 lies on the perpendicular bisector
+of P M . This shows the perpendicular bisectors of X 0 Y 0 and P M coincide. Hence, we must
+have O10 P = O10 M .
+A
+A
+S
+
+S0
+
+Y
+X0
+
+X
+
+B
+
+O10
+
+H O1 O
+P
+
+M
+
+Y0
+O
+
+H
+C
+
+B
+
+P
+
+M
+
+C
+
+Shortlisted problems
+
+61
+
+G6. Let ABCD be a convex quadrilateral with ∠ABC = ∠ADC < 90◦ . The internal
+angle bisectors of ∠ABC and ∠ADC meet AC at E and F respectively, and meet each
+other at point P . Let M be the midpoint of AC and let ω be the circumcircle of triangle
+BP D. Segments BM and DM intersect ω again at X and Y respectively. Denote by Q the
+intersection point of lines XE and Y F . Prove that P Q ⊥ AC.
+Solution 1.
+
+D
+B0
+
+Y
+S
+Q
+P
+
+A
+
+E
+X
+
+F
+
+M
+
+Z B
+
+C
+
+Let ω1 be the circumcircle of triangle ABC. We first prove that Y lies on ω1 . Let Y 0 be
+the point on ray M D such that M Y 0 · M D = M A2 . Then triangles M AY 0 and M DA are
+oppositely similar. Since M C 2 = M A2 = M Y 0 · M D, triangles M CY 0 and M DC are also
+oppositely similar. Therefore, using directed angles, we have
+]AY 0 C = ]AY 0 M + ]M Y 0 C = ]M AD + ]DCM = ]CDA = ]ABC
+so that Y 0 lies on ω1 .
+Let Z be the intersection point of lines BC and AD. Since ]P DZ = ]P BC = ]P BZ,
+point Z lies on ω. In addition, from ]Y 0 BZ = ]Y 0 BC = ]Y 0 AC = ]Y 0 AM = ]Y 0 DZ, we
+also know that Y 0 lies on ω. Note that ∠ADC is acute implies M A 6= M D so M Y 0 6= M D.
+Therefore, Y 0 is the second intersection of DM and ω. Then Y 0 = Y and hence Y lies on ω1 .
+Next, by the Angle Bisector Theorem and the similar triangles, we have
+FA
+AD
+AD CM
+YA YM
+YA
+=
+=
+·
+=
+·
+=
+.
+FC
+CD
+AM CD
+YM YC
+YC
+Hence, F Y is the internal angle bisector of ∠AY C.
+Let B 0 be the second intersection of the internal angle bisector of ∠CBA and ω1 . Then
+B 0 is the midpoint of arc AC not containing B. Therefore, Y B 0 is the external angle bisector
+of ∠AY C, so that B 0 Y ⊥ F Y .
+
+62
+
+IMO 2016 Hong Kong
+Denote by l the line through P parallel to AC. Suppose l meets line B 0 Y at S. From
+]P SY = ∠(AC, B 0 Y ) = ]ACY + ]CY B 0 = ]ACY + ]CAB 0 = ]ACY + ]B 0 CA
+= ]B 0 CY = ]B 0 BY = ]P BY,
+
+the point S lies on ω. Similarly, the line through X perpendicular to XE also passes through
+the second intersection of l and ω, which is the point S. From QY ⊥ Y S and QX ⊥ XS,
+point Q lies on ω and QS is a diameter of ω. Therefore, P Q ⊥ P S so that P Q ⊥ AC.
+Solution 2. Denote by ω1 and ω2 the circumcircles of triangles ABC and ADC respectively.
+Since ∠ABC = ∠ADC, we know that ω1 and ω2 are symmetric with respect to the midpoint
+M of AC.
+Firstly, we show that X lies on ω2 . Let X1 be the second intersection of ray M B and
+ω2 and X 0 be its symmetric point with respect to M . Then X 0 lies on ω1 and X 0 AX1 C is a
+parallelogram. Hence, we have
+]DX1 B = ]DX1 A + ]AX1 B = ]DCA + ]AX1 X 0 = ]DCA + ]CX 0 X1
+= ]DCA + ]CAB = ∠(CD, AB).
+C
+
+X0
+
+B0
+
+M2
+
+D0
+
+M
+
+M1
+
+F
+Y
+D
+
+Q
+
+P
+E
+
+X
+
+B
+A
+Also, we have
+]DP B = ]P DC + ∠(CD, AB) + ]ABP = ∠(CD, AB).
+These yield ]DX1 B = ]DP B and hence X1 lies on ω. It follows that X1 = X and X lies
+on ω2 . Similarly, Y lies on ω1 .
+
+Shortlisted problems
+
+63
+
+Next, we prove that Q lies on ω. Suppose the perpendicular bisector of AC meet ω1 at B 0
+and M1 and meet ω2 at D0 and M2 , so that B, M1 and D0 lie on the same side of AC. Note
+that B 0 lies on the angle bisector of ∠ABC and similarly D0 lies on DP .
+If we denote the area of W1 W2 W3 by [W1 W2 W3 ], then
+1
+BA · X 0 A sin ∠BAX 0
+BA · X 0 A
+[BAX 0 ]
+MA
+2
+=
+=
+=
+= 1.
+1
+0
+0
+0
+0
+BC · X C
+[BCX ]
+MC
+BC · X C sin ∠BCX
+2
+
+As BE is the angle bisector of ∠ABC, we have
+EA
+BA
+X 0C
+XA
+=
+= 0 =
+.
+EC
+BC
+XA
+XC
+Therefore, XE is the angle bisector of ∠AXC, so that M2 lies on the line joining X, E, Q.
+Analogously, M1 , F, Q, Y are collinear. Thus,
+]XQY = ]M2 QM1 = ]QM2 M1 + ]M2 M1 Q = ]XM2 D0 + ]B 0 M1 Y
+= ]XDD0 + ]B 0 BY = ]XDP + ]P BY = ]XBP + ]P BY = ]XBY,
+which implies Q lies on ω.
+Finally, as M1 and M2 are symmetric with respect to M , the quadrilateral X 0 M2 XM1 is
+a parallelogram. Consequently,
+]XQP = ]XBP = ]X 0 BB 0 = ]X 0 M1 B 0 = ]XM2 M1 .
+This shows QP//M2 M1 . As M2 M1 ⊥ AC, we get QP ⊥ AC.
+Solution 3. We first state two results which will be needed in our proof.
+• Claim 1. In 4X 0 Y 0 Z 0 with X 0 Y 0 6= X 0 Z 0 , let N 0 be the midpoint of Y 0 Z 0 and W 0 be the
+foot of internal angle bisector from X 0 . Then tan2 ]W 0 X 0 Z 0 = tan ]N 0 X 0 W 0 tan ]Z 0 W 0 X 0 .
+Proof.
+X0
+
+Y0
+
+N0 W 0
+
+Z0
+
+Without loss of generality, assume X 0 Y 0 > X 0 Z 0 . Then W 0 lies between N 0 and Z 0 .
+The signs of both sides agree so it suffices to establish the relation for ordinary angles. Let
+∠W 0 X 0 Z 0 = α, ∠N 0 X 0 W 0 = β and ∠Z 0 W 0 X 0 = γ. We have
+sin (γ − α)
+N 0X 0
+N 0X 0
+sin (γ + α)
+= 0 0 = 0 0 =
+.
+sin (α − β)
+NY
+NZ
+sin (α + β)
+
+64
+
+IMO 2016 Hong Kong
+
+This implies
+tan γ − tan α
+sin γ cos α − cos γ sin α
+sin α cos β − cos α sin β
+tan α − tan β
+=
+=
+=
+.
+tan γ + tan α
+sin γ cos α + cos γ sin α
+sin α cos β + cos α sin β
+tan α + tan β
+Expanding and simplifying, we get the desired result tan2 α = tan β tan γ.
+• Claim 2. Let A0 B 0 C 0 D0 be a quadrilateral inscribed in circle Γ. Let diagonals A0 C 0 and
+B 0 D0 meet at E 0 , and F 0 be the intersection of lines A0 B 0 and C 0 D0 . Let M 0 be the midpoint
+of E 0 F 0 . Then the power of M 0 with respect to Γ is equal to (M 0 E 0 )2 .
+Proof.
+
+B0
+A0
+E0
+M0
+O0
+
+F1
+
+F0
+
+D0
+
+C0
+
+Let O0 be the centre of Γ and let Γ0 be the circle with centre M 0 passing through E 0 . Let
+F1 be the inversion image of F 0 with respect to Γ. It is well-known that E 0 lies on the polar
+of F 0 with respect to Γ. This shows E 0 F1 ⊥ O0 F 0 and hence F1 lies on Γ0 . It follows that the
+inversion image of Γ0 with respect to Γ is Γ0 itself. This shows Γ0 is orthogonal to Γ, and thus
+the power of M 0 with respect to Γ is the square of radius of Γ0 , which is (M 0 E 0 )2 .
+
+We return to the main problem. Let Z be the intersection of lines AD and BC, and W
+be the intersection of lines AB and CD. Since ]P DZ = ]P BC = ]P BZ, point Z lies on
+ω. Similarly, W lies on ω. Applying Claim 2 to the cyclic quadrilateral ZBDW , we know
+that the power of M with respect to ω is M A2 . Hence, M X · M B = M A2 .
+Suppose the line through B perpendicular to BE meets line AC at T . Then BE and
+BT are the angle bisectors of ∠CBA. This shows (T, E; A, C) is harmonic. Thus, we have
+M E · M T = M A2 = M X · M B. It follows that E, T, B, X are concyclic.
+
+Shortlisted problems
+
+65
+
+W
+D
+
+Y
+Q
+P
+
+T
+
+A
+
+E
+
+F
+0
+
+0
+
+P ,Q
+
+M
+
+X
+Z B
+
+C
+
+The result is trivial for the special case AD = CD since P, Q lie on the perpendicular
+bisector of AC in that case. Similarly, the case AB = CB is trivial. It remains to consider
+the general cases where we can apply Claim 1 in the latter part of the proof.
+Let the projections from P and Q to AC be P 0 and Q0 respectively. Then P Q ⊥ AC if
+0
+0
+= EQ
+in terms of directed lengths. Note that
+and only if P 0 = Q0 if and only if EP
+FP0
+F Q0
+EP 0
+tan ]EF P
+tan ]AF D
+=
+=
+.
+0
+FP
+tan ]F EP
+tan ]AEB
+0
+
+]EF Q
+Next, we have EQ
+= tan
+where ]F EQ = ]T EX = ]T BX = π2 + ]EBM and by
+F Q0
+tan ]F EQ
+symmetry ]EF Q = π2 + ]F DM . Combining all these, it suffices to show
+
+tan ]M BE
+tan ]AF D
+=
+.
+tan ]AEB
+tan ]M DF
+We now apply Claim 1 twice to get
+tan ]AF D tan ]M DF = tan2 ]F DC = tan2 ]EBA = tan ]M BE tan ]AEB.
+The result then follows.
+
+66
+
+IMO 2016 Hong Kong
+
+G7. Let I be the incentre of a non-equilateral triangle ABC, IA be the A-excentre, IA0 be
+
+the reflection of IA in BC, and lA be the reflection of line AIA0 in AI. Define points IB , IB0
+and line lB analogously. Let P be the intersection point of lA and lB .
+(a) Prove that P lies on line OI where O is the circumcentre of triangle ABC.
+
+(b) Let one of the tangents from P to the incircle of triangle ABC meet the circumcircle at
+points X and Y . Show that ∠XIY = 120◦ .
+Solution 1.
+(a) Let A0 be the reflection of A in BC and let M be the second intersection of line AI
+and the circumcircle Γ of triangle ABC. As triangles ABA0 and AOC are isosceles with
+∠ABA0 = 2∠ABC = ∠AOC, they are similar to each other. Also, triangles ABIA and
+AIC are similar. Therefore we have
+AA0 AB
+AC AI
+AI
+AA0
+=
+·
+=
+·
+=
+.
+AIA
+AB AIA
+AO AC
+AO
+Together with ∠A0 AIA = ∠IAO, we find that triangles AA0 IA and AIO are similar.
+IA0
+Y
+
+A
+D
+T
+
+X
+
+O
+I
+
+P
+B
+
+C
+Z
+M
+
+A0
+IA
+Denote by P 0 the intersection of line AP and line OI. Using directed angles, we have
+]M AP 0 = ]IA0 AIA = ]IA0 AA0 − ]IA AA0 = ]AA0 IA − ∠(AM, OM )
+= ]AIO − ]AM O = ]M OP 0 .
+This shows M, O, A, P 0 are concyclic.
+
+Shortlisted problems
+
+67
+
+Denote by R and r the circumradius and inradius of triangle ABC. Then
+IP 0 =
+
+IA · IM
+IO2 − R2
+=
+IO
+IO
+
+is independent of A. Hence, BP also meets line OI at the same point P 0 so that P 0 = P ,
+and P lies on OI.
+(b) By Poncelet’s Porism, the other tangents to the incircle of triangle ABC from X and Y
+meet at a point Z on Γ. Let T be the touching point of the incircle to XY , and let D be
+the midpoint of XY . We have
+OI
+OI 2
+OP
+=r 1+
+=r 1+
+OD = IT ·
+IP
+IP
+OI · IP
+Ç
+å
+R2 − 2Rr
+R
+OX
+=r 1+
+=
+=
+.
+2Rr
+2
+2
+Ç
+
+å
+
+Ç
+
+å
+
+R2 − 2Rr
+=r 1+ 2
+R − IO2
+Ç
+
+å
+
+This shows ∠XZY = 60◦ and hence ∠XIY = 120◦ .
+Solution 2.
+(a) Note that triangles AIB C and IA BC are similar since their corresponding interior angles
+are equal. Therefore, the four triangles AIB0 C, AIB C, IA BC and IA0 BC are all similar.
+From 4AIB0 C ∼ 4IA0 BC, we get 4AIA0 C ∼ 4IB0 BC. From ]ABP = ]IB0 BC = ]AIA0 C
+and ]BAP = ]IA0 AC, the triangles ABP and AIA0 C are directly similar.
+IA0
+
+IB
+
+A
+P
+
+X
+
+T D
+
+Y
+
+I O
+B
+
+C
+
+IB0
+A0
+IA
+√
+Consider the inversion with centre A and radius AB · AC followed by the reflection
+in AI. Then B and C are mapped to each other, and I and IA are mapped to each other.
+
+68
+
+IMO 2016 Hong Kong
+From the similar triangles obtained, we have AP · AIA0 = AB · AC so that P is mapped
+to IA0 under the transformation. In addition, line AO is mapped to the altitude from A,
+and hence O is mapped to the reflection of A in BC, which we call point A0 . Note that
+AA0 IA IA0 is an isosceles trapezoid, which shows it is inscribed in a circle. The preimage
+of this circle is a straight line, meaning that O, I, P are collinear.
+
+(b) Denote by R and r the circumradius and inradius of triangle ABC. Note that by the
+above transformation, we have 4AP O ∼ 4AA0 IA0 and 4AA0 IA ∼ 4AIO. Therefore, we
+find that
+AO
+AO
+AIA
+AO
+= AIA · 0 = 0 · AO =
+· AO.
+P O = A0 IA0 ·
+0
+AIA
+A IA
+A IA
+IO
+This shows P O · IO = R2 , and it follows that P and I are mapped to each other under
+the inversion with respect to the circumcircle Γ of triangle ABC. Then P X · P Y , which
+is the power of P with respect to Γ, equals P I · P O. This yields X, I, O, Y are concyclic.
+Let T be the touching point of the incircle to XY , and let D be the midpoint of XY .
+Then
+PO
+R2
+R2
+R
+PO
+=r·
+=r· 2
+=
+r
+·
+= .
+OD = IT ·
+2
+PI
+P O − IO
+R − IO
+2Rr
+2
+◦
+◦
+This shows ∠DOX = 60 and hence ∠XIY = ∠XOY = 120 .
+Comment. A simplification of this problem is to ask part (a) only. Note that the question in
+part (b) implicitly requires P to lie on OI, or otherwise the angle is not uniquely determined
+as we can find another tangent from P to the incircle.
+
+Shortlisted problems
+
+69
+
+G8. Let A1 , B1 and C1 be points on sides BC, CA and AB of an acute triangle ABC
+respectively, such that AA1 , BB1 and CC1 are the internal angle bisectors of triangle ABC.
+Let I be the incentre of triangle ABC, and H be the orthocentre of triangle A1 B1 C1 . Show
+that
+AH + BH + CH > AI + BI + CI.
+Solution. Without loss of generality, assume α = ∠BAC 6 β = ∠CBA 6 γ = ∠ACB.
+Denote by a, b, c the lengths of BC, CA, AB respectively. We first show that triangle A1 B1 C1
+is acute.
+Choose points D and E on side BC such that B1 D//AB and B1 E is the internal angle
+bisector of ∠BB1 C. As ∠B1 DB = 180◦ − β is obtuse, we have BB1 > B1 D. Thus,
+BB1
+DB1
+BA
+BA1
+BE
+=
+>
+=
+=
+.
+EC
+B1 C
+B1 C
+AC
+A1 C
+Therefore, BE > BA1 and 21 ∠BB1 C = ∠BB1 E > ∠BB1 A1 . Similarly, 21 ∠BB1 A > ∠BB1 C1 .
+It follows that
+1
+∠A1 B1 C1 = ∠BB1 A1 + ∠BB1 C1 < (∠BB1 C + ∠BB1 A) = 90◦
+2
+is acute. By symmetry, triangle A1 B1 C1 is acute.
+Let BB1 meet A1 C1 at F . From α 6 γ, we get a 6 c, which implies
+ca
+ac
+BA1 =
+6
+= BC1
+b+c
+a+b
+and hence ∠BC1 A1 6 ∠BA1 C1 . As BF is the internal angle bisector of ∠A1 BC1 , this shows
+∠B1 F C1 = ∠BF A1 6 90◦ . Hence, H lies on the same side of BB1 as C1 . This shows H lies
+inside triangle BB1 C1 . Similarly, from α 6 β and β 6 γ, we know that H lies inside triangles
+CC1 B1 and AA1 C1 .
+A
+B0
+
+60◦
+H0
+I0
+
+C1
+
+H
+
+B1
+
+I
+F
+B
+
+A1 DE
+
+C
+
+70
+
+IMO 2016 Hong Kong
+
+As α 6 β 6 γ, we have α 6 60◦ 6 γ. Then ∠BIC 6 120◦ 6 ∠AIB. Firstly, suppose
+∠AIC > 120◦ .
+Rotate points B, I, H through 60◦ about A to B 0 , I 0 , H 0 so that B 0 and C lie on different
+sides of AB. Since triangle AI 0 I is equilateral, we have
+AI + BI + CI = I 0 I + B 0 I 0 + IC = B 0 I 0 + I 0 I + IC.
+
+(1)
+
+AH + BH + CH = H 0 H + B 0 H 0 + HC = B 0 H 0 + H 0 H + HC.
+
+(2)
+
+Similarly,
+As ∠AII 0 = ∠AI 0 I = 60◦ , ∠AI 0 B 0 = ∠AIB > 120◦ and ∠AIC > 120◦ , the quadrilateral
+B 0 I 0 IC is convex and lies on the same side of B 0 C as A.
+Next, since H lies inside triangle ACC1 , H lies outside B 0 I 0 IC. Also, H lying inside
+triangle ABI implies H 0 lies inside triangle AB 0 I 0 . This shows H 0 lies outside B 0 I 0 IC and
+hence the convex quadrilateral B 0 I 0 IC is contained inside the quadrilateral B 0 H 0 HC. It
+follows that the perimeter of B 0 I 0 IC cannot exceed the perimeter of B 0 H 0 HC. From (1) and
+(2), we conclude that
+AH + BH + CH > AI + BI + CI.
+For the case ∠AIC < 120◦ , we can rotate B, I, H through 60◦ about C to B 0 , I 0 , H 0 so
+that B 0 and A lie on different sides of BC. The proof is analogous to the previous case and
+we still get the desired inequality.
+
+Shortlisted problems
+
+71
+
+Number Theory
+N1. For any positive integer k, denote the sum of digits of k in its decimal representation by
+S(k). Find all polynomials P (x) with integer coefficients such that for any positive integer
+n > 2016, the integer P (n) is positive and
+S(P (n)) = P (S(n)).
+
+(1)
+
+Answer.
+• P (x) = c where 1 6 c 6 9 is an integer; or
+• P (x) = x.
+Solution 1. We consider three cases according to the degree of P .
+• Case 1. P (x) is a constant polynomial.
+Let P (x) = c where c is an integer constant. Then (1) becomes S(c) = c. This holds if
+and only if 1 6 c 6 9.
+• Case 2. deg P = 1.
+We have the following observation. For any positive integers m, n, we have
+S(m + n) 6 S(m) + S(n),
+
+(2)
+
+and equality holds if and only if there is no carry in the addition m + n.
+Let P (x) = ax + b for some integers a, b where a 6= 0. As P (n) is positive for large n, we
+must have a > 1. The condition (1) becomes S(an + b) = aS(n) + b for all n > 2016. Setting
+n = 2025 and n = 2020 respectively, we get
+S(2025a + b) − S(2020a + b) = (aS(2025) + b) − (aS(2020) + b) = 5a.
+On the other hand, (2) implies
+S(2025a + b) = S((2020a + b) + 5a) 6 S(2020a + b) + S(5a).
+These give 5a 6 S(5a). As a > 1, this holds only when a = 1, in which case (1) reduces to
+S(n + b) = S(n) + b for all n > 2016. Then we find that
+S(n + 1 + b) − S(n + b) = (S(n + 1) + b) − (S(n) + b) = S(n + 1) − S(n).
+
+(3)
+
+If b > 0, we choose n such that n + 1 + b = 10k for some sufficiently large k. Note that all
+the digits of n + b are 9’s, so that the left-hand side of (3) equals 1 − 9k. As n is a positive
+integer less than 10k − 1, we have S(n) < 9k. Therefore, the right-hand side of (3) is at least
+1 − (9k − 1) = 2 − 9k, which is a contradiction.
+The case b < 0 can be handled similarly by considering n + 1 to be a large power of 10.
+Therefore, we conclude that P (x) = x, in which case (1) is trivially satisfied.
+
+72
+
+IMO 2016 Hong Kong
+
+• Case 3. deg P > 2.
+Suppose the leading term of P is ad nd where ad 6= 0. Clearly, we have ad > 0. Consider
+n = 10k − 1 in (1). We get S(P (n)) = P (9k). Note that P (n) grows asymptotically as fast
+as nd , so S(P (n)) grows asymptotically as no faster than a constant multiple of k. On the
+other hand, P (9k) grows asymptotically as fast as k d . This shows the two sides of the last
+equation cannot be equal for sufficiently large k since d > 2.
+Therefore, we conclude that P (x) = c where 1 6 c 6 9 is an integer, or P (x) = x.
+Solution 2. Let P (x) = ad xd + ad−1 xd−1 + · · · + a0 . Clearly ad > 0. There exists an integer
+m > 1 such that |ai | < 10m for all 0 6 i 6 d. Consider n = 9 × 10k for a sufficiently large
+integer k in (1). If there exists an index 0 6 i 6 d − 1 such that ai < 0, then all digits of P (n)
+in positions from 10ik+m+1 to 10(i+1)k−1 are all 9’s. Hence, we have S(P (n)) > 9(k − m − 1).
+On the other hand, P (S(n)) = P (9) is a fixed constant. Therefore, (1) cannot hold for large
+k. This shows ai > 0 for all 0 6 i 6 d − 1.
+Hence, P (n) is an integer formed by the nonnegative integers ad × 9d , ad−1 × 9d−1 , . . . , a0
+by inserting some zeros in between. This yields
+S(P (n)) = S(ad × 9d ) + S(ad−1 × 9d−1 ) + · · · + S(a0 ).
+Combining with (1), we have
+S(ad × 9d ) + S(ad−1 × 9d−1 ) + · · · + S(a0 ) = P (9) = ad × 9d + ad−1 × 9d−1 + · · · + a0 .
+As S(m) 6 m for any positive integer m, with equality when 1 6 m 6 9, this forces each
+ai × 9i to be a positive integer between 1 and 9. In particular, this shows ai = 0 for i > 2
+and hence d 6 1. Also, we have a1 6 1 and a0 6 9. If a1 = 1 and 1 6 a0 6 9, we take
+n = 10k + (10 − a0 ) for sufficiently large k in (1). This yields a contradiction since
+S(P (n)) = S(10k + 10) = 2 6= 11 = P (11 − a0 ) = P (S(n)).
+The zero polynomial is also rejected since P (n) is positive for large n. The remaining candidates are P (x) = x or P (x) = a0 where 1 6 a0 6 9, all of which satisfy (1), and hence are
+the only solutions.
+
+Shortlisted problems
+
+73
+
+N2. Let τ (n) be the number of positive divisors of n. Let τ1 (n) be the number of positive
+divisors of n which have remainders 1 when divided by 3. Find all possible integral values of
+.
+the fraction ττ1(10n)
+(10n)
+Answer. All composite numbers together with 2.
+Solution. In this solution, we always use pi to denote primes congruent to 1 mod 3, and use
+qj to denote primes congruent to 2 mod 3. When we express a positive integer m using its
+prime factorization, we also include the special case m = 1 by allowing the exponents to be
+zeros. We first compute τ1 (m) for a positive integer m.
+• Claim. Let m = 3x pa11 pa22 · · · pas s q1b1 q2b2 · · · qtbt be the prime factorization of m. Then
+
+
+s
+Y
+
+
+
+t
+1Y
+τ1 (m) =
+(ai + 1) 
+(bj + 1)
+
+.
+2
+
+
+i=1
+j=1
+
+(1)
+
+Proof. To choose a divisor of m congruent to 1 mod 3, it cannot have the prime divisor 3,
+while there is no restriction on choosing prime factors congruent to 1 mod 3. Also, we have
+to choose an even number of prime factors (counted with multiplicity) congruent to 2 mod 3.
+Q
+If tj=1 (bj + 1) is even, then we may assume without loss of generality b1 + 1 is even. We
+Q
+can choose the prime factors q2 , q3 , . . . , qt freely in tj=2 (bj + 1) ways. Then the parity of
+the number of q1 is uniquely determined, and hence there are 12 (b1 + 1) ways to choose the
+exponent of q1 . Hence (1) is verified in this case.
+Q
+If tj=1 (bj + 1) is odd, we use induction on t to count the number of choices. When
+t = 1, there are d b12+1 e choices for which the exponent is even and b b12+1 c choices for which
+the exponent is odd. For the inductive step, we find that there are
+
+
+ ¢
+
+
+
+
+ ú
+
+
+
+
+
+
+t
+Y
+Y
+ 1 t−1
+
+bt + 1
+bt + 1
+1Y
+1 t−1
+
+
+
+
+
+(bj + 1) ·
++
+(bj + 1) ·
+=
+(bj + 1)
+
+
+2
+2 j=1
+2
+
+ 2 j=1
+
+ 2 j=1
+
+•
+
+ü
+
+choices with an even number of prime factors and hence b 12 tj=1 (bj + 1)c choices with an odd
+number of prime factors. Hence (1) is also true in this case.
+Q
+
+Let n = 3x 2y 5z pa11 pa22 · · · pas s q1b1 q2b2 · · · qtbt . Using the well-known formula for computing the
+divisor function, we get
+τ (10n) = (x + 1)(y + 2)(z + 2)
+
+s
+Y
+i=1
+
+(ai + 1)
+
+t
+Y
+
+(bj + 1).
+
+(2)
+
+j=1
+
+By the Claim, we have
+s
+Y
+
+
+
+
+
+t
+Y
+1
+τ1 (10n) =
+(ai + 1) 
+(y
++
+2)(z
++
+2)
+(bj + 1)
+
+.
+2
+
+
+i=1
+j=1
+
+(3)
+
+74
+
+IMO 2016 Hong Kong
+
+If c = (y + 2)(z + 2)
+
+Qt
+
+j=1 (bj + 1) is even, then (2) and (3) imply
+
+τ (10n)
+= 2(x + 1).
+τ1 (10n)
+In this case ττ1(10n)
+can be any even positive integer as x runs through all nonnegative integers.
+(10n)
+If c is odd, which means y, z are odd and each bj is even, then (2) and (3) imply
+τ (10n)
+2(x + 1)c
+=
+.
+τ1 (10n)
+c+1
+
+(4)
+
+For this to be an integer, we need c + 1 divides 2(x + 1) since c and c + 1 are relatively prime.
+Let 2(x + 1) = k(c + 1). Then (4) reduces to
+t
+Y
+τ (10n)
+= kc = k(y + 2)(z + 2)
+(bj + 1).
+τ1 (10n)
+j=1
+
+(5)
+
+Noting that y, z are odd, the integers y + 2 and z + 2 are at least 3. This shows the integer
+in this case must be composite. On the other hand, for any odd composite number ab with
+ab−1
+= ab from (5).
+a, b > 3, we may simply take n = 3 2 · 2a−2 · 5b−2 so that ττ1(10n)
+(10n)
+We conclude that the fraction can be any even integer or any odd composite number.
+Equivalently, it can be 2 or any composite number.
+
+Shortlisted problems
+
+75
+
+N3. Define P (n) = n2 + n + 1. For any positive integers a and b, the set
+{P (a), P (a + 1), P (a + 2), . . . , P (a + b)}
+is said to be fragrant if none of its elements is relatively prime to the product of the other
+elements. Determine the smallest size of a fragrant set.
+Answer. 6.
+Solution. We have the following observations.
+(i) (P (n), P (n + 1)) = 1 for any n.
+We have (P (n), P (n + 1)) = (n2 + n + 1, n2 + 3n + 3) = (n2 + n + 1, 2n + 2). Noting
+that n2 + n + 1 is odd and (n2 + n + 1, n + 1) = (1, n + 1) = 1, the claim follows.
+(ii) (P (n), P (n + 2)) = 1 for n 6≡ 2 (mod 7) and (P (n), P (n + 2)) = 7 for n ≡ 2 (mod 7).
+From (2n+7)P (n)−(2n−1)P (n+2) = 14 and the fact that P (n) is odd, (P (n), P (n+2))
+must be a divisor of 7. The claim follows by checking n ≡ 0, 1, . . . , 6 (mod 7) directly.
+(iii) (P (n), P (n + 3)) = 1 for n 6≡ 1 (mod 3) and 3|(P (n), P (n + 3)) for n ≡ 1 (mod 3).
+From (n + 5)P (n) − (n − 1)P (n + 3) = 18 and the fact that P (n) is odd, (P (n), P (n + 3))
+must be a divisor of 9. The claim follows by checking n ≡ 0, 1, 2 (mod 3) directly.
+Suppose there exists a fragrant set with at most 5 elements. We may assume it contains
+exactly 5 elements P (a), P (a + 1), . . . , P (a + 4) since the following argument also works with
+fewer elements. Consider P (a + 2). From (i), it is relatively prime to P (a + 1) and P (a + 3).
+Without loss of generality, assume (P (a), P (a + 2)) > 1. From (ii), we have a ≡ 2 (mod 7).
+The same observation implies (P (a + 1), P (a + 3)) = 1. In order that the set is fragrant,
+(P (a), P (a + 3)) and (P (a + 1), P (a + 4)) must both be greater than 1. From (iii), this holds
+only when both a and a + 1 are congruent to 1 mod 3, which is a contradiction.
+It now suffices to construct a fragrant set of size 6. By the Chinese Remainder Theorem,
+we can take a positive integer a such that
+a≡7
+
+(mod 19),
+
+a+1≡2
+
+(mod 7),
+
+a+2≡1
+
+(mod 3).
+
+For example, we may take a = 197. From (ii), both P (a + 1) and P (a + 3) are divisible
+by 7. From (iii), both P (a + 2) and P (a + 5) are divisible by 3. One also checks from
+19|P (7) = 57 and 19|P (11) = 133 that P (a) and P (a + 4) are divisible by 19. Therefore, the
+set {P (a), P (a + 1), . . . , P (a + 5)} is fragrant.
+Therefore, the smallest size of a fragrant set is 6.
+Comment. “Fragrant Harbour” is the English translation of “Hong Kong”.
+A stronger version of this problem is to show that there exists a fragrant set of size k for
+any k > 6. We present a proof here.
+For each even positive integer m which is not divisible by 3, since m2 + 3 ≡ 3 (mod 4),
+we can find a prime pm ≡ 3 (mod 4) such that pm |m2 + 3. Clearly, pm > 3.
+
+76
+
+IMO 2016 Hong Kong
+
+If b = 2t > 6, we choose a such that 3|2(a + t) + 1 and pm |2(a + t) + 1 for each 1 6 m 6 b
+with m ≡ 2, 4 (mod 6). For 0 6 r 6 t and 3|r, we have a + t ± r ≡ 1 (mod 3) so that
+3|P (a + t ± r). For 0 6 r 6 t and (r, 3) = 1, we have
+4P (a + t ± r) ≡ (−1 ± 2r)2 + 2(−1 ± 2r) + 4 = 4r2 + 3 ≡ 0
+
+(mod p2r ).
+
+Hence, {P (a), P (a + 1), . . . , P (a + b)} is fragrant.
+If b = 2t + 1 > 7 (the case b = 5 has been done in the original problem), we choose a
+such that 3|2(a + t) + 1 and pm |2(a + t) + 1 for 1 6 m 6 b with m ≡ 2, 4 (mod 6), and that
+a + b ≡ 9 (mod 13). Note that a exists by the Chinese Remainder Theorem since pm 6= 13
+for all m. The even case shows that {P (a), P (a + 1), . . . , P (a + b − 1)} is fragrant. Also, one
+checks from 13|P (9) = 91 and 13|P (3) = 13 that P (a + b) and P (a + b − 6) are divisible by
+13. The proof is thus complete.
+
+Shortlisted problems
+
+77
+
+N4. Let n, m, k and l be positive integers with n 6= 1 such that nk + mnl + 1 divides nk+l − 1.
+Prove that
+• m = 1 and l = 2k; or
+k−l
+
+• l|k and m = nnl −1−1 .
+Solution 1. It is given that
+nk + mnl + 1|nk+l − 1.
+
+(1)
+
+nk + mnl + 1|(nk+l − 1) + (nk + mnl + 1) = nk+l + nk + mnl .
+
+(2)
+
+This implies
+
+We have two cases to discuss.
+• Case 1. l > k.
+Since (nk + mnl + 1, n) = 1, (2) yields
+nk + mnl + 1|nl + mnl−k + 1.
+In particular, we get nk + mnl + 1 6 nl + mnl−k + 1. As n > 2 and k > 1, (m − 1)nl is at
+least 2(m − 1)nl−k . It follows that the inequality cannot hold when m > 2. For m = 1, the
+above divisibility becomes
+nk + nl + 1|nl + nl−k + 1.
+Note that nl +nl−k +1 < nl +nl +1 < 2(nk +nl +1). Thus we must have nl +nl−k +1 = nk +nl +1
+so that l = 2k, which gives the first result.
+• Case 2. l < k.
+This time (2) yields
+nk + mnl + 1|nk + nk−l + m.
+In particular, we get nk + mnl + 1 6 nk + nk−l + m, which implies
+m6
+
+nk−l − 1
+.
+nl − 1
+
+(3)
+
+On the other hand, from (1) we may let nk+l − 1 = (nk + mnl + 1)t for some positive
+integer t. Obviously, t is less than nl , which means t 6 nl − 1 as it is an integer. Then we
+have nk+l − 1 6 (nk + mnl + 1)(nl − 1), which is the same as
+m>
+
+nk−l − 1
+.
+nl − 1
+k−l
+
+(4)
+
+Equations (3) and (4) combine to give m = nnl −1−1 . As this is an integer, we have l|k − l.
+This means l|k and it corresponds to the second result.
+
+78
+
+IMO 2016 Hong Kong
+
+Solution 2. As in Solution 1, we begin with equation (2).
+• Case 1. l > k.
+Then (2) yields
+nk + mnl + 1|nl + mnl−k + 1.
+Since 2(nk +mnl +1) > 2mnl +1 > nl +mnl−k +1, it follows that nk +mnl +1 = nl +mnl−k +1,
+that is,
+m(nl − nl−k ) = nl − nk .
+If m > 2, then m(nl − nl−k ) > 2nl − 2nl−k > 2nl − nl > nl − nk gives a contradiction. Hence
+m = 1 and l − k = k, which means m = 1 and l = 2k.
+• Case 2. l < k.
+Then (2) yields
+nk + mnl + 1|nk + nk−l + m.
+Since 2(nk + mnl + 1) > 2nk + m > nk + nk−l + m, it follows that nk + mnl + 1 = nk + nk−l + m.
+k−l
+This gives m = nnl −1−1 . Note that nl − 1|nk−l − 1 implies l|k − l and hence l|k. The proof is
+thus complete.
+Comment. Another version of this problem is as follows: let n, m, k and l be positive integers
+with n 6= 1 such that k and l do not divide each other. Show that nk + mnl + 1 does not
+divide nk+l − 1.
+
+Shortlisted problems
+
+79
+
+N5. Let a be a positive integer which is not a square number. Denote by A the set of all
+positive integers k such that
+k=
+
+x2 − a
+x2 − y 2
+
+(1)
+
+√
+for some integers x and y with x > a. Denote by B the set
+√ of all positive integers k such
+that (1) is satisfied for some integers x and y with 0 6 x < a. Prove that A = B.
+Solution 1. We first prove the following preliminary result.
+• Claim. For fixed k, let x, y be integers satisfying (1). Then the numbers x1 , y1 defined by
+1
+(x − y)2 − 4a
+x1 =
+x−y+
+,
+2
+x+y
+Ç
+
+1
+(x − y)2 − 4a
+y1 =
+x−y−
+2
+x+y
+
+å
+
+Ç
+
+å
+
+are integers and satisfy (1) (with x, y replaced by x1 , y1 respectively).
+Proof. Since x1 + y1 = x − y and
+x1 =
+
+x2 − xy − 2a
+2(x2 − a)
+= −x +
+= −x + 2k(x − y),
+x+y
+x+y
+
+both x1 and y1 are integers. Let u = x + y and v = x − y. The relation (1) can be rewritten
+as
+u2 − (4k − 2)uv + (v 2 − 4a) = 0.
+2
+
+By Vieta’s Theorem, the number z = v −4a
+satisfies
+u
+v 2 − (4k − 2)vz + (z 2 − 4a) = 0.
+Since x1 and y1 are defined so that v = x1 + y1 and z = x1 − y1 , we can reverse the process
+and verify (1) for x1 , y1 .
+We first show
+√ that B ⊂ A. Take any k ∈ B so that (1) is satisfied for some integers x, y
+with 0 6 x < a. Clearly, y 6= 0 and we may
+√ assume y is positive. Since a is not a square,
+we have k > 1. Hence, we get 0 6 x < y < a. Define
+1
+(x − y)2 − 4a
+x1 = x − y +
+,
+2
+x+y
+
+1
+(x − y)2 − 4a
+y1 =
+x−y−
+.
+2
+x+y
+Ç
+
+å
+
+By the Claim, x1 , y1 are integers satisfying (1). Also, we have
+1
+(x − y)2 − 4a
+x1 > −
+x−y+
+2
+x+y
+Ç
+
+This implies k ∈ A and hence B ⊂ A.
+
+å
+
+=
+
+√
+2a + x(y − x)
+2a
+>
+> a.
+x+y
+x+y
+
+80
+
+IMO 2016 Hong Kong
+
+Next, we shall
+√ show that A ⊂ B. Take any k ∈ A so that (1) is satisfied for some integers
+x, y with x > a. Again, we may assume y is positive. Among all such representations of k,
+we choose the one with smallest x + y. Define
+(x − y)2 − 4a
+1
+x−y−
+.
+y1 =
+2
+x+y
+√
+By the Claim, x1 , y1 are integers satisfying (1). Since k > 1, we get x > y > a. Therefore,
+4a
+4a
+> 0 and x+y
+< x + y. It follows that
+we have y1 > x+y
+1
+(x − y)2 − 4a
+x1 = x − y +
+,
+2
+x+y
+
+Ç
+
+4a − (x − y)2
+x1 + y1 6 max x − y,
+x+y
+®
+
+å
+
+´
+
+< x + y.
+
+√
+If x1 > √
+a, we get a contradiction due to the minimality of x + y. Therefore, we must have
+0 6 x1 < a, which means k ∈ B so that A ⊂ B.
+The two subset relations combine to give A = B.
+Solution 2. The relation (1) is equivalent to
+ky 2 − (k − 1)x2 = a.
+
+(2)
+
+Motivated by Pell’s Equation, we prove the following, which is essentially the same as the
+Claim in Solution 1.
+• Claim. If (x0 , y0 ) is a solution to (2), then ((2k − 1)x0 ± 2ky0 , (2k − 1)y0 ± 2(k − 1)x0 ) is
+also a solution to (2).
+Proof. We check directly that
+k((2k − 1)y0 ± 2(k − 1)x0 )2 − (k − 1)((2k − 1)x0 ± 2ky0 )2
+= (k(2k − 1)2 − (k − 1)(2k)2 )y02 + (k(2(k − 1))2 − (k − 1)(2k − 1)2 )x20
+= ky02 − (k − 1)x20 = a.
+√
+If (2) is satisfied for some 0 6 x < a and nonnegative integer y, then clearly (1) implies
+y > x. Also, we have k > 1 since a is not a square number. By the Claim, consider another
+solution to (2) defined by
+x1 = (2k − 1)x + 2ky,
+
+y1 = (2k − 1)y + 2(k − 1)x.
+
+It satisfies x1 > (2k − 1)x + 2k(x + 1) = (4k − 1)x + 2k > x. Then we can replace the old
+solution by a new one which has √
+a larger value in x. After a finite number of replacements,
+a. This shows B ⊂ A.
+we must get a solution with x > √
+If (2) is satisfied for some x > a and nonnegative integer y, by the Claim we consider
+another solution to (2) defined by
+x1 = |(2k − 1)x − 2ky|,
+
+y1 = (2k − 1)y − 2(k − 1)x.
+
+Shortlisted problems
+
+81
+
+»
+√
+√
+From (2), we get ky > k − 1x. This implies ky > k(k − 1)x > (k − 1)x and hence
+(2k − 1)x − 2ky < x. On the other hand, the relation (1) implies x > y. Then it is clear that
+(2k − 1)x − 2ky > −x. These combine to give x1 < x, which means we have found a solution
+to (2) with x having a smaller
+absolute value. After a finite number of steps, we shall obtain
+√
+a solution with 0 6 x < a. This shows A ⊂ B.
+The desired result follows from B ⊂ A and A ⊂ B.
+
+Solution 3. It suffices to show A ∪ B is a subset of A ∩ B. We take any k ∈ A ∪ B, which
+means there exist integers x, y satisfying (1). Since a is not a square, it follows that k 6= 1.
+As in Solution 2, the result follows readily once √we have proved the existence of a solution
+(x1 , y1 ) to (1) with |x1 | > |x|, and, in case of x > a, another solution (x2 , y2 ) with |x2 | < |x|.
+Without loss of generality, assume x, y > 0. Let u = x + y and v = x − y. Then u > v
+and (1) becomes
+(u + v)2 − 4a
+.
+(3)
+k=
+4uv
+This is the same as
+v 2 + (2u − 4ku)v + u2 − 4a = 0.
+Let v1 = 4ku − 2u − v. Then u + v1 = 4ku − u − v > 8u − u − v > u + v. By Vieta’s Theorem,
+v1 satisfies
+v12 + (2u − 4ku)v1 + u2 − 4a = 0.
+2
+
+1 ) −4a
+1
+This gives k = (u+v4uv
+. As k is an integer, u + v1 must be even. Therefore, x1 = u+v
+and
+2
+1
+v1 −u
+y1 = 2 are integers. By reversing the process, we can see that (x1 , y1 ) is a solution to (1),
+1
+>√u+v
+= x > 0. This completes
+the first half of the proof.
+with x1 = u+v
+2
+2
+√
+Suppose x > a. Then u + v > 2 a and (3) can be rewritten as
+
+u2 + (2v − 4kv)u + v 2 − 4a = 0.
+Let u2 = 4kv − 2v − u. By Vieta’s Theorem, we have uu2 = v 2 − 4a and
+u22 + (2v − 4kv)u2 + v 2 − 4a = 0.
+
+(4)
+
+√
+By u > 0, u + v > 2 a and (3), we have v > 0. If u2 > 0, then vu2 6 uu2 = v 2 − 4a < v 2 .
+This shows u2 < v 6 u and 0 < u2 + v < u + v. If u2 < 0, then (u2 + v) + (u + v) = 4kv > 0
+and u2 + v < u + v imply |u2 + v| < u + v. In any case, since u2 + v is even from (4), we can
+define x2 = u22+v and y2 = u22−v so that (1) is satisfied with |x2 | < x, as desired. The proof is
+thus complete.
+
+82
+
+IMO 2016 Hong Kong
+
+N6. Denote by N the set of all positive integers. Find all functions f : N → N such that
+for all positive integers m and n, the integer f (m) + f (n) − mn is nonzero and divides
+mf (m) + nf (n).
+Answer. f (n) = n2 for any n ∈ N.
+Solution. It is given that
+f (m) + f (n) − mn|mf (m) + nf (n).
+
+(1)
+
+Taking m = n = 1 in (1), we have 2f (1) − 1|2f (1). Then 2f (1) − 1|2f (1) − (2f (1) − 1) = 1
+and hence f (1) = 1.
+Let p > 7 be a prime. Taking m = p and n = 1 in (1), we have f (p) − p + 1|pf (p) + 1 and
+hence
+f (p) − p + 1|pf (p) + 1 − p(f (p) − p + 1) = p2 − p + 1.
+If f (p) − p + 1 = p2 − p + 1, then f (p) = p2 . If f (p) − p + 1 6= p2 − p + 1, as p2 − p + 1 is an
+odd positive integer, we have p2 − p + 1 > 3(f (p) − p + 1), that is,
+1
+(2)
+f (p) 6 (p2 + 2p − 2).
+3
+Taking m = n = p in (1), we have 2f (p) − p2 |2pf (p). This implies
+2f (p) − p2 |2pf (p) − p(2f (p) − p2 ) = p3 .
+By (2) and f (p) > 1, we get
+2
+−p2 < 2f (p) − p2 6 (p2 + 2p − 2) − p2 < −p
+3
+since p > 7. This contradicts the fact that 2f (p) − p2 is a factor of p3 . Thus we have proved
+that f (p) = p2 for all primes p > 7.
+Let n be a fixed positive integer. Choose a sufficiently large prime p. Consider m = p in
+(1). We obtain
+f (p) + f (n) − pn|pf (p) + nf (n) − n(f (p) + f (n) − pn) = pf (p) − nf (p) + pn2 .
+As f (p) = p2 , this implies p2 −pn+f (n)|p(p2 −pn+n2 ). As p is sufficiently large and n is fixed,
+p cannot divide f (n), and so (p, p2 − pn + f (n)) = 1. It follows that p2 − pn + f (n)|p2 − pn + n2
+and hence
+p2 − pn + f (n)|(p2 − pn + n2 ) − (p2 − pn + f (n)) = n2 − f (n).
+Note that n2 − f (n) is fixed while p2 − pn + f (n) is chosen to be sufficiently large. Therefore,
+we must have n2 − f (n) = 0 so that f (n) = n2 for any positive integer n.
+Finally, we check that when f (n) = n2 for any positive integer n, then
+f (m) + f (n) − mn = m2 + n2 − mn
+and
+mf (m) + nf (n) = m3 + n3 = (m + n)(m2 + n2 − mn).
+The latter expression is divisible by the former for any positive integers m, n. This shows
+f (n) = n2 is the only solution.
+
+Shortlisted problems
+
+83
+
+N7. Let n be an odd positive integer. In the Cartesian plane, a cyclic polygon P with area
+S is chosen. All its vertices have integral coordinates, and the squares of its side lengths are
+all divisible by n. Prove that 2S is an integer divisible by n.
+Solution. Let P = A1 A2 . . . Ak and let Ak+i = Ai for i > 1. By the Shoelace Formula, the
+area of any convex polygon with integral coordinates is half an integer. Therefore, 2S is an
+integer. We shall prove by induction on k > 3 that 2S is divisible by n. Clearly, it suffices to
+consider n = pt where p is an odd prime and t > 1.
+√ √
+√
+For the base case k = 3, let the side lengths of P be na, nb, nc where a, b, c are
+positive integers. By Heron’s Formula,
+16S 2 = n2 (2ab + 2bc + 2ca − a2 − b2 − c2 ).
+This shows 16S 2 is divisible by n2 . Since n is odd, 2S is divisible by n.
+Assume k > 4. If the square of length of one of the diagonals is divisible by n, then
+that diagonal divides P into two smaller polygons, to which the induction hypothesis applies.
+Hence we may assume that none of the squares of diagonal lengths is divisible by n. As
+usual, we denote by νp (r) the exponent of p in the prime decomposition of r. We claim the
+following.
+• Claim. νp (A1 A2m ) > νp (A1 A2m+1 ) for 2 6 m 6 k − 1.
+Proof. The case m = 2 is obvious since νp (A1 A22 ) > pt > νp (A1 A23 ) by the condition and the
+above assumption.
+Suppose νp (A1 A22 ) > νp (A1 A23 ) > · · · > νp (A1 A2m ) where 3 6 m 6 k − 1. For the induction
+step, we apply Ptolemy’s Theorem to the cyclic quadrilateral A1 Am−1 Am Am+1 to get
+A1 Am+1 × Am−1 Am + A1 Am−1 × Am Am+1 = A1 Am × Am−1 Am+1 ,
+which can be rewritten as
+A1 A2m+1 × Am−1 A2m = A1 A2m−1 × Am A2m+1 + A1 A2m × Am−1 A2m+1
+− 2A1 Am−1 × Am Am+1 × A1 Am × Am−1 Am+1 .
+
+(1)
+
+From this, 2A1 Am−1 ×Am Am+1 ×A1 Am ×Am−1 Am+1 is an integer. We consider the component
+of p of each term in (1). By the inductive hypothesis, we have νp (A1 A2m−1 ) > νp (A1 A2m ). Also,
+we have νp (Am A2m+1 ) > pt > νp (Am−1 A2m+1 ). These give
+νp (A1 A2m−1 × Am A2m+1 ) > νp (A1 A2m × Am−1 A2m+1 ).
+
+(2)
+
+Next, we have νp (4A1 A2m−1 × Am A2m+1 × A1 A2m × Am−1 A2m+1 ) = νp (A1 A2m−1 × Am A2m+1 ) +
+νp (A1 A2m × Am−1 A2m+1 ) > 2νp (A1 A2m × Am−1 A2m+1 ) from (2). This implies
+νp (2A1 Am−1 × Am Am+1 × A1 Am × Am−1 Am+1 ) > νp (A1 A2m × Am−1 A2m+1 ).
+
+(3)
+
+Combining (1), (2) and (3), we conclude that
+νp (A1 A2m+1 × Am−1 A2m ) = νp (A1 A2m × Am−1 A2m+1 ).
+By νp (Am−1 A2m ) > pt > νp (Am−1 A2m+1 ), we get νp (A1 A2m+1 ) < νp (A1 A2m ). The Claim follows
+by induction.
+
+84
+
+IMO 2016 Hong Kong
+
+From the Claim, we get a chain of inequalities
+pt > νp (A1 A23 ) > νp (A1 A24 ) > · · · > νp (A1 A2k ) > pt ,
+which yields a contradiction. Therefore, we can show by induction that 2S is divisible by n.
+Comment. The condition that P is cyclic is crucial. As a counterexample, consider the
+rhombus with vertices (0, 3), (4, 0), (0, −3), (−4, 0). Each of its squares of side lengths is
+divisible by 5, while 2S = 48 is not.
+The proposer also gives a proof for the case n is even. One just needs an extra technical
+step for the case p = 2.
+
+Shortlisted problems
+
+85
+
+N8. Find all polynomials P (x) of odd degree d and with integer coefficients satisfying the
+following property: for each positive integer n, there exist n positive integers x1 , x2 , . . . , xn
+(xi )
+(xi )
+< 2 and PP (x
+is the d-th power of a rational number for every pair of
+such that 21 < PP (x
+j)
+j)
+indices i and j with 1 6 i, j 6 n.
+Answer. P (x) = a(rx + s)d where a, r, s are integers with a 6= 0, r > 1 and (r, s) = 1.
+Solution. Let P (x) = ad xd + ad−1 xd−1 + · · · + a0 . Consider the substitution y = dad x + ad−1 .
+By defining Q(y) = P (x), we find that Q is a polynomial with rational coefficients without
+the term y d−1 . Let Q(y) = bd y d + bd−2 y d−2 + bd−3 y d−3 + · · · + b0 and B = max06i6d {|bi |}
+(where bd−1 = 0).
+The condition shows that for each n > 1, there exist integers y1 , y2 , . . . , yn such that
+Q(yi )
+Q(yi )
+1
+<
+< 2 and Q(y
+is the d-th power of a rational number for 1 6 i, j 6 n. Since n
+2
+Q(yj )
+j)
+can be arbitrarily large, we may assume all xi ’s and hence yi ’s are integers larger than some
+absolute constant in the following.
+By Dirichlet’s Theorem, since d is odd, we can find a sufficiently large prime p such that
+p ≡ 2 (mod d). In particular, we have (p − 1, d) = 1. For this fixed p, we choose n to be
+sufficiently large. Then by the Pigeonhole Principle, there must be d+1 of y1 , y2 , . . . , yn which
+are congruent mod p. Without loss of generality, assume yi ≡ yj (mod p) for 1 6 i, j 6 d + 1.
+We shall establish the following.
+yd
+
+Q(yi )
+= yid for 2 6 i 6 d + 1.
+• Claim. Q(y
+1)
+1
+
+d
+
+Q(yi )
+Proof. Let Q(y
+= ml d where (l, m) = 1 and l, m > 0. This can be rewritten in the expanded
+1)
+form
+
+bd (md yid − ld y1d ) = −
+
+d−2
+X
+
+bj (md yij − ld y1j ).
+
+(1)
+
+j=0
+
+Let c be the common denominator of Q, so that cQ(k) is an integer for any integer k.
+Note that c depends only on P and so we may assume (p, c) = 1. Then y1 ≡ yi (mod p)
+implies cQ(y1 ) ≡ cQ(yi ) (mod p).
+• Case 1. p|cQ(y1 ).
+cQ(yi )
+, so
+In this case, there is a cancellation of p in the numerator and denominator of cQ(y
+1)
+that md 6 p−1 |cQ(y1 )|. Noting |Q(y1 )| < 2By1d as y1 is large, we get
+1
+
+1
+
+m 6 p− d (2cB) d y1 .
+
+(2)
+
+Q(yi )
+For large y1 and yi , the relation 12 < Q(y
+< 2 implies
+1)
+
+We also have
+
+1
+yd
+< id < 3.
+3
+y1
+
+(3)
+
+ld
+1
+< d < 2.
+2
+m
+
+(4)
+
+86
+
+IMO 2016 Hong Kong
+
+Now, the left-hand side of (1) is
+bd (myi − ly1 )(md−1 yid−1 + md−2 yid−2 ly1 + · · · + ld−1 y1d−1 ).
+Suppose on the contrary that myi − ly1 6= 0. Then the absolute value of the above expression
+is at least |bd |md−1 yid−1 . On the other hand, the absolute value of the right-hand side of (1)
+is at most
+d−2
+X
+
+B(md yij + ld y1j ) 6 (d − 1)B(md yid−2 + ld y1d−2 )
+
+j=0
+
+6 (d − 1)B(7md yid−2 )
+1
+
+1
+
+1
+
+1
+
+6 7(d − 1)B(p− d (2cB) d y1 )md−1 yid−2
+6 21(d − 1)Bp− d (2cB) d md−1 yid−1
+by using successively (3), (4), (2) and again (3). This shows
+1
+
+1
+
+|bd |md−1 yid−1 6 21(d − 1)Bp− d (2cB) d md−1 yid−1 ,
+which is a contradiction for large p as bd , B, c, d depend only on the polynomial P . Therefore,
+we have myi − ly1 = 0 in this case.
+• Case 2. (p, cQ(y1 )) = 1.
+From cQ(y1 ) ≡ cQ(yi ) (mod p), we have ld ≡ md (mod p). Since (p − 1, d) = 1, we
+use Fermat Little Theorem to conclude l ≡ m (mod p). Then p|myi − ly1 . Suppose on
+the contrary that myi − ly1 6= 0. Then the left-hand side of (1) has absolute value at least
+|bd |pmd−1 yid−1 . Similar to Case 1, the right-hand side of (1) has absolute value at most
+1
+
+21(d − 1)B(2cB) d md−1 yid−1 ,
+which must be smaller than |bd |pmd−1 yid−1 for large p. Again this yields a contradiction and
+hence myi − ly1 = 0.
+d
+
+yd
+
+Q(yi )
+In both cases, we find that Q(y
+= ml d = yid .
+1)
+1
+
+From the Claim, the polynomial Q(y1 )y d − y1d Q(y) has roots y = y1 , y2 , . . . , yd+1 . Since
+its degree is at most d, this must be the zero polynomial. Hence, Q(y) = bd y d . This implies
+d−1 d
+d−1
+P (x) = ad (x + ada
+) . Let ada
+= rs with integers r, s where r > 1 and (r, s) = 1. Since P has
+d
+d
+integer coefficients, we need rd |ad . Let ad = rd a. Then P (x) = a(rx + s)d . It is obvious that
+such a polynomial satisfies the conditions.
+Comment. In the proof, the use of prime and Dirichlet’s Theorem can be avoided. One can
+easily show that each P (xi ) can be expressed in the form uvid where u, vi are integers and u
+cannot be divisible by the d-th power of a prime (note that u depends only on P ). By fixing a
+large integer q and by choosing a large n, we can apply the Pigeonhole Principle and assume
+
+Shortlisted problems
+
+87
+
+x1 ≡ x2 ≡ · · · ≡ xd+1 (mod q) and v1 ≡ v2 ≡ · · · ≡ vd+1 (mod q). Then the remaining proof
+is similar to Case 2 of the Solution.
+Alternatively, we give another modification of the proof as follows.
+We take a sufficiently large n and consider the corresponding positive integers y1 , y2 , . . . , yn .
+lid
+Q(yi )
+For each 2 6 i 6 n, let Q(y
+=
+d.
+)
+m
+1
+i
+
+1 )|
+As in Case 1, if there are d indices i such that the integers c|Q(y
+are bounded below by
+mdi
+a constant depending only on P , we can establish the Claim using those yi ’s and complete
+the proof. Similarly, as in Case 2, if there are d indices i such that the integers |mi yi − li y1 |
+are bounded below, then the proof goes the same. So it suffices to consider the case where
+c|Q(y1 )|
+6 M and |mi yi − li y1 | 6 N for all 2 6 i 6 n0 where M, N are fixed constants
+mdi
+and n0 is large. Since there are only finitely many choices for mi and mi yi − li y1 , by the
+Pigeonhole Principle, we can assume without loss of generality mi = m and mi yi − li y1 = t
+for 2 6 i 6 d + 2. Then
+ld
+(myi − t)d
+Q(yi )
+= id =
+Q(y1 )
+m
+md y1d
+
+so that Q(y1 )(my − t)d − md y1d Q(y) has roots y = y2 , y3 , . . . , yd+2 . Its degree is at most d and
+hence it is the zero polynomial. Therefore, Q(y) = mbdd (my − t)d . Indeed, Q does not have
+the term y d−1 , which means t should be 0. This gives the corresponding P (x) of the desired
+form.
+The two modifications of the Solution work equally well when the degree d is even.
+
+

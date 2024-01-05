@@ -1,0 +1,53 @@
+Seventeenth International Olympiad, 1975
+1975/1.
+Let xi , yi (i = 1, 2, ..., n) be real numbers such that
+x1 ≥ x2 ≥ · · · ≥ xn and y1 ≥ y2 ≥ · · · ≥ yn .
+Prove that, if z1 , z2 , · · · , zn is any permutation of y1 , y2 , · · · , yn , then
+n
+X
+
+2
+
+(xi − yi ) ≤
+
+i=1
+
+n
+X
+
+(xi − zi )2 .
+
+i=1
+
+1975/2.
+Let a1 , a2 , a3, · · · be an infinite increasing sequence of positive integers. Prove
+that for every p ≥ 1 there are infinitely many am which can be written in
+the form
+am = xap + yaq
+with x, y positive integers and q > p.
+
+1975/3.
+On the sides of an arbitrary triangle ABC, triangles ABR, BCP, CAQ are
+constructed externally with 6 CBP = 6 CAQ = 45◦ , 6 BCP = 6 ACQ =
+30◦ , 6 ABR = 6 BAR = 15◦ . Prove that 6 QRP = 90◦ and QR = RP.
+
+1975/4.
+When 44444444 is written in decimal notation, the sum of its digits is A. Let
+B be the sum of the digits of A. Find the sum of the digits of B. (A and B
+are written in decimal notation.)
+
+1975/5.
+Determine, with proof, whether or not one can find 1975 points on the circumference of a circle with unit radius such that the distance between any
+two of them is a rational number.
+
+1975/6.
+Find all polynomials P, in two variables, with the following properties:
+(i) for a positive integer n and all real t, x, y
+P (tx, ty) = tn P (x, y)
+
+(that is, P is homogeneous of degree n),
+(ii) for all real a, b, c,
+P (b + c, a) + P (c + a, b) + P (a + b, c) = 0,
+(iii) P (1, 0) = 1.
+
+

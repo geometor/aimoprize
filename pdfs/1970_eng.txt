@@ -1,0 +1,73 @@
+Twelfth International Olympiad, 1970
+1970/1.
+Let M be a point on the side AB of ∆ABC. Let r1 , r2 and r be the radii
+of the inscribed circles of triangles AM C, BM C and ABC. Let q1 , q2 and q
+be the radii of the escribed circles of the same triangles that lie in the angle
+ACB. Prove that
+r
+r1 r2
+·
+= .
+q1 q2
+q
+
+1970/2.
+Let a, b and n be integers greater than 1, and let a and b be the bases of
+two number systems. An−1 and An are numbers in the system with base a,
+and Bn−1 and Bn are numbers in the system with base b; these are related as
+follows:
+An = xn xn−1 · · · x0 , An−1 = xn−1 xn−2 · · · x0 ,
+Bn = xn xn−1 · · · x0 , Bn−1 = xn−1 xn−2 · · · x0 ,
+xn 6= 0, xn−1 6= 0.
+Prove:
+
+An−1
+Bn−1
+<
+if and only if a > b.
+An
+Bn
+
+1970/3.
+The real numbers a0 , a1 , ..., an , ... satisfy the condition:
+1 = a0 ≤ a1 ≤ a2 ≤ · · · ≤ an ≤ · · · .
+The numbers b1 , b2 , ..., bn , ... are defined by
+bn =
+
+n µ
+X
+k=1
+
+ak−1
+1−
+ak
+
+¶
+
+1
+√ .
+ak
+
+(a) Prove that 0 ≤ bn < 2 for all n.
+(b) Given c with 0 ≤ c < 2, prove that there exist numbers a0 , a1 , ... with
+the above properties such that bn > c for large enough n.
+
+1970/4.
+Find the set of all positive integers n with the property that the set {n, n +
+1, n + 2, n + 3, n + 4, n + 5} can be partitioned into two sets such that the
+product of the numbers in one set equals the product of the numbers in the
+other set.
+
+1970/5.
+In the tetrahedron ABCD, angle BDC is a right angle. Suppose that the
+foot H of the perpendicular from D to the plane ABC is the intersection of
+the altitudes of ∆ABC. Prove that
+(AB + BC + CA)2 ≤ 6(AD2 + BD2 + CD2 ).
+For what tetrahedra does equality hold?
+
+1970/6.
+In a plane there are 100 points, no three of which are collinear. Consider all
+possible triangles having these points as vertices. Prove that no more than
+70% of these triangles are acute-angled.
+
+

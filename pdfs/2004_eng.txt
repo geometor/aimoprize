@@ -1,0 +1,52 @@
+45rd IMO 2004
+
+Problem 1. Let ABC be an acute-angled triangle with AB 6= AC. The
+circle with diameter BC intersects the sides AB and AC at M and N
+respectively. Denote by O the midpoint of the side BC. The bisectors of
+the angles 6 BAC and 6 M ON intersect at R. Prove that the circumcircles
+of the triangles BM R and CN R have a common point lying on the side
+BC.
+Problem 2. Find all polynomials f with real coefficients such that for all
+reals a,b,c such that ab + bc + ca = 0 we have the following relations
+f (a − b) + f (b − c) + f (c − a) = 2f (a + b + c).
+Problem 3. Define a ”hook” to be a figure made up of six unit squares
+as shown below in the picture, or any of the figures obtained by applying
+rotations and reflections to this figure.
+
+Determine all m×n rectangles that can be covered without gaps and without
+overlaps with hooks such that
+• the rectangle is covered without gaps and without overlaps
+• no part of a hook covers area outside the rectagle.
+Problem 4. Let n ≥ 3 be an integer. Let t1 , t2 , ..., tn be positive real
+numbers such that
+1
+1
+1
+n + 1 > (t1 + t2 + ... + tn )
++ + ... +
+.
+t1 t2
+tn
+
+
+2
+
+
+
+Show that ti , tj , tk are side lengths of a triangle for all i, j, k with
+1 ≤ i < j < k ≤ n.
+Problem 5. In a convex quadrilateral ABCD the diagonal BD does not
+bisect the angles ABC and CDA. The point P lies inside ABCD and
+satisfies
+6 P BC = 6 DBA and 6 P DC = 6 BDA.
+Prove that ABCD is a cyclic quadrilateral if and only if AP = CP .
+
+1
+
+Problem 6. We call a positive integer alternating if every two consecutive
+digits in its decimal representation are of different parity.
+Find all positive integers n such that n has a multiple which is alternating.
+
+2
+
+

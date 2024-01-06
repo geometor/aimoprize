@@ -1,0 +1,53 @@
+40th International Mathematical Olympiad
+Bucharest
+Day I
+July 16, 1999
+
+1. Determine all finite sets S of at least three points in the plane which satisfy the
+following condition:
+for any two distinct points A and B in S, the perpendicular bisector
+of the line segment AB is an axis of symmetry for S.
+2. Let n be a fixed integer, with n ≥ 2.
+(a) Determine the least constant C such that the inequality
+X
+
+Ã
+xi xj (x2i + x2j ) ≤ C
+
+1≤i<j≤n
+
+X
+
+!4
+xi
+
+1≤i≤n
+
+holds for all real numbers x1 , · · · , xn ≥ 0.
+(b) For this constant C, determine when equality holds.
+3. Consider an n × n square board, where n is a fixed even positive integer. The
+board is divided into n2 unit squares. We say that two different squares on the
+board are adjacent if they have a common side.
+N unit squares on the board are marked in such a way that every square (marked
+or unmarked) on the board is adjacent to at least one marked square.
+Determine the smallest possible value of N .
+
+40th International Mathematical Olympiad
+Bucharest
+Day II
+July 17, 1999
+
+4. Determine all pairs (n, p) of positive integers such that
+p is a prime,
+n not exceeded 2p, and
+(p − 1)n + 1 is divisible by np−1 .
+5. Two circles G1 and G2 are contained inside the circle G, and are tangent to G
+at the distinct points M and N , respectively. G1 passes through the center of
+G2 . The line passing through the two points of intersection of G1 and G2 meets
+G at A and B. The lines M A and M B meet G1 at C and D, respectively.
+Prove that CD is tangent to G2 .
+6. Determine all functions f : R −→ R such that
+f (x − f (y)) = f (f (y)) + xf (y) + f (x) − 1
+for all real numbers x, y.
+
+

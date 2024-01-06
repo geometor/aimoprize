@@ -1,0 +1,90 @@
+Language: English
+
+Day: 1
+
+49th INTERNATIONAL MATHEMATICAL OLYMPIAD
+MADRID (SPAIN), JULY 10-22, 2008
+
+Wednesday, July 16, 2008
+Problem 1. An acute-angled triangle ABC has orthocentre H. The circle passing through H with
+centre the midpoint of BC intersects the line BC at A1 and A2 . Similarly, the circle passing through
+H with centre the midpoint of CA intersects the line CA at B1 and B2 , and the circle passing through
+H with centre the midpoint of AB intersects the line AB at C1 and C2 . Show that A1 , A2 , B1 , B2 ,
+C1 , C2 lie on a circle.
+Problem 2.
+
+(a) Prove that
+x2
+y2
+z2
++
++
+≥1
+(x − 1)2
+(y − 1)2
+(z − 1)2
+
+for all real numbers x, y, z, each different from 1, and satisfying xyz = 1.
+(b) Prove that equality holds above for infinitely many triples of rational numbers x, y, z, each
+different from 1, and satisfying xyz = 1.
+2
+Problem 3. Prove that there exist
+√ infinitely many positive integers n such that n + 1 has a prime
+divisor which is greater than 2n + 2n.
+
+Language: English
+
+Time: 4 hours and 30 minutes
+Each problem is worth 7 points
+
+Language: English
+
+Day: 2
+
+49th INTERNATIONAL MATHEMATICAL OLYMPIAD
+MADRID (SPAIN), JULY 10-22, 2008
+
+Thursday, July 17, 2008
+Problem 4. Find all functions f : (0, ∞) → (0, ∞) (so, f is a function from the positive real
+numbers to the positive real numbers) such that
+
+
+2
+
+f (w)
+
+
+
++ f (x)
+
+f (y 2 ) + f (z 2 )
+
+2
+
+=
+
+w 2 + x2
+y2 + z2
+
+for all positive real numbers w, x, y, z, satisfying wx = yz.
+Problem 5. Let n and k be positive integers with k ≥ n and k − n an even number. Let 2n lamps
+labelled 1, 2, . . . , 2n be given, each of which can be either on or off. Initially all the lamps are off.
+We consider sequences of steps: at each step one of the lamps is switched (from on to off or from off
+to on).
+Let N be the number of such sequences consisting of k steps and resulting in the state where
+lamps 1 through n are all on, and lamps n + 1 through 2n are all off.
+Let M be the number of such sequences consisting of k steps, resulting in the state where lamps
+1 through n are all on, and lamps n + 1 through 2n are all off, but where none of the lamps n + 1
+through 2n is ever switched on.
+Determine the ratio N/M .
+Problem 6. Let ABCD be a convex quadrilateral with |BA| 6= |BC|. Denote the incircles of
+triangles ABC and ADC by ω1 and ω2 respectively. Suppose that there exists a circle ω tangent to
+the ray BA beyond A and to the ray BC beyond C, which is also tangent to the lines AD and CD.
+Prove that the common external tangents of ω1 and ω2 intersect on ω.
+
+Language: English
+
+Time: 4 hours and 30 minutes
+Each problem is worth 7 points
+
+

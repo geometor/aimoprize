@@ -1,0 +1,75 @@
+Tenth International Olympiad, 1968
+1968/1.
+Prove that there is one and only one triangle whose side lengths are consecutive integers, and one of whose angles is twice as large as another.
+
+1968/2.
+Find all natural numbers x such that the product of their digits (in decimal
+notation) is equal to x2 − 10x − 22.
+
+1968/3.
+Consider the system of equations
+ax21 + bx1 + c = x2
+ax22 + bx2 + c = x3
+···
+2
+axn−1 + bxn−1 + c = xn
+ax2n + bxn + c = x1 ,
+with unknowns x1 , x2 , · · · , xn , where a, b, c are real and a 6= 0. Let ∆ =
+(b − 1)2 − 4ac. Prove that for this system
+(a) if ∆ < 0, there is no solution,
+(b) if ∆ = 0, there is exactly one solution,
+(c) if ∆ > 0, there is more than one solution.
+
+1968/4.
+Prove that in every tetrahedron there is a vertex such that the three edges
+meeting there have lengths which are the sides of a triangle.
+
+1968/5.
+Let f be a real-valued function defined for all real numbers x such that, for
+some positive constant a, the equation
+1 q
+f (x + a) = + f (x) − [f (x)]2
+2
+holds for all x.
+(a) Prove that the function f is periodic (i.e., there exists a positive number
+b such that f (x + b) = f (x) for all x).
+(b) For a = 1, give an example of a non-constant function with the required
+properties.
+
+1968/6.
+For every natural number n, evaluate the sum
+"
+#
+∞
+X
+n + 2k
+k=0
+
+2k+1
+
+·
+
+¸
+
+·
+
+¸
+
+"
+
+#
+
+n+1
+n+2
+n + 2k
+=
++
++ ··· +
++ ···
+2
+4
+2k+1
+
+(The symbol [x] denotes the greatest integer not exceeding x.)
+
+

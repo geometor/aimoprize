@@ -1,0 +1,45 @@
+46rd IMO 2005
+
+Problem 1. Six points are chosen on the sides of an equilateral triangle
+ABC: A1 , A2 on BC, B1 , B2 on CA and C1 , C2 on AB, such that they are
+the vertices of a convex hexagon A1 A2 B1 B2 C1 C2 with equal side lengths.
+Prove that the lines A1 B2 , B1 C2 and C1 A2 are concurrent.
+Problem 2. Let a1 , a2 , . . . be a sequence of integers with infinitely many
+positive and negative terms. Suppose that for every positive integer n the
+numbers a1 , a2 , . . . , an leave n different remainders upon division by n.
+Prove that every integer occurs exactly once in the sequence a1 , a2 , . . ..
+Problem 3. Let x, y, z be three positive reals such that xyz ≥ 1. Prove
+that
+x5 − x2
+y5 − y2
+z5 − z2
++ 2
++ 2
+≥ 0.
+5
+2
+2
+5
+2
+x +y +z
+x +y +z
+x + y2 + z5
+Problem 4. Determine all positive integers relatively prime to all the terms
+of the infinite sequence
+an = 2n + 3n + 6n − 1, n ≥ 1.
+Problem 5. Let ABCD be a fixed convex quadrilateral with BC = DA
+and BC not parallel with DA. Let two variable points E and F lie of the
+sides BC and DA, respectively and satisfy BE = DF . The lines AC and
+BD meet at P , the lines BD and EF meet at Q, the lines EF and AC meet
+at R.
+Prove that the circumcircles of the triangles P QR, as E and F vary, have a
+common point other than P .
+Problem 6. In a mathematical competition, in which 6 problems were
+posed to the participants, every two of these problems were solved by more
+than 25 of the contestants. Moreover, no contestant solved all the 6 problems.
+Show that there are at least 2 contestants who solved exactly 5 problems
+each.
+
+1
+
+

@@ -1,0 +1,56 @@
+Fourth International Olympiad, 1962
+1962/1.
+Find the smallest natural number n which has the following properties:
+(a) Its decimal representation has 6 as the last digit.
+(b) If the last digit 6 is erased and placed in front of the remaining digits,
+the resulting number is four times as large as the original number n.
+
+1962/2.
+Determine all real numbers x which satisfy the inequality:
+√
+
+3−x−
+
+√
+
+1
+x+1> .
+2
+
+1962/3.
+Consider the cube ABCDA0 B 0 C 0 D0 (ABCD and A0 B 0 C 0 D0 are the upper and
+lower bases, respectively, and edges AA0 , BB 0 , CC 0 , DD0 are parallel). The
+point X moves at constant speed along the perimeter of the square ABCD
+in the direction ABCDA, and the point Y moves at the same rate along
+the perimeter of the square B 0 C 0 CB in the direction B 0 C 0 CBB 0 . Points X
+and Y begin their motion at the same instant from the starting positions A
+and B 0 , respectively. Determine and draw the locus of the midpoints of the
+segments XY.
+
+1962/4.
+Solve the equation cos2 x + cos2 2x + cos2 3x = 1.
+
+1962/5.
+On the circle K there are given three distinct points A, B, C. Construct (using
+only straightedge and compasses) a fourth point D on K such that a circle
+can be inscribed in the quadrilateral thus obtained.
+
+1962/6.
+Consider an isosceles triangle. Let r be the radius of its circumscribed circle
+and ρ the radius of its inscribed circle. Prove that the distance d between
+the centers of these two circles is
+q
+
+d=
+
+1962/7.
+
+r(r − 2ρ).
+
+The tetrahedron SABC has the following property: there exist five spheres,
+each tangent to the edges SA, SB, SC, BCCA, AB, or to their extensions.
+(a) Prove that the tetrahedron SABC is regular.
+(b) Prove conversely that for every regular tetrahedron five such spheres
+exist.
+
+

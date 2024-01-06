@@ -1,0 +1,5604 @@
+th
+
+Bremen
+
+International
+Mathematical
+Olympiad
+Germany
+
+2009
+
+Problem Shortlist
+with Solutions
+
+The Problem Selection Committee
+
+The Note of Confidentiality
+
+IMPORTANT
+
+We insistently ask everybody to consider the following IMO Regulations rule:
+
+These Shortlist Problems
+have to be kept strictly confidential
+until IMO 2010.
+
+The Problem Selection Committee
+Konrad Engel, Karl Fegert, Andreas Felgenhauer, Hans-Dietrich Gronau,
+Roger Labahn, Bernd Mulansky, Jürgen Prestin, Christian Reiher,
+Peter Scholze, Eckard Specht, Robert Strich, Martin Welk
+
+gratefully received
+132 problem proposals submitted by 39 countries:
+Algeria, Australia, Austria, Belarus, Belgium, Bulgaria, Colombia,
+Croatia, Czech Republic, El Salvador, Estonia, Finland, France,
+Greece, Hong Kong, Hungary, India, Ireland, Islamic Republic of
+Iran, Japan, Democratic People’s Republic of Korea, Lithuania,
+Luxembourg, The former Yugoslav Republic of Macedonia,
+Mongolia, Netherlands, New Zealand, Pakistan, Peru, Poland,
+Romania, Russian Federation, Slovenia, South Africa, Taiwan,
+Turkey, Ukraine, United Kingdom, United States of America .
+
+Layout: Roger Labahn with LATEX & TEX
+Drawings: Eckard Specht with nicefig 2.0
+
+:
+
+The Problem Selection Committee
+
+Contents
+Problem Shortlist
+
+4
+
+Algebra
+
+12
+
+Combinatorics
+
+26
+
+Geometry
+
+47
+
+Number Theory
+
+69
+
+Algebra
+
+Problem Shortlist
+
+50th IMO 2009
+
+Algebra
+A1
+
+CZE
+
+(Czech Republic)
+
+Find the largest possible integer k, such that the following statement is true:
+Let 2009 arbitrary non-degenerated triangles be given. In every triangle the three sides are
+colored, such that one is blue, one is red and one is white. Now, for every color separately, let
+us sort the lengths of the sides. We obtain
+
+and
+
+b1 ≤ b2 ≤ . . . ≤ b2009
+r1 ≤ r2 ≤ . . . ≤ r2009
+w1 ≤ w2 ≤ . . . ≤ w2009
+
+the lengths of the blue sides,
+the lengths of the red sides,
+the lengths of the white sides.
+
+Then there exist k indices j such that we can form a non-degenerated triangle with side lengths
+bj , rj , wj .
+
+A2
+
+EST
+
+(Estonia)
+
+Let a, b, c be positive real numbers such that
+
+1 1 1
++ + = a + b + c. Prove that
+a b c
+
+1
+1
+1
+3
++
++
+≤ .
+2
+2
+2
+(2a + b + c)
+(2b + c + a)
+(2c + a + b)
+16
+
+A3
+
+FRA
+
+(France)
+
+Determine all functions f from the set of positive integers into the set of positive integers such
+that for all x and y there exists a non degenerated triangle with sides of lengths
+x,
+
+A4
+
+BLR
+
+f (y)
+
+and f (y + f (x) − 1).
+
+(Belarus)
+
+Let a, b, c be positive real numbers such that ab + bc + ca ≤ 3abc. Prove that
+r
+r
+r
+
+√ √
+√
+√
+a2 + b 2
+b2 + c 2
+c 2 + a2
++
++
++3≤ 2
+a+b+ b+c+ c+a .
+a+b
+b+c
+c+a
+
+A5
+
+BLR
+
+(Belarus)
+
+Let f be any function that maps the set of real numbers into the set of real numbers. Prove
+that there exist real numbers x and y such that
+f (x − f (y)) > yf (x) + x.
+
+4
+
+50th IMO 2009
+
+A6
+
+USA
+
+Problem Shortlist
+
+Algebra
+
+(United States of America)
+
+Suppose that s1 , s2 , s3 , . . . is a strictly increasing sequence of positive integers such that the
+subsequences
+ss1 , ss2 , ss3 , . . .
+
+and
+
+ss1 +1 , ss2 +1 , ss3 +1 , . . .
+
+are both arithmetic progressions. Prove that s1 , s2 , s3 , . . . is itself an arithmetic progression.
+
+A7
+
+JPN
+
+(Japan)
+
+Find all functions f from the set of real numbers into the set of real numbers which satisfy for
+all real x, y the identity
+f (xf (x + y)) = f (yf (x)) + x2 .
+
+5
+
+Combinatorics
+
+Problem Shortlist
+
+50th IMO 2009
+
+Combinatorics
+C1
+
+NZL
+
+(New Zealand)
+
+Consider 2009 cards, each having one gold side and one black side, lying in parallel on a long
+table. Initially all cards show their gold sides. Two players, standing by the same long side of
+the table, play a game with alternating moves. Each move consists of choosing a block of 50
+consecutive cards, the leftmost of which is showing gold, and turning them all over, so those
+which showed gold now show black and vice versa. The last player who can make a legal move
+wins.
+(a) Does the game necessarily end?
+(b) Does there exist a winning strategy for the starting player?
+
+C2
+
+ROU
+
+(Romania)
+
+For any integer n ≥ 2, let N (n) be the maximal number of triples (ai , bi , ci ), i = 1, . . . , N (n),
+consisting of nonnegative integers ai , bi and ci such that the following two conditions are satisfied:
+(1) ai + bi + ci = n for all i = 1, . . . , N (n),
+(2) If i 6= j, then ai 6= aj , bi 6= bj and ci 6= cj .
+Determine N (n) for all n ≥ 2.
+Comment. The original problem was formulated for m-tuples instead for triples. The numbers
+N (m, n) are then defined similarly to N (n) in the case m = 3. The numbers N (3, n) and
+N (n, n) should be determined. The case m = 3 is the same as in the present problem. The
+upper bound for N (n, n) can be proved by a simple generalization. The construction of a set
+of triples attaining the bound can be easily done by induction from n to n + 2.
+
+C3
+
+RUS
+
+(Russian Federation)
+
+Let n be a positive integer. Given a sequence ε1 , . . . , εn−1 with εi = 0 or εi = 1 for each
+i = 1, . . . , n − 1, the sequences a0 , . . . , an and b0 , . . . , bn are constructed by the following rules:
+a0 = b0 = 1,
+(
+2ai−1 + 3ai ,
+ai+1 =
+3ai−1 + ai ,
+(
+2bi−1 + 3bi ,
+bi+1 =
+3bi−1 + bi ,
+
+a1 = b1 = 7,
+
+if εi = 0,
+if εi = 1,
+
+for each i = 1, . . . , n − 1,
+
+if εn−i = 0,
+if εn−i = 1,
+
+for each i = 1, . . . , n − 1.
+
+Prove that an = bn .
+
+C4
+
+NLD
+
+(Netherlands)
+
+For an integer m ≥ 1, we consider partitions of a 2m × 2m chessboard into rectangles consisting
+of cells of the chessboard, in which each of the 2m cells along one diagonal forms a separate
+rectangle of side length 1. Determine the smallest possible sum of rectangle perimeters in such
+a partition.
+
+6
+
+50th IMO 2009
+
+C5
+
+NLD
+
+Problem Shortlist
+
+Combinatorics
+
+(Netherlands)
+
+Five identical empty buckets of 2-liter capacity stand at the vertices of a regular pentagon.
+Cinderella and her wicked Stepmother go through a sequence of rounds: At the beginning of
+every round, the Stepmother takes one liter of water from the nearby river and distributes it
+arbitrarily over the five buckets. Then Cinderella chooses a pair of neighboring buckets, empties
+them into the river, and puts them back. Then the next round begins. The Stepmother’s goal
+is to make one of these buckets overflow. Cinderella’s goal is to prevent this. Can the wicked
+Stepmother enforce a bucket overflow?
+
+C6
+
+BGR
+
+(Bulgaria)
+
+On a 999 × 999 board a limp rook can move in the following way: From any square it can move
+to any of its adjacent squares, i.e. a square having a common side with it, and every move
+must be a turn, i.e. the directions of any two consecutive moves must be perpendicular. A nonintersecting route of the limp rook consists of a sequence of pairwise different squares that the
+limp rook can visit in that order by an admissible sequence of moves. Such a non-intersecting
+route is called cyclic, if the limp rook can, after reaching the last square of the route, move
+directly to the first square of the route and start over.
+How many squares does the longest possible cyclic, non-intersecting route of a limp rook
+visit?
+
+C7
+
+RUS
+
+(Russian Federation)
+
+Variant 1. A grasshopper jumps along the real axis. He starts at point 0 and makes 2009
+jumps to the right with lengths 1, 2, . . . , 2009 in an arbitrary order. Let M be a set of 2008
+positive integers less than 1005 · 2009. Prove that the grasshopper can arrange his jumps in
+such a way that he never lands on a point from M .
+Variant 2. Let n be a nonnegative integer. A grasshopper jumps along the real axis. He starts
+at point 0 and makes n + 1 jumps to the right with pairwise different positive integral lengths
+a1 , a2 , . . . , an+1 in an arbitrary order. Let M be a set of n positive integers in the interval (0, s),
+where s = a1 + a2 + · · · + an+1 . Prove that the grasshopper can arrange his jumps in such a
+way that he never lands on a point from M .
+
+C8
+
+AUT
+
+(Austria)
+
+For any integer n ≥ 2, we compute the integer h(n) by applying the following procedure to its
+decimal representation. Let r be the rightmost digit of n.
+(1) If r = 0, then the decimal representation of h(n) results from the decimal representation
+of n by removing this rightmost digit 0.
+(2) If 1 ≤ r ≤ 9 we split the decimal representation of n into a maximal right part R that
+solely consists of digits not less than r and into a left part L that either is empty or ends
+with a digit strictly smaller than r. Then the decimal representation of h(n) consists of the
+decimal representation of L, followed by two copies of the decimal representation of R − 1.
+For instance, for the number n = 17,151,345,543, we will have L = 17,151, R = 345,543
+and h(n) = 17,151,345,542,345,542.
+Prove that, starting with an arbitrary integer n ≥ 2, iterated application of h produces the
+integer 1 after finitely many steps.
+
+7
+
+Geometry
+
+Problem Shortlist
+
+50th IMO 2009
+
+Geometry
+G1
+
+BEL
+
+(Belgium)
+
+Let ABC be a triangle with AB = AC. The angle bisectors of A and B meet the sides BC
+and AC in D and E, respectively. Let K be the incenter of triangle ADC. Suppose that
+∠BEK = 45 ◦. Find all possible values of ∠BAC.
+
+G2
+
+RUS
+
+(Russian Federation)
+
+Let ABC be a triangle with circumcenter O. The points P and Q are interior points of the
+sides CA and AB, respectively. The circle k passes through the midpoints of the segments BP ,
+CQ, and P Q. Prove that if the line P Q is tangent to circle k then OP = OQ.
+
+G3
+
+IRN
+
+(Islamic Republic of Iran)
+
+Let ABC be a triangle. The incircle of ABC touches the sides AB and AC at the points Z
+and Y , respectively. Let G be the point where the lines BY and CZ meet, and let R and S be
+points such that the two quadrilaterals BCY R and BCSZ are parallelograms.
+Prove that GR = GS.
+
+G4
+
+UNK
+
+(United Kingdom)
+
+Given a cyclic quadrilateral ABCD, let the diagonals AC and BD meet at E and the lines AD
+and BC meet at F . The midpoints of AB and CD are G and H, respectively. Show that EF
+is tangent at E to the circle through the points E, G, and H.
+
+G5
+
+POL
+
+(Poland)
+
+Let P be a polygon that is convex and symmetric to some point O. Prove that for some
+parallelogram R satisfying P ⊂ R we have
+|R| √
+≤ 2
+|P |
+where |R| and |P | denote the area of the sets R and P , respectively.
+
+G6
+
+UKR
+
+(Ukraine)
+
+Let the sides AD and BC of the quadrilateral ABCD (such that AB is not parallel to CD)
+intersect at point P . Points O1 and O2 are the circumcenters and points H1 and H2 are the
+orthocenters of triangles ABP and DCP , respectively. Denote the midpoints of segments
+O1 H1 and O2 H2 by E1 and E2 , respectively. Prove that the perpendicular from E1 on CD, the
+perpendicular from E2 on AB and the line H1 H2 are concurrent.
+
+G7
+
+IRN
+
+(Islamic Republic of Iran)
+
+Let ABC be a triangle with incenter I and let X, Y and Z be the incenters of the triangles
+BIC, CIA and AIB, respectively. Let the triangle XY Z be equilateral. Prove that ABC is
+equilateral too.
+
+8
+
+50th IMO 2009
+
+G8
+
+BGR
+
+Problem Shortlist
+
+Geometry
+
+(Bulgaria)
+
+Let ABCD be a circumscribed quadrilateral. Let g be a line through A which meets the
+segment BC in M and the line CD in N . Denote by I1 , I2 , and I3 the incenters of 4ABM ,
+4M N C, and 4N DA, respectively. Show that the orthocenter of 4I1 I2 I3 lies on g.
+
+9
+
+Number Theory
+
+Problem Shortlist
+
+50th IMO 2009
+
+Number Theory
+N1
+
+AUS
+
+(Australia)
+
+A social club has n members. They have the membership numbers 1, 2, . . . , n, respectively.
+From time to time members send presents to other members, including items they have already
+received as presents from other members. In order to avoid the embarrassing situation that a
+member might receive a present that he or she has sent to other members, the club adds the
+following rule to its statutes at one of its annual general meetings:
+“A member with membership number a is permitted to send a present to a member with
+membership number b if and only if a(b − 1) is a multiple of n.”
+Prove that, if each member follows this rule, none will receive a present from another member
+that he or she has already sent to other members.
+Alternative formulation: Let G be a directed graph with n vertices v1 , v2 , . . . , vn , such that
+there is an edge going from va to vb if and only if a and b are distinct and a(b − 1) is a multiple
+of n. Prove that this graph does not contain a directed cycle.
+
+N2
+
+PER
+
+(Peru)
+
+A positive integer N is called balanced, if N = 1 or if N can be written as a product of an
+even number of not necessarily distinct primes. Given positive integers a and b, consider the
+polynomial P defined by P (x) = (x + a)(x + b).
+(a) Prove that there exist distinct positive integers a and b such that all the numbers P (1), P (2),
+. . . , P (50) are balanced.
+(b) Prove that if P (n) is balanced for all positive integers n, then a = b.
+
+N3
+
+EST
+
+(Estonia)
+
+Let f be a non-constant function from the set of positive integers into the set of positive integers,
+such that a − b divides f (a) − f (b) for all distinct positive integers a, b. Prove that there exist
+infinitely many primes p such that p divides f (c) for some positive integer c.
+
+N4
+
+PRK
+
+(Democratic People’s Republic of Korea)
+
+Find all positive integers n such that there exists a sequence of positive integers a1 , a2 , . . . , an
+satisfying
+a2 + 1
+ak+1 = k
+−1
+ak−1 + 1
+for every k with 2 ≤ k ≤ n − 1.
+
+N5
+
+HUN
+
+(Hungary)
+
+Let P (x) be a non-constant polynomial with integer coefficients. Prove that there is no function
+T from the set of integers into the set of integers such that the number of integers x with
+T n (x) = x is equal to P (n) for every n ≥ 1, where T n denotes the n-fold application of T .
+
+10
+
+50th IMO 2009
+
+N6
+
+TUR
+
+Problem Shortlist
+
+Number Theory
+
+(Turkey)
+
+Let k be a positive integer. Show that if there exists a sequence a0 , a1 , . . . of integers satisfying
+the condition
+an =
+
+an−1 + nk
+n
+
+for all n ≥ 1,
+
+then k − 2 is divisible by 3.
+
+N7
+
+MNG
+
+(Mongolia)
+
+Let a and b be distinct integers greater than 1. Prove that there exists a positive integer n such
+that (an − 1)(bn − 1) is not a perfect square.
+
+11
+
+A1
+
+Algebra
+
+50th IMO 2009
+
+Algebra
+A1
+
+CZE
+
+(Czech Republic)
+
+Find the largest possible integer k, such that the following statement is true:
+Let 2009 arbitrary non-degenerated triangles be given. In every triangle the three sides are
+colored, such that one is blue, one is red and one is white. Now, for every color separately, let
+us sort the lengths of the sides. We obtain
+
+and
+
+b1 ≤ b2 ≤ . . . ≤ b2009
+r1 ≤ r2 ≤ . . . ≤ r2009
+w1 ≤ w2 ≤ . . . ≤ w2009
+
+the lengths of the blue sides,
+the lengths of the red sides,
+the lengths of the white sides.
+
+Then there exist k indices j such that we can form a non-degenerated triangle with side lengths
+bj , rj , wj .
+
+Solution. We will prove that the largest possible number k of indices satisfying the given
+condition is one.
+Firstly we prove that b2009 , r2009 , w2009 are always lengths of the sides of a triangle. Without
+loss of generality we may assume that w2009 ≥ r2009 ≥ b2009 . We show that the inequality
+b2009 + r2009 > w2009 holds. Evidently, there exists a triangle with side lengths w, b, r for the
+white, blue and red side, respectively, such that w2009 = w. By the conditions of the problem
+we have b + r > w, b2009 ≥ b and r2009 ≥ r. From these inequalities it follows
+b2009 + r2009 ≥ b + r > w = w2009 .
+Secondly we will describe a sequence of triangles for which wj , bj , rj with j < 2009 are not the
+lengths of the sides of a triangle. Let us define the sequence ∆j , j = 1, 2, . . . , 2009, of triangles,
+where ∆j has
+a blue side of length 2j,
+a red side of length j for all j ≤ 2008 and 4018 for j = 2009,
+and a white side of length j + 1 for all j ≤ 2007, 4018 for j = 2008 and 1 for j = 2009.
+Since
+(j + 1) + j > 2j ≥ j + 1> j,
+2j + j > 4018 > 2j > j,
+4018 + 1 > 2j = 4018 > 1,
+
+if j ≤ 2007,
+if j = 2008,
+if j = 2009,
+
+such a sequence of triangles exists. Moreover, wj = j, rj = j and bj = 2j for 1 ≤ j ≤ 2008.
+Then
+wj + rj = j + j = 2j = bj ,
+i.e., bj , rj and wj are not the lengths of the sides of a triangle for 1 ≤ j ≤ 2008.
+
+12
+
+Algebra
+
+50th IMO 2009
+
+A2
+
+EST
+
+A2
+
+(Estonia)
+
+Let a, b, c be positive real numbers such that
+
+1 1 1
++ + = a + b + c. Prove that
+a b c
+
+1
+1
+1
+3
++
++
+≤ .
+2
+2
+2
+(2a + b + c)
+(2b + c + a)
+(2c + a + b)
+16
+
+Solution 1. For positive real numbers x, y, z, from the arithmetic-geometric-mean inequality,
+p
+2x + y + z = (x + y) + (x + z) ≥ 2 (x + y)(x + z),
+we obtain
+1
+1
+≤
+.
+2
+(2x + y + z)
+4(x + y)(x + z)
+Applying this to the left-hand side terms of the inequality to prove, we get
+1
+1
+1
++
++
+2
+2
+(2a + b + c)
+(2b + c + a)
+(2c + a + b)2
+1
+1
+1
+≤
++
++
+4(a + b)(a + c) 4(b + c)(b + a) 4(c + a)(c + b)
+a+b+c
+(b + c) + (c + a) + (a + b)
+=
+.
+=
+4(a + b)(b + c)(c + a)
+2(a + b)(b + c)(c + a)
+
+(1)
+
+A second application of the inequality of the arithmetic-geometric mean yields
+a2 b + a2 c + b2 a + b2 c + c2 a + c2 b ≥ 6abc,
+or, equivalently,
+9(a + b)(b + c)(c + a) ≥ 8(a + b + c)(ab + bc + ca).
+
+(2)
+
+The supposition a1 + 1b + 1c = a + b + c can be written as
+ab + bc + ca = abc(a + b + c).
+
+(3)
+
+Applying the arithmetic-geometric-mean inequality x2 y 2 + x2 z 2 ≥ 2x2 yz thrice, we get
+a2 b2 + b2 c2 + c2 a2 ≥ a2 bc + ab2 c + abc2 ,
+which is equivalent to
+(ab + bc + ca)2 ≥ 3abc(a + b + c).
+
+(4)
+
+13
+
+A2
+
+Algebra
+
+50th IMO 2009
+
+Combining (1), (2), (3), and (4), we will finish the proof:
+a+b+c
+(a + b + c)(ab + bc + ca) ab + bc + ca
+abc(a + b + c)
+=
+·
+·
+2(a + b)(b + c)(c + a)
+2(a + b)(b + c)(c + a)
+abc(a + b + c) (ab + bc + ca)2
+1
+3
+9
+·1· = .
+≤
+2·8
+3
+16
+Solution 2. Equivalently, we prove the homogenized inequality
+(a + b + c)2
+(a + b + c)2
+(a + b + c)2
+3
++
++
+≤ (a + b + c)
+2
+2
+2
+(2a + b + c)
+(a + 2b + c)
+(a + b + 2c)
+16
+
+
+
+1 1 1
++ +
+a b c
+
+
+
+for all positive real numbers a, b, c. Without loss of generality we choose a + b + c = 1. Thus,
+the problem is equivalent to prove for all a, b, c > 0, fulfilling this condition, the inequality
+
+
+1
+1
+3 1 1 1
+1
++ +
+.
+(5)
++
++
+≤
+(1 + a)2 (1 + b)2 (1 + c)2
+16 a b c
+Applying Jensen’s inequality to the function f (x) =
+
+x
+, which is concave for 0 ≤ x ≤ 2
+(1 + x)2
+
+and increasing for 0 ≤ x ≤ 1, we obtain
+α
+
+a
+b
+c
+A
++β
++γ
+≤ (α + β + γ)
+,
+2
+2
+2
+(1 + a)
+(1 + b)
+(1 + c)
+(1 + A)2
+
+where A =
+
+αa + βb + γc
+.
+α+β+γ
+
+1
+1
+1
+Choosing α = , β = , and γ = , we can apply the harmonic-arithmetic-mean inequality
+a
+b
+c
+A= 1
+
+3
+
++ 1b + 1c
+a
+
+≤
+
+a+b+c
+1
+= < 1.
+3
+3
+
+Finally we prove (5):
+
+1 1 1
+A
++ +
+a b c (1 + A)2
+
+
+
+
+1
+3 1 1 1
+1 1 1
+3
+≤
++ +
++ +
+.
+2 =
+a b c
+16 a b c
+1+ 1
+
+1
+1
+1
++
++
+≤
+(1 + a)2 (1 + b)2 (1 + c)2
+
+
+
+3
+
+14
+
+Algebra
+
+50th IMO 2009
+
+A3
+
+FRA
+
+A3
+
+(France)
+
+Determine all functions f from the set of positive integers into the set of positive integers such
+that for all x and y there exists a non degenerated triangle with sides of lengths
+x,
+
+f (y)
+
+and f (y + f (x) − 1).
+
+Solution. The identity function f (x) = x is the only solution of the problem.
+If f (x) = x for all positive integers x, the given three lengths are x, y = f (y) and z =
+f (y + f (x) − 1) = x + y − 1. Because of x ≥ 1, y ≥ 1 we have z ≥ max{x, y} > |x − y| and
+z < x + y. From this it follows that a triangle with these side lengths exists and does not
+degenerate. We prove in several steps that there is no other solution.
+Step 1. We show f (1) = 1.
+If we had f (1) = 1+m > 1 we would conclude f (y) = f (y +m) for all y considering the triangle
+with the side lengths 1, f (y) and f (y + m). Thus, f would be m-periodic and, consequently,
+bounded. Let B be a bound, f (x) ≤ B. If we choose x > 2B we obtain the contradiction
+x > 2B ≥ f (y) + f (y + f (x) − 1).
+Step 2. For all positive integers z, we have f (f (z)) = z.
+Setting x = z and y = 1 this follows immediately from Step 1.
+Step 3. For all integers z ≥ 1, we have f (z) ≤ z.
+Let us show, that the contrary leads to a contradiction. Assume w + 1 = f (z) > z for some
+z. From Step 1 we know that w ≥ z ≥ 2. Let M = max{f (1), f (2), . . . , f (w)} be the largest
+value of f for the first w integers. First we show, that no positive integer t exists with
+f (t) >
+
+z−1
+· t + M,
+w
+
+(1)
+
+otherwise we decompose the smallest value t as t = wr + s where r is an integer and 1 ≤ s ≤ w.
+Because of the definition of M , we have t > w. Setting x = z and y = t − w we get from the
+triangle inequality
+z + f (t − w) > f ((t − w) + f (z) − 1) = f (t − w + w) = f (t).
+Hence,
+f (t − w) ≥ f (t) − (z − 1) >
+
+z−1
+(t − w) + M,
+w
+
+a contradiction to the minimality of t.
+Therefore the inequality (1) fails for all t ≥ 1, we have proven
+f (t) ≤
+
+z−1
+· t + M,
+w
+
+(2)
+
+instead.
+15
+
+A3
+
+Algebra
+
+50th IMO 2009
+
+Now, using (2), we finish the proof of Step 3. Because of z ≤ w we have
+choose an integer t sufficiently large to fulfill the condition
+
+2
+
+
+z−1
+z−1
+t+
++ 1 M < t.
+w
+w
+
+z−1
+< 1 and we can
+w
+
+Applying (2) twice we get
+z−1
+z−1
+f (t) + M ≤
+f (f (t)) ≤
+w
+w
+
+
+
+z−1
+t+M
+w
+
+in contradiction to Step 2, which proves Step 3.
+Final step. Thus, following Step 2 and Step 3, we obtain
+z = f (f (z)) ≤ f (z) ≤ z
+and f (z) = z for all positive integers z is proven.
+
+16
+
+
++M <t
+
+A4
+
+BLR
+
+A4
+
+Algebra
+
+50th IMO 2009
+(Belarus)
+
+Let a, b, c be positive real numbers such that ab + bc + ca ≤ 3abc. Prove that
+r
+r
+r
+
+√ √
+√
+√
+a2 + b 2
+b2 + c 2
+c 2 + a2
++
++
++3≤ 2
+a+b+ b+c+ c+a .
+a+b
+b+c
+c+a
+
+Solution. Starting with the terms of the right-hand side, the quadratic-arithmetic-mean inequality yields
+s 
+r
+
+√ √
+ab
+1
+a2 + b 2
+2 a+b=2
+2+
+a+b 2
+ab
+! r
+r
+r
+r
+ab
+1 √
+a2 + b 2
+2ab
+a2 + b 2
+·
+=
++
+≥2
+2+
+a+b 2
+ab
+a+b
+a+b
+and, analogously,
+√ √
+2 b+c≥
+
+r
+
+2bc
++
+b+c
+
+r
+
+b 2 + c2
+,
+b+c
+
+√ √
+2 c+a≥
+
+r
+
+2ca
++
+c+a
+
+r
+
+c 2 + a2
+.
+c+a
+
+Applying the inequality between the arithmetic mean and the squared harmonic mean will
+finish the proof:
+r
+r
+r
+v
+r
+u
+2ab
+2bc
+2ca
+3
+3abc
++
++
+≥3·u
+≥ 3.
+q 2 q 2 q 2 =3·
+t
+a+b
+b+c
+c+a
+ab + bc + ca
+a+b
+b+c
+c+a
++ 2bc + 2ca
+2ab
+
+17
+
+A5
+A5
+
+Algebra
+BLR
+
+50th IMO 2009
+
+(Belarus)
+
+Let f be any function that maps the set of real numbers into the set of real numbers. Prove
+that there exist real numbers x and y such that
+f (x − f (y)) > yf (x) + x.
+
+Solution 1. Assume that
+f (x − f (y)) ≤ yf (x) + x for all real x, y.
+
+(1)
+
+Let a = f (0). Setting y = 0 in (1) gives f (x − a) ≤ x for all real x and, equivalently,
+f (y) ≤ y + a for all real y.
+
+(2)
+
+Setting x = f (y) in (1) yields in view of (2)
+a = f (0) ≤ yf (f (y)) + f (y) ≤ yf (f (y)) + y + a.
+This implies 0 ≤ y(f (f (y)) + 1) and thus
+f (f (y)) ≥ −1 for all y > 0.
+
+(3)
+
+From (2) and (3) we obtain −1 ≤ f (f (y)) ≤ f (y) + a for all y > 0, so
+f (y) ≥ −a − 1 for all y > 0.
+
+(4)
+
+f (x) ≤ 0 for all real x.
+
+(5)
+
+Now we show that
+Assume the contrary, i.e. there is some x such that f (x) > 0. Take any y such that
+y < x − a and y <
+
+−a − x − 1
+.
+f (x)
+
+Then in view of (2)
+x − f (y) ≥ x − (y + a) > 0
+and with (1) and (4) we obtain
+yf (x) + x ≥ f (x − f (y)) ≥ −a − 1,
+whence
+y≥
+
+−a − x − 1
+f (x)
+
+contrary to our choice of y. Thereby, we have established (5).
+Setting x = 0 in (5) leads to a = f (0) ≤ 0 and (2) then yields
+f (x) ≤ x for all real x.
+
+(6)
+
+Now choose y such that y > 0 and y > −f (−1) − 1 and set x = f (y) − 1. From (1), (5) and
+18
+
+Algebra
+
+50th IMO 2009
+
+A5
+
+(6) we obtain
+f (−1) = f (x − f (y)) ≤ yf (x) + x = yf (f (y) − 1) + f (y) − 1 ≤ y(f (y) − 1) − 1 ≤ −y − 1,
+i.e. y ≤ −f (−1) − 1, a contradiction to the choice of y.
+
+Solution 2. Assume that
+f (x − f (y)) ≤ yf (x) + x for all real x, y.
+
+(7)
+
+Let a = f (0). Setting y = 0 in (7) gives f (x − a) ≤ x for all real x and, equivalently,
+f (y) ≤ y + a for all real y.
+
+(8)
+
+f (z) ≥ 0 for all z ≥ 1.
+
+(9)
+
+Now we show that
+Let z ≥ 1 be fixed, set b = f (z) and assume that b < 0. Setting x = w + b and y = z in (7)
+gives
+f (w) − zf (w + b) ≤ w + b for all real w.
+(10)
+Applying (10) to w, w + b, . . . , w + (n − 1)b, where n = 1, 2, . . . , leads to
+f (w) − z n f (w + nb) = (f (w) − zf (w + b)) + z (f (w + b) − zf (w + 2b))
++ · · · + z n−1 (f (w + (n − 1)b) − zf (w + nb))
+≤(w + b) + z(w + 2b) + · · · + z n−1 (w + nb).
+From (8) we obtain
+f (w + nb) ≤ w + nb + a
+and, thus, we have for all positive integers n
+f (w) ≤ (1 + z + · · · + z n−1 + z n )w + (1 + 2z + · · · + nz n−1 + nz n )b + z n a.
+
+(11)
+
+With w = 0 we get
+a ≤ (1 + 2z + · · · + nz n−1 + nz n )b + az n .
+
+(12)
+
+In view of the assumption b < 0 we find some n such that
+a > (nb + a)z n
+
+(13)
+
+because the right hand side tends to −∞ as n → ∞. Now (12) and (13) give the desired
+contradiction and (9) is established. In addition, we have for z = 1 the strict inequality
+f (1) > 0.
+
+(14)
+
+Indeed, assume that f (1) = 0. Then setting w = −1 and z = 1 in (11) leads to
+f (−1) ≤ −(n + 1) + a
+which is false if n is sufficiently large.
+To complete the proof we set t = min{−a, −2/f (1)}. Setting x = 1 and y = t in (7) gives
+f (1 − f (t)) ≤ tf (1) + 1 ≤ −2 + 1 = −1.
+
+(15)
+19
+
+A5
+
+Algebra
+
+50th IMO 2009
+
+On the other hand, by (8) and the choice of t we have f (t) ≤ t + a ≤ 0 and hence 1 − f (t) ≥ 1.
+The inequality (9) yields
+f (1 − f (t)) ≥ 0,
+which contradicts (15).
+
+20
+
+A6
+
+A6
+
+Algebra
+
+50th IMO 2009
+USA
+
+(United States of America)
+
+Suppose that s1 , s2 , s3 , . . . is a strictly increasing sequence of positive integers such that the
+subsequences
+ss1 , ss2 , ss3 , . . .
+
+and
+
+ss1 +1 , ss2 +1 , ss3 +1 , . . .
+
+are both arithmetic progressions. Prove that s1 , s2 , s3 , . . . is itself an arithmetic progression.
+
+Solution 1. Let D be the common difference of the progression ss1 , ss2 , . . . . Let for n =
+1, 2, . . .
+dn = sn+1 − sn .
+We have to prove that dn is constant. First we show that the numbers dn are bounded. Indeed,
+by supposition dn ≥ 1 for all n. Thus, we have for all n
+dn = sn+1 − sn ≤ dsn + dsn +1 + · · · + dsn+1 −1 = ssn+1 − ssn = D.
+The boundedness implies that there exist
+m = min{dn : n = 1, 2, . . . } and M = max{dn : n = 1, 2, . . . }.
+It suffices to show that m = M . Assume that m < M . Choose n such that dn = m. Considering
+a telescoping sum of m = dn = sn+1 − sn items not greater than M leads to
+D = ssn+1 − ssn = ssn +m − ssn = dsn + dsn +1 + · · · + dsn +m−1 ≤ mM
+
+(1)
+
+and equality holds if and only if all items of the sum are equal to M . Now choose n such that
+dn = M . In the same way, considering a telescoping sum of M items not less than m we obtain
+D = ssn+1 − ssn = ssn +M − ssn = dsn + dsn +1 + · · · + dsn +M −1 ≥ M m
+
+(2)
+
+and equality holds if and only if all items of the sum are equal to m. The inequalities (1) and
+(2) imply that D = M m and that
+dsn = dsn +1 = · · · = dsn+1 −1 = M if dn = m,
+dsn = dsn +1 = · · · = dsn+1 −1 = m if dn = M.
+Hence, dn = m implies dsn = M . Note that sn ≥ s1 + (n − 1) ≥ n for all n and moreover sn > n
+if dn = n, because in the case sn = n we would have m = dn = dsn = M in contradiction to
+the assumption m < M . In the same way dn = M implies dsn = m and sn > n. Consequently,
+there is a strictly increasing sequence n1 , n2 , . . . such that
+dsn1 = M,
+
+dsn2 = m,
+
+dsn3 = M,
+
+dsn4 = m,
+
+....
+
+The sequence ds1 , ds2 , . . . is the sequence of pairwise differences of ss1 +1 , ss2 +1 , . . . and ss1 , ss2 , . . . ,
+hence also an arithmetic progression. Thus m = M .
+
+21
+
+A6
+
+Algebra
+
+50th IMO 2009
+
+Solution 2. Let the integers D and E be the common differences of the progressions ss1 , ss2 , . . .
+and ss1 +1 , ss2 +1 , . . . , respectively. Let briefly A = ss1 − D and B = ss1 +1 − E. Then, for all
+positive integers n,
+ssn = A + nD,
+
+ssn +1 = B + nE.
+
+Since the sequence s1 , s2 , . . . is strictly increasing, we have for all positive integers n
+ssn < ssn +1 ≤ ssn+1 ,
+which implies
+A + nD < B + nE ≤ A + (n + 1)D,
+and thereby
+0 < B − A + n(E − D) ≤ D,
+which implies D − E = 0 and thus
+0 ≤ B − A ≤ D.
+
+(3)
+
+Let m = min{sn+1 − sn : n = 1, 2, . . . }. Then
+B − A = (ss1 +1 − E) − (ss1 − D) = ss1 +1 − ss1 ≥ m
+
+(4)
+
+D = A + (s1 + 1)D − (A + s1 D) = sss1 +1 − sss1 = sB+D − sA+D ≥ m(B − A).
+
+(5)
+
+and
+From (3) we consider two cases.
+Case 1. B − A = D.
+Then, for each positive integer n, ssn +1 = B + nD = A + (n + 1)D = ssn+1 , hence sn+1 = sn + 1
+and s1 , s2 , . . . is an arithmetic progression with common difference 1.
+Case 2. B − A < D.
+
+Choose some positive integer N such that sN +1 − sN = m. Then
+
+m(A − B + D − 1) = m((A + (N + 1)D) − (B + N D + 1))
+≤ sA+(N +1)D − sB+N D+1 = sssN +1 − sssN +1 +1
+= (A + sN +1 D) − (B + (sN + 1)D) = (sN +1 − sN )D + A − B − D
+= mD + A − B − D,
+i.e.,
+(B − A − m) + (D − m(B − A)) ≤ 0.
+
+(6)
+
+The inequalities (4)-(6) imply that
+B − A = m and D = m(B − A).
+Assume that there is some positive integer n such that sn+1 > sn + m. Then
+m(m + 1) ≤ m(sn+1 − sn ) ≤ ssn+1 − ssn = (A + (n + 1)D) − (A + nD)) = D = m(B − A) = m2 ,
+a contradiction. Hence s1 , s2 , . . . is an arithmetic progression with common difference m.
+
+22
+
+A7
+
+JPN
+
+A7
+
+Algebra
+
+50th IMO 2009
+(Japan)
+
+Find all functions f from the set of real numbers into the set of real numbers which satisfy for
+all real x, y the identity
+f (xf (x + y)) = f (yf (x)) + x2 .
+
+Solution 1. It is no hard to see that the two functions given by f (x) = x and f (x) = −x for
+all real x respectively solve the functional equation. In the sequel, we prove that there are no
+further solutions.
+Let f be a function satisfying the given equation. It is clear that f cannot be a constant. Let us
+t
+)
+first show that f (0) = 0. Suppose that f (0) 6= 0. For any real t, substituting (x, y) = (0, f (0)
+into the given functional equation, we obtain
+f (0) = f (t),
+
+(1)
+
+contradicting the fact that f is not a constant function. Therefore, f (0) = 0. Next for any t,
+substituting (x, y) = (t, 0) and (x, y) = (t, −t) into the given equation, we get
+f (tf (t)) = f (0) + t2 = t2 ,
+and
+f (tf (0)) = f (−tf (t)) + t2 ,
+respectively. Therefore, we conclude that
+f (tf (t)) = t2 ,
+
+f (−tf (t)) = −t2 ,
+
+for every real t.
+
+(2)
+
+Consequently, for every real v, there exists a real u, such that f (u) = v. We also see that if
+f (t) = 0, then 0 = f (tf (t)) = t2 so that t = 0, and thus 0 is the only real number satisfying
+f (t) = 0.
+We next show that for any real number s,
+f (−s) = −f (s).
+
+(3)
+
+This is clear if f (s) = 0. Suppose now f (s) < 0, then we can find a number t for which
+f (s) = −t2 . As t 6= 0 implies f (t) 6= 0, we can also find number a such that af (t) = s.
+Substituting (x, y) = (t, a) into the given equation, we get
+f (tf (t + a)) = f (af (t)) + t2 = f (s) + t2 = 0,
+and therefore, tf (t + a) = 0, which implies t + a = 0, and hence s = −tf (t). Consequently,
+f (−s) = f (tf (t)) = t2 = −(−t2 ) = −f (s) holds in this case.
+Finally, suppose f (s) > 0 holds. Then there exists a real number t 6= 0 for which f (s) = t2 .
+Choose a number a such that tf (a) = s. Substituting (x, y) = (t, a − t) into the given equation,
+we get f (s) = f (tf (a)) = f ((a−t)f (t))+t2 = f ((a−t)f (t))+f (s). So we have f ((a−t)f (t)) = 0,
+from which we conclude that (a − t)f (t) = 0. Since f (t) 6= 0, we get a = t so that s = tf (t)
+and thus we see f (−s) = f (−tf (t)) = −t2 = −f (s) holds in this case also. This observation
+finishes the proof of (3).
+By substituting (x, y) = (s, t), (x, y) = (t, −s−t) and (x, y) = (−s−t, s) into the given equation,
+23
+
+A7
+
+Algebra
+
+50th IMO 2009
+
+we obtain
+f (sf (s + t))) = f (tf (s)) + s2 ,
+f (tf (−s)) = f ((−s − t)f (t)) + t2 ,
+and
+f ((−s − t)f (−t)) = f (sf (−s − t)) + (s + t)2 ,
+respectively. Using the fact that f (−x) = −f (x) holds for all x to rewrite the second and the
+third equation, and rearranging the terms, we obtain
+f (tf (s)) − f (sf (s + t)) = −s2 ,
+f (tf (s)) − f ((s + t)f (t)) = −t2 ,
+f ((s + t)f (t)) + f (sf (s + t)) = (s + t)2 .
+Adding up these three equations now yields 2f (tf (s)) = 2ts, and therefore, we conclude that
+f (tf (s)) = ts holds for every pair of real numbers s, t. By fixing s so that f (s) = 1, we obtain
+f (x) = sx. In view of the given equation, we see that s = ±1. It is easy to check that both
+functions f (x) = x and f (x) = −x satisfy the given functional equation, so these are the desired
+solutions.
+
+Solution 2. As in Solution 1 we obtain (1), (2) and (3).
+Now we prove that f is injective. For this purpose, let us assume that f (r) = f (s) for some
+r 6= s. Then, by (2)
+r2 = f (rf (r)) = f (rf (s)) = f ((s − r)f (r)) + r2 ,
+where the last statement follows from the given functional equation with x = r and y = s − r.
+Hence, h = (s − r)f (r) satisfies f (h) = 0 which implies h2 = f (hf (h)) = f (0) = 0, i.e., h = 0.
+Then, by s 6= r we have f (r) = 0 which implies r = 0, and finally f (s) = f (r) = f (0) = 0.
+Analogously, it follows that s = 0 which gives the contradiction r = s.
+To prove |f (1)| = 1 we apply (2) with t = 1 and also with t = f (1) and obtain f (f (1)) = 1 and
+(f (1))2 = f (f (1) · f (f (1))) = f (f (1)) = 1.
+Now we choose η ∈ {−1, 1} with f (1) = η. Using that f is odd and the given equation with
+x = 1, y = z (second equality) and with x = −1, y = z + 2 (fourth equality) we obtain
+f (z) + 2η = η(f (zη) + 2) = η(f (f (z + 1)) + 1) = η(−f (−f (z + 1)) + 1)
+= −ηf ((z + 2)f (−1)) = −ηf ((z + 2)(−η)) = ηf ((z + 2)η) = f (z + 2).
+Hence,
+f (z + 2η) = ηf (ηz + 2) = η(f (ηz) + 2η) = f (z) + 2.
+Using this argument twice we obtain
+f (z + 4η) = f (z + 2η) + 2 = f (z) + 4.
+Substituting z = 2f (x) we have
+f (2f (x)) + 4 = f (2f (x) + 4η) = f (2f (x + 2)),
+24
+
+(4)
+
+50th IMO 2009
+
+Algebra
+
+A7
+
+where the last equality follows from (4). Applying the given functional equation we proceed to
+f (2f (x + 2)) = f (xf (2)) + 4 = f (2ηx) + 4
+where the last equality follows again from (4) with z = 0, i.e., f (2) = 2η. Finally, f (2f (x)) =
+f (2ηx) and by injectivity of f we get 2f (x) = 2ηx and hence the two solutions.
+
+25
+
+C1
+
+Combinatorics
+
+50th IMO 2009
+
+Combinatorics
+C1
+
+NZL
+
+(New Zealand)
+
+Consider 2009 cards, each having one gold side and one black side, lying in parallel on a long
+table. Initially all cards show their gold sides. Two players, standing by the same long side of
+the table, play a game with alternating moves. Each move consists of choosing a block of 50
+consecutive cards, the leftmost of which is showing gold, and turning them all over, so those
+which showed gold now show black and vice versa. The last player who can make a legal move
+wins.
+(a) Does the game necessarily end?
+(b) Does there exist a winning strategy for the starting player?
+
+Solution. (a) We interpret a card showing black as the digit 0 and a card showing gold as the
+digit 1. Thus each position of the 2009 cards, read from left to right, corresponds bijectively to
+a nonnegative integer written in binary notation of 2009 digits, where leading zeros are allowed.
+Each move decreases this integer, so the game must end.
+(b) We show that there is no winning strategy for the starting player. We label the cards from
+right to left by 1, . . . , 2009 and consider the set S of cards with labels 50i, i = 1, 2, . . . , 40. Let
+gn be the number of cards from S showing gold after n moves. Obviously, g0 = 40. Moreover,
+|gn − gn+1 | = 1 as long as the play goes on. Thus, after an odd number of moves, the nonstarting player finds a card from S showing gold and hence can make a move. Consequently,
+this player always wins.
+
+26
+
+C2
+
+C2
+
+Combinatorics
+
+50th IMO 2009
+ROU
+
+(Romania)
+
+For any integer n ≥ 2, let N (n) be the maximal number of triples (ai , bi , ci ), i = 1, . . . , N (n),
+consisting of nonnegative integers ai , bi and ci such that the following two conditions are satisfied:
+(1) ai + bi + ci = n for all i = 1, . . . , N (n),
+(2) If i 6= j, then ai 6= aj , bi 6= bj and ci 6= cj .
+Determine N (n) for all n ≥ 2.
+Comment. The original problem was formulated for m-tuples instead for triples. The numbers
+N (m, n) are then defined similarly to N (n) in the case m = 3. The numbers N (3, n) and
+N (n, n) should be determined. The case m = 3 is the same as in the present problem. The
+upper bound for N (n, n) can be proved by a simple generalization. The construction of a set
+of triples attaining the bound can be easily done by induction from n to n + 2.
+
+Solution. Let n ≥ 2 be an integer and let {T1 , . . . , TN } be any set of triples of nonnegative
+integers satisfying the conditions (1) and (2). Since the a-coordinates are pairwise distinct we
+have
+N
+N
+X
+X
+N (N − 1)
+ai ≥
+(i − 1) =
+.
+2
+i=1
+i=1
+Analogously,
+N
+X
+i=1
+
+bi ≥
+
+N (N − 1)
+2
+
+and
+
+N
+X
+
+ci ≥
+
+i=1
+
+N (N − 1)
+.
+2
+
+Summing these three inequalities and applying (1) yields
+N
+N
+N
+N
+X
+X
+X
+N (N − 1) X
+3
+≤
+ai +
+bi +
+ci =
+(ai + bi + ci ) = nN,
+2
+i=1
+i=1
+i=1
+i=1
+
+hence 3 N2−1 ≤ n and, consequently,
+
+
+
+2n
+N≤
++ 1.
+3
+By constructing examples, we show that this upper bound can be attained, so N (n) = b 2n
+c + 1.
+3
+
+27
+
+C2
+
+Combinatorics
+
+50th IMO 2009
+
+We distinguish the cases n = 3k − 1, n = 3k and n = 3k + 1 for k ≥ 1 and present the extremal
+examples in form of a table.
+
+n = 3k − 1
+ 2n
++ 1 = 2k
+3
+ai
+bi
+ci
+0
+k + 1 2k − 2
+1
+k + 2 2k − 4
+..
+..
+..
+.
+.
+.
+k−1
+k
+k+1
+..
+.
+
+2k
+0
+1
+..
+.
+
+2k − 1 k − 1
+
+ 2n  n = 3k
++ 1 = 2k + 1
+3
+ai
+bi
+ci
+0
+k
+2k
+1
+k + 1 2k − 2
+..
+..
+..
+.
+.
+.
+
+ 2n n = 3k + 1
++ 1 = 2k + 1
+3
+ai
+bi
+ci
+0
+k
+2k + 1
+1
+k + 1 2k − 1
+..
+..
+..
+.
+.
+.
+
+0
+2k − 1
+2k − 3
+..
+.
+
+k
+k+1
+k+2
+..
+.
+
+2k
+0
+1
+..
+.
+
+0
+2k − 1
+2k − 3
+..
+.
+
+k
+k+1
+k+2
+..
+.
+
+2k
+0
+1
+..
+.
+
+1
+2k
+2k − 2
+..
+.
+
+1
+
+2k
+
+k−1
+
+1
+
+2k
+
+k−1
+
+2
+
+It can be easily seen that the conditions (1) and (2) are satisfied and that we indeed have
+b 2n
+c + 1 triples in each case.
+3
+Comment. A cute combinatorial model is given by an equilateral triangle, partitioned into
+n2 congruent equilateral triangles by n − 1 equidistant parallels to each of its three sides. Two
+chess-like bishops placed at any two vertices of the small triangles are said to menace one
+another if they lie on a same parallel. The problem is to determine the largest number of
+bishops that can be placed so that none menaces another. A bishop may be assigned three
+coordinates a, b, c, namely the numbers of sides of small triangles they are off each of the sides
+of the big triangle. It is readily seen that the sum of these coordinates is always n, therefore
+fulfilling the requirements.
+
+28
+
+C3
+
+RUS
+
+C3
+
+Combinatorics
+
+50th IMO 2009
+
+(Russian Federation)
+
+Let n be a positive integer. Given a sequence ε1 , . . . , εn−1 with εi = 0 or εi = 1 for each
+i = 1, . . . , n − 1, the sequences a0 , . . . , an and b0 , . . . , bn are constructed by the following rules:
+a0 = b0 = 1,
+(
+2ai−1 + 3ai ,
+ai+1 =
+3ai−1 + ai ,
+(
+2bi−1 + 3bi ,
+bi+1 =
+3bi−1 + bi ,
+
+a1 = b1 = 7,
+
+if εi = 0,
+if εi = 1,
+
+for each i = 1, . . . , n − 1,
+
+if εn−i = 0,
+if εn−i = 1,
+
+for each i = 1, . . . , n − 1.
+
+Prove that an = bn .
+
+Solution. For a binary word w = σ1 . . . σn of length n and a letter σ ∈ {0, 1} let wσ =
+σ1 . . . σn σ and σw = σσ1 . . . σn . Moreover let w = σn . . . σ1 and let ∅ be the empty word (of
+length 0 and with ∅ = ∅). Let (u, v) be a pair of two real numbers. For binary words w we
+define recursively the numbers (u, v)w as follows:
+(u, v)∅ = v,
+
+(u, v)0 = 2u + 3v, (u, v)1 = 3u + v,
+(
+2(u, v)w + 3(u, v)wσ ,
+if ε = 0,
+(u, v)wσε =
+w
+wσ
+3(u, v) + (u, v) ,
+if ε = 1.
+
+It easily follows by induction on the length of w that for all real numbers u1 , v1 , u2 , v2 , λ1 and
+λ2
+(λ1 u1 + λ2 u2 , λ1 v1 + λ2 v2 )w = λ1 (u1 , v1 )w + λ2 (u2 , v2 )w
+(1)
+and that for ε ∈ {0, 1}
+(u, v)εw = (v, (u, v)ε )w .
+
+(2)
+
+Obviously, for n ≥ 1 and w = ε1 . . . εn−1 , we have an = (1, 7)w and bn = (1, 7)w . Thus it is
+sufficient to prove that
+(1, 7)w = (1, 7)w
+(3)
+for each binary word w. We proceed by induction on the length of w. The assertion is obvious
+if w has length 0 or 1. Now let wσε be a binary word of length n ≥ 2 and suppose that the
+assertion is true for all binary words of length at most n − 1.
+Note that (2, 1)σ = 7 = (1, 7)∅ for σ ∈ {0, 1}, (1, 7)0 = 23, and (1, 7)1 = 10.
+First let ε = 0. Then in view of the induction hypothesis and the equalities (1) and (2), we
+obtain
+(1, 7)wσ0 = 2(1, 7)w + 3(1, 7)wσ = 2(1, 7)w + 3(1, 7)σw = 2(2, 1)σw + 3(1, 7)σw
+= (7, 23)σw = (1, 7)0σw .
+
+29
+
+C3
+
+Combinatorics
+
+50th IMO 2009
+
+Now let ε = 1. Analogously, we obtain
+(1, 7)wσ1 = 3(1, 7)w + (1, 7)wσ = 3(1, 7)w + (1, 7)σw = 3(2, 1)σw + (1, 7)σw
+= (7, 10)σw = (1, 7)1σw .
+Thus the induction step is complete, (3) and hence also an = bn are proved.
+Comment. The original solution uses the relation
+(1, 7)αβw = ((1, 7)w , (1, 7)βw )α ,
+
+α, β ∈ {0, 1},
+
+which can be proved by induction on the length of w. Then (3) also follows by induction on
+the length of w:
+(1, 7)αβw = ((1, 7)w , (1, 7)βw )α = ((1, 7)w , (1, 7)wβ )α = (1, 7)wβα .
+Here w may be the empty word.
+
+30
+
+Combinatorics
+
+50th IMO 2009
+
+C4
+
+NLD
+
+C4
+
+(Netherlands)
+
+For an integer m ≥ 1, we consider partitions of a 2m × 2m chessboard into rectangles consisting
+of cells of the chessboard, in which each of the 2m cells along one diagonal forms a separate
+rectangle of side length 1. Determine the smallest possible sum of rectangle perimeters in such
+a partition.
+
+Solution 1. For a k ×k chessboard, we introduce in a standard way coordinates of the vertices
+of the cells and assume that the cell Cij in row i and column j has vertices (i − 1, j − 1), (i −
+1, j), (i, j −1), (i, j), where i, j ∈ {1, . . . , k}. Without loss of generality assume that S
+the cells Cii ,
+i = 1, . . . , k, form a separate rectangle. Then we may
+S consider the boards Bk = 1≤i<j≤k Cij
+0
+below that diagonal and the congruent board Bk = 1≤j<i≤k Cij above that diagonal separately
+because no rectangle can simultaneously cover cells from Bk and Bk0 . We will show that for
+k = 2m the smallest total perimeter of a rectangular partition of Bk is m2m+1 . Then the overall
+answer to the problem is 2 · m2m+1 + 4 · 2m = (m + 1)2m+2 .
+First we inductively construct for m ≥ 1 a partition of B2m with total perimeter m2m+1 . If
+m = 0, the board B2m is empty and the total perimeter is 0. For m ≥ 0, the board B2m+1 consists
+of a 2m × 2m square in the lower right corner with vertices (2m , 2m ), (2m , 2m+1 ), (2m+1 , 2m ),
+(2m+1 , 2m+1 ) to which two boards congruent to B2m are glued along the left and the upper
+margin. The square together with the inductive partitions of these two boards yield a partition
+with total perimeter 4 · 2m + 2 · m2m+1 = (m + 1)2m+2 and the induction step is complete.
+Let
+Dk = 2k log2 k.
+Note that Dk = m2m+1 if k = 2m . Now we show by induction on k that the total perimeter of
+a rectangular partition of Bk is at least Dk . The case k = 1 is trivial (see m = 0 from above).
+Let the assertion be true for all positive integers less than k. We investigate a fixed rectangular
+partition of Bk that attains the minimal total perimeter. Let R be the rectangle that covers the
+cell C1k in the lower right corner. Let (i, j) be the upper left corner of R. First we show that
+i = j. Assume that i < j. Then the line from (i, j) to (i + 1, j) or from (i, j) to (i, j − 1) must
+belong to the boundary of some rectangle in the partition. Without loss of generality assume
+that this is the case for the line from (i, j) to (i + 1, j).
+Case 1. No line from (i, l) to (i + 1, l) where j < l < k belongs to the boundary of some
+rectangle of the partition.
+Then there is some rectangle R0 of the partition that has with R the common side from (i, j)
+to (i, k). If we join these two rectangles to one rectangle we get a partition with smaller total
+perimeter, a contradiction.
+Case 2. There is some l such that j < l < k and the line from (i, l) to (i + 1, l) belongs to the
+boundary of some rectangle of the partition.
+Then we replace the upper side of R by the line (i + 1, j) to (i + 1, k) and for the rectangles
+whose lower side belongs to the line from (i, j) to (i, k) we shift the lower side upwards so that
+the new lower side belongs to the line from (i + 1, j) to (i + 1, k). In such a way we obtain a
+rectangular partition of Bk with smaller total perimeter, a contradiction.
+Now the fact that the upper left corner of R has the coordinates (i, i) is established. Consequently, the partition consists of R, of rectangles of a partition of a board congruent to Bi and
+of rectangles of a partition of a board congruent to Bk−i . By the induction hypothesis, its total
+31
+
+C4
+
+Combinatorics
+
+50th IMO 2009
+
+perimeter is at least
+2(k − i) + 2i + Di + Dk−i ≥ 2k + 2i log2 i + 2(k − i) log2 (k − i).
+
+(1)
+
+Since the function f (x) = 2x log2 x is convex for x > 0, Jensen’s inequality immediately shows
+that the minimum of the right hand sight of (1) is attained for i = k/2. Hence the total
+perimeter of the optimal partition of Bk is at least 2k + 2k/2 log2 k/2 + 2(k/2) log2 (k/2) = Dk .
+Solution 2. We start as in Solution 1 and present another proof that m2m+1 is a lower bound
+for the total perimeter of a partition of B2m into n rectangles. Let briefly M = 2m . For
+1 ≤ i ≤ M , let ri denote the number of rectangles in the partition that cover some cell from
+row i and let cj be the number of rectangles that cover some cell from column j. Note that the
+total perimeter p of all rectangles in the partition is
+!
+M
+M
+X
+X
+p=2
+ri +
+ci .
+i=1
+
+i=1
+
+No rectangle can simultaneously cover cells from row i and from column i since otherwise it
+would also cover the cell Cii . We classify subsets S of rectangles of the partition as follows.
+We say that S is of type i, 1 ≤ i ≤ M , if S contains all ri rectangles that cover some cell from
+row i, but none of the ci rectangles that cover some cell from column i. Altogether there are
+2n−ri −ci subsets of type i. Now we show that no subset S can be simultaneously of type i and of
+type j if i 6= j. Assume the contrary and let without loss of generality i < j. The cell Cij must
+be covered by some rectangle R. The subset S is of type i, hence R is contained in S. S is of
+type j, thus R does not belong to S, a contradiction. Since there are 2n subsets of rectangles
+of the partition, we infer
+M
+M
+X
+X
+n
+n−ri −ci
+n
+2 ≥
+2
+=2
+2−(ri +ci ) .
+(2)
+i=1
+
+i=1
+
+By applying Jensen’s inequality to the convex function f (x) = 2−x we derive
+M
+
+p
+1 PM
+1 X −(ri +ci )
+2
+≥ 2− M i=1 (ri +ci ) = 2− 2M .
+M i=1
+
+From (2) and (3) we obtain
+
+p
+
+1 ≥ M 2− 2M
+and equivalently
+p ≥ m2m+1 .
+
+32
+
+(3)
+
+Combinatorics
+
+50th IMO 2009
+
+C5
+
+NLD
+
+C5
+
+(Netherlands)
+
+Five identical empty buckets of 2-liter capacity stand at the vertices of a regular pentagon.
+Cinderella and her wicked Stepmother go through a sequence of rounds: At the beginning of
+every round, the Stepmother takes one liter of water from the nearby river and distributes it
+arbitrarily over the five buckets. Then Cinderella chooses a pair of neighboring buckets, empties
+them into the river, and puts them back. Then the next round begins. The Stepmother’s goal
+is to make one of these buckets overflow. Cinderella’s goal is to prevent this. Can the wicked
+Stepmother enforce a bucket overflow?
+
+Solution 1. No, the Stepmother cannot enforce a bucket overflow and Cinderella can keep
+playing forever. Throughout we denote the five buckets by B0 , B1 , B2 , B3 , and B4 , where Bk
+is adjacent to bucket Bk−1 and Bk+1 (k = 0, 1, 2, 3, 4) and all indices are taken modulo 5.
+Cinderella enforces that the following three conditions are satisfied at the beginning of every
+round:
+(1) Two adjacent buckets (say B1 and B2 ) are empty.
+(2) The two buckets standing next to these adjacent buckets (here B0 and B3 ) have total
+contents at most 1.
+(3) The remaining bucket (here B4 ) has contents at most 1.
+These conditions clearly hold at the beginning of the first round, when all buckets are empty.
+Assume that Cinderella manages to maintain them until the beginning of the r-th round (r ≥ 1).
+Denote by xk (k = 0, 1, 2, 3, 4) the contents of bucket Bk at the beginning of this round and
+by yk the corresponding contents after the Stepmother has distributed her liter of water in this
+round.
+By the conditions, we can assume x1 = x2 = 0, x0 + x3 ≤ 1 and x4 ≤ 1. Then, since the
+Stepmother adds one liter, we conclude y0 + y1 + y2 + y3 ≤ 2. This inequality implies y0 + y2 ≤ 1
+or y1 + y3 ≤ 1. For reasons of symmetry, we only consider the second case.
+Then Cinderella empties buckets B0 and B4 .
+At the beginning of the next round B0 and B4 are empty (condition (1) is fulfilled), due to
+y1 + y3 ≤ 1 condition (2) is fulfilled and finally since x2 = 0 we also must have y2 ≤ 1 (condition
+(3) is fulfilled).
+Therefore, Cinderella can indeed manage to maintain the three conditions (1)–(3) also at the
+beginning of the (r + 1)-th round. By induction, she thus manages to maintain them at the
+beginning of every round. In particular she manages to keep the contents of every single bucket
+at most 1 liter. Therefore, the buckets of 2-liter capacity will never overflow.
+Solution 2. We prove that Cinderella can maintain the following two conditions and hence
+she can prevent the buckets from overflow:
+(10 ) Every two non-adjacent buckets contain a total of at most 1.
+(20 ) The total contents of all five buckets is at most 23 .
+We use the same notations as in the first solution. The two conditions again clearly hold at
+the beginning. Assume that Cinderella maintained these two conditions until the beginning of
+the r-th round. A pair of non-neighboring buckets (Bi , Bi+2 ), i = 0, 1, 2, 3, 4 is called critical
+33
+
+C5
+
+Combinatorics
+
+50th IMO 2009
+
+if yi + yi+2 > 1. By condition (20 ), after the Stepmother has distributed her water we have
+y0 + y1 + y2 + y3 + y4 ≤ 52 . Therefore,
+(y0 + y2 ) + (y1 + y3 ) + (y2 + y4 ) + (y3 + y0 ) + (y4 + y1 ) = 2(y0 + y1 + y2 + y3 + y4 ) ≤ 5,
+and hence there is a pair of non-neighboring buckets which is not critical, say (B0 , B2 ). Now,
+if both of the pairs (B3 , B0 ) and (B2 , B4 ) are critical, we must have y1 < 21 and Cinderella
+can empty the buckets B3 and B4 . This clearly leaves no critical pair of buckets and the total
+contents of all the buckets is then y1 + (y0 + y2 ) ≤ 32 . Therefore, conditions (10 ) and (20 ) are
+fulfilled.
+Now suppose that without loss of generality the pair (B3 , B0 ) is not critical. If in this case
+y0 ≤ 12 , then one of the inequalities y0 + y1 + y2 ≤ 32 and y0 + y3 + y4 ≤ 23 must hold. But then
+Cinderella can empty B3 and B4 or B1 and B2 , respectively and clearly fulfill the conditions.
+Finally consider the case y0 > 12 . By y0 + y1 + y2 + y3 + y4 ≤ 25 , at least one of the pairs (B1 , B3 )
+and (B2 , B4 ) is not critical. Without loss of generality let this be the pair (B1 , B3 ). Since the
+pair (B3 , B0 ) is not critical and y0 > 12 , we must have y3 ≤ 12 . But then, as before, Cinderella
+can maintain the two conditions at the beginning of the next round by either emptying B1 and
+B2 or B4 and B0 .
+
+Comments on GREEDY approaches. A natural approach for Cinderella would be a GREEDY
+strategy as for example: Always remove as much water as possible from the system. It is
+straightforward to prove that GREEDY can avoid buckets of capacity 25 from overflowing: If
+before the Stepmothers move one has x0 + x1 + x2 + x3 + x4 ≤ 32 then after her move the
+inequality Y = y0 + y1 + y2 + y3 + y4 ≤ 52 holds. If now Cinderella removes the two adjacent
+buckets with maximum total contents she removes at least 2Y5 and thus the remaining buckets
+contain at most 53 · Y ≤ 32 .
+But GREEDY is in general not strong enough to settle this problem as can be seen in the
+following example:
+• In an initial phase, the Stepmother brings all the buckets (after her move) to contents
+of at least 12 − 2, where  is an arbitrary small positive number. This can be done
+by always splitting the 1 liter she has to distribute so that all buckets have the same
+contents. After her r-th move the total contents of each of the buckets is then cr with
+r−1
+c1 = 1 and cr+1 = 1 + 35 · cr and hence cr = 52 − 32 · 53
+. So the contents of each
+single bucket indeed approaches 12 (from below). In particular, any two adjacent buckets
+have total contents strictly less than 1 which enables the Stepmother to always refill the
+buckets that Cinderella just emptied and then distribute the remaining water evenly over
+all buckets.
+• After that phase GREEDY faces a situation like this ( 21 − 2, 12 − 2, 21 − 2, 12 − 2, 21 − 2)
+and leaves a situation of the form (x0 , x1 , x2 , x3 , x4 ) = ( 21 − 2, 12 − 2, 12 − 2, 0, 0).
+• Then the Stepmother can add the amounts (0, 41 + , , 34 − 2, 0) to achieve a situation
+like this: (y0 , y1 , y2 , y3 , y4 ) = ( 12 − 2, 34 − , 12 − , 43 − 2, 0).
+• Now B1 and B2 are the adjacent buckets with the maximum total contents and thus
+GREEDY empties them to yield (x0 , x1 , x2 , x3 , x4 ) = ( 21 − 2, 0, 0, 43 − 2, 0).
+• Then the Stepmother adds ( 58 , 0, 0, 83 , 0), which yields ( 89 − 2, 0, 0, 89 − 2, 0).
+• Now GREEDY can only empty one of the two nonempty buckets and in the next step the
+Stepmother adds her liter to the other bucket and brings it to 17
+− 2, i.e. an overflow.
+8
+34
+
+50th IMO 2009
+
+Combinatorics
+
+C5
+
+A harder variant. Five identical empty buckets of capacity b stand at the vertices of a regular
+pentagon. Cinderella and her wicked Stepmother go through a sequence of rounds: At the
+beginning of every round, the Stepmother takes one liter of water from the nearby river and
+distributes it arbitrarily over the five buckets. Then Cinderella chooses a pair of neighboring
+buckets, empties them into the river, and puts them back. Then the next round begins. The
+Stepmother’s goal is to make one of these buckets overflow. Cinderella’s goal is to prevent this.
+Determine all bucket capacities b for which the Stepmother can enforce a bucket to overflow.
+Solution to the harder variant. The answer is b < 2.
+The previous proof shows that for all b ≥ 2 the Stepmother cannot enforce overflowing. Now if
+b < 2, let R be a positive integer such that b < 2 − 21−R . In the first R rounds the Stepmother
+now ensures that at least one of the (nonadjacent) buckets B1 and B3 have contents of at
+least 1 − 21−r at the beginning of round r (r = 1, 2, . . . , R). This is trivial for r = 1 and if it
+holds at the beginning of round r, she can fill the bucket which contains at least 1 − 21−r liters
+with another 2−r liters and put the rest of her water – 1 − 2−r liters – in the other bucket.
+As Cinderella now can remove the water of at most one of the two buckets, the other bucket
+carries its contents into the next round.
+At the beginning of the R-th round there are 1 − 21−R liters in B1 or B3 . The Stepmother puts
+the entire liter into that bucket and produces an overflow since b < 2 − 21−R .
+
+35
+
+C6
+C6
+
+Combinatorics
+BGR
+
+50th IMO 2009
+
+(Bulgaria)
+
+On a 999 × 999 board a limp rook can move in the following way: From any square it can move
+to any of its adjacent squares, i.e. a square having a common side with it, and every move
+must be a turn, i.e. the directions of any two consecutive moves must be perpendicular. A nonintersecting route of the limp rook consists of a sequence of pairwise different squares that the
+limp rook can visit in that order by an admissible sequence of moves. Such a non-intersecting
+route is called cyclic, if the limp rook can, after reaching the last square of the route, move
+directly to the first square of the route and start over.
+How many squares does the longest possible cyclic, non-intersecting route of a limp rook
+visit?
+
+Solution. The answer is 9982 − 4 = 4 · (4992 − 1) squares.
+First we show that this number is an upper bound for the number of cells a limp rook can
+visit. To do this we color the cells with four colors A, B, C and D in the following way: for
+(i, j) ≡ (0, 0) mod 2 use A, for (i, j) ≡ (0, 1) mod 2 use B, for (i, j) ≡ (1, 0) mod 2 use C and
+for (i, j) ≡ (1, 1) mod 2 use D. From an A-cell the rook has to move to a B-cell or a C-cell. In
+the first case, the order of the colors of the cells visited is given by A, B, D, C, A, B, D, C, A, . . .,
+in the second case it is A, C, D, B, A, C, D, B, A, . . .. Since the route is closed it must contain
+the same number of cells of each color. There are only 4992 A-cells. In the following we will
+show that the rook cannot visit all the A-cells on its route and hence the maximum possible
+number of cells in a route is 4 · (4992 − 1).
+Assume that the route passes through every single A-cell. Color the A-cells in black and white
+in a chessboard manner, i.e. color any two A-cells at distance 2 in different color. Since the
+number of A-cells is odd the rook cannot always alternate between visiting black and white
+A-cells along its route. Hence there are two A-cells of the same color which are four rook-steps
+apart that are visited directly one after the other. Let these two A-cells have row and column
+numbers (a, b) and (a + 2, b + 2) respectively.
+
+There is up to reflection only one way the rook can take from (a, b) to (a + 2, b + 2). Let this
+way be (a, b) → (a, b + 1) → (a + 1, b + 1) → (a + 1, b + 2) → (a + 2, b + 2). Also let without
+loss of generality the color of the cell (a, b + 1) be B (otherwise change the roles of columns and
+rows).
+Now consider the A-cell (a, b+2). The only way the rook can pass through it is via (a−1, b+2) →
+(a, b + 2) → (a, b + 3) in this order, since according to our assumption after every A-cell the
+rook passes through a B-cell. Hence, to connect these two parts of the path, there must be
+36
+
+50th IMO 2009
+
+Combinatorics
+
+C6
+
+a path connecting the cell (a, b + 3) and (a, b) and also a path connecting (a + 2, b + 2) and
+(a − 1, b + 2).
+But these four cells are opposite vertices of a convex quadrilateral and the paths are outside of
+that quadrilateral and hence they must intersect. This is due to the following fact:
+The path from (a, b) to (a, b + 3) together with the line segment joining these two cells form a
+closed loop that has one of the cells (a − 1, b + 2) and (a + 2, b + 2) in its inside and the other
+one on the outside. Thus the path between these two points must cross the previous path.
+But an intersection is only possible if a cell is visited twice. This is a contradiction.
+Hence the number of cells visited is at most 4 · (4992 − 1).
+The following picture indicates a recursive construction for all n × n-chessboards with n ≡ 3
+mod 4 which clearly yields a path that misses exactly one A-cell (marked with a dot, the center
+cell of the 15 × 15-chessboard) and hence, in the case of n = 999 crosses exactly 4 · (4992 − 1)
+cells.
+
+37
+
+C7
+C7
+
+Combinatorics
+RUS
+
+50th IMO 2009
+
+(Russian Federation)
+
+Variant 1. A grasshopper jumps along the real axis. He starts at point 0 and makes 2009
+jumps to the right with lengths 1, 2, . . . , 2009 in an arbitrary order. Let M be a set of 2008
+positive integers less than 1005 · 2009. Prove that the grasshopper can arrange his jumps in
+such a way that he never lands on a point from M .
+Variant 2. Let n be a nonnegative integer. A grasshopper jumps along the real axis. He starts
+at point 0 and makes n + 1 jumps to the right with pairwise different positive integral lengths
+a1 , a2 , . . . , an+1 in an arbitrary order. Let M be a set of n positive integers in the interval (0, s),
+where s = a1 + a2 + · · · + an+1 . Prove that the grasshopper can arrange his jumps in such a
+way that he never lands on a point from M .
+
+Solution of Variant 1. We construct the set of landing points of the grasshopper.
+Case 1. M does not contain numbers divisible by 2009.
+We fix the numbers 2009k as landing points, k = 1, 2, . . . , 1005. Consider the open intervals
+Ik = (2009(k − 1), 2009k), k = 1, 2, . . . , 1005. We show that we can choose exactly one point
+outside of M as a landing point in 1004 of these intervals such that all lengths from 1 to 2009
+are realized. Since there remains one interval without a chosen point, the length 2009 indeed
+will appear. Each interval has length 2009, hence a new landing point in an interval yields
+with a length d also the length 2009 − d. Thus it is enough to implement only the lengths from
+D = {1, 2, . . . , 1004}. We will do this in a greedy way. Let nk , k = 1, 2, . . . , 1005, be the number
+of elements of M that belong to the interval Ik . We order these numbers in a decreasing way,
+so let p1 , p2 , . . . , p1005 be a permutation of {1, 2, . . . , 1005} such that np1 ≥ np2 ≥ · · · ≥ np1005 .
+In Ip1 we do not choose a landing point. Assume that landing points have already been chosen
+in the intervals Ip2 , . . . , Ipm and the lengths d2 , . . . , dm from D are realized, m = 1, . . . , 1004.
+We show that there is some d ∈ D \ {d2 , . . . , dm } that can be implemented with a new landing
+point in Ipm+1 . Assume the contrary. Then the 1004 − (m − 1) other lengths are obstructed by
+the npm+1 points of M in Ipm+1 . Each length d can be realized by two landing points, namely
+2009(pm+1 − 1) + d and 2009pm+1 − d, hence
+npm+1 ≥ 2(1005 − m).
+
+(1)
+
+Moreover, since |M | = 2008 = n1 + · · · + n1005 ,
+2008 ≥ np1 + np2 + · · · + npm+1 ≥ (m + 1)npm+1 .
+
+(2)
+
+Consequently, by (1) and (2),
+2008 ≥ 2(m + 1)(1005 − m).
+The right hand side of the last inequality obviously attains its minimum for m = 1004 and this
+minimum value is greater than 2008, a contradiction.
+Case 2. M does contain a number µ divisible by 2009.
+By the pigeonhole principle there exists some r ∈ {1, . . . , 2008} such that M does not contain
+numbers with remainder r modulo 2009. We fix the numbers 2009(k − 1) + r as landing points,
+k = 1, 2, . . . , 1005. Moreover, 1005 · 2009 is a landing point. Consider the open intervals
+38
+
+Combinatorics
+
+50th IMO 2009
+
+C7
+
+Ik = (2009(k − 1) + r, 2009k + r), k = 1, 2, . . . , 1004. Analogously to Case 1, it is enough to
+show that we can choose in 1003 of these intervals exactly one landing point outside of M \ {µ}
+such that each of the lengths of D = {1, 2, . . . , 1004} \ {r} are implemented. Note that r
+and 2009 − r are realized by the first and last jump and that choosing µ would realize these
+two differences again. Let nk , k = 1, 2, . . . , 1004, be the number of elements of M \ {µ} that
+belong to the interval Ik and p1 , p2 , . . . , p1004 be a permutation of {1, 2, . . . , 1004} such that
+np1 ≥ np2 ≥ · · · ≥ np1004 . With the same reasoning as in Case 1 we can verify that a greedy
+choice of the landing points in Ip2 , Ip3 , . . . , Ip1004 is possible. We only have to replace (1) by
+npm+1 ≥ 2(1004 − m)
+(D has one element less) and (2) by
+2007 ≥ np1 + np2 + · · · + npm+1 ≥ (m + 1)npm+1 .
+Comment. The cardinality 2008 of M in the problem is the maximum possible value. For
+M = {1, 2, . . . , 2009}, the grasshopper necessarily lands on a point from M .
+Solution of Variant 2. First of all we remark that the statement in the problem implies a
+strengthening of itself: Instead of |M | = n it is sufficient to suppose that |M ∩ (0, s − a]| ≤ n,
+where a = min{a1 , a2 , . . . , an+1 }. This fact will be used in the proof.
+We prove the statement by induction on n. The case n = 0 is obvious. Let n > 0 and let the
+assertion be true for all nonnegative integers less than n. Moreover let a1 , a2 , . . . , an+1 , s and
+M be given as in the problem. Without loss of generality we may assume that an+1 < an <
+· · · < a2 < a1 . Set
+k
+X
+Tk =
+ai for k = 0, 1, . . . , n + 1.
+i=1
+
+Note that 0 = T0 < T1 < · · · < Tn+1 = s. We will make use of the induction hypothesis as
+follows:
+Claim 1. It suffices to show that for some m ∈ {1, 2, . . . , n + 1} the grasshopper is able to do
+at least m jumps without landing on a point of M and, in addition, after these m jumps he
+has jumped over at least m points of M .
+Proof. Note that m = n + 1 is impossible by |M | = n. Now set n0 = n − m. Then 0 ≤ n0 < n.
+The remaining n0 + 1 jumps can be carried out without landing on one of the remaining at
+most n0 forbidden points by the induction hypothesis together with a shift of the origin. This
+proves the claim.
+An integer k ∈ {1, 2, . . . , n + 1} is called smooth, if the grasshopper is able to do k jumps with
+the lengths a1 , a2 , . . . , ak in such a way that he never lands on a point of M except for the very
+last jump, when he may land on a point of M .
+Obviously, 1 is smooth. Thus there is a largest number k ∗ , such that all the numbers 1, 2, . . . , k ∗
+are smooth. If k ∗ = n + 1, the proof is complete. In the following let k ∗ ≤ n.
+Claim 2. We have
+Tk∗ ∈ M
+
+and |M ∩ (0, Tk∗ )| ≥ k ∗ .
+
+(3)
+
+Proof. In the case Tk∗ 6∈ M any sequence of jumps that verifies the smoothness of k ∗ can be
+extended by appending ak∗ +1 , which is a contradiction to the maximality of k ∗ . Therefore we
+have Tk∗ ∈ M . If |M ∩ (0, Tk∗ )| < k ∗ , there exists an l ∈ {1, 2, . . . , k ∗ } with Tk∗ +1 − al 6∈ M . By
+the induction hypothesis with k ∗ − 1 instead of n, the grasshopper is able to reach Tk∗ +1 − al
+39
+
+C7
+
+Combinatorics
+
+50th IMO 2009
+
+with k ∗ jumps of lengths from {a1 , a2 , . . . , ak∗ +1 } \ {al } without landing on any point of M .
+Therefore k ∗ + 1 is also smooth, which is a contradiction to the maximality of k ∗ . Thus Claim 2
+is proved.
+Now, by Claim 2, there exists a smallest integer k ∈ {1, 2, . . . , k ∗ } with
+Tk ∈ M
+
+and |M ∩ (0, Tk )| ≥ k.
+
+Claim 3. It is sufficient to consider the case
+|M ∩ (0, Tk−1 ]| ≤ k − 1.
+
+(4)
+
+Proof. If k = 1, then (4) is clearly satisfied. In the following let k > 1. If Tk−1 ∈ M , then
+(4) follows immediately by the minimality of k. If Tk−1 6∈ M , by the smoothness of k − 1, we
+obtain a situation as in Claim 1 with m = k − 1 provided that |M ∩ (0, Tk−1 ]| ≥ k − 1. Hence,
+we may even restrict ourselves to |M ∩ (0, Tk−1 ]| ≤ k − 2 in this case and Claim 3 is proved.
+Choose an integer v ≥ 0 with |M ∩ (0, Tk )| = k + v. Let r1 > r2 > · · · > rl be exactly those
+indices r from {k + 1, k + 2, . . . , n + 1} for which Tk + ar 6∈ M . Then
+n = |M | = |M ∩ (0, Tk )| + 1 + |M ∩ (Tk , s)| ≥ k + v + 1 + (n + 1 − k − l)
+and consequently l ≥ v + 2. Note that
+Tk + ar1 − a1 < Tk + ar1 − a2 < · · · < Tk + ar1 − ak < Tk + ar2 − ak < · · · < Tk + arv+2 − ak < Tk
+and that this are k + v + 1 numbers from (0, Tk ). Therefore we find some r ∈ {k + 1, k +
+2, . . . , n + 1} and some s ∈ {1, 2, . . . , k} with Tk + ar 6∈ M and Tk + ar − as 6∈ M . Consider the
+set of jump lengths B = {a1 , a2 , . . . , ak , ar } \ {as }. We have
+X
+x = Tk + ar − as
+x∈B
+
+and
+Tk + ar − as − min(B) = Tk − as ≤ Tk−1 .
+By (4) and the strengthening, mentioned at the very beginning with k − 1 instead of n, the
+grasshopper is able to reach Tk + ar − as by k jumps with lengths from B without landing on
+any point of M . From there he is able to jump to Tk + ar and therefore we reach a situation as
+in Claim 1 with m = k + 1, which completes the proof.
+
+40
+
+Combinatorics
+
+50th IMO 2009
+
+C8
+
+AUT
+
+C8
+
+(Austria)
+
+For any integer n ≥ 2, we compute the integer h(n) by applying the following procedure to its
+decimal representation. Let r be the rightmost digit of n.
+(1) If r = 0, then the decimal representation of h(n) results from the decimal representation
+of n by removing this rightmost digit 0.
+(2) If 1 ≤ r ≤ 9 we split the decimal representation of n into a maximal right part R that
+solely consists of digits not less than r and into a left part L that either is empty or ends
+with a digit strictly smaller than r. Then the decimal representation of h(n) consists of the
+decimal representation of L, followed by two copies of the decimal representation of R − 1.
+For instance, for the number n = 17,151,345,543, we will have L = 17,151, R = 345,543
+and h(n) = 17,151,345,542,345,542.
+Prove that, starting with an arbitrary integer n ≥ 2, iterated application of h produces the
+integer 1 after finitely many steps.
+
+Solution 1. We identify integers n ≥ 2 with the digit-strings, briefly strings, of their decimal
+representation and extend the definition of h to all non-empty strings with digits from 0 to
+9. We recursively define ten functions f0 , . . . , f9 that map some strings into integers for k =
+9, 8, . . . , 1, 0. The function f9 is only defined on strings x (including the empty string ε) that
+entirely consist of nines. If x consists of m nines, then f9 (x) = m + 1, m = 0, 1, . . . . For k ≤ 8,
+the domain of fk (x) is the set of all strings consisting only of digits that are ≥ k. We write x
+in the form x0 kx1 kx2 k . . . xm−1 kxm where the strings xs only consist of digits ≥ k + 1. Note
+that some of these strings might equal the empty string ε and that m = 0 is possible, i.e. the
+digit k does not appear in x. Then we define
+fk (x) =
+
+m
+X
+
+4fk+1 (xs ) .
+
+s=0
+
+We will use the following obvious fact:
+Fact 1. If x does not contain digits smaller than k, then fi (x) = 4fi+1 (x) for all i = 0, . . . , k − 1.
+In particular, fi (ε) = 49−i for all i = 0, 1, . . . , 9.
+Moreover, by induction on k = 9, 8, . . . , 0 it follows easily:
+Fact 2. If the nonempty string x does not contain digits smaller than k, then fi (x) > fi (ε) for
+all i = 0, . . . , k.
+We will show the essential fact:
+Fact 3. f0 (n) > f0 (h(n)).
+Then the empty string will necessarily be reached after a finite number of applications of
+h. But starting from a string without leading zeros, ε can only be reached via the strings
+1 → 00 → 0 → ε. Hence also the number 1 will appear after a finite number of applications of
+h.
+Proof of Fact 3. If the last digit r of n is 0, then we write n = x0 0 . . . 0xm−1 0ε where the xi do
+not contain the digit 0. Then h(n) = x0 0 . . . 0xm−1 and f0 (n) − f0 (h(n)) = f0 (ε) > 0.
+So let the last digit r of n be at least 1. Let L = yk and R = zr be the corresponding left and
+right parts where y is some string, k ≤ r − 1 and the string z consists only of digits not less
+41
+
+C8
+
+Combinatorics
+
+50th IMO 2009
+
+than r. Then n = ykzr and h(n) = ykz(r − 1)z(r − 1). Let d(y) be the smallest digit of y. We
+consider two cases which do not exclude each other.
+Case 1. d(y) ≥ k.
+Then
+fk (n) − fk (h(n)) = fk (zr) − fk (z(r − 1)z(r − 1)).
+In view of Fact 1 this difference is positive if and only if
+fr−1 (zr) − fr−1 (z(r − 1)z(r − 1)) > 0.
+We have, using Fact 2,
+fr+1 (ε)
+
+fr−1 (zr) = 4fr (zr) = 4fr (z)+4
+
+≥ 4 · 4fr (z) > 4fr (z) + 4fr (z) + 4fr (ε) = fr−1 (z(r − 1)z(r − 1)).
+
+Here we use the additional definition f10 (ε) = 0 if r = 9. Consequently, fk (n) − fk (h(n)) > 0
+and according to Fact 1, f0 (n) − f0 (h(n)) > 0.
+Case 2. d(y) ≤ k.
+We prove by induction on d(y) = k, k − 1, . . . , 0 that fi (n) − fi (h(n)) > 0 for all i = 0, . . . , d(y).
+By Fact 1, it suffices to do so for i = d(y). The initialization d(y) = k was already treated in
+Case 1. Let t = d(y) < k. Write y in the form utv where v does not contain digits ≤ t. Then,
+in view of the induction hypothesis,
+ft (n) − ft (h(n)) = ft (vkzr) − ft (vkz(r − 1)z(r − 1)) = 4ft+1 (vkzr) − 4ft+1 (vkz(r−1)z(r−1)) > 0.
+Thus the inequality fd(y) (n) − fd(y) (h(n)) > 0 is established and from Fact 1 it follows that
+f0 (n) − f0 (h(n)) > 0.
+
+Solution 2. We identify integers n ≥ 2 with the digit-strings, briefly strings, of their decimal
+representation and extend the definition of h to all non-empty strings with digits from 0 to
+9. Moreover, let us define that the empty string, ε, is being mapped to the empty string. In
+the following all functions map the set of strings into the set of strings. For two functions f
+and g let g ◦ f be defined by (g ◦ f )(x) = g(f (x)) for all strings x and let, for non-negative
+integers n, f n denote the n-fold application of f . For any string x let s(x) be the smallest digit
+of x, and for the empty string let s(ε) = ∞. We define nine functions g1 , . . . , g9 as follows: Let
+k ∈ {1, . . . , 9} and let x be a string. If x = ε then gk (x) = ε. Otherwise, write x in the form
+x = yzr where y is either the empty string or ends with a digit smaller than k, s(z) ≥ k and r
+is the rightmost digit of x. Then gk (x) = zr.
+Lemma 1. We have gk ◦ h = gk ◦ h ◦ gk for all k = 1, . . . , 9.
+Proof of Lemma 1. Let x = yzr be as in the definition of gk . If y = ε, then gk (x) = x, whence
+gk (h(x)) = gk (h(gk (x)).
+
+(1)
+
+So let y 6= ε.
+Case 1. z contains a digit smaller than r.
+Let z = uav where a < r and s(v) ≥ r. Then
+(
+yuav
+h(x) =
+yuav(r − 1)v(r − 1)
+42
+
+if r = 0,
+if r > 0
+
+and
+
+C8
+
+Combinatorics
+
+50th IMO 2009
+
+(
+uav
+h(gk (x)) = h(zr) = h(uavr) =
+uav(r − 1)v(r − 1)
+
+if r = 0,
+if r > 0.
+
+Since y ends with a digit smaller than k, (1) is obviously true.
+Case 2. z does not contain a digit smaller than r.
+Let y = uv where u is either the empty string or ends with a digit smaller than r and s(v) ≥ r.
+We have
+(
+uvz
+if r = 0,
+h(x) =
+uvz(r − 1)vz(r − 1)
+if r > 0
+and
+
+(
+z
+h(gk (x)) = h(zr) =
+z(r − 1)z(r − 1)
+
+if r = 0,
+if r > 0.
+
+Recall that y and hence v ends with a digit smaller than k, but all digits of v are at least r.
+Now if r > k, then v = ε, whence the terminal digit of u is smaller than k, which entails
+gk (h(x)) = z(r − 1)z(r − 1) = gk (h(gk (x))).
+If r ≤ k, then
+gk (h(x)) = z(r − 1) = gk (h(gk (x))) ,
+so that in both cases (1) is true. Thus Lemma 1 is proved.
+Lemma 2. Let k ∈ {1, . . . , 9}, let x be a non-empty string and let n be a positive integer. If
+hn (x) = ε then (gk ◦ h)n (x) = ε.
+Proof of Lemma 2. We proceed by induction on n. If n = 1 we have
+ε = h(x) = gk (h(x)) = (gk ◦ h)(x).
+Now consider the step from n − 1 to n where n ≥ 2. Let hn (x) = ε and let y = h(x). Then
+hn−1 (y) = ε and by the induction hypothesis (gk ◦ h)n−1 (y) = ε. In view of Lemma 1,
+ε = (gk ◦ h)n−2 ((gk ◦ h)(y)) = (gk ◦ h)n−2 (gk (h(y))
+= (gk ◦ h)n−2 (gk (h(gk (y))) = (gk ◦ h)n−2 (gk (h(gk (h(x)))) = (gk ◦ h)n (x).
+Thus the induction step is complete and Lemma 2 is proved.
+We say that the non-empty string x terminates if hn (x) = ε for some non-negative integer n.
+Lemma 3. Let x = yzr where s(y) ≥ k, s(z) ≥ k, y ends with the digit k and z is possibly
+empty. If y and zr terminate then also x terminates.
+Proof of Lemma 3. Suppose that y and zr terminate. We proceed by induction on k. Let k = 0.
+Obviously, h(yw) = yh(w) for any non-empty string w. Let hn (zr) = . It follows easily by
+induction on m that hm (yzr) = yhm (zr) for m = 1, . . . , n. Consequently, hn (yzr) = y. Since y
+terminates, also x = yzr terminates.
+Now let the assertion be true for all nonnegative integers less than k and let us prove it for k
+where k ≥ 1. It turns out that it is sufficient to prove that ygk (h(zr)) terminates. Indeed:
+Case 1. r = 0.
+Then h(yzr) = yz = ygk (h(zr)).
+Case 2. 0 < r ≤ k.
+We have h(zr) = z(r − 1)z(r − 1) and gk (h(zr)) = z(r − 1). Then h(yzr) = yz(r − 1)yz(r −
+43
+
+C8
+
+Combinatorics
+
+50th IMO 2009
+
+1) = ygk (h(zr))ygk (h(zr)) and we may apply the induction hypothesis to see that if ygk h(zr))
+terminates, then h(yzr) terminates.
+
+Case 3. r > k.
+Then h(yzr) = yh(zr) = ygk (h(zr)).
+Note that ygk (h(zr)) has the form yz 0 r0 where s(z 0 ) ≥ k. By the same arguments it is sufficient
+to prove that ygk (h(z 0 r0 )) = y(gk ◦ h)2 (zr) terminates and, by induction, that y(gk ◦ h)m (zr)
+terminates for some positive integer m. In view of Lemma 2 there is some m such that (gk ◦
+h)m (zr) = , so x = yzr terminates if y terminates. Thus Lemma 3 is proved.
+Now assume that there is some string x that does not terminate. We choose x minimal. If
+x ≥ 10, we can write x in the form x = yzr of Lemma 3 and by this lemma x terminates since
+y and zr are smaller than x. If x ≤ 9, then h(x) = (x − 1)(x − 1) and h(x) terminates again
+by Lemma 3 and the minimal choice of x.
+
+Solution 3. We commence by introducing some terminology. Instead of integers, we will
+consider the set S of all strings consisting of the digits 0, 1, . . . , 9, including the empty string
+. If (a1 , a2 , . . . , an ) is a nonempty string, we let ρ(a) = an denote the terminal digit of a and
+λ(a) be the string with the last digit removed. We also define λ() =  and denote the set of
+non-negative integers by N0 .
+Now let k ∈ {0, 1, 2, . . . , 9} denote any digit. We define a function fk : S −→ S on the set of
+strings: First, if the terminal digit of n belongs to {0, 1, . . . , k}, then fk (n) is obtained from n
+by deleting this terminal digit, i.e fk (n) = λ(n). Secondly, if the terminal digit of n belongs to
+{k + 1, . . . , 9}, then fk (n) is obtained from n by the process described in the problem. We also
+define fk () = . Note that up to the definition for integers n ≤ 1, the function f0 coincides with
+the function h in the problem, through interpreting integers as digit strings. The argument will
+be roughly as follows. We begin by introducing a straightforward generalization of our claim
+about f0 . Then it will be easy to see that f9 has all these stronger properties, which means
+that is suffices to show for k ∈ {0, 1, . . . , 8} that fk possesses these properties provided that
+fk+1 does.
+We continue to use k to denote any digit. The operation fk is said to be separating, if the
+followings holds: Whenever a is an initial segment of b, there is some N ∈ N0 such that
+fkN (b) = a. The following two notions only apply to the case where fk is indeed separating,
+otherwise they remain undefined. For every a ∈ S we denote the least N ∈ N0 for which
+fkN (a) =  occurs by gk (a) (because  is an initial segment of a, such an N exists if fk is
+separating). If for every two strings a and b such that a is a terminal segment of b one has
+gk (a) ≤ gk (b), we say that fk is coherent. In case that fk is separating and coherent we call the
+digit k seductive.
+As f9 (a) = λ(a) for all a, it is obvious that 9 is seductive. Hence in order to show that 0 is seductive, which clearly implies the statement of the problem, it suffices to take any k ∈ {0, 1, . . . , 8}
+such that k + 1 is seductive and to prove that k has to be seductive as well. Note that in doing
+so, we have the function gk+1 at our disposal. We have to establish two things and we begin with
+Step 1. fk is separating.
+Before embarking on the proof of this, we record a useful observation which is easily proved by
+induction on M .
+44
+
+C8
+
+Combinatorics
+
+50th IMO 2009
+
+Claim 1. For any strings A, B and any positive integer M such that fkM −1 (B) 6= , we have
+fkM (AkB) = AkfkM (B).
+Now we call a pair (a, b) of strings wicked provided that a is an initial segment of b, but there
+is no N ∈ N0 such that fkN (b) = a. We need to show that there are none, so assume that
+there were such pairs. Choose a wicked pair (a, b) for which gk+1 (b) attains its minimal possible
+value. Obviously b 6=  for any wicked pair (a, b). Let z denote the terminal digit of b. Observe
+that a 6= b, which means that a is also an initial segment of λ(b). To facilitate the construction
+of the eventual contradiction, we prove
+Claim 2. There cannot be an N ∈ N0 such that
+fkN (b) = λ(b).
+Proof of Claim 2. For suppose that such an N existed. Because gk+1 (λ(b)) < gk+1 (b) in view
+of the coherency of fk+1 , the pair (a, λ(b)) is not wicked. But then there is some N 0 for which
+0
+0
+fkN (λ(b)) = a which entails fkN +N (b) = a, contradiction. Hence Claim 2 is proved.
+It follows that z ≤ k is impossible, for otherwise N = 1 violated Claim 2.
+Also z > k + 1 is impossible: Set B = fk (b). Then also fk+1 (b) = B, but gk+1 (B) < gk+1 (b) and
+a is an initial segment of B. Thus the pair (a, B) is not wicked. Hence there is some N ∈ N0
+with a = fkN (B), which, however, entails a = fkN +1 (b).
+We are left with the case z = k + 1. Let L denote the left part and R = R∗ (k + 1) the right
+part of b. Then we have symbolically
+fk (b) = LR∗ kR∗ k , fk2 (b) = LR∗ kR∗
+
+and
+
+fk+1 (b) = LR∗ .
+
+Using that R∗ is a terminal segment of LR∗ and the coherency of fk+1 , we infer
+gk+1 (R∗ ) ≤ gk+1 (LR∗ ) < gk+1 (b).
+Hence the pair (, R∗ ) is not wicked, so there is some minimal M ∈ N0 with fkM (R∗ ) =  and
+by Claim 1 it follows that fk2+M (b) = LR∗ k. Finally, we infer that λ(b) = LR∗ = fk (LR∗ k) =
+fk3+M (b), which yields a contradiction to Claim 2.
+This final contradiction establishes that fk is indeed separating.
+Step 2. fk is coherent.
+To prepare the proof of this, we introduce some further pieces of terminology. A nonempty
+string (a1 , a2 , . . . , an ) is called a hypostasis, if an < ai for all i = 1, . . . , n − 1. Reading an
+arbitrary string a backwards, we easily find a, possibly empty, sequence (A1 , A2 , . . . , Am ) of
+hypostases such that ρ(A1 ) ≤ ρ(A2 ) ≤ · · · ≤ ρ(Am ) and, symbolically, a = A1 A2 . . . Am .
+The latter sequence is referred to as the decomposition of a. So, for instance, (20, 0, 9) is the
+decomposition of 2009 and the string 50 is a hypostasis. Next we explain when we say about
+two strings a and b that a is injectible into b. The definition is by induction on the length
+of b. Let (B1 , B2 , . . . , Bn ) be the decomposition of b into hypostases. Then a is injectible
+into b if for the decomposition (A1 , A2 , . . . , Am ) of a there is a strictly increasing function
+H : {1, 2, . . . , m} −→ {1, 2, . . . , n} satisfying
+ρ(Ai ) = ρ(BH(i) ) for all i = 1, . . . , m;
+45
+
+C8
+
+Combinatorics
+
+50th IMO 2009
+
+λ(Ai ) is injectible into λ(BH(i) ) for all i = 1, . . . , m.
+If one can choose H with H(m) = n, then we say that a is strongly injectible into b. Obviously,
+if a is a terminal segment of b, then a is strongly injectible into b.
+Claim 3. If a and b are two nonempty strings such that a is strongly injectible into b, then λ(a)
+is injectible into λ(b).
+Proof of Claim 3. Let (B1 , B2 , . . . , Bn ) be the decomposition of b and let (A1 , A2 , . . . , Am ) be
+the decomposition of a. Take a function H exemplifying that a is strongly injectible into b.
+Let (C1 , C2 , . . . , Cr ) be the decomposition of λ(Am ) and let (D1 , D2 , . . . , Ds ) be the decomposition of λ(Bn ). Choose a strictly increasing H 0 : {1, 2, . . . , r} −→ {1, 2, . . . s} witnessing that
+λ(Am ) is injectible into λ(Bn ). Clearly, (A1 , A2 , . . . , Am−1 , C1 , C2 , . . . , Cr ) is the decomposition
+of λ(a) and (B1 , B2 , . . . , Bn−1 , D1 , D2 , . . . , Ds ) is the decomposition of λ(b). Then the function
+H 00 : {1, 2, . . . , m + r − 1} −→ {1, 2, . . . , n + s − 1} given by H 00 (i) = H(i) for i = 1, 2, . . . , m − 1
+and H 00 (m − 1 + i) = n − 1 + H 0 (i) for i = 1, 2, . . . , r exemplifies that λ(a) is injectible into
+λ(b), which finishes the proof of the claim.
+A pair (a, b) of strings is called aggressive if a is injectible into b and nevertheless gk (a) > gk (b).
+Observe that if fk was incoherent, which we shall assume from now on, then such pairs existed.
+Now among all aggressive pairs we choose one, say (a, b), for which gk (b) attains its least possible
+value. Obviously fk (a) cannot be injectible into fk (b), for otherwise the pair (fk (a), fk (b)) was
+aggressive and contradicted our choice of (a, b). Let (A1 , A2 , . . . , Am ) and (B1 , B2 , . . . , Bn )
+be the decompositions of a and b and take a function H : {1, 2, . . . , m} −→ {1, 2, . . . , n}
+exemplifying that a is indeed injectible into b. If we had H(m) < n, then a was also injectible
+into the number b0 whose decomposition is (B1 , B2 , . . . , Bn−1 ) and by separativity of fk we
+obtained gk (b0 ) < gk (b), whence the pair (a, b0 ) was also aggressive, contrary to the minimality
+condition imposed on b. Therefore a is strongly injectible into b. In particular, a and b have a
+common terminal digit, say z. If we had z ≤ k, then fk (a) = λ(a) and fk (b) = λ(b), so that by
+Claim 3, fk (a) was injectible into fk (b), which is a contradiction. Hence, z ≥ k + 1.
+Now let r be the minimal element of {1, 2, . . . , m} for which ρ(Ar ) = z. Then the maximal
+right part of a consisting of digits ≥ z is equal to Ra , the string whose decomposition is
+(Ar , Ar+1 , . . . , Am ). Then Ra − 1 is a hypostasis and (A1 , . . . , Ar−1 , Ra − 1, Ra − 1) is the
+decomposition of fk (a). Defining s and Rb in a similar fashion with respect to b, we see that
+(B1 , . . . , Bs−1 , Rb − 1, Rb − 1) is the decomposition of fk (b). The definition of injectibility then
+easily entails that Ra is strongly injectible into Rb . It follows from Claim 3 that λ(Ra ) =
+λ(Ra − 1) is injectible into λ(Rb ) = λ(Rb − 1), whence the function H 0 : {1, 2, . . . , r + 1} −→
+{1, 2, . . . , s + 1}, given by H 0 (i) = H(i) for i = 1, 2, . . . , r − 1, H 0 (r) = s and H 0 (r + 1) = s + 1
+exemplifies that fk (a) is injectible into fk (b), which yields a contradiction as before.
+This shows that aggressive pairs cannot exist, whence fk is indeed coherent, which finishes the
+proof of the seductivity of k, whereby the problem is finally solved.
+
+46
+
+G1
+
+Geometry
+
+50th IMO 2009
+
+Geometry
+G1
+
+BEL
+
+(Belgium)
+
+Let ABC be a triangle with AB = AC. The angle bisectors of A and B meet the sides BC
+and AC in D and E, respectively. Let K be the incenter of triangle ADC. Suppose that
+∠BEK = 45 ◦. Find all possible values of ∠BAC.
+
+Solution 1. Answer: ∠BAC = 60 ◦ or ∠BAC = 90 ◦ are possible values and the only possible
+values.
+Let I be the incenter of triangle ABC, then K lies on the line CI. Let F be the point, where
+the incircle of triangle ABC touches the side AC; then the segments IF and ID have the same
+length and are perpendicular to AC and BC, respectively.
+
+A
+A
+F
+E=F
+I
+
+S
+
+P
+B
+
+I
+
+R
+
+D
+Figure 1
+
+Q
+
+C
+
+B
+
+R
+
+K
+
+P
+
+K
+
+E
+
+S
+
+D
+
+Q
+
+C
+
+Figure 2
+
+Let P , Q and R be the points where the incircle of triangle ADC touches the sides AD, DC
+and CA, respectively. Since K and I lie on the angle bisector of ∠ACD, the segments ID and
+IF are symmetric with respect to the line IC. Hence there is a point S on IF where the incircle
+of triangle ADC touches the segment IF . Then segments KP , KQ, KR and KS all have the
+same length and are perpendicular to AD, DC, CA and IF , respectively. So – regardless of
+the value of ∠BEK – the quadrilateral KRF S is a square and ∠SF K = ∠KF C = 45 ◦.
+Consider the case ∠BAC = 60 ◦ (see Figure 1). Then triangle ABC is equilateral. Furthermore
+we have F = E, hence ∠BEK = ∠IF K = ∠SEK = 45 ◦. So 60 ◦ is a possible value for ∠BAC.
+Now consider the case ∠BAC = 90 ◦ (see Figure 2). Then ∠CBA = ∠ACB = 45 ◦. Furthermore, ∠KIE = 12 ∠CBA + 12 ∠ACB = 45 ◦, ∠AEB = 180 ◦ − 90 ◦ − 22.5 ◦ = 67.5 ◦ and
+∠EIA = ∠BID = 180 ◦ − 90 ◦ − 22.5 ◦ = 67.5 ◦. Hence triangle IEA is isosceles and a reflection
+of the bisector of ∠IAE takes I to E and K to itself. So triangle IKE is symmetric with
+respect to this axis, i.e. ∠KIE = ∠IEK = ∠BEK = 45 ◦. So 90 ◦ is a possible value for
+∠BAC, too.
+If, on the other hand, ∠BEK = 45 ◦ then ∠BEK = ∠IEK = ∠IF K = 45 ◦. Then
+• either F = E, which makes the angle bisector BI be an altitude, i.e., which makes triangle
+ABC isosceles with base AC and hence equilateral and so ∠BAC = 60 ◦,
+• or E lies between F and C, which makes the points K, E, F and I concyclic, so 45 ◦ =
+∠KF C = ∠KF E = ∠KIE = ∠CBI + ∠ICB = 2 · ∠ICB = 90 ◦ − 21 ∠BAC, and so
+∠BAC = 90 ◦,
+47
+
+G1
+
+Geometry
+
+50th IMO 2009
+
+• or F lies between E and C, then again, K, E, F and I are concyclic, so 45 ◦ = ∠KF C =
+180 ◦ − ∠KF E = ∠KIE, which yields the same result ∠BAC = 90 ◦. (However, for
+∠BAC = 90 ◦ E lies, in fact, between F and C, see Figure 2. So this case does not
+occur.)
+This proves 90 ◦ and 60 ◦ to be the only possible values for ∠BAC.
+Solution 2. Denote angles at A, B and C as usual by α, β and γ. Since triangle ABC is
+isosceles, we have β = γ = 90 ◦ − α2 < 90 ◦, so ∠ECK = 45 ◦ − α4 = ∠KCD. Since K is the
+incenter of triangle ADC, we have ∠CDK = ∠KDA = 45 ◦; furthermore ∠DIC = 45 ◦ + α4 .
+Now, if ∠BEK = 45 ◦, easy calculations within triangles BCE and KCE yield
+∠KEC = 180 ◦ − β2 − 45 ◦ − β = 135 ◦ − 23 β = 32 (90 ◦ − β) = 34 α,
+∠IKE = 43 α + 45 ◦ − α4 = 45 ◦ + α2 .
+So in triangles ICE, IKE, IDK and IDC we have (see Figure 3)
+sin(45 ◦ + 34 α)
+IC
+sin ∠IEC
+=
+=
+,
+IE
+sin ∠ECI
+sin(45 ◦ − α4 )
+
+sin(45 ◦ + α2 )
+IE
+sin ∠EKI
+=
+=
+,
+IK
+sin ∠IEK
+sin 45 ◦
+
+IK
+sin ∠KDI
+sin 45 ◦
+=
+=
+,
+ID
+sin ∠IKD
+sin(90 ◦ − α4 )
+
+sin(45 ◦ − α4 )
+ID
+sin ∠ICD
+=
+=
+.
+IC
+sin ∠CDI
+sin 90 ◦
+
+A
+
+α
+
+2
+
+E 3α
+45˚
+
+α
+
+45˚
+
+I
+
+4
+
+4
+
+K
+45˚
+45˚
+
+β
+
+B
+
+D
+Figure 3
+
+45˚
+
+α
+
+2
+45˚
+
+α
+
+4
+
+C
+
+Multiplication of these four equations yields
+1=
+
+sin(45 ◦ + 43 α) sin(45 ◦ + α2 )
+.
+sin(90 ◦ − α4 )
+
+But, since
+
+sin (90 ◦ − α4 ) = cos α4 = cos (45 ◦ + 43 α) − (45 ◦ + α2 )
+
+= cos 45 ◦ + 34 α cos (45 ◦ + α2 ) + sin (45 ◦ + 34 α) sin (45 ◦ + α2 ),
+this is equivalent to
+sin(45 ◦ + 34 α) sin(45 ◦ + α2 ) = cos (45 ◦ + 43 α) cos (45 ◦ + α2 ) + sin (45 ◦ + 34 α) sin (45 ◦ + α2 )
+and finally
+cos (45 ◦ + 43 α) cos (45 ◦ + α2 ) = 0.
+48
+
+50th IMO 2009
+
+Geometry
+
+G1
+
+But this means cos (45 ◦ + 34 α) = 0, hence 45 ◦ + 34 α = 90 ◦, i.e. α = 60 ◦ or cos (45 ◦ + α2 ) = 0,
+hence 45 ◦ + α2 = 90 ◦, i.e. α = 90 ◦. So these values are the only two possible values for α.
+On the other hand, both α = 90 ◦ and α = 60 ◦ yield ∠BEK = 45 ◦, this was shown in
+Solution 1.
+
+49
+
+G2
+G2
+
+Geometry
+RUS
+
+50th IMO 2009
+
+(Russian Federation)
+
+Let ABC be a triangle with circumcenter O. The points P and Q are interior points of the
+sides CA and AB, respectively. The circle k passes through the midpoints of the segments BP ,
+CQ, and P Q. Prove that if the line P Q is tangent to circle k then OP = OQ.
+
+Solution 1. Let K, L, M , B 0 , C 0 be the midpoints of BP , CQ, P Q, CA, and AB, respectively
+(see Figure 1). Since CA k LM , we have ∠LM P = ∠QP A. Since k touches the segment P Q
+at M , we find ∠LM P = ∠LKM . Thus ∠QP A = ∠LKM . Similarly it follows from AB k M K
+that ∠P QA = ∠KLM . Therefore, triangles AP Q and M KL are similar, hence
+QB
+MK
+QB
+AP
+=
+= P2C =
+.
+AQ
+ML
+PC
+2
+
+(1)
+
+Now (1) is equivalent to AP · P C = AQ · QB which means that the power of points P and Q
+with respect to the circumcircle of 4ABC are equal, hence OP = OQ.
+
+A
+Q
+M
+
+k
+
+P
+B′
+
+C′
+L
+K
+
+O
+
+B
+
+C
+Figure 1
+
+Comment. The last argument can also be established by the following calculation:
+OP 2 − OQ2 = OB 02 + B 0 P 2 − OC 02 − C 0 Q2
+= (OA2 − AB 02 ) + B 0 P 2 − (OA2 − AC 02 ) − C 0 Q2
+= (AC 02 − C 0 Q2 ) − (AB 02 − B 0 P 2 )
+= (AC 0 − C 0 Q)(AC 0 + C 0 Q) − (AB 0 − B 0 P )(AB 0 + B 0 P )
+= AQ · QB − AP · P C.
+With (1), we conclude OP 2 − OQ2 = 0, as desired.
+
+50
+
+G2
+
+Geometry
+
+50th IMO 2009
+
+Solution 2. Again, denote by K, L, M the midpoints of segments BP , CQ, and P Q, respectively. Let O, S, T be the circumcenters of triangles ABC, KLM , and AP Q, respectively (see
+Figure 2). Note that M K and LM are the midlines in triangles BP Q and CP Q, respectively, so
+−−→
+−→
+−−→ 1 −−→
+−
+−
+v ) the projection of vector →
+v onto line l. Then
+M K = 2 QB and M L = 21 P C. Denote by prl (→
+−→
+−→ −→
+−
+→
+−
+→
+−
+−
+→
+−
+−
+→
+−
+−
+→
+−−→
+1
+1
+1
+prAB (OT ) = prAB (OA − T A) = 2 BA − 2 QA = 2 BQ = KM and prAB (SM ) = prM K (SM ) =
+−→
+−−→
+−→
+1 −−→
+KM = 12 prAB (OT ). Analogously we get prCA (SM ) = 21 prCA (OT ). Since AB and CA are not
+2
+−−→
+−→
+parallel, this implies that SM = 12 OT .
+
+A
+Q
+
+T
+M
+
+k
+
+P
+
+S
+O
+
+L
+
+K
+
+B
+
+C
+Figure 2
+
+Now, since the circle k touches P Q at M , we get SM ⊥ P Q, hence OT ⊥ P Q. Since T is
+equidistant from P and Q, the line OT is a perpendicular bisector of segment P Q, and hence
+O is equidistant from P and Q which finishes the proof.
+
+51
+
+G3
+G3
+
+Geometry
+IRN
+
+50th IMO 2009
+
+(Islamic Republic of Iran)
+
+Let ABC be a triangle. The incircle of ABC touches the sides AB and AC at the points Z
+and Y , respectively. Let G be the point where the lines BY and CZ meet, and let R and S be
+points such that the two quadrilaterals BCY R and BCSZ are parallelograms.
+Prove that GR = GS.
+
+Solution 1. Denote by k the incircle and by ka the excircle opposite to A of triangle ABC.
+Let k and ka touch the side BC at the points X and T , respectively, let ka touch the lines AB
+and AC at the points P and Q, respectively. We use several times the fact that opposing sides
+of a parallelogram are of equal length, that points of contact of the excircle and incircle to a
+side of a triangle lie symmetric with respect to the midpoint of this side and that segments on
+two tangents to a circle defined by the points of contact and their point of intersection have
+the same length. So we conclude
+ZP = ZB + BP = XB + BT = BX + CX = ZS
+
+and
+
+CQ = CT = BX = BZ = CS.
+
+A
+
+x
+
+x
+k
+
+Y
+
+R
+Z
+
+p
+
+y
+B
+
+y
+
+y+z
+
+S
+
+z
+G
+
+q
+
+y
+
+T z
+
+C
+
+X
+
+ka
+
+Q
+
+P
+Ia
+So for each of the points Z, C, their distances to S equal the length of a tangent segment from
+this point to ka . It is well-known, that all points with this property lie on the line ZC, which
+is the radical axis of S and ka . Similar arguments yield that BY is the radical axis of R and
+ka . So the point of intersection of ZC and BY , which is G by definition, is the radical center
+of R, S and ka , from which the claim GR = GS follows immediately.
+Solution 2. Denote x = AZ = AY , y = BZ = BX, z = CX = CY , p = ZG, q = GC.
+Several lengthy calculations (Menelaos’ theorem in triangle AZC, law of Cosines in triangles
+ABC and AZC and Stewart’s theorem in triangle ZCS) give four equations for p, q, cos α
+52
+
+G3
+
+Geometry
+
+50th IMO 2009
+
+and GS in terms of x, y, and z that can be resolved for GS. The result is symmetric in y and
+z, so GR = GS. More in detail this means:
+= 1,
+The line BY intersects the sides of triangle AZC, so Menelaos’ theorem yields pq · xz · x+y
+y
+hence
+p
+xy
+=
+.
+(1)
+q
+yz + zx
+Since we only want to show that the term for GS is symmetric in y and z, we abbreviate terms
+that are symmetric in y and z by capital letters, starting with N = xy + yz + zx. So (1) implies
+p
+xy
+xy
+=
+=
+p+q
+xy + yz + zx
+N
+
+and
+
+q
+yz + zx
+yz + zx
+=
+=
+.
+p+q
+xy + yz + zx
+N
+
+(2)
+
+Now the law of Cosines in triangle ABC yields
+cos α =
+
+(x + y)2 + (x + z)2 − (y + z)2
+2x2 + 2xy + 2xz − 2yz
+2yz
+=
+=1−
+.
+2(x + y)(x + z)
+2(x + y)(x + z)
+(x + y)(x + z)
+
+We use this result to apply the law of Cosines in triangle AZC:
+(p + q)2 = x2 + (x + z)2 − 2x(x + z) cos α
+
+2
+2
+= x + (x + z) − 2x(x + z) · 1 −
+= z2 +
+
+2yz
+(x + y)(x + z)
+
+
+
+4xyz
+.
+x+y
+
+(3)
+
+Now in triangle ZCS the segment GS is a cevian, so with Stewart’s theorem we have
+py 2 + q(y + z)2 = (p + q)(GS 2 + pq), hence
+GS 2 =
+
+q
+p
+q
+p
+· y2 +
+· (y + z)2 −
+·
+· (p + q)2 .
+p+q
+p+q
+p+q p+q
+
+Replacing the p’s and q’s herein by (2) and (3) yields
+
+
+xy 2 yz + zx
+xy yz + zx
+4xyz
+2
+2
+GS =
+y +
+(y + z) −
+·
+· z +
+N
+N
+N
+N
+x+y
+2
+2
+3
+3
+zx(y + z)
+xy
+yz(y + z)
+xyz (x + y) 4x2 y 2 z 2
+=
++
++
+−
+−
+2
+N
+N
+N
+N2
+| {z
+}
+| N
+{z }
+2
+
+M1
+
+3
+
+M2
+
+2
+
+3
+
+xy + zx(y + z)
+xyz (x + y)
+−
++ M1 − M2
+N
+N2
+x(y 3 + y 2 z + yz 2 + z 3 ) xyz 2 N
+xyz 3 (x + y)
+=
++
+−
++ M1 − M2
+N
+N2
+N2
+|
+{z
+}
+=
+
+2 2 2
+
+M3
+2 3
+
+x y z + xy z + x2 yz 3 − x2 yz 3 − xy 2 z 3
++ M1 − M2 + M3
+N2
+x2 y 2 z 2
++ M1 − M2 + M3 ,
+=
+N2
+=
+
+a term that is symmetric in y and z, indeed.
+Comment. G is known as Gergonne’s point of 4ABC.
+
+53
+
+G4
+G4
+
+Geometry
+UNK
+
+50th IMO 2009
+
+(United Kingdom)
+
+Given a cyclic quadrilateral ABCD, let the diagonals AC and BD meet at E and the lines AD
+and BC meet at F . The midpoints of AB and CD are G and H, respectively. Show that EF
+is tangent at E to the circle through the points E, G, and H.
+
+Solution 1. It suffices to show that ∠HEF = ∠HGE (see Figure 1), since in circle EGH the
+angle over the chord EH at G equals the angle between the tangent at E and EH.
+First, ∠BAD = 180 ◦ − ∠DCB = ∠F CD. Since triangles F AB and F CD have also a common
+interior angle at F , they are similar.
+
+A
+D
+E
+
+M
+
+H
+
+G
+
+F
+
+Y
+
+X
+
+C
+
+B
+Figure 1
+Denote by T the transformation consisting of a reflection at the bisector of ∠DF C followed
+by a dilation with center F and factor of FF CA . Then T maps F to F , C to A, D to B, and H
+B
+. Moreover, as ∠ADB = ∠ACB,
+to G. To see this, note that 4F CA ∼ 4F DB, so FF CA = FF D
+the image of the line DE under T is parallel to AC (and passes through B) and similarly the
+image of CE is parallel to DB and passes through A. Hence E is mapped to the point X which
+is the fourth vertex of the parallelogram BEAX. Thus, in particular ∠HEF = ∠F XG.
+As G is the midpoint of the diagonal AB of the parallelogram BEAX, it is also the midpoint
+of EX. In particular, E, G, X are collinear, and EX = 2 · EG.
+Denote by Y the fourth vertex of the parallelogram DECY . By an analogous reasoning as
+before, it follows that T maps Y to E, thus E, H, Y are collinear with EY = 2 · EH.
+Therefore, by the intercept theorem, HG k XY .
+From the construction of T it is clear that the lines F X and F E are symmetric with respect
+to the bisector of ∠DF C, as are F Y and F E. Thus, F , X, Y are collinear, which together
+with HG k XY implies ∠F XE = ∠HGE. This completes the proof.
+
+54
+
+G4
+
+Geometry
+
+50th IMO 2009
+Solution 2. We use the following
+
+Lemma (Gauß). Let ABCD be a quadrilateral. Let AB and CD intersect at P , and BC
+and DA intersect at Q. Then the midpoints K, L, M of AC, BD, and P Q, respectively, are
+collinear.
+Proof: Let us consider the points Z that fulfill the equation
+(ABZ) + (CDZ) = (BCZ) + (DAZ),
+
+(1)
+
+where (RST ) denotes the oriented area of the triangle RST (see Figure 2).
+
+P
+
+M
+
+A
+K
+
+D
+
+L
+
+Q
+C
+
+B
+Figure 2
+As (1) is linear in Z, it can either characterize a line, or be contradictory, or be trivially fulfilled
+for all Z in the plane. If (1) was fulfilled for all Z, then it would hold for Z = A, Z = B, which
+gives (CDA) = (BCA), (CDB) = (DAB), respectively, i.e. the diagonals of ABCD would
+bisect each other, thus ABCD would be a parallelogram. This contradicts the hypothesis that
+AD and BC intersect. Since E, F, G fulfill (1), it is the equation of a line which completes the
+proof of the lemma.
+Now consider the parallelograms EAXB and ECY D (see Figure 1). Then G, H are the
+midpoints of EX, EY , respectively. Let M be the midpoint of EF . By applying the Lemma to
+the (re-entrant) quadrilateral ADBC, it is evident that G, H, and M are collinear. A dilation
+by a factor of 2 with center E shows that X, Y , F are collinear. Since AX k DE and BX k CE,
+we have pairwise equal interior angles in the quadrilaterals F DEC and F BXA. Since we have
+also ∠EBA = ∠DCA = ∠CDY , the quadrilaterals are similar. Thus, ∠F XA = ∠CEF .
+Clearly the parallelograms ECY D and EBXA are similar, too, thus ∠EXA = ∠CEY . Consequently, ∠F XE = ∠F XA − ∠EXA = ∠CEF − ∠CEY = ∠Y EF . By the converse of the
+tangent-chord angle theorem EF is tangent to the circle XEY . A dilation by a factor of 21
+completes the proof.
+
+55
+
+G4
+
+Geometry
+
+50th IMO 2009
+
+Solution 3. As in Solution 2, G, H, M are proven to be collinear. It suffices to show that
+−→
+M E 2 = M G · M H. If p = OP denotes the vector from circumcenter O to point P , the claim
+becomes
+
+2 
+
+
+e−f
+e+f
+a+b
+e+f
+c+d
+=
+−
+−
+,
+2
+2
+2
+2
+2
+or equivalently
+4 ef − (e + f )(a + b + c + d) + (a + b)(c + d) = 0.
+
+(2)
+
+With R as the circumradius of ABCD, we obtain for the powers P(E) and P(F ) of E and F ,
+respectively, with respect to the circumcircle
+P(E) = (e − a)(e − c) = (e − b)(e − d) = e2 − R2 ,
+P(F ) = (f − a)(f − d) = (f − b)(f − c) = f 2 − R2 ,
+hence
+(e − a)(e − c) = e2 − R2 ,
+(e − b)(e − d) = e2 − R2 ,
+
+(3)
+(4)
+
+(f − a)(f − d) = f 2 − R2 ,
+
+(5)
+
+2
+
+2
+
+(f − b)(f − c) = f − R .
+
+(6)
+
+Since F lies on the polar to E with respect to the circumcircle, we have
+4 ef = 4R2 .
+Adding up (3) to (7) yields (2), as desired.
+
+56
+
+(7)
+
+G5
+
+POL
+
+G5
+
+Geometry
+
+50th IMO 2009
+(Poland)
+
+Let P be a polygon that is convex and symmetric to some point O. Prove that for some
+parallelogram R satisfying P ⊂ R we have
+|R| √
+≤ 2
+|P |
+where |R| and |P | denote the area of the sets R and P , respectively.
+
+Solution 1. We will construct two parallelograms
+√ R1 and R3 , each√of them containing P , and
+prove that at least one of the inequalities |R1 | ≤ 2 |P | and |R3 | ≤ 2 |P | holds (see Figure 1).
+First we will construct a parallelogram R1 ⊇ P with the property that the midpoints of the
+sides of R1 are points of the boundary of P .
+Choose two points A and B of P such that the triangle OAB has maximal area. Let a be the
+line through A parallel to OB and b the line through B parallel to OA. Let A0 , B 0 , a0 and b0 be
+the points or lines, that are symmetric to A, B, a and b, respectively, with respect to O. Now
+let R1 be the parallelogram defined by a, b, a0 and b0 .
+
+R3
+R1
+
+A
+
+a
+R2
+
+B′
+
+C
+X′ *
+X
+
+a*
+
+X
+B
+
+O
+Y
+Y′
+
+b′
+
+b
+a′
+
+D
+
+A′
+Figure 1
+
+Obviously, A and B are located on the boundary of the polygon P , and A, B, A0 and B 0 are
+midpoints of the sides of R1 . We note that P ⊆ R1 . Otherwise, there would be a point Z ∈ P
+but Z ∈
+/ R1 , i.e., one of the lines a, b, a0 or b0 were between O and Z. If it is a, we have
+|OZB| > |OAB|, which is contradictory to the choice of A and B. If it is one of the lines b, a0
+or b0 almost identical arguments lead to a similar contradiction.
+Let R2 be the parallelogram ABA0 B 0 . Since A and B are points of P , segment AB ⊂ P and
+so R2 ⊂ R1 . Since A, B, A0 and B 0 are midpoints of the sides of R1 , an easy argument yields
+|R1 | = 2 · |R2 |.
+
+(1)
+
+Let R3 be the smallest parallelogram enclosing P defined by lines parallel to AB and BA0 .
+Obviously R2 ⊂ R3 and every side of R3 contains at least one point of the boundary of P .
+Denote by C the intersection point of a and b, by X the intersection point of AB and OC, and
+by X 0 the intersection point of XC and the boundary of R3 . In a similar way denote by D
+57
+
+G5
+
+Geometry
+
+50th IMO 2009
+
+the intersection point of b and a0 , by Y the intersection point of A0 B and OD, and by Y 0 the
+intersection point of Y D and the boundary of R3 .
+Note that OC = 2·OX and OD = 2·OY , so there exist real numbers x and y with 1 ≤ x, y ≤ 2
+and OX 0 = x · OX and OY 0 = y · OY . Corresponding sides of R3 and R2 are parallel which
+yields
+|R3 | = xy · |R2 |.
+
+(2)
+
+The side of R3 containing X 0 contains at least one point X ∗ of P ; due to the convexity of
+P we have AX ∗ B ⊂ P . Since this side of the parallelogram R3 is parallel to AB we have
+|AX ∗ B| = |AX 0 B|, so |OAX 0 B| does not exceed the area of P confined to the sector defined
+by the rays OB and OA. In a similar way we conclude that |OB 0 Y 0 A0 | does not exceed the
+area of P confined to the sector defined by the rays OB and OA0 . Putting things together we
+have |OAX 0 B| = x · |OAB|, |OBDA0 | = y · |OBA0 |. Since |OAB| = |OBA0 |, we conclude that
+· |OAB| = x+y
+· R2 ; this is in short
+|P | ≥ 2 · |AX 0 BY 0 A0 | = 2 · (x · |OAB| + y · |OBA0 |) = 4 · x+y
+2
+2
+x+y
+· |R2 | ≤ |P |.
+2
+
+(3)
+
+Since all numbers concerned are positive, we can combine (1)–(3). Using the arithmeticgeometric-mean inequality we obtain
+2
+
+x+y
+2
+|R1 | · |R3 | = 2 · |R2 | · xy · |R2 | ≤ 2 · |R2 |
+≤ 2 · |P |2 .
+2
+√
+√
+This implies immediately the desired result |R1 | ≤ 2 · |P | or |R3 | ≤ 2 · |P |.
+
+Solution 2. We construct √
+the parallelograms
+R1 , R2 and R3 in the same way as in Solution
+√
+|R1 |
+|R3 |
+1 and will show that |P | ≤ 2 or |P | ≤ 2.
+
+R3
+R1
+
+A
+b
+
+c
+B′
+
+B
+R2
+
+a
+A′
+
+Figure 2
+Recall that affine one-to-one maps of the plane preserve the ratio of areas of subsets of the
+plane. On the other hand, every parallelogram can be transformed with an affine map onto
+a square. It follows that without loss of generality we may assume that R1 is a square (see
+Figure 2).
+Then R2 , whose vertices are the midpoints of the sides of R1 , is a square too, and R3 , whose
+sides are parallel to the diagonals of R1 , is a rectangle.
+Let a > 0, b ≥ 0 and c ≥ 0 be the distances introduced in Figure 2. Then |R1 | = 2a2 and
+58
+
+G5
+
+Geometry
+
+50th IMO 2009
+|R3 | = (a + 2b)(a + 2c).
+
+Points A, A0 , B and B 0 are in the convex polygon P . Hence the square ABA0 B 0 is a subset of
+P . Moreover, each of the sides of the rectangle R3 contains a point of P , otherwise R3 would
+not be minimal. It follows that
+ac
+ab
++2·
+= a(a + b + c).
+2
+2
+√
+√
+1|
+3|
+Now assume that both |R
+> 2 and |R
+> 2, then
+|P |
+|P |
+|P | ≥ a2 + 2 ·
+
+2a2 = |R1 | >
+
+√
+
+2 · |P | ≥
+
+and
+(a + 2b)(a + 2c) = |R3 | >
+
+√
+
+√
+
+2 · a(a + b + c)
+
+2 · |P | ≥
+
+√
+
+2 · a(a + b + c).
+
+All numbers concerned are positive, so after multiplying these inequalities we get
+2a2 (a + 2b)(a + 2c) > 2a2 (a + b + c)2 .
+But the arithmetic-geometric-mean inequality implies the contradictory result
+
+2
+(a + 2b) + (a + 2c)
+2
+2
+2a (a + 2b)(a + 2c) ≤ 2a
+= 2a2 (a + b + c)2 .
+2
+√
+√
+3|
+1|
+≤ 2 or |R
+≤ 2, as desired.
+Hence |R
+|P |
+|P |
+
+59
+
+G6
+G6
+
+Geometry
+UKR
+
+50th IMO 2009
+
+(Ukraine)
+
+Let the sides AD and BC of the quadrilateral ABCD (such that AB is not parallel to CD)
+intersect at point P . Points O1 and O2 are the circumcenters and points H1 and H2 are the
+orthocenters of triangles ABP and DCP , respectively. Denote the midpoints of segments
+O1 H1 and O2 H2 by E1 and E2 , respectively. Prove that the perpendicular from E1 on CD, the
+perpendicular from E2 on AB and the line H1 H2 are concurrent.
+
+Solution 1. We keep triangle ABP fixed and move the line CD parallel to itself uniformly,
+i.e. linearly dependent on a single parameter λ (see Figure 1). Then the points C and D also
+move uniformly. Hence, the points O2 , H2 and E2 move uniformly, too. Therefore also the
+perpendicular from E2 on AB moves uniformly. Obviously, the points O1 , H1 , E1 and the
+perpendicular from E1 on CD do not move at all. Hence, the intersection point S of these
+two perpendiculars moves uniformly. Since H1 does not move, while H2 and S move uniformly
+along parallel lines (both are perpendicular to CD), it is sufficient to prove their collinearity
+for two different positions of CD.
+
+P
+
+O2
+D H2
+
+E2
+
+O1
+
+C
+
+S
+E1
+H1
+
+A
+
+B
+
+Figure 1
+Let CD pass through either point A or point B. Note that by hypothesis these two cases
+are different. We will consider the case A ∈ CD, i.e. A = D. So we have to show that the
+perpendiculars from E1 on AC and from E2 on AB intersect on the altitude AH of triangle
+ABC (see Figure 2).
+
+60
+
+G6
+
+Geometry
+
+50th IMO 2009
+
+P
+
+O1
+E1
+E2
+H2
+A=D
+
+S
+
+O2
+H
+H1
+
+B
+
+C1
+
+A1
+
+B1
+
+C
+Figure 2
+
+To this end, we consider the midpoints A1 , B1 , C1 of BC, CA, AB, respectively. As E1 is the
+center of Feuerbach’s circle (nine-point circle) of 4ABP , we have E1 C1 = E1 H. Similarly,
+E2 B1 = E2 H. Note further that a point X lies on the perpendicular from E1 on A1 C1 if and
+only if
+XC12 − XA21 = E1 C12 − E1 A21 .
+Similarly, the perpendicular from E2 on A1 B1 is characterized by
+XA21 − XB12 = E2 A21 − E2 B12 .
+The line H1 H2 , which is perpendicular to B1 C1 and contains A, is given by
+XB12 − XC12 = AB12 − AC12 .
+The three lines are concurrent if and only if
+0 = XC12 − XA21 + XA21 − XB12 + XB12 − XC12
+= E1 C12 − E1 A21 + E2 A21 − E2 B12 + AB12 − AC12
+= −E1 A21 + E2 A21 + E1 H 2 − E2 H 2 + AB12 − AC12 ,
+i.e. it suffices to show that
+AC
+E1 A21 − E2 A21 − E1 H 2 + E2 H 2 =
+
+2
+
+− AB 2
+.
+4
+
+We have
+AC 2 − AB 2
+HC 2 − HB 2
+(HC + HB)(HC − HB)
+HA1 · BC
+=
+=
+=
+.
+4
+4
+4
+2
+Let F1 , F2 be the projections of E1 , E2 on BC. Obviously, these are the midpoints of HP1 ,
+61
+
+G6
+
+Geometry
+
+50th IMO 2009
+
+HP2 , where P1 , P2 are the midpoints of P B and P C respectively. Then
+E1 A21 − E2 A21 − E1 H 2 + E2 H 2
+= F1 A21 − F1 H 2 − F2 A21 + F2 H 2
+= (F1 A1 − F1 H)(F1 A1 + F1 H) − (F2 A1 − F2 H)(F2 A1 + F2 H)
+= A1 H · (A1 P1 − A1 P2 )
+A1 H · BC
+=
+2
+AC 2 − AB 2
+=
+,
+4
+which proves the claim.
+
+Solution 2. Let the perpendicular from E1 on CD meet P H1 at X, and the perpendicular
+from E2 on AB meet P H2 at Y (see Figure 3). Let ϕ be the intersection angle of AB and CD.
+Denote by M , N the midpoints of P H1 , P H2 respectively.
+
+Q
+ϕ
+
+X
+
+H1
+B
+
+C
+
+M
+E1
+β
+ψ
+
+P
+
+E2
+α
+
+D
+
+A
+
+Y N
+H2
+Figure 3
+We will prove now that triangles E1 XM and E2 Y N have equal angles at E1 , E2 , and supplementary angles at X, Y .
+In the following, angles are understood as oriented, and equalities of angles modulo 180◦ .
+Let α = ∠H2 P D, ψ = ∠DP C, β = ∠CP H1 . Then α + ψ + β = ϕ, ∠E1 XH1 = ∠H2 Y E2 = ϕ,
+thus ∠M XE1 + ∠N Y E2 = 180◦ .
+By considering the Feuerbach circle of 4ABP whose center is E1 and which goes through M ,
+we have ∠E1 M H1 = ψ + 2β. Analogous considerations with the Feuerbach circle of 4DCP
+yield ∠H2 N E2 = ψ + 2α. Hence indeed ∠XE1 M = ϕ − (ψ + 2β) = (ψ + 2α) − ϕ = ∠Y E2 N .
+It follows now that
+
+XM
+YN
+=
+.
+M E1
+N E2
+Furthermore, M E1 is half the circumradius of 4ABP , while P H1 is the distance of P to the
+orthocenter of that triangle, which is twice the circumradius times the cosine of ψ. Together
+62
+
+50th IMO 2009
+
+Geometry
+
+G6
+
+with analogous reasoning for 4DCP we have
+1
+N E2
+M E1
+=
+=
+.
+P H1
+4 cos ψ
+P H2
+By multiplication,
+XM
+YN
+=
+,
+P H1
+P H2
+and therefore
+
+H2 Y
+PX
+=
+.
+XH1
+YP
+Let E1 X, E2 Y meet H1 H2 in R, S respectively.
+Applying the intercept theorem to the parallels E1 X, P H2 and center H1 gives
+H2 R
+PX
+=
+,
+RH1
+XH1
+
+while with parallels E2 Y , P H1 and center H2 we obtain
+H2 S
+H2 Y
+.
+=
+SH1
+YP
+Combination of the last three equalities yields that R and S coincide.
+
+63
+
+G7
+G7
+
+Geometry
+IRN
+
+50th IMO 2009
+
+(Islamic Republic of Iran)
+
+Let ABC be a triangle with incenter I and let X, Y and Z be the incenters of the triangles
+BIC, CIA and AIB, respectively. Let the triangle XY Z be equilateral. Prove that ABC is
+equilateral too.
+
+Solution. AZ, AI and AY divide ∠BAC into four equal angles; denote them by α. In
+the same way we have four equal angles β at B and four equal angles γ at C. Obviously
+◦
+α + β + γ = 180
+= 45 ◦; and 0 ◦ < α, β, γ < 45 ◦.
+4
+
+A
+α
+
+Z
+I
+
+Y
+γ
+
+β
+
+X
+
+B
+
+C
+
+Easy calculations in various triangles yield ∠BIC = 180 ◦ − 2β − 2γ = 180 ◦ − (90 ◦ − 2α) =
+90 ◦ + 2α, hence (for X is the incenter of triangle BCI, so IX bisects ∠BIC) we have ∠XIC =
+∠BIX = 12 ∠BIC = 45 ◦ + α and with similar aguments ∠CIY = ∠Y IA = 45 ◦ + β and
+∠AIZ = ∠ZIB = 45 ◦ + γ. Furthermore, we have ∠XIY = ∠XIC + ∠CIY = (45 ◦ + α) +
+(45 ◦ + β) = 135 ◦ − γ, ∠Y IZ = 135 ◦ − α, and ∠ZIX = 135 ◦ − β.
+Now we calculate the lengths of IX, IY and IZ in terms of α, β and γ. The perpendicular
+from I on CX has length IX · sin ∠CXI = IX · sin (90 ◦ + β) = IX · cos β. But CI bisects
+∠Y CX, so the perpendicular from I on CY has the same length, and we conclude
+IX · cos β = IY · cos α.
+To make calculations easier we choose a length unit that makes IX = cos α. Then IY = cos β
+and with similar arguments IZ = cos γ.
+Since XY Z is equilateral we have ZX = ZY . The law of Cosines in triangles XY I, Y ZI yields
+ZX 2 = ZY 2
+=⇒ IZ 2 + IX 2 − 2 · IZ · IX · cos ∠ZIX = IZ 2 + IY 2 − 2 · IZ · IY · cos ∠Y IZ
+=⇒ IX 2 − IY 2 = 2 · IZ · (IX · cos ∠ZIX − IY · cos ∠Y IZ)
+=⇒ cos 2 α − cos 2 β = 2 · cos γ · (cos α · cos (135◦ − β) − cos β · cos (135◦ − α)) .
+{z
+} |
+|
+{z
+}
+L.H.S.
+
+R.H.S.
+
+A transformation of the left-hand side (L.H.S.) yields
+
+
+L.H.S. = cos 2 α · sin 2 β + cos 2 β − cos 2 β · sin 2 α + cos 2 α
+= cos 2 α · sin 2 β − cos 2 β · sin 2 α
+64
+
+Geometry
+
+50th IMO 2009
+
+G7
+
+= (cos α · sin β + cos β · sin α) · (cos α · sin β − cos β · sin α)
+= sin (β + α) · sin (β − α) = sin (45◦ − γ) · sin (β − α)
+whereas a transformation of the right-hand side (R.H.S.) leads to
+R.H.S. = 2 · cos γ · (cos α · (− cos (45◦ + β)) − cos β · (− cos (45◦ + α)))
+√
+2
+· cos γ · (cos α · (sin β − cos β) + cos β · (cos α − sin α))
+=2·
+√ 2
+= 2 · cos γ · (cos α · sin β − cos β · sin α)
+√
+= 2 · cos γ · sin (β − α).
+Equating L.H.S. and R.H.S. we obtain
+√
+sin (45◦ − γ) · sin (β − α) = 2 · cos γ · sin (β − α)
+√
+
+◦
+=⇒ sin (β − α) ·
+2 · cos γ − sin (45 − γ) = 0
+√
+=⇒ α = β or
+2 · cos γ = sin (45◦ − γ).
+But γ < 45 ◦; so
+
+√
+
+2 · cos γ > cos γ > cos 45 ◦ = sin 45 ◦ > sin(45 ◦ − γ). This leaves α = β.
+
+With similar reasoning we have α = γ, which means triangle ABC must be equilateral.
+
+65
+
+G8
+G8
+
+Geometry
+BGR
+
+50th IMO 2009
+
+(Bulgaria)
+
+Let ABCD be a circumscribed quadrilateral. Let g be a line through A which meets the
+segment BC in M and the line CD in N . Denote by I1 , I2 , and I3 the incenters of 4ABM ,
+4M N C, and 4N DA, respectively. Show that the orthocenter of 4I1 I2 I3 lies on g.
+
+Solution 1. Let k1 , k2 and k3 be the incircles of triangles ABM , M N C, and N DA, respectively (see Figure 1). We shall show that the tangent h from C to k1 which is different from
+CB is also tangent to k3 .
+
+B
+k1
+
+A
+
+h
+g
+I1
+k3
+X
+H
+M
+L3
+
+I3
+
+L1
+D
+
+k2 I2
+C
+
+N
+Figure 1
+To this end, let X denote the point of intersection of g and h. Then ABCX and ABCD are
+circumscribed quadrilaterals, whence
+CD − CX = (AB + CD) − (AB + CX) = (BC + AD) − (BC + AX) = AD − AX,
+i.e.
+AX + CD = CX + AD
+which in turn reveals that the quadrilateral AXCD is also circumscribed. Thus h touches
+indeed the circle k3 .
+Moreover, we find that ∠I3 CI1 = ∠I3 CX + ∠XCI1 = 21 (∠DCX + ∠XCB) = 12 ∠DCB =
+1
+(180◦ − ∠M CN ) = 180◦ − ∠M I2 N = ∠I3 I2 I1 , from which we conclude that C, I1 , I2 , I3 are
+2
+concyclic.
+Let now L1 and L3 be the reflection points of C with respect to the lines I2 I3 and I1 I2 respectively. Since I1 I2 is the angle bisector of ∠N M C, it follows that L3 lies on g. By analogous
+reasoning, L1 lies on g.
+Let H be the orthocenter of 4I1 I2 I3 . We have ∠I2 L3 I1 = ∠I1 CI2 = ∠I1 I3 I2 = 180◦ − ∠I1 HI2 ,
+which entails that the quadrilateral I2 HI1 L3 is cyclic. Analogously, I3 HL1 I2 is cyclic.
+66
+
+G8
+
+Geometry
+
+50th IMO 2009
+
+Then, working with oriented angles modulo 180 ◦, we have
+∠L3 HI2 = ∠L3 I1 I2 = ∠I2 I1 C = ∠I2 I3 C = ∠L1 I3 I2 = ∠L1 HI2 ,
+whence L1 , L3 , and H are collinear. By L1 6= L3 , the claim follows.
+Comment. The last part of the argument essentially reproves the following fact: The Simson
+line of a point P lying on the circumcircle of a triangle ABC with respect to that triangle bisects
+the line segment connecting P with the orthocenter of ABC.
+Solution 2. We start by proving that C, I1 , I2 , and I3 are concyclic.
+
+B
+
+A
+β
+
+α
+
+I1
+
+Z
+
+I
+I3
+
+M
+δ
+
+g
+
+I2
+
+γ
+
+D
+
+C
+N
+Figure 2
+To this end, notice first that I2 , M , I1 are collinear, as are N , I2 , I3 (see Figure 2). Denote by
+α, β, γ, δ the internal angles of ABCD. By considerations in triangle CM N , it follows that
+∠I3 I2 I1 = γ2 . We will show that ∠I3 CI1 = γ2 , too. Denote by I the incenter of ABCD. Clearly,
+I1 ∈ BI, I3 ∈ DI, ∠I1 AI3 = α2 .
+Using the abbreviation [X, Y Z] for the distance from point X to the line Y Z, we have because
+of ∠BAI1 = ∠IAI3 and ∠I1 AI = ∠I3 AD that
+[I1 , AB]
+[I3 , AI]
+=
+.
+[I1 , AI]
+[I3 , AD]
+Furthermore, consideration of the angle sums in AIB, BIC, CID and DIA implies ∠AIB +
+∠CID = ∠BIC + ∠DIA = 180◦ , from which we see
+[I1 , AI]
+I1 I
+[I1 , CI]
+=
+=
+.
+[I3 , CI]
+I3 I
+[I3 , AI]
+Because of [I1 , AB] = [I1 , BC], [I3 , AD] = [I3 , CD], multiplication yields
+[I1 , BC]
+[I1 , CI]
+=
+.
+[I3 , CI]
+[I3 , CD]
+By ∠DCI = ∠ICB = γ/2 it follows that ∠I1 CB = ∠I3 CI which concludes the proof of the
+67
+
+G8
+
+Geometry
+
+50th IMO 2009
+
+above statement.
+Let the perpendicular from I1 on I2 I3 intersect g at Z. Then ∠M I1 Z = 90◦ − ∠I3 I2 I1 =
+90◦ − γ/2 = ∠M CI2 . Since we have also ∠ZM I1 = ∠I2 M C, triangles M ZI1 and M I2 C are
+similar. From this one easily proves that also M I2 Z and M CI1 are similar. Because C, I1 , I2 ,
+and I3 are concyclic, ∠M ZI2 = ∠M I1 C = ∠N I3 C, thus N I2 Z and N CI3 are similar, hence
+N CI2 and N I3 Z are similar. We conclude ∠ZI3 I2 = ∠I2 CN = 90◦ − γ/2, hence I1 I2 ⊥ ZI3 .
+This completes the proof.
+
+68
+
+Number Theory
+
+50th IMO 2009
+
+N1
+
+Number Theory
+N1
+
+AUS
+
+(Australia)
+
+A social club has n members. They have the membership numbers 1, 2, . . . , n, respectively.
+From time to time members send presents to other members, including items they have already
+received as presents from other members. In order to avoid the embarrassing situation that a
+member might receive a present that he or she has sent to other members, the club adds the
+following rule to its statutes at one of its annual general meetings:
+“A member with membership number a is permitted to send a present to a member with
+membership number b if and only if a(b − 1) is a multiple of n.”
+Prove that, if each member follows this rule, none will receive a present from another member
+that he or she has already sent to other members.
+Alternative formulation: Let G be a directed graph with n vertices v1 , v2 , . . . , vn , such that
+there is an edge going from va to vb if and only if a and b are distinct and a(b − 1) is a multiple
+of n. Prove that this graph does not contain a directed cycle.
+
+Solution 1. Suppose there is an edge from vi to vj . Then i(j − 1) = ij − i = kn for some
+integer k, which implies i = ij −kn. If gcd(i, n) = d and gcd(j, n) = e, then e divides ij −kn = i
+and thus e also divides d. Hence, if there is an edge from vi to vj , then gcd(j, n)| gcd(i, n).
+If there is a cycle in G, say vi1 → vi2 → · · · → vir → vi1 , then we have
+gcd(i1 , n)| gcd(ir , n)| gcd(ir−1 , n)| . . . | gcd(i2 , n)| gcd(i1 , n),
+which implies that all these greatest common divisors must be equal, say be equal to t.
+Now we pick any of the ik , without loss of generality let it be i1 . Then ir (i1 − 1) is a multiple of
+n and hence also (by dividing by t), i1 − 1 is a multiple of nt . Since i1 and i1 − 1 are relatively
+prime, also t and nt are relatively prime. So, by the Chinese remainder theorem, the value of
+i1 is uniquely determined modulo n = t · nt by the value of t. But, as i1 was chosen arbitrarily
+among the ik , this implies that all the ik have to be equal, a contradiction.
+
+Solution 2. If a, b, c are integers such that ab − a and bc − b are multiples of n, then also
+ac − a = a(bc − b) + (ab − a) − (ab − a)c is a multiple of n. This implies that if there is an
+edge from va to vb and an edge from vb to vc , then there also must be an edge from va to vc .
+Therefore, if there are any cycles at all, the smallest cycle must have length 2. But suppose
+the vertices va and vb form such a cycle, i. e., ab − a and ab − b are both multiples of n. Then
+a − b is also a multiple of n, which can only happen if a = b, which is impossible.
+
+Solution 3. Suppose there was a cycle vi1 → vi2 → · · · → vir → vi1 . Then i1 (i2 − 1)
+is a multiple of n, i. e., i1 ≡ i1 i2 mod n. Continuing in this manner, we get i1 ≡ i1 i2 ≡
+i1 i2 i3 ≡ i1 i2 i3 . . . ir mod n. But the same holds for all ik , i. e., ik ≡ i1 i2 i3 . . . ir mod n. Hence
+i1 ≡ i2 ≡ · · · ≡ ir mod n, which means i1 = i2 = · · · = ir , a contradiction.
+69
+
+N1
+
+Number Theory
+
+50th IMO 2009
+
+Solution 4. Let n = k be the smallest value of n for which the corresponding graph has a
+cycle. We show that k is a prime power.
+If k is not a prime power, it can be written as a product k = de of relatively prime integers
+greater than 1. Reducing all the numbers modulo d yields a single vertex or a cycle in the
+corresponding graph on d vertices, because if a(b − 1) ≡ 0 mod k then this equation also holds
+modulo d. But since the graph on d vertices has no cycles, by the minimality of k, we must
+have that all the indices of the cycle are congruent modulo d. The same holds modulo e and
+hence also modulo k = de. But then all the indices are equal, which is a contradiction.
+Thus k must be a prime power k = pm . There are no edges ending at vk , so vk is not contained
+in any cycle. All edges not starting at vk end at a vertex belonging to a non-multiple of p, and
+all edges starting at a non-multiple of p must end at v1 . But there is no edge starting at v1 .
+Hence there is no cycle.
+Solution 5. Suppose there was a cycle vi1 → vi2 → · · · → vir → vi1 . Let q = pm be a prime
+power dividing n. We claim that either i1 ≡ i2 ≡ · · · ≡ ir ≡ 0 mod q or i1 ≡ i2 ≡ · · · ≡ ir ≡
+1 mod q.
+Suppose that there is an is not divisible by q. Then, as is (is+1 − 1) is a multiple of q, is+1 ≡
+1 mod p. Similarly, we conclude is+2 ≡ 1 mod p and so on. So none of the labels is divisible by
+p, but since is (is+1 − 1) is a multiple of q = pm for all s, all is+1 are congruent to 1 modulo q.
+This proves the claim.
+Now, as all the labels are congruent modulo all the prime powers dividing n, they must all be
+equal by the Chinese remainder theorem. This is a contradiction.
+
+70
+
+Number Theory
+
+50th IMO 2009
+
+N2
+
+PER
+
+N2
+
+(Peru)
+
+A positive integer N is called balanced, if N = 1 or if N can be written as a product of an
+even number of not necessarily distinct primes. Given positive integers a and b, consider the
+polynomial P defined by P (x) = (x + a)(x + b).
+(a) Prove that there exist distinct positive integers a and b such that all the numbers P (1), P (2),
+. . . , P (50) are balanced.
+(b) Prove that if P (n) is balanced for all positive integers n, then a = b.
+
+Solution. Define a function f on the set of positive integers by f (n) = 0 if n is balanced and
+f (n) = 1 otherwise. Clearly, f (nm) ≡ f (n) + f (m) mod 2 for all positive integers n, m.
+(a) Now for each positive integer n consider the binary sequence (f (n+1), f (n+2), . . . , f (n+
+50)). As there are only 250 different such sequences there are two different positive integers
+a and b such that
+(f (a + 1), f (a + 2), . . . , f (a + 50)) = (f (b + 1), f (b + 2), . . . , f (b + 50)).
+But this implies that for the polynomial P (x) = (x+a)(x+b) all the numbers P (1), P (2),
+. . . , P (50) are balanced, since for all 1 ≤ k ≤ 50 we have f (P (k)) ≡ f (a + k) + f (b + k) ≡
+2f (a + k) ≡ 0 mod 2.
+(b) Now suppose P (n) is balanced for all positive integers n and a < b. Set n = k(b − a) − a
+for sufficiently large k, such that n is positive. Then P (n) = k(k + 1)(b − a)2 , and this
+number can only be balanced, if f (k) = f (k + 1) holds. Thus, the sequence f (k) must
+become constant for sufficiently large k. But this is not possible, as for every prime p we
+have f (p) = 1 and for every square t2 we have f (t2 ) = 0.
+Hence a = b.
+Comment. Given a positive integer k, a computer search for the pairs of positive integers
+(a, b), for which P (1), P (2), . . . , P (k) are all balanced yields the following results with
+minimal sum a + b and a < b:
+k
+3
+4
+5
+10
+20
+(a, b) (2, 4) (6, 11) (8, 14) (20, 34) (1751, 3121)
+Therefore, trying to find a and b in part (a) of the problem cannot be done by elementary
+calculations.
+
+71
+
+N3
+N3
+
+Number Theory
+EST
+
+50th IMO 2009
+
+(Estonia)
+
+Let f be a non-constant function from the set of positive integers into the set of positive integers,
+such that a − b divides f (a) − f (b) for all distinct positive integers a, b. Prove that there exist
+infinitely many primes p such that p divides f (c) for some positive integer c.
+
+Solution 1. Denote by vp (a) the exponent of the prime p in the prime decomposition of a.
+Assume that there are only finitely many primes p1 , p2 , . . . , pm that divide some function value
+produced of f .
+There are infinitely many positive integers a such that vpi (a) > vpi (f (1)) for all i = 1, 2, . . . , m,
+e.g. a = (p1 p2 . . . pm )α with α sufficiently large. Pick any such a. The condition of the problem
+then yields a| (f (a + 1) − f (1)). Assume f (a + 1) 6= f (1). Then we must have vpi (f (a + 1)) 6=
+vpi (f (1)) for at least one i. This yields vpi (f (a + 1) − f (1)) = min {vpi (f (a + 1)), vpi (f (1))} ≤
+vp1 (f (1)) < vpi (a). But this contradicts the fact that a| (f (a + 1) − f (1)).
+Hence we must have f (a + 1) = f (1) for all such a.
+Now, for any positive integer b and all such a, we have (a + 1 − b)|(f (a + 1) − f (b)), i.e.,
+(a + 1 − b)|(f (1) − f (b)). Since this is true for infinitely many positive integers a we must have
+f (b) = f (1). Hence f is a constant function, a contradiction. Therefore, our initial assumption
+was false and there are indeed infinitely many primes p dividing f (c) for some positive integer
+c.
+Solution 2. Assume that there are only finitely many primes p1 , p2 , . . . , pm that divide some
+function value of f . Since f is not identically 1, we must have m ≥ 1.
+Then there exist non-negative integers α1 , . . . , αm such that
+f (1) = pα1 1 pα2 2 . . . pαmm .
+We can pick a positive integer r such that f (r) 6= f (1). Let
+M = 1 + pα1 1 +1 pα2 2 +1 . . . pαmm +1 · (f (r) + r).
+Then for all i ∈ {1, . . . , m} we have that pαi i +1 divides M − 1 and hence by the condition of the
+problem also f (M ) − f (1). This implies that f (M ) is divisible by pαi i but not by pαi i +1 for all i
+and therefore f (M ) = f (1).
+Hence
+M − r > pα1 1 +1 pα2 2 +1 . . . pαmm +1 · (f (r) + r) − r
+αm +1
++ (f (r) + r) − r
+≥ pα1 1 +1 pα2 2 +1 . . . pm
+α1 α2
+αm
+> p1 p2 . . . pm + f (r)
+≥ |f (M ) − f (r)|.
+
+But since M − r divides f (M ) − f (r) this can only be true if f (r) = f (M ) = f (1), which
+contradicts the choice of r.
+Comment. In the case that f is a polynomial with integer coefficients the result is well-known,
+see e.g. W. Schwarz, Einführung in die Methoden der Primzahltheorie, 1969.
+72
+
+Number Theory
+
+50th IMO 2009
+
+N4
+
+PRK
+
+N4
+
+(Democratic People’s Republic of Korea)
+
+Find all positive integers n such that there exists a sequence of positive integers a1 , a2 , . . . , an
+satisfying
+a2 + 1
+−1
+ak+1 = k
+ak−1 + 1
+for every k with 2 ≤ k ≤ n − 1.
+
+Solution 1. Such a sequence exists for n = 1, 2, 3, 4 and no other n. Since the existence of
+such a sequence for some n implies the existence of such a sequence for all smaller n, it suffices
+to prove that n = 5 is not possible and n = 4 is possible.
+Assume first that for n = 5 there exists a sequence of positive integers a1 , a2 , . . . , a5 satisfying
+the conditions
+a22 + 1 = (a1 + 1)(a3 + 1),
+a23 + 1 = (a2 + 1)(a4 + 1),
+a24 + 1 = (a3 + 1)(a5 + 1).
+Assume a1 is odd, then a2 has to be odd as well and as then a22 + 1 ≡ 2 mod 4, a3 has to be
+even. But this is a contradiction, since then the even number a2 + 1 cannot divide the odd
+number a23 + 1.
+Hence a1 is even.
+If a2 is odd, a23 + 1 is even (as a multiple of a2 + 1) and hence a3 is odd, too. Similarly we must
+have a4 odd as well. But then a23 + 1 is a product of two even numbers (a2 + 1)(a4 + 1) and
+thus is divisible by 4, which is a contradiction as for odd a3 we have a23 + 1 ≡ 2 mod 4.
+Hence a2 is even. Furthermore a3 +1 divides the odd number a22 +1 and so a3 is even. Similarly,
+a4 and a5 are even as well.
+Now set x = a2 and y = a3 . From the given condition we get (x+1)|(y 2 +1) and (y +1)|(x2 +1).
+We will prove that there is no pair of positive even numbers (x, y) satisfying these two conditions,
+thus yielding a contradiction to the assumption.
+Assume there exists a pair (x0 , y0 ) of positive even numbers satisfying the two conditions
+(x0 + 1)|(y02 + 1) and (y0 + 1)|(x20 + 1).
+Then one has (x0 + 1)|(y02 + 1 + x20 − 1), i.e., (x0 + 1)|(x20 + y02 ), and similarly (y0 + 1)|(x20 + y02 ).
+Any common divisor d of x0 + 1 and y0 + 1 must hence also divide the number
+(x20 + 1) + (y02 + 1) − (x20 + y02 ) = 2. But as x0 + 1 and y0 + 1 are both odd, we must have d = 1.
+Thus x0 + 1 and y0 + 1 are relatively prime and therefore there exists a positive integer k such
+that
+k(x + 1)(y + 1) = x2 + y 2
+has the solution (x0 , y0 ). We will show that the latter equation has no solution (x, y) in positive
+even numbers.
+Assume there is a solution. Pick the solution (x1 , y1 ) with the smallest sum x1 + y1 and assume
+x1 ≥ y1 . Then x1 is a solution to the quadratic equation
+x2 − k(y1 + 1)x + y12 − k(y1 + 1) = 0.
+73
+
+N4
+
+Number Theory
+
+50th IMO 2009
+
+Let x2 be the second solution, which by Vieta’s theorem fulfills x1 + x2 = k(y1 + 1) and
+x1 x2 = y12 − k(y1 + 1). If x2 = 0, the second equation implies y12 = k(y1 + 1), which is
+impossible, as y1 + 1 > 1 cannot divide the relatively prime number y12 . Therefore x2 6= 0.
+Also we get (x1 + 1)(x2 + 1) = x1 x2 + x1 + x2 + 1 = y12 + 1 which is odd, and hence x2 must
+y 2 +1
+y 2 +1
+be even and positive. Also we have x2 + 1 = x11 +1 ≤ y11 +1 ≤ y1 ≤ x1 . But this means that the
+pair (x0 , y 0 ) with x0 = y1 and y 0 = x2 is another solution of k(x + 1)(y + 1) = x2 + y 2 in even
+positive numbers with x0 + y 0 < x1 + y1 , a contradiction.
+Therefore we must have n ≤ 4.
+When n = 4, a possible example of a sequence is a1 = 4, a2 = 33, a3 = 217 and a4 = 1384.
+Solution 2. It is easy to check that for n = 4 the sequence a1 = 4, a2 = 33, a3 = 217 and
+a4 = 1384 is possible.
+Now assume there is a sequence with n ≥ 5. Then we have in particular
+a22 + 1 = (a1 + 1)(a3 + 1),
+a23 + 1 = (a2 + 1)(a4 + 1),
+a24 + 1 = (a3 + 1)(a5 + 1).
+Also assume without loss of generality that among all such quintuples (a1 , a2 , a3 , a4 , a5 ) we have
+chosen one with minimal a1 .
+One shows quickly the following fact:
+If three positive integers x, y, z fulfill y 2 + 1 = (x + 1)(z + 1) and if y is even, then
+x and z are even as well and either x < y < z or z < y < x holds.
+(1)
+Indeed, the first part is obvious and from x < y we conclude
+z+1=
+
+y2 + 1
+y2 + 1
+≥
+> y,
+x+1
+y
+
+and similarly in the other case.
+Now, if a3 was odd, then (a2 + 1)(a4 + 1) = a23 + 1 ≡ 2 mod 4 would imply that one of a2 or
+a4 is even, this contradicts (1). Thus a3 and hence also a1 , a2 , a4 and a5 are even. According
+to (1), one has a1 < a2 < a3 < a4 < a5 or a1 > a2 > a3 > a4 > a5 but due to the minimality of
+a1 the first series of inequalities must hold.
+Consider the identity
+(a3 +1)(a1 +a3 ) = a23 −1+(a1 +1)(a3 +1) = a22 +a23 = a22 −1+(a2 +1)(a4 +1) = (a2 +1)(a2 +a4 ).
+Any common divisor of the two odd numbers a2 + 1 and a3 + 1 must also divide (a2 + 1)(a4 +
+1) − (a3 + 1)(a3 − 1) = 2, so these numbers are relatively prime. Hence the last identity shows
+that a1 + a3 must be a multiple of a2 + 1, i.e. there is an integer k such that
+a1 + a3 = k(a2 + 1).
+Now set a0 = k(a1 + 1) − a2 . This is an integer and we have
+(a0 + 1)(a2 + 1) = k(a1 + 1)(a2 + 1) − (a2 − 1)(a2 + 1)
+= (a1 + 1)(a1 + a3 ) − (a1 + 1)(a3 + 1) + 2
+= (a1 + 1)(a1 − 1) + 2 = a21 + 1.
+74
+
+(2)
+
+50th IMO 2009
+
+Number Theory
+
+N4
+
+Thus a0 ≥ 0. If a0 > 0, then by (1) we would have a0 < a1 < a2 and then the quintuple
+(a0 , a1 , a2 , a3 , a4 ) would contradict the minimality of a1 .
+Hence a0 = 0, implying a2 = a21 . But also a2 = k(a1 + 1), which finally contradicts the fact
+that a1 + 1 > 1 is relatively prime to a21 and thus cannot be a divisior of this number.
+Hence n ≥ 5 is not possible.
+Comment 1. Finding the example for n = 4 is not trivial and requires a tedious calculation,
+but it can be reduced to checking a few cases. The equations (a1 + 1)(a3 + 1) = a22 + 1 and
+(a2 + 1)(a4 + 1) = a23 + 1 imply, as seen in the proof, that a1 is even and a2 , a3 , a4 are odd. The
+case a1 = 2 yields a22 ≡ −1 mod 3 which is impossible. Hence a1 = 4 is the smallest possibility.
+In this case a22 ≡ −1 mod 5 and a2 is odd, which implies a2 ≡ 3 or a2 ≡ 7 mod 10. Hence we
+have to start checking a2 = 7, 13, 17, 23, 27, 33 and in the last case we succeed.
+Comment 2. The choice of a0 = k(a1 + 1) − a2 in the second solution appears more natural if
+one considers that by the previous calculations one has a1 = k(a2 +1)−a3 and a2 = k(a3 +1)−a4 .
+Alternatively, one can solve the equation (2) for a3 and use a22 + 1 = (a1 + 1)(a3 + 1) to get
+a22 − k(a1 + 1)a2 + a21 − k(a1 + 1) = 0. Now a0 is the second solution to this quadratic equation
+in a2 (Vieta jumping).
+
+75
+
+N5
+N5
+
+Number Theory
+HUN
+
+50th IMO 2009
+
+(Hungary)
+
+Let P (x) be a non-constant polynomial with integer coefficients. Prove that there is no function
+T from the set of integers into the set of integers such that the number of integers x with
+T n (x) = x is equal to P (n) for every n ≥ 1, where T n denotes the n-fold application of T .
+
+Solution 1. Assume there is a polynomial P of degree at least 1 with the desired property
+for a given function T . Let A(n) denote the set of all x ∈ Z such that T n (x) = x and let
+B(n) denote the set of all x ∈ Z for which T n (x) = x and T k (x) 6= x for all 1 ≤ k < n. Both
+sets are finite under the assumption made. For each x ∈ A(n) there is a smallest k ≥ 1 such
+that T k (x) = x, i.e., x ∈ B(k). Let d = gcd(k, n). There are positive integers r, s such that
+rk − sn = d and hence x = T rk (x) = T sn+d (x) = T d (T sn (x)) = T d (x). The minimality of k
+implies d = k,
+S i.e., k|n. On the other hand one clearly has B(k) ⊂ A(n) if k|n and thus we
+have A(n) = d|n B(d) as a disjoint union and hence
+|A(n)| =
+
+X
+
+|B(d)|.
+
+d|n
+
+Furthermore, for every x ∈ B(n) the elements x, T 1 (x), T 2 (x), . . . , T n−1 (x) are n distinct
+elements of B(n). The fact that they are in A(n) is obvious. If for some k < n and
+some 0 ≤ i < n we had T k (T i (x)) = T i (x), i.e. T k+i (x) = T i (x), that would imply
+x = T n (x) = T n−i (T i (x)) = T n−i (T k+i (x)) = T k (T n (x)) = T k (x) contradicting the minimality
+of n. Thus T i (x) ∈ B(n) and T i (x) 6= T j (x) for 0 ≤ i < j ≤ n − 1.
+So indeed, T permutes the elements of B(n) in (disjoint) cycles of length n and in particular
+one has n |B(n)|.
+P
+Now let P (x) = ki=0 ai xi , ai ∈ Z, k ≥ 1, ak 6= 0 and suppose that |A(n)| = P (n) for all n ≥ 1.
+Let p be any prime. Then
+p2 |B(p2 )| = |A(p2 )| − |A(p)| = a1 (p2 − p) + a2 (p4 − p2 ) + . . .
+Hence p|a1 and since this is true for all primes we must have a1 = 0.
+Now consider any two different primes p and q. Since a1 = 0 we have that
+|A(p2 q)| − |A(pq)| = a2 (p4 q 2 − p2 q 2 ) + a3 (p6 q 3 − p3 q 3 ) + . . .
+is a multiple of p2 q. But we also have
+p2 q |B(p2 q)| = |A(p2 q)| − |A(pq)| − |B(p2 )|.
+This implies
+p2 q |B(p2 )| = |A(p2 )| − |A(p)| = a2 (p4 − p2 ) + a3 (p6 − p3 ) + · · · + ak (p2k − pk ).
+Since this is true for every prime q we must have a2 (p4 − p2 ) + a3 (p6 − p3 ) + · · · + ak (p2k − pk ) = 0
+for every prime p. Since this expression is a polynomial in p of degree 2k (because ak 6= 0) this
+is a contradiction, as such a polynomial can have at most 2k zeros.
+
+76
+
+Number Theory
+
+50th IMO 2009
+
+N5
+
+Comment. The last contradiction can also be reached via
+
+1
+4
+2
+6
+3
+2k
+k
+a
+(p
+−
+p
+)
++
+a
+(p
+−
+p
+)
++
+·
+·
+·
++
+a
+(p
+−
+p
+)
+= 0.
+2
+3
+k
+p→∞ p2k
+
+ak = lim
+
+Solution 2. As in the first solution define A(n) and B(n) and assume that a polynomial P
+with the required property exists. This again implies that |A(n)| and |B(n)| is finite for all
+positive integers n and that
+X
+P (n) = |A(n)| =
+|B(d)|
+and
+n |B(n)|.
+d|n
+
+Now, for any two distinct primes p and q, we have
+P (0) ≡ P (pq) ≡ |B(1)| + |B(p)| + |B(q)| + |B(pq)| ≡ |B(1)| + |B(p)| mod q.
+Thus, for any fixed p, the expression P (0) − |B(1)| − |B(p)| is divisible by arbitrarily large
+primes q which means that P (0) = |B(1)| + |B(p)| = P (p) for any prime p. This implies that
+the polynomial P is constant, a contradiction.
+
+77
+
+N6
+N6
+
+Number Theory
+TUR
+
+50th IMO 2009
+
+(Turkey)
+
+Let k be a positive integer. Show that if there exists a sequence a0 , a1 , . . . of integers satisfying
+the condition
+an =
+
+an−1 + nk
+n
+
+for all n ≥ 1,
+
+then k − 2 is divisible by 3.
+
+Solution 1. Part A. For each positive integer k, there exists a polynomial Pk of degree k − 1
+with integer coefficients, i. e., Pk ∈ Z[x], and an integer qk such that the polynomial identity
+xPk (x) = xk + Pk (x − 1) + qk
+
+(Ik )
+
+is satisfied. To prove this, for fixed k we write
+Pk (x) = bk−1 xk−1 + · · · + b1 x + b0
+and determine the coefficients bk−1 , bk−2 , . . . , b0 and the number qk successively. Obviously, we
+have bk−1 = 1. For m = k − 1, k − 2, . . . , 1, comparing the coefficients of xm in the identity (Ik )
+results in an expression of bm−1 as an integer linear combination of bk−1 , . . . , bm , and finally
+qk = −Pk (−1).
+Part B. Let k be a positive integer, and let a0 , a1 , . . . be a sequence of real numbers satisfying
+the recursion given in the problem. This recursion can be written as
+an−1 − Pk (n − 1) qk
+−
+n
+n
+
+for all n ≥ 1,
+
+n−1
+X
+a0 − Pk (0)
+i!
+an − Pk (n) =
+− qk
+n!
+n!
+i=0
+
+for all n ≥ 1.
+
+an − Pk (n) =
+which by induction gives
+
+Therefore, the numbers an are integers for all n ≥ 1 only if
+a0 = Pk (0) and qk = 0.
+Part C. Multiplying the identity (Ik ) by x2 + x and subtracting the identities (Ik+1 ), (Ik+2 ) and
+qk x2 = qk x2 therefrom, we obtain
+
+xTk (x) = Tk (x − 1) + 2x Pk (x − 1) + qk − (qk+2 + qk+1 + qk ),
+where the polynomials Tk ∈ Z[x] are defined by Tk (x) = (x2 +x)Pk (x)−Pk+1 (x)−Pk+2 (x)−qk x.
+Thus
+xTk (x) ≡ Tk (x − 1) + qk+2 + qk+1 + qk mod 2,
+
+78
+
+k = 1, 2, . . .
+
+N6
+
+Number Theory
+
+50th IMO 2009
+
+Comparing the degrees, we easily see that this is only possible if Tk is the zero polynomial
+modulo 2, and
+qk+2 ≡ qk+1 + qk mod 2 for k = 1, 2, . . .
+Since q1 = −1 and q2 = 0, these congruences finish the proof.
+Solution 2. Part A and B. Let k be a positive integer, and suppose there is a sequence
+a0 , a1 , . . . as required. We prove: There exists a polynomial P ∈ Z[x], i. e., with integer
+coefficients, such that an = P (n), n = 0, 1, . . . , and xP (x) = xk + P (x − 1).
+To prove this, we write P (x) = bk−1 xk−1 + · · · + b1 x + b0 and determine the coefficients
+bk−1 , bk−2 , . . . , b0 successively such that
+xP (x) − xk − P (x − 1) = q,
+where q = qk is an integer. Comparing the coefficients of xm results in an expression of bm−1
+as an integer linear combination of bk−1 , . . . , bm .
+Defining cn = an − P (n), we get
+P (n − 1) + cn−1 + nk
+,
+n
+q + ncn = cn−1 ,
+
+P (n) + cn =
+
+i. e.,
+
+hence
+cn =
+
+c0
+0! + 1! + · · · + (n − 1)!
+−q·
+.
+n!
+n!
+
+We conclude limn→∞ cn = 0, which, using cn ∈ Z, implies cn = 0 for sufficiently large n.
+Therefore, we get q = 0 and cn = 0, n = 0, 1, . . . .
+Part C. Suppose that q = qk = 0, i. e. xP (x) = xk + P (x − 1). To consider this identity for
+arguments x ∈ F4 , we write F4 = {0, 1, α, α + 1}. Then we get
+αPk (α) = αk + Pk (α + 1) and
+(α + 1)Pk (α + 1) = (α + 1)k + Pk (α),
+hence
+Pk (α) = 1 · Pk (α) = (α + 1)αPk (α)
+= (α + 1)Pk (α + 1) + (α + 1)αk
+= Pk (α) + (α + 1)k + (α + 1)αk .
+Now, (α + 1)k−1 = αk implies k ≡ 2 mod 3.
+Comment 1. For k = 2, the sequence given by an = n+1, n = 0, 1, . . . , satisfies the conditions
+of the problem.
+
+79
+
+N6
+
+Number Theory
+
+50th IMO 2009
+
+Comment 2. The first few polynomials Pk and integers qk are
+P1 (x) = 1, q1 = −1,
+P2 (x) = x + 1, q2 = 0,
+P3 (x) = x2 + x − 1, q3 = 1,
+P4 (x) = x3 + x2 − 2x − 1, q4 = −1,
+P5 (x) = x4 + x3 − 3x2 + 5, q5 = −2,
+P6 (x) = x5 + x4 − 4x3 + 2x2 + 10x − 5, q6 = 9,
+q7 = −9, q8 = −50, q9 = 267, q10 = −413, q11 = −2180.
+A lookup in the On-Line Encyclopedia of Integer Sequences (A000587) reveals that the sequence
+q1 , −q2 , q3 , −q4 , q5 , . . . is known as Uppuluri-Carpenter numbers. The result that qk = 0
+implies k ≡ 2 mod 3 is contained in
+P
+k
+Murty, Summer: On the p-adic series ∞
+n=0 n · n!. CRM Proc. and Lecture Notes 36, 2004.
+As shown by Alexander (Non-Vanishing of Uppuluri-Carpenter Numbers, Preprint 2006),
+Uppuluri-Carpenter numbers are zero at most twice.
+Comment 3. The numbers qk can be written in terms of the Stirling numbers of the second
+kind. To show this, we fix the notation such that
+xk =Sk−1,k−1 x(x − 1) · · · (x − k + 1)
++ Sk−1,k−2 x(x − 1) · · · (x − k + 2)
++ · · · + Sk−1,0 x,
+e. g., S2,2 = 1, S2,1 = 3, S2,0 = 1, and we define
+Ωk = Sk−1,k−1 − Sk−1,k−2 + − · · · .
+Replacing x by −x in (∗) results in
+xk =Sk−1,k−1 x(x + 1) · · · (x + k − 1)
+− Sk−1,k−2 x(x + 1) · · · (x + k − 2)
++ − · · · ± Sk−1,0 x.
+Defining
+P (x) =Sk−1,k−1 (x + 1) · · · (x + k − 1)
++ (Sk−1,k−1 − Sk−1,k−2 )(x + 1) · · · (x + k − 2)
++ (Sk−1,k−1 − Sk−1,k−2 + Sk−1,k−3 )(x + 1) · · · (x + k − 3)
++ · · · + Ωk ,
+we obtain
+xP (x) − P (x − 1) = Sk−1,k−1 x(x + 1) · · · (x + k − 1)
+− Sk−1,k−2 x(x + 1) · · · (x + k − 2)
++ − · · · ± Sk−1,0 x − Ωk
+= xk − Ω k ,
+hence qk = −Ωk .
+
+80
+
+(∗)
+
+N7
+
+MNG
+
+N7
+
+Number Theory
+
+50th IMO 2009
+(Mongolia)
+
+Let a and b be distinct integers greater than 1. Prove that there exists a positive integer n such
+that (an − 1)(bn − 1) is not a perfect square.
+
+Solution 1. At first we notice that
+
+
+1
+1
+(1 − α) 2 (1 − β) 2 = 1 − 12 · α − 81 · α2 − · · · 1 − 12 · β − 18 · β 2 − · · ·
+X
+=
+ck,` · αk β ` for all α, β ∈ (0, 1),
+
+(1)
+
+k,`≥0
+
+where c0,0 = 1 and ck,` are certain coefficients.
+p
+For an indirect proof, we suppose that xn = (an − 1)(bn − 1) ∈ Z for all positive integers n.
+2
+2
+Replacing
+√ a by a and b by b if necessary, we may assume that a and b are perfect squares,
+hence ab is an integer.
+At first we shall assume that aµ 6= bν for all positive integers µ, ν. We have
+ √ n
+
+1 
+1
+X
+√ n
+1 2
+1 2
+ab
+ck,` k ` .
+xn = ( ab) 1 − n
+1− n
+=
+a
+b
+a b
+k,`≥0
+Choosing k0 and `0 such that ak0 >
+
+√
+
+ab, b`0 >
+
+√
+
+ab, we define the polynomial
+
+k0 −1,`0 −1
+
+Y
+
+P (x) =
+
+k `
+
+(2)
+
+(a b x −
+
+√
+ab) =:
+
+kX
+0 ·`0
+
+di xi
+
+i=0
+
+k=0,`=0
+
+with integer coefficients di . By our assumption, the zeros
+√
+ab
+, k = 0, . . . , k0 − 1, ` = 0, . . . , `0 − 1,
+k
+a b`
+of P are pairwise distinct.
+Furthermore, we consider the integer sequence
+yn =
+
+kX
+0 ·`0
+
+di xn+i ,
+
+n = 1, 2, . . .
+
+(3)
+
+i=0
+
+By the theory of linear recursions, we obtain
+ √ n
+X
+ab
+yn =
+ek,` k ` ,
+a b
+k,`≥0
+
+n = 1, 2, . . . ,
+
+(4)
+
+k≥k0 or `≥`0
+
+with real numbers ek,` . We have
+|yn | ≤
+
+X
+k,`≥0
+k≥k0 or `≥`0
+
+ √ n
+ab
+|ek,` | k `
+=: Mn .
+a b
+
+81
+
+N7
+
+Number Theory
+
+50th IMO 2009
+
+Because the series in (4) is obtained by a finite linear combination of the absolutely convergent
+series (1), we conclude that in particular M1 < ∞. Since
+√
+√ 
+√
+ab
+ab ab
+,
+for all k, ` ≥ 0 such that k ≥ k0 or ` ≥ `0 ,
+≤ λ := max
+ak b `
+ak0 b`0
+we get the estimates Mn+1 ≤ λMn , n = 1, 2, . . . Our choice of k0 and `0 ensures λ < 1, which
+implies Mn → 0 and consequently yn → 0 as n → ∞. It follows that yn = 0 for all sufficiently
+large n.
+P 0 ·`0
+So, equation (3) reduces to ki=0
+di xn+i = 0.
+Using the theory of linear recursions again, for sufficiently large n we have
+ √ n
+ab
+xn =
+fk,` k `
+a b
+k=0,`=0
+k0 −1,`0 −1
+
+X
+
+for certain real numbers fk,` .
+Comparing with (2), we see that fk,` = ck,` for all k, ` ≥ 0 with k < k0 , ` < `0 , and ck,` = 0 if
+k ≥ k0 or ` ≥ `0 , since we assumed that aµ 6= bν for all positive integers µ, ν.
+In view of (1), this means
+k0 −1,`0 −1
+1
+2
+
+1
+2
+
+X
+
+(1 − α) (1 − β) =
+
+ck,` · αk β `
+
+(5)
+
+k=0,`=0
+
+for all real numbers α, β ∈ (0, 1). We choose k ∗ < k0 maximal such that there is some i
+∗
+∗
+with ck∗ ,i 6= 0. Squaring (5) and comparing coefficients of α2k β 2i , where i∗ is maximal with
+ck∗ ,i∗ 6= 0, we see that k ∗ = 0. This means that the right hand side of (5) is independent of α,
+which is clearly impossible.
+We are left with the case that aµ = bν for some positive integers µ and ν. We may assume
+that µ and ν are relatively prime. Then there is some positive integer c such that a = cν and
+b = cµ . Now starting with the expansion (2), i. e.,
+√
+X  cµ+ν n
+xn =
+gj
+cj
+j≥0
+for certain coefficients gj , and repeating the arguments above, we see that gj = 0 for sufficiently
+large j, say j > j0 . But this means that
+µ
+
+1
+2
+
+ν
+
+1
+2
+
+(1 − x ) (1 − x ) =
+
+j0
+X
+
+gj xj
+
+j=0
+
+for all real numbers x ∈ (0, 1). Squaring, we see that
+(1 − xµ )(1 − xν )
+is the square of a polynomial in x. In particular, all its zeros are of order at least 2, which
+implies µ = ν by looking at roots of unity. So we obtain µ = ν = 1, i. e., a = b, a contradiction.
+
+82
+
+Number Theory
+
+50th IMO 2009
+
+N7
+
+p
+Solution 2. We set a2 = A, b2 = B, and zn = (An − 1)(B n − 1). Let us assume that zn
+is an integer for n = 1, 2, . . . Without loss of generality, we may suppose that b < a. We
+determine an integer k ≥ 2 such that bk−1 ≤ a < bk , and define a sequence γ1 , γ2 , . . . of rational
+numbers such that
+2γ1 = 1
+
+and
+
+2γn+1 =
+
+n
+X
+
+γi γn−i for n = 1, 2, . . .
+
+i=1
+
+, for instance by reading Vandermondes conIt could easily be shown that γn = 1·1·3...(2n−3)
+2·4·6...2n
+volution as an equation between polynomials, but we shall have no use for this fact.
+Using Landaus O–Notation in the usual way, we have
+
+ n 2
+ a n
+ a n
+ a n
+b
+n
+(ab) − γ1
+− γ2 3 − · · · − γk 2k−1 + O
+b
+b
+b
+a
+!
+
+ n
+k
+i−1
+n
+X
+X
+A
+A
+n n
+n
+= A B − 2γ1 A −
+2γi −
++O
++ O (B n )
+γj γi−j
+i−1
+k
+B
+B
+i=2
+j=1
+= An B n − An + O (B n ) ,
+whence
+n
+
+zn = (ab) − γ1
+
+ a n
+b
+
+− γ2
+
+ a n
+b3
+
+ n
+ a n
+b
+− · · · − γk 2k−1 + O
+.
+b
+a
+
+Now choose rational numbers r1 , r2 , . . . , rk+1 such that
+a
+(x − ab) · (x − ab ) . . . (x − b2k−1
+) = xk+1 − r1 xk + − · · · ± rk+1 ,
+
+and then a natural number M for which M r1 , M r2 , . . . M rk+1 are integers. For known reasons,
+ n
+b
+M (zn+k+1 − r1 zn+k + − · · · ± rk+1 zn ) = O
+a
+for all n ∈ N and thus there is a natural number N which is so large, that
+zn+k+1 = r1 zn+k − r2 zn+k−1 + − · · · ∓ rk+1 zn
+holds for all n > N . Now the theory of linear recursions reveals that there are some rational
+numbers δ0 , δ1 , δ2 , . . . , δk such that
+ a n
+ a n
+ a n
+n
+− δ2 3 − · · · − δk 2k−1
+zn = δ0 (ab) − δ1
+b
+b
+b
+for sufficiently large n, where δ0 > 0 as zn > 0. As before, one obtains
+An B n − An − B n + 1 = zn2
+n
+ a n
+ a n
+ a n o2
+n
+= δ0 (ab) − δ1
+− δ2 3 − · · · − δk 2k−1
+b
+b
+b !
+n
+ n
+
+j=i−1
+i=k
+X
+X
+A
+A
+2 n n
+n
+= δ0 A B − 2δ0 δ1 A −
+2δ0 δi −
+δj δi−j
++O
+.
+i−1
+k
+B
+B
+i=2
+j=1
+P
+Easy asymptotic calculations yield δ0 = 1, δ1 = 12 , δi = 12 j=i−1
+δj δi−j for i = 2, 3, . . . , k−2, and
+j=1
+k−1
+then a = b . It follows that k > 2 and there is some P ∈ Q[X] for which (X − 1)(X k−1 − 1) =
+P (X)2 . But this cannot occur, for instance as X k−1 − 1 has no double zeros. Thus our
+83
+
+N7
+
+Number Theory
+
+50th IMO 2009
+
+assumption that zn was an integer for n = 1, 2, . . . turned out to be wrong, which solves the
+problem.
+
+Original formulation of the problem. a, b are positive integers such that a·b is not a square of
+an integer. Prove that there exists a (infinitely many) positive integer n such that (an −1)(bn −1)
+is not a square of an integer.
+
+Solution. Lemma. Let c be a positive integer, which is not a perfect square. Then there exists
+an odd prime p such that c is not a quadratic residue modulo p.
+
+0
+Proof. Denoting the square-free part of c by c0 , we have the equality cp = pc of the corresponding Legendre symbols. Suppose that c0 = q1 · · · qm , where q1 < · · · < qm are primes.
+Then we have
+ c0   q   q 
+1
+m
+=
+···
+.
+p
+p
+p
+Case 1. Let q1 be odd. We choose a quadratic nonresidue r1 modulo q1 and quadratic residues
+ri modulo qi for i = 2, . . . , m. By the Chinese remainder theorem and the Dirichlet theorem,
+there exists a (infinitely many) prime p such that
+p ≡ r1 mod q1 ,
+p ≡ r2 mod q2 ,
+..
+..
+.
+.
+p ≡ rm mod qm ,
+p ≡ 1 mod 4.
+By our choice of the residues, we obtain
+p
+qi
+
+=
+
+r 
+i
+
+qi
+
+(
+−1, i = 1,
+=
+1,
+i = 2, . . . , m.
+qi
+p
+
+The congruence p ≡ 1 mod 4 implies that
+reciprocity. Thus
+ c0 
+p
+
+=
+
+q 
+1
+
+p
+
+
+
+=
+
+···
+
+p
+qi
+
+
+, i = 1, . . . , m, by the law of quadratic
+
+q 
+m
+
+p
+
+= −1.
+
+Case 2. Suppose q1 = 2. We choose quadratic residues ri modulo qi for i = 2, . . . , m. Again,
+by the Chinese remainder theorem and the Dirichlet theorem, there exists a prime p such
+that
+p ≡ r2 mod q2 ,
+..
+..
+.
+.
+p ≡ rm mod qm ,
+p ≡ 5 mod 8.
+
+
+By the choice of the residues, we obtain qpi = rqii = 1 for i = 2, . . . , m. Since p ≡ 1 mod 4 we
+
+
+have qpi = qpi , i = 2, . . . , m, by the law of quadratic reciprocity. The congruence p ≡ 5 mod 8
+84
+
+implies that
+
+2
+p
+
+
+
+N7
+
+Number Theory
+
+50th IMO 2009
+= −1. Thus
+ c0 
+p
+
+=
+
+ 2  q 
+2
+
+p
+
+p
+
+···
+
+q 
+m
+
+p
+
+= −1,
+
+and the lemma is proved.
+Applying the lemma for c = a · b, we find an odd prime p such that
+ ab 
+p
+
+=
+
+a  b 
+·
+= −1.
+p
+p
+
+This implies either
+p−1
+
+a 2 ≡ 1 mod p,
+
+p−1
+
+b 2 ≡ −1 mod p,
+
+or
+
+p−1
+
+a 2 ≡ −1 mod p,
+
+p−1
+
+p−1
+
+b 2 ≡ 1 mod p.
+
+p−1
+
+Without loss of generality, suppose that a 2 ≡ 1 mod p and b 2 ≡ −1 mod p. The second
+p−1
+p−1
+congruence implies that b 2 −1 is not divisible by p. Hence, if the exponent νp (a 2 −1) of p in
+p−1
+p−1
+p−1
+the prime decomposition of (a 2 − 1) is odd, then (a 2 − 1)(b 2 − 1) is not a perfect square.
+p−1
+p−1
+If νp (a 2 − 1) is even, then νp (a 2 p − 1) is odd by the well-known power lifting property
+ p−1
+
+
+ p−1
+νp a 2 p − 1 = νp a 2 − 1 + 1.
+p−1
+
+p−1
+
+In this case, (a 2 p − 1)(b 2 p − 1) is not a perfect square.
+
+Comment 1. In 1998, the following problem appeared in Crux Mathematicorum:
+Problem 2344. Find all positive integers N that are quadratic residues modulo all primes
+greater than N .
+The published solution (Crux Mathematicorum, 25(1999)4) is the same as the proof of the
+lemma given above, see also http://www.mathlinks.ro/viewtopic.php?t=150495.
+
+Comment 2. There is also an elementary proof of the lemma. We cite Theorem 3 of Chapter 5
+and its proof from the book
+Ireland, Rosen: A Classical Introduction to Modern Number Theory, Springer 1982.
+Theorem. Let a be a nonsquare integer. Then there are infinitely many primes p for which a is
+a quadratic nonresidue.
+Proof. It is easily seen that we may assume that a is square-free. Let a = 2e q1 q2 · · · qn , where
+qi are distinct odd primes and e = 0 or 1. The case a = 2 has to be dealt with separately. We
+shall assume to begin with that n ≥ 1, i. e., that a is divisible by an odd prime.
+Let `1 , `2 , . . . , `k be a finite set of odd primes not including any qi . Let s be any quadratic
+nonresidue modqn , and find a simultaneous solution to the congruences
+x ≡ 1 mod `i , i = 1, . . . , k,
+x ≡ 1 mod 8,
+x ≡ 1 mod qi , i = 1, . . . , n − 1,
+x ≡ s mod qn .
+Call the solution b. b is odd. Suppose that b = p1 p2 · · · pm is its prime decomposition. Since
+85
+
+N7
+
+Number Theory
+
+b ≡ 1 mod 8 we have
+a
+b
+
+=
+
+ 2 e  q 
+1
+
+b
+
+b
+
+2
+b
+
+···
+
+
+
+= 1 and
+
+q
+
+qi
+b
+
+n−1
+
+ q 
+
+b
+
+b
+
+n
+
+
+=
+
+=
+
+b
+qi
+
+
+
+b
+
+On the other hand, by the definition of
+
+a
+= −1 for some i.
+pi
+
+q1
+a
+b
+
+
+
+50th IMO 2009
+
+by a result on Jacobi symbols. Thus
+
+···
+
+ b  b   1   1  s 
+=
+···
+= −1.
+qn−1 qn
+q1
+qn−1 qn
+
+, we have
+
+a
+b
+
+
+
+=
+
+a
+p1
+
+
+
+a
+p2
+
+
+
+···
+
+a
+pm
+
+
+. It follows that
+
+Notice that `j does not divide b. Thus pi ∈
+/ {`1 , `2 , . . . , `k }.
+To summarize, if a is a nonsquare, divisible by an odd prime,we have found a prime p, outside
+of a given finite set of primes {2, `1 , `2 , . . . , `k }, such that ap = −1. This proves the theorem
+in this case.
+It remains to consider the case a = 2. Let `1 , `2 , . . . , `k be a finite set of primes, excluding 3, for
+which `2i = −1. Let b = 8`1 `2 · · · `k + 3. b is not divisible by 3 or any `i . Since b ≡ 3 mod 8
+
+b2 −1
+we have 2b = (−1) 8 = −1. Suppose
+that b = p1 p2 · · · pm is the prime decomposition of
+
+2
+/ {3, `1 , `2 , . . . , `k }. This proves the
+b. Then, as before, we see that pi = −1 for some i. pi ∈
+theorem for a = 2.
+This proof has also been posted to mathlinks, see http://www.mathlinks.ro/viewtopic.
+php?t=150495 again.
+
+86
+
+

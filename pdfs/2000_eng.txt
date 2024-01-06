@@ -1,0 +1,33 @@
+41st IMO 2000
+
+Problem 1. AB is tangent to the circles CAM N and N M BD. M lies
+between C and D on the line CD, and CD is parallel to AB. The chords
+N A and CM meet at P ; the chords N B and M D meet at Q. The rays CA
+and DB meet at E. Prove that P E = QE.
+Problem 2. A, B, C are positive reals with product 1. Prove that (A − 1 +
+1
+1
+1
+B )(B − 1 + C )(C − 1 + A ) ≤ 1.
+Problem 3. k is a positive real. N is an integer greater than 1. N points
+are placed on a line, not all coincident. A move is carried out as follows.
+Pick any two points A and B which are not coincident. Suppose that A lies
+to the right of B. Replace B by another point B 0 to the right of A such that
+AB 0 = kBA. For what values of k can we move the points arbitrarily far to
+the right by repeated moves?
+Problem 4. 100 cards are numbered 1 to 100 (each card different) and
+placed in 3 boxes (at least one card in each box). How many ways can this
+be done so that if two boxes are selected and a card is taken from each, then
+the knowledge of their sum alone is always sufficient to identify the third
+box?
+Problem 5. Can we find N divisible by just 2000 different primes, so that
+N divides 2N + 1? [N may be divisible by a prime power.]
+Problem 6. A1 A2 A3 is an acute-angled triangle. The foot of the altitude
+from Ai is Ki and the incircle touches the side opposite Ai at Li . The line
+K1 K2 is reflected in the line L1 L2 . Similarly, the line K2 K3 is reflected in
+L2 L3 and K3 K1 is reflected in L3 L1 . Show that the three new lines form a
+triangle with vertices on the incircle.
+
+1
+
+

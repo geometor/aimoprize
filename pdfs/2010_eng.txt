@@ -1,0 +1,68 @@
+Language: English
+Day: 1
+
+Wednesday, July 7, 2010
+Problem 1. Determine all functions f : R → R such that the equality
+Ä
+
+ä
+
+ö
+
+ù
+
+f bxcy = f (x) f (y)
+
+holds for all x, y ∈ R. (Here bzc denotes the greatest integer less than or equal to z.)
+Problem 2. Let I be the incentre of triangle ABC and let Γ be its circumcircle. Let the line AI
+˙ and F a point on the side BC such that
+intersect Γ again at D. Let E be a point on the arc BDC
+∠BAF = ∠CAE < 21 ∠BAC.
+Finally, let G be the midpoint of the segment IF . Prove that the lines DG and EI intersect on Γ.
+Problem 3. Let N be the set of positive integers. Determine all functions g : N → N such that
+Ä
+
+äÄ
+
+g(m) + n m + g(n)
+
+ä
+
+is a perfect square for all m, n ∈ N.
+
+Language: English
+
+Time: 4 hours and 30 minutes
+Each problem is worth 7 points
+
+Language: English
+Day: 2
+
+Thursday, July 8, 2010
+Problem 4. Let P be a point inside the triangle ABC. The lines AP , BP and CP intersect the
+circumcircle Γ of triangle ABC again at the points K, L and M respectively. The tangent to Γ at C
+intersects the line AB at S. Suppose that SC = SP . Prove that M K = M L.
+Problem 5. In each of six boxes B1 , B2 , B3 , B4 , B5 , B6 there is initially one coin. There are two
+types of operation allowed:
+Type 1: Choose a nonempty box Bj with 1 ≤ j ≤ 5. Remove one coin from Bj and add two
+coins to Bj+1 .
+Type 2: Choose a nonempty box Bk with 1 ≤ k ≤ 4. Remove one coin from Bk and exchange
+the contents of (possibly empty) boxes Bk+1 and Bk+2 .
+Determine whether there is a finite sequence of such operations that results in boxes B1 , B2 , B3 , B4 , B5
+2010
+c
+c
+being empty and box B6 containing exactly 20102010
+coins. (Note that ab = a(b ) .)
+Problem 6. Let a1 , a2 , a3 , . . . be a sequence of positive real numbers. Suppose that for some
+positive integer s, we have
+an = max{ak + an−k | 1 ≤ k ≤ n − 1}
+for all n > s. Prove that there exist positive integers ` and N , with ` ≤ s and such that an = a` +an−`
+for all n ≥ N .
+
+Language: English
+
+Time: 4 hours and 30 minutes
+Each problem is worth 7 points
+
+

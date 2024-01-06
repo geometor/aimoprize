@@ -1,0 +1,49 @@
+32nd International Mathematical Olympiad
+July 17, 1991
+First Day
+Time Limit: 4 12 hours
+1. Given a triangle ABC, let I be the center of its inscribed circle.
+The internal bisectors of the angles A, B, C meet the opposite sides in
+A0 , B 0 , C 0 respectively. Prove that
+1
+AI · BI · CI
+8
+<
+≤
+.
+0
+0
+0
+4
+AA · BB · CC
+27
+2. Let n > 6 be an integer and a1 , a2 , . . . , ak be all the natural numbers
+less than n and relatively prime to n. If
+a2 − a1 = a3 − a2 = · · · = ak − ak−1 > 0,
+prove that n must be either a prime number or a power of 2.
+3. Let S = {1, 2, 3, . . . , 280}. Find the smallest integer n such that each nelement subset of S contains five numbers which are pairwise relatively
+prime.
+Second Day
+July 18, 1991
+Time Limit: 4 12 hours
+1. Suppose G is a connected graph with k edges. Prove that it is possible to label the edges 1, 2, . . . , k in such a way that at each vertex
+which belongs to two or more edges, the greatest common divisor of
+the integers labeling those edges is equal to 1.
+[A graph consists of a set of points, called vertices, together with a set
+of edges joining certain pairs of distinct vertices. Each pair of vertices
+u, v belongs to at most one edge. The graph G is connected if for
+each pair of distinct vertices x, y there is some sequence of vertices
+x = v0 , v1 , v2 , . . . , vm = y such that each pair vi , vi+1 (0 ≤ i < m) is
+joined by an edge of G.]
+2. Let ABC be a triangle and P an interior point of ABC . Show that
+at least one of the angles 6 P AB, 6 P BC, 6 P CA is less than or equal
+to 30◦ .
+
+3. An infinite sequence x0 , x1 , x2 , . . . of real numbers is said to be bounded
+if there is a constant C such that |xi | ≤ C for every i ≥ 0.
+Given any real number a > 1, construct a bounded infinite sequence
+x0 , x1 , x2 , . . . such that
+|xi − xj ||i − j|a ≥ 1
+for every pair of distinct nonnegative integers i, j.
+
+

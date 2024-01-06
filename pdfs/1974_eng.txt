@@ -1,0 +1,66 @@
+Sixteenth International Olympiad, 1974
+1974/1.
+Three players A, B and C play the following game: On each of three cards
+an integer is written. These three numbers p, q, r satisfy 0 < p < q < r. The
+three cards are shuffled and one is dealt to each player. Each then receives
+the number of counters indicated by the card he holds. Then the cards are
+shuffled again; the counters remain with the players.
+This process (shuffling, dealing, giving out counters) takes place for at least
+two rounds. After the last round, A has 20 counters in all, B has 10 and C
+has 9. At the last round B received r counters. Who received q counters on
+the first round?
+
+1974/2.
+In the triangle ABC, prove that there is a point D on side AB such that CD
+is the geometric mean of AD and DB if and only if
+sin A sin B ≤ sin2
+
+1974/3.
+Prove that the number
+n ≥ 0.
+
+Pn
+
+k=0
+
+³
+
+´
+
+2n+1
+2k+1
+
+C
+.
+2
+
+23k is not divisible by 5 for any integer
+
+1974/4.
+Consider decompositions of an 8 × 8 chessboard into p non-overlapping rectangles subject to the following conditions:
+(i) Each rectangle has as many white squares as black squares.
+(ii) If ai is the number of white squares in the i-th rectangle, then a1 < a2 <
+· · · < ap . Find the maximum value of p for which such a decomposition is
+possible. For this value of p, determine all possible sequences a1 , a2 , · · · , ap .
+
+1974/5.
+Determine all possible values of
+S=
+
+a
+b
+c
+d
++
++
++
+a+b+d a+b+c b+c+d a+c+d
+
+where a, b, c, d are arbitrary positive numbers.
+
+1974/6.
+Let P be a non-constant polynomial with integer coefficients. If n(P ) is
+the number of distinct integers k such that (P (k))2 = 1, prove that n(P ) −
+deg(P ) ≤ 2, where deg(P ) denotes the degree of the polynomial P.
+
+

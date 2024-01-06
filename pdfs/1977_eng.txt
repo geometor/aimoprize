@@ -1,0 +1,39 @@
+Nineteenth International Mathematical Olympiad,
+1977
+1977/1.
+Equilateral triangles ABK, BCL, CDM, DAN are constructed inside the
+square ABCD. Prove that the midpoints of the four segments KL, LM, M N, N K
+and the midpoints of the eight segments AKBK, BL, CL, CM, DM, DN, AN
+are the twelve vertices of a regular dodecagon.
+
+1977/2.
+In a finite sequence of real numbers the sum of any seven successive terms is
+negative, and the sum of any eleven successive terms is positive. Determine
+the maximum number of terms in the sequence.
+
+1977/3.
+Let n be a given integer > 2, and let Vn be the set of integers 1 + kn, where
+k = 1, 2, .... A number m ∈ Vn is called indecomposable in Vn if there do not
+exist numbers p, q ∈ Vn such that pq = m. Prove that there exists a number
+r ∈ Vn that can be expressed as the product of elements indecomposable in
+Vn in more than one way. (Products which differ only in the order of their
+factors will be considered the same.)
+
+1977/4.
+Four real constants a, b, A, B are given, and
+f (θ) = 1 − a cos θ − b sin θ − A cos 2θ − B sin 2θ.
+Prove that if f (θ) ≥ 0 for all real θ, then
+a2 + b2 ≤ 2 and A2 + B 2 ≤ 1.
+
+1977/5.
+Let a and b be positive integers. When a2 +b2 is divided by a+b, the quotient
+is q and the remainder is r. Find all pairs (a, b) such that q 2 + r = 1977.
+
+1977/6.
+Let f (n) be a function defined on the set of all positive integers and having
+all its values in the same set. Prove that if
+f (n + 1) > f (f (n))
+for each positive integer n, then
+f (n) = n for each n.
+
+

@@ -1,0 +1,52 @@
+Third International Olympiad, 1961
+1961/1.
+Solve the system of equations:
+x+y+z = a
+x + y 2 + z 2 = b2
+xy = z 2
+2
+
+where a and b are constants. Give the conditions that a and b must satisfy
+so that x, y, z (the solutions of the system) are distinct positive numbers.
+
+1961/2.
+
+√
+Let a, b, c be the sides of a triangle, and T its area. Prove: a2 +b2 +c2 ≥ 4 3T.
+In what case does equality hold?
+
+1961/3.
+Solve the equation cosn x − sinn x = 1, where n is a natural number.
+
+1961/4.
+Consider triangle P1 P2 P3 and a point P within the triangle. Lines P1 P, P2 P, P3 P
+intersect the opposite sides in points Q1 , Q2 , Q3 respectively. Prove that, of
+the numbers
+P1 P P2 P P3 P
+,
+,
+P Q1 P Q2 P Q 3
+at least one is ≤ 2 and at least one is ≥ 2.
+
+1961/5.
+Construct triangle ABC if AC = b, AB = c and 6 AM B = ω, where M is
+the midpoint of segment BC and ω < 90◦ . Prove that a
+solution exists if and only if
+b tan
+
+ω
+≤ c < b.
+2
+
+In what case does the equality hold?
+
+1961/6.
+Consider a plane ε and three non-collinear points A, B, C on the same side of
+ε; suppose the plane determined by these three points is not parallel to ε. In
+plane a take three arbitrary points A0 , B 0 , C 0 . Let L, M, N be the midpoints
+of segments AA0 , BB 0 , CC 0 ; let G be the centroid of triangle LM N. (We will
+not consider positions of the points A0 , B 0 , C 0 such that the points L, M, N
+do not form a triangle.) What is the locus of point G as A0 , B 0 , C 0 range
+independently over the plane ε?
+
+

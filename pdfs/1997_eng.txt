@@ -1,0 +1,67 @@
+38th International Mathematical Olympiad
+Mar del Plata, Argentina
+Day I
+July 24, 1997
+
+1. In the plane the points with integer coordinates are the vertices of unit squares.
+The squares are colored alternately black and white (as on a chessboard).
+For any pair of positive integers m and n, consider a right-angled triangle whose
+vertices have integer coordinates and whose legs, of lengths m and n, lie along
+edges of the squares.
+Let S1 be the total area of the black part of the triangle and S2 be the total
+area of the white part. Let
+f (m, n) = |S1 − S2 |.
+(a) Calculate f (m, n) for all positive integers m and n which are either both
+even or both odd.
+(b) Prove that f (m, n) ≤ 21 max{m, n} for all m and n.
+(c) Show that there is no constant C such that f (m, n) < C for all m and n.
+2. The angle at A is the smallest angle of triangle ABC. The points B and C
+divide the circumcircle of the triangle into two arcs. Let U be an interior point
+of the arc between B and C which does not contain A. The perpendicular
+bisectors of AB and AC meet the line AU at V and W , respectively. The lines
+BV and CW meet at T . Show that
+AU = T B + T C.
+3. Let x1 , x2 , . . . , xn be real numbers satisfying the conditions
+|x1 + x2 + · · · + xn | = 1
+and
+
+n+1
+i = 1, 2, . . . , n.
+2
+Show that there exists a permutation y1 , y2 , . . . , yn of x1 , x2 , . . . , xn such that
+|xi | ≤
+
+|y1 + 2y2 + · · · + nyn | ≤
+
+n+1
+.
+2
+
+38th International Mathematical Olympiad
+Mar del Plata, Argentina
+Day II
+July 25, 1997
+
+4. An n × n matrix whose entries come from the set S = {1, 2, . . . , 2n − 1} is
+called a silver matrix if, for each i = 1, 2, . . . , n, the ith row and the ith column
+together contain all elements of S. Show that
+(a) there is no silver matrix for n = 1997;
+(b) silver matrices exist for infinitely many values of n.
+5. Find all pairs (a, b) of integers a, b ≥ 1 that satisfy the equation
+2
+
+ab = ba .
+6. For each positive integer n , let f (n) denote the number of ways of representing
+n as a sum of powers of 2 with nonnegative integer exponents. Representations
+which differ only in the ordering of their summands are considered to be the
+same. For instance, f (4) = 4, because the number 4 can be represented in the
+following four ways:
+4; 2 + 2; 2 + 1 + 1; 1 + 1 + 1 + 1.
+Prove that, for any integer n ≥ 3,
+2
+
+2
+
+2n /4 < f (2n ) < 2n /2 .
+
+

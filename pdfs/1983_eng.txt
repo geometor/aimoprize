@@ -1,0 +1,27 @@
+Twenty-fourth International Olympiad, 1983
+1983/1. Find all functions f defined on the set of positive real numbers which
+take positive real values and satisfy the conditions:
+(i) f (xf (y)) = yf (x) for all positive x, y;
+(ii) f (x) → 0 as x → ∞.
+1983/2. Let A be one of the two distinct points of intersection of two unequal
+coplanar circles C1 and C2 with centers O1 and O2 , respectively. One of the
+common tangents to the circles touches C1 at P1 and C2 at P2 , while the
+other touches C1 at Q1 and C2 at Q2 . Let M1 be the midpoint of P1 Q1 ,and
+M2 be the midpoint of P2 Q2 . Prove that 6 O1 AO2 = 6 M1 AM2 .
+1983/3. Let a, b and c be positive integers, no two of which have a common
+divisor greater than 1. Show that 2abc − ab − bc − ca is the largest integer
+which cannot be expressed in the form xbc + yca + zab,where x, y and z are
+non-negative integers.
+1983/4. Let ABC be an equilateral triangle and E the set of all points
+contained in the three segments AB, BC and CA (including A, B and C).
+Determine whether, for every partition of E into two disjoint subsets, at least
+one of the two subsets contains the vertices of a right-angled triangle. Justify
+your answer.
+1983/5. Is it possible to choose 1983 distinct positive integers, all less than
+or equal to 105 , no three of which are consecutive terms of an arithmetic
+progression? Justify your answer.
+1983/6. Let a, b and c be the lengths of the sides of a triangle. Prove that
+a2 b(a − b) + b2 c(b − c) + c2 a(c − a) ≥ 0.
+Determine when equality occurs.
+
+

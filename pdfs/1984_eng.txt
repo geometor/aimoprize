@@ -1,0 +1,41 @@
+Twenty-fifth International Olympiad, 1984
+1984/1. Prove that 0 ≤ yz + zx + xy − 2xyz ≤ 7/27, where x, y and z are
+non-negative real numbers for which x + y + z = 1.
+1984/2. Find one pair of positive integers a and b such that:
+(i) ab(a + b) is not divisible by 7;
+(ii) (a + b)7 − a7 − b7 is divisible by 77 .
+Justify your answer.
+1984/3. In the plane two different points O and A are given. For each
+point X of the plane, other than O, denote by a(X) the measure of the angle
+between OA and OX in radians, counterclockwise from OA(0 ≤ a(X) < 2π).
+Let C(X) be the circle with center O and radius of length OX + a(X)/OX.
+Each point of the plane is colored by one of a finite number of colors. Prove
+that there exists a point Y for which a(Y ) > 0 such that its color appears
+on the circumference of the circle C(Y ).
+1984/4. Let ABCD be a convex quadrilateral such that the line CD is a
+tangent to the circle on AB as diameter. Prove that the line AB is a tangent
+to the circle on CD as diameter if and only if the lines BC and AD are
+parallel.
+1984/5. Let d be the sum of the lengths of all the diagonals of a plane convex
+polygon with n vertices (n > 3), and let p be its perimeter. Prove that
+· ¸·
+
+2d
+n
+n−3<
+<
+p
+2
+
+¸
+
+n+1
+− 2,
+2
+
+where [x] denotes the greatest integer not exceeding x.
+1984/6. Let a, b, c and d be odd integers such that 0 < a < b < c < d and
+ad = bc. Prove that if a + d = 2k and b + c = 2m for some integers k and m,
+then a = 1.
+
+

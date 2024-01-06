@@ -1,0 +1,33 @@
+39th International Mathematical Olympiad
+Taipei, Taiwan
+Day I
+July 15, 1998
+
+1. In the convex quadrilateral ABCD, the diagonals AC and BD are perpendicular
+and the opposite sides AB and DC are not parallel. Suppose that the point P ,
+where the perpendicular bisectors of AB and DC meet, is inside ABCD. Prove
+that ABCD is a cyclic quadrilateral if and only if the triangles ABP and CDP
+have equal areas.
+2. In a competition, there are a contestants and b judges, where b ≥ 3 is an odd
+integer. Each judge rates each contestant as either “pass” or “fail”. Suppose k
+is a number such that, for any two judges, their ratings coincide for at most k
+contestants. Prove that k/a ≥ (b − 1)/(2b).
+3. For any positive integer n, let d(n) denote the number of positive divisors
+of n (including 1 and n itself). Determine all positive integers k such that
+d(n2 )/d(n) = k for some n.
+
+39th International Mathematical Olympiad
+Taipei, Taiwai
+Day II
+July 16, 1998
+
+4. Determine all pairs (a, b) of positive integers such that ab2 + b + 7 divides
+a2 b + a + b.
+5. Let I be the incenter of triangle ABC. Let the incircle of ABC touch the sides
+BC, CA, and AB at K, L, and M , respectively. The line through B parallel
+to M K meets the lines LM and LK at R and S, respectively. Prove that angle
+RIS is acute.
+6. Consider all functions f from the set N of all positive integers into itself satisfying f (t2 f (s)) = s(f (t))2 for all s and t in N . Determine the least possible
+value of f (1998).
+
+

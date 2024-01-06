@@ -1,0 +1,46 @@
+Ninth International Olympiad, 1967
+1967/1.
+6
+
+Let ABCD be a parallelogram with side lengths AB = a, AD = 1, and with
+BAD = α. If ∆ABD is acute, prove that the four circles of radius 1 with
+centers A, B, C, D cover the parallelogram if and only if
+√
+a ≤ cos α + 3 sin α.
+
+1967/2.
+Prove that if one and only one edge of a tetrahedron is greater than 1, then
+its volume is ≤ 1/8.
+
+1967/3.
+Let k, m, n be natural numbers such that m + k + 1 is a prime greater than
+n + 1. Let cs = s(s + 1). Prove that the product
+(cm+1 − ck )(cm+2 − ck ) · · · (cm+n − ck )
+is divisible by the product c1 c2 · · · cn .
+
+1967/4.
+Let A0 B0 C0 and A1 B1 C1 be any two acute-angled triangles. Consider all
+triangles ABC that are similar to ∆A1 B1 C1 (so that vertices A1 , B1 , C1 correspond to vertices A, B, C, respectively) and circumscribed about triangle
+A0 B0 C0 (where A0 lies on BC, B0 on CA, and AC0 on AB). Of all such
+possible triangles, determine the one with maximum area, and construct it.
+
+1967/5.
+Consider the sequence {cn }, where
+c1 = a1 + a2 + · · · + a8
+c2 = a21 + a22 + · · · + a28
+···
+cn = an1 + an2 + · · · + an8
+···
+in which a1 , a2 , · · · , a8 are real numbers not all equal to zero. Suppose that
+an infinite number of terms of the sequence {cn } are equal to zero. Find all
+natural numbers n for which cn = 0.
+
+1967/6.
+In a sports contest, there were m medals awarded on n successive days (n >
+1). On the first day, one medal and 1/7 of the remaining m − 1 medals
+were awarded. On the second day, two medals and 1/7 of the now remaining
+medals were awarded; and so on. On the n-th and last day, the remaining n
+medals were awarded. How many days did the contest last, and how many
+medals were awarded altogether?
+
+

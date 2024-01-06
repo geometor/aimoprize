@@ -1,0 +1,73 @@
+Language: English
+Day: 1
+Tuesday, July 23, 2013
+Problem 1. Prove that for any pair of positive integers k and n, there exist k positive integers
+m1 , m2 , . . . , mk (not necessarily different) such that
+
+
+ 
+
+1
+1
+1
+2k − 1
+= 1+
+1+
+··· 1 +
+.
+1+
+n
+m1
+m2
+mk
+Problem 2. A configuration of 4027 points in the plane is called Colombian if it consists of 2013 red
+points and 2014 blue points, and no three of the points of the configuration are collinear. By drawing
+some lines, the plane is divided into several regions. An arrangement of lines is good for a Colombian
+configuration if the following two conditions are satisfied:
+• no line passes through any point of the configuration;
+• no region contains points of both colours.
+Find the least value of k such that for any Colombian configuration of 4027 points, there is a good
+arrangement of k lines.
+Problem 3. Let the excircle of triangle ABC opposite the vertex A be tangent to the side BC at the
+point A1 . Define the points B1 on CA and C1 on AB analogously, using the excircles opposite B and
+C, respectively. Suppose that the circumcentre of triangle A1 B1 C1 lies on the circumcircle of triangle
+ABC. Prove that triangle ABC is right-angled.
+The excircle of triangle ABC opposite the vertex A is the circle that is tangent to the line segment
+BC, to the ray AB beyond B, and to the ray AC beyond C. The excircles opposite B and C are similarly
+defined.
+
+Language: English
+
+Time: 4 hours and 30 minutes
+Each problem is worth 7 points
+
+Language: English
+Day: 2
+Wednesday, July 24, 2013
+Problem 4. Let ABC be an acute-angled triangle with orthocentre H, and let W be a point on the
+side BC, lying strictly between B and C. The points M and N are the feet of the altitudes from B and
+C, respectively. Denote by ω1 the circumcircle of BW N , and let X be the point on ω1 such that W X
+is a diameter of ω1 . Analogously, denote by ω2 the circumcircle of CW M , and let Y be the point on ω2
+such that W Y is a diameter of ω2 . Prove that X, Y and H are collinear.
+Problem 5. Let Q>0 be the set of positive rational numbers. Let f : Q>0 → R be a function satisfying
+the following three conditions:
+(i) for all x, y ∈ Q>0 , we have f (x)f (y) ≥ f (xy);
+(ii) for all x, y ∈ Q>0 , we have f (x + y) ≥ f (x) + f (y);
+(iii) there exists a rational number a > 1 such that f (a) = a.
+Prove that f (x) = x for all x ∈ Q>0 .
+Problem 6. Let n ≥ 3 be an integer, and consider a circle with n + 1 equally spaced points marked
+on it. Consider all labellings of these points with the numbers 0, 1, . . . , n such that each label is used
+exactly once; two such labellings are considered to be the same if one can be obtained from the other
+by a rotation of the circle. A labelling is called beautiful if, for any four labels a < b < c < d with
+a + d = b + c, the chord joining the points labelled a and d does not intersect the chord joining the
+points labelled b and c.
+Let M be the number of beautiful labellings, and let N be the number of ordered pairs (x, y) of
+positive integers such that x + y ≤ n and gcd(x, y) = 1. Prove that
+M = N + 1.
+
+Language: English
+
+Time: 4 hours and 30 minutes
+Each problem is worth 7 points
+
+

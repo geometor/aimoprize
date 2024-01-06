@@ -1,0 +1,46 @@
+Eighteenth International Olympiad, 1976
+1976/1.
+In a plane convex quadrilateral of area 32, the sum of the lengths of two
+opposite sides and one diagonal is 16. Determine all possible lengths of the
+other diagonal.
+
+1976/2.
+Let P1 (x) = x2 − 2 and Pj (x) = P1 (Pj−1 (x)) for j = 2, 3, · · ·. Show that,
+for any positive integer n, the roots of the equation Pn (x) = x are real and
+distinct.
+
+1976/3.
+A rectangular box can be filled completely with unit cubes. If one places as
+many cubes as possible, each with volume 2, in the box, so that their edges
+are parallel to the edges of the box, one can fill exactly 40% of the box.
+Determine the possible dimensions of all such boxes.
+
+1976/4.
+Determine, with proof, the largest number which is the product of positive
+integers whose sum is 1976.
+
+1976/5.
+Consider the system of p equations in q = 2p unknowns x1 , x2 , · · · , xq :
+a11 x1 + a12 x2 + · · · + a1q xq = 0
+a21 x1 + a22 x2 + · · · + a2q xq = 0
+···
+ap1 x1 + ap2 x2 + · · · + apq xq = 0
+with every coefficient aij member of the set {−1, 0, 1}. Prove that the system
+has a solution (x1 , x2 , · · · , xq ) such that
+(a) all xj (j = 1, 2, ..., q) are integers,
+(b) there is at least one value of j for which xj 6= 0,
+(c) |xj | ≤ q(j = 1, 2, ..., q).
+
+1976/6.
+A sequence {un } is defined by
+u0 = 2, u1 = 5/2, un+1 = un (u2n−1 − 2) − u1 for n = 1, 2, · · ·
+
+Prove that for positive integers n,
+n
+
+n
+
+[un ] = 2[2 −(−1) ]/3
+where [x] denotes the greatest integer ≤ x.
+
+

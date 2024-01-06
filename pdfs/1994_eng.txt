@@ -1,0 +1,41 @@
+The 35th International Mathematical Olympiad (July 13-14,
+1994, Hong Kong)
+1. Let m and n be positive integers. Let a1 , a2 , . . . , am be distinct elements
+of {1, 2, . . . , n} such that whenever ai + aj ≤ n for some i, j, 1 ≤ i ≤ j ≤ m,
+there exists k, 1 ≤ k ≤ m, with ai + aj = ak . Prove that
+a1 + a2 + · · · + am
+n+1
+≥
+.
+m
+2
+2. ABC is an isosceles triangle with AB = AC. Suppose that
+1. M is the midpoint of BC and O is the point on the line AM such that
+OB is perpendicular to AB;
+2. Q is an arbitrary point on the segment BC different from B and C;
+3. E lies on the line AB and F lies on the line AC such that E, Q, F are
+distinct and collinear.
+Prove that OQ is perpendicular to EF if and only if QE = QF .
+3. For any positive integer k, let f (k) be the number of elements in the set
+{k + 1, k + 2, . . . , 2k} whose base 2 representation has precisely three 1s.
+• (a) Prove that, for each positive integer m, there exists at least one
+positive integer k such that f (k) = m.
+• (b) Determine all positive integers m for which there exists exactly one
+k with f (k) = m.
+4. Determine all ordered pairs (m, n) of positive integers such that
+n3 + 1
+mn − 1
+is an integer.
+5. Let S be the set of real numbers strictly greater than −1. Find all
+functions f : S → S satisfying the two conditions:
+1. f (x + f (y) + xf (y)) = y + f (x) + yf (x) for all x and y in S;
+2. f (x)
+is strictly increasing on each of the intervals −1 < x < 0 and 0 < x.
+x
+6. Show that there exists a set A of positive integers with the following
+property: For any infinite set S of primes there exist two positive integers
+m ∈ A and n ∈
+/ A each of which is a product of k distinct elements of S for
+some k ≥ 2.
+
+

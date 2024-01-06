@@ -1,0 +1,54 @@
+36th International Mathematical Olympiad
+First Day - Toronto - July 19, 1995
+Time Limit: 4 12 hours
+1. Let A, B, C, D be four distinct points on a line, in that order. The
+circles with diameters AC and BD intersect at X and Y . The line XY
+meets BC at Z. Let P be a point on the line XY other than Z. The
+line CP intersects the circle with diameter AC at C and M , and the
+line BP intersects the circle with diameter BD at B and N . Prove
+that the lines AM, DN, XY are concurrent.
+2. Let a, b, c be positive real numbers such that abc = 1. Prove that
+1
+a3 (b + c)
+
++
+
+1
+b3 (c + a)
+
++
+
+1
+c3 (a + b)
+
+3
+≥ .
+2
+
+3. Determine all integers n > 3 for which there exist n points A1 , . . . , An
+in the plane, no three collinear, and real numbers r1 , . . . , rn such that
+for 1 ≤ i < j < k ≤ n, the area of 4Ai Aj Ak is ri + rj + rk .
+36th International Mathematical Olympiad
+Second Day - Toronto - July 20, 1995
+Time Limit: 4 12 hours
+1. Find the maximum value of x0 for which there exists a sequence x0 , x1 . . . , x1995
+of positive reals with x0 = x1995 , such that for i = 1, . . . , 1995,
+xi−1 +
+
+2
+xi−1
+
+= 2xi +
+
+1
+.
+xi
+
+2. Let ABCDEF be a convex hexagon with AB = BC = CD and DE =
+EF = F A, such that 6 BCD = 6 EF A = π/3. Suppose G and H are
+points in the interior of the hexagon such that 6 AGB = 6 DHE =
+2π/3. Prove that AG + GB + GH + DH + HE ≥ CF .
+3. Let p be an odd prime number. How many p-element subsets A of
+{1, 2, . . . 2p} are there, the sum of whose elements is divisible by p?
+
+

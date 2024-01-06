@@ -1,0 +1,88 @@
+42nd International Mathematical Olympiad
+Washington, DC, United States of America
+July 8–9, 2001
+Problems
+Each problem is worth seven points.
+
+Problem 1
+
+Let ABC be an acute-angled triangle with circumcentre O . Let P on BC be the foot of the altitude from A.
+Suppose that BCA  ABC  30 .
+Prove that CAB  COP  90 .
+
+Problem 2
+
+Prove that
+
+b
+c
+a
+  
+  1
+
+  
+
+
+
+b2  8ca
+c2  8ab
+a2  8bc
+for all positive real numbers a, b and c .
+
+Problem 3
+
+Twenty-one girls and twenty-one boys took part in a mathematical contest.
+• Each contestant solved at most six problems.
+• For each girl and each boy, at least one problem was solved by both of them.
+Prove that there was a problem that was solved by at least three girls and at least three boys.
+
+Problem 4
+
+Let n be an odd integer greater than 1, and let k1 , k2 , …, kn be given integers. For each of the n permutations
+a  a1 , a2 , …, an  of 1, 2, …, n , let
+n
+
+Sa   ki ai .
+i1
+
+Prove that there are two permutations b and c, b
+
+c, such that n  is a divisor of Sb
+
+http://imo.wolfram.com/
+
+Sc.
+
+2
+
+IMO 2001 Competition Problems
+
+Problem 5
+
+In a triangle ABC , let AP bisect BAC , with P on BC , and let BQ bisect ABC , with Q on CA.
+It is known that BAC  60 and that AB  BP  AQ  QB.
+What are the possible angles of triangle ABC ?
+
+Problem 6
+
+Let a, b, c, d be integers with a
+
+ac  bd  b  d  a
+
+b
+
+c
+
+d
+
+cb  d
+
+0. Suppose that
+
+a  c.
+
+Prove that ab  cd is not prime.
+
+http://imo.wolfram.com/
+
+

@@ -1,0 +1,2981 @@
+49th International Mathematical Olympiad
+Spain 2008
+
+Shortlisted Problems with Solutions
+
+Contents
+Contributing Countries & Problem Selection Committee
+
+5
+
+Algebra
+Problem A1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem A2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem A3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem A4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem A5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem A6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem A7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+7
+7
+9
+11
+12
+14
+15
+17
+
+Combinatorics
+Problem C1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem C2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem C3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem C4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem C5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem C6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+21
+21
+23
+24
+25
+26
+27
+
+Geometry
+Problem G1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem G7 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+29
+29
+31
+32
+34
+36
+37
+40
+
+Number Theory
+Problem N1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem N2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem N3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem N4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem N5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Problem N6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+43
+43
+45
+46
+47
+49
+50
+
+Contributing Countries
+Australia, Austria, Belgium, Bulgaria, Canada, Colombia, Croatia,
+Czech Republic, Estonia, France, Germany, Greece, Hong Kong,
+India, Iran, Ireland, Japan, Korea (North), Korea (South),
+Lithuania, Luxembourg, Mexico, Moldova, Netherlands, Pakistan,
+Peru, Poland, Romania, Russia, Serbia, Slovakia, South Africa,
+Sweden, Ukraine, United Kingdom, United States of America
+
+Problem Selection Committee
+Vicente Muñoz Velázquez
+Juan Manuel Conde Calero
+Géza Kós
+Marcin Kuczma
+Daniel Lasaosa Medarde
+Ignasi Mundet i Riera
+Svetoslav Savchev
+
+Algebra
+A1. Find all functions f : (0, ∞) → (0, ∞) such that
+f (p)2 + f (q)2
+p2 + q 2
+=
+f (r 2) + f (s2 )
+r 2 + s2
+for all p, q, r, s > 0 with pq = rs.
+Solution. Let f satisfy the given condition. Setting p = q = r = s =√1 yields f (1)2 = f (1) and
+hence f (1) = 1. Now take any x > 0 and set p = x, q = 1, r = s = x to obtain
+f (x)2 + 1
+x2 + 1
+=
+.
+2f (x)
+2x
+This recasts into
+xf (x)2 + x = x2 f (x) + f (x),
+
+
+xf (x) − 1 f (x) − x = 0.
+And thus,
+for every x > 0,
+
+1
+.
+x
+
+(1)
+
+for all x > 0
+
+(2)
+
+either f (x) = x or f (x) =
+
+Obviously, if
+f (x) = x for all x > 0
+
+or
+
+f (x) =
+
+1
+x
+
+then the condition of the problem is satisfied. We show that actually these two functions are
+the only solutions.
+So let us assume that there exists a function f satisfying the requirement, other than
+those in (2). Then f (a) 6= a and f (b) 6= 1/b for some a, b > 0. By (1), these √
+values must be
+f (a) = 1/a, f (b) = b. Applying now the equation with p = a, q = b, r = s = ab we obtain
+(a−2 + b2 )/2f (ab) = (a2 + b2 )/2ab ; equivalently,
+f (ab) =
+
+ab(a−2 + b2 )
+.
+a2 + b2
+
+(3)
+
+We know however (see (1)) that f (ab) must be either ab or 1/ab . If f (ab) = ab then by (3)
+a−2 + b2 = a2 + b2 , so that a = 1. But, as f (1) = 1, this contradicts the relation f (a) 6= a.
+Likewise, if f (ab) = 1/ab then (3) gives a2 b2 (a−2 + b2 ) = a2 + b2 , whence b = 1, in contradiction
+to f (b) 6= 1/b . Thus indeed the functions listed in (2) are the only two solutions.
+
+8
+Comment. The equation has as many as four variables with only one constraint pq = rs, leaving
+three degrees of freedom and providing a lot of information. Various substitutions force various useful
+properties of the function searched. We sketch one more method to reach conclusion (1); certainly
+there are many others.
+√
+√
+Noticing that f (1) = 1 and setting, first, p = q = 1, r = x, s = 1/ x, and then p = x, q = 1/x,
+r = s = 1, we obtain two relations, holding for every x > 0,
+ 
+1
+1
+f (x) + f
+=x+
+x
+x
+
+ 2
+1
+1
+f (x) + f
+= x2 + 2 .
+x
+x
+2
+
+and
+
+(4)
+
+Squaring the first and subtracting the second gives 2f (x)f (1/x) = 2. Subtracting this from the second
+relation of (4) leads to
+
+
+f (x) − f
+
+ 2 
+
+1
+1 2
+= x−
+x
+x
+
+or
+
+f (x) − f
+
+ 
+
+
+1
+1
+=± x−
+.
+x
+x
+
+The last two alternatives combined with the first equation of (4) imply the two alternatives of (1).
+
+9
+
+A2. (a) Prove the inequality
+y2
+z2
+x2
++
++
+≥1
+(x − 1)2 (y − 1)2 (z − 1)2
+for real numbers x, y, z 6= 1 satisfying the condition xyz = 1.
+(b) Show that there are infinitely many triples of rational numbers x, y, z for which this
+inequality turns into equality.
+Solution 1. (a) We start with the substitution
+x
+= a,
+x−1
+
+y
+= b,
+y−1
+
+z
+= c,
+z−1
+
+i.e.,
+
+x=
+
+a
+,
+a−1
+
+y=
+
+b
+,
+b−1
+
+z=
+
+c
+.
+c−1
+
+The inequality to be proved reads a2 + b2 + c2 ≥ 1. The new variables are subject to the
+constraints a, b, c 6= 1 and the following one coming from the condition xyz = 1,
+(a − 1)(b − 1)(c − 1) = abc.
+This is successively equivalent to
+a + b + c − 1 = ab + bc + ca,
+2(a + b + c − 1) = (a + b + c)2 − (a2 + b2 + c2 ),
+a2 + b2 + c2 − 2 = (a + b + c)2 − 2(a + b + c),
+a2 + b2 + c2 − 1 = (a + b + c − 1)2 .
+Thus indeed a2 + b2 + c2 ≥ 1, as desired.
+(b) From the equation a2 + b2 + c2 − 1 = (a + b + c − 1)2 we see that the proposed inequality becomes an equality if and only if both sums a2 + b2 + c2 and a + b + c have value 1. The
+first of them is equal to (a + b + c)2 − 2(ab + bc + ca). So the instances of equality are described
+by the system of two equations
+a + b + c = 1,
+
+ab + bc + ca = 0
+
+plus the constraint a, b, c 6= 1. Elimination of c leads to a2 + ab + b2 = a + b, which we regard
+as a quadratic equation in b,
+b2 + (a − 1)b + a(a − 1) = 0,
+with discriminant
+∆ = (a − 1)2 − 4a(a − 1) = (1 − a)(1 + 3a).
+
+We are looking for rational triples (a, b, c); it will suffice to have a rational such that 1 − a
+and 1 + 3a are both squares of rational numbers (then ∆ will be so too). Set a = k/m. We
+want m − k and m + 3k to be squares of integers. This is achieved for instance by taking
+m = k 2 − k + 1 (clearly nonzero); then m − k = (k − 1)2 , m + 3k = (k + 1)2 . Note that distinct integers k yield distinct values of a = k/m.
+And thus, if k is any integer and m = k 2 − k + 1, a = k/m then ∆ = (k 2 − 1)2 /m2 and the
+quadratic equation has rational roots b = (m − k ± k 2 ∓ 1)/(2m). Choose e.g. the larger root,
+b=
+
+m − k + k2 − 1
+m + (m − 2)
+m−1
+=
+=
+.
+2m
+2m
+m
+
+10
+Computing c from a + b + c = 1 then gives c = (1 − k)/m. The condition a, b, c 6= 1 eliminates
+only k = 0 and k = 1. Thus, as k varies over integers greater than 1, we obtain an infinite family
+of rational triples (a, b, c)—and coming back to the original variables (x = a/(a − 1) etc.)—an
+infinite family of rational triples (x, y, z) with the needed property. (A short calculation shows
+that the resulting triples are x = −k/(k − 1)2 , y = k − k 2 , z = (k − 1)/k 2 ; but the proof was
+complete without listing them.)
+Comment 1. There are many possible variations in handling the equation system a2 + b2 + c2 = 1,
+a + b + c = 1 (a, b, c 6= 1) which of course describes a circle in the (a, b, c)-space (with three points
+excluded), and finding infinitely many rational points on it.
+Also the initial substitution x = a/(a − 1) (etc.) can be successfully replaced by other similar
+substitutions, e.g. x = 1 − 1/α (etc.); or x = x0 − 1 (etc.); or 1 − yz = u (etc.)—eventually reducing
+the inequality to (· · · )2 ≥ 0, the expression in the parentheses depending on the actual substitution.
+Depending on the method chosen, one arrives at various sequences of rational triples (x, y, z)
+as needed; let us produce just one more such example: x = (2r − 2)/(r + 1)2 , y = (2r + 2)/(r − 1)2 ,
+z = (r 2 − 1)/4 where r can be any rational number different from 1 or −1.
+
+Solution 2 (an outline). (a) Without changing variables, just setting z = 1/xy and clearing
+fractions, the proposed inequality takes the form
+
+(xy − 1)2 x2 (y − 1)2 + y 2 (x − 1)2 + (x − 1)2 (y − 1)2 ≥ (x − 1)2 (y − 1)2 (xy − 1)2 .
+
+With the notation p = x + y, q = xy this becomes, after lengthy routine manipulation and a
+lot of cancellation
+q 4 − 6q 3 + 2pq 2 + 9q 2 − 6pq + p2 ≥ 0.
+It is not hard to notice that the expression on the left is just (q 2 − 3q + p)2 , hence nonnegative.
+(Without introducing p and q, one is of course led with some more work to the same
+expression, just written in terms of x and y; but then it is not that easy to see that it is a
+square.)
+(b) To have equality, one needs q 2 − 3q + p = 0. Note that x and y are the roots of
+the quadratic trinomial (in a formal variable t): t2 − pt + q. When q 2 − 3q + p = 0, the
+discriminant equals
+δ = p2 − 4q = (3q − q 2 )2 − 4q = q(q − 1)2 (q − 4).
+
+√
+Now it suffices to have both q and q − 4 squares of rational numbers (then p = 3q − q 2 and δ
+are also rational, and so are the roots of the trinomial). On setting q = (n/m)2 = 4 + (l/m)2 the
+requirement becomes 4m2 + l2 = n2 (with l, m, n being integers). This is just the Pythagorean
+equation, known to have infinitely many integer solutions.
+Comment 2. Part (a) alone might also be considered as a possible contest problem (in the category
+of easy problems).
+
+11
+
+A3. Let S ⊆ R be a set of real numbers. We say that a pair (f, g) of functions from S into S
+
+is a Spanish Couple on S, if they satisfy the following conditions:
+(i) Both functions are strictly increasing, i.e. f (x) < f (y) and g(x) < g(y) for all x, y ∈ S
+with x < y;
+(ii) The inequality f (g(g(x))) < g(f (x)) holds for all x ∈ S.
+
+Decide whether there exists a Spanish Couple
+(a) on the set S = N of positive integers;
+(b) on the set S = {a − 1/b : a, b ∈ N}.
+
+Solution. We show that the answer is NO for part (a), and YES for part (b).
+k
+
+z }| {
+(a) Throughout the solution, we will use the notation gk (x) = g(g(. . . g(x) . . .)), including
+g0 (x) = x as well.
+Suppose that there exists a Spanish Couple (f, g) on the set N. From property (i) we have
+f (x) ≥ x and g(x) ≥ x for all x ∈ N.
+
+We claim that gk (x) ≤ f (x) for all k ≥ 0 and all positive integers x. The proof is done by
+induction on k. We already have the base case k = 0 since x ≤ f (x). For the induction step
+from k to k + 1, apply the induction hypothesis on g2 (x) instead of x, then apply (ii):
+
+
+g(gk+1(x)) = gk g2 (x) ≤ f g2 (x) < g(f (x)).
+Since g is increasing, it follows that gk+1(x) < f (x). The claim is proven.
+
+If g(x) = x for all x ∈ N then f (g(g(x))) = f (x) = g(f (x)), and we have a contradiction
+with (ii). Therefore one can choose an x0 ∈ S for which x0 < g(x0 ). Now consider the sequence
+x0 , x1 , . . . where xk = gk (x0 ). The sequence is increasing. Indeed, we have x0 < g(x0 ) = x1 ,
+and xk < xk+1 implies xk+1 = g(xk ) < g(xk+1) = xk+2 .
+Hence, we obtain a strictly increasing sequence x0 < x1 < . . . of positive integers which on
+the other hand has an upper bound, namely f (x0 ). This cannot happen in the set N of positive
+integers, thus no Spanish Couple exists on N.
+(b) We present a Spanish Couple on the set S = {a − 1/b : a, b ∈ N}.
+Let
+f (a − 1/b) = a + 1 − 1/b,
+g(a − 1/b) = a − 1/(b + 3a ).
+These functions are clearly increasing. Condition (ii) holds, since
+f (g(g(a − 1/b))) = (a + 1) − 1/(b + 2 · 3a ) < (a + 1) − 1/(b + 3a+1 ) = g(f (a − 1/b)).
+Comment. Another example of a Spanish couple is f (a − 1/b) = 3a − 1/b, g(a − 1/b) = a − 1/(a+b).
+More generally, postulating f (a − 1/b) = h(a) − 1/b, g(a − 1/b) = a − 1/G(a, b) with
+ h increasing
+
+and G increasing in both variables, we get that f ◦ g ◦ g < g ◦ f holds if G a, G(a, b) < G h(a), b .
+A search just among linear functions h(a) = Ca, G(a, b) = Aa + Bb results in finding that any integers A > 0, C > 2 and B = 1 produce a Spanish couple (in the example above, A = 1, C = 3). The
+proposer’s example results from taking h(a) = a + 1, G(a, b) = 3a + b.
+
+12
+
+A4. For an integer m, denote by t(m) the unique number in {1, 2, 3} such that m + t(m) is a
+multiple of 3. A function f : Z → Z satisfies f (−1) = 0, f (0) = 1, f (1) = −1 and
+
+f (2n + m) = f (2n − t(m)) − f (m) for all integers m, n ≥ 0 with 2n > m.
+Prove that f (3p) ≥ 0 holds for all integers p ≥ 0.
+Solution. The given conditions determine f uniquely on the positive integers. The signs of
+f (1), f (2), . . . seem to change quite erratically. However values of the form f (2n − t(m)) are
+sufficient to compute directly any functional value. Indeed, let n > 0 have base 2 representation
+n = 2a0 +2a1 +· · ·+2ak , a0 > a1 > · · · > ak ≥ 0, and let nj = 2aj +2aj−1 +· · ·+2ak , j = 0, . . . , k.
+Repeated applications of the recurrence show that f (n) is an alternating sum of the quantities
+f (2aj − t(nj+1 )) plus (−1)k+1 . (The exact formula is not needed for our proof.)
+So we focus attention on the values f (2n − 1), f (2n − 2) and f (2n − 3). Six cases arise; more
+specifically,
+t(22k −3) = 2, t(22k −2) = 1, t(22k −1) = 3, t(22k+1 −3) = 1, t(22k+1 −2) = 3, t(22k+1 −1) = 2.
+Claim. For all integers k ≥ 0 the following equalities hold:
+f (22k+1 − 3) = 0,
+
+f (22k+2 − 3) = −3k ,
+
+f (22k+1 − 2) = 3k ,
+
+f (22k+2 − 2) = −3k ,
+
+f (22k+1 − 1) = −3k ,
+
+f (22k+2 − 1) = 2 · 3k .
+
+Proof. By induction on k. The base k = 0 comes down to checking that f (2) = −1 and
+f (3) = 2; the given values f (−1) = 0, f (0) = 1, f (1) = −1 are also needed. Suppose the claim
+holds for k − 1. For f (22k+1 − t(m)), the recurrence formula and the induction hypothesis yield
+f (22k+1 − 3) = f (22k + (22k − 3)) = f (22k − 2) − f (22k − 3) = −3k−1 + 3k−1 = 0,
+
+f (22k+1 − 2) = f (22k + (22k − 2)) = f (22k − 1) − f (22k − 2) = 2 · 3k−1 + 3k−1 = 3k ,
+
+f (22k+1 − 1) = f (22k + (22k − 1)) = f (22k − 3) − f (22k − 1) = −3k−1 − 2 · 3k−1 = −3k .
+For f (22k+2 − t(m)) we use the three equalities just established:
+f (22k+2 − 3) = f (22k+1 + (22k+1 − 3)) = f (22k+1 − 1) − f (22k+1 − 3) = −3k − 0 = −3k ,
+f (22k+2 − 2) = f (22k+1 + (22k+1 − 2)) = f (22k+1 − 3) − f (22k − 2) = 0 − 3k = −3k ,
+
+f (22k+2 − 1) = f (22k+1 + (22k+1 − 1)) = f (22k+1 − 2) − f (22k+1 − 1) = 3k + 3k = 2 · 3k .
+The claim follows.
+A closer look at the six cases shows that f (2n − t(m)) ≥ 3(n−1)/2 if 2n − t(m) is divisible
+by 3, and f (2n − t(m)) ≤ 0 otherwise. On the other hand, note that 2n − t(m) is divisible by 3
+if and only if 2n + m is. Therefore, for all nonnegative integers m and n,
+(i) f (2n − t(m)) ≥ 3(n−1)/2 if 2n + m is divisible by 3;
+(ii) f (2n − t(m)) ≤ 0 if 2n + m is not divisible by 3.
+One more (direct) consequence of the claim is that |f (2n − t(m))| ≤ 32 · 3n/2 for all m, n ≥ 0.
+The last inequality enables us to find an upper bound for |f (m)| for m less than a given
+power of 2. We prove by induction on n that |f (m)| ≤ 3n/2 holds true for all integers m, n ≥ 0
+with 2n > m.
+
+13
+The base n = 0 is clear as f (0) = 1. For the inductive step from n to n + 1, let m and n
+satisfy 2n+1 > m. If m < 2n , we are done by the inductive hypothesis. If m ≥ 2n then
+m = 2n + k where 2n > k ≥ 0. Now, by |f (2n − t(k))| ≤ 32 · 3n/2 and the inductive assumption,
+|f (m)| = |f (2n − t(k)) − f (k)| ≤ |f (2n − t(k))| + |f (k)| ≤
+
+2 n/2
+· 3 + 3n/2 < 3(n+1)/2 .
+3
+
+The induction is complete.
+We proceed to prove that f (3p) ≥ 0 for all integers p ≥ 0. Since 3p is not a power of 2, its
+binary expansion contains at least two summands. Hence one can write 3p = 2a + 2b + c where
+a > b and 2b > c ≥ 0. Applying the recurrence formula twice yields
+f (3p) = f (2a + 2b + c) = f (2a − t(2b + c)) − f (2b − t(c)) + f (c).
+Since 2a + 2b + c is divisible by 3, we have f (2a − t(2b + c)) ≥ 3(a−1)/2 by (i). Since 2b + c is
+not divisible by 3, we have f (2b − t(c)) ≤ 0 by (ii). Finally |f (c)| ≤ 3b/2 as 2b > c ≥ 0, so that
+f (c) ≥ −3b/2 . Therefore f (3p) ≥ 3(a−1)/2 − 3b/2 which is nonnegative because a > b.
+
+14
+
+A5. Let a, b, c, d be positive real numbers such that
+abcd = 1 and a + b + c + d >
+Prove that
+a+b+c+d<
+
+a b c d
++ + + .
+b c d a
+
+b c d a
++ + + .
+a b c d
+
+Solution. We show that if abcd = 1, the sum a + b + c + d cannot exceed a certain weighted
+a b c d
+b c d a
+mean of the expressions + + + and + + + .
+b c d a
+a b c d
+a
+a a b
+By applying the AM-GM inequality to the numbers , , and , we obtain
+b b c
+d
+r
+r
+
+
+a4
+a b a
+1 a a b a
+4
+4 a
+.
+a=
+=
+· · · ≤
++ + +
+abcd
+b b c d
+4 b
+b c d
+Analogously,
+
+
+1 b b c b
+b≤
+,
++ + +
+4 c c d a
+
+1
+c≤
+4
+
+
+
+c c d c
++ + +
+d d a b
+
+
+
+1
+and d ≤
+4
+
+
+
+d d a d
++ + +
+a a b c
+
+
+
+.
+
+Summing up these estimates yields
+
+
+
+
+3 a b c d
+1 b c d a
++
+.
+a+b+c+d ≤
++ + +
++ + +
+4 b c d a
+4 a b c d
+In particular, if a + b + c + d >
+
+b c d a
+a b c d
++ + + then a + b + c + d < + + + .
+b c d a
+a b c d
+
+Comment. The estimate in the above solution was obtained by applying the AM-GM inequality to
+each column of the 4 × 4 array
+a/b b/c c/d d/a
+a/b b/c c/d d/a
+b/c c/d d/a a/b
+a/d b/a c/b d/c
+and adding up the resulting inequalities. The same table yields a stronger bound: If a, b, c, d > 0 and
+abcd = 1 then
+ 
+
+
+a b c d 3 b c d a
++ + +
++ + +
+≥ (a + b + c + d)4 .
+b c d a
+a b c d
+It suffices to apply Hölder’s inequality to the sequences in the four rows, with weights 1/4:
+
+
+ 
+ 
+ 
+
+a b c d 1/4 a b c d 1/4 b c d a 1/4 a b c d 1/4
++ + +
++ + +
++ + +
++ + +
+b c d a
+b c d a
+c d a b
+d a b c
+
+
+
+
+
+
+
+
+bbcb 1/4
+ccdc 1/4
+ddad 1/4
+aaba 1/4
++
++
++
+= a + b + c + d.
+≥
+bbcd
+ccda
+ddab
+aabc
+
+15
+
+A6. Let f : R → N be a function which satisfies
+
+f x+
+
+1
+f (y)
+
+
+
+=f
+
+
+
+1
+y+
+f (x)
+
+
+
+for all x, y ∈ R.
+
+(1)
+
+Prove that there is a positive integer which is not a value of f .
+Solution. Suppose that the statement is false and f (R) = N. We prove several properties of
+the function f in order to reach a contradiction.
+To start with, observe that one can assume f (0) = 1. Indeed, let a ∈ R be such that
+f (a) = 1, and consider the function g(x) = f (x + a). By substituting x + a and y + a for x
+and y in (1), we have
+
+
+
+
+
+
+
+
+1
+1
+1
+1
+=f x+a+
+=f y+a+
+=g y+
+.
+g x+
+g(y)
+f (y + a)
+f (x + a)
+g(x)
+So g satisfies the functional equation (1), with the additional property g(0) = 1. Also, g and f
+have the same set of values: g(R) = f (R) = N. Henceforth we assume f (0) = 1.
+
+
+ 
+1
+: n ∈ N = N.
+Claim 1. For an arbitrary fixed c ∈ R we have f c +
+n
+Proof. Equation (1) and f (R) = N imply
+ 
+
+  
+
+  
+
+
+1
+1
+1
+f (R) = f x +
+:x∈R = f c+
+:x∈R ⊂ f c+
+: n ∈ N ⊂ f (R).
+f (c)
+f (x)
+n
+The claim follows.
+We will use Claim 1 in the special cases c = 0 and c = 1/3:
+  
+
+
+  
+1 1
+1
+:n∈N = f
+: n ∈ N = N.
++
+f
+n
+3 n
+
+(2)
+
+Claim 2. If f (u) = f (v) for some u, v ∈ R then f (u+q) = f (v+q) for all nonnegative rational q.
+Furthermore, if f (q) = 1 for some nonnegative rational q then f (kq) = 1 for all k ∈ N.
+Proof. For all x ∈ R we have by (1)
+
+
+
+
+
+
+
+
+1
+1
+1
+1
+f u+
+=f x+
+=f x+
+=f v+
+.
+f (x)
+f (u)
+f (v)
+f (x)
+Since f (x) attains all positive integer values, this yields f (u + 1/n) = f (v + 1/n) for all n ∈ N.
+Let q = k/n be a positive rational number. Then k repetitions of the last step yield
+
+
+
+
+k
+k
+=f v+
+= f (v + q).
+f (u + q) = f u +
+n
+n
+Now let f (q) = 1 for some nonnegative rational q, and let k ∈ N. As f (0) = 1, the previous
+conclusion yields successively f (q) = f (2q), f (2q) = f (3q), . . . , f ((k − 1)q) = f (kq), as needed.
+
+Claim 3. The equality f (q) = f (q + 1) holds for all nonnegative rational q.
+Proof. Let m be a positive integer such that f (1/m) = 1. Such an m exists by (2). Applying
+the second statement of Claim 2 with q = 1/m and k = m yields f (1) = 1.
+Given that f (0) = f (1) = 1, the first statement of Claim 2 implies f (q) = f (q + 1) for all
+nonnegative rational q.
+
+16
+ 
+1
+= n holds for every n ∈ N.
+Claim 4. The equality f
+n
+Proof. For a nonnegative rational q we set x = q, y = 0 in (1) and use Claim 3 to obtain
+
+
+
+
+1
+1
+=f q+
+= f (q + 1) = f (q).
+f
+f (q)
+f (0)
+By (2), for each n ∈ N there exists a k ∈ N such that f (1/k) = n. Applying the last equation
+with q = 1/k, we have
+ 
+
+
+ 
+1
+1
+1
+n=f
+=f
+=f
+.
+k
+f (1/k)
+n
+Now we are ready to obtain a contradiction. Let n ∈ N be such that f (1/3 + 1/n) = 1.
+Such an n exists by (2). Let 1/3 + 1/n = s/t, where s, t ∈ N are coprime. Observe that t > 1
+as 1/3 + 1/n is not an integer. Choose k, l ∈ N so that that ks − lt = 1.
+Because f (0) = f (s/t) = 1, Claim 2 implies f (ks/t) = 1. Now f (ks/t) = f (1/t + l); on the
+other hand f (1/t + l) = f (1/t) by l successive applications of Claim 3. Finally, f (1/t) = t by
+Claim 4, leading to the impossible t = 1. The solution is complete.
+
+17
+
+A7. Prove that for any four positive real numbers a, b, c, d the inequality
+(a − b)(a − c) (b − c)(b − d) (c − d)(c − a) (d − a)(d − b)
++
++
++
+≥0
+a+b+c
+b+c+d
+c+d+a
+d+a+b
+holds. Determine all cases of equality.
+Solution 1. Denote the four terms by
+A=
+
+(a − b)(a − c)
+,
+a+b+c
+
+B=
+
+(b − c)(b − d)
+,
+b+c+d
+
+C=
+
+(c − d)(c − a)
+,
+c+d+a
+
+D=
+
+(d − a)(d − b)
+.
+d+a+b
+
+The expression 2A splits into two summands as follows,
+2A = A0 + A00
+
+where
+
+A0 =
+
+(a − c)2
+,
+a+b+c
+
+A00 =
+
+(a − c)(a − 2b + c)
+;
+a+b+c
+
+this is easily verified. We analogously represent 2B = B 0 + B 00 , 2C = C 0 + C 00 , 2B = D 0 + D 00
+and examine each of the sums A0 + B 0 + C 0 + D 0 and A00 + B 00 + C 00 + D 00 separately.
+Write s = a + b + c + d ; the denominators become s − d, s − a, s − b, s − c. By the CauchySchwarz inequality,
+2
+
+|b − d| √
+|c − a| √
+|d − b| √
+|a − c| √
+√
+· s−d+ √
+· s−a+ √
+· s−b+ √
+· s−c
+s−d
+s−a
+s−b
+s−c
+
+
+
+
+(a − c)2 (b − d)2 (c − a)2 (d − b)2
+≤
+4s − s = 3s A0 + B 0 + C 0 + D 0 .
++
++
++
+s−d
+s−a
+s−b
+s−c
+Hence
+
+2
+2|a − c| + 2|b − d|
+16 · |a − c| · |b − d|
+≥
+.
+A +B +C +D ≥
+3s
+3s
+Next we estimate the absolute value of the other sum. We couple A00 with C 00 to obtain
+0
+
+0
+
+0
+
+0
+
+(1)
+
+(a − c)(a + c − 2b) (c − a)(c + a − 2d)
++
+s−d
+s−b
+(a − c)(a + c − 2b)(s − b) + (c − a)(c + a − 2d)(s − d)
+=
+(s − d)(s − b)
+
+(a − c) −2b(s − b) − b(a + c) + 2d(s − d) + d(a + c)
+=
+s(a + c) + bd
+3(a − c)(d − b)(a + c)
+, with M = s(a + c) + bd.
+=
+M
+
+A00 + C 00 =
+
+Hence by cyclic shift
+B 00 + D 00 =
+
+3(b − d)(a − c)(b + d)
+,
+N
+
+with
+
+N = s(b + d) + ca.
+
+Thus
+
+
+b+d a+c
+A + B + C + D = 3(a − c)(b − d)
+−
+N
+M
+00
+
+00
+
+00
+
+00
+
+
+
+=
+
+3(a − c)(b − d)W
+MN
+
+(2)
+
+where
+W = (b + d)M − (a + c)N = bd(b + d) − ac(a + c).
+
+(3)
+
+18
+Note that
+Now (2) and (4) yield
+
+
+MN > ac(a + c) + bd(b + d) s ≥ |W | · s.
+
+(4)
+
+3 · |a − c| · |b − d|
+.
+s
+
+(5)
+
+|A00 + B 00 + C 00 + D 00 | ≤
+Combined with (1) this results in
+
+2(A + B + C + D) = (A0 + B 0 + C 0 + D 0 ) + (A00 + B 00 + C 00 + D 00 )
+7 · |a − c| · |b − d|
+16 · |a − c| · |b − d| 3 · |a − c| · |b − d|
+−
+=
+≥ 0.
+≥
+3s
+s
+3(a + b + c + d)
+This is the required inequality. From the last line we see that equality can be achieved only if
+either a = c or b = d. Since we also need equality in (1), this implies that actually a = c and
+b = d must hold simultaneously, which is obviously also a sufficient condition.
+Solution 2. We keep the notations A, B, C, D, s, and also M, N, W from the preceding
+solution; the definitions of M, N, W and relations (3), (4) in that solution did not depend on
+the foregoing considerations. Starting from
+2A =
+
+(a − c)2 + 3(a + c)(a − c)
+− 2a + 2c,
+a+b+c
+
+we get
+
+
+
+
+
+1
+1
+1
+1
+2(A + C) = (a − c)
++ 3(a + c)(a − c)
++
+−
+s−d s−b
+s−d s−b
+2s − b − d
+d−b
+p(a − c)2 − 3(a + c)(a − c)(b − d)
+= (a − c)2
++ 3(a + c)(a − c) ·
+=
+M
+M
+M
+where p = 2s − b − d = s + a + c. Similarly, writing q = s + b + d we have
+2
+
+q(b − d)2 − 3(b + d)(b − d)(c − a)
+;
+N
+specific grouping of terms in the numerators has its aim. Note that pq > 2s2 . By adding the
+fractions expressing 2(A + C) and 2(B + D),
+2(B + D) =
+
+2(A + B + C + D) =
+
+p(a − c)2 3(a − c)(b − d)W
+q(b − d)2
++
++
+M
+MN
+N
+
+with W defined by (3).
+Substitution x = (a − c)/M, y = (b − d)/N brings the required inequality to the form
+2(A + B + C + D) = Mpx2 + 3W xy + Nqy 2 ≥ 0.
+
+(6)
+
+It will be enough to verify that the discriminant ∆ = 9W 2 − 4MNpq of the quadratic trinomial
+Mpt2 + 3W t + Nq is negative; on setting t = x/y one then gets (6).
+ The first inequality in (4)
+together with pq > 2s2 imply 4MNpq > 8s3 ac(a + c) + bd(b + d) . Since
+(a + c)s3 > (a + c)4 ≥ 4ac(a + c)2
+
+and likewise
+
+(b + d)s3 > 4bd(b + d)2 ,
+
+the estimate continues as follows,
+
+2
+4MNpq > 8 4(ac)2 (a + c)2 + 4(bd)2 (b + d)2 > 32 bd(b + d) − ac(a + c) = 32W 2 ≥ 9W 2 .
+
+Thus indeed ∆ < 0. The desired inequality (6) hence results. It becomes an equality if and
+only if x = y = 0; equivalently, if and only if a = c and simultaneously b = d.
+
+19
+Comment. The two solutions presented above do not differ significantly; large portions overlap. The
+properties of the number W turn out to be crucial in both approaches. The Cauchy-Schwarz inequality,
+applied in the first solution, is avoided in the second, which requires no knowledge beyond quadratic
+trinomials.
+The estimates in the proof of ∆ < 0 in the second solution seem to be very wasteful. However,
+they come close to sharp when the terms in one of the pairs (a, c), (b, d) are equal and much bigger
+than those in the other pair.
+In attempts to prove the inequality by just considering the six cases of arrangement of the numbers
+a, b, c, d on the real line, one soon discovers that the cases which create real trouble are precisely
+those in which a and c are both greater or both smaller than b and d.
+
+Solution 3.
+(a − b)(a − c)(a + b + d)(a + c + d)(b + c + d) =
+
+
+= (a − b)(a + b + d) (a − c)(a + c + d) (b + c + d) =
+
+
+= (a2 + ad − b2 − bd)(a2 + ad − c2 − cd)(b + c + d) =
+
+
+= a4 +2a3 d−a2 b2 −a2 bd−a2 c2 −a2 cd+a2 d2 −ab2 d−abd2 −ac2 d−acd2 +b2 c2 +b2 cd+bc2 d+bcd2 (b+c+d) =
+= a4 b + a4 c + a4 d + (b3 c2 + a2 d3 ) − a2 c3 + (2a3 d2 − b3 a2 + c3 b2 )+
+
++(b3 cd − c3 da − d3 ab) + (2a3 bd + c3 db − d3 ac) + (2a3 cd − b3 da + d3 bc)
+
++(−a2 b2 c + 3b2 c2 d − 2ac2 d2 ) + (−2a2 b2 d + 2bc2 d2 ) + (−a2 bc2 − 2a2 c2 d − 2ab2 d2 + 2b2 cd2 )+
++(−2a2 bcd − ab2 cd − abc2 d − 2abcd2 )
+P
+Introducing the notation Sxyzw = ax by cz dw , one can write
+cyc
+
+X
+cyc
+
+(a − b)(a − c)(a + b + d)(a + c + d)(b + c + d) =
+
+= S4100 + S4010 + S4001 + 2S3200 − S3020 + 2S3002 − S3110 + 2S3101 + 2S3011 − 3S2120 − 6S2111 =
+
+
+1
+1
++ S4100 + S4001 + S3110 + S3011 − 3S2120 +
+2
+2
+
+
+3
+3
+9
+9
+9
++ S4010 − S3020 − S3110 + S3011 + S2210 + S2201 − S2111 +
+2
+2
+16
+16
+8
+
+
+
+
+
+23
+39 
+9
+S3200 − S2210 − S2201 + S3002 +
+S3200 − 2S3101 + S3002 +
+S3101 − S2111 ,
++
+16
+16
+8
+where the expressions
+
+X
+1
+1 3
+1 3
+1
+4
+4
+2 2
+a b + bc + a bc + abc − 3a bc ,
+S4100 + S4001 + S3110 + S3011 − 3S2120 =
+2
+2
+2
+2
+cyc
+
+2
+X
+3
+3
+3
+9
+9
+9
+3
+2
+S4010 − S3020 − S3110 + S3011 + S2210 + S2201 − S2111 =
+a c a−c− b+ d ,
+2
+2
+16
+16
+8
+4
+4
+cyc
+X
+X
+S3200 − S2210 − S2201 + S3002 =
+b2 (a3 − a2 c − ac2 + c3 ) =
+b2 (a + c)(a − c)2 ,
+cyc
+
+S3200 − 2S3101 + S3002 =
+are all nonnegative.
+
+X
+cyc
+
+a3 (b − d)2
+
+cyc
+
+and
+
+S3101 − S2111 =
+
+1X
+bd(2a3 + c3 − 3a2 c)
+3 cyc
+
+20
+
+Combinatorics
+C1. In the plane we consider rectangles whose sides are parallel to the coordinate axes and
+have positive length. Such a rectangle will be called a box . Two boxes intersect if they have a
+common point in their interior or on their boundary.
+Find the largest n for which there exist n boxes B1 , . . . , Bn such that Bi and Bj intersect if
+and only if i 6≡ j ± 1 (mod n).
+Solution. The maximum number of such boxes is 6. One example is shown in the figure.
+B5
+B1
+
+B3
+
+B2
+
+B4
+B6
+
+Now we show that 6 is the maximum. Suppose that boxes B1 , . . . , Bn satisfy the condition.
+Let the closed intervals Ik and Jk be the projections of Bk onto the x- and y-axis, for 1 ≤ k ≤ n.
+If Bi and Bj intersect, with a common point (x, y), then x ∈ Ii ∩ Ij and y ∈ Ji ∩ Jj . So the
+intersections Ii ∩ Ij and Ji ∩ Jj are nonempty. Conversely, if x ∈ Ii ∩ Ij and y ∈ Ji ∩ Jj for some
+real numbers x, y, then (x, y) is a common point of Bi and Bj . Putting it around, Bi and Bj
+are disjoint if and only if their projections on at least one coordinate axis are disjoint.
+For brevity we call two boxes or intervals adjacent if their indices differ by 1 modulo n, and
+nonadjacent otherwise.
+The adjacent boxes Bk and Bk+1 do not intersect for each k = 1, . . . , n. Hence (Ik , Ik+1 )
+or (Jk , Jk+1) is a pair of disjoint intervals, 1 ≤ k ≤ n. So there are at least n pairs of disjoint
+intervals among (I1 , I2 ), . . . , (In−1 , In ), (In , I1 ); (J1 , J2 ), . . . , (Jn−1 , Jn ), (Jn , J1 ).
+Next, every two nonadjacent boxes intersect, hence their projections on both axes intersect,
+too. Then the claim below shows that at most 3 pairs among (I1 , I2 ), . . . , (In−1 , In ), (In , I1 ) are
+disjoint, and the same holds for (J1 , J2 ), . . . , (Jn−1 , Jn ), (Jn , J1 ). Consequently n ≤ 3 + 3 = 6,
+as stated. Thus we are left with the claim and its justification.
+Claim. Let ∆1 , ∆2 , . . . , ∆n be intervals on a straight line such that every two nonadjacent
+intervals intersect. Then ∆k and ∆k+1 are disjoint for at most three values of k = 1, . . . , n.
+Proof. Denote ∆k = [ak , bk ], 1 ≤ k ≤ n. Let α = max(a1 , . . . , an ) be the rightmost among
+the left endpoints of ∆1 , . . . , ∆n , and let β = min(b1 , . . . , bn ) be the leftmost among their right
+endpoints. Assume that α = a2 without loss of generality.
+If α ≤ β then ai ≤ α ≤ β ≤ bi for all i. Every ∆i contains α, and thus no disjoint pair
+(∆i , ∆i+1 ) exists.
+
+22
+If β < α then β = bi for some i such that ai < bi = β < α = a2 < b2 , hence ∆2 and ∆i are
+disjoint. Now ∆2 intersects all remaining intervals except possibly ∆1 and ∆3 , so ∆2 and ∆i
+can be disjoint only if i = 1 or i = 3. Suppose by symmetry that i = 3; then β = b3 . Since
+each of the intervals ∆4 , . . . , ∆n intersects ∆2 , we have ai ≤ α ≤ bi for i = 4, . . . , n. Therefore
+α ∈ ∆4 ∩ . . . ∩ ∆n , in particular ∆4 ∩ . . . ∩ ∆n 6= ∅. Similarly, ∆5 , . . . , ∆n , ∆1 all intersect ∆3 ,
+so that ∆5 ∩ . . . ∩ ∆n ∩ ∆1 6= ∅ as β ∈ ∆5 ∩ . . . ∩ ∆n ∩ ∆1 . This leaves (∆1 , ∆2 ), (∆2 , ∆3 ) and
+(∆3 , ∆4 ) as the only candidates for disjoint interval pairs, as desired.
+Comment. The problem is a two-dimensional version of the original proposal which is included below.
+The extreme shortage of easy and appropriate submissions forced the Problem Selection Committee
+to shortlist a simplified variant. The same one-dimensional Claim is used in both versions.
+
+Original proposal. We consider parallelepipeds in three-dimensional space, with edges parallel to the coordinate axes and of positive length. Such a parallelepiped will be called a box .
+Two boxes intersect if they have a common point in their interior or on their boundary.
+Find the largest n for which there exist n boxes B1 , . . . , Bn such that Bi and Bj intersect if
+and only if i 6≡ j ± 1 (mod n).
+The maximum number of such boxes is 9. Suppose that boxes B1 , . . . , Bn satisfy the condition. Let the closed intervals Ik , Jk and Kk be the projections of box Bk onto the x-, yand z-axis, respectively, for 1 ≤ k ≤ n. As before, Bi and Bj are disjoint if and only if their
+projections on at least one coordinate axis are disjoint.
+We call again two boxes or intervals adjacent if their indices differ by 1 modulo n, and
+nonadjacent otherwise.
+The adjacent boxes Bi and Bi+1 do not intersect for each i = 1, . . . , n. Hence at least one of
+the pairs (Ii , Ii+1 ), (Ji , Ji+1 ) and (Ki , Ki+1 ) is a pair of disjoint intervals. So there are at least
+n pairs of disjoint intervals among (Ii , Ii+1 ), (Ji , Ji+1 ), (Ki , Ki+1 ), 1 ≤ i ≤ n.
+Next, every two nonadjacent boxes intersect, hence their projections on the three axes
+intersect, too. Referring to the Claim in the solution of the two-dimensional version, we
+cocnclude that at most 3 pairs among (I1 , I2 ), . . . , (In−1 , In ), (In , I1 ) are disjoint; the same
+holds for (J1 , J2 ), . . . , (Jn−1 , Jn ), (Jn , J1 ) and (K1 , K2 ), . . . , (Kn−1 , Kn ), (Kn , K1 ). Consequently
+n ≤ 3 + 3 + 3 = 9, as stated.
+For n = 9, the desired system of boxes exists. Consider the intervals in the following table:
+i
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+Ii
+[1, 4]
+[5, 6]
+[1, 2]
+[3, 6]
+[1, 6]
+[1, 6]
+[1, 6]
+[1, 6]
+[1, 6]
+
+Ji
+[1, 6]
+[1, 6]
+[1, 6]
+[1, 4]
+[5, 6]
+[1, 2]
+[3, 6]
+[1, 6]
+[1, 6]
+
+Ki
+[3, 6]
+[1, 6]
+[1, 6]
+[1, 6]
+[1, 6]
+[1, 6]
+[1, 4]
+[5, 6]
+[1, 2]
+
+We have I1 ∩ I2 = I2 ∩ I3 = I3 ∩ I4 = ∅, J4 ∩ J5 = J5 ∩ J6 = J6 ∩ J7 = ∅, and finally
+K7 ∩ K8 = K8 ∩ K9 = K9 ∩ K1 = ∅. The intervals in each column intersect in all other cases.
+It follows that the boxes Bi = Ii × Ji × Ki , i = 1, . . . , 9, have the stated property.
+
+23
+
+C2. For every positive integer n determine the number of permutations (a1 , a2 , . . . , an ) of the
+set {1, 2, . . . , n} with the following property:
+2(a1 + a2 + · · · + ak ) is divisible by k
+
+for k = 1, 2, . . . , n.
+
+Solution. For each n let Fn be the number of permutations of {1, 2, . . . , n} with the required
+property; call them nice. For n = 1, 2, 3 every permutation is nice, so F1 = 1, F2 = 2, F3 = 6.
+Take an n > 3 and consider any nice permutation (a1 , a2 , . . . , an ) of {1, 2, . . . , n}. Then
+n − 1 must be a divisor of the number
+
+2(a1 + a2 + · · · + an−1 ) = 2 (1 + 2 + · · · + n) − an
+= n(n + 1) − 2an = (n + 2)(n − 1) + (2 − 2an ).
+So 2an − 2 must be divisible by n − 1, hence equal to 0 or n − 1 or 2n − 2. This means that
+an = 1
+
+or
+
+an =
+
+n+1
+2
+
+or
+
+an = n.
+
+Suppose that an = (n + 1)/2. Since the permutation is nice, taking k = n − 2 we get that n − 2
+has to be a divisor of
+
+2(a1 + a2 + · · · + an−2 ) = 2 (1 + 2 + · · · + n) − an − an−1
+= n(n + 1) − (n + 1) − 2an−1 = (n + 2)(n − 2) + (3 − 2an−1 ).
+So 2an−1 − 3 should be divisible by n − 2, hence equal to 0 or n − 2 or 2n − 4. Obviously 0 and
+2n − 4 are excluded because 2an−1 − 3 is odd. The remaining possibility (2an−1 − 3 = n − 2)
+leads to an−1 = (n + 1)/2 = an , which also cannot hold. This eliminates (n + 1)/2 as a possible
+value of an . Consequently an = 1 or an = n.
+If an = n then (a1 , a2 , . . . , an−1 ) is a nice permutation of {1, 2, . . . , n−1}. There are Fn−1
+such permutations. Attaching n to any one of them at the end creates a nice permutation of
+{1, 2, . . . , n}.
+If an = 1 then (a1 −1, a2 −1, . . . , an−1 −1) is a permutation of {1, 2, . . . , n−1}. It is also nice
+because the number
+
+2 (a1 −1) + · · · + (ak −1) = 2(a1 + · · · + ak ) − 2k
+is divisible by k, for any k ≤ n − 1. And again, any one of the Fn−1 nice permutations
+(b1 , b2 , . . . , bn−1 ) of {1, 2, . . . , n−1} gives rise to a nice permutation of {1, 2, . . . , n} whose last
+term is 1, namely (b1 +1, b2 +1, . . . , bn−1 +1, 1).
+The bijective correspondences established in both cases show that there are Fn−1 nice permutations of {1, 2, . . . , n} with the last term 1 and also Fn−1 nice permutations of {1, 2, . . . , n}
+with the last term n. Hence follows the recurrence Fn = 2Fn−1 . With the base value F3 = 6
+this gives the outcome formula Fn = 3 · 2n−2 for n ≥ 3.
+
+24
+
+C3. In the coordinate plane consider the set S of all points with integer coordinates. For a
+positive integer k, two distinct points A, B ∈ S will be called k-friends if there is a point C ∈ S
+such that the area of the triangle ABC is equal to k. A set T ⊂ S will be called a k-clique
+if every two points in T are k-friends. Find the least positive integer k for which there exists
+a k-clique with more than 200 elements.
+Solution. To begin, let us describe those points B ∈ S which are k-friends of the point (0, 0).
+By definition, B = (u, v) satisfies this condition if and only if there is a point C = (x, y) ∈ S
+such that 21 |uy − vx| = k. (This is a well-known formula expressing the area of triangle ABC
+when A is the origin.)
+To say that there exist integers x, y for which |uy − vx| = 2k, is equivalent to saying that the
+greatest common divisor of u and v is also a divisor of 2k. Summing up, a point B = (u, v) ∈ S
+is a k-friend of (0, 0) if and only if gcd(u, v) divides 2k.
+Translation by a vector with integer coordinates does not affect k-friendship; if two points are
+k-friends, so are their translates. It follows that two points A, B ∈ S, A = (s, t), B = (u, v), are
+k-friends if and only if the point (u − s, v − t) is a k-friend of (0, 0); i.e., if gcd(u − s, v − t)|2k.
+Let n be a positive integer which does not divide 2k. We claim that a k-clique cannot have
+more than n2 elements.
+Indeed, all points (x, y) ∈ S can be divided into n2 classes determined by the remainders
+that x and y leave in division by n. If a set T has more than n2 elements, some two points
+A, B ∈ T , A = (s, t), B = (u, v), necessarily fall into the same class. This means that n|u − s
+and n|v − t. Hence n|d where d = gcd(u − s, v − t). And since n does not divide 2k, also d
+does not divide 2k. Thus A and B are not k-friends and the set T is not a k-clique.
+Now let M(k) be the least positive integer which does not divide 2k. Write M(k) = m for
+the moment and consider the set T of all points (x, y) with 0 ≤ x, y < m. There are m2 of
+them. If A = (s, t), B = (u, v) are two distinct points in T then both differences |u − s|, |v − t|
+are integers less than m and at least one of them is positive. By the definition of m, every
+positive integer less than m divides 2k. Therefore u − s (if nonzero) divides 2k, and the same
+is true of v − t. So 2k is divisible by gcd(u − s, v − t), meaning that A, B are k-friends. Thus
+T is a k-clique.
+It follows that the maximum size of a k-clique is M(k)2 , with M(k) defined as above. We
+are looking for the minimum k such that M(k)2 > 200.
+By the definition of M(k), 2k is divisible by the numbers 1, 2, . . . , M(k)−1, but not by
+M(k) itself. If M(k)2 > 200 then M(k) ≥ 15. Trying to hit M(k) = 15 we get a contradiction
+immediately (2k would have to be divisible by 3 and 5, but not by 15).
+So let us try M(k) = 16. Then 2k is divisible by the numbers 1, 2, . . . , 15, hence also by
+their least common multiple L, but not by 16. And since L is not a multiple of 16, we infer
+that k = L/2 is the least k with M(k) = 16.
+Finally, observe that if M(k) ≥ 17 then 2k must be divisible by the least common multiple
+of 1, 2, . . . , 16, which is equal to 2L. Then 2k ≥ 2L, yielding k > L/2.
+In conclusion, the least k with the required property is equal to L/2 = 180180.
+
+25
+
+C4. Let n and k be fixed positive integers of the same parity, k ≥ n. We are given 2n lamps
+
+numbered 1 through 2n; each of them can be on or off. At the beginning all lamps are off. We
+consider sequences of k steps. At each step one of the lamps is switched (from off to on or from
+on to off).
+Let N be the number of k-step sequences ending in the state: lamps 1, . . . , n on, lamps
+n+1, . . . , 2n off.
+Let M be the number of k-step sequences leading to the same state and not touching lamps
+n+1, . . . , 2n at all.
+Find the ratio N/M.
+
+Solution. A sequence of k switches ending in the state as described in the problem statement
+(lamps 1, . . . , n on, lamps n+1, . . . , 2n off ) will be called an admissible process. If, moreover,
+the process does not touch the lamps n+1, . . . , 2n, it will be called restricted. So there are N
+admissible processes, among which M are restricted.
+In every admissible process, restricted or not, each one of the lamps 1, . . . , n goes from off
+to on, so it is switched an odd number of times; and each one of the lamps n+1, . . . , 2n goes
+from off to off, so it is switched an even number of times.
+Notice that M > 0; i.e., restricted admissible processes do exist (it suffices to switch each
+one of the lamps 1, . . . , n just once and then choose one of them and switch it k − n times,
+which by hypothesis is an even number).
+Consider any restricted admissible process p. Take any lamp `, 1 ≤ ` ≤ n, and suppose
+that it was switched k` times. As noticed, k` must be odd. Select arbitrarily an even number
+of these k` switches and replace each of them by the switch of lamp n+`. This can be done
+in 2k` −1 ways (because a k` -element set has 2k` −1 subsets of even cardinality). Notice that
+k1 + · · · + kn = k.
+These actions are independent, in the sense that the action involving lamp ` does not
+affect the action involving any other lamp. So there are 2k1 −1 · 2k2 −1 · · · 2kn −1 = 2k−n ways of
+combining these actions. In any of these combinations, each one of the lamps n+1, . . . , 2n gets
+switched an even number of times and each one of the lamps 1, . . . , n remains switched an odd
+number of times, so the final state is the same as that resulting from the original process p.
+This shows that every restricted admissible process p can be modified in 2k−n ways, giving
+rise to 2k−n distinct admissible processes (with all lamps allowed).
+Now we show that every admissible process q can be achieved in that way. Indeed, it is
+enough to replace every switch of a lamp with a label ` > n that occurs in q by the switch of
+the corresponding lamp `−n; in the resulting process p the lamps n+1, . . . , 2n are not involved.
+Switches of each lamp with a label ` > n had occurred in q an even number of times. So
+the performed replacements have affected each lamp with a label ` ≤ n also an even number of
+times; hence in the overall effect the final state of each lamp has remained the same. This means
+that the resulting process p is admissible—and clearly restricted, as the lamps n+1, . . . , 2n are
+not involved in it any more.
+If we now take process p and reverse all these replacements, then we obtain process q.
+These reversed replacements are nothing else than the modifications described in the foregoing
+paragraphs.
+Thus there is a one–to–(2k−n ) correspondence between the M restricted admissible processes
+and the total of N admissible processes. Therefore N/M = 2k−n .
+
+26
+
+C5. Let S = {x1 , x2 , . . . , xk+`} be a (k + `)-element set of real numbers contained in the
+
+interval [0, 1]; k and ` are positive integers. A k-element subset A ⊂ S is called nice if
+k+`
+1 X
+1 X
+xi −
+xj ≤
+.
+k x ∈A
+`
+2k`
+i
+
+xj ∈S\A
+
+
+
+k+`
+2
+.
+Prove that the number of nice subsets is at least
+k
+k+`
+Solution. For a k-element subset A ⊂ S, let f (A) =
+
+1 X
+1 X
+k+`
+xi −
+xj . Denote
+= d.
+k x ∈A
+`
+2k`
+i
+
+xj ∈S\A
+
+By definition a subset A is nice if |f (A)| ≤ d.
+To each permutation (y1 , y2, . . . , yk+` ) of the set S = {x1 , x2 , . . . , xk+` } we assign k+` subsets
+of S with k elements each, namely Ai = {yi , yi+1, . . . , yi+k−1}, i = 1, 2, . . . , k + `. Indices are
+taken modulo k + ` here and henceforth. In other words, if y1 , y2, . . . , yk+` are arranged around
+a circle in this order, the sets in question are all possible blocks of k consecutive elements.
+Claim. At least two nice sets are assigned to every permutation of S.
+Proof. Adjacent sets Ai and Ai+1 differ only by the elements yi and yi+k , i = 1, . . . , k + `. By
+the definition of f , and because yi , yi+k ∈ [0, 1],
+
+
+1 1
+1 1
+(yi+k − yi) ≤ + = 2d.
++
+|f (Ai+1 ) − f (Ai )| =
+k `
+k `
+Each element yi ∈ S belongs to exactly k of the sets A1 , . . . , Ak+` . Hence in k of the
+expressions f (A1 ), . . . , f (Ak+` ) the coefficient of yi is 1/k; in the remaining ` expressions, its
+coefficient is −1/`. So the contribution of yi to the sum of all f (Ai ) equals k · 1/k − ` · 1/` = 0.
+Since this holds for all i, it follows that f (A1 ) + · · · + f (Ak+` ) = 0.
+If f (Ap ) = min f (Ai ), f (Aq ) = max f (Ai ), we obtain in particular f (Ap ) ≤ 0, f (Aq ) ≥ 0.
+Let p < q (the case p > q is analogous; and the claim is true for p = q as f (Ai ) = 0 for all i).
+We are ready to prove that at least two of the sets A1 , . . . , Ak+` are nice. The interval [−d, d]
+has length 2d, and we saw that adjacent numbers in the circular arrangement f (A1 ), . . . , f (Ak+` )
+differ by at most 2d. Suppose that f (Ap ) < −d and f (Aq ) > d. Then one of the numbers
+f (Ap+1), . . . , f (Aq−1 ) lies in [−d, d], and also one of the numbers f (Aq+1 ), . . . , f (Ap−1 ) lies there.
+Consequently, one of the sets Ap+1 , . . . , Aq−1 is nice, as well as one of the sets Aq+1 , . . . , Ap−1.
+If −d ≤ f (Ap ) and f (Aq ) ≤ d then Ap and Aq are nice.
+P
+Let now f (Ap ) < −d and f (Aq ) ≤ d. Then f (Ap ) + f (Aq ) < 0, and since
+f (Ai) = 0,
+there is an r 6= q such that f (Ar ) > 0. We have 0 < f (Ar ) ≤ f (Aq ) ≤ d, so the sets f (Ar )
+and f (Aq ) are nice. The only case remaining, −d ≤ f (Ap ) and d < f (Aq ), is analogous.
+Apply the claim to each of the (k + `)! permutations of S = {x1 , x2 , . . . , xk+` }. This gives
+at least 2(k + `)! nice sets, counted with repetitions: each nice set is counted as many times as
+there are permutations to which it is assigned.
+On the other hand, each k-element set A ⊂ S is assigned to exactly (k+`) k! `! permutations.
+Indeed, such a permutation (y1 , y2, . . . , yk+` ) is determined by three independent choices: an index i ∈ {1, 2, . . . , k + `} such that A = {yi , yi+1, . . . , yi+k−1}, a permutation (yi , yi+1 , . . . , yi+k−1)
+of the set A, and a permutation (yi+k , yi+k+1, . . . , yi−1 ) of the set S \ A.
+
+
+k+`
+2
+2(k + `)!
+nice sets.
+=
+In summary, there are at least
+k
+(k + `) k! `!
+k+`
+
+27
+
+C6. For n ≥ 2, let S1 , S2 , . . . , S2n be 2n subsets of A = {1, 2, 3, . . . , 2n+1 } that satisfy the
+
+following property: There do not exist indices a and b with a < b and elements x, y, z ∈ A with
+x < y < z such that y, z ∈ Sa and x, z ∈ Sb . Prove that at least one of the sets S1 , S2 , . . . , S2n
+contains no more than 4n elements.
+
+Solution 1. We prove that there exists a set Sa with at most 3n + 1 elements.
+Given a k ∈ {1, . . . , n}, we say that an element z ∈ A is k-good to a set Sa if z ∈ Sa and
+Sa contains two other elements x and y with x < y < z such that z − y < 2k and z − x ≥ 2k .
+Also, z ∈ A will be called good to Sa if z is k-good to Sa for some k = 1, . . . , n.
+We claim that each z ∈ A can be k-good to at most one set Sa . Indeed, suppose on the
+contrary that z is k-good simultaneously to Sa and Sb , with a < b. Then there exist ya ∈ Sa ,
+ya < z, and xb ∈ Sb , xb < z, such that z − ya < 2k and z − xb ≥ 2k . On the other hand, since
+z ∈ Sa ∩ Sb , by the condition of the problem there is no element of Sa strictly between xb and z.
+Hence ya ≤ xb , implying z − ya ≥ z − xb . However this contradicts z − ya < 2k and z − xb ≥ 2k .
+The claim follows.
+As a consequence, a fixed z ∈ A can be good to at most n of the given sets (no more than
+one of them for each k = 1, . . . , n).
+Furthermore, let u1 < u2 < · · · < um < · · · < up be all elements of a fixed set Sa that are
+not good to Sa . We prove that um − u1 > 2(um−1 − u1 ) for all m ≥ 3.
+Indeed, assume that um − u1 ≤ 2(um−1 − u1 ) holds for some m ≥ 3. This inequality can be
+written as 2(um − um−1 ) ≤ um − u1 . Take the unique k such that 2k ≤ um − u1 < 2k+1 . Then
+2(um − um−1 ) ≤ um − u1 < 2k+1 yields um − um−1 < 2k . However the elements z = um , x = u1 ,
+y = um−1 of Sa then satisfy z − y < 2k and z − x ≥ 2k , so that z = um is k-good to Sa .
+Thus each term of the sequence u2 − u1 , u3 − u1 , . . . , up − u1 is more than twice the previous
+one. Hence up − u1 > 2p−1(u2 − u1 ) ≥ 2p−1 . But up ∈ {1, 2, 3, . . . , 2n+1 }, so that up ≤ 2n+1 .
+This yields p − 1 ≤ n, i. e. p ≤ n + 1.
+In other words, each set Sa contains at most n + 1 elements that are not good to it.
+To summarize the conclusions, mark with red all elements in the sets Sa that are good to
+the respective set, and with blue the ones that are not good. Then the total number of red
+elements, counting multiplicities, is at most n · 2n+1 (each z ∈ A can be marked red in at
+most n sets). The total number of blue elements is at most (n + 1)2n (each set Sa contains
+at most n + 1 blue elements). Therefore the sum of cardinalities of S1 , S2 , . . . , S2n does not
+exceed (3n + 1)2n . By averaging, the smallest set has at most 3n + 1 elements.
+Solution 2. We show that one of the sets Sa has at most 2n + 1 elements. In the sequel | · |
+denotes the cardinality of a (finite) set.
+Claim. For n ≥ 2, suppose that k subsets S1 , . . . , Sk of {1, 2, . . . , 2n } (not necessarily different)
+satisfy the condition of the problem. Then
+k
+X
+i=1
+
+(|Si| − n) ≤ (2n − 1)2n−2 .
+
+Proof. Observe that if the sets Si (1 ≤ i ≤ k) satisfy the condition then so do their arbitrary
+subsets Ti (1 ≤ i ≤ k). The condition also holds for the sets t + Si = {t + x | x ∈ Si } where t
+is arbitrary.
+Note also that a set may occur more than once among
+S1 , . . . , Sk only if its cardinality is
+P
+less than 3, in which case its contribution to the sum ki=1 (|Si | − n) is nonpositive (as n ≥ 2).
+The proof is by induction on n. In the base case n = 2 we have subsets Si of {1, 2, 3, 4}.
+Only the ones of cardinality 3 and 4 need to be considered by the remark above; each one of
+
+28
+them occurs at most once among S1 , . . . , Sk . If Si = {1, 2, 3, 4} for some i then no Sj is a
+P
+3-element subset in view of the condition, hence ki=1 (|Si | − 2) ≤ 2. By the condition again,
+it is impossible that Si = {1, 3, 4} and Sj = {2, 3, 4} for some i, j. So if |Si | ≤ 3 for all i then
+at
+Pkmost 3 summands |Si | − 2 are positive, corresponding to 3-element subsets. This implies
+i=1 (|Si | − 2) ≤ 3, therefore the conclusion is true for n = 2.
+Suppose that the claim holds for some n ≥ 2, and let the sets S1 , . . . , Sk ⊆ {1, 2, . . . , 2n+1 }
+satisfy the given property. Denote Ui = Si ∩ {1, 2, . . . , 2n }, Vi = Si ∩ {2n + 1, . . . , 2n+1 }. Let
+I = {i | 1 ≤ i ≤ k, |Ui | =
+6 0},
+
+J = {1, . . . , k} \ I.
+
+The sets Sj with j ∈ J are all contained in {2n + 1, . . . , 2n+1 }, so the induction hypothesis
+applies to their translates −2n + Sj which have the same cardinalities. Consequently, this gives
+P
+n−2
+, so that
+j∈J (|Sj | − n) ≤ (2n − 1)2
+X
+X
+(|Sj | − (n + 1)) ≤
+(|Sj | − n) ≤ (2n − 1)2n−2 .
+j∈J
+
+(1)
+
+j∈J
+
+For i ∈ I, denote by vi the least element of Vi . Observe that if Va and Vb intersect, with a < b,
+a, b ∈ I, then va is their unique common element. Indeed, let z ∈ Va ∩ Vb ⊆ Sa ∩ Sb and let m
+be the least element of Sb . Since b ∈ I, we have m ≤ 2n . By the condition, there is no element
+of Sa strictly between m ≤ 2n and z > 2n , which implies z = va .
+It follows that if the element vi is removed from each Vi , a family of pairwise disjoint sets
+Wi = Vi \ {vi } is obtained,
+i ∈ I (we assume WP
+As Wi ⊆ {2n + 1, . . . , 2n+1 } for
+i = ∅ if Vi = ∅). P
+P
+all i, we infer that i∈I |Wi | ≤ 2n . Therefore i∈I (|Vi | − 1) ≤ i∈I |Wi | ≤ 2n .
+induction hypothesis applies directly to the sets Ui , i ∈ I, so that
+P On the other hand, the n−2
+. In summary,
+i∈I (|Ui | − n) ≤ (2n − 1)2
+X
+i∈I
+
+(|Si | − (n + 1)) =
+
+X
+i∈I
+
+(|Ui | − n) +
+
+X
+i∈I
+
+(|Vi | − 1) ≤ (2n − 1)2n−2 + 2n .
+
+(2)
+
+The estimates (1) and (2) are sufficient to complete the inductive step:
+k
+X
+i=1
+
+(|Si| − (n + 1)) =
+
+X
+i∈I
+
+(|Si | − (n + 1)) +
+
+≤ (2n − 1)2
+
+n−2
+
+X
+j∈J
+
+(|Sj | − (n + 1))
+
+n
+
++ 2 + (2n − 1)2n−2 = (2n + 1)2n−1.
+
+n+1
+Returning to the problem, consider k = 2n subsets
+P2nS1 , S2 , . . . , S2n of {1, 2, 3, . . . , 2n−1 }. If
+they satisfy the given condition, the claim implies i=1 (|Si| − (n + 1)) ≤ (2n + 1)2 . By
+averaging again, we see that the smallest set has at most 2n + 1 elements.
+
+Comment. It can happen that each set Si has cardinality at least n + 1. Here is an example by the
+proposer.
+For i = 1, . . . , 2n , let Si = {i + 2k | 0 ≤ k ≤ n}. Then |Si | = n + 1 for all i. Suppose that there
+exist a < b and x < y < z such that y, z ∈ Sa and x, z ∈ Sb . Hence z = a + 2k = b + 2l for some k > l.
+Since y ∈ Sa and y < z, we have y ≤ a + 2k−1 . So the element x ∈ Sb satisfies
+x < y ≤ a + 2k−1 = z − 2k−1 ≤ z − 2l = b.
+However the least element of Sb is b + 1, a contradiction.
+
+Geometry
+G1. In an acute-angled triangle ABC, point H is the orthocentre and A0 , B0 , C0 are the
+midpoints of the sides BC, CA, AB, respectively. Consider three circles passing through
+H: ωa around A0 , ωb around B0 and ωc around C0 . The circle ωa intersects the line BC at
+A1 and A2 ; ωb intersects CA at B1 and B2 ; ωc intersects AB at C1 and C2 . Show that the
+points A1 , A2 , B1 , B2 , C1 , C2 lie on a circle.
+Solution 1. The perpendicular bisectors of the segments A1 A2 , B1 B2 , C1 C2 are also the
+perpendicular bisectors of BC, CA, AB. So they meet at O, the circumcentre of ABC. Thus
+O is the only point that can possibly be the centre of the desired circle.
+From the right triangle OA0 A1 we get
+OA21 = OA20 + A0 A21 = OA20 + A0 H 2 .
+
+(1)
+
+Let K be the midpoint of AH and let L be the midpoint of CH. Since A0 and B0 are the
+midpoints of BC and CA, we see that A0 LkBH and B0 LkAH. Thus the segments A0 L and B0 L
+are perpendicular to AC and BC, hence parallel to OB0 and OA0 , respectively. Consequently
+OA0 LB0 is a parallelogram, so that OA0 and B0 L are equal and parallel. Also, the midline B0 L
+of triangle AHC is equal and parallel to AK and KH.
+It follows that AKA0 O and HA0 OK are parallelograms. The first one gives A0 K = OA = R,
+where R is the circumradius of ABC. From the second one we obtain
+2(OA20 + A0 H 2 ) = OH 2 + A0 K 2 = OH 2 + R2 .
+
+(2)
+
+(In a parallelogram, the sum of squares of the diagonals equals the sum of squares of the sides).
+From (1) and (2) we get OA21 = (OH 2 + R2 )/2. By symmetry, the same holds for the
+distances OA2 , OB1 , OB2 , OC1 and OC2 . Thus A1 , A2 , B1 , B2 , C1 , C2 all lie on a circle with
+centre at O and radius (OH 2 + R2 )/2.
+A
+
+K
+B0
+H
+
+O
+L
+
+B
+
+A1
+
+A0
+
+C
+
+30
+Solution 2. We are going to show again that the circumcentre O is equidistant from the six
+points in question.
+Let A0 be the second intersection point of ωb and ωc . The line B0 C0 , which is the line of
+centers of circles ωb and ωc , is a midline in triangle ABC, parallel to BC and perpendicular
+to the altitude AH. The points A0 and H are symmetric with respect to the line of centers.
+Therefore A0 lies on the line AH.
+From the two circles ωb and ωc we obtain AC1 · AC2 = AA0 · AH = AB1 · AB2 . So the
+quadrilateral B1 B2 C1 C2 is cyclic. The perpendicular bisectors of the sides B1 B2 and C1 C2
+meet at O. Hence O is the circumcentre of B1 B2 C1 C2 and so OB1 = OB2 = OC1 = OC2 .
+Analogous arguments yield OA1 = OA2 = OB1 = OB2 and OA1 = OA2 = OC1 = OC2.
+Thus A1 , A2 , B1 , B2 , C1 , C2 lie on a circle centred at O.
+A
+B2
+C1
+ωc
+
+ωb
+
+A0
+B0
+
+C0
+H
+
+O
+
+C2
+B1
+B
+
+A1
+
+C
+
+A2
+
+A0
+
+Comment. The problem can be solved without much difficulty in many ways by calculation, using
+trigonometry, coordinate geometry or complex numbers. As an example we present a short proof using
+vectors.
+
+Solution 3. Let again O and R be the circumcentre and circumradius. Consider the vectors
+−→
+OA = a,
+
+−−→
+OB = b,
+
+−→
+OC = c,
+
+where a2 = b2 = c2 = R2 .
+
+−−→
+It is well known that OH = a + b + c. Accordingly,
+2a + b + c
+−−→ −−→ −−→
+b+c
+=
+,
+A0 H = OH − OA0 = (a + b + c) −
+2
+2
+and
+OA21 = OA20 + A0 A21 = OA20 + A0 H 2 =
+
+
+
+b+c
+2
+
+2
+
++
+
+
+
+2a + b + c
+2
+
+2
+
+1
+1
+= (b2 + 2bc + c2 ) + (4a2 + 4ab + 4ac + b2 + 2bc + c2 ) = 2R2 + (ab + ac + bc);
+4
+4
+here ab, bc, etc. denote dot products of vectors. We get the same for the distances OA2 , OB1,
+OB2 , OC1 and OC2.
+
+31
+
+G2. Given trapezoid ABCD with parallel sides AB and CD, assume that there exist points
+E on line BC outside segment BC, and F inside segment AD, such that ∠DAE = ∠CBF .
+Denote by I the point of intersection of CD and EF , and by J the point of intersection of AB
+and EF . Let K be the midpoint of segment EF ; assume it does not lie on line AB.
+Prove that I belongs to the circumcircle of ABK if and only if K belongs to the circumcircle
+of CDJ.
+Solution. Assume that the disposition of points is as in the diagram.
+Since ∠EBF = 180◦ − ∠CBF = 180◦ − ∠EAF by hypothesis, the quadrilateral AEBF is
+cyclic. Hence AJ · JB = F J · JE. In view of this equality, I belongs to the circumcircle
+of ABK if and only if IJ · JK = F J · JE. Expressing IJ = IF + F J, JE = F E − F J,
+and JK = 12 F E − F J, we find that I belongs to the circumcircle of ABK if and only if
+FJ =
+
+IF · F E
+.
+2IF + F E
+
+Since AEBF is cyclic and AB, CD are parallel, ∠F EC = ∠F AB = 180◦ − ∠CDF . Then
+CDF E is also cyclic, yielding ID · IC = IF · IE. It follows that K belongs to the circumcircle
+of CDJ if and only if IJ · IK = IF · IE. Expressing IJ = IF + F J, IK = IF + 12 F E, and
+IE = IF + F E, we find that K is on the circumcircle of CDJ if and only if
+FJ =
+
+IF · F E
+.
+2IF + F E
+
+The conclusion follows.
+E
+
+K
+
+J
+
+A
+
+B
+
+F
+
+I
+
+D
+
+C
+
+Comment. While the figure shows B inside segment CE, it is possible that C is inside segment BE.
+Consequently, I would be inside segment EF and J outside segment EF . The position of point K on
+line EF with respect to points I, J may also vary.
+Some case may require that an angle ϕ be replaced by 180◦ − ϕ, and in computing distances, a
+sum may need to become a difference. All these cases can be covered by the proposed solution if it is
+clearly stated that signed distances and angles are used.
+
+32
+
+G3. Let ABCD be a convex quadrilateral and let P and Q be points in ABCD such that
+P QDA and QP BC are cyclic quadrilaterals. Suppose that there exists a point E on the line
+segment P Q such that ∠P AE = ∠QDE and ∠P BE = ∠QCE. Show that the quadrilateral
+ABCD is cyclic.
+Solution 1. Let F be the point on the line AD such that EF kP A. By hypothesis, the quadrilateral P QDA is cyclic. So if F lies between A and D then ∠EF D = ∠P AD = 180◦ − ∠EQD;
+the points F and Q are on distinct sides of the line DE and we infer that EF DQ is a
+cyclic quadrilateral. And if D lies between A and F then a similar argument shows that
+∠EF D = ∠EQD; but now the points F and Q lie on the same side of DE, so that EDF Q is
+a cyclic quadrilateral.
+In either case we obtain the equality ∠EF Q = ∠EDQ = ∠P AE which implies that F QkAE.
+So the triangles EF Q and P AE are either homothetic or parallel-congruent. More specifically,
+triangle EF Q is the image of P AE under the mapping f which carries the points P , E respectively to E, Q and is either a homothety or translation by a vector. Note that f is uniquely
+determined by these conditions and the position of the points P , E, Q alone.
+Let now G be the point on the line BC such that EGkP B. The same reasoning as above
+applies to points B, C in place of A, D, implying that the triangle EGQ is the image of P BE
+under the same mapping f . So f sends the four points A, P, B, E respectively to F, E, G, Q.
+If P E 6= QE, so that f is a homothety with a centre X, then the lines AF , P E, BG—i.e. the
+lines AD, P Q, BC—are concurrent at X. And since P QDA and QP BC are cyclic quadrilaterals, the equalities XA · XD = XP · XQ = XB · XC hold, showing that the quadrilateral
+ABCD is cyclic.
+Finally, if P E = QE, so that f is a translation, then ADkP QkBC. Thus P QDA and
+QP BC are isosceles trapezoids. Then also ABCD is an isosceles trapezoid, hence a cyclic
+quadrilateral.
+A
+F
+
+D
+
+P
+
+E
+
+X
+
+Q
+
+Y
+
+C
+G
+B
+
+Solution 2. Here is another way to reach the conclusion that the lines AD, BC and P Q are
+either concurrent or parallel. From the cyclic quadrilateral P QDA we get
+∠P AD = 180◦ − ∠P QD = ∠QDE + ∠QED = ∠P AE + ∠QED.
+
+33
+Hence ∠QED = ∠P AD − ∠P AE = ∠EAD. This in view of the tangent-chord theorem means
+that the circumcircle of triangle EAD is tangent to the line P Q at E. Analogously, the
+circumcircle of triangle EBC is tangent to P Q at E.
+Suppose that the line AD intersects P Q at X. Since XE is tangent to the circle (EAD),
+XE 2 = XA · XD. Also, XA · XD = XP · XQ because P, Q, D, A lie on a circle. Therefore
+XE 2 = XP · XQ.
+It is not hard to see that this equation determines the position of the point X on the line
+P Q uniquely. Thus, if BC also cuts P Q, say at Y , then the analogous equation for Y yields
+X = Y , meaning that the three lines indeed concur. In this case, as well as in the case where
+ADkP QkBC, the concluding argument is the same as in the first solution.
+It remains to eliminate the possibility that e.g. AD meets P Q at X while BCkP Q. Indeed,
+QP BC would then be an isosceles trapezoid and the angle equality ∠P BE = ∠QCE would
+force that E is the midpoint of P Q. So the length of XE, which is the geometric mean of the
+lengths of XP and XQ, should also be their arithmetic mean—impossible, as XP 6= XQ. The
+proof is now complete.
+Comment. After reaching the conclusion that the circles (EDA) and (EBC) are tangent to P Q one
+may continue as follows. Denote the circles (P QDA), (EDA), (EBC), (QP BC) by ω1 , ω2 , ω3 , ω4
+respectively. Let `ij be the radical axis of the pair (ωi , ωj ) for i < j. As is well-known, the lines
+`12 , `13 , `23 concur, possibly at infinity (let this be the meaning of the word concur in this comment).
+So do the lines `12 , `14 , `24 . Note however that `23 and `14 both coincide with the line P Q. Hence the
+pair `12 , P Q is in both triples; thus the four lines `12 , `13 , `24 and P Q are concurrent.
+Similarly, `13 , `14 , `34 concur, `23 , `24 , `34 concur, and since `14 = `23 = P Q, the four lines
+`13 , `24 , `34 and P Q are concurrent. The lines `13 and `24 are present in both quadruples, therefore all the lines `ij are concurrent. Hence the result.
+
+34
+
+G4. In an acute triangle ABC segments BE and CF are altitudes. Two circles passing
+through the points A and F are tangent to the line BC at the points P and Q so that B lies
+between C and Q. Prove that the lines P E and QF intersect on the circumcircle of triangle
+AEF .
+Solution 1. To approach the desired result we need some information about the slopes of the
+lines P E and QF ; this information is provided by formulas (1) and (2) which we derive below.
+The tangents BP and BQ to the two circles passing through A and F are equal, as
+BP 2 = BA · BF = BQ2 . Consider the altitude AD of triangle ABC and its orthocentre H.
+From the cyclic quadrilaterals CDF A and CDHE we get BA · BF = BC · BD = BE · BH.
+Thus BP 2 = BE · BH, or BP/BH = BE/BP , implying that the triangles BP H and BEP
+are similar. Hence
+∠BP E = ∠BHP .
+(1)
+The point P lies between D and C; this follows from the equality BP 2 = BC · BD. In view
+of this equality, and because BP = BQ,
+DP · DQ = (BP − BD) · (BP + BD) = BP 2 − BD 2 = BD · (BC − BD) = BD · DC.
+Also AD · DH = BD · DC, as is seen from the similar triangles BDH and ADC. Combining
+these equalities we obtain AD · DH = DP · DQ. Therefore DH/DP = DQ/DA, showing that
+the triangles HDP and QDA are similar. Hence ∠HP D = ∠QAD, which can be rewritten as
+∠BP H = ∠BAD + ∠BAQ. And since BQ is tangent to the circumcircle of triangle F AQ,
+∠BQF = ∠BAQ = ∠BP H − ∠BAD.
+
+(2)
+
+From (1) and (2) we deduce
+∠BP E + ∠BQF = (∠BHP + ∠BP H) − ∠BAD = (180◦ − ∠P BH) − ∠BAD
+= (90◦ + ∠BCA) − (90◦ − ∠ABC) = ∠BCA + ∠ABC = 180◦ − ∠CAB.
+Thus ∠BP E + ∠BQF < 180◦ , which means that the rays P E and QF meet. Let S be the
+point of intersection. Then ∠P SQ = 180◦ − (∠BP E + ∠BQF ) = ∠CAB = ∠EAF .
+If S lies between P and E then ∠P SQ = 180◦ − ∠ESF ; and if E lies between P and S
+then ∠P SQ = ∠ESF . In either case the equality ∠P SQ = ∠EAF which we have obtained
+means that S lies on the circumcircle of triangle AEF .
+A
+
+S
+
+E
+
+F
+H
+
+Q
+
+B
+
+D
+
+P
+
+C
+
+35
+Solution 2. Let H be the orthocentre of triangle ABC and let ω be the circle with diameter
+AH, passing through E and F . Introduce the points of intersection of ω with the following lines
+emanating from P : P A ∩ ω = {A, U}, P H ∩ ω = {H, V }, P E ∩ ω = {E, S}. The altitudes of
+triangle AHP are contained in the lines AV , HU, BC, meeting at its orthocentre Q0 .
+By Pascal’s theorem applied to the (tied) hexagon AESF HV , the points AE ∩ F H = C,
+ES ∩ HV = P and SF ∩ V A are collinear, so F S passes through Q0 .
+Denote by ω1 and ω2 the circles with diameters BC and P Q0 , respectively. Let D be the
+foot of the altitude from A in triangle ABC. Suppose that AD meets the circles ω1 and ω2 at
+the respective points K and L.
+Since H is the orthocentre of ABC, the triangles BDH and ADC are similar, and so
+DA · DH = DB · DC = DK 2 ; the last equality holds because BKC is a right triangle. Since
+H is the orthocentre also in triangle AQ0 P , we analogously have DL2 = DA · DH. Therefore
+DK = DL and K = L.
+Also, BD · BC = BA · BF , from the similar triangles ABD, CBF . In the right triangle
+BKC we have BK 2 = BD · BC. Hence, and because BA · BF = BP 2 = BQ2 (by the definition of P and Q in the problem statement), we obtain BK = BP = BQ. It follows that B is
+the centre of ω2 and hence Q0 = Q. So the lines P E and QF meet at the point S lying on the
+circumcircle of triangle AEF .
+A
+ω
+
+V
+
+S
+
+ω2
+K
+
+E
+
+F
+
+ω1
+T
+
+Q0
+
+B
+
+H
+
+D
+
+U
+
+P
+
+C
+
+Comment 1. If T is the point defined by P F ∩ ω = {F, T }, Pascal’s theorem for the hexagon
+AF T EHV will analogously lead to the conclusion that the line ET goes through Q0 . In other words,
+the lines P F and QE also concur on ω.
+Comment 2. As is known from algebraic geometry, the points of the circle ω form a commutative
+groups with the operation defined as follows. Choose any point 0 ∈ ω (to be the neutral element of
+the group) and a line ` exterior to the circle. For X, Y ∈ ω, draw the line from the point XY ∩ `
+through 0 to its second intersection with ω and define this point to be X + Y .
+In our solution we have chosen H to be the neutral element in this group and line BC to be `. The
+fact that the lines AV , HU , ET , F S are concurrent can be deduced from the identities A + A = 0,
+F = E + A, V = U + A = S + E = T + F .
+Comment 3. The problem was submitted in the following equivalent formulation:
+Let BE and CF be altitudes of an acute triangle ABC. We choose P on the side BC and Q
+on the extension of CB beyond B such that BQ2 = BP 2 = BF · AB. If QF and P E intersect at S,
+prove that ESAF is cyclic.
+
+36
+
+G5. Let k and n be integers with 0 ≤ k ≤ n − 2. Consider a set L of n lines in the plane such
+
+that no two of them are parallel and no three have a common point. Denote by I the set of
+intersection points of lines in L. Let O be a point in the plane not lying on any line of L.
+A point X ∈ I is colored red if the open line segment OX intersects at most k lines in L.
+Prove that I contains at least 21 (k + 1)(k + 2) red points.
+
+Solution. There are at least 21 (k + 1)(k + 2) points in the intersection set I in view of the
+condition n ≥ k + 2.
+For each point P ∈ I, define its order as the number of lines that intersect the open line
+segment OP . By definition, P is red if its order is at most k. Note that there is always at
+least one point X ∈ I of order 0. Indeed, the lines in L divide the plane into regions, bounded
+or not, and O belongs to one of them. Clearly any corner of this region is a point of I with
+order 0.
+Claim. Suppose that two points P, Q ∈ I lie on the same line of L, and no other line of L
+intersects the open line segment P Q. Then the orders of P and Q differ by at most 1.
+Proof. Let P and Q have orders p and q, respectively, with p ≥ q. Consider triangle OP Q.
+Now p equals the number of lines in L that intersect the interior of side OP . None of these
+lines intersects the interior of side P Q, and at most one can pass through Q. All remaining
+lines must intersect the interior of side OQ, implying that q ≥ p − 1. The conclusion follows.
+We prove the main result by induction on k. The base k = 0 is clear since there is a point
+of order 0 which is red. Assuming the statement true for k − 1, we pass on to the inductive
+step. Select a point P ∈ I of order 0, and consider one of the lines ` ∈ L that pass through P .
+There are n − 1 intersection points on `, one of which is P . Out of the remaining n − 2 points,
+the k closest to P have orders not exceeding k by the Claim. It follows that there are at least
+k + 1 red points on `.
+Let us now consider the situation with ` removed (together with all intersection points
+it contains). By hypothesis of induction, there are at least 12 k(k + 1) points of order not
+exceeding k − 1 in the resulting configuration. Restoring ` back produces at most one new
+intersection point on each line segment joining any of these points to O, so their order is at
+most k in the original configuration. The total number of points with order not exceeding k is
+therefore at least (k + 1) + 21 k(k + 1) = 12 (k + 1)(k + 2). This completes the proof.
+Comment. The steps of the proof can be performed in reverse order to obtain a configuration of n
+lines such that equality holds simultaneously for all 0 ≤ k ≤ n − 2. Such a set of lines is illustrated in
+the Figure.
+O
+0
+1
+
+1
+2
+2
+3
+4
+
+4
+
+3
+
+3
+
+2
+
+4
+4
+
+3
+4
+
+37
+
+G6. There is given a convex quadrilateral ABCD. Prove that there exists a point P inside
+the quadrilateral such that
+∠P AB + ∠P DC = ∠P BC + ∠P AD = ∠P CD + ∠P BA = ∠P DA + ∠P CB = 90◦
+
+(1)
+
+if and only if the diagonals AC and BD are perpendicular.
+Solution 1. For a point P in ABCD which satisfies (1), let K, L, M, N be the feet of perpendiculars from P to lines AB, BC, CD, DA, respectively. Note that K, L, M, N are interior
+to the sides as all angles in (1) are acute. The cyclic quadrilaterals AKP N and DNP M give
+∠P AB + ∠P DC = ∠P NK + ∠P NM = ∠KNM.
+Analogously, ∠P BC + ∠P AD = ∠LKN and ∠P CD + ∠P BA = ∠MLK. Hence the equalities (1) imply ∠KNM = ∠LKN = ∠MLK = 90◦ , so that KLMN is a rectangle. The
+converse also holds true, provided that K, L, M, N are interior to sides AB, BC, CD, DA.
+(i) Suppose that there exists a point P in ABCD such that KLMN is a rectangle. We show
+that AC and BD are parallel to the respective sides of KLMN.
+Let OA and OC be the circumcentres of the cyclic quadrilaterals AKP N and CMP L. Line
+OA OC is the common perpendicular bisector of LM and KN, therefore OA OC is parallel to KL
+and MN. On the other hand, OA OC is the midline in the triangle ACP that is parallel to AC.
+Therefore the diagonal AC is parallel to the sides KL and MN of the rectangle. Likewise, BD
+is parallel to KN and LM. Hence AC and BD are perpendicular.
+D
+
+N
+
+M
+
+VC
+
+VA
+
+P
+UA
+
+UC
+
+OA
+
+OC
+
+A
+R
+
+K
+
+C
+L
+
+B
+
+(ii) Suppose that AC and BD are perpendicular and meet at R. If ABCD is a rhombus, P
+can be chosen to be its centre. So assume that ABCD is not a rhombus, and let BR < DR
+without loss of generality.
+Denote by UA and UC the circumcentres of the triangles ABD and CDB, respectively. Let
+AVA and CVC be the diameters through A and C of the two circumcircles. Since AR is an
+altitude in triangle ADB, lines AC and AVA are isogonal conjugates, i. e. ∠DAVA = ∠BAC.
+Now BR < DR implies that ray AUA lies in ∠DAC. Similarly, ray CUC lies in ∠DCA. Both
+diameters AVA and CVC intersect BD as the angles at B and D of both triangles are acute.
+Also UA UC is parallel to AC as it is the perpendicular bisector of BD. Hence VA VC is parallel
+to AC, too. We infer that AVA and CVC intersect at a point P inside triangle ACD, hence
+inside ABCD.
+
+38
+Construct points K, L, M, N, OA and OC in the same way as in the introduction. It follows
+from the previous paragraph that K, L, M, N are interior to the respective sides. Now OA OC
+is a midline in triangle ACP again. Therefore lines AC, OA OC and UA UC are parallel.
+The cyclic quadrilateral AKP N yields ∠NKP = ∠NAP . Since ∠NAP = ∠DAUA =
+∠BAC, as specified above, we obtain ∠NKP = ∠BAC. Because P K is perpendicular to AB,
+it follows that NK is perpendicular to AC, hence parallel to BD. Likewise, LM is parallel
+to BD.
+Consider the two homotheties with centres A and C which transform triangles ABD and
+CDB into triangles AKN and CML, respectively. The images of points UA and UC are OA and
+OC , respectively. Since UA UC and OA OC are parallel to AC, the two ratios of homothety are
+the same, equal to λ = AN/AD = AK/AB = AOA /AUA = COC /CUC = CM/CD = CL/CB.
+It is now straightforward that DN/DA = DM/DC = BK/BA = BL/BC = 1 − λ. Hence KL
+and MN are parallel to AC, implying that KLMN is a rectangle and completing the proof.
+D
+
+N
+
+M
+
+VC
+
+VA
+
+P
+UA
+
+UC
+
+OA
+
+OC
+
+A
+R
+
+K
+
+C
+L
+
+B
+
+Solution 2. For a point P distinct from A, B, C, D, let circles (AP D) and (BP C) intersect again at Q (Q = P if the circles are tangent). Next, let circles (AQB) and (CQD)
+intersect again at R. We show that if P lies in ABCD and satisfies (1) then AC and BD
+intersect at R and are perpendicular; the converse is also true. It is convenient to use directed
+angles. Let ](UV, XY ) denote the angle of counterclockwise rotation that makes line UV
+parallel to line XY . Recall that four noncollinear points U, V, X, Y are concyclic if and only if
+](UX, V X) = ](UY, V Y ).
+The definitions of points P , Q and R imply
+](AR, BR) = ](AQ, BQ) = ](AQ, P Q) + ](P Q, BQ) = ](AD, P D) + ](P C, BC),
+](CR, DR) = ](CQ, DQ) = ](CQ, P Q) + ](P Q, DQ) = ](CB, P B) + ](P A, DA),
+](BR, CR) = ](BR, RQ) + ](RQ, CR) = ](BA, AQ) + ](DQ, CD)
+= ](BA, AP ) + ](AP, AQ) + ](DQ, DP ) + ](DP, CD)
+= ](BA, AP ) + ](DP, CD).
+Observe that the whole construction is reversible. One may start with point R, define Q as the
+second intersection of circles (ARB) and (CRD), and then define P as the second intersection
+of circles (AQD) and (BQC). The equalities above will still hold true.
+
+39
+Assume in addition that P is interior to ABCD. Then
+](AD, P D) = ∠P DA, ](P C, BC) = ∠P CB, ](CB, P B) = ∠P BC, ](P A, DA) = ∠P AD,
+](BA, AP ) = ∠P AB, ](DP, CD) = ∠P DC.
+(i) Suppose that P lies in ABCD and satisfies (1). Then ](AR, BR) = ∠P DA + ∠P CB = 90◦
+and similarly ](BR, CR) = ](CR, DR) = 90◦ . It follows that R is the common point of
+lines AC and BD, and that these lines are perpendicular.
+(ii) Suppose that AC and BD are perpendicular and intersect at R. We show that the point P
+defined by the reverse construction (starting with R and ending with P ) lies in ABCD. This
+is enough to finish the solution, because then the angle equalities above will imply (1).
+One can assume that Q, the second common point of circles (ABR) and (CDR), lies
+in ∠ARD. Then in fact Q lies in triangle ADR as angles AQR and DQR are obtuse. Hence
+∠AQD is obtuse, too, so that B and C are outside circle (ADQ) (∠ABD and ∠ACD are
+acute).
+Now ∠CAB+∠CDB = ∠BQR+∠CQR = ∠CQB implies ∠CAB < ∠CQB and ∠CDB <
+∠CQB. Hence A and D are outside circle (BCQ). In conclusion, the second common point P
+of circles (ADQ) and (BCQ) lies on their arcs ADQ and BCQ.
+We can assume that P lies in ∠CQD. Since
+∠QP C + ∠QP D = (180◦ − ∠QBC) + (180◦ − ∠QAD) =
+= 360◦ − (∠RBC + ∠QBR) − (∠RAD − ∠QAR) = 360◦ − ∠RBC − ∠RAD > 180◦ ,
+point P lies in triangle CDQ, and hence in ABCD. The proof is complete.
+D
+
+P
+Q
+A
+
+R
+C
+
+B
+
+40
+
+G7. Let ABCD be a convex quadrilateral with AB 6= BC. Denote by ω1 and ω2 the incircles
+
+of triangles ABC and ADC. Suppose that there exists a circle ω inscribed in angle ABC,
+tangent to the extensions of line segments AD and CD. Prove that the common external
+tangents of ω1 and ω2 intersect on ω.
+Solution. The proof below is based on two known facts.
+Lemma 1. Given a convex quadrilateral ABCD, suppose that there exists a circle which is
+inscribed in angle ABC and tangent to the extensions of line segments AD and CD. Then
+AB + AD = CB + CD.
+Proof. The circle in question is tangent to each of the lines AB, BC, CD, DA, and the respective
+points of tangency K, L, M, N are located as with circle ω in the figure. Then
+AB + AD = (BK − AK) + (AN − DN),
+
+CB + CD = (BL − CL) + (CM − DM).
+
+Also BK = BL, DN = DM, AK = AN, CL = CM by equalities of tangents. It follows that
+AB + AD = CB + CD.
+B
+A0
+C0
+
+P0
+
+A
+
+ω1
+P
+Q
+C
+
+ω2
+Q0
+D
+
+ω
+
+T
+
+M
+N
+K
+
+L
+
+For brevity, in the sequel we write “excircle AC” for the excircle of a triangle with side AC
+which is tangent to line segment AC and the extensions of the other two sides.
+Lemma 2. The incircle of triangle ABC is tangent to its side AC at P . Let P P 0 be the diameter
+of the incircle through P , and let line BP 0 intersect AC at Q. Then Q is the point of tangency
+of side AC and excircle AC.
+Proof. Let the tangent at P 0 to the incircle ω1 meet BA and BC at A0 and C 0 . Now ω1 is the
+excircle A0 C 0 of triangle A0 BC 0 , and it touches side A0 C 0 at P 0 . Since A0 C 0 k AC, the homothety
+with centre B and ratio BQ/BP 0 takes ω1 to the excircle AC of triangle ABC. Because this
+homothety takes P 0 to Q, the lemma follows.
+
+41
+Recall also that if the incircle of a triangle touches its side AC at P , then the tangency
+point Q of the same side and excircle AC is the unique point on line segment AC such that
+AP = CQ.
+We pass on to the main proof. Let ω1 and ω2 touch AC at P and Q, respectively; then
+AP = (AC + AB − BC)/2, CQ = (CA + CD − AD)/2. Since AB − BC = CD − AD
+by Lemma 1, we obtain AP = CQ. It follows that in triangle ABC side AC and excircle AC
+are tangent at Q. Likewise, in triangle ADC side AC and excircle AC are tangent at P . Note
+that P 6= Q as AB 6= BC.
+Let P P 0 and QQ0 be the diameters perpendicular to AC of ω1 and ω2 , respectively. Then
+Lemma 2 shows that points B, P 0 and Q are collinear, and so are points D, Q0 and P .
+Consider the diameter of ω perpendicular to AC and denote by T its endpoint that is closer
+to AC. The homothety with centre B and ratio BT /BP 0 takes ω1 to ω. Hence B, P 0 and T
+are collinear. Similarly, D, Q0 and T are collinear since the homothety with centre D and
+ratio −DT /DQ0 takes ω2 to ω.
+We infer that points T, P 0 and Q are collinear, as well as T, Q0 and P . Since P P 0 k QQ0 , line
+segments P P 0 and QQ0 are then homothetic with centre T . The same holds true for circles ω1
+and ω2 because they have P P 0 and QQ0 as diameters. Moreover, it is immediate that T lies on
+the same side of line P P 0 as Q and Q0 , hence the ratio of homothety is positive. In particular
+ω1 and ω2 are not congruent.
+In summary, T is the centre of a homothety with positive ratio that takes circle ω1 to
+circle ω2 . This completes the solution, since the only point with the mentioned property is the
+intersection of the the common external tangents of ω1 and ω2 .
+
+42
+
+Number Theory
+N1. Let n be a positive integer and let p be a prime number. Prove that if a, b, c are integers
+(not necessarily positive) satisfying the equations
+an + pb = bn + pc = cn + pa,
+then a = b = c.
+Solution 1. If two of a, b, c are equal, it is immediate that all the three are equal. So we
+may assume that a 6= b 6= c 6= a. Subtracting the equations we get an − bn = −p(b − c) and two
+cyclic copies of this equation, which upon multiplication yield
+an − bn bn − cn cn − an
+·
+·
+= −p3 .
+a−b
+b−c
+c−a
+
+(1)
+
+If n is odd then the differences an − bn and a − b have the same sign and the product on the
+left is positive, while −p3 is negative. So n must be even.
+Let d be the greatest common divisor of the three differences a − b, b − c, c − a, so that
+a − b = du, b − c = dv, c − a = dw; gcd(u, v, w) = 1, u + v + w = 0.
+From an − bn = −p(b − c) we see that (a − b)|p(b − c), i.e., u|pv; and cyclically v|pw, w|pu.
+As gcd(u, v, w) = 1 and u + v + w = 0, at most one of u, v, w can be divisible by p. Supposing that the prime p does not divide any one of them, we get u|v, v|w, w|u, whence
+|u| = |v| = |w| = 1; but this quarrels with u + v + w = 0.
+Thus p must divide exactly one of these numbers. Let e.g. p|u and write u = pu1 . Now
+we obtain, similarly as before, u1 |v, v|w, w|u1 so that |u1 | = |v| = |w| = 1. The equation
+pu1 + v + w = 0 forces that the prime p must be even; i.e. p = 2. Hence v + w = −2u1 = ±2,
+implying v = w (= ±1) and u = −2v. Consequently a − b = −2(b − c).
+Knowing that n is even, say n = 2k, we rewrite the equation an − bn = −p(b − c) with p = 2
+in the form
+(ak + bk )(ak − bk ) = −2(b − c) = a − b.
+The second factor on the left is divisible by a − b, so the first factor (ak + bk ) must be ±1.
+Then exactly one of a and b must be odd; yet a − b = −2(b − c) is even. Contradiction ends
+the proof.
+Solution 2. The beginning is as in the first solution. Assuming that a, b, c are not all equal,
+hence are all distinct, we derive equation (1) with the conclusion that n is even. Write n = 2k.
+Suppose that p is odd. Then the integer
+an − bn
+= an−1 + an−2 b + · · · + bn−1 ,
+a−b
+
+44
+which is a factor in (1), must be odd as well. This sum of n = 2k summands is odd only if
+a and b have different parities. The same conclusion holding for b, c and for c, a, we get that
+a, b, c, a alternate in their parities, which is clearly impossible.
+Thus p = 2. The original system shows that a, b, c must be of the same parity. So we may
+divide (1) by p3 , i.e. 23 , to obtain the following product of six integer factors:
+ak + bk ak − bk bk + ck bk − ck ck + ak ck − ak
+·
+·
+·
+·
+·
+= −1.
+2
+a−b
+2
+b−c
+2
+c−a
+
+(2)
+
+Each one of the factors must be equal to ±1. In particular, ak + bk = ±2. If k is even, this
+becomes ak + bk = 2 and yields |a| = |b| = 1, whence ak − bk = 0, contradicting (2).
+Let now k be odd. Then the sum ak + bk , with value ±2, has a + b as a factor. Since a and b
+are of the same parity, this means that a + b = ±2; and cyclically, b + c = ±2, c + a = ±2. In
+some two of these equations the signs must coincide, hence some two of a, b, c are equal. This
+is the desired contradiction.
+Comment. Having arrived at the equation (1) one is tempted to write down all possible decompositions of −p3 (cube of a prime) into a product of three integers. This leads to cumbersome examination
+of many cases, some of which are unpleasant to handle. One may do that just for p = 2, having earlier
+in some way eliminated odd primes from consideration.
+However, the second solution shows that the condition of p being a prime is far too strong. What
+is actually being used in that solution, is that p is either a positive odd integer or p = 2.
+
+45
+
+N2. Let a1 , a2 , . . . , an be distinct positive integers, n ≥ 3. Prove that there exist distinct
+
+indices i and j such that ai + aj does not divide any of the numbers 3a1 , 3a2 , . . . , 3an .
+
+Solution. Without loss of generality, let 0 < a1 < a2 < · · · < an . One can also assume that
+a1 , a2 , . . . , an are coprime. Otherwise division by their greatest common divisor reduces the
+question to the new sequence whose terms are coprime integers.
+Suppose that the claim is false. Then for each i < n there exists a j such that an + ai
+divides 3aj . If an + ai is not divisible by 3 then an + ai divides aj which is impossible as
+0 < aj ≤ an < an +ai . Thus an +ai is a multiple of 3 for i = 1, . . . , n−1, so that a1 , a2 , . . . , an−1
+are all congruent (to −an ) modulo 3.
+Now an is not divisible by 3 or else so would be all remaining ai ’s, meaning that a1 , a2 , . . . , an
+are not coprime. Hence an ≡ r (mod 3) where r ∈ {1, 2}, and ai ≡ 3 − r (mod 3) for all
+i = 1, . . . , n − 1.
+Consider a sum an−1 + ai where 1 ≤ i ≤ n − 2. There is at least one such sum as n ≥ 3. Let
+j be an index such that an−1 + ai divides 3aj . Observe that an−1 + ai is not divisible by 3 since
+an−1 + ai ≡ 2ai 6≡ 0 (mod 3). It follows that an−1 + ai divides aj , in particular an−1 + ai ≤ aj .
+Hence an−1 < aj ≤ an , implying j = n. So an is divisible by all sums an−1 + ai , 1 ≤ i ≤ n − 2.
+In particular an−1 + ai ≤ an for i = 1, . . . , n − 2.
+Let j be such that an + an−1 divides 3aj . If j ≤ n − 2 then an + an−1 ≤ 3aj < aj + 2an−1 .
+This yields an < an−1 + aj ; however an−1 + aj ≤ an for j ≤ n − 2. Therefore j = n − 1 or j = n.
+For j = n − 1 we obtain 3an−1 = k(an + an−1 ) with k an integer, and it is straightforward
+that k = 1 (k ≤ 0 and k ≥ 3 contradict 0 < an−1 < an ; k = 2 leads to an−1 = 2an > an−1 ).
+Thus 3an−1 = an + an−1 , i. e. an = 2an−1 .
+Similarly, if j = n then 3an = k(an + an−1 ) for some integer k, and only k = 2 is possible.
+Hence an = 2an−1 holds true in both cases remaining, j = n − 1 and j = n.
+Now an = 2an−1 implies that the sum an−1 + a1 is strictly between an /2 and an . But an−1
+and a1 are distinct as n ≥ 3, so it follows from the above that an−1 + a1 divides an . This
+provides the desired contradiction.
+
+46
+
+N3. Let a0 , a1 , a2 , . . . be a sequence of positive integers such that the greatest common divisor
+of any two consecutive terms is greater than the preceding term; in symbols, gcd(ai , ai+1 ) > ai−1 .
+Prove that an ≥ 2n for all n ≥ 0.
+Solution. Since ai ≥ gcd(ai , ai+1 ) > ai−1 , the sequence is strictly increasing. In particular
+a0 ≥ 1, a1 ≥ 2. For each i ≥ 1 we also have ai+1 − ai ≥ gcd(ai , ai+1 ) > ai−1 , and consequently
+ai+1 ≥ ai + ai−1 + 1. Hence a2 ≥ 4 and a3 ≥ 7. The equality a3 = 7 would force equalities
+in the previous estimates, leading to gcd(a2 , a3 ) = gcd(4, 7) > a1 = 2, which is false. Thus
+a3 ≥ 8; the result is valid for n = 0, 1, 2, 3. These are the base cases for a proof by induction.
+Take an n ≥ 3 and assume that ai ≥ 2i for i = 0, 1, . . . , n. We must show that an+1 ≥ 2n+1 .
+Let gcd(an , an+1 ) = d. We know that d > an−1 . The induction claim is reached immediately
+in the following cases:
+if an+1 ≥ 4d then an+1 > 4an−1 ≥ 4 · 2n−1 = 2n+1 ;
+
+if an ≥ 3d
+if an = d
+
+then an+1 ≥ an + d ≥ 4d > 4an−1 ≥ 4 · 2n−1 = 2n+1 ;
+then an+1 ≥ an + d = 2an ≥ 2 · 2n = 2n+1 .
+
+The only remaining possibility is that an = 2d and an+1 = 3d, which we assume for the
+sequel. So an+1 = 32 an .
+Let now gcd(an−1 , an ) = d0 ; then d0 > an−2 . Write an = md0 (m an integer). Keeping
+in mind that d0 ≤ an−1 < d and an = 2d, we get that m ≥ 3. Also an−1 < d = 12 md0 ,
+an+1 = 32 md0 . Again we single out the cases which imply the induction claim immediately:
+if m ≥ 6
+
+then an+1 = 23 md0 ≥ 9d0 > 9an−2 ≥ 9 · 2n−2 > 2n+1 ;
+
+if 3 ≤ m ≤ 4 then an−1 < 21 · 4d0 , and hence an−1 = d0 ,
+
+an+1 = 23 man−1 ≥ 23 ·3an−1 ≥ 92 ·2n−1 > 2n+1 .
+
+So we are left with the case m = 5, which means that an = 5d0, an+1 = 15
+d0 , an−1 < d = 52 d0 .
+2
+The last relation implies that an−1 is either d0 or 2d0 . Anyway, an−1 |2d0 .
+The same pattern repeats once more. We denote gcd(an−2 , an−1 ) = d00 ; then d00 > an−3 .
+Because d00 is a divisor of an−1 , hence also of 2d0 , we may write 2d0 = m0 d00 (m0 an integer).
+Since d00 ≤ an−2 < d0 , we get m0 ≥ 3. Also, an−2 < d0 = 12 m0 d00 , an+1 = 15
+d0 = 15
+m0 d00 . As
+2
+4
+before, we consider the cases:
+if m0 ≥ 5
+
+then an+1 = 15
+m0 d00 ≥ 75
+d00 > 75
+a
+≥ 75
+·2n−3 > 2n+1 ;
+4
+4
+4 n−3
+4
+
+if 3 ≤ m0 ≤ 4 then an−2 < 12 · 4d00 , and hence an−2 = d00 ,
+
+m0 an−2 ≥ 15
+·3an−2 ≥ 45
+·2n−2 > 2n+1 .
+an+1 = 15
+4
+4
+4
+
+Both of them have produced the induction claim. But now there are no cases left. Induction
+is complete; the inequality an ≥ 2n holds for all n.
+
+47
+
+N4. Let n be a positive integer. Show that the numbers
+
+ n
+2 −1
+,
+0
+
+
+ n
+2 −1
+,
+1
+
+
+ n
+2 −1
+,
+2
+
+... ,
+
+are congruent modulo 2n to 1, 3, 5, . . . , 2n −1 in some order.
+
+
+2n − 1
+2n−1 − 1
+
+
+
+Solution 1. It is well-known that all these numbers are odd. So the assertion that their
+remainders (mod 2n ) make up a permutation of {1, 3, . . . , 2n −1} is equivalent just to saying
+that these remainders are all distinct. We begin by showing that
+
+ n−1
+
+
+ n
+  n
+ n
+−1
+2 −1
+2 −1
+2 −1
+k 2
+n
+(mod 2n ). (1)
+≡ (−1)
+≡ 0 (mod 2 ) and
++
+k
+2k
+2k + 1
+2k
+
+
+n
+2
+2n −1
+2n
+= 2k+1
+The first relation is immediate, as the sum on the left is equal to 2k+1
+, hence
+2k
+n
+is divisible by 2 . The second relation:
+
+ n−1
+ Y
+ n
+k
+k
+2k
+−1
+2n − j Y 2n − (2i−1) Y 2n−1 − i
+2 −1
+k 2
+(mod 2n ).
+=
+·
+≡ (−1)
+=
+k
+j
+2i
+−
+1
+i
+2k
+i=1
+i=1
+j=1
+This prepares ground for a proof of the required result by induction on n. The base case
+
+n−1
+n = 1 is obvious. Assume the assertion is true for n − 1 and pass to n, denoting ak = 2 k −1 ,
+
+n
+bm = 2 m−1 . The induction hypothesis is that all the numbers ak (0 ≤ k < 2n−2 ) are distinct
+(mod 2n−1 ); the claim is that all the numbers bm (0 ≤ m < 2n−1 ) are distinct (mod 2n ).
+The congruence relations (1) are restated as
+b2k ≡ (−1)k ak ≡ −b2k+1
+
+(mod 2n ).
+
+(2)
+
+Shifting the exponent in the first relation of (1) from n to n − 1 we also have the congruence
+a2i+1 ≡ −a2i (mod 2n−1 ). We hence conclude:
+If, for some j, k < 2n−2 , ak ≡ −aj (mod 2n−1 ), then {j, k} = {2i, 2i+1} for some i.
+
+(3)
+
+This is so because in the sequence (ak : k < 2n−2 ) each term aj is complemented to 0 (mod 2n−1 )
+by only one other term ak , according to the induction hypothesis.
+From (2) we see that b4i ≡ a2i and b4i+3 ≡ a2i+1 (mod 2n ). Let
+M = {m : 0 ≤ m < 2n−1 , m ≡ 0 or 3 (mod 4)},
+
+L = {l : 0 ≤ l < 2n−1 , l ≡ 1 or 2 (mod 4)}.
+
+The last two congruences take on the unified form
+bm ≡ abm/2c
+
+(mod 2n )
+
+for all m ∈ M.
+
+(4)
+
+Thus all the numbers bm for m ∈ M are distinct (mod 2n ) because so are the numbers ak (they
+are distinct (mod 2n−1 ), hence also (mod 2n )).
+Every l ∈ L is paired with a unique m ∈ M into a pair of the form {2k, 2k+1}. So (2) implies
+that also all the bl for l ∈ L are distinct (mod 2n ). It remains to eliminate the possibility that
+bm ≡ bl (mod 2n ) for some m ∈ M , l ∈ L.
+Suppose that such a situation occurs. Let m0 ∈ M be such that {m0 , l} is a pair of the form
+{2k, 2k+1}, so that (see (2)) bm0 ≡ −bl (mod 2n ). Hence bm0 ≡ −bm (mod 2n ). Since both
+m0 and m are in M, we have by (4) bm0 ≡ aj , bm ≡ ak (mod 2n ) for j = bm0 /2c, k = bm/2c.
+Then aj ≡ −ak (mod 2n ). Thus, according to (3), j = 2i, k = 2i + 1 for some i (or vice
+
+
+n−1
+n−1
+versa). The equality a2i+1 ≡ −a2i (mod 2n ) now means that 2 2i −1 + 2 2i+1−1 ≡ 0 (mod 2n ).
+n−1 
+However, the sum on the left is equal to 22i+1 . A number of this form cannot be divisible
+by 2n . This is a contradiction which concludes the induction step and proves the result.
+
+48
+Solution 2. We again proceed
+by induction, writing for brevity N = 2n−1 and keeping notation
+
+ak = Nk−1 , bm = 2Nm−1 . Assume that the result holds for the sequence (a0 , a1 , a2 , . . . , aN/2−1 ).
+In view of the symmetry aN −1−k = ak this sequence is a permutation of (a0 , a2 , a4 , . . . , aN −2 ).
+So the induction hypothesis says that this latter sequence, taken (mod N), is a permutation of
+(1, 3, 5, . . . , N−1). Similarly, the induction claim is that (b0 , b2 , b4 , . . . , b2N −2 ), taken (mod 2N),
+is a permutation of (1, 3, 5, . . . , 2N−1).
+In place of the congruence relations (2) we now use the following ones,
+b4i ≡ a2i
+
+(mod N)
+
+and
+
+b4i+2 ≡ b4i + N
+
+(mod 2N).
+
+(5)
+
+Given this, the conclusion is immediate: the first formula of (5) together with the induction
+hypothesis tells us that (b0 , b4 , b8 , . . . , b2N −4 ) (mod N) is a permutation of (1, 3, 5, . . . , N−1).
+Then the second formula of (5) shows that (b2 , b6 , b10 , . . . , b2N −2 ) (mod N) is exactly the same
+permutation; moreover, this formula distinguishes (mod 2N) each b4i from b4i+2 .
+Consequently, these two sequences combined represent (mod 2N) a permutation of the
+sequence (1, 3, 5, . . . , N−1, N+1, N+3, N+5, . . . , N+N−1), and this is precisely the induction
+claim.
+−m−1
+,
+Now we prove formulas (5); we begin with the second one. Since bm+1 = bm · 2Nm+1
+b4i+2 = b4i ·
+
+2N − 4i − 1 2N − 4i − 2
+2N − 4i − 1 N − 2i − 1
+·
+= b4i ·
+·
+.
+4i + 1
+4i + 2
+4i + 1
+2i + 1
+
+The desired congruence b4i+2 ≡ b4i + N may be multiplied by the odd number (4i + 1)(2i + 1),
+giving rise to a chain of successively equivalent congruences:
+b4i (2N − 4i − 1)(N − 2i − 1) ≡ (b4i + N)(4i + 1)(2i + 1)
+b4i (2i + 1 − N) ≡ (b4i + N)(2i + 1)
+(b4i + 2i + 1)N ≡ 0
+
+(mod 2N),
+(mod 2N),
+(mod 2N);
+
+and the last one is satisfied, as b4i is odd. This settles the second relation in (5).
+The first one is proved by induction on i. It holds for i = 0. Assume b4i ≡ a2i (mod 2N)
+and consider i + 1:
+b4i+4 = b4i+2 ·
+
+2N − 4i − 3 2N − 4i − 4
+·
+;
+4i + 3
+4i + 4
+
+a2i+2 = a2i ·
+
+N − 2i − 1 N − 2i − 2
+·
+.
+2i + 1
+2i + 2
+
+−2i−2
+as the last factor. Since 2i + 2 < N = 2n−1 , this
+Both expressions have the fraction N 2i+2
+fraction reduces to `/m with ` and m odd. In showing that b4i+4 ≡ a2i+2 (mod 2N), we may
+ignore this common factor `/m. Clearing other odd denominators reduces the claim to
+
+b4i+2 (2N − 4i − 3)(2i + 1) ≡ a2i (N − 2i − 1)(4i + 3)
+
+(mod 2N).
+
+By the inductive assumption (saying that b4i ≡ a2i (mod 2N)) and by the second relation of (5),
+this is equivalent to
+(b4i + N)(2i + 1) ≡ b4i (2i + 1 − N)
+
+(mod 2N),
+
+a congruence which we have already met in the preceding proof a few lines above. This completes induction (on i) and the proof of (5), hence also the whole solution.
+Comment. One can avoid the words congruent modulo in the problem statement by rephrasing the
+assertion into: Show that these numbers leave distinct remainders in division by 2n .
+
+49
+
+N5. For every n ∈ N let d(n) denote the number of (positive) divisors of n. Find all functions f : N → N with the following properties:
+(i) d(f (x)) = x for all x ∈ N;
+(ii) f (xy) divides (x − 1)y xy−1f (x) for all x, y ∈ N.
+Solution. There is a unique solution: the function f : N → N defined by f (1) = 1 and
+a
+
+a
+
+a
+
+p k −1
+p 1 −1 p2 2 −1
+where n = pa11 pa22 · · · pakk is the prime factorization of n > 1.
+p2
+· · · pkk
+
+f (n) = p11
+
+(1)
+
+Direct verification shows that this function meets the requirements.
+Conversely, let f : N → N satisfy (i) and (ii). Applying (i) for x = 1 gives d(f (1)) = 1, so
+f (1) = 1. In the sequel we prove that
+ (1) holdsfor all n > 1. Notice that f (m) = f (n) implies
+m = n in view of (i). The formula d pb11 · · · pbkk = (b1 + 1) · · · (bk + 1) will be used throughout.
+
+Let p be a prime. Since d(f (p)) = p, the formula just mentioned yields f (p) = q p−1 for some
+prime q; in particular f (2) = q 2−1 = q is a prime. We prove that f (p) = pp−1 for all primes p.
+Suppose that p is odd and f (p) = q p−1 for a prime q. Applying (ii) first with x = 2,
+y = p and then with x = p, y = 2 shows that f (2p) divides both (2 − 1)p2p−1 f (2) = p2p−1 f (2)
+and (p − 1)22p−1f (p) = (p − 1)22p−1 q p−1 . If q 6= p then the odd prime p does not divide
+(p−1)22p−1 q p−1, hence the greatest common divisor of p2p−1 f (2) and (p−1)22p−1 q p−1 is a divisor
+of f (2). Thus f (2p) divides f (2) which is a prime. As f (2p) > 1, we obtain f (2p) = f (2) which
+is impossible. So q = p, i. e. f (p) = pp−1 .
+For p = 2 the same argument with x = 2, y = 3 and x = 3, y = 2 shows that f (6)
+divides both 35 f (2) and 26 f (3) = 26 32 . If the prime f (2) is odd then f (6) divides 32 = 9, so
+f (6) ∈ {1, 3, 9}. However then 6 = d(f (6)) ∈ {d(1), d(3), d(9)} = {1, 2, 3} which is false. In
+conclusion f (2) = 2.
+Next, for each n > 1 the prime divisors of f (n) are among the ones of n. Indeed, let p be
+the least prime divisor of n. Apply (ii) with x = p and y = n/p to obtain that f (n) divides
+(p − 1)y n−1f (p) = (p − 1)y n−1pp−1 . Write f (n) = `P where ` is coprime to n and P is a product
+of primes dividing n. Since ` divides (p−1)y n−1pp−1 and is coprime to y n−1 pp−1, it divides p−1;
+hence d(`) ≤ ` < p. But (i) gives n = d(f (n)) = d(`P ), and d(`P ) = d(`)d(P ) as ` and P are
+coprime. Therefore d(`) is a divisor of n less than p, meaning that ` = 1 and proving the claim.
+Now (1) is immediate for prime powers. If p is a prime and a ≥ 1, by the above the
+only prime factor of f (pa ) is p (a prime factor does exist as f (pa ) > 1). So f (pa ) = pb for
+a
+some b ≥ 1, and (i) yields pa = d(f (pa )) = d pb = b + 1. Hence f (pa ) = pp −1 , as needed.
+Let us finally show that (1) is true for a general n > 1 with prime factorization n = pa11 · · · pakk .
+We saw that the prime factorization of f (n) has the form f (n) = pb11 · · · pbkk . For i = 1, . . . , k,
+set x = pai i and y = n/x in (ii) to infer that f (n) divides (pai i − 1) y n−1 f (pai i ). Hence pbi i divides
+(pai i − 1) y n−1f (pai i ), and because pbi i is coprime to (pai i − 1) y n−1 , it follows that pbi i divides
+a
+
+p i −1
+
+. So bi ≤ pai i − 1 for all i = 1, . . . , k. Combined with (i), these conclusions imply
+
+
+pa11 · · · pakk = n = d(f (n)) = d pb11 · · · pbkk = (b1 + 1) · · · (bk + 1) ≤ pa11 · · · pakk .
+
+f (pai i ) = pi i
+
+Hence all inequalities bi ≤ pai i − 1 must be equalities, i = 1, . . . , k, implying that (1) holds true.
+The proof is complete.
+
+50
+2
+N6. Prove that there exist
+√ infinitely many positive integers n such that n + 1 has a prime
+
+divisor greater than 2n +
+
+2n.
+
+Solution. Let p ≡ 1 (mod 8) be a prime. The congruence x2 ≡ −1 (mod p) has two solutions
+2
+in [1, p−1] whose sum is p.
+√ If n is the smaller one of them then p divides n +1 and n ≤ (p−1)/2.
+We show that p > 2n + 10n.
+Let n = (p − 1)/2 − ` where ` ≥ 0. Then n2 ≡ −1 (mod p) gives
+
+
+p−1
+−`
+2
+
+2
+
+≡ −1
+
+(mod p)
+
+or
+
+(2` + 1)2 + 4 ≡ 0 (mod p).
+
+Thus (2` + 1)2 + 4 = rp for some r ≥ 0. As (2` + 1)2 ≡ 1 ≡
+√ p (mod 8), we have√r ≡ 5 (mod 8),
+so that r ≥ 5. Hence (2` + 1)2 + 4 ≥ 5p, implying ` ≥
+5p − 4 − 1 /2. Set 5p − 4 = u for
+clarity; then ` ≥ (u − 1)/2. Therefore
+n=
+
+
+1
+p−1
+−` ≤ p−u .
+2
+2
+
+Combined with p = (u2 + 4)/5, this leads to u√2 − 5u −10n + 4 ≥ 0. Solving this quadratic
+
+inequality with respect to u ≥ 0 gives u ≥ 5 + 40n + 9 /2. So the estimate n ≤ p − u /2
+leads to
+√
+√
+
+1
+p ≥ 2n + u ≥ 2n + 5 + 40n + 9 > 2n + 10n.
+2
+Since there are infinitely many primes of the form 8k + 1, it follows easily that there are
+also infinitely many n with the stated property.
+Comment. By considering the prime factorization of the product
+
+N
+Y
+
+(n2 + 1), it can be obtained that
+
+n=1
+
+its greatest prime divisor is at least cN log N . This could improve the statement as p > n log n.
+However, the proof applies some advanced information about the distribution of the primes of the
+form 4k + 1, which is inappropriate for high schools contests.
+
+51
+
+52
+
+
